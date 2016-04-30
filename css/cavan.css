@@ -1,0 +1,79 @@
+.label_download {
+  padding: 1px 4px 2px;
+  font-size: 10.998px;
+  font-weight: bold;
+  line-height: 13px;
+  color: #ffffff;
+  vertical-align: top;
+  white-space: nowrap;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #999999;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+
+/* Footer
+-------------------------------------------------- */
+
+.footer {
+  padding: 30px 0;
+  margin-top: 50px;
+  border-top: 1px solid #e5e5e5;
+  background-color: #fff;
+}
+.footer p {
+  margin-bottom: 0;
+  color: #777;
+}
+.footer-links {
+  margin: 10px 0;
+}
+.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.footer-links li:first-child {
+  padding-left: 0;
+}
+
+.title {
+*/ font-weight: bold; */
+font-style: italic;
+/* text-decoration: underline; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
+font-family: inherit;
+font-weight: bold;
+color: inherit;
+text-rendering: optimizelegibility;
+}
+
+h1 {
+font-size: 30px;
+line-height: 36px;
+}
+
+h1 small {
+font-size: 18px;
+}
+
+h2 {
+font-size: 24px;
+line-height: 36px;
+}
+
+h3 {
+font-size: 18px;
+line-height: 27px;
+}
+
+.research_table tr{
+height:50px;
+}
+.research_table td{
+width:50px;
+}
