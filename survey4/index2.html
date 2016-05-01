@@ -1,0 +1,361 @@
+<html>
+
+<SCRIPT TYPE="text/javascript">
+
+//var elem;
+var resultInput;
+var leftImage;
+var rightImage;
+var resultForm;
+
+var exphint;
+var counter;
+var imagediv;
+var introDiv;
+var compareDiv;
+var exphintsubmit;
+
+var result4or;
+var result4og;
+var result4gr;
+
+var startTime;
+var endTime;
+
+var ranleft =1; // left img 
+var ranright =1; // right img
+
+var leftBetter = 0;
+var rightBetter = 0;
+var even = 0;
+var res;
+
+var o4or = 0;var r4or = 0;e4or = 0;duration4or = 0;times4or = 10;
+var o4og = 0;var g4og = 0;e4og = 0;duration4og = 0;times4og = 10;
+var g4gr = 0;var r4gr = 0;e4gr = 0;duration4gr = 0;times4gr = 10;
+
+var total = 0;
+var group;
+
+var conf = -1;
+
+
+var compareOder = new Array(0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2);
+var switchgroup;
+
+function getElements(){
+	resultInput = document.getElementById("resutls");
+	leftImage = document.getElementById("leftimage");
+	rightImage = document.getElementById("rightimage");
+	resultForm = document.getElementById("resultform");
+	
+	exphint = document.getElementById("exphint");
+	counter = document.getElementById("counter");
+	imagediv = document.getElementById("imagediv");
+	
+	counter = document.getElementById("counter");
+	imagediv = document.getElementById("imagediv");
+	introDiv = document.getElementById("introDiv");
+	compareDiv = document.getElementById("compareDiv");
+	exphintsubmit = document.getElementById("exphintsubmit");
+	exphintsubmit.style.display = "none";
+	// init order
+	//var r4order = Math.round(Math.random())-0.5);
+	compareOder.sort(function() {return 0.5 - Math.random()});
+	//nextGroup();
+}
+
+function startTest(){
+	compareDiv.style.display = "block";
+	introDiv.style.display = "none";
+	nextGroup();
+}
+
+function leftclick()
+{
+	leftBetter =1;
+
+      if(conf<0)
+      {
+      alert("Please select one confidence value!");
+      }else{
+	nextGroup();
+      }
+}
+
+function rightclick()
+{
+	rightBetter =1;
+      if(conf<0)
+      {
+      alert("Please select one confidence value!");
+      }else{
+	nextGroup();
+      }
+
+}
+
+function evenclick()
+{
+      even =1;
+      if(conf<0)
+      {
+      alert("Please select one confidence value!");
+      }else{
+	nextGroup();
+      }
+
+}
+
+function leftclick2()
+{
+	conf =0;  //low confidence
+	
+}
+
+function rightclick2()
+{
+	conf = 2; //high confidence
+	
+}
+
+function evenclick2()
+{
+	conf = 1; //middle confidence
+	
+}
+
+function recordData()
+{
+	//reord the data
+	var currentTime = new Date();	
+	endTime = currentTime.getTime();
+	var duration;
+    if(total == 1) {
+		duration = 0;
+		var firstGroup = compareOder[0];
+		if(firstGroup == 0)	times4or --;
+		if(firstGroup == 1)	times4og --;
+		if(firstGroup == 2)	times4gr --;
+	}else{
+		duration = endTime - startTime;
+	}
+	
+/*
+	if(group == 0){	
+		if(switchgroup == 0) {
+			o4or += leftBetter;
+			r4or += rightBetter;
+		}
+		if(switchgroup == 1) {
+			o4or += rightBetter;
+			r4or += leftBetter;
+		}
+		e4or += even;
+		duration4or += duration;
+		result4or = o4or + "," + e4or + "," + r4or;
+	}
+	if(group == 1){
+		if(switchgroup == 0) {
+			o4og += leftBetter;
+			g4og += rightBetter;
+		}
+		if(switchgroup == 1) {
+			o4og += rightBetter;
+			g4og += leftBetter;
+		}
+		e4og += even;
+		duration4og += duration;
+		result4og = o4og + "," + e4og + "," + g4og;
+	}
+	if(group == 2){
+		if(switchgroup == 0) {
+			g4gr += leftBetter;
+			r4gr += rightBetter;
+		}
+		if(switchgroup == 1) {
+			g4gr += rightBetter;
+			r4gr += leftBetter;
+		}
+		e4gr += even;
+		duration4gr += duration;
+		result4gr = g4gr + "," + e4gr + "," + r4gr;
+	}
+*/
+
+	if(leftBetter ==1)
+	{
+	  res = 1;
+	  leftBetter = 0;
+	}
+
+	if(rightBetter ==1)
+	 {  res=2;
+	   rightBetter = 0;
+	}
+	if(even==1)
+	{
+	  res = 0;
+	  even = 0;
+	}
+	
+	
+//	resultInput.value = result4or + "," + result4og + "," + result4gr + "," + duration4or/times4or + "," + duration4og/times4og + "," + duration4gr/times4gr;
+      if(total==1)
+	{resultInput.value = "Age:"}
+      resultInput.value = resultInput.value +ranleft+"," +ranright +":"+res +","+conf +"  ";
+
+      conf = -1;
+}
+
+function nextGroup()
+{	
+	//resultInput.value = elem.value;
+	//var temp = leftImage.src;
+	//leftImage.src = rightImage.src;
+	//rightImage.src = temp;
+	//rendom two new file name to compare here, and may check for no repeat.
+	// set targets, rendom side
+	// rendom number
+	if(total > 0) recordData();
+	if(total >= 30){
+		//submit the data;
+		exphint.style.display = "none";
+		imagediv.style.display = "none";
+		exphintsubmit.style.display = "block";
+		resultForm.submit();
+	}
+	
+	counter.innerHTML = (30 - total);
+
+	//random the pic
+	ranleft=Math.floor(Math.random()*1001) + 1; 
+	ranright=Math.floor(Math.random()*1001) + 1;
+
+	while(ranleft ==ranright)
+	{	
+	//random the pic
+	  ranleft=Math.floor(Math.random()*1001) + 1; 
+	  ranright=Math.floor(Math.random()*1001) + 1;
+	}
+
+//	var ranRan=Math.floor(Math.random()*885) + 1;
+	
+	/*
+	var rancaGen=Math.floor(Math.random()*906) + 1; // 1-906
+	var rancaOri=Math.floor(Math.random()*30) + 1; // 1-30
+	var rancaRan=Math.floor(Math.random()*885) + 1; // 1-30
+	
+	var ranacGen=Math.floor(Math.random()*896) + 1; // 1-906
+	var ranacOri=Math.floor(Math.random()*30) + 1; // 1-30
+	var ranacRan=Math.floor(Math.random()*1056) + 1; // 1-30
+    */
+	
+	//random the building domain
+	var folderName = "img_rename/";
+	var order=Math.floor(Math.random()*2); 
+	/*if(order == 1){
+		folderName = "pic/ca";
+	}*/
+	
+	var rightImageSrc;
+	var leftImageSrc;
+	//get and set the compare group
+	group = compareOder[total]; // 0 for or, 1 for og, 2 for gr	
+	
+	if(group == 0){
+		leftImageSrc = folderName  + ranleft + ".jpg";
+		rightImageSrc = folderName + ranright + ".jpg";
+	}
+	if(group == 1){
+		leftImageSrc = folderName + ranleft + ".jpg";
+		rightImageSrc = folderName+ ranright + ".jpg";
+	}
+	if(group == 2){
+		leftImageSrc = folderName + ranleft + ".jpg";
+		rightImageSrc = folderName + ranright + ".jpg";
+	}
+
+	// switch the order randomly
+	switchgroup=Math.floor(Math.random()*2); 
+	if(switchgroup == 1) {
+		var tmp = leftImageSrc;
+		leftImageSrc = rightImageSrc;
+		rightImageSrc = tmp;
+
+		// also change the image name, since we change the left/right images.
+		tmp = ranleft;
+		ranleft = ranright;
+		ranright = tmp;
+		
+	}
+
+	leftImage.src = leftImageSrc;
+	rightImage.src = rightImageSrc;
+	
+	var currentTime = new Date();	
+	startTime = currentTime.getTime();
+	total++;
+}
+
+</SCRIPT>
+
+<body onLoad="getElements()">
+
+<div id="introDiv" >
+<center><h1>Thanks for your participation.<h1></center>
+
+<h2> 
+You are asked to compare 30 pairs of images of human faces. For each pair, please choose the one which you think is older.
+</h2>
+
+<h2>
+You can choose "Equal Ages" for cases that you think they are the same age.
+</h2>
+
+<center><h1><button onClick="startTest()" type="button" name="start" style="width:300px; height:60px; margin-left:auto;margin-right:auto; font-size:30;">Start</button><h1></center>
+
+</div>
+
+<div id="compareDiv" style="display:none">
+
+	<div id="exphint" style="margin-left:auto;margin-right:auto; width:1024px; height:100px; border:0px solid red; ">
+		<h1>Please select confidence value, and older image <h1>
+		<h2> You have <span id="counter">30</span> comparisons to do.</h2>
+	</div>
+
+	<div id="exphintsubmit" style="margin-left:auto;margin-right:auto; width:1024px; height:100px; border:0px solid red; ">
+		<center><h1>Submitting your results, please wait......<h1></center>
+	</div>
+
+	<div id="imagediv">
+		<div style="margin-left:auto;margin-right:auto; width:1024px; height:650px; border:0px solid red; padding:5px;">
+			<img id="leftimage" alt="this is image #1"  style="width:490px; height:630px; border:1px solid blue; float:left;" />
+			<img id="rightimage" alt="this is image #2"  style="width:490px; height:630px; border:1px solid blue; float:right;" />
+		</div>
+		
+		<div style="margin-left:auto;margin-right:auto; width:900px; height:50px; border:0px solid red; ">
+			<button onClick="leftclick2()" type="button" name="right2" style="width:300px; height:50px; float:left;">Low confidence</button>
+			<button onClick="evenclick2()" type="button" name="even2" style="width:300px; height:50px;float:left; margin-left:auto;margin-right:auto; ">Middle confidence</button>
+			<button onClick="rightclick2()" type="button" name="right2" style="width:300px; height:50px; float:right;">High confidence</button>
+		</div>
+
+		<div style="margin-left:auto;margin-right:auto; width:900px; height:50px; border:0px solid red; ">
+			<button onClick="leftclick()" type="button" name="right" style="width:300px; height:50px; float:left;">Left image is older</button>
+			<button onClick="evenclick()" type="button" name="even" style="width:300px; height:50px;float:left; margin-left:auto;margin-right:auto; ">Equal Age</button>
+			<button onClick="rightclick()" type="button" name="right" style="width:300px; height:50px; float:right;">Right is older</button>
+		</div>
+
+	</div>
+
+	<div id="formdiv" style="width:500px; height:500px; margin-left:auto;margin-right:auto;">
+		<FORM id="resultform" ACTION="http://graphicsurveyapp.appspot.com/">
+			<input TYPE="hidden" name="results" id="resutls">
+			<input name="experiment" type="hidden" id="experiment" value="10">
+		</FORM>
+	</div>
+	
+</div>
+
+</body>
+</html>

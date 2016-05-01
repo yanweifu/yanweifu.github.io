@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Unstructured Social Activity attribute</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Yanwei Fu">
+        <meta name="author" content="Yanwei Fu">
+        
+        <meta name="keywords" content="Yanwei Fu, USAA, zero-shot learning, video attribute learning, N-shot learning, mult-task learning, QMUL, computer vision, video annotation" />
+        
+        <!-- Le styles -->
+        <link href="./css/bootstrap.css" rel="stylesheet">
+        <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="./css/docs.css" rel="stylesheet">
+        <link href="./prettify.css" rel="stylesheet">
+        <link href="./css/cavan.css" rel="stylesheet">
+        
+        
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" type="image/ico" href="http://www.eecs.qmul.ac.uk/~ccloy/favicon.ico" /> 
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+    </head>
+    
+    <body>
+        
+        <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+     
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="tooltip-demo">
+                
+                
+                <!--<ul class="breadcrumb">
+                <li><a href="index.html#home">Home</a> <span class="divider">/</span></li>
+                <li><a href="index.html#thumbnails">Download</a> <span class="divider">/</span></li>
+                <li class="active">QMUL Underground Multi-camera Dataset</li>
+            </ul>-->
+            
+            
+                <!-- Home ================================================== -->
+                <section>
+				<div class="page-header">
+					<h2 style="color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+					Attribute Learning for Understanding Unstructured Social 
+					Activity</h2>
+					<p style="color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+					<span style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;">
+					Yanwei Fu, Timothy M. Hospedales, Tao Xiang, and Shaogang 
+					Gong</span><br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+					<span style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;">
+					School of EECS, Queen Mary University of London, UK 
+					{yanwei.fu,tmh,txiang,sgg}@eecs.qmul.ac.uk</span></p>
+					</div>
+				<div class="row-fluid">
+					<div class="span3">
+						<p><a href="#" class="thumbnail">
+						<img src="./images/teaser_img.jpg" alt="" height="300" width="450"> </a>snap 
+						of dataset </p></div>
+					<div class="span9">
+						<h3>Download</h3>
+						<p>
+						<a href="input.mat" class="btn btn-success">
+						<i class="icon-download-alt icon-white"></i>Download</a>
+						<br /><em>Including raw images, features, and train/test partitions.</em>
+						</p>
+						<h3>Details</h3>
+						<p>The USAA dataset includes 8 different semantic class 
+						videos which are home videos of social occassions such e 
+						birthday party, graduation party,music performance, 
+						non-music performance, parade, wedding ceremony, wedding 
+						dance and wedding reception which feature activities of 
+						group of people. It contains around 100 videos for 
+						training and testing respectively. Each video is labeled 
+						by 69 attributes. The 69 attributes can be broken down 
+						into five broad classes: actions, objects, scenes, 
+						sounds, and camera movement.&nbsp; It can be used for 
+						evaluating approaches for video classification, &nbsp;N-shot 
+						and zero-shot learning, multi-task learning, 
+						attribute/concept-annotation, 
+						attribute/concepts-modality prediction, suprising 
+						attributes/concepts discovery, and 
+						latent-attribute(concepts) discovery etc.<br />
+						<br />
+						<span style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; font-weight: bold;">
+						Some Explainations about dataset:</span><br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						The dataset mat files includes the following 
+						strucutures:&nbsp;<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Xtrain: the low level features of training 
+						video data<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; Xtest: the low level features of testing video 
+						data.<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<span style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; font-weight: bold;">Note 
+						that there are several videos of all 0 low-level 
+						features (&lt;5) due to some problems of extracting 
+						process. The low-level features are soft-weighted[1].</span><br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; train_attr: the user-defined 69 binary video 
+						attributes of training videos<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; test_attr: the user-defined 69 binary video 
+						attributes for testing videos.&nbsp;&nbsp;<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; train_video_label: the training video class 
+						labels for the 8 classes<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; test_video_label: the testing video class 
+						labels for the 8 classes<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; train_video_name: the index of&nbsp; training 
+						videos<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; test_video_name: the index of testing videos</p>
+						<p>
+						<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						<span style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;">
+						&nbsp;&nbsp;&nbsp; &nbsp;</span>&nbsp; &nbsp;&nbsp; train_video_name and test_video_name 
+						are the index of the following two&nbsp;<a href="http://www.eecs.qmul.ac.uk/~yf300/USAA/download/CCVYoutubeIDs.tar.gz">Youtube 
+						IDs files.</a>&nbsp; These two files contains unique YouTube 
+						IDs of 4659 training videos and YouTube IDs of 4658 test 
+						videos. And the index are the line number corresponding 
+						to these two files. These Youtube IDs comes from&nbsp;<a href="http://www.ee.columbia.edu/ln/dvmm/CCV/">CCV 
+						dataset</a>. &nbsp; (We hope to release the original video 
+						data, but it seems that there will be some authourity 
+						problems from Youtube. So, we can only provide the 
+						Youtube IDs. However, you can easily download the videos 
+						by using the&nbsp;<a href="http://www.eecs.qmul.ac.uk/~yf300/USAA/download/youtube-dl.py">python 
+						downloader.</a>My download method is to generate a Linux 
+						batch program(.sh) and each line invokes the python 
+						downloader file&nbsp; downloading one video. )<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+						<span style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;">
+						&nbsp;</span></p>
+						<h3>If you use this dataset, please cite papers below 
+						note</h3>
+						<ol>
+							<li>
+							<span style="color: rgb(0, 0, 0); font-family: Tahoma, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">
+							Attribute Learning for Understanding Unstructured 
+							Social Activity</span><br />
+							<span style="color: rgb(0, 0, 0); font-family: Tahoma, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">
+							Y. Fu, T. Hospedales, T. Xiang and S. Gong</span><span class="details"><br />
+							ECCV 2012</span><br />
+							<a href="./Fu%20et%20al_2012_%20Attribute%20Learning%20for%20Understanding%20Unstructured%20Social%20Activity-annotated.pdf">
+							<span class="label_download">PDF</span></a></li>
+							<li>Learning Multi-modal Latent Attributes
+							<br />
+							<span style="color: rgb(0, 0, 0); font-family: Tahoma, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline; float: none; background-color: rgb(255, 255, 255)">
+							Y. Fu, T. Hospedales, T. Xiang and S. Gong </span>
+							<span class="details"> 
+							<br />IEEE TPAMI&nbsp; (to appear)<br /></span>
+							<a href="http://www.computer.org/csdl/trans/tp/preprint/06552193-abs.html">
+							<span class="label_download">Xplore</span></a>
+							<a href="http://www.eecs.qmul.ac.uk/~yf300/Papers/Published/attr_paper_rev2_v2_bio.pdf">
+							<span class="label_download">PDF</span></a>&nbsp;
+                                    <!--<a href="./files/cvpr_2009_video.zip"><span class="label_download">Video</span></a>-->
+                                    <!--<a href="./files/scene_decomposition.zip"><span class="label_download">Code</span></a>-->
+							</li>
+						</ol>
+						<p>Other references:</p>
+						<div style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-align: left;">
+							[1]<span class="Apple-converted-space">&nbsp;</span><span style="color: rgb(17, 17, 17); font-family: tahoma; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none; display: inline !important;">Yu-Gang 
+							Jiang, Jun Yang, Chong-Wah Ngo, Alexander G. 
+							Hauptmann,</span><b style="color: rgb(17, 17, 17); font-family: tahoma; font-size: 13px; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;">Representations 
+							of Keypoint-Based Semantic Concept Detection: A 
+							Comprehensive Study</b><span style="color: rgb(17, 17, 17); font-family: tahoma; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none; display: inline !important;"><span class="Apple-converted-space">&nbsp;</span></span><a target="_blank" style="color: rgb(38, 40, 152); text-decoration: underline; font-family: tahoma; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;" href="http://www.yugangjiang.info/publication/itm_yjiang.pdf">[pdf]</a><span style="color: rgb(17, 17, 17); font-family: tahoma; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none; display: inline !important;"><span class="Apple-converted-space">&nbsp;</span></span><a shape="rect" class="togglebib" style="color: rgb(38, 40, 152); text-decoration: underline; font-family: tahoma; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;" href="javascript:togglebib('tmm10:yjiang')">[bibtex]</a><span style="color: rgb(17, 17, 17); font-family: tahoma; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none; display: inline !important;"><span class="Apple-converted-space">&nbsp;</span></span><a target="_blank" style="color: rgb(38, 40, 152); text-decoration: underline; font-family: tahoma; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;" href="http://vireo.cs.cityu.edu.hk/research/vireo374/">[project 
+							page]</a><span style="color: rgb(17, 17, 17); font-family: tahoma; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none; display: inline !important;"><span class="Apple-converted-space">&nbsp;&nbsp;</span>IEEE 
+							Transactions on Multimedia, vol. 12, issue 1, pp. 
+							42-53, 2010.<br>
+							[2] Yu-Gang Jiang, Guangnan Ye, Shih-Fu Chang, 
+							Daniel Ellis, Alexander C. Loui, Consumer Video 
+							Understanding: A Benchmark Database and An 
+							Evaluation of Human and Machine Performance, ACM 
+							International Conference on Multimedia Retrieval 
+							(ICMR), Trento, Italy, Apr. 2011.</span></div>
+						<p>&nbsp;</p>
+						<p>&nbsp;</div></div></section>
+                
+                
+            </div>
+        </div>  
+        
+</body></html>
