@@ -1,0 +1,25 @@
+--2015-02-01 22:03:00--  https://www.dropbox.com/s/5k0rre1sxj779j9/bbb.jp2?dl=0
+Resolving www.dropbox.com... 108.160.166.20
+Connecting to www.dropbox.com|108.160.166.20|:443... connected.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://dl.dropboxusercontent.com/content_link/eJcAFEpxJM9b63iVN9Q761ctYD5RJNdmo6wP7zJIf779tNeEKSlrUfnsQ4rLdVBM [following]
+--2015-02-01 22:03:01--  https://dl.dropboxusercontent.com/content_link/eJcAFEpxJM9b63iVN9Q761ctYD5RJNdmo6wP7zJIf779tNeEKSlrUfnsQ4rLdVBM
+Resolving dl.dropboxusercontent.com... 23.21.55.9, 23.21.53.200, 23.21.69.48, ...
+Connecting to dl.dropboxusercontent.com|23.21.55.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 489368 (478K) [application/octet-stream]
+Saving to: `bbb.jp2?dl=0'
+
+     0K .......... .......... .......... .......... .......... 10%  275K 2s
+    50K .......... .......... .......... .......... .......... 20%  282K 1s
+   100K .......... .......... .......... .......... .......... 31%  561K 1s
+   150K .......... .......... .......... .......... .......... 41% 1.18M 1s
+   200K .......... .......... .......... .......... .......... 52%  884K 0s
+   250K .......... .......... .......... .......... .......... 62%  587K 0s
+   300K .......... .......... .......... .......... .......... 73% 1.81M 0s
+   350K .......... .......... .......... .......... .......... 83%  799K 0s
+   400K .......... .......... .......... .......... .......... 94% 7.51M 0s
+   450K .......... .......... .......                         100% 1.19M=0.8s
+
+2015-02-01 22:03:03 (637 KB/s) - `bbb.jp2?dl=0' saved [489368/489368]
+

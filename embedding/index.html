@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Transductive Multi-view Embedding for Zero-Shot Recognition and Annotation
+</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Yanwei Fu">
+        <meta name="author" content="Yanwei Fu">
+        
+        <meta name="keywords" content="Yanwei Fu, USAA, zero-shot learning, AwA, N-shot learning, mult-task learning, QMUL, computer vision, image annotation, zero-shot description" />
+        
+        <!-- Le styles -->
+        <link href="./css/bootstrap.css" rel="stylesheet">
+        <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="./css/docs.css" rel="stylesheet">
+        <link href="./prettify.css" rel="stylesheet">
+        <link href="./css/cavan.css" rel="stylesheet">
+        
+        
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" type="image/ico" href="http://www.eecs.qmul.ac.uk/~ccloy/favicon.ico" /> 
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+    </head>
+    
+    <body>
+        
+        <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+     
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="tooltip-demo">
+                
+                
+                <!--<ul class="breadcrumb">
+                <li><a href="index.html#home">Home</a> <span class="divider">/</span></li>
+                <li><a href="index.html#thumbnails">Download</a> <span class="divider">/</span></li>
+                <li class="active">QMUL Underground Multi-camera Dataset</li>
+            </ul>-->
+            
+            
+                <!-- Home ================================================== -->
+                <section>
+				<div class="page-header">
+					<h2 style="color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+					Transductive Multi-view Embedding for Zero-Shot Recognition and Annotation </h2>
+					<p style="color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+					<span style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;">
+					Yanwei Fu, Timothy M. Hospedales, Tao Xiang, Zhenyong Fu and Shaogang Gong</span><br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+					<span style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;">
+					School of EECS, Queen Mary University of London, UK 
+					{y.fu,t.hospedales, t.xiang, z.fu, s.gong}@qmul.ac.uk</span></p>
+					</div>
+
+				<div align="left">
+					<p>  <h3> Abstract </h3>
+						 Most existing zero-shot learning approaches exploit transfer learning via an intermediate-level semantic representation such as visual
+attributes or semantic word vectors. Such a semantic representation is shared between an annotated auxiliary dataset and a target dataset with no annotation. A projection from a low-level feature space to the semantic space is learned from the auxiliary dataset and is applied without
+adaptation to the target dataset. In this paper we identify an inherent limitation with this approach. That is, due to having disjoint and
+potentially unrelated classes, the projection functions learned from the auxiliary dataset/domain are biased when applied directly to the target
+dataset/domain. We call this problem the projection domain shift problem and propose a novel framework, transductive multi-view embedding,
+to solve it. It is ‘transductive’ in that unlabelled target data points are explored for projection adaptation, and ‘multi-view’ in that both low-level feature (view) and multiple semantic representations (views) are embedded to rectify the projection shift. We demonstrate through extensive experiments that our framework (1) rectifies the projection shift
+between the auxiliary and target domains, (2) exploits the complementarity of multiple semantic representations, (3) achieves state-of-the-art
+recognition results on image and video benchmark datasets, and (4) enables novel cross-view annotation tasks. 
+					</p>
+				</div>
+
+
+				<div class="row-fluid">
+					<div class="span3">
+						<h3> Idea Illustration</h3>
+						<p><a href="#" class="thumbnail">
+						<img src="./pic/idea_illustration.jpg" alt="" align="middle" height="400" width="600"  > </a> </p>
+						
+						<p>An inherent problem exists in this zero-shot learning approach: Since the two datasets have different and potentially unrelated classes, the underlying semantic prototypes of classes also differ, as do the ‘ideal’ projection functions between the low-level feature space and the semantic spaces. Therefore,
+using the projection functions learned from the auxiliary dataset/domain without any adaptation to the target dataset/domain causes an unknown shift/bias.
+We call it the projection domain shift problem. This problem is illustrated in Fig. 1, which shows two object classes from the Animals with Attributes (AwA)
+dataset [10]: Zebra is one of the 40 auxiliary classes whilst Pig is one of 10 target classes. Both of them share the same ‘hasTail’ attribute, but the visual appearance of their tails differs greatly (Fig. 1(a)). Similarly, many other attributes of Pig are visually very different from those in the 40 auxiliary classes. Fig. 1(b)
+plots (in 2D using t-SNE [11]) a 85D attribute space representation of the image feature projections and class prototypes (85D binary attribute vectors) to
+illustrate the existence of the projection domain shift problem: a great discrepancy between the Pig prototype position in the semantic attribute space and
+the projections of its class member instances is observed, while the discrepancy does not exist for the auxiliary Zebra class. This discrepancy is caused when the
+projection functions learned from the 40 auxiliary classes are applied directly to project the Pig instances – what ‘hasTail’ (as well as the other 84 attributes)
+visually means is different now. Such a discrepancy will inherently degrade the effectiveness of zero-shot recognition of the Pig class. This projection domain
+shift problem is uniquely challenging in that there is no labelled information in the target domain to guide domain adaptation in mitigating the problem. To
+our knowledge, this problem has neither been identified nor addressed in the literature.  </p>
+					</div>
+
+
+
+
+					<div class="span3">
+						<h3>Download</h3>   
+						<p>
+						<a href="./download/word2vec_100dim_AwA_prototype.mat" class="btn btn-success">
+						<i class="icon-download-alt icon-white"></i>Download</a>
+						<br /><em>100 dimension semantic word vectors for 50 AwA classes</em ></br>
+						<a href="download_other.txt" class ="btn btn-success"> <i class="icon-download-alt icon-white"></i>Other-download</a>
+						</p>
+
+						<h3> Codes and semantic word dictionary </h3>
+					 <p><a href="./mat/mat.tar" class="btn btn-success"> mat file download</a> </p> 
+					<p><a href="https://github.com/yanweifu/embedding_zero-shot-learning"> https://github.com/yanweifu/embedding_zero-shot-learning </a></p>
+						 <p> We are using all wikipedia articles to train the google word2vec recurrent neural network model <br />
+						 and generate the semantic word vector dictionary; and we will release it to the community.</p> 	
+						<h3> Paper: </h3>
+[1] Fu, Yanwei; Hospedales, T.; Xiang, T.; Fu, Z.; Gong, S: Transductive Multi-view Embedding for Zero-Shot Recognition and Annotation, (ECCV 2014). <a href ="embedding_paper_eccv14.pdf"> Paper</a>
+<p>bib: @INPROCEEDINGS{embedding2014ECCV, <br/>
+  author = { Yanwei Fu and Timothy M. Hospedales and Tao Xiang and Zhenyong Fu and Shaogang Gong}, <br/>
+  title = {Transductive Multi-view Embedding for Zero-Shot Recognition and Annotation}, <br/>
+  booktitle = {ECCV}, <br/>
+  year = {2014}<br/>
+}
+</p>
+
+[2] Fu, Yanwei, Hospedales, T.M., Xiang, T., Gong, S.: Transductive multi-view zero-shot Learning. Accepted to IEEE TPAMI (2015)
+<p>bib: @INPROCEEDINGS{embedding2014ECCV, <br/>
+  author = { Yanwei Fu and Timothy M. Hospedales and Tao Xiang and Shaogang Gong}, <br/>
+  title = {Transductive multi-view zero-shot learning}, <br/>
+  booktitle = <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7053935&filter%3DAND%28p_IS_Number%3A4359286%29"> {accepted to TPAMI,}</a> <br/>
+  year = {2014}<br/>
+}
+<br />
+<br />
+<h3>
+Due to the page limited, we actually had done lots of other experiments, yet not included in the paper. Our reviewers also asked 
+many excellent questions. To answer these questions, we add more experiments in our rebutall. Thus, we released our rebuttal here. 
+I'm also working on a longer version technique report which will include some more new stuff recently. 
+</h3>
+1st round comments: <a href ="pami_review/reviewer_comments.pdf"> 1st Round Comments</a>
+<a href ="pami_review/1st_round_rebuttal.pdf">1st Round Rebuttal</a>
+<br />
+
+2nd round comments: <a href= "pami_review/2nd_minor_yanwei.pdf">2nd Round Comments</a>
+<a href="pami_review/2nd_round_rebuttal.pdf">2nd Round Rebuttal</a>
+<br />
+
+</p>
+
+				        </div>
+				</div>
+
+					
+				<div class="row-fluid">
+					<div class="span3">
+				<h3>t-SNE visualisation of our journal submission</h3>
+						<p><a href="./pic/tsne_visualization.jpg" class="thumbnail">
+						<img src="./pic/tsne_visualization.jpg" alt="" align="middle" height="400" width="800"  >  </a> 
+						</p>
+			
+				</div> 
+				</div>
+			<div>
+				
+			</div>
+
+
+
+
+        
+</body></html>

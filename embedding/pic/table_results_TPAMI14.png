@@ -1,0 +1,20 @@
+--2015-02-01 22:00:27--  https://www.dropbox.com/s/ubn03u1oemdw1fr/aaa.png?dl=0
+Resolving www.dropbox.com... 108.160.165.20
+Connecting to www.dropbox.com|108.160.165.20|:443... connected.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://dl.dropboxusercontent.com/content_link/t0dGfIsY89netWPHTscqwptpvZU97xkshWIEBcwpxL4dUs5wOGi1RuwY38KzgVYc [following]
+--2015-02-01 22:00:28--  https://dl.dropboxusercontent.com/content_link/t0dGfIsY89netWPHTscqwptpvZU97xkshWIEBcwpxL4dUs5wOGi1RuwY38KzgVYc
+Resolving dl.dropboxusercontent.com... 54.83.198.224, 23.21.53.200, 23.21.55.9, ...
+Connecting to dl.dropboxusercontent.com|54.83.198.224|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 251647 (246K) [image/png]
+Saving to: `aaa.png?dl=0.1'
+
+     0K .......... .......... .......... .......... .......... 20%  284K 1s
+    50K .......... .......... .......... .......... .......... 40%  273K 1s
+   100K .......... .......... .......... .......... .......... 61%  556K 0s
+   150K .......... .......... .......... .......... .......... 81%  573K 0s
+   200K .......... .......... .......... .......... .....     100% 15.0M=0.5s
+
+2015-02-01 22:00:30 (455 KB/s) - `aaa.png?dl=0.1' saved [251647/251647]
+

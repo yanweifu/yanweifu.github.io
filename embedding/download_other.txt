@@ -1,0 +1,35 @@
+This is the readme file to provide the links to other key data that is used in our ECCV 2014 embedding paper as well as our TPAMI paper (if accepted).
+
+1, 100 dimensional skip-gram model:
+this can be download from 
+http://www.eecs.qmul.ac.uk/~yf300/embedding/textw2v_wiki100_skip.bin
+(1.79G)
+
+The skip-gram model is trained by using the codes of google word2vec with all English wikipedia articles (explained in our papers).
+
+The idea is that with the trained model, you get one input word, and it will return a 100-dimensional vector. 
+One important trick of normalisation is that you had to do l2-normalisation to each word vector. In my applications, that is important to get reasonable results!
+
+2, I provide my code: 
+http://www.eecs.qmul.ac.uk/~yf300/embedding/final.o 
+(linux version)
+http://www.eecs.qmul.ac.uk/~yf300/embedding/word2vecQuery.rar
+
+to generate all the words vectors from the dictionary:
+The invoke format is :
+
+./final.o textw2v_wiki100_skip.bin  my-word-list.txt
+
+The my-word-list.txt should be like this:
+Roman
+Italy
+birthday_party
+hello_world
+giant panda
+
+
+And ./final.o will generate result.txt at the same folder and each row of result.txt will correspond to the 100 dimensional word vector for each corresponding row of my-word-list.txt
+
+3, I will release the data used for our PAMI submission if it is accepted.
+
+
