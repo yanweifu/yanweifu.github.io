@@ -100,21 +100,15 @@
 						attribute/concepts-modality prediction, suprising 
 						attributes/concepts discovery, and 
 						latent-attribute(concepts) discovery etc.<br />
-						<br />
 
 						The ontology attribute definitions of these 8 classes are from their wikipedia definitions; and can be downloaded from <a href="USAA_ontology_data.mat">here</a>.
-<br />
-<br />
-						<span style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; font-weight: bold;">
-						Some Explainations about dataset:</span><br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+
+						
 						The dataset mat files includes the following 
 						strucutures:&nbsp;<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
 						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Xtrain: the low level features of training 
 						video data<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
-						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; Xtest: the low level features of testing video 
-						data.<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
-						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<span style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; font-weight: bold;">Note 
-						that there are several videos of all 0 low-level 
+						&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; Xtest: the low level features of testing video data. Also note that there are several videos of all 0 low-level 
 						features (&lt;5) due to some problems of extracting 
 						process. The low-level features are soft-weighted[1].</span><br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
 						<br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
@@ -167,9 +161,9 @@
 							Y. Fu, T. Hospedales, T. Xiang and S. Gong </span>
 							<span class="details"> 
 							<br />IEEE TPAMI&nbsp; (to appear)<br /></span>
-							<a href="http://www.computer.org/csdl/trans/tp/preprint/06552193-abs.html">
+							<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6552193&tag=1">
 							<span class="label_download">Xplore</span></a>
-							<a href="http://www.eecs.qmul.ac.uk/~yf300/Papers/Published/attr_paper_rev2_v2_bio.pdf">
+							<a href="http://www.eecs.qmul.ac.uk/~tmh/papers/fu2013latentAttrib.pdf">
 							<span class="label_download">PDF</span></a>&nbsp;
                                     <!--<a href="./files/cvpr_2009_video.zip"><span class="label_download">Video</span></a>-->
                                     <!--<a href="./files/scene_decomposition.zip"><span class="label_download">Code</span></a>-->
@@ -177,14 +171,8 @@
 						</ol>
 <h6>To repeat the Zero-shot learning results of USAA in our PAMI paper, we are using the following settings: We use three splits for ZSL, and the zero-shot (testing classes) are [1,2,4,7];[1,6,7,8],[2,4,5,6]; Since we provide instance-level for each video, the binary class-level prototype  should be mean(attribute(video==classname,:))>Threshold; i.e. the mean of the video attributes belong to the same class; And the threshold=0.5.
  </h6>
-<br /><br /><br />
-<h6>
-Visualization data: mat file is downloadable from <a href ='./visualization_data/visual_input.mat' >here </a>. And 
-meta files are http://www.eecs.qmul.ac.uk/~yf300/USAA/download/visualization_data/te_video  
-and http://www.eecs.qmul.ac.uk/~yf300/USAA/download/visualization_data/te_video 
-visualization dictionary: http://www.eecs.qmul.ac.uk/~yf300/USAA/download/visualization_data/visualization_dictionary
-</h6>
-						<p>Other references:</p>
+
+						<p>More related work:</p>
 						<div style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-align: left;">
 							[1]<span class="Apple-converted-space">&nbsp;</span><span style="color: rgb(17, 17, 17); font-family: tahoma; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; float: none; display: inline !important;">Yu-Gang 
 							Jiang, Jun Yang, Chong-Wah Ngo, Alexander G. 
