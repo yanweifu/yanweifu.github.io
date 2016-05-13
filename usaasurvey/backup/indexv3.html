@@ -1,0 +1,636 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<script type="text/javascript" src="scripts/jquery-1.3.2-vsdoc2.js"></script>
+	<SCRIPT>
+//var elem;
+var resultInput;
+var leftImage;
+
+var rightImage;
+var resultForm;
+
+var exphint;
+var counter;
+var imagediv;
+var introDiv;
+var compareDiv;
+var exphintsubmit;
+
+var result4or;
+var result4og;
+var result4gr;
+
+var startTime;
+var endTime;
+
+var ranleft =1; // left img 
+var ranright =1; // right img
+
+var leftBetter = 0;
+var rightBetter = 0;
+var even = 0;
+var hard = 0;
+var res;
+
+var o4or = 0;var r4or = 0;e4or = 0;duration4or = 0;times4or = 10;
+var o4og = 0;var g4og = 0;e4og = 0;duration4og = 0;times4og = 10;
+var g4gr = 0;var r4gr = 0;e4gr = 0;duration4gr = 0;times4gr = 10;
+
+var total = 0;
+var group;
+
+var conf = 1;
+
+var urllink =['https://www.youtube.com/embed/9ang0AFQXN4?wmode=opaque',
+'https://www.youtube.com/embed/71XE_V-E7nI?wmode=opaque',
+'https://www.youtube.com/embed/9DGG2NDh_HA?wmode=opaque',
+'https://www.youtube.com/embed/A4FGH7ftseU?wmode=opaque',
+'https://www.youtube.com/embed/ABhcD9gM2Mk?wmode=opaque',
+'https://www.youtube.com/embed/AStZeuUg2b4?wmode=opaque',
+'https://www.youtube.com/embed/B2XAonYISuA?wmode=opaque',
+'https://www.youtube.com/embed/Bm7k9QDBQG0?wmode=opaque',
+'https://www.youtube.com/embed/EcLf2iZM6DM?wmode=opaque',
+'https://www.youtube.com/embed/FAEaGsbSMog?wmode=opaque',
+'https://www.youtube.com/embed/7KAGczZPstI?wmode=opaque',
+'https://www.youtube.com/embed/0ScOEjwLf0w?wmode=opaque',
+'https://www.youtube.com/embed/5qhPCAY78lE?wmode=opaque',
+'https://www.youtube.com/embed/CA2E-nFKROk?wmode=opaque',
+'https://www.youtube.com/embed/ej-L6fCo5CY?wmode=opaque',
+'https://www.youtube.com/embed/EQUWMzIjWl0?wmode=opaque',
+'https://www.youtube.com/embed/fh4mBw7QrYE?wmode=opaque',
+'https://www.youtube.com/embed/FD3VLyQq9Ig?wmode=opaque',
+'https://www.youtube.com/embed/H8C5Z1H62j0?wmode=opaque',
+'https://www.youtube.com/embed/JlB6ahyGObk?wmode=opaque',
+'https://www.youtube.com/embed/06dcT73OOUQ?wmode=opaque',
+'https://www.youtube.com/embed/0ZgTwQT_eMI?wmode=opaque',
+'https://www.youtube.com/embed/1cg30vOw664?wmode=opaque',
+'https://www.youtube.com/embed/2q6Y4jS_eLY?wmode=opaque',
+'https://www.youtube.com/embed/5UTOM2qYJoI?wmode=opaque',
+'https://www.youtube.com/embed/5Wu1krzv8t4?wmode=opaque',
+'https://www.youtube.com/embed/6O595_H7UKg?wmode=opaque',
+'https://www.youtube.com/embed/6QTF7waqy58?wmode=opaque',
+'https://www.youtube.com/embed/7Biy4hbg6g8?wmode=opaque',
+'https://www.youtube.com/embed/aoim9hz0E6o?wmode=opaque',
+'https://www.youtube.com/embed/3k7OZP8YinY?wmode=opaque',
+'https://www.youtube.com/embed/LNLZw08PHsU?wmode=opaque',
+'https://www.youtube.com/embed/FfNhNrpLlJ8?wmode=opaque',
+'https://www.youtube.com/embed/08CxNgpjWxE?wmode=opaque',
+'https://www.youtube.com/embed/0LihSGgB0cQ?wmode=opaque',
+'https://www.youtube.com/embed/1fuo11zOuWw?wmode=opaque',
+'https://www.youtube.com/embed/1M9mmnBTEAA?wmode=opaque',
+'https://www.youtube.com/embed/aB-EZga-lxg?wmode=opaque',
+'https://www.youtube.com/embed/AZ7zHph-f5Q?wmode=opaque',
+'https://www.youtube.com/embed/ba5oFkrxipA?wmode=opaque',
+'https://www.youtube.com/embed/7P-kM7z0P7E?wmode=opaque',
+'https://www.youtube.com/embed/11lKSoM5ND4?wmode=opaque',
+'https://www.youtube.com/embed/3depqlELNC0?wmode=opaque',
+'https://www.youtube.com/embed/3fCwaK7tjGc?wmode=opaque',
+'https://www.youtube.com/embed/3uzidn2FrIY?wmode=opaque',
+'https://www.youtube.com/embed/9hFZOjJxcws?wmode=opaque',
+'https://www.youtube.com/embed/0qWV7-al7iA?wmode=opaque',
+'https://www.youtube.com/embed/1HHq1L7S7Nc?wmode=opaque',
+'https://www.youtube.com/embed/-uzcNyBWMiI?wmode=opaque',
+'https://www.youtube.com/embed/2Q25xAqHy1I?wmode=opaque',
+'https://www.youtube.com/embed/-DSmrOohHP4?wmode=opaque',
+'https://www.youtube.com/embed/2-kIq3pctr8?wmode=opaque',
+'https://www.youtube.com/embed/4zO3ICQTnXQ?wmode=opaque',
+'https://www.youtube.com/embed/7VFzKkgkcOk?wmode=opaque',
+'https://www.youtube.com/embed/98k5kfCVOI8?wmode=opaque',
+'https://www.youtube.com/embed/AmidYB0xOaI?wmode=opaque',
+'https://www.youtube.com/embed/a17xFIL_coM?wmode=opaque',
+'https://www.youtube.com/embed/adiNH4EgZvE?wmode=opaque',
+'https://www.youtube.com/embed/Af6GAdTHtGM?wmode=opaque',
+'https://www.youtube.com/embed/eEqFPJ8hhfo?wmode=opaque',
+'https://www.youtube.com/embed/kvYvzGu-NvQ?wmode=opaque',
+'https://www.youtube.com/embed/LPs27aj7eNk?wmode=opaque',
+'https://www.youtube.com/embed/OXRG8FXVjic?wmode=opaque',
+'https://www.youtube.com/embed/P2ZEdBWio90?wmode=opaque',
+'https://www.youtube.com/embed/PMy3MbtOrQo?wmode=opaque',
+'https://www.youtube.com/embed/po2-Cx5gUgY?wmode=opaque',
+'https://www.youtube.com/embed/psidIm-v0Fs?wmode=opaque',
+'https://www.youtube.com/embed/qbtpEk68UJo?wmode=opaque',
+'https://www.youtube.com/embed/QE30HRk7Up8?wmode=opaque',
+'https://www.youtube.com/embed/QgG9MM_P9ec?wmode=opaque',
+'https://www.youtube.com/embed/O0TXzF5dZFE?wmode=opaque',
+'https://www.youtube.com/embed/O1apKGWOI5g?wmode=opaque',
+'https://www.youtube.com/embed/o6swKi4CDf8?wmode=opaque',
+'https://www.youtube.com/embed/NiRDGzda_ho?wmode=opaque',
+'https://www.youtube.com/embed/nIZS7yzxqX4?wmode=opaque',
+'https://www.youtube.com/embed/nniJtbdjqtE?wmode=opaque',
+'https://www.youtube.com/embed/nvD7rFcbGoo?wmode=opaque',
+'https://www.youtube.com/embed/NYP8sU20-iw?wmode=opaque',
+'https://www.youtube.com/embed/PexA5eCNPhM?wmode=opaque',
+'https://www.youtube.com/embed/PklbSilLdko?wmode=opaque'];
+
+var videoID =[195	 , 2051,	2062,	2065,	2066,	2068	,2072,	2074,	2088,	2094	,1871,	1873,	1879,	1904,	1928,	1934,	1936,	1940,	1954,	1967,	2531	,2542,	2546,	2558	,2572,	2576,	2586,	2587,	2593,	2640,	5,	460	,1778,	2896,	2900,	2911,	2914,	2966	,2980,	2985	,3182,	3183,	3184,	3185,	3186,	3187,	3188,	3189,	3191,	3192,	2419,	2420	,2421,	2422	,2424,	2425,	2426,	2427,	2428,	2461	,2256,	2267	,2289	,2290	,2291,	2292	,2294,	2296,	2297,	2298,	2373	,2374	,2375,	2378	,2379	,2381	,2382	,2383	,2384,	2385];
+
+
+var compareOder = new Array(0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2);
+var switchgroup;
+
+var attrvalue = new Array;
+
+function getElements(){
+	resultInput = document.getElementById("resutls");
+	leftImage = document.getElementById("leftimage");
+	rightImage = document.getElementById("rightimage");
+	resultForm = document.getElementById("resultform");
+	
+	exphint = document.getElementById("exphint");
+	counter = document.getElementById("counter");
+	imagediv = document.getElementById("imagediv");
+	
+	counter = document.getElementById("counter");
+	imagediv = document.getElementById("imagediv");
+	introDiv = document.getElementById("introDiv");
+	compareDiv = document.getElementById("compareDiv");
+	exphintsubmit = document.getElementById("exphintsubmit");
+	exphintsubmit.style.display = "none";
+	// init order
+	//var r4order = Math.round(Math.random())-0.5);
+	compareOder.sort(function() {return 0.5 - Math.random()});
+	//nextGroup();
+}
+
+function startTest(){
+	compareDiv.style.display = "block";
+	introDiv.style.display = "none";
+	nextGroup();
+}
+
+function leftclick()
+{
+	leftBetter =1;
+
+      if(conf<0)
+      {
+      alert("Please select one confidence value!");
+      }else{
+	nextGroup();
+      }
+}
+/*
+function rightclick()
+{
+	rightBetter =1;
+      if(conf<0)
+      {
+      alert("Please select one confidence value!");
+      }else{
+	nextGroup();
+      }
+
+}
+
+function evenclick()
+{
+      even =1;
+      if(conf<0)
+      {
+      alert("Please select one confidence value!");
+      }else{
+	nextGroup();
+      }
+
+}
+*/
+function hardclick()
+{
+hard = 1;
+conf = 100;
+nextGroup();
+
+}
+/*
+function leftclick2()
+{
+	conf =0;  //low confidence
+	
+}
+
+function rightclick2()
+{
+	conf = 2; //high confidence
+	
+}
+
+function evenclick2()
+{
+	conf = 1; //middle confidence
+	
+}*/
+
+function recordData()
+{
+	//reord the data
+	var currentTime = new Date();	
+	endTime = currentTime.getTime();
+	var duration;
+    if(total == 1) {
+		duration = 0;
+		var firstGroup = compareOder[0];
+		if(firstGroup == 0)	times4or --;
+		if(firstGroup == 1)	times4og --;
+		if(firstGroup == 2)	times4gr --;
+	}else{
+		duration = endTime - startTime;
+	}
+	
+
+attrvalue[0] = document.getElementsByName("clappinghands");
+attrvalue[1]= document.getElementsByName("Drinking");
+attrvalue[2]=document.getElementsByName("Dancing");
+attrvalue[3]= document.getElementsByName("Fast_moving");
+attrvalue[4] = document.getElementsByName("People_singing");
+attrvalue[5] = document.getElementsByName("Group_of_people");
+attrvalue[6] = document.getElementsByName("People_sitting_in_a_row");
+attrvalue[7] = document.getElementsByName("People_standing_in_a_row");
+attrvalue[8] = document.getElementsByName("Living_room");
+attrvalue[9] = document.getElementsByName("Dinning_room");
+attrvalue[10] = document.getElementsByName("Stadium");
+attrvalue[11] = document.getElementsByName("Church");
+attrvalue[12] = document.getElementsByName("Park_Garden");
+attrvalue[13] = document.getElementsByName("Urban_scene");
+attrvalue[14] = document.getElementsByName("indoor");
+attrvalue[15] = document.getElementsByName("outdoor");
+attrvalue[16] = document.getElementsByName("bkg_talking_noise");
+attrvalue[17] = document.getElementsByName("conversations");
+attrvalue[18] = document.getElementsByName("laughing");
+attrvalue[19] = document.getElementsByName("Birthday_song");
+attrvalue[20] = document.getElementsByName("Wedding_song");
+attrvalue[21] = document.getElementsByName("Camera_zoom");
+attrvalue[22] = document.getElementsByName("Camera_pan");
+attrvalue[23] = document.getElementsByName("Tracking_following_moving_subject");
+
+//document.write("<h1>" + attrvalue[0][1] + "</h1>");
+
+res =[];
+for (var k=0;k<24;k++)
+for (var i = 0, length = attrvalue[k].length; i < length; i++) {
+    if (attrvalue[k][i].checked) {
+        res=res+ ','+ attrvalue[k][i].value;
+    }
+}
+
+//document.write("<h1>" + res + "</h1>");
+
+      if(total==1)
+	{resultInput.value = "RelativeAttributes:"}
+
+      resultInput.value = resultInput.value +videoID[ranleft]+"," + videoID[ranright] +":"+res+" ";
+
+//      conf = -1;
+// clear checked state of each 
+//document.getElementById("lowconf").checked = false;
+//document.getElementById("midconf").checked = false;
+//document.getElementById("highconf").checked = false;
+}
+
+function nextGroup()
+{	
+	//resultInput.value = elem.value;
+	//var temp = leftImage.src;
+	//leftImage.src = rightImage.src;
+	//rightImage.src = temp;
+	//rendom two new file name to compare here, and may check for no repeat.
+	// set targets, rendom side
+	// rendom number
+	if(total > 0) recordData();
+	if(total >= 3){
+		//submit the data;
+		exphint.style.display = "none";
+		imagediv.style.display = "none";
+		exphintsubmit.style.display = "block";
+		resultForm.submit();
+	}
+	
+	counter.innerHTML = (3 - total);
+
+	//random the pic
+	ranleft=Math.floor(Math.random()*79) + 1; 
+	ranright=Math.floor(Math.random()*79) + 1;
+
+	while(ranleft ==ranright)
+	{	
+	//random the pic
+	  ranleft=Math.floor(Math.random()*79) + 1; 
+	  ranright=Math.floor(Math.random()*79) + 1;
+	}
+
+//	var ranRan=Math.floor(Math.random()*885) + 1;
+	
+	/*
+	var rancaGen=Math.floor(Math.random()*906) + 1; // 1-906
+	var rancaOri=Math.floor(Math.random()*30) + 1; // 1-30
+	var rancaRan=Math.floor(Math.random()*885) + 1; // 1-30
+	
+	var ranacGen=Math.floor(Math.random()*896) + 1; // 1-906
+	var ranacOri=Math.floor(Math.random()*30) + 1; // 1-30
+	var ranacRan=Math.floor(Math.random()*1056) + 1; // 1-30
+    */
+
+	
+	//random the building domain
+//	var folderName ="https://www.youtube.com/embed/";
+	var order=Math.floor(Math.random()*2); 
+	
+	
+	var rightImageSrc;
+	var leftImageSrc;
+	//get and set the compare group
+	group = compareOder[total]; // 0 for or, 1 for og, 2 for gr	
+	
+	if(group == 0){
+		leftImageSrc = urllink[ranleft];  //folderName  + ranleft + ".jpg";
+		rightImageSrc =urllink[ranright];    //folderName + ranright + ".jpg";
+	}
+	if(group == 1){
+		leftImageSrc = urllink[ranleft]; //folderName + ranleft + ".jpg";
+		rightImageSrc = urllink[ranright]; //folderName+ ranright + ".jpg";
+	}
+	if(group == 2){
+		leftImageSrc = urllink[ranleft];    //folderName + ranleft + ".jpg";
+		rightImageSrc = urllink[ranright];   //folderName + ranright + ".jpg";
+	}
+
+//	leftImageSrc =folderName+"SQO128v6UtA"+"?wmode=opaque";
+//	rightImageSrc = folderName+"GOTq7TXnlH4"+"?wmode=opaque";
+	
+	// switch the order randomly
+/*	switchgroup=Math.floor(Math.random()*2); 
+	if(switchgroup == 1) {
+		var tmp = leftImageSrc;
+		leftImageSrc = rightImageSrc;
+		rightImageSrc = tmp;
+
+		// also change the image name, since we change the left/right images.
+		tmp = ranleft;
+		ranleft = ranright;
+		ranright = tmp;
+		
+	}
+*/
+	leftImage.src = leftImageSrc;
+	rightImage.src = rightImageSrc;
+	
+	var currentTime = new Date();	
+	startTime = currentTime.getTime();
+	total++;
+}
+
+function cShowMe(WhatToShow)
+{
+    var TheIframe = document.getElementById("ShowFrameID");        
+    // I change the src with a number code because is small to pass as variable
+    //  and you have only 2 different video to show.
+    if(WhatToShow == 1)        
+     TheIframe.src = "http://www.youtube.com/embed/FwFx8Uk06sg?wmode=opaque" ;
+    else
+     TheIframe.src = "http://www.youtube.com/embed/kW3hk7O4npE?wmode=opaque" ;            
+}
+</script>
+
+
+
+
+<div id="introDiv">
+<center><h1>Thanks for your participation.</h1><h1></h1></center>
+
+
+
+<h2> You are invited to compare 30 pairs of video relative attributes.
+For each pair, please choose the one which you think has more
+attributes. You can choose "Equal" for cases that you think they are
+the same.
+</h2>
+
+<center>
+<h1><button onclick="startTest()" type="button" name="start" style="width: 300px; height: 60px; margin-left: auto; margin-right: auto; font-size: 30px;">Start</button></h1>
+<h1></h1></center>
+
+</div>
+
+<div id="compareDiv" style="display: none;">
+
+	<div id="exphint" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 1024px; height: 100px;">
+		<h1>Pls first select confidence value, then compare the ages </h1><h1>
+		</h1><h2> You have <span id="counter">30</span> comparisons to do.</h2>
+	</div>
+
+	<div id="exphintsubmit" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 1024px; height: 100px;">
+		<center><h1>Submitting your results, please wait......</h1><h1></h1></center>
+	</div>
+
+
+	<div id="imagediv">
+		<div style="border: 0px solid red; padding: 5px; margin-left: auto; margin-right: auto; width: 1024px;">
+		<iframe id="leftimage" allowfullscreen="" frameborder="0" height="315" width="420"></iframe>
+		<iframe id="rightimage" allowfullscreen="" frameborder="0" height="315" width="420"></iframe>
+	
+		</div>
+		
+
+<b>Relative
+attribute comparison: [choose one from (V1, V2, and Eq). V1: video 1
+has more attribute; V2: video2 has more attribute; Eq: both vidoes have
+equal attributes]. </b>
+
+
+
+<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[1]Clapping hands: [For which video, can you hear/see more clearly clapping hands?]
+<!--
+10101: 1+01(attribute id)+01 (attribute value)
+-->
+		<input name="clappinghands" value="10101" id="lowconf" onclick="leftclick2()" type="radio" checked> V1   &nbsp;
+		<input name="clappinghands" value="10100" id="midconf" onclick="evenclick2()" type="radio"> Eq&nbsp;
+		<input name="clappinghands" value="10102"  id="highconf" onclick="rightclick2()" type="radio"> V2&nbsp;
+		</div>
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[2]Drinking:[In which video,  can you see more clearly people are drinking and/or eating?]
+		<input name="Drinking" value="10201" id="lowconf" onclick="leftclick2()" type="radio" checked> V1   &nbsp;
+		<input name="Drinking" value="10200" id="midconf" onclick="evenclick2()" type="radio"> Eq  &nbsp;
+		<input name="Drinking" value="10202" id="highconf" onclick="rightclick2()" type="radio"> V2&nbsp;
+		</div> 
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[3]Dancing:[In which video, can you see more clearly that people are dancing?]
+		<input name="Dancing" value="10301" id="lowconf" onclick="leftclick2()" type="radio" checked> V1  &nbsp;
+		<input name="Dancing" value="10300" id="midconf" onclick="evenclick2()" type="radio"> Eq   &nbsp;
+		<input name="Dancing" value="10302" id="highconf" onclick="rightclick2()" type="radio">V2&nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[4]Fast_moving:[In which video are the objects (e.g. cars, people )  moving faster?]
+		<input name="Fast_moving" value="10401" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Fast_moving" value="10400" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Fast_moving" value="10402" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[5]People_singing:[In which video, can you see/hear more clearly that people are singing a song?]
+		<input name="People_singing" value="10501" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="People_singing" value="10500" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="People_singing" value="10502" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[6]Group_of_people:[which video is more crowded with people? ]
+		<input name="Group_of_people" value="10601" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Group_of_people" value="10600" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Group_of_people" value="10602" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[7]People_sitting_in_a_row:[In which video, can you see more clearly that people are sitting in a row?]
+		<input name="People_sitting_in_a_row" value="10701" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="People_sitting_in_a_row" value="10700" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="People_sitting_in_a_row" value="10702" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+    		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[8]People_standing_in_a_row:[In which video, can you see more clearly that people are standing in a row?]
+		<input name="People_standing_in_a_row" value="10801" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="People_standing_in_a_row" value="10800" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="People_standing_in_a_row" value="10802" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[9]Living_room:[which video is more likely taken in a living room?]
+		<input name="Living_room" value="10901" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Living_room" value="10900" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Living_room" value="10902" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[10]Dinning_room:[which video is more likely taken in a dinning room?]
+		<input name="Dinning_room" value="11001" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Dinning_room" value="11000" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Dinning_room" value="11002" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[11]Stadium:[which video is more likely taken in a stadium?]
+		<input name="Stadium" value="11101" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Stadium" value="11100" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Stadium" value="11102" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[12]Church:[which video is more likely taken in a church?]
+		<input name="Church" value="11201" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Church" value="11200" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Church" value="11202" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[13]Park_Garden:[which video is more likely taken in a park garden?]
+		<input name="Park_Garden" value="11301" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Park_Garden" value="11300" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Park_Garden" value="11302" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[14]Urban_scene:[which video is more likely taken in an urban scene?]
+		<input name="Urban_scene" value="11401" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Urban_scene" value="11400" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Urban_scene" value="11402" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[15]indoor:[which video is more likely taken in an indoor environment?]
+		<input name="indoor" value="11501" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="indoor" value="11500" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="indoor" value="11502" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>
+	
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[16]outdoor:[which video is more likely taken in an outdoor environment?]
+		<input name="outdoor" value="11601" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="outdoor" value="11600" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="outdoor" value="11602" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[17]bkg_talking_noise:[In which video can you hear more clearly  background talking noise?]
+		<input name="bkg_talking_noise" value="11701" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="bkg_talking_noise" value="11700" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="bkg_talking_noise" value="11702" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[18]Conversation:[In which video can you hear more clearly conversations of people?]
+		<input name="Conversation" value="11801" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Conversation" value="11800" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Conversation" value="11802" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[19]Laughter:[Which video has louder laughing sound?]
+		<input name="Laughter" value="11901" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Laughter" value="11900" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Laughter" value="11902" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[20]Birthday_song:[In which video can you hear more clearly the Happy Birthday Song?]
+		<input name="Birthday_song" value="12001" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Birthday_song" value="12000" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Birthday_song" value="12002" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[21]Wedding_song:[In which video can you hear more clearly the Wedding March music?]
+		<input name="Wedding_song" value="12101" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Wedding_song" value="12100" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Wedding_song" value="12102" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[22]Camera_zoom:[In which video the camera is zooming more?]
+		<input name="Camera_zoom" value="12201" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Camera_zoom" value="12200" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Camera_zoom" value="12202" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[23]Camera_pan:[In which video the camera is panning more?]
+		<input name="Camera_pan" value="12301" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Camera_pan" value="12300" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Camera_pan" value="12302" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[24]Tracking_following_moving_subject:[In which video the camera has longer shoot of tracking  moving objects?]
+		<input name="Tracking_following_moving_subject" value="12401" id="lowconf" onclick="leftclick2()" type="radio" checked> video1  &nbsp;
+		<input name="Tracking_following_moving_subject" value="12400" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Tracking_following_moving_subject" value="12402" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+
+		<div style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;">
+			<button onclick="leftclick()" type="button" name="nextGroup" style="width: 300px; height: 50px; float: left;">Next Group</button>
+		</div>
+
+
+	<div id="formdiv" style="width: 500px; height: 500px; margin-left: auto; margin-right: auto;"> 
+<form id="resultform" action="http://graphicsurveyapp.appspot.com/">
+			<input name="results" id="resutls" type="hidden">
+			<input name="experiment" id="experiment" value="5" type="hidden">
+		</form>
+</div>
+	
+</div>
+
+</div></body></html>

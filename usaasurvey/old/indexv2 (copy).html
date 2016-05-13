@@ -1,0 +1,575 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+<script type="text/javascript">
+
+//var elem;
+var resultInput;
+var leftImage;
+
+var rightImage;
+var resultForm;
+
+var exphint;
+var counter;
+var imagediv;
+var introDiv;
+var compareDiv;
+var exphintsubmit;
+
+var result4or;
+var result4og;
+var result4gr;
+
+var startTime;
+var endTime;
+
+var ranleft =1; // left img 
+var ranright =1; // right img
+
+var leftBetter = 0;
+var rightBetter = 0;
+var even = 0;
+var hard = 0;
+var res;
+
+var o4or = 0;var r4or = 0;e4or = 0;duration4or = 0;times4or = 10;
+var o4og = 0;var g4og = 0;e4og = 0;duration4og = 0;times4og = 10;
+var g4gr = 0;var r4gr = 0;e4gr = 0;duration4gr = 0;times4gr = 10;
+
+var total = 0;
+var group;
+
+var conf = -1;
+
+
+var compareOder = new Array(0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2);
+var switchgroup;
+
+function getElements(){
+	resultInput = document.getElementById("resutls");
+	leftImage = document.getElementById("leftimage");
+	rightImage = document.getElementById("rightimage");
+	resultForm = document.getElementById("resultform");
+	
+	exphint = document.getElementById("exphint");
+	counter = document.getElementById("counter");
+	imagediv = document.getElementById("imagediv");
+	
+	counter = document.getElementById("counter");
+	imagediv = document.getElementById("imagediv");
+	introDiv = document.getElementById("introDiv");
+	compareDiv = document.getElementById("compareDiv");
+	exphintsubmit = document.getElementById("exphintsubmit");
+	exphintsubmit.style.display = "none";
+	// init order
+	//var r4order = Math.round(Math.random())-0.5);
+	compareOder.sort(function() {return 0.5 - Math.random()});
+	//nextGroup();
+}
+
+function startTest(){
+	compareDiv.style.display = "block";
+	introDiv.style.display = "none";
+	nextGroup();
+}
+
+function leftclick()
+{
+	leftBetter =1;
+
+      if(conf<0)
+      {
+      alert("Please select one confidence value!");
+      }else{
+	nextGroup();
+      }
+}
+
+function rightclick()
+{
+	rightBetter =1;
+      if(conf<0)
+      {
+      alert("Please select one confidence value!");
+      }else{
+	nextGroup();
+      }
+
+}
+
+function evenclick()
+{
+      even =1;
+      if(conf<0)
+      {
+      alert("Please select one confidence value!");
+      }else{
+	nextGroup();
+      }
+
+}
+
+function hardclick()
+{
+hard = 1;
+conf = 100;
+nextGroup();
+
+}
+
+function leftclick2()
+{
+	conf =0;  //low confidence
+	
+}
+
+function rightclick2()
+{
+	conf = 2; //high confidence
+	
+}
+
+function evenclick2()
+{
+	conf = 1; //middle confidence
+	
+}
+
+function recordData()
+{
+	//reord the data
+	var currentTime = new Date();	
+	endTime = currentTime.getTime();
+	var duration;
+    if(total == 1) {
+		duration = 0;
+		var firstGroup = compareOder[0];
+		if(firstGroup == 0)	times4or --;
+		if(firstGroup == 1)	times4og --;
+		if(firstGroup == 2)	times4gr --;
+	}else{
+		duration = endTime - startTime;
+	}
+	
+/*
+	if(group == 0){	
+		if(switchgroup == 0) {
+			o4or += leftBetter;
+			r4or += rightBetter;
+		}
+		if(switchgroup == 1) {
+			o4or += rightBetter;
+			r4or += leftBetter;
+		}
+		e4or += even;
+		duration4or += duration;
+		result4or = o4or + "," + e4or + "," + r4or;
+	}
+	if(group == 1){
+		if(switchgroup == 0) {
+			o4og += leftBetter;
+			g4og += rightBetter;
+		}
+		if(switchgroup == 1) {
+			o4og += rightBetter;
+			g4og += leftBetter;
+		}
+		e4og += even;
+		duration4og += duration;
+		result4og = o4og + "," + e4og + "," + g4og;
+	}
+	if(group == 2){
+		if(switchgroup == 0) {
+			g4gr += leftBetter;
+			r4gr += rightBetter;
+		}
+		if(switchgroup == 1) {
+			g4gr += rightBetter;
+			r4gr += leftBetter;
+		}
+		e4gr += even;
+		duration4gr += duration;
+		result4gr = g4gr + "," + e4gr + "," + r4gr;
+	}
+*/
+
+	
+//	resultInput.value = result4or + "," + result4og + "," + result4gr + "," + duration4or/times4or + "," + duration4og/times4og + "," + duration4gr/times4gr;
+      if(total==1)
+	{resultInput.value = "Age:"}
+      resultInput.value = resultInput.value +ranleft+"," +ranright +":"+ ;
+
+      conf = -1;
+// clear checked state of each 
+document.getElementById("lowconf").checked = false;
+document.getElementById("midconf").checked = false;
+document.getElementById("highconf").checked = false;
+}
+
+function nextGroup()
+{	
+	//resultInput.value = elem.value;
+	//var temp = leftImage.src;
+	//leftImage.src = rightImage.src;
+	//rightImage.src = temp;
+	//rendom two new file name to compare here, and may check for no repeat.
+	// set targets, rendom side
+	// rendom number
+	if(total > 0) recordData();
+	if(total >= 30){
+		//submit the data;
+		exphint.style.display = "none";
+		imagediv.style.display = "none";
+		exphintsubmit.style.display = "block";
+		resultForm.submit();
+	}
+	
+	counter.innerHTML = (30 - total);
+
+	//random the pic
+	ranleft=Math.floor(Math.random()*1001) + 1; 
+	ranright=Math.floor(Math.random()*1001) + 1;
+
+	while(ranleft ==ranright)
+	{	
+	//random the pic
+	  ranleft=Math.floor(Math.random()*1001) + 1; 
+	  ranright=Math.floor(Math.random()*1001) + 1;
+	}
+
+//	var ranRan=Math.floor(Math.random()*885) + 1;
+	
+	/*
+	var rancaGen=Math.floor(Math.random()*906) + 1; // 1-906
+	var rancaOri=Math.floor(Math.random()*30) + 1; // 1-30
+	var rancaRan=Math.floor(Math.random()*885) + 1; // 1-30
+	
+	var ranacGen=Math.floor(Math.random()*896) + 1; // 1-906
+	var ranacOri=Math.floor(Math.random()*30) + 1; // 1-30
+	var ranacRan=Math.floor(Math.random()*1056) + 1; // 1-30
+    */
+
+	
+	//random the building domain
+	var folderName ="https://www.youtube.com/embed/";
+	var order=Math.floor(Math.random()*2); 
+	/*if(order == 1){
+		folderName = "pic/ca";
+	}*/
+	
+	var rightImageSrc;
+	var leftImageSrc;
+	//get and set the compare group
+	group = compareOder[total]; // 0 for or, 1 for og, 2 for gr	
+	
+	if(group == 0){
+		leftImageSrc = folderName  + ranleft + ".jpg";
+		rightImageSrc = folderName + ranright + ".jpg";
+	}
+	if(group == 1){
+		leftImageSrc = folderName + ranleft + ".jpg";
+		rightImageSrc = folderName+ ranright + ".jpg";
+	}
+	if(group == 2){
+		leftImageSrc = folderName + ranleft + ".jpg";
+		rightImageSrc = folderName + ranright + ".jpg";
+	}
+
+	leftImageSrc =folderName+"SQO128v6UtA"+"?wmode=opaque";
+	rightImageSrc = folderName+"GOTq7TXnlH4"+"?wmode=opaque";
+	
+	// switch the order randomly
+/*	switchgroup=Math.floor(Math.random()*2); 
+	if(switchgroup == 1) {
+		var tmp = leftImageSrc;
+		leftImageSrc = rightImageSrc;
+		rightImageSrc = tmp;
+
+		// also change the image name, since we change the left/right images.
+		tmp = ranleft;
+		ranleft = ranright;
+		ranright = tmp;
+		
+	}
+*/
+	leftImage.src = leftImageSrc;
+	rightImage.src = rightImageSrc;
+	
+	var currentTime = new Date();	
+	startTime = currentTime.getTime();
+	total++;
+}
+function cShowMe(WhatToShow)
+{
+    var TheIframe = document.getElementById("ShowFrameID");        
+    // I change the src with a number code because is small to pass as variable
+    //  and you have only 2 different video to show.
+    if(WhatToShow == 1)        
+     TheIframe.src = "http://www.youtube.com/embed/FwFx8Uk06sg?wmode=opaque" ;
+    else
+     TheIframe.src = "http://www.youtube.com/embed/kW3hk7O4npE?wmode=opaque" ;            
+}
+</script></head><body onload="getElements()">
+
+<div id="introDiv">
+<center><h1>Thanks for your participation.</h1><h1></h1></center>
+
+
+
+<h2> You are invited to compare 30 pairs of video relative attributes.
+For each pair, please choose the one which you think has more
+attributes. You can choose "Equal" for cases that you think they are
+the same.
+</h2>
+
+<center>
+<h1><button onclick="startTest()" type="button" name="start" style="width: 300px; height: 60px; margin-left: auto; margin-right: auto; font-size: 30px;">Start</button></h1>
+<h1></h1></center>
+
+</div>
+
+<div id="compareDiv" style="display: none;">
+
+	<div id="exphint" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 1024px; height: 100px;">
+		<h1>Pls first select confidence value, then compare the ages </h1><h1>
+		</h1><h2> You have <span id="counter">30</span> comparisons to do.</h2>
+	</div>
+
+	<div id="exphintsubmit" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 1024px; height: 100px;">
+		<center><h1>Submitting your results, please wait......</h1><h1></h1></center>
+	</div>
+
+
+	<div id="imagediv">
+		<div style="border: 0px solid red; padding: 5px; margin-left: auto; margin-right: auto; width: 1024px;">
+		<iframe id="leftimage" allowfullscreen="" frameborder="0" height="315" width="420"></iframe>
+		<iframe id="rightimage" allowfullscreen="" frameborder="0" height="315" width="420"></iframe>
+	
+		</div>
+		
+	<!--	<div style="margin-left:auto;margin-right:auto; width:900px; height:50px; border:0px solid red; ">
+			<button onClick="leftclick2()" type="button" name="right2" style="width:300px; height:50px; float:left;">Low confidence</button>
+			<button onClick="evenclick2()" type="button" name="even2" style="width:300px; height:50px;float:left; margin-left:auto;margin-right:auto; ">Middle confidence</button>
+			<button onClick="rightclick2()" type="button" name="right2" style="width:300px; height:50px; float:right;">High confidence</button>
+		</div>
+	
+		<div id = "radioconf" align="center"><br>
+		<input type="radio" name="group1" value="lowconf" id="lowconf"  onClick ="leftclick2()" > low confidence<br>
+		<input type="radio" name="group1" value="midconf" id="midconf" onClick = "evenclick2()"> middle confidence<br>
+		<input type="radio" name="group1" value="highconf" id ="highconf" onClick = "rightclick2()"> high confidence <br />
+		
+		</div>
+		
+
+		<div style="margin-left:auto;margin-right:auto; width:900px; height:50px; border:0px solid red; ">
+		birthday party:
+			<button onClick="leftclick()" type="button" name="right" style="width:30px; height:20px; float:left;">Video 1</button>
+			<button onClick="evenclick()" type="button" name="even" style="width:30px; height:20px;float:left; margin-left:auto;margin-right:auto; ">Equal</button>
+			<button onClick="rightclick()" type="button" name="right" style="width:30px; height:20px; float:right;">Video 2</button>
+		</div>
+-->
+<b>Relative
+attribute comparison: [choose one from (V1, V2, and Eq). V1: video 1
+has more attribute; V2: video2 has more attribute; Eq: both vidoes have
+equal attributes]. </b>
+
+
+
+<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[1]Clapping hands: [For which video, can you hear/see more clearly clapping hands?]
+<!--
+10101: 1+01(attribute id)+01 (attribute value)
+-->
+		<input name="clappinghands" value="10101" id="lowconf" onclick="leftclick2()" type="radio"> V1   &nbsp;
+		<input name="clappinghands" value="10100" id="midconf" onclick="evenclick2()" type="radio"> Eq&nbsp;
+		<input name="clappinghands" value="10102"  id="highconf" onclick="rightclick2()" type="radio"> V2&nbsp;
+		</div>
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[2]Drinking:[In which video,  can you see more clearly people are drinking and/or eating?]
+		<input name="Drinking" value="10201" id="lowconf" onclick="leftclick2()" type="radio"> V1   &nbsp;
+		<input name="Drinking" value="10200" id="midconf" onclick="evenclick2()" type="radio"> Eq  &nbsp;
+		<input name="Drinking" value="10202" id="highconf" onclick="rightclick2()" type="radio"> V2&nbsp;
+		</div> 
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[3]Dancing:[In which video, can you see more clearly that people are dancing?]
+		<input name="Dancing" value="10301" id="lowconf" onclick="leftclick2()" type="radio"> V1  &nbsp;
+		<input name="Dancing" value="10300" id="midconf" onclick="evenclick2()" type="radio"> Eq   &nbsp;
+		<input name="Dancing" value="10302" id="highconf" onclick="rightclick2()" type="radio">V2&nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[4]Fast_moving:[In which video are the objects (e.g. cars, people )  moving faster?]
+		<input name="Fast_moving" value="10401" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Fast_moving" value="10400" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Fast_moving" value="10402" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[5]People_singing:[In which video, can you see/hear more clearly that people are singing a song?]
+		<input name="People_singing" value="10501" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="People_singing" value="10500" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="People_singing" value="10502" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[6]Group_of_people:[which video is more crowded with people? ]
+		<input name="Group_of_people" value="10601" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Group_of_people" value="10600" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Group_of_people" value="10602" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[7]People_sitting_in_a_row:[In which video, can you see more clearly that people are sitting in a row?]
+		<input name="People_sitting_in_a_row" value="10701" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="People_sitting_in_a_row" value="10700" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="People_sitting_in_a_row" value="10702" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+    		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[8]People_standing_in_a_row:[In which video, can you see more clearly that people are standing in a row?]
+		<input name="People_standing_in_a_row" value="10801" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="People_standing_in_a_row" value="10800" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="People_standing_in_a_row" value="10802" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[9]Living_room:[which video is more likely taken in a living room?]
+		<input name="Living_room" value="10901" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Living_room" value="10900" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Living_room" value="10902" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[10]Dinning_room:[which video is more likely taken in a dinning room?]
+		<input name="Dinning_room" value="11001" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Dinning_room" value="11000" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Dinning_room" value="11002" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[11]Stadium:[which video is more likely taken in a stadium?]
+		<input name="Stadium" value="11101" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Stadium" value="11100" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Stadium" value="11102" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[12]Church:[which video is more likely taken in a church?]
+		<input name="Church" value="11201" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Church" value="11200" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Church" value="11202" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[13]Park_Garden:[which video is more likely taken in a park garden?]
+		<input name="Park_Garden" value="11301" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Park_Garden" value="11300" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Park_Garden" value="11302" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[14]Urban_scene:[which video is more likely taken in an urban scene?]
+		<input name="Urban_scene" value="11401" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Urban_scene" value="11400" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Urban_scene" value="11402" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[15]indoor:[which video is more likely taken in an indoor environment?]
+		<input name="indoor" value="11501" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="indoor" value="11500" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="indoor" value="11502" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>
+	
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[16]outdoor:[which video is more likely taken in an outdoor environment?]
+		<input name="outdoor" value="11601" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="outdoor" value="11600" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="outdoor" value="11602" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[17]bkg_talking_noise:[In which video can you hear more clearly  background talking noise?]
+		<input name="bkg_talking_noise" value="11701" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="bkg_talking_noise" value="11700" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="bkg_talking_noise" value="11702" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[18]Conversation:[In which video can you hear more clearly conversations of people?]
+		<input name="Conversation" value="11801" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Conversation" value="11800" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Conversation" value="11802" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[19]Laughter:[Which video has louder laughing sound?]
+		<input name="Laughter" value="11901" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Laughter" value="11900" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Laughter" value="11902" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[20]Birthday_song:[In which video can you hear more clearly the Happy Birthday Song?]
+		<input name="Birthday_song" value="12001" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Birthday_song" value="12000" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Birthday_song" value="12002" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[21]Wedding_song:[In which video can you hear more clearly the Wedding March music?]
+		<input name="Wedding_song" value="12101" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Wedding_song" value="12100" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Wedding_song" value="12102" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[22]Camera_zoom:[In which video the camera is zooming more?]
+		<input name="Camera_zoom" value="12201" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Camera_zoom" value="12200" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Camera_zoom" value="12202" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[23]Camera_pan:[In which video the camera is panning more?]
+		<input name="Camera_pan" value="12301" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Camera_pan" value="12300" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Camera_pan" value="12302" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+		<div id="radioconf" style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;"><br>
+		[24]Tracking_following_moving_subject:[In which video the camera has longer shoot of tracking  moving objects?]
+		<input name="Tracking_following_moving_subject" value="12401" id="lowconf" onclick="leftclick2()" type="radio"> video1  &nbsp;
+		<input name="Tracking_following_moving_subject" value="12400" id="midconf" onclick="evenclick2()" type="radio"> equal   &nbsp;
+		<input name="Tracking_following_moving_subject" value="12402" id="highconf" onclick="rightclick2()" type="radio">video2  &nbsp;
+		</div>	
+
+
+
+		<div style="border: 0px solid red; margin-left: auto; margin-right: auto; width: 900px; height: 50px;">
+			<button onclick="leftclick()" type="button" name="nextGroup" style="width: 300px; height: 50px; float: left;">Next Group</button>
+		</div>
+
+
+	<div id="formdiv" style="width: 500px; height: 500px; margin-left: auto; margin-right: auto;"> 
+<form id="resultform" action="http://graphicsurveyapp.appspot.com/">
+			<input name="results" id="resutls" type="hidden">
+			<input name="experiment" id="experiment" value="5" type="hidden">
+		</form>
+</div>
+	
+</div>
+
+</div></body></html>
