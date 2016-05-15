@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Transductive Multi-view Embedding for Zero-Shot Recognition and Annotation
+</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Yanwei Fu">
+        <meta name="author" content="Yanwei Fu">
+        
+        <meta name="keywords" content="Yanwei Fu, USAA, zero-shot learning, AwA, N-shot learning, mult-task learning, QMUL, computer vision, image annotation, zero-shot description" />
+        
+        <!-- Le styles -->
+        <link href="./css/bootstrap.css" rel="stylesheet">
+        <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="./css/docs.css" rel="stylesheet">
+        <link href="./prettify.css" rel="stylesheet">
+        <link href="./css/cavan.css" rel="stylesheet">
+        
+        
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" type="image/ico" href="http://www.eecs.qmul.ac.uk/~ccloy/favicon.ico" /> 
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+    </head>
+    
+    <body>
+        
+        <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+     
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="tooltip-demo">
+                
+                
+                <!--<ul class="breadcrumb">
+                <li><a href="index.html#home">Home</a> <span class="divider">/</span></li>
+                <li><a href="index.html#thumbnails">Download</a> <span class="divider">/</span></li>
+                <li class="active">QMUL Underground Multi-camera Dataset</li>
+            </ul>-->
+            
+            
+                <!-- Home ================================================== -->
+                <section>
+				<div class="page-header">
+					<h2 style="color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+					Interestingness Prediction by Robust Learning to Rank </h2>
+					<p style="color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+					<span style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;">
+					Yanwei Fu, Timothy M. Hospedales, Tao Xiang, Yuan Yao and Shaogang Gong</span><br style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+					<span style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;">
+					School of EECS, Queen Mary University of London, UK 
+					{y.fu,t.hospedales, t.xiang, z.fu, s.gong}@qmul.ac.uk</span></p>
+					</div>
+
+				<div align="left">
+					<p>  <h3> Abstract </h3>
+						The problem of predicting image or video interestingness
+from their low-level feature representations has received increasing interest. As a highly subjective visual attribute, annotating the interestingness value of training data for learning a prediction model is challenging. To make the annotation less subjective and more reliable, recent studies
+employ crowdsourcing tools to collect pairwise comparisons – relying on  majority voting to prune the annotation outliers/errors. In this paper,
+we propose a more principled way to identify annotation outliers by formulating the interestingness prediction task as a unified robust learning
+to rank problem, tackling both the outlier detection and interestingness
+prediction tasks jointly. Extensive experiments on both image and video
+interestingness benchmark datasets demonstrate that our new approach
+significantly outperforms state-of-the-art alternatives.
+					</p>
+				</div>
+
+
+				<div class="row-fluid">
+					<div class="span3">
+						<h3>Download</h3>   
+
+<br /><h3><a href ="supplementary.pdf"> Supplementary report(Avaiable after acceptance)</a> </h3>
+						<h3> Codes and data </h3>
+						 <p>codes: http://www.eecs.qmul.ac.uk/~yf300/ranking/code/  <br />
+I will clean it later. For reference purpose only. We suggested  quadrupen (R) or glmnet (matlab) to solve the regularization path of LASSO. </p>
+					
+						<h3> Paper: </h3>
+[1] Fu, Yanwei; Hospedales, T.; Xiang, T.; Gong, S; Yao. Y:Interestingness Prediction by Robust Learning to Rank, (ECCV 2014). <a href ="ranking_eccv14.pdf"> Paper</a>
+<p>bib: @INPROCEEDINGS{ranking2014ECCV, <br/>
+  author = { Yanwei Fu and Timothy M. Hospedales and Tao Xiang and Yuan Yao and Shaogang Gong}, <br/>
+  title = {Interestingness Prediction by Robust Learning to Rank}, <br/>
+  booktitle = {ECCV}, <br/>
+  year = {2014}<br/>
+}
+</p>
+
+[2] Fu, Yanwei, Hospedales, T.M., Xiang, T., Gong, S.; Yao, Y; Xiong, J.; Wang, Y. : Transductive multi-view zero-shot recognition and annotation. Submitted to IEEE TPAMI (2014)
+<p>bib: @INPROCEEDINGS{ranking2014PAMI, <br/>
+  author = {Yanwei Fu and Timothy M. Hospedales and Tao Xiang and Jiechao Xiong and Yuan Yao and Shaogang Gong and Yizhou Wang}, <br/>
+  title = {Robust Estimation of Subjective Visual Properties}, <br/>
+  booktitle = {undergoing}, <br/>
+  year = {2014}<br/>
+}
+</p>
+
+				        </div>
+				</div>
+
+					
+		
+			<div>
+				
+			</div>
+
+
+
+
+        
+</body></html>
