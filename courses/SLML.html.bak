@@ -1,0 +1,602 @@
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>CPSC 340 - Machine Learning and Data Mining (Fall 2015)</title>
+    <meta name="description" content="
+This is the course webpage for the Machine Learning course CPSC 340 taught by Mark Schmidt in Fall 2015.">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-794527-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+  <body><font face="helvetica">
+      <h1>Introduction to Statistical Learning and Machine Learning (Fall 2016)</h1>
+      Lectures:&nbsp; Wednesdays (6-8, H4301)<br>
+      <br>
+      <p>
+        Office hours: Wed. 4:10-5:30pm (???N211? <br>
+      </p>
+      <p>
+        Instructor: Yanwei Fu (????</p>
+      <p>
+        Teaching Assistants: Chang Liao (??)</p>
+      <p>
+        <b>Synopsis</b>: As an introduction to statistical learning and machine
+        learning, this course is about learning from data: statistical learning
+        refers to a set of tools for modeling and understanding complex
+        datasets; and machine learning is defined as a set of methods that can
+        automatically detect patterns in data, and then use the uncovered
+        patterns to predict future data, or to perform other kinds of decision
+        making under uncertainty. Thus, the main objectiveness is to present
+        students a unified view of both two fields through the teaching of the
+        methodology, applications and the key ideas behind the methods. The
+        whole course is illustrated with R as well as other statistical
+        programming languages such as Matlab and Python. We aim at gradually
+        cultivating students the abilities of both theoretical analysis and
+        practical problem solving.</p>
+      <p>
+        <b>Textbook</b>:&nbsp;</p>
+      <p>
+        <!--StartFragment-->
+      </p>
+    </font>
+    <p class="MsoNormal">1. James, Witten, Hastie and Tibshirani (2013) An
+      Introduction to Statistical Learning, with applications in R. Springer.<o:p></o:p></p>
+    <p class="MsoNormal">2. Bishop, C.M. (2006), Pattern recognition and Machine
+      Learning, Springer.</p>
+    <p class="MsoNormal">3. Hastie, T., Tibshurani, R. and Friedman, J. (2011)
+      The
+      Elements of Statistical Learning, data mining, inference and Prediction,
+      2ndEdition. Springer.<o:p></o:p><br>
+      <o:p></o:p></p>
+    <p><!--EndFragment-->
+    </p>
+    <font face="helvetica">
+      <p>
+        <b>Prerequisites</b>: </p>
+      <ul>
+        Prerequisites on Math: <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Basic
+        linear Algebra/Calculus: vectors, matrices, eigenvalues;Multivariate
+        calculus;<br>
+        Probability: <br>
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; conditional
+        probability, expectations;<br>
+        Prerequisites on programming:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Data
+        structures: pointers, trees, heaps, hash maps, graphs;&nbsp; Scientific
+        computing: matrix factorisation .
+      </ul>
+      <p>
+        <b>Registration</b>: Undergraduate and graduate students from any
+        department are welcome to take the class, provided that they satisfy the
+        prerequisites. If you do not satisfy the exact prerequisites but would
+        still like to enroll in the class, please fill out the the form
+        available <a href="../340_prereqs.pdf">here</a>. If you are interested
+        in these topics but the course is full, please sign up for the waiting
+        list; a certain number of students are likely to shift their schedule
+        which will open up spots, while a long waiting list makes it more likely
+        that we can have multiple sections and multiple courses on these topics.
+        You may also want to consider taking related courses from statistics: <a
+          href="https://courses.students.ubc.ca/cs/main?pname=subjarea&amp;tname=subjareas&amp;req=3&amp;dept=STAT&amp;course=305">STAT
+          305</a>, <a href="https://courses.students.ubc.ca/cs/main?pname=subjarea&amp;tname=subjareas&amp;req=3&amp;dept=STAT&amp;course=306">STAT
+          306</a>, <a href="https://courses.students.ubc.ca/cs/main?pname=subjarea&amp;tname=subjareas&amp;req=3&amp;dept=STAT&amp;course=406">STAT
+          406</a>, <a href="https://courses.students.ubc.ca/cs/main?pname=subjarea&amp;tname=subjareas&amp;req=3&amp;dept=STAT&amp;course=460">STAT
+          460</a>, <a href="https://courses.students.ubc.ca/cs/main?pname=subjarea&amp;tname=subjareas&amp;req=3&amp;dept=STAT&amp;course=461">STAT
+          461</a>.
+      </p>
+      <p>
+        <b>Grading</b>:
+        <!--StartFragment-->
+      </p>
+    </font>
+    <p class="MsoNormal" style="text-indent:21.0pt;mso-char-indent-count:2.0"><span
+        style="font-family:??;color:black">(1)
+        Class attendance (10%), includes class
+        performance, class discussion and critical thinking.<o:p></o:p></span></p>
+    <p class="MsoNormal" style="text-indent:21.0pt;mso-char-indent-count:2.0"><span
+        style="font-family:??;color:black">(2)
+        Weekly homeworks (20%), is of 8-10 times.
+        We expect the student can finish each one within 1.5-2.5 hours.<o:p></o:p></span></p>
+    <p class="MsoNormal" style="text-indent:21.0pt;mso-char-indent-count:2.0"><span
+        style="font-family:??;color:black">(3)
+        Monthly mini-projects (50%), is of 3-4
+        projects which are selected from the real-world Big-Data problems,
+        including
+        but not limited to, computer vision, pattern recognition, recommendation
+        system, social network, financial data analysis and bioinformatics. In
+        general, the reports
+        should be written in English, and include algorithm skims (3%), critical
+        codes
+        (2%), experimental analysis (3%); and the discussion of proposed method
+        (2%).<o:p></o:p></span></p>
+    <p class="MsoNormal" style="text-indent:21.0pt;mso-char-indent-count:2.0"><span
+        style="font-family:??;color:black">(4)
+        Final project (20%) is finished by one
+        team. Each team should have up to 3 students; and will solve a
+        real-world
+        Big-Data problem. </span><span style="font-family:??;color:black"><span
+          style="font-family:??;color:black">In
+          general, </span>the final report should be written in English. The
+        main components of the report will cover (1)
+        introduction to background and potential applications (2%); (2) Review
+        of the
+        state-of-the-art (3%); (3) Algorithms and critical codes in a nutshell
+        (10%);
+        (4) Experimental analysis and discussion of proposed methodology (5%). <o:p></o:p></span><span
+        style="font-size:10.5pt;mso-bidi-font-size:12.0pt;font-family:??;
+mso-bidi-font-family:&quot;Times New Roman&quot;;color:black;mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA"></span></p>
+    <font face="helvetica">
+      <p></p>
+      <h2>Timetable</h2>
+      <p><br>
+      </p>
+    </font>
+   
+    <font face="helvetica">
+      <p><br>
+      </p>
+      <table style="width: 1244px; height: 1434px;" border="3" cellpadding="5">
+        <tbody>
+          <tr align="left">
+            <th>Date</th>
+            <th>Topic</th>
+            <th>Related Readings and Links</th>
+            <th>Homework and Notes</th>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Wed Sep </td>
+            <!-- Slides  -->
+            <td> <br>
+              <!-- Reading  --></td>
+            <td><a href="https://en.wikipedia.org/wiki/Machine_learning">Wikipedia
+                Machine Learning</a> <a href="http://www.economist.com/news/briefing/21650526-artificial-intelligence-scares-peopleexcessively-so-rise-machines">Rise
+                of the Machines</a> <a href="http://www.thetalkingmachines.com/blog/2015/1/1/hello-world">Talking
+                Machine Episode 1</a></td>
+            <!-- Homework  -->
+            <td><a href="a1.pdf">Assignment 1</a>, <a href="a1.zip">a1.zip</a>
+              <a href="notes_probability.pdf">Notes on Probability</a></td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Sep 11</td>
+            <!-- Slides  -->
+            <td> <a href="L2.pdf">Data Exploration</a></td>
+            <!-- Reading  -->
+            <td><a href="http://guides.library.duke.edu/datavis/vis_types">Visualization
+                Types</a> <a href="https://developers.google.com/chart/interactive/docs/gallery?hl=en">Google
+                Chart Gallery</a> <a href="http://www.mathworks.com/help/stats/examples/visualizing-multivariate-data.html">Matlab
+                demos</a> <a href="http://selection.datavisualization.ch/">Other
+                Tools</a></td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Mon Sep 14</td>
+            <!-- Slides  -->
+            <td> <a href="L3.pdf">Decision Trees</a></td>
+            <!-- Reading  -->
+            <td><a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1">A
+                Visual Introduction to Machine Learning</a>, AI:AMA 18.2-3, ESL:
+              9.2, ML:APP 16.2</td>
+            <!-- Homework  -->
+            <td><a href="notes_BigO.pdf">Notes on Big-O</a></td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Wed Sep 16</td>
+            <!-- Slides  -->
+            <td> <a href="L4.pdf">Learning Theory</a></td>
+            <!-- Reading  -->
+            <td>AI: AMA 18.4-5, ESL 7.1-7.4, 7.10, ML:APP 1.4, 6.5</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Sep 18</td>
+            <!-- Slides  -->
+            <td> <a href="L5.pdf">Generative Models</a></td>
+            <!-- Reading  -->
+            <td>ESL 4.3, ML: APP 2.2, 3.5, 4.1-4.2</td>
+            <!-- Homework  -->
+            <td>Assignment 1 due</td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Mon Sep 21</td>
+            <!-- Slides  -->
+            <td> <a href="L6.pdf">Non-Parametric Models</a></td>
+            <!-- Reading  -->
+            <td>AI: AMA 18.8, ESL 13.3, ML:APP 1.4</td>
+            <!-- Homework  -->
+            <td><a href="a2.pdf">Assignment 2</a>, <a href="a2.zip">a2.zip</a></td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Wed Sep 23</td>
+            <!-- Slides  -->
+            <td> <a href="L7.pdf">Ensemble Methods</a></td>
+            <!-- Reading  -->
+            <td>AI: AMA 18.10, ESL: 7.11, 8.2, 15, 16.3, ML: APP 6.2.1, 16.2.5,
+              16.6</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Sep 25</td>
+            <!-- Slides  -->
+            <td> <a href="L8.pdf">Clustering</a></td>
+            <!-- Reading  -->
+            <td> IDM 8.1-8.2, ESL: 14.3, <a href="https://www.youtube.com/watch?v=BIQDlmZDuf8">K-Means++
+                Demo</a></td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Mon Sep 28</td>
+            <!-- Slides  -->
+            <td> <a href="L9.pdf">Density-based Clustering</a></td>
+            <!-- Reading  -->
+            <td> IDM 8.4</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Wed Sep 30</td>
+            <!-- Slides  -->
+            <td> <a href="L10.pdf">Hierarchical Clustering</a></td>
+            <!-- Reading  -->
+            <td> IDM 8.3, ESL 14.3.12, ML:APP 25.5</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Oct 2</td>
+            <!-- Slides  -->
+            <td> <a href="L11.pdf">Association Rules</a></td>
+            <!-- Reading  -->
+            <td> IDM 6.1-6.3, ESL 14.2</td>
+            <!-- Homework  -->
+            <td>Assignment 2 due</td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Mon Oct 5</td>
+            <!-- Slides  -->
+            <td> <a href="L12.pdf">Linear Regression</a></td>
+            <!-- Reading  -->
+            <td> <a href="https://www.youtube.com/watch?v=1CMDS4-PKKQ">Partial
+                Derivatives and Gradients</a> (<a href="https://www.youtube.com/watch?v=-u0mqFqpMNY">Part
+                2</a>, <a href="https://www.youtube.com/watch?v=U7HQ_G_N6vo">Part
+                3</a>, <a href="https://www.youtube.com/watch?v=OB8b8aDGLgE">Part
+                4</a>), ELS 3.1-2, ML:APP 7.1-3, AI:AMA 18.6</td>
+            <!-- Homework  -->
+            <td><a href="a3.pdf">Assignment 3</a>, <a href="a3.zip">a3.zip</a>,
+              <a href="../../Documents/2009_Notes_LinearAlgebra.pdf">Notes on
+                Linear Algebra</a></td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Wed Oct 7</td>
+            <!-- Slides  -->
+            <td> <a href="L13.pdf">Non-Linear Regression</a></td>
+            <!-- Reading  -->
+            <td> ESL 5.1, 6.3, and 6.7</td>
+            <!-- Homework  -->
+            <td> <br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Oct 9</td>
+            <!-- Slides  -->
+            <td> <a href="L14.pdf">Regularization</a></td>
+            <!-- Reading  -->
+            <td> ESL 3.4, ML:APP 7.5, AI:AMA 18.4</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Wed Oct 14</td>
+            <!-- Slides  -->
+            <td> <a href="L15.pdf">Robust Regression</a></td>
+            <!-- Reading  -->
+            <td> ML:APP 7.4</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Oct 16</td>
+            <!-- Slides  -->
+            <td> <a href="L16.pdf">Feature Selection</a></td>
+            <!-- Reading  -->
+            <td> ESL 3.3, ML:APP 13.3</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Mon Oct 19</td>
+            <!-- Slides  -->
+            <td> <a href="L17.pdf">Logistic Regression</a></td>
+            <!-- Reading  -->
+            <td> ESL 4.4, ML:APP 8.1-3, AI:AMA 18.9</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Wed Oct 21</td>
+            <!-- Slides  -->
+            <td> <a href="L18.pdf">Kernel Methods</a></td>
+            <!-- Reading  -->
+            <td> ESL 4.5 and 12.1-3, ML:APP 14.1-5</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Oct 23</td>
+            <!-- Slides  -->
+            <td> <a href="L19.pdf">Stochastic Gradient</a></td>
+            <!-- Reading  -->
+            <td> ML:APP 8.5</td>
+            <!-- Homework  -->
+            <td>Assignment 3 due</td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Mon Oct 26</td>
+            <!-- Slides  -->
+            <td> <a href="L20.pdf">Principal Component Analysis</a></td>
+            <!-- Reading  -->
+            <td> ESL 14.5, IDM B.1, ML:APP 12.2 </td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Wed Oct 28</td>
+            <!-- Slides  -->
+            <td> <a href="L21.pdf">Outlier Detection</a></td>
+            <!-- Reading  -->
+            <td> IDM 10.1-5</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Oct 30</td>
+            <!-- Slides  -->
+            <td> Midterm</td>
+            <!-- Reading  -->
+            <td> <br>
+            </td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Mon Nov 2</td>
+            <!-- Slides  -->
+            <td> <a href="L22.pdf">Sparse Matrix Factorization</a></td>
+            <!-- Reading  -->
+            <td> ESL 14.6, ML: APP 13.8</td>
+            <!-- Homework  -->
+            <td><a href="a4.pdf">Assignment 4</a>, <a href="a4.zip">a4.zip</a></td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Wed Nov 4</td>
+            <!-- Slides  -->
+            <td> <a href="L23.pdf">Recommender Systems</a></td>
+            <!-- Reading  -->
+            <td> <a href="https://en.wikipedia.org/wiki/Recommender_system">Wikipedia</a></td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Nov 6</td>
+            <!-- Slides  -->
+            <td> <a href="L24.pdf">Multi-Dimensional Scaling</a></td>
+            <!-- Reading  -->
+            <td> ESL 14.8-9, IDM B.2 </td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Mon Nov 9</td>
+            <!-- Slides  -->
+            <td> <a href="L25.pdf">Neural Networks</a></td>
+            <!-- Reading  -->
+            <td> <a href="https://www.youtube.com/watch?v=bHvf7Tagt18">Google</a>,
+              ML:APP 16.5, ESL 11.1-4, AI: AMA 18.7</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Nov 13</td>
+            <!-- Slides  -->
+            <td> <a href="L26.pdf">Deep Learning</a></td>
+            <!-- Reading  -->
+            <td> ML:APP 28.3, ESL 11.5</td>
+            <!-- Homework  -->
+            <td>Assignment 4 due</td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Mon Nov 16</td>
+            <!-- Slides  -->
+            <td> <a href="L27.pdf">Convolutional Neural Networks</a></td>
+            <!-- Reading  -->
+            <td> ML:APP 28.4, ESL 11.7</td>
+            <!-- Homework  -->
+            <td><a href="a5.pdf">Assignment 5</a>, <a href="a5.zip">a5.zip</a>
+              <a href="t5a.pdf">Tutorial 5a</a></td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Wed Nov 18</td>
+            <!-- Slides  -->
+            <td> <a href="L28.pdf">Discrete Labels</a></td>
+            <!-- Reading  -->
+            <td> ML:APP 8.3.7 and 9.3-5, ESL 4.4</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Nov 20</td>
+            <!-- Slides  -->
+            <td> <a href="L29.pdf">Semi-Supervised Learning</a></td>
+            <!-- Reading  -->
+            <td> <a href="https://en.wikipedia.org/wiki/Semi-supervised_learning">Wikipedia</a></td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Mon Nov 23</td>
+            <!-- Slides  -->
+            <td> <a href="L30.pdf">Ranking</a></td>
+            <!-- Reading  -->
+            <td> <a href="http://www.stat.cmu.edu/%7Eryantibs/datamining/lectures/03-pr.pdf%0A">PageRank
+                Slides</a>, <a href="https://uu.diva-portal.org/smash/get/diva2:536076/FULLTEXT01.pdf">PageRank
+                math/code</a>, ESL 14.10, ML:APP 9.7, AI: AMA 22.3</td>
+            <!-- Homework  -->
+            <td> <a href="t5b.pdf">Tutorial 5b</a></td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Wed Nov 25</td>
+            <!-- Slides  -->
+            <td> <a href="L31.pdf">Spectral Clustering</a></td>
+            <!-- Reading  -->
+            <td> ESL 14.5.3, ML:APP 25.4</td>
+            <!-- Homework  -->
+            <td><a href="a6.pdf">Assignment 6</a>, <a href="a6.zip">a6.zip</a></td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Nov 27</td>
+            <!-- Slides  -->
+            <td> <a href="L32.pdf">Sequence Mining</a></td>
+            <!-- Reading  -->
+            <td> IDM 7.4</td>
+            <!-- Homework  -->
+            <td>Assignment 5 due</td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Mon Nov 30</td>
+            <!-- Slides  -->
+            <td> <a href="L33.pdf">Markov Chains</a></td>
+            <!-- Reading  -->
+            <td> AI:AMA 15.1-3, ML: APP 17.1-4</td>
+            <!-- Homework  -->
+            <td><a href="t6.pdf">Tutorial 6</a></td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Wed Dec 2</td>
+            <!-- Slides  -->
+            <td> <a href="L34.pdf">Belief Networks</a></td>
+            <!-- Reading  -->
+            <td> AI:AMA 14.1-4, ML:APP 10.1-5</td>
+            <!-- Homework  -->
+            <td><br>
+            </td>
+          </tr>
+          <tr align="left">
+            <!-- Date    -->
+            <td> Fri Dec 4</td>
+            <!-- Slides  -->
+            <td> <a href="L35.pdf">Course Review/Preview</a></td>
+            <!-- Reading  -->
+            <td> <br>
+            </td>
+            <!-- Homework  -->
+            <td>Assignment 6 due</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Related courses that have online notes</h3>
+      <ul>
+        <li> <a href="http://www.cs.ubc.ca/%7Enando/340-2012/">Machine Learning</a>
+          (UBC 2012)
+        </li>
+        <li> <a href="http://cs229.stanford.edu/materials.html">Machine
+            Learning</a> (Stanford)
+        </li>
+        <li> <a href="http://webdocs.cs.ualberta.ca/%7Edale/cmput466/w06/notes.html">Introduction
+            to Machine Learning</a> (Alberta - Schuurmans)
+        </li>
+        <li> <a href="http://webdocs.cs.ualberta.ca/%7Egreiner/C-466/SLIDES/syllabus.html">Introduction
+            to Machine Learning</a> (Alberta - Greiner)
+        </li>
+        <li> <a href="http://www.eecs.berkeley.edu/%7Erussell/classes/cs194/f11/lectures.html#Week4">Introduction
+            to Machine Learning</a> (Berkeley)
+        </li>
+        <li> <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-867-machine-learning-fall-2006/lecture-notes/">Machine
+            Learning</a> (MIT)
+        </li>
+        <li> <a href="http://www.cs.cmu.edu/%7Eepxing/Class/10701/lecture.html">Machine
+            Learning</a> (CMU)
+        </li>
+        <li> <a href="http://ciml.info">Course in Machine Learning</a>
+          (Maryland)
+        </li>
+        <li> <a href="http://webdocs.cs.ualberta.ca/%7Ezaiane/courses/cmput695/F07/695Schedule.html">Principals
+            of Knowledge Discovery in Data</a> (Alberta)
+        </li>
+        <li> <a href="http://web.stanford.edu/class/cs246/handouts.html">Mining
+            Massive Data Sets</a> (Stanford)
+        </li>
+        <li> <a href="http://www.stat.cmu.edu/%7Eryantibs/datamining/">Data
+            Mining</a> (CMU)
+        </li>
+      </ul>
+      <hr>
+      <br>
+      <a href="../..">Mark Schmidt</a> &gt; <a href="..">Courses</a> &gt; CPSC
+      340
+    </font>
+  </body>
+</html>
