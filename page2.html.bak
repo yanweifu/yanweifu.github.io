@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Faculty Name: Department Name</title>
+<link href="defaultstyle.css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="branding.js"></script>
+<script type="text/JavaScript" src="http://www.colorado.edu/templates/faculty-template/js/curvycorners.js"></script>
+
+</head>
+
+<body>
+<div id="container">
+	<div id="ucb"><script type="text/javascript">ucbheader();</script></div>
+    <div id="wrapper">
+     <div id="nav">
+    	<ul>
+         	<li><a href="index.html">Home</a></li>
+            <li><a href="page1.html">Teaching</a></li>
+            <li><a href="page2.html">CV</a></li>
+            <li><a href="page3.html">Projects</a></li>
+            <li><a href="page4.html">My Life</a></li>
+            <li><a href="page5.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="banner">
+    	<div id="name">
+    	<h1>Yanwei Fu </h1>
+    	<p>PhD student, Vision Group </p>
+    	<p>EECS, Queen Mary, University of London
+</p>
+    	</div>
+    </div>
+
+   
+    <div id="page">
+		        <div id="content">
+		        
+		        <div id="contentbar" class="contentbar2">
+		     	</div>
+<h3> Education</h3>
+
+<p>Master of Science, Computer vision and machine learning, 09/2008-06/2011
+
+National Key Lab for Novel Software Technology, Department of Computer Science and Technology, Nanjing University, </p>
+
+<p>PhD with fully funded scholarship of QMUL, in Vision Group, EECS, QueenMary University of London, 09/2011-NOW </p>
+
+<p> 2012.07 Visiting Prof. Yuan Yao in School of Mathematical Sciences Peking University </p>
+
+
+		        
+
+<a href="./yanwei_cv.pdf">My CV</a>
+
+        </div>
+	</div>
+    </div>
+    <div id="footer">
+    	<script type="text/javascript">ucbfooter();</script>
+        &copy; Yanwei Fu
+    </div>
+</div>
+</body>
+</html>
