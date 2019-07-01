@@ -1,6 +1,6 @@
 [Home](./)
-- [Introduction](./yanweifu.github.io/slbi_doc/README.md)
-- [Install & Contribute](./yanweifu.github.io/slbi_doc/Install)
+- [Introduction](./README.md)
+- [Install & Contribute](./Install)
 - [API](./API/)
   - [slbi_opt](./yanweifu.github.io/slbi_doc/API/slbi_opt/)
      - [assign_name](./API/slbi_opt/assign_name)
