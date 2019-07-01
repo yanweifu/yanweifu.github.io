@@ -1,3 +1,4 @@
+[Home][/]
 - [Introduction](yanweifu.github.io/slbi_doc/README.md)
 - [Install & Contribute](yanweifu.github.io/slbi_doc/Install)
 - [API](API/)
