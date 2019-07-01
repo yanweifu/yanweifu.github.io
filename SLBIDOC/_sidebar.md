@@ -1,5 +1,6 @@
 
 - [Introduction](README.md)
+- [Guide](guide.md)
 - [Install & Contribute](Install.md)
 - [API](API/)
      - [assign_name](API/slbi_opt/assign_name.md)
