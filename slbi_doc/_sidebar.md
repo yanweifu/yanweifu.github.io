@@ -1,7 +1,7 @@
 
-- [Introduction](README)
-- [Install & Contribute](Install)
-- [API](API/)
+* [Introduction](README)
+* [Install & Contribute](Install)
+*[API](API/)
   - [slbi_opt](API/slbi_opt/)
      - [assign_name](API/slbi_opt/assign_name)
      - [initialize_slbi](API/slbi_opt/initialize_slbi)
