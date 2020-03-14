@@ -3,9 +3,10 @@
   <head>
     <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
     <title>Yanwei Fu: EECS-QMUL</title>
-    <link href="defaultstyle.css" rel="stylesheet" media="screen" />
-    <script type="text/javascript" src="branding.js"></script>
-    <script type="text/JavaScript" src="http://www.colorado.edu/templates/faculty-template/js/curvycorners.js"></script>
+    <link media="screen" rel="stylesheet" href="defaultstyle.css" />
+    <script src="branding.js" type="text/javascript"></script>
+    <script src="http://www.colorado.edu/templates/faculty-template/js/curvycorners.js"
+type="text/JavaScript"></script>
     <!-- Custom CSS for the 'Heroic Features' Template -->
     <!--<link href="css/heroic-features.css" rel="stylesheet">-->
     <style>
@@ -93,40 +94,41 @@
           <ul>
           </ul>
           <ul>
-            <li><b>FMMu-Net: Face Morphological Multi-branch Network for Makeup-invariant Face Verification.
-              Wenxuan Wang, Xuelin Qian, Yanwei Fu, Yu-Gang Jiang, Qi Tian, Xiangyang Xue. CVPR 2020
-                <br />
+              <li><b>FMMu-Net: Face Morphological Multi-branch Network for
+                Makeup-invariant Face Verification. Wenxuan Wang, Xuelin Qian,
+                Yanwei Fu, Yu-Gang Jiang, Qi Tian, Xiangyang Xue. CVPR 2020. <br />
               </b></li>
-                 <br />
-               <li><b>Sketch-BERT: Learning Sketch Bidirectional Encoder Representation from Transformers
-                 by Self-supervised Learning of Sketch Gestalt. Hangyu Lin, Yanwei Fu, Yu-Gang Jiang,
-                 Xiangyang Xue. CVPR 2020
-                <br />
+            <br />
+            <li><b>FMMu-Net: Face Morphological Multi-branch Network for
+                Makeup-invariant Face Verification. Wenxuan Wang, Xuelin Qian,
+                Yanwei Fu, Yu-Gang Jiang, Qi Tian, Xiangyang Xue. CVPR 2020. <br />
               </b></li>
-                 <br />
-               <li><b>Neural Pose Transfer by Spatially Adaptive Instance Normalization.
-                 Jiashun Wang, Chao Wen, Yanwei Fu, Haitao Lin, Tianyun Zhou, Xiangyang Xue, Yinda Zhang.
-                 CVPR 2020.
-                <br />
+            <br />
+            <li><b>Sketch-BERT: Learning Sketch Bidirectional Encoder
+                Representation from Transformers by Self-supervised Learning of
+                Sketch Gestalt. Hangyu Lin, Yanwei Fu, Yu-Gang Jiang, Xiangyang
+                Xue. CVPR 2020 <br />
               </b></li>
-                 <br />
-               <li><b>Instance Credibility Inference for Few-Shot Learning.
-                 Yikang Wang, Chengming Xu, Chen Liu, Li Zhang, Yanwei Fu, CVPR 2020.
-                 <br />
+            <br />
+            <li><b>Neural Pose Transfer by Spatially Adaptive Instance
+                Normalization. Jiashun Wang, Chao Wen, Yanwei Fu, Haitao Lin,
+                Tianyun Zhou, Xiangyang Xue, Yinda Zhang. CVPR 2020. <br />
               </b></li>
-                 <br />
-               <li><b>Feature Deformation Meta-Networks in Image Captioning of Novel Objects.
-                 Tingjia Cao, Ke Han, Xiaomei Wang, Lin Ma,
-                 Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue, AAAI 2020
-                <br />
+            <br />
+            <li><b>Instance Credibility Inference for Few-Shot Learning. Yikang
+                Wang, Chengming Xu, Chen Liu, Li Zhang, Yanwei Fu, CVPR 2020. <br />
               </b></li>
-                 <br />
-               <li><b>Main-Secondary Network for Defect Segmentation of
-                Textured Surface Images. Yu Xie, Fangrui Zhu, Yanwei Fu, IEEE
-                Winter Conference on Applications of Computer Vision (WACV 2020)
-                <br />
+            <br />
+            <li><b>Feature Deformation Meta-Networks in Image Captioning of
+                Novel Objects. Tingjia Cao, Ke Han, Xiaomei Wang, Lin Ma, Yanwei
+                Fu, Yu-Gang Jiang, Xiangyang Xue, AAAI 2020 <br />
               </b></li>
-                 <br />
+            <br />
+            <li><b>Main-Secondary Network for Defect Segmentation of Textured
+                Surface Images. Yu Xie, Fangrui Zhu, Yanwei Fu, IEEE Winter
+                Conference on Applications of Computer Vision (WACV 2020) <br />
+              </b></li>
+            <br />
           </ul>
           <h3>2019<br />
           </h3>
@@ -205,6 +207,10 @@
             <li><b>Take Goods from Shelves: A Dataset for Class-Incremental
                 Object Detection (full paper). Yu Hao, Yanwei Fu, Yu-Gang Jiang.
                 ACM ICMR 2019 </b><b>[<a href="https://github.com/jinyu121/CIOD">codes</a>]</b><b>
+              </b></li>
+            <br />
+            <li><b>A Large-scale Attribute Dataset for Zero-shot Learning. Bo Zhao, Yanwei Fu, Rui Liang, Jiahong Wu, Yonggang Wang, Yizhou Wang.
+                CVPR workshop on MULA 2019 </b><b>[<a href="https://github.com/PatrickZH/A-Large-scale-Attribute-Dataset-for-Zero-shot-Learning">codes</a>]</b><b>
               </b></li>
             <br />
             <li><b>Large-scale Datasets for Going Deeper in Image Understanding.
@@ -691,8 +697,8 @@
                       <p><b>            Yanwei Fu</b>; <b>Timothy M. Hospedales</b>
                         ; <b>Tao Xiang</b> ; Shaogang Gong (IEEE TPAMI,Feb
                         2014, vol 36(2), Page 303-316, SCI/EI,<b>            
-                                       impact factor 6.077</b>)  <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=6552193"
-                          class="btn btn-primary">PDF</a>
+                                       impact factor 6.077</b>)  <a class="btn btn-primary"
+                          href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=6552193">PDF</a>
                         <a href="./USAA/download/"> dataset</a></p>
                       <p><span style="color: #065388;"></span><b>2012<br />
                         </b> </p>
@@ -716,12 +722,10 @@
                       <p><b> </b></p>
                       <p><b><b>            Yanwei Fu</b>, Yanwen Guo. (2011 IEEE
                           International Conference on Multimedia and Expo
-                          (ICME)), Page 1-6<b><b><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876"
-                                class="btn btn-primary">   
+                          (ICME)), Page 1-6<b><b><a class="btn btn-primary" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876">   
                                 PDF</a></b></b></b></p>
                       <b> </b><b>
-                        <p><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876"
-                            class="btn btn-primary">   
+                        <p><a class="btn btn-primary" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876">   
                             <br /></a></p>
                       </b>2010<br />
                     </div>
@@ -740,8 +744,8 @@
                       </ul>
                       <p><b>            Yanwei Fu</b>, Yanwen Guo; Yanshu Zhu;
                         Feng Liu; Chanming Song; Zhi-hua Zhou. (IEEE TMM Nov
-                        2010, vol 12(7), Page 717-729,             SCI/EI)<a href="http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?arnumber=5482155"
-                          class="btn btn-primary">  
+                        2010, vol 12(7), Page 717-729,             SCI/EI)<a class="btn btn-primary"
+                          href="http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?arnumber=5482155">  
                           PDF</a><a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/summarization/summarization.html">   
                           dataset  </a><b><a href="file:///Users/fuylocal/yanweifu.github.io/visualization_multiview.html">Youtube
                             Demo </a></b> </p>
