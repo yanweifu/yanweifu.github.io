@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <meta content="application/xhtml+xml; charset=UTF-8" http-equiv="content-type" />
     <title>Yanwei Fu: EECS-QMUL</title>
     <link href="defaultstyle.css" rel="stylesheet" media="screen" />
     <script type="text/javascript" src="branding.js"></script>
@@ -91,22 +91,44 @@
         <div id="page">
           <h3>2021</h3>
           <ul>
-              <li><b> Distance Restricted Transformer Encoder for Multi-label Classification.
-                Xiaomei Wang Yaqian Li, Tong Luo, Yandong Guo, Yanwei Fu, Xiangyang Xue. IEEE ICME 2021<br />
+            <li><b> Regularising Knowledge Transfer by Meta Functional Learning.
+                Pan Li, Yanwei Fu, Shaogang Gong. IJCAI 2021</b></li>
+            <li><b><br />
+              </b></li>
+            <br />
+               <li><b> NMS-Loss: Learning with Non-Maximum Suppression for Crowded Pedestrian Detection.
+                Zekun Luo, Zheng Fang, Sixiao Zheng, Yabiao Wang, Yanwei Fu. ACM ICMR 2021</b></li>
+            <li><b><br />
               </b></li>
             <br />
             
-              <li><b> Global-to-Local Dynamic Feature Aggregation for Unsupervised Person Re-identification.
-                Li Wei, Jiayuan Fan, Yanwei Fu. IEEE ICME 2021<br />
+               <li><b> Can Action be Imitated? Learn to Reconstruct and Transfer Human Dynamics from Videos.
+                YuQian Fu. IJCAI 2021</b></li>
+            <li><b><br />
               </b></li>
             <br />
             
-            
-              <li><b> Depth-Guided AdaIn and Shift Attention Network for Vision-and-Language Navigation.
-                Qiang Sun, Yifeng Zhuang, Zhengqing Chen, Yanwei Fu, Xiangyang Xue. IEEE ICME 2021<br />
+               <li><b> Neural Symbolic Representation Learning for Image Captioning.
+                Xiaomei Wang, Lin Ma, Yanwei Fu, Xiangyang Xue. ACM ICMR 2021</b></li>
+            <li><b><br />
               </b></li>
             <br />
             
+            <li><b> Distance Restricted Transformer Encoder for Multi-label
+                Classification. Xiaomei Wang Yaqian Li, Tong Luo, Yandong Guo,
+                Yanwei Fu, Xiangyang Xue. IEEE ICME 2021<br />
+              </b></li>
+            <br />
+            <li><b> Global-to-Local Dynamic Feature Aggregation for Unsupervised
+                Person Re-identification. Li Wei, Jiayuan Fan, Yanwei Fu. IEEE
+                ICME 2021<br />
+              </b></li>
+            <br />
+            <li><b> Depth-Guided AdaIn and Shift Attention Network for
+                Vision-and-Language Navigation. Qiang Sun, Yifeng Zhuang,
+                Zhengqing Chen, Yanwei Fu, Xiangyang Xue. IEEE ICME 2021<br />
+              </b></li>
+            <br />
             <li><b> Learning Salient Boundary Feature for Anchor-free Temporal
                 Action Localization. Chuming Lin, Chengming Xu, Donghao Luo,
                 Yabiao Wang, Ying Tai, Chengjie Wang, Jilin Li, Feiyue Huang,
