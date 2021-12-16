@@ -1,50 +1,993 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">  <head>    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />    <title>Yanwei Fu: EECS-QMUL</title>    <link href="defaultstyle.css" rel="stylesheet" media="screen" />    <script type="text/javascript" src="branding.js"></script>    <script type="text/JavaScript" src="http://www.colorado.edu/templates/faculty-template/js/curvycorners.js"></script>    <!-- Custom CSS for the 'Heroic Features' Template -->    <!--<link href="css/heroic-features.css" rel="stylesheet">-->    <style>		p.confloc {			font-style: italic;		}		.container{		  max-width: none !important;		  width: 970px !important;		}		.thumbnail {			clear: both;			margin-bottom: 10px;		}		.thumbnail img {			overflow: hidden;			height: 150px!important;			width: 200px!important;			float: left;			margin-right: 20px;			margin-bottom: 20px;		}		.thumbnail h3 {			font-size: 1em;			font-weight: bold;			margin-top: 0px;		}		div.caption {			text-align: left;		}		.hero-spacer {			padding: 50px 0px 10px 0px;		}		.hero-spacer h1 {			font-size: 1em;			font-weight: bolder;		}		.hero-spacer p {			font-size: 0.75em;		}		nav {			overflow: hidden;		}		.navbar {			height: 20px;		}		.rl_twitter {			float: right;			position: relative;			opacity: 0;		}		.avatar {			width: 20px!important;			height: 20px!important;		}		.custom-timeline-owner-profile, .timeline .e-entry-title, .p-author .p-name, .cards-base h3, .new-tweets-bar button, .load-tweets, .no-more-pane {			font-size: 10px!important;		}	</style>  </head>  <body>    <div id="container">      <div id="ucb">        <script type="text/javascript">ucbheader();</script></div>      <div id="wrapper">        <div id="nav">          <ul>            <li><a href="index.html">Home</a></li>            <li><a href="page1.html">Dataset</a></li>            <li><a href="page2.html">S<span style="color: white;">tudents</span></a></li>            <li><a href="page3.html">Projects</a></li>            <li><a href="page4.html">My Life</a></li>            <li><a href="page5.html">Contact</a></li>          </ul>        </div>        <div id="banner">          <div id="name">            <h1>Yanwei Fu </h1>            <p>School of data science </p>            <p>Fudan university </p>          </div>        </div>        <div id="page">          <h3>2021</h3>          <ul>            <li><b> Adaptive End-to-End Budgeted Network Learning via Inverse                Scale Space. Zuyuan Zhong, Chen Liu, Yanwei Fu. BMVC 2021 </b></li>            <br />            <li><b> The Image Local Autoregressive Transformer. Chenjie Cao,                Yuxin Hong, Xiang Li, Chengrong Wang, Chengming Xu, Yanwei Fu,                Xiangyang Xue. NeurPIS 2021 </b></li>            <br />            <li><b> Learning a Sketch Tensor Space for Image Inpainting of                Man-made Scenes. Chenjie Cao, Yanwei Fu. ICCV 2021 </b></li>            <br />            <li><b> Deep Hybrid Self-Prior for Full 3D Mesh Generation. Xingkui                Wei, Zhenqing Chen Yanwei Fu, Zhaopeng Cui, Yinda Zhang,                Xiangyang Xue. ICCV 2021 </b></li>            <br />            <li><b> A Simple Feature Augmentation for Domain Generalisation. Pan                Li, Da Li, Wei Li Shanggang Gong, Yanwei Fu, Timothy Hospedales,                ICCV 2021 </b></li>            <br />            <li><b> A COVID-19 screening method based on eyes photographs and                artificial intelligence. F Li, XY Xue, P Boned Fustel, SS Rong,                Q Sun, HC Tang, WX Wang, Y Fu, A Boned-Ombuena, MW Gu, European                Journal of Public Health 2021 </b></li>            <br />            <li><b> Domain-Aware SE Network for Sketch-based Image Retrieval                with Multiplicative Euclidean Margin Softmax. Peng Lu, Gao                Huang, Wenming Yang, Guodong Guo, Yanwei Fu. ACM MM 2021 </b></li>            <br />            <li><b> Meta-FDMixup: Cross-Domain Few-Shot Learning Guided by                Labeled Target Data. Yuqian Fu, Yanwei Fu, Yu-Gang Jiang. ACM MM                2021 </b></li>            <br />            <li><b> How to trust unlabeled data? Instance Credibility Inference                for Few-Shot Learning. Yikai Wang, Li Zhang, Yuan Yao, Yanwei                Fu. IEEE TPAMI accepted. </b></li>            <br />            <li><b> Regularising Knowledge Transfer by Meta Functional Learning.                Pan Li, Yanwei Fu, Shaogang Gong. IJCAI 2021</b></li>            <br />            <li><b> NMS-Loss: Learning with Non-Maximum Suppression for Crowded                Pedestrian Detection. Zekun Luo, Zheng Fang, Sixiao Zheng,                Yabiao Wang, Yanwei Fu. ACM ICMR 2021</b></li>            <br />            <li><b> Can Action be Imitated? Learn to Reconstruct and Transfer                Human Dynamics from Videos. YuQian Fu. Yanwei Fu, Yu-Gang Jiang,                ACM ICMR 2021</b></li>            <br />            <li><b> Neural Symbolic Representation Learning for Image                Captioning. Xiaomei Wang, Lin Ma, Yanwei Fu, Xiangyang Xue. ACM                ICMR 2021</b></li>            <br />            <li><b> Distance Restricted Transformer Encoder for Multi-label                Classification. Xiaomei Wang Yaqian Li, Tong Luo, Yandong Guo,                Yanwei Fu, Xiangyang Xue. IEEE ICME 2021<br />              </b></li>            <br />            <li><b> Global-to-Local Dynamic Feature Aggregation for Unsupervised                Person Re-identification. Li Wei, Jiayuan Fan, Yanwei Fu. IEEE                ICME 2021<br />              </b></li>            <br />            <li><b> Depth-Guided AdaIn and Shift Attention Network for                Vision-and-Language Navigation. Qiang Sun, Yifeng Zhuang,                Zhengqing Chen, Yanwei Fu, Xiangyang Xue. IEEE ICME 2021<br />              </b></li>            <br />            <li><b> Learning Salient Boundary Feature for Anchor-free Temporal                Action Localization. Chuming Lin, Chengming Xu, Donghao Luo,                Yabiao Wang, Ying Tai, Chengjie Wang, Jilin Li, Feiyue Huang,                Yanwei Fu. CVPR 2021<br />              </b></li>            <br />            <li><b> Depth-conditioned Dynamic Message Propagation for Monocular                3D Object Detection. Li Wang, Liang Du, Xiaoqing Ye, Yanwei Fu,                Guodong Guo, Xiangyang Xue, Jianfeng Feng, Li Zhang. CVPR 2021 <br />              </b></li>            <br />            <li><b> Delving into Data: Effectively Substitute Training for                Black-box Attack. Wenxuan Wang, Bangjie Yin, Li Zhang, Yanwei                Fu, Shouhong Ding, Jilin Li, Feiyue Huang, Xiangyang Xue CVPR                2021 <br />              </b></li>            <br />            <li><b> Rethinking Semantic Segmentation from a Sequence-to-Sequence                Perspective with Transformers. Sixiao Zheng, Jiachen Lu,                Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu                Jianfeng Feng, Tao Xiang, Philip Torr, Li Zhang.CVPR2021<br />              </b></li>            <br />            <li><b> Learning Compositional Representation for 4D Captures with                Neural ODE. Boyan Jiang, Xingkui Wei, Yinda Zhang, Xiangyang                Xue, Yanwei Fu. CVPR2021 <br />              </b></li>            <br />            <li><b> Learning Dynamic Alignment via Meta-filter for Few-shot                Learning. Chengming Xu, Li Zhang, Jilin Li, Feiyue Huang,                Changjie Wang, Yanwei Fu, Xiangyang Xue. CVPR 2021<br />              </b></li>            <br />            <li><b> Learning a Few-shot Embedding Model with Contrastive                Learning. Chen Liu*, Yanwei Fu*, Chengming Xu, Siqian Yang,                Jilin Li, Chengjie Wang, Li Zhang. AAAI 20201, *, co-first                authour <br />              </b></li>            <br />            <li><b>Whose hand is this? Person Identification from Egocentric                Hand Gestures. Satoshi Tsutsui, Yanwei Fu, David Crandall.  </b><b><b>IEEE
-                  </b>WACV 2021</b> </li>            <br />            <li><b> Data-efficient Alignment of Multimodal Sequences by Aligning                Gradient Updates and Internal Feature Distributions<br />                 Jianan Wang, Boyang Li, Xiangyu Fan, Jing Lin, Yanwei Fu. IEEE                WACV 2021<br />              </b></li>          </ul>          <h3>2020</h3>          <ul>          </ul>          <ul>            <li><b>Incrementally Zero-Shot Detection by an Extreme Value                Analyzer. Sixiao Zheng, Yanwei Fu, Yanxi Hou. ICPR 2021 <br />              </b> </li>            <br />            <li><b>Dynamic Depth Fusion and Transformation for Monocular 3D                Object Detection. Erli Ouyang, Li Zhang, Mohan Chen, Anurag                Arnab, and Yanwei Fu. ACCV 2020<br />              </b> </li>            <br />            <li><b>Long-Term Cloth-Changing Person Re-identification. Xuelin                Qian, Wenxuan Wang, Li Zhang, Fangrui Zhu, Yanwei Fu, Tao Xiang,                Yu-Gang Jiang, and Xiangyang Xue. ACCV 2020<br />              </b> </li>            <br />            <li><b>Second Order Enhanced Multi-glimpse Attention in Visual                Question Answering. Qiang Sun, Binghui Xie, and Yanwei Fu. ACCV                2020<br />              </b> </li>            <br />            <li><b>Self-supervised Learning of Orc-Bert Augmentor for                Recognizing Few-Shot Oracle Characters. Wenhui Han, Xinlin Ren,                Hangyu Lin, Yanwei Fu, and Xiangyang Xue. ACCV 2020 <br />              </b> </li>            <br />            <li><b>M3Lung-Sys: A Deep Learning System for Multi-Class Lung                Pneumonia Screening From CT Imaging. Xuelin Qian, Huazhu Fu,                Weiya Shi, Tao Chen, Yanwei Fu , Fei Shan, and Xiangyang Xue.                IEEE JBHI, 2020 <br />              </b> </li>            <br />            <li><b>Pose-Guided Person Image Synthesis in the Non-iconic Views.                Chengming Xu, Yanwei Fu, Chao Wen, Ye Pan, Yu-Gang Jiang, and                Xiangyang Xue. IEEE TIP 2020 <br />              </b> </li>            <br />            <li><b>Depth Guided Adaptive Meta-Fusion Network for Few-shot Video                Recognition. Yu-Qian Fu, Li Zhang, Junke Wang, Yanwei Fu,                Yu-Gang Jiang ACM MM 2020<br />              </b> </li>            <br />            <li><b>DeepSFM: Structure From Motion Via Deep Bundle Adjustment.                Xingkui Wei, Yinda Zhang, Zhuwen Li, Yanwei Fu, Xiangyang Xue,                ECCV 2020 (oral)<br />              </b> </li>            <br />            <li><b>Chained-Tracker: Chaining Paired Attentive Regression Results                for End-to-End Joint Multiple-Object Detection and Tracking.                Jinlong Peng, Changan Wang, Fangbin Wan, Yang Wu, Yabiao Wang,                Ying Tai, Chengjie Wang, Jilin Li Feiyue Huang, Yanwei Fu, ECCV                2020 (spotlight)<br />              </b> </li>            <br />            <li><b>DessiLBI: Exploring Structural Sparsity on Deep Network via                Differential Inclusion Paths. Yanwei Fu, Chen Liu, Donghao Li,                Xinwei Sun, Jinshan Zeng, and Yuan Yao, ICML 2020<br />              </b> </li>            <br />            <li><b>Deep Ranking for Image Zero-Shot Multi-Label Classification.                FZhong Ji, Biying Cui, Huihui Li, Yu-Gang Jiang, Tao Xiang,                Timothy Hospedales, Yanwei Fu. IEEE Trans. Image Processing                (TIP), to appear<br />              </b> </li>            <br />            <li><b>An Embarrassingly Simple Baseline to One-shot Learning. Chen                Liu, Chengming Xu, Yikai Wang, Li Zhang, Yanwei Fu. IEEE                Conference on Computer Vision and Pattern Recognition (CVPR),                workshop on Visual Learning with Limited Labels, Seattle,                Washington, USA, June 2020.  <br />              </b> </li>            <br />            <li><b>When Person Re-identification Meets Changing Clothes. Fangbin                Wan, Yang Wu, Xuelin Qian, Yanwei Fu. arxiv <a href="https://wanfb.github.io/dataset.html#">codes
-                  and dataset CVPR2020 workshop </a><br />              </b> </li>            <br />            <li><b>Pixel2Mesh: 3D Mesh Model Generation via Image Guided                Deformation. Nanyang Wang, Yinda Zhang, Zhuwen Li, Yanwei Fu,                Hang Yu, Wei Liu, Xiangyang Xue, Yu-Gang Jiang. IEEE TPAMI to                appear. <br />              </b></li>            <br />            <li><b>FMMu-Net: Face Morphological Multi-branch Network for                Makeup-invariant Face Verification. Wenxuan Wang, Xuelin Qian,                Yanwei Fu, Yu-Gang Jiang, Qi Tian, Xiangyang Xue. CVPR 2020. <br />              </b></li>            <br />            <li><b>Sketch-BERT: Learning Sketch Bidirectional Encoder                Representation from Transformers by Self-supervised Learning of                Sketch Gestalt. Hangyu Lin, Yanwei Fu, Yu-Gang Jiang, Xiangyang                Xue. CVPR 2020 <br />              </b></li>            <br />            <li><b>Neural Pose Transfer by Spatially Adaptive Instance                Normalization. Jiashun Wang, Chao Wen, Yanwei Fu, Haitao Lin,                Tianyun Zhou, Xiangyang Xue, Yinda Zhang. CVPR 2020. <br />              </b></li>            <br />            <li><b>Instance Credibility Inference for Few-Shot Learning. Yikang                Wang, Chengming Xu, Chen Liu, Li Zhang, Yanwei Fu, CVPR 2020. <br />              </b></li>            <br />            <li><b>Feature Deformation Meta-Networks in Image Captioning of                Novel Objects. Tingjia Cao, Ke Han, Xiaomei Wang, Lin Ma, Yanwei                Fu, Yu-Gang Jiang, Xiangyang Xue, AAAI 2020 <br />              </b></li>            <br />            <li><b>Main-Secondary Network for Defect Segmentation of Textured                Surface Images. Yu Xie, Fangrui Zhu, Yanwei Fu, IEEE Winter                Conference on Applications of Computer Vision (WACV 2020) <br />              </b></li>            <br />            <li><b>Vocabulary-informed Zero-shot and Open-set Learning. Yanwei                Fu, Xiaomei Wang, Hanze Dong, Yu-Gang Jiang, Meng Wang,                Xiangyang Xue, Leonid Sigal. IEEE TPAMI   [<a href="https://github.com/xiaomeiyy/WMM-Voc">codes</a>]</b></li>            <br />          </ul>          <h3>2019<br />          </h3>          <ul>            <li><b>Needles in a Haystack: Tracking City-Scale Moving Vehicles                from Continuously Moving Satellite. Wei Ao, Yanwei Fu, Xiyue                Hou, and Feng Xu, IEEE Transaction on Image Processing (to                appear) <a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/download/TrackingTinyMovingVehicles/">dataset</a>                 <a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/download/TrackingTinyMovingVehicles/workplace.zip">sample_codes(still
-                  missing readme.txt)  </a><br />              </b> </li>            <br />            <li><b>Meta-Reinforced Synthetic Data for One-Shot Fine-Grained                Visual Recognition, Satoshi Tsutsui, Yanwei Fu, David Crandall.                NeurPIS 2019. (This work is done during Satoshi visiting my lab                in Fudan). [<a href="http://vision.soic.indiana.edu/metairnet/">codes&amp;projects</a>]<br />              </b> </li>            <br />            <li><b> Pixel2Mesh++: Multi-View 3D Mesh Generation via Deformation,                Chao Wen, Yinda Zhang, Zhuwen Li, Yanwei Fu, ICCV 2019. [<a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">codes</a>]<br />              </b> </li>            <br />            <li><b> Asymptotic Soft Filter Pruning for Deep Convolutional Neural                Networks, Yang He, Xuanyi Dong, Guoliang Kang, Yanwei Fu,                Chenggang Yan, and Yi Yang. IEEE Transaction on Cybernetics.                2019<br />              </b> </li>            <br />            <li><b> Comp-GAN: Compositional Generative Adversarial Network in                Synthesizing and Recognizing Facial Expression. Wenxuan Wang,                Qiang Sun, Yanwei Fu, Tao Chen, Chenjie Cao, Ziqi Zheng,                Guoqiang Xu, Han Qiu, Yu-Gang Jiang and Xiangyang Xue. ACM MM                2019 <br />              </b> </li>            <br />            <li><b> Embodied One-Shot Video Recognition: Learning from Actions                of a Virtual Embodied Agent. Yuqian Fu, Chengrong Wang, Yanwei                Fu, Yu-Xiong Wang, Cong Bai, Xiangyang Xue and Yu-Gang Jiang.                ACM MM 2019 [codes,<a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/dataset/UnrealAction/">dataset</a>]<br />              </b> </li>            <br />            <li><b> TC-Net for iSBIR: Triplet Classification Network for                instance-level Sketch Based Image Retrieval. Hangyu Lin, Peng                Lu, Yanwei Fu, Shaogang Gong, Xiangyang Xue and Yu-Gang Jiang.                ACM MM 2019 [<a href="https://github.com/avalonstrel/TCNet">codes</a>]<br />              </b> </li>            <br />            <li><b>Leader-based Multi-scale Attention Deep Architectures for                Person Re-identification. Xuelin Qian, Yanwei Fu, Tao Xiang,                Yu-Gang Jiang, Xiangyang Xue, IEEE TPAMI to appear <br />              </b> </li>            <br />            <li><b>Learning to score figure skating sport videos. Chengming Xu,                Yanwei Fu, Zitian Chen, Bing Zhang, Yu-Gang Jiang, Xiangyang                Xue, IEEE TCSVT 2019 [<a href="https://github.com/loadder/MS_LSTM">codes</a>]<br />              </b> </li>            <br />            <li><b>A Multi-task Neural Approach for Emotion Attribution,                Classification and Summarization. Guoyun Tu, Yanwei Fu, Boyang                Li, Jiarui Gao, Yu-Gang Jiang and Xiangyang Xue. IEEE TMM 2019.                [<a href="https://github.com/guoyuntu/BEAC_network">codes</a>]<br />              </b> </li>            <br />            <li><b>Learning decomposed subspaces for supervised bidirectional                image generation. Peng Lu ; Hangyu Lin ; Yanwei Fu ; Gao Huang                Libo Wu. <a href="https://ieeexplore.ieee.org/document/8860900">IET
-                  Cognitive Computation and Systems. 2019</a><br />              </b></li>          </ul>          <ul>          </ul>          <ul>            <li><b>Stacked Self-Attention Networks For Visual Question                Answering. Qiang Sun, Yanwei Fu. ACM ICMR 2019 (short paper)<br />              </b> </li>            <br />            <li><b>Take Goods from Shelves: A Dataset for Class-Incremental                Object Detection (full paper). Yu Hao, Yanwei Fu, Yu-Gang Jiang.                ACM ICMR 2019 </b><b>[<a href="https://github.com/jinyu121/CIOD">codes</a>]</b><b>              </b></li>            <br />            <li><b>A Large-scale Attribute Dataset for Zero-shot Learning. Bo                Zhao, Yanwei Fu, Rui Liang, Jiahong Wu, Yonggang Wang, Yizhou                Wang. CVPR workshop on MULA 2019 </b><b>[<a href="https://github.com/PatrickZH/A-Large-scale-Attribute-Dataset-for-Zero-shot-Learning">codes</a>]</b><b>              </b></li>            <br />            <li><b>Large-scale Datasets for Going Deeper in Image Understanding.                He Zheng, Bo Zhao, Yixin Li, Baoming Yan, Rui Liang, Wenjia                Wang, Shipei Zhou, Guosen Lin, Yanwei Fu, Yizhou Wang, Yonggang                Wang. IEEE ICME 2019. A dataset paper collaborated with                Sinovation Ventures, and Peking University</b></li>            <br />            <li><b>AN END-TO-END ARCHITECTURE FOR CLASS-INCREMENTAL OBJECT                DETECTION WITH KNOWLEDGE DISTILLATION. Yu Hao, Yanwei Fu,                Yu-Gang Jiang, Qi Tian. IEEE ICME. 2019 (Best Paper Award) [<a href="https://github.com/jinyu121/CIOD">codes</a>]<br />              </b></li>            <br />            <li><b>Multi-level Semantic Feature Augmentation for One-shot                Learning. Zitian Chen, Yanwei Fu, Yinda Zhang, Yu-Gang Jiang,                Xiangyang Xue, and Leonid Sigal. IEEE Transaction on Image                Processing (IEEE TIP 2019)</b> <br />            </li>            <br />            <li><b> PARASITIC GAN FOR SEMI-SUPERVISED BRAIN TUMOR SEGMENTATION.                Yi Sun, Chengfeng Zhou, Yanwei Fu, Xiangyang Xue. IEEE ICIP 2019                <br />              </b> </li>            <br />            <li><b> WAVELET U-NET AND THE CHROMATIC ADAPTATION TRANSFORM FOR                SINGLE IMAGE DEHAZING. Hao-Hsiang Yang, Yanwei Fu. IEEE ICIP                2019 [<a href="https://github.com/dectrfov/Wavelet-U-net-Dehazing">codes</a>]                <br />              </b> </li>            <br />            <li> <b>Image Deformation Meta-Networks for One-Shot Learning.                Zitian Chen, Yanwei Fu, Yu-Xiong Wang, Lin Ma, Wei Liu, Martial                Hebert. CVPR 2019 (Oral) [<a href="https://github.com/tankche1/IDeMe-Net">codes</a>] 
-                （<i>Best Paper Award Finalist</i>）<br />              </b></li>            <br />            <li><b> Learning to Generate Posters of Scientific Papers by                Probabilistic Graphical Models. Yu-ting Qiang, Yanwei Fu, Yanwei                Fu, Xiao Yu, Yanwen Guo, Zhi-Hua Zhou and Leonid Sigal.  Journal                of Computer Science and Technology (JCST)<span style="caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Arial; font-size: 14px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; text-decoration: none; display: inline !important; float: none;"></span>.                2019</b></li>            <br />            <li><b>Image Block Augmentation for One-Shot Learning. Zitian Chen,                Yanwei Fu, Kaiyu Chen, Yu-Gang Jiang, AAAI 2019</b></li>          </ul>          <ul>          </ul>          <div class="thumbnail"> <a href=""> </a>            <div class="caption">              <h3>2018</h3>              <ul>                <li>                  <h3>Stacked Semantics-Guided Attention Model for Fine-Grained                    Zero-Shot Learning. Yunlong Yu, Zhong Ji, Yanwei Fu, Jichang                    Guo, Yanwei Pang, Zhongfei Zhang, NIPS 2018</h3>                </li>                <li>                  <h3>Pose-Normalized Image Generation for Person                    Re-identification . Xuelin Qian, Yanwei Fu, Tao Xiang,                    Wenxuan Wang, Jie Qiu, Yang Wu, Yu-Gang Jiang, and Xiangyang                    Xue. ECCV 2018 [<a href="https://github.com/naiq/PN_GAN">codes</a>]</h3>                </li>                <li>                  <h3>Pixel2Mesh: Generating 3D Mesh Models from Single RGB                    Images. Nanyang Wang, Yinda Zhang, Zhuwen Li, Yanwei Fu, Wei                    Liu, Yu-Gang Jiang. ECCV 2018   Arxiv: 1804.01654 Project                    page (<a href="https://github.com/nywang16/Pixel2Mesh">codes&amp;models</a>):
-                    http://bigvid.fudan.edu.cn/pixel2mesh/ </h3>                </li>              </ul>              <ul>                <li><b>MSplit LBI: Realizing Feature Selection and Dense                    Estimation Simultaneously in Few-shot and Zero-shot                    Learning. Bo Zhao, Xinwei Sun, Yanwei Fu, Yizhou Wang, Yuan                    Yao. ICML 2018</b></li>                <li><br />                  <b>Soft Filter Pruning for Accelerating Deep Convolutional                    Neural Networks. Yang He, Guoliang Kang, Xuanyi Dong, Yanwei                    Fu, Yi Yang. IJCAI 2018<br />                  </b></li>                <br />                <li>                  <h3>Harnessing Synthesized Abstraction Images to Improve                    Facial Attribute Recognition. Keke He, Yanwei Fu, Wuhao                    Zhang, Chengjie Wang，Yu-Gang Jiang, Feiyue Huang, Xiangyang                    Xue. IJCAI 2018</h3>                </li>                <li>                  <h3><a href="https://arxiv.org/abs/1710.10386">Dual Skipping                      Networks</a>   Changmao Cheng, Yanwei Fu, Yu-Gang Jiang,                    Wei Liu, Wenlian Lu, Jianfeng Feng, Xiangyang Xue. CVPR 2018                  </h3>                </li>                <li>                  <h3><a href="https://challenger.ai/competition/zsl2018/subject">https://challenger.ai/competition/zsl2018/</a>    
-                    We help Sinovation Ventures to host a zero-shot grant                    challenge. </h3>                </li>              </ul>              <h3>2017</h3>              <ul>                <li><b><a href="https://arxiv.org/abs/1710.04837">Recent                      Advances in Zero-shot Recognition</a>. IEEE Signal                    Processing Magazine (impact factor: 9.654), to appear.</b></li>              </ul>              <p><b>                Yanwei Fu, Tao Xiang, Leonid Sigal, Yu-Gang                  Jiang, Xiangyang Xue, Shaogang Gong.</b></p>              <ul>                <li>                  <h3>Multi-scale Deep Learning Architectures for Person                    Re-identification<br />                  </h3>                  <p><span style="font-weight: bold;"> Xuelin Qian, Yanwei Fu</span><span                      style="font-weight: bold;"><span                        style="font-weight: bold;"><span                          style="font-weight: bold;">(*)</span></span>, 
-                      Yu-gang Jiang, Tao Xiang </span> and <b>Xiangyang Xue</b><span                      style="font-weight: bold;">;</span><span                      style="font-weight: bold;">                      ICCV 2017</span><span style="font-weight: bold;">                                <br />                    </span></p>                </li>              </ul>              <p>                <span style="font-weight: bold;">   *:                  corresponding authour</span></p>              <ul>                <li>                  <h3><a href="https://arxiv.org/abs/1705.09887">Vocabulary-informed
-                      Extreme Value Learning<br />                    </a></h3>                  <p><span style="font-weight: bold;"> Yanwei Fu</span><span style="font-weight: bold;"><span                        style="font-weight: bold;"></span>, 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Yanwei Fu: EECS-QMUL</title>
+    <link media="screen" rel="stylesheet" href="defaultstyle.css" />
+    <script src="branding.js" type="text/javascript"></script>
+    <script src="http://www.colorado.edu/templates/faculty-template/js/curvycorners.js"
+type="text/JavaScript"></script>
+    <!-- Custom CSS for the 'Heroic Features' Template -->
+    <!--<link href="css/heroic-features.css" rel="stylesheet">-->
+    <style>
+		p.confloc {
+			font-style: italic;
+		}
+		.container{
+		  max-width: none !important;
+		  width: 970px !important;
+		}
+		.thumbnail {
+			clear: both;
+			margin-bottom: 10px;
+		}
+		.thumbnail img {
+			overflow: hidden;
+			height: 150px!important;
+			width: 200px!important;
+			float: left;
+			margin-right: 20px;
+			margin-bottom: 20px;
+		}
+		.thumbnail h3 {
+			font-size: 1em;
+			font-weight: bold;
+			margin-top: 0px;
+		}
+		div.caption {
+			text-align: left;
+		}
+		.hero-spacer {
+			padding: 50px 0px 10px 0px;
+		}
+		.hero-spacer h1 {
+			font-size: 1em;
+			font-weight: bolder;
+		}
+		.hero-spacer p {
+			font-size: 0.75em;
+		}
+		nav {
+			overflow: hidden;
+		}
+		.navbar {
+			height: 20px;
+		}
+		.rl_twitter {
+			float: right;
+			position: relative;
+			opacity: 0;
+		}
+		.avatar {
+			width: 20px!important;
+			height: 20px!important;
+		}
+		.custom-timeline-owner-profile, .timeline .e-entry-title, .p-author .p-name, .cards-base h3, .new-tweets-bar button, .load-tweets, .no-more-pane {
+			font-size: 10px!important;
+		}
+	</style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="ucb">
+        <script type="text/javascript">ucbheader();</script></div>
+      <div id="wrapper">
+        <div id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page1.html">Dataset</a></li>
+            <li><a href="page2.html">S<span style="color: white;">tudents</span></a></li>
+            <li><a href="page3.html">Projects</a></li>
+            <li><a href="page4.html">My Life</a></li>
+            <li><a href="page5.html">Contact</a></li>
+          </ul>
+        </div>
+        <div id="banner">
+          <div id="name">
+            <h1>Yanwei Fu </h1>
+            <p>School of data science </p>
+            <p>Fudan university </p>
+          </div>
+        </div>
+        <div id="page">
+          <h3>2021</h3>
+          <ul>
+                        
+            <li><b> HandO: a hybrid 3D hand–object reconstruction model for unknown objects.
+              Hang Yu, Yanwei Fu, Xiangyang Xue. Multimedia Systems. to appear </b></li>
+            <br />
+            
+            <li><b> Adaptive End-to-End Budgeted Network Learning via Inverse
+                Scale Space. Zuyuan Zhong, Chen Liu, Yanwei Fu. BMVC 2021 </b></li>
+            <br />
+            <li><b> The Image Local Autoregressive Transformer. Chenjie Cao,
+                Yuxin Hong, Xiang Li, Chengrong Wang, Chengming Xu, Yanwei Fu,
+                Xiangyang Xue. NeurPIS 2021 </b></li>
+            <br />
+            <li><b> Learning a Sketch Tensor Space for Image Inpainting of
+                Man-made Scenes. Chenjie Cao, Yanwei Fu. ICCV 2021 </b></li>
+            <br />
+            <li><b> Deep Hybrid Self-Prior for Full 3D Mesh Generation. Xingkui
+                Wei, Zhenqing Chen Yanwei Fu, Zhaopeng Cui, Yinda Zhang,
+                Xiangyang Xue. ICCV 2021 </b></li>
+            <br />
+            <li><b> A Simple Feature Augmentation for Domain Generalisation. Pan
+                Li, Da Li, Wei Li Shanggang Gong, Yanwei Fu, Timothy Hospedales,
+                ICCV 2021 </b></li>
+            <br />
+            <li><b> A COVID-19 screening method based on eyes photographs and
+                artificial intelligence. F Li, XY Xue, P Boned Fustel, SS Rong,
+                Q Sun, HC Tang, WX Wang, Y Fu, A Boned-Ombuena, MW Gu, European
+                Journal of Public Health 2021 </b></li>
+            <br />
+            <li><b> Domain-Aware SE Network for Sketch-based Image Retrieval
+                with Multiplicative Euclidean Margin Softmax. Peng Lu, Gao
+                Huang, Wenming Yang, Guodong Guo, Yanwei Fu. ACM MM 2021 </b></li>
+            <br />
+            <li><b> Meta-FDMixup: Cross-Domain Few-Shot Learning Guided by
+                Labeled Target Data. Yuqian Fu, Yanwei Fu, Yu-Gang Jiang. ACM MM
+                2021 </b></li>
+            <br />
+            <li><b> How to trust unlabeled data? Instance Credibility Inference
+                for Few-Shot Learning. Yikai Wang, Li Zhang, Yuan Yao, Yanwei
+                Fu. IEEE TPAMI accepted. </b></li>
+            <br />
+            <li><b> Regularising Knowledge Transfer by Meta Functional Learning.
+                Pan Li, Yanwei Fu, Shaogang Gong. IJCAI 2021</b></li>
+            <br />
+            <li><b> NMS-Loss: Learning with Non-Maximum Suppression for Crowded
+                Pedestrian Detection. Zekun Luo, Zheng Fang, Sixiao Zheng,
+                Yabiao Wang, Yanwei Fu. ACM ICMR 2021</b></li>
+            <br />
+            <li><b> Can Action be Imitated? Learn to Reconstruct and Transfer
+                Human Dynamics from Videos. YuQian Fu. Yanwei Fu, Yu-Gang Jiang,
+                ACM ICMR 2021</b></li>
+            <br />
+            <li><b> Neural Symbolic Representation Learning for Image
+                Captioning. Xiaomei Wang, Lin Ma, Yanwei Fu, Xiangyang Xue. ACM
+                ICMR 2021</b></li>
+            <br />
+            <li><b> Distance Restricted Transformer Encoder for Multi-label
+                Classification. Xiaomei Wang Yaqian Li, Tong Luo, Yandong Guo,
+                Yanwei Fu, Xiangyang Xue. IEEE ICME 2021<br />
+              </b></li>
+            <br />
+            <li><b> Global-to-Local Dynamic Feature Aggregation for Unsupervised
+                Person Re-identification. Li Wei, Jiayuan Fan, Yanwei Fu. IEEE
+                ICME 2021<br />
+              </b></li>
+            <br />
+            <li><b> Depth-Guided AdaIn and Shift Attention Network for
+                Vision-and-Language Navigation. Qiang Sun, Yifeng Zhuang,
+                Zhengqing Chen, Yanwei Fu, Xiangyang Xue. IEEE ICME 2021<br />
+              </b></li>
+            <br />
+            <li><b> Learning Salient Boundary Feature for Anchor-free Temporal
+                Action Localization. Chuming Lin, Chengming Xu, Donghao Luo,
+                Yabiao Wang, Ying Tai, Chengjie Wang, Jilin Li, Feiyue Huang,
+                Yanwei Fu. CVPR 2021<br />
+              </b></li>
+            <br />
+            <li><b> Depth-conditioned Dynamic Message Propagation for Monocular
+                3D Object Detection. Li Wang, Liang Du, Xiaoqing Ye, Yanwei Fu,
+                Guodong Guo, Xiangyang Xue, Jianfeng Feng, Li Zhang. CVPR 2021 <br />
+              </b></li>
+            <br />
+            <li><b> Delving into Data: Effectively Substitute Training for
+                Black-box Attack. Wenxuan Wang, Bangjie Yin, Li Zhang, Yanwei
+                Fu, Shouhong Ding, Jilin Li, Feiyue Huang, Xiangyang Xue CVPR
+                2021 <br />
+              </b></li>
+            <br />
+            <li><b> Rethinking Semantic Segmentation from a Sequence-to-Sequence
+                Perspective with Transformers. Sixiao Zheng, Jiachen Lu,
+                Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu
+                Jianfeng Feng, Tao Xiang, Philip Torr, Li Zhang.CVPR2021<br />
+              </b></li>
+            <br />
+            <li><b> Learning Compositional Representation for 4D Captures with
+                Neural ODE. Boyan Jiang, Xingkui Wei, Yinda Zhang, Xiangyang
+                Xue, Yanwei Fu. CVPR2021 <br />
+              </b></li>
+            <br />
+            <li><b> Learning Dynamic Alignment via Meta-filter for Few-shot
+                Learning. Chengming Xu, Li Zhang, Jilin Li, Feiyue Huang,
+                Changjie Wang, Yanwei Fu, Xiangyang Xue. CVPR 2021<br />
+              </b></li>
+            <br />
+            <li><b> Learning a Few-shot Embedding Model with Contrastive
+                Learning. Chen Liu*, Yanwei Fu*, Chengming Xu, Siqian Yang,
+                Jilin Li, Chengjie Wang, Li Zhang. AAAI 20201, *, co-first
+                authour <br />
+              </b></li>
+            <br />
+            <li><b>Whose hand is this? Person Identification from Egocentric
+                Hand Gestures. Satoshi Tsutsui, Yanwei Fu, David Crandall.  </b><b><b>IEEE
+                  </b>WACV 2021</b> </li>
+            <br />
+            <li><b> Data-efficient Alignment of Multimodal Sequences by Aligning
+                Gradient Updates and Internal Feature Distributions<br />
+                 Jianan Wang, Boyang Li, Xiangyu Fan, Jing Lin, Yanwei Fu. IEEE
+                WACV 2021<br />
+              </b></li>
+          </ul>
+          <h3>2020</h3>
+          <ul>
+          </ul>
+          <ul>
+            <li><b>Incrementally Zero-Shot Detection by an Extreme Value
+                Analyzer. Sixiao Zheng, Yanwei Fu, Yanxi Hou. ICPR 2021 <br />
+              </b> </li>
+            <br />
+            <li><b>Dynamic Depth Fusion and Transformation for Monocular 3D
+                Object Detection. Erli Ouyang, Li Zhang, Mohan Chen, Anurag
+                Arnab, and Yanwei Fu. ACCV 2020<br />
+              </b> </li>
+            <br />
+            <li><b>Long-Term Cloth-Changing Person Re-identification. Xuelin
+                Qian, Wenxuan Wang, Li Zhang, Fangrui Zhu, Yanwei Fu, Tao Xiang,
+                Yu-Gang Jiang, and Xiangyang Xue. ACCV 2020<br />
+              </b> </li>
+            <br />
+            <li><b>Second Order Enhanced Multi-glimpse Attention in Visual
+                Question Answering. Qiang Sun, Binghui Xie, and Yanwei Fu. ACCV
+                2020<br />
+              </b> </li>
+            <br />
+            <li><b>Self-supervised Learning of Orc-Bert Augmentor for
+                Recognizing Few-Shot Oracle Characters. Wenhui Han, Xinlin Ren,
+                Hangyu Lin, Yanwei Fu, and Xiangyang Xue. ACCV 2020 <br />
+              </b> </li>
+            <br />
+            <li><b>Learning Layer-Skippable Inference Network. Yu-Gang Jiang;
+                Changmao Cheng; Hangyu Lin; Yanwei Fu. IEEE TIP, 2020 <br />
+              </b> </li>
+            <br />
+            <li><b>M3Lung-Sys: A Deep Learning System for Multi-Class Lung
+                Pneumonia Screening From CT Imaging. Xuelin Qian, Huazhu Fu,
+                Weiya Shi, Tao Chen, Yanwei Fu , Fei Shan, and Xiangyang Xue.
+                IEEE JBHI, 2020 <br />
+              </b> </li>
+            <br />
+            <li><b>Pose-Guided Person Image Synthesis in the Non-iconic Views.
+                Chengming Xu, Yanwei Fu, Chao Wen, Ye Pan, Yu-Gang Jiang, and
+                Xiangyang Xue. IEEE TIP 2020 <br />
+              </b> </li>
+            <br />
+            <li><b>Depth Guided Adaptive Meta-Fusion Network for Few-shot Video
+                Recognition. Yu-Qian Fu, Li Zhang, Junke Wang, Yanwei Fu,
+                Yu-Gang Jiang ACM MM 2020<br />
+              </b> </li>
+            <br />
+            <li><b>DeepSFM: Structure From Motion Via Deep Bundle Adjustment.
+                Xingkui Wei, Yinda Zhang, Zhuwen Li, Yanwei Fu, Xiangyang Xue,
+                ECCV 2020 (oral)<br />
+              </b> </li>
+            <br />
+            <li><b>Chained-Tracker: Chaining Paired Attentive Regression Results
+                for End-to-End Joint Multiple-Object Detection and Tracking.
+                Jinlong Peng, Changan Wang, Fangbin Wan, Yang Wu, Yabiao Wang,
+                Ying Tai, Chengjie Wang, Jilin Li Feiyue Huang, Yanwei Fu, ECCV
+                2020 (spotlight)<br />
+              </b> </li>
+            <br />
+            <li><b>DessiLBI: Exploring Structural Sparsity on Deep Network via
+                Differential Inclusion Paths. Yanwei Fu, Chen Liu, Donghao Li,
+                Xinwei Sun, Jinshan Zeng, and Yuan Yao, ICML 2020<br />
+              </b> </li>
+            <br />
+            <li><b>Deep Ranking for Image Zero-Shot Multi-Label Classification.
+                FZhong Ji, Biying Cui, Huihui Li, Yu-Gang Jiang, Tao Xiang,
+                Timothy Hospedales, Yanwei Fu. IEEE Trans. Image Processing
+                (TIP), to appear<br />
+              </b> </li>
+            <br />
+            <li><b>An Embarrassingly Simple Baseline to One-shot Learning. Chen
+                Liu, Chengming Xu, Yikai Wang, Li Zhang, Yanwei Fu. IEEE
+                Conference on Computer Vision and Pattern Recognition (CVPR),
+                workshop on Visual Learning with Limited Labels, Seattle,
+                Washington, USA, June 2020.  <br />
+              </b> </li>
+            <br />
+            <li><b>When Person Re-identification Meets Changing Clothes. Fangbin
+                Wan, Yang Wu, Xuelin Qian, Yanwei Fu. arxiv <a href="https://wanfb.github.io/dataset.html#">codes
+                  and dataset CVPR2020 workshop </a><br />
+              </b> </li>
+            <br />
+            <li><b>Pixel2Mesh: 3D Mesh Model Generation via Image Guided
+                Deformation. Nanyang Wang, Yinda Zhang, Zhuwen Li, Yanwei Fu,
+                Hang Yu, Wei Liu, Xiangyang Xue, Yu-Gang Jiang. IEEE TPAMI to
+                appear. <br />
+              </b></li>
+            <br />
+            <li><b>FMMu-Net: Face Morphological Multi-branch Network for
+                Makeup-invariant Face Verification. Wenxuan Wang, Xuelin Qian,
+                Yanwei Fu, Yu-Gang Jiang, Qi Tian, Xiangyang Xue. CVPR 2020. <br />
+              </b></li>
+            <br />
+            <li><b>Sketch-BERT: Learning Sketch Bidirectional Encoder
+                Representation from Transformers by Self-supervised Learning of
+                Sketch Gestalt. Hangyu Lin, Yanwei Fu, Yu-Gang Jiang, Xiangyang
+                Xue. CVPR 2020 <br />
+              </b></li>
+            <br />
+            <li><b>Neural Pose Transfer by Spatially Adaptive Instance
+                Normalization. Jiashun Wang, Chao Wen, Yanwei Fu, Haitao Lin,
+                Tianyun Zhou, Xiangyang Xue, Yinda Zhang. CVPR 2020. <br />
+              </b></li>
+            <br />
+            <li><b>Instance Credibility Inference for Few-Shot Learning. Yikang
+                Wang, Chengming Xu, Chen Liu, Li Zhang, Yanwei Fu, CVPR 2020. <br />
+              </b></li>
+            <br />
+            <li><b>Feature Deformation Meta-Networks in Image Captioning of
+                Novel Objects. Tingjia Cao, Ke Han, Xiaomei Wang, Lin Ma, Yanwei
+                Fu, Yu-Gang Jiang, Xiangyang Xue, AAAI 2020 <br />
+              </b></li>
+            <br />
+            <li><b>Main-Secondary Network for Defect Segmentation of Textured
+                Surface Images. Yu Xie, Fangrui Zhu, Yanwei Fu, IEEE Winter
+                Conference on Applications of Computer Vision (WACV 2020) <br />
+              </b></li>
+            <br />
+            <li><b>Vocabulary-informed Zero-shot and Open-set Learning. Yanwei
+                Fu, Xiaomei Wang, Hanze Dong, Yu-Gang Jiang, Meng Wang,
+                Xiangyang Xue, Leonid Sigal. IEEE TPAMI   [<a href="https://github.com/xiaomeiyy/WMM-Voc">codes</a>]</b></li>
+            <br />
+          </ul>
+          <h3>2019<br />
+          </h3>
+          <ul>
+            <li><b>Needles in a Haystack: Tracking City-Scale Moving Vehicles
+                from Continuously Moving Satellite. Wei Ao, Yanwei Fu, Xiyue
+                Hou, and Feng Xu, IEEE Transaction on Image Processing (to
+                appear) <a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/download/TrackingTinyMovingVehicles/">dataset</a> 
+                <a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/download/TrackingTinyMovingVehicles/workplace.zip">sample_codes(still
+                  missing readme.txt)  </a><br />
+              </b> </li>
+            <br />
+            <li><b>Meta-Reinforced Synthetic Data for One-Shot Fine-Grained
+                Visual Recognition, Satoshi Tsutsui, Yanwei Fu, David Crandall.
+                NeurPIS 2019. (This work is done during Satoshi visiting my lab
+                in Fudan). [<a href="http://vision.soic.indiana.edu/metairnet/">codes&amp;projects</a>]<br />
+              </b> </li>
+            <br />
+            <li><b> Pixel2Mesh++: Multi-View 3D Mesh Generation via Deformation,
+                Chao Wen, Yinda Zhang, Zhuwen Li, Yanwei Fu, ICCV 2019. [<a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">codes</a>]<br />
+              </b> </li>
+            <br />
+            <li><b> Asymptotic Soft Filter Pruning for Deep Convolutional Neural
+                Networks, Yang He, Xuanyi Dong, Guoliang Kang, Yanwei Fu,
+                Chenggang Yan, and Yi Yang. IEEE Transaction on Cybernetics.
+                2019<br />
+              </b> </li>
+            <br />
+            <li><b> Comp-GAN: Compositional Generative Adversarial Network in
+                Synthesizing and Recognizing Facial Expression. Wenxuan Wang,
+                Qiang Sun, Yanwei Fu, Tao Chen, Chenjie Cao, Ziqi Zheng,
+                Guoqiang Xu, Han Qiu, Yu-Gang Jiang and Xiangyang Xue. ACM MM
+                2019 <br />
+              </b> </li>
+            <br />
+            <li><b> Embodied One-Shot Video Recognition: Learning from Actions
+                of a Virtual Embodied Agent. Yuqian Fu, Chengrong Wang, Yanwei
+                Fu, Yu-Xiong Wang, Cong Bai, Xiangyang Xue and Yu-Gang Jiang.
+                ACM MM 2019 [codes,<a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/dataset/UnrealAction/">dataset</a>]<br />
+              </b> </li>
+            <br />
+            <li><b> TC-Net for iSBIR: Triplet Classification Network for
+                instance-level Sketch Based Image Retrieval. Hangyu Lin, Peng
+                Lu, Yanwei Fu, Shaogang Gong, Xiangyang Xue and Yu-Gang Jiang.
+                ACM MM 2019 [<a href="https://github.com/avalonstrel/TCNet">codes</a>]<br />
+              </b> </li>
+            <br />
+            <li><b>Leader-based Multi-scale Attention Deep Architectures for
+                Person Re-identification. Xuelin Qian, Yanwei Fu, Tao Xiang,
+                Yu-Gang Jiang, Xiangyang Xue, IEEE TPAMI to appear <br />
+              </b> </li>
+            <br />
+            <li><b>Learning to score figure skating sport videos. Chengming Xu,
+                Yanwei Fu, Zitian Chen, Bing Zhang, Yu-Gang Jiang, Xiangyang
+                Xue, IEEE TCSVT 2019 [<a href="https://github.com/loadder/MS_LSTM">codes</a>]<br />
+              </b> </li>
+            <br />
+            <li><b>A Multi-task Neural Approach for Emotion Attribution,
+                Classification and Summarization. Guoyun Tu, Yanwei Fu, Boyang
+                Li, Jiarui Gao, Yu-Gang Jiang and Xiangyang Xue. IEEE TMM 2019.
+                [<a href="https://github.com/guoyuntu/BEAC_network">codes</a>]<br />
+              </b> </li>
+            <br />
+            <li><b>Learning decomposed subspaces for supervised bidirectional
+                image generation. Peng Lu ; Hangyu Lin ; Yanwei Fu ; Gao Huang
+                Libo Wu. <a href="https://ieeexplore.ieee.org/document/8860900">IET
+                  Cognitive Computation and Systems. 2019</a><br />
+              </b></li>
+          </ul>
+          <ul>
+          </ul>
+          <ul>
+            <li><b>Stacked Self-Attention Networks For Visual Question
+                Answering. Qiang Sun, Yanwei Fu. ACM ICMR 2019 (short paper)<br />
+              </b> </li>
+            <br />
+            <li><b>Take Goods from Shelves: A Dataset for Class-Incremental
+                Object Detection (full paper). Yu Hao, Yanwei Fu, Yu-Gang Jiang.
+                ACM ICMR 2019 </b><b>[<a href="https://github.com/jinyu121/CIOD">codes</a>]</b><b>
+              </b></li>
+            <br />
+            <li><b>A Large-scale Attribute Dataset for Zero-shot Learning. Bo
+                Zhao, Yanwei Fu, Rui Liang, Jiahong Wu, Yonggang Wang, Yizhou
+                Wang. CVPR workshop on MULA 2019 </b><b>[<a href="https://github.com/PatrickZH/A-Large-scale-Attribute-Dataset-for-Zero-shot-Learning">codes</a>]</b><b>
+              </b></li>
+            <br />
+            <li><b>Large-scale Datasets for Going Deeper in Image Understanding.
+                He Zheng, Bo Zhao, Yixin Li, Baoming Yan, Rui Liang, Wenjia
+                Wang, Shipei Zhou, Guosen Lin, Yanwei Fu, Yizhou Wang, Yonggang
+                Wang. IEEE ICME 2019. A dataset paper collaborated with
+                Sinovation Ventures, and Peking University</b></li>
+            <br />
+            <li><b>AN END-TO-END ARCHITECTURE FOR CLASS-INCREMENTAL OBJECT
+                DETECTION WITH KNOWLEDGE DISTILLATION. Yu Hao, Yanwei Fu,
+                Yu-Gang Jiang, Qi Tian. IEEE ICME. 2019 (Best Paper Award) [<a href="https://github.com/jinyu121/CIOD">codes</a>]<br />
+              </b></li>
+            <br />
+            <li><b>Multi-level Semantic Feature Augmentation for One-shot
+                Learning. Zitian Chen, Yanwei Fu, Yinda Zhang, Yu-Gang Jiang,
+                Xiangyang Xue, and Leonid Sigal. IEEE Transaction on Image
+                Processing (IEEE TIP 2019)</b> <br />
+            </li>
+            <br />
+            <li><b> PARASITIC GAN FOR SEMI-SUPERVISED BRAIN TUMOR SEGMENTATION.
+                Yi Sun, Chengfeng Zhou, Yanwei Fu, Xiangyang Xue. IEEE ICIP 2019
+                <br />
+              </b> </li>
+            <br />
+            <li><b> WAVELET U-NET AND THE CHROMATIC ADAPTATION TRANSFORM FOR
+                SINGLE IMAGE DEHAZING. Hao-Hsiang Yang, Yanwei Fu. IEEE ICIP
+                2019 [<a href="https://github.com/dectrfov/Wavelet-U-net-Dehazing">codes</a>]
+                <br />
+              </b> </li>
+            <br />
+            <li> <b>Image Deformation Meta-Networks for One-Shot Learning.
+                Zitian Chen, Yanwei Fu, Yu-Xiong Wang, Lin Ma, Wei Liu, Martial
+                Hebert. CVPR 2019 (Oral) [<a href="https://github.com/tankche1/IDeMe-Net">codes</a>] 
+                （<i>Best Paper Award Finalist</i>）<br />
+              </b></li>
+            <br />
+            <li><b> Learning to Generate Posters of Scientific Papers by
+                Probabilistic Graphical Models. Yu-ting Qiang, Yanwei Fu, Yanwei
+                Fu, Xiao Yu, Yanwen Guo, Zhi-Hua Zhou and Leonid Sigal.  Journal
+                of Computer Science and Technology (JCST)<span style="caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Arial; font-size: 14px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; text-decoration: none; display: inline !important; float: none;"></span>.
+                2019</b></li>
+            <br />
+            <li><b>Image Block Augmentation for One-Shot Learning. Zitian Chen,
+                Yanwei Fu, Kaiyu Chen, Yu-Gang Jiang, AAAI 2019</b></li>
+          </ul>
+          <ul>
+          </ul>
+          <div class="thumbnail"> <a href=""> </a>
+            <div class="caption">
+              <h3>2018</h3>
+              <ul>
+                <li>
+                  <h3>Stacked Semantics-Guided Attention Model for Fine-Grained
+                    Zero-Shot Learning. Yunlong Yu, Zhong Ji, Yanwei Fu, Jichang
+                    Guo, Yanwei Pang, Zhongfei Zhang, NIPS 2018</h3>
+                </li>
+                <li>
+                  <h3>Pose-Normalized Image Generation for Person
+                    Re-identification . Xuelin Qian, Yanwei Fu, Tao Xiang,
+                    Wenxuan Wang, Jie Qiu, Yang Wu, Yu-Gang Jiang, and Xiangyang
+                    Xue. ECCV 2018 [<a href="https://github.com/naiq/PN_GAN">codes</a>]</h3>
+                </li>
+                <li>
+                  <h3>Pixel2Mesh: Generating 3D Mesh Models from Single RGB
+                    Images. Nanyang Wang, Yinda Zhang, Zhuwen Li, Yanwei Fu, Wei
+                    Liu, Yu-Gang Jiang. ECCV 2018   Arxiv: 1804.01654 Project
+                    page (<a href="https://github.com/nywang16/Pixel2Mesh">codes&amp;models</a>):
+                    http://bigvid.fudan.edu.cn/pixel2mesh/ </h3>
+                </li>
+              </ul>
+              <ul>
+                <li><b>MSplit LBI: Realizing Feature Selection and Dense
+                    Estimation Simultaneously in Few-shot and Zero-shot
+                    Learning. Bo Zhao, Xinwei Sun, Yanwei Fu, Yizhou Wang, Yuan
+                    Yao. ICML 2018</b></li>
+                <li><br />
+                  <b>Soft Filter Pruning for Accelerating Deep Convolutional
+                    Neural Networks. Yang He, Guoliang Kang, Xuanyi Dong, Yanwei
+                    Fu, Yi Yang. IJCAI 2018<br />
+                  </b></li>
+                <br />
+                <li>
+                  <h3>Harnessing Synthesized Abstraction Images to Improve
+                    Facial Attribute Recognition. Keke He, Yanwei Fu, Wuhao
+                    Zhang, Chengjie Wang，Yu-Gang Jiang, Feiyue Huang, Xiangyang
+                    Xue. IJCAI 2018</h3>
+                </li>
+                <li>
+                  <h3><a href="https://arxiv.org/abs/1710.10386">Dual Skipping
+                      Networks</a>   Changmao Cheng, Yanwei Fu, Yu-Gang Jiang,
+                    Wei Liu, Wenlian Lu, Jianfeng Feng, Xiangyang Xue. CVPR 2018
+                  </h3>
+                </li>
+                <li>
+                  <h3><a href="https://challenger.ai/competition/zsl2018/subject">https://challenger.ai/competition/zsl2018/</a>    
+                    We help Sinovation Ventures to host a zero-shot grant
+                    challenge. </h3>
+                </li>
+              </ul>
+              <h3>2017</h3>
+              <ul>
+                <li><b><a href="https://arxiv.org/abs/1710.04837">Recent
+                      Advances in Zero-shot Recognition</a>. IEEE Signal
+                    Processing Magazine (impact factor: 9.654), to appear.</b></li>
+              </ul>
+              <p><b>                Yanwei Fu, Tao Xiang, Leonid Sigal, Yu-Gang
+                  Jiang, Xiangyang Xue, Shaogang Gong.</b></p>
+              <ul>
+                <li>
+                  <h3>Multi-scale Deep Learning Architectures for Person
+                    Re-identification<br />
+                  </h3>
+                  <p><span style="font-weight: bold;"> Xuelin Qian, Yanwei Fu</span><span
+                      style="font-weight: bold;"><span
+                        style="font-weight: bold;"><span
+                          style="font-weight: bold;">(*)</span></span>, 
+                      Yu-gang Jiang, Tao Xiang </span> and <b>Xiangyang Xue</b><span
+                      style="font-weight: bold;">;</span><span
+                      style="font-weight: bold;">
+                      ICCV 2017</span><span style="font-weight: bold;">     
+                           <br />
+                    </span></p>
+                </li>
+              </ul>
+              <p>                <span style="font-weight: bold;">   *:
+                  corresponding authour</span></p>
+              <ul>
+                <li>
+                  <h3><a href="https://arxiv.org/abs/1705.09887">Vocabulary-informed
+                      Extreme Value Learning<br />
+                    </a></h3>
+                  <p><span style="font-weight: bold;"> Yanwei Fu</span><span style="font-weight: bold;"><span
+                        style="font-weight: bold;"></span>, 
                       Hanze Dong, Yu-feng Ma, Zhengjun Zhang </span> and <b>Xiangyang
-                      Xue</b><span style="font-weight: bold;">;</span><span style="font-weight: bold;">                      arxiv:CoRR abs/1705.09887 (2017)</span></p>                </li>                <li>                  <h3><a href="https://arxiv.org/abs/1704.02166">Semi-Latent                      GAN: Learning to generate and modify facial images from                      attributes<br />                    </a></h3>                  <p><span style="font-weight: bold;">Weidong Yin, Yanwei Fu </span><span                      style="font-weight: bold;"><span                        style="font-weight: bold;">(*)</span>, 
-                      Leonid Sigal </span> and <b>Xiangyang Xue</b><span style="font-weight: bold;">;</span><span                      style="font-weight: bold;">                      arxiv: CoRR abs/1704.02166 (2017)</span></p>                  <p><span style="font-weight: bold;">       *: corresponding                      authour</span></p>                </li>                <li>                  <p><b><a href="https://arxiv.org/abs/1702.06228">Learning to                        Generate Posters of Scientific Papers by Probabilistic                        Graphical Models</a></b><br />                    <a href="https://arxiv.org/abs/1702.06228"> </a> </p>                </li>              </ul>              <p><span style="font-weight: bold;">            Yuting Qiang,                  Yanwei Fu</span><span style="font-weight: bold;"><span style="font-weight: bold;"><span                      style="font-weight: bold;"></span></span>,                  Xiao Yu, Yanwen Guo, Zhi-Hua Zhou, Leonid Sigal</span><span style="font-weight: bold;">;</span><span                  style="font-weight: bold;">                  arxiv: CoRR abs/1702.06228 (2017)</span></p>              <ul>                <li>                  <h3><a href="">Adaptively Weighted Multi-Task Deep Network for                      Person Attribute Classification<br />                    </a></h3>                </li>              </ul>              <p> <span style="font-weight: bold;">        Keke He, Yanwei Fu                  (*), Zhanxiong Wang, Yu-Gang Jiang, Rui Feng</span> and <b>Xiangyang
-                  Xue</b><span style="font-weight: bold;">; </span> <b>ACM                  Multimedia 2017</b></p>              <p><span style="font-weight: bold;">                *:                  corresponding authour</span></p>              <p> </p>              <ul>                <li>                  <h3><a href="papers/hairstyle_v_14_weidong.pdf">Learning to G</a><a                      href="papers/hairstyle_v_14_weidong.pdf">enerate
-                      and Edit Hairstyles</a><br />                  </h3>                </li>              </ul>              <p> <span style="font-weight: bold;">        Weidong Yin, Yanwei                  Fu </span><span style="font-weight: bold;"><span style="font-weight: bold;">(*)</span>,                  Yiqing Ma, Yu-gang Jiang, Tao Xiang</span> and <b>Xiangyang                  Xue</b><span style="font-weight: bold;">; ACM Multimedia 2017                  <br />                </span></p>              <p><span style="font-weight: bold;">                </span><span                  style="font-weight: bold;">*:
-                  corresponding authour (The dataset is released in   </span><a                  href="https://challenger.ai/competition/zsl2018/subject">https://challenger.ai/competition/zsl2018/</a>                )</p>              <p>                   The  whole hairstyle dataset could be                downloaded from:                http://www.sdspeople.fudan.edu.cn/fuyanwei/dataset/hairstyle/ </p>              <ul>                <li>                  <h3><a href="http://www.yugangjiang.info/publication/icmr17-face.pdf">Multi-task
-                      Deep Neural Network for Joint Face Recognition and Facial                      Attribute Prediction<br />                    </a></h3>                </li>              </ul>              <p> <span style="font-weight: bold;">        Zhanxiong Wang, Keke                  He, Yanwei Fu (*), Rui Feng, Yu-Gang Jiang, and Xiangyang Xue</span><span                  style="font-weight: bold;">;                  accepted by</span> ACM ICMR 2017;</p>              <p>               <span style="font-weight: bold;">*:                  corresponding authour</span><span style="font-weight: bold;"></span></p>              <ul>                <li>                  <h3><a href="http://www.yugangjiang.info/publication/icmr17-emotion.pdf">Frame-Transformer
-                      Emotion Classification Network<br />                    </a></h3>                </li>              </ul>              <p> <span style="font-weight: bold;">        Jiarui Gao, Yanwei                  Fu</span><span style="font-weight: bold;"><span style="font-weight: bold;">                    (*)</span>, Yu-Gang Jiang, Xiangyang Xue</span><span style="font-weight: bold;">;                </span>ACM ICMR 2017  [<a href="https://github.com/kittenish/Frame-Transformer-Network">codes&amp;dataset</a>]</p>              <p>          <span style="font-weight: bold;">    *:                  corresponding authour</span></p>              <ul>                <li>                  <h3><a href="http://arxiv.org/pdf/1609.06782v1.pdf">Deep                      Learning for Video Classification and Captioning<br />                    </a></h3>                </li>              </ul>              <p> <span style="font-weight: bold;">        Zuxuan Wu, Ting Yao,                  Yanwei Fu</span> and <span style="font-weight: bold;">Yu-Gang                  Jiang </span>ACM Book on Frontiers of Multimedia Research </p>            </div>            <div class="thumbnail">              <div class="caption">                <div class="caption">                  <ul>                    <li>                      <h3><a href="http://arxiv.org/abs/1511.04798">Heterogeneous
-                          Knowledge Transfer in Video Emotion Recognition,                          Attribution and Summarization<br />                        </a></h3>                    </li>                  </ul>                  <p> <span style="font-weight: bold;">        Baohan Xu,                      Yanwei Fu</span><span style="font-weight: bold;"><span style="font-weight: bold;">(*)</span>,                      Yu-Gang Jiang, Boyang Li</span> and <span style="font-weight: bold;">Leonid
-                      Sigal; accepted by</span> IEEE TAC2017  [<a href="http://bigvid.fudan.edu.cn/data/Ekman.zip">dataset</a>]                    [<a href="https://github.com/kittenish/Frame-Transformer-Network">Ekman6
+                      Xue</b><span style="font-weight: bold;">;</span><span style="font-weight: bold;">
+                      arxiv:CoRR abs/1705.09887 (2017)</span></p>
+                </li>
+                <li>
+                  <h3><a href="https://arxiv.org/abs/1704.02166">Semi-Latent
+                      GAN: Learning to generate and modify facial images from
+                      attributes<br />
+                    </a></h3>
+                  <p><span style="font-weight: bold;">Weidong Yin, Yanwei Fu </span><span
+                      style="font-weight: bold;"><span
+                        style="font-weight: bold;">(*)</span>, 
+                      Leonid Sigal </span> and <b>Xiangyang Xue</b><span style="font-weight: bold;">;</span><span
+                      style="font-weight: bold;">
+                      arxiv: CoRR abs/1704.02166 (2017)</span></p>
+                  <p><span style="font-weight: bold;">       *: corresponding
+                      authour</span></p>
+                </li>
+                <li>
+                  <p><b><a href="https://arxiv.org/abs/1702.06228">Learning to
+                        Generate Posters of Scientific Papers by Probabilistic
+                        Graphical Models</a></b><br />
+                    <a href="https://arxiv.org/abs/1702.06228"> </a> </p>
+                </li>
+              </ul>
+              <p><span style="font-weight: bold;">            Yuting Qiang,
+                  Yanwei Fu</span><span style="font-weight: bold;"><span style="font-weight: bold;"><span
+                      style="font-weight: bold;"></span></span>,
+                  Xiao Yu, Yanwen Guo, Zhi-Hua Zhou, Leonid Sigal</span><span style="font-weight: bold;">;</span><span
+                  style="font-weight: bold;">
+                  arxiv: CoRR abs/1702.06228 (2017)</span></p>
+              <ul>
+                <li>
+                  <h3><a href="">Adaptively Weighted Multi-Task Deep Network for
+                      Person Attribute Classification<br />
+                    </a></h3>
+                </li>
+              </ul>
+              <p> <span style="font-weight: bold;">        Keke He, Yanwei Fu
+                  (*), Zhanxiong Wang, Yu-Gang Jiang, Rui Feng</span> and <b>Xiangyang
+                  Xue</b><span style="font-weight: bold;">; </span> <b>ACM
+                  Multimedia 2017</b></p>
+              <p><span style="font-weight: bold;">                *:
+                  corresponding authour</span></p>
+              <p> </p>
+              <ul>
+                <li>
+                  <h3><a href="papers/hairstyle_v_14_weidong.pdf">Learning to G</a><a
+                      href="papers/hairstyle_v_14_weidong.pdf">enerate
+                      and Edit Hairstyles</a><br />
+                  </h3>
+                </li>
+              </ul>
+              <p> <span style="font-weight: bold;">        Weidong Yin, Yanwei
+                  Fu </span><span style="font-weight: bold;"><span style="font-weight: bold;">(*)</span>,
+                  Yiqing Ma, Yu-gang Jiang, Tao Xiang</span> and <b>Xiangyang
+                  Xue</b><span style="font-weight: bold;">; ACM Multimedia 2017
+                  <br />
+                </span></p>
+              <p><span style="font-weight: bold;">                </span><span
+                  style="font-weight: bold;">*:
+                  corresponding authour (The dataset is released in   </span><a
+                  href="https://challenger.ai/competition/zsl2018/subject">https://challenger.ai/competition/zsl2018/</a>
+                )</p>
+              <p>                   The  whole hairstyle dataset could be
+                downloaded from:
+                http://www.sdspeople.fudan.edu.cn/fuyanwei/dataset/hairstyle/ </p>
+              <ul>
+                <li>
+                  <h3><a href="http://www.yugangjiang.info/publication/icmr17-face.pdf">Multi-task
+                      Deep Neural Network for Joint Face Recognition and Facial
+                      Attribute Prediction<br />
+                    </a></h3>
+                </li>
+              </ul>
+              <p> <span style="font-weight: bold;">        Zhanxiong Wang, Keke
+                  He, Yanwei Fu (*), Rui Feng, Yu-Gang Jiang, and Xiangyang Xue</span><span
+                  style="font-weight: bold;">;
+                  accepted by</span> ACM ICMR 2017;</p>
+              <p>               <span style="font-weight: bold;">*:
+                  corresponding authour</span><span style="font-weight: bold;"></span></p>
+              <ul>
+                <li>
+                  <h3><a href="http://www.yugangjiang.info/publication/icmr17-emotion.pdf">Frame-Transformer
+                      Emotion Classification Network<br />
+                    </a></h3>
+                </li>
+              </ul>
+              <p> <span style="font-weight: bold;">        Jiarui Gao, Yanwei
+                  Fu</span><span style="font-weight: bold;"><span style="font-weight: bold;">
+                    (*)</span>, Yu-Gang Jiang, Xiangyang Xue</span><span style="font-weight: bold;">;
+                </span>ACM ICMR 2017  [<a href="https://github.com/kittenish/Frame-Transformer-Network">codes&amp;dataset</a>]</p>
+              <p>          <span style="font-weight: bold;">    *:
+                  corresponding authour</span></p>
+              <ul>
+                <li>
+                  <h3><a href="http://arxiv.org/pdf/1609.06782v1.pdf">Deep
+                      Learning for Video Classification and Captioning<br />
+                    </a></h3>
+                </li>
+              </ul>
+              <p> <span style="font-weight: bold;">        Zuxuan Wu, Ting Yao,
+                  Yanwei Fu</span> and <span style="font-weight: bold;">Yu-Gang
+                  Jiang </span>ACM Book on Frontiers of Multimedia Research </p>
+            </div>
+            <div class="thumbnail">
+              <div class="caption">
+                <div class="caption">
+                  <ul>
+                    <li>
+                      <h3><a href="http://arxiv.org/abs/1511.04798">Heterogeneous
+                          Knowledge Transfer in Video Emotion Recognition,
+                          Attribution and Summarization<br />
+                        </a></h3>
+                    </li>
+                  </ul>
+                  <p> <span style="font-weight: bold;">        Baohan Xu,
+                      Yanwei Fu</span><span style="font-weight: bold;"><span style="font-weight: bold;">(*)</span>,
+                      Yu-Gang Jiang, Boyang Li</span> and <span style="font-weight: bold;">Leonid
+                      Sigal; accepted by</span> IEEE TAC2017  [<a href="http://bigvid.fudan.edu.cn/data/Ekman.zip">dataset</a>]
+                    [<a href="https://github.com/kittenish/Frame-Transformer-Network">Ekman6
                       feature dataset</a>] [<a href="https://drive.google.com/file/d/1VKeaV_owbXciujTaDZ8NAJMXxkPqFw0d/view?ts=5fc06a0d">videoStory
-                      dataset</a>] </p>                  <p>          <span style="font-weight: bold;">    *:                      corresponding authour</span></p>                </div>              </div>            </div>            <div class="thumbnail"> <a href="./ranking/index.html"> </a>              <div class="caption">                <h3>2016</h3>                <ul>                  <li><b><a href="http://multimediaeval.org/mediaeval2016/mediainterestingness/">BigVid
-                        at MediaEval 2016: Predicting Interestingness in Images                        and Videos [pdf] [bibtex]  <span style="color: #065388;">(</span>Media
-                        Interestingness challenges)</a></b></li>                </ul>                <p>            <b>Baohan Xu, Yanwei Fu, Yu-Gang Jiang.</b>                  MediaEval 2016 Workshop, 2016. </p>                <ul>                  <li>                    <h3><a href="http://www.yugangjiang.info/research/VideoEmotions/index.html">Video
-                        Emotion Recognition with Transferred Deep Feature                        Encodings </a></h3>                  </li>                </ul>                <p> <span style="font-weight: bold;">            Baohan Xu,                    Yanwei Fu, Yu-Gang Jiang, Boyang Li</span> and <span style="font-weight: bold;">Leonid
-                    Sigal; </span>ICMR 2016 (long paper, oral, accept rate 18%)                  <a href="file:///Users/yanwei/yanweifu.github.io/ICMR2016_V5-baohan">[slides]</a></p>                <ul>                  <li><b>                      <h3><a href="http://arxiv.org/pdf/1405.6434v2.pdf">MULTI-VIEW
-                          METRIC LEARNING FOR MULTI-VIEW VIDEO SUMMARIZATION </a></h3>                    </b></li>                </ul>                <p><b> </b></p>                <p><b>            Yanwei Fu, Arxiv paper. </b></p>                <b> </b>                <ul>                  <li>                    <h3><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7159107">Robust
-                        Estimation of Subjective Visual Properties from                        Crowdsourced Pairwise Labels </a> </h3>                  </li>                </ul>                <p><span style="font-weight: bold;">            Yanwei Fu;                    Timothy M. Hospedales; Jiechao Xiong; Tao Xiang; Shaogang                    Gong ; Yuan Yao; Yizhou Wang; </span>(IEEE TPAMI,March                                  2016, vol 38(3), Page 563-577, SCI/EI,<b> impact                    factor 6.077 </b> <a href="https://github.com/yanweifu/Robust_ranking">[codes]</a></p>                <b> </b></div>              <b> </b></div>            <b>              <div class="thumbnail"> <a href="./"> </a>                <div class="caption">                  <ul>                    <li>                      <h3><a href="./">Harnessing Object and Scene Semantics for                          Large-Scale Video Understanding </a></h3>                    </li>                  </ul>                  <p>             ZuXuan Wu, Yanwei Fu, Yu-gang Jiang, Leonid                    Sigal (CVPR 2016, Spotlight)<a href="http://www.eurekalert.org/pub_releases/2016-06/dr-oas062316.php">  
+                      dataset</a>] </p>
+                  <p>          <span style="font-weight: bold;">    *:
+                      corresponding authour</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="thumbnail"> <a href="./ranking/index.html"> </a>
+              <div class="caption">
+                <h3>2016</h3>
+                <ul>
+                  <li><b><a href="http://multimediaeval.org/mediaeval2016/mediainterestingness/">BigVid
+                        at MediaEval 2016: Predicting Interestingness in Images
+                        and Videos [pdf] [bibtex]  <span style="color: #065388;">(</span>Media
+                        Interestingness challenges)</a></b></li>
+                </ul>
+                <p>            <b>Baohan Xu, Yanwei Fu, Yu-Gang Jiang.</b>
+                  MediaEval 2016 Workshop, 2016. </p>
+                <ul>
+                  <li>
+                    <h3><a href="http://www.yugangjiang.info/research/VideoEmotions/index.html">Video
+                        Emotion Recognition with Transferred Deep Feature
+                        Encodings </a></h3>
+                  </li>
+                </ul>
+                <p> <span style="font-weight: bold;">            Baohan Xu,
+                    Yanwei Fu, Yu-Gang Jiang, Boyang Li</span> and <span style="font-weight: bold;">Leonid
+                    Sigal; </span>ICMR 2016 (long paper, oral, accept rate 18%)
+                  <a href="file:///Users/yanwei/yanweifu.github.io/ICMR2016_V5-baohan">[slides]</a></p>
+                <ul>
+                  <li><b>
+                      <h3><a href="http://arxiv.org/pdf/1405.6434v2.pdf">MULTI-VIEW
+                          METRIC LEARNING FOR MULTI-VIEW VIDEO SUMMARIZATION </a></h3>
+                    </b></li>
+                </ul>
+                <p><b> </b></p>
+                <p><b>            Yanwei Fu, Arxiv paper. </b></p>
+                <b> </b>
+                <ul>
+                  <li>
+                    <h3><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7159107">Robust
+                        Estimation of Subjective Visual Properties from
+                        Crowdsourced Pairwise Labels </a> </h3>
+                  </li>
+                </ul>
+                <p><span style="font-weight: bold;">            Yanwei Fu;
+                    Timothy M. Hospedales; Jiechao Xiong; Tao Xiang; Shaogang
+                    Gong ; Yuan Yao; Yizhou Wang; </span>(IEEE TPAMI,March    
+                              2016, vol 38(3), Page 563-577, SCI/EI,<b> impact
+                    factor 6.077 </b> <a href="https://github.com/yanweifu/Robust_ranking">[codes]</a></p>
+                <b> </b></div>
+              <b> </b></div>
+            <b>
+              <div class="thumbnail"> <a href="./"> </a>
+                <div class="caption">
+                  <ul>
+                    <li>
+                      <h3><a href="./">Harnessing Object and Scene Semantics for
+                          Large-Scale Video Understanding </a></h3>
+                    </li>
+                  </ul>
+                  <p>             ZuXuan Wu, Yanwei Fu, Yu-gang Jiang, Leonid
+                    Sigal (CVPR 2016, Spotlight)<a href="http://www.eurekalert.org/pub_releases/2016-06/dr-oas062316.php">  
                       [Press Release]</a> <a href="http://www.science20.com/news_articles/object_and_scene_recognition_software_work_together_to_understand_video_content-175270">[Science20]
-                      </a><a href="http://cacm.acm.org/news/204186-object-and-scene-recognition-software-work-together-to-understand-video-content/fulltext">[                      Communications of             the ACM] [</a> <a href="http://www.business-standard.com/article/news-ians/this-software-can-recognise-unseen-events-in-youtube-videos-116062400527_1.html">                      Business Standard</a>] [<a href="http://www.sciencenewsline.com/summary/2016062314080018.html">                      Science Newsline Technology] [</a><a href="https://www.eurekalert.org/pub_releases/2016-06/dr-oas062316.php">Eurekalert</a>][<a                      href="http://phys.org/news/2016-06-scene-recognition-software-video-content.html">PhyORG</a>]                         </p>                </div>              </div>              <div class="thumbnail"> <a href="./"> </a>                <div class="caption">                  <ul>                    <li>                      <h3><a href="https://www.disneyresearch.com/publication/semi-supervised-vocabulary-informed-learning/">Semi-supervised
-                          Vocabulary-informed Learning</a></h3>                    </li>                  </ul>                  <p>             Yanwei Fu and Leonid Sigal (CVPR 2016, oral)<a                      href="http://www.eurekalert.org/pub_releases/2016-06/dr-cvs062316.php">                       [Press Release]</a> <a href="http://phys.org/news/2016-06-vision-word.html">[Science
+                      </a><a href="http://cacm.acm.org/news/204186-object-and-scene-recognition-software-work-together-to-understand-video-content/fulltext">[
+                      Communications of             the ACM] [</a> <a href="http://www.business-standard.com/article/news-ians/this-software-can-recognise-unseen-events-in-youtube-videos-116062400527_1.html">
+                      Business Standard</a>] [<a href="http://www.sciencenewsline.com/summary/2016062314080018.html">
+                      Science Newsline Technology] [</a><a href="https://www.eurekalert.org/pub_releases/2016-06/dr-oas062316.php">Eurekalert</a>][<a
+                      href="http://phys.org/news/2016-06-scene-recognition-software-video-content.html">PhyORG</a>]
+                         </p>
+                </div>
+              </div>
+              <div class="thumbnail"> <a href="./"> </a>
+                <div class="caption">
+                  <ul>
+                    <li>
+                      <h3><a href="https://www.disneyresearch.com/publication/semi-supervised-vocabulary-informed-learning/">Semi-supervised
+                          Vocabulary-informed Learning</a></h3>
+                    </li>
+                  </ul>
+                  <p>             Yanwei Fu and Leonid Sigal (CVPR 2016, oral)<a
+                      href="http://www.eurekalert.org/pub_releases/2016-06/dr-cvs062316.php"> 
+                      [Press Release]</a> <a href="http://phys.org/news/2016-06-vision-word.html">[Science
                       2.0] [PhyORG]</a> <b><a href="http://www.sciencenewsline.com/summary/2016062314080016.html">[ScienceNewsline
-                        Technology]</a> </b> </p>                  <p><a href="https://arxiv.org/abs/1604.07093">                                 [arxiv version]</a> <a href="semi_supervised_vocab/yanwei_cvpr16slides.pdf">                      [Slides]</a> </p>                </div>              </div>              <div class="thumbnail"> <a href="./embedding/index.html"> </a>                <div class="caption">                  <ul>                    <li>                      <h3><a href="http://cs.brown.edu/%7Els/Publications/aaai2016kuznetsova.pdf">Learning
-                          to Generate Posters of Scientific Papers</a></h3>                    </li>                  </ul>                  <p>             Yu-ting Qiang, Yanwei Fu, Yanwen Guo, Zhi-hua                    Zhou, Leonid Sigal, AAAI 2016. </p>                  <a href="">             code</a>,  <span style="color: rgb(6, 83, 136);"><a                      href="http://www.weibo.com/2536116592/DoliWoqpO?type=comment#_rnd1463339222782">Press/Blog
-                      Release   Weibo</a>  Twitter Comments<br />                  </span> </div>              </div>              <div class="thumbnail"> <a href="./"> </a>                <div class="caption">                  <h3>2015<br />                    <a href="http://arxiv.org/pdf/1511.06340v1.pdf"> </a></h3>                  <ul>                    <li>                      <h3><a href="http://arxiv.org/pdf/1511.06340v1.pdf">Robust                          Classification by Pre-conditioned LASSO and                          Transductive Diffusion Component Analysis </a></h3>                    </li>                  </ul>                  <p>             Yanwei Fu, De-An Huang and Leonid Sigal, Arxiv                    paper. </p>                </div>              </div>              <div class="thumbnail"> <a href="./"> </a>                <div class="caption">                  <ul>                    <li>                      <h3><a href="http://cs.brown.edu/%7Els/Publications/icmla2015_synth.pdf">Learning
-                          from Synthetic Data Using a Stacked Multichannel                          Autoencoder</a></h3>                    </li>                  </ul>                  <p>             Xi Zhang, Yanwei Fu, S. Jiang, Leonid Sigal                    and G. Agam, IEEE ICMLA, 2015. </p>                </div>              </div>              <div class="thumbnail"> <a href="./embedding/index.html"> </a>                <div class="caption">                  <ul>                    <li>                      <h3><a href="thesis/yanwei_thesis.pdf">Attribute Learning                          for Image/Video Understanding (my thesis) </a></h3>                    </li>                  </ul>                  <p>           Yanwei Fu</p>                </div>              </div>              <div class="thumbnail"> <a href="./embedding/index.html"> </a>                <div class="caption">                  <h3>2014</h3>                  <ul>                    <li>                      <h3><a href="embedding/index.html">Transductive Multi-view                          Zero-Shot Learning</a></h3>                    </li>                  </ul>                  <b>           Yanwei Fu</b>; Timothy M. Hospedales; <b>Tao                    Xiang</b>;  <b>Shaogang Gong</b>. IEEE TPAMI, 2015; <a href="https://www.youtube.com/watch?v=jBnCcr-3bXc">                    <br />                  </a>                  <p><a href="https://www.youtube.com/watch?v=jBnCcr-3bXc">Invited
-                      talk    Youtube-talk(by Prof. Tao Xiang)   Youtube-talk(by                      <span style="color: rgb(153, 0, 0);">Dr. Hopspedales)</span></a><br />                  </p>                </div>              </div>              <div class="thumbnail"> <a href="./embedding/index.html"> </a>                <div class="caption">                  <ul>                    <li>                      <h3><a href="embedding/index.html"> Transductive                          Multi-view Embedding for Zero-Shot Recognition and                          Annotation</a></h3>                    </li>                  </ul>                  <p> <b>            Yanwei Fu</b>.; Timothy M. Hospedales; Tao                    Xiang; Fu, Z.; <b>Shaogang Gong</b>. (ECCV 2014  SCI/EI) </p>                  <ul>                    <li>                      <h3><a href="embedding/eccv14_attrb_workshop.pdf">Transductive
-                          Multi-calss and Multi-label Zero-shot Learning </a></h3>                    </li>                  </ul>                  <p>             Fu, Y.;Yang, Y.; Timothy M. Hospedales; <b>Tao
-                      Xiang</b>; <b>Shaogang Gong</b> (ECCV 2014 workshop on                    Parts and Attribute)<a href="https://github.com/yanweifu/embedding_zero-shot-learning">  
-                      code</a> </p>                </div>              </div>              <div class="thumbnail"> <a href="./embedding/index.html"> </a>                <div class="caption">                  <ul>                    <li>                      <h3><a href="embedding/Multilabel/index.html">Transductive                          Multi-label Zero-shot Learning</a></h3>                    </li>                  </ul>                  <p><b>            Yanwei Fu</b>; Yongxin Yang; Timothy M.                    Hospedales; <b>Tao Xiang</b>; <b>Shaogang Gong </b>(BMVC                    2014)   <a href="embedding/Multilabel/mat/readme.txt">Dataset
-                      and codes</a>  </p>                </div>              </div>              <div class="thumbnail">                <div class="caption">                  <ul>                    <li>                      <h3><a href="ranking/index.html">Interestingness                          Prediction by Robust Learning to Rank </a> </h3>                    </li>                  </ul>                  <p><b>            Yanwei Fu</b>; Timothy M. Hospedales; <b>Tao
-                      Xiang</b>; <b>Shaogang Gong; Yuan </b>Yao. (ECCV 2014,                    SCI/EI)</p>                </div>              </div>              <br />              2013<br />              <br />              <div class="row">                <div class="col-xs-12 hero-feature">                  <div class="thumbnail"> <a href="./USAA/download/"> </a>                    <div class="caption">                      <ul>                        <li>"Learning Multi-modal Latent Attributes" </li>                      </ul>                      <p><b>            Yanwei Fu</b>; <b>Timothy M. Hospedales</b>                        ; <b>Tao Xiang</b> ; Shaogang Gong (IEEE TPAMI,Feb                        2014, vol 36(2), Page 303-316, SCI/EI,<b>                                      impact factor 6.077</b>)  <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=6552193"                          class="btn btn-primary">PDF</a>                        <a href="./USAA/download/"> dataset</a></p>                      <p><span style="color: #065388;"></span><b>2012<br />                        </b> </p>                      <ul>                        <li>                          <h3> Attribute Learning for Understanding Unstructured                            Social Activity </h3>                        </li>                      </ul>                      <p><b>            Yanwei Fu</b> ;Timothy M. Hospedales; <b>Tao
-                          Xiang</b> ; <b>Shaogang Gong</b>. (ECCV 2012,                        SCI/EI).<a href="file:///Users/fuylocal/yanweifu.github.io/visualization.html">                           Youtube Demo</a> </p>                      <p>2011</p>                      <ul>                        <li><b>                            <h3><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876&amp;tag=1">Content-sensitive
-                                collection snapping</a></h3>                          </b></li>                      </ul>                      <p><b> </b></p>                      <p><b><b>            Yanwei Fu</b>, Yanwen Guo. (2011 IEEE                          International Conference on Multimedia and Expo                          (ICME)), Page 1-6<b><b><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876"                                class="btn btn-primary">   
-                                PDF</a></b></b></b></p>                      <b> </b><b>                        <p><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876"                            class="btn btn-primary">   
-                            <br /></a></p>                      </b>2010<br />                    </div>                  </div>                </div>              </div>              <div class="row">                <div class="col-xs-12 hero-feature">                  <div class="thumbnail"> <a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/summarization/summarization.html">                    </a>                    <div class="caption">                      <ul>                        <li>                          <h3>Multi-view Video Summarization</h3>                        </li>                      </ul>                      <p><b>            Yanwei Fu</b>, Yanwen Guo; Yanshu Zhu;                        Feng Liu; Chanming Song; Zhi-hua Zhou. (IEEE TMM Nov                        2010, vol 12(7), Page 717-729,             SCI/EI)<a href="http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?arnumber=5482155"                          class="btn btn-primary">  
+                        Technology]</a> </b> </p>
+                  <p><a href="https://arxiv.org/abs/1604.07093">           
+                      [arxiv version]</a> <a href="semi_supervised_vocab/yanwei_cvpr16slides.pdf">
+                      [Slides]</a> </p>
+                </div>
+              </div>
+              <div class="thumbnail"> <a href="./embedding/index.html"> </a>
+                <div class="caption">
+                  <ul>
+                    <li>
+                      <h3><a href="http://cs.brown.edu/%7Els/Publications/aaai2016kuznetsova.pdf">Learning
+                          to Generate Posters of Scientific Papers</a></h3>
+                    </li>
+                  </ul>
+                  <p>             Yu-ting Qiang, Yanwei Fu, Yanwen Guo, Zhi-hua
+                    Zhou, Leonid Sigal, AAAI 2016. </p>
+                  <a href="">             code</a>,  <span style="color: rgb(6, 83, 136);"><a
+                      href="http://www.weibo.com/2536116592/DoliWoqpO?type=comment#_rnd1463339222782">Press/Blog
+                      Release   Weibo</a>  Twitter Comments<br />
+                  </span> </div>
+              </div>
+              <div class="thumbnail"> <a href="./"> </a>
+                <div class="caption">
+                  <h3>2015<br />
+                    <a href="http://arxiv.org/pdf/1511.06340v1.pdf"> </a></h3>
+                  <ul>
+                    <li>
+                      <h3><a href="http://arxiv.org/pdf/1511.06340v1.pdf">Robust
+                          Classification by Pre-conditioned LASSO and
+                          Transductive Diffusion Component Analysis </a></h3>
+                    </li>
+                  </ul>
+                  <p>             Yanwei Fu, De-An Huang and Leonid Sigal, Arxiv
+                    paper. </p>
+                </div>
+              </div>
+              <div class="thumbnail"> <a href="./"> </a>
+                <div class="caption">
+                  <ul>
+                    <li>
+                      <h3><a href="http://cs.brown.edu/%7Els/Publications/icmla2015_synth.pdf">Learning
+                          from Synthetic Data Using a Stacked Multichannel
+                          Autoencoder</a></h3>
+                    </li>
+                  </ul>
+                  <p>             Xi Zhang, Yanwei Fu, S. Jiang, Leonid Sigal
+                    and G. Agam, IEEE ICMLA, 2015. </p>
+                </div>
+              </div>
+              <div class="thumbnail"> <a href="./embedding/index.html"> </a>
+                <div class="caption">
+                  <ul>
+                    <li>
+                      <h3><a href="thesis/yanwei_thesis.pdf">Attribute Learning
+                          for Image/Video Understanding (my thesis) </a></h3>
+                    </li>
+                  </ul>
+                  <p>           Yanwei Fu</p>
+                </div>
+              </div>
+              <div class="thumbnail"> <a href="./embedding/index.html"> </a>
+                <div class="caption">
+                  <h3>2014</h3>
+                  <ul>
+                    <li>
+                      <h3><a href="embedding/index.html">Transductive Multi-view
+                          Zero-Shot Learning</a></h3>
+                    </li>
+                  </ul>
+                  <b>           Yanwei Fu</b>; Timothy M. Hospedales; <b>Tao
+                    Xiang</b>;  <b>Shaogang Gong</b>. IEEE TPAMI, 2015; <a href="https://www.youtube.com/watch?v=jBnCcr-3bXc">
+                    <br />
+                  </a>
+                  <p><a href="https://www.youtube.com/watch?v=jBnCcr-3bXc">Invited
+                      talk    Youtube-talk(by Prof. Tao Xiang)   Youtube-talk(by
+                      <span style="color: rgb(153, 0, 0);">Dr. Hopspedales)</span></a><br />
+                  </p>
+                </div>
+              </div>
+              <div class="thumbnail"> <a href="./embedding/index.html"> </a>
+                <div class="caption">
+                  <ul>
+                    <li>
+                      <h3><a href="embedding/index.html"> Transductive
+                          Multi-view Embedding for Zero-Shot Recognition and
+                          Annotation</a></h3>
+                    </li>
+                  </ul>
+                  <p> <b>            Yanwei Fu</b>.; Timothy M. Hospedales; Tao
+                    Xiang; Fu, Z.; <b>Shaogang Gong</b>. (ECCV 2014  SCI/EI) </p>
+                  <ul>
+                    <li>
+                      <h3><a href="embedding/eccv14_attrb_workshop.pdf">Transductive
+                          Multi-calss and Multi-label Zero-shot Learning </a></h3>
+                    </li>
+                  </ul>
+                  <p>             Fu, Y.;Yang, Y.; Timothy M. Hospedales; <b>Tao
+                      Xiang</b>; <b>Shaogang Gong</b> (ECCV 2014 workshop on
+                    Parts and Attribute)<a href="https://github.com/yanweifu/embedding_zero-shot-learning">  
+                      code</a> </p>
+                </div>
+              </div>
+              <div class="thumbnail"> <a href="./embedding/index.html"> </a>
+                <div class="caption">
+                  <ul>
+                    <li>
+                      <h3><a href="embedding/Multilabel/index.html">Transductive
+                          Multi-label Zero-shot Learning</a></h3>
+                    </li>
+                  </ul>
+                  <p><b>            Yanwei Fu</b>; Yongxin Yang; Timothy M.
+                    Hospedales; <b>Tao Xiang</b>; <b>Shaogang Gong </b>(BMVC
+                    2014)   <a href="embedding/Multilabel/mat/readme.txt">Dataset
+                      and codes</a>  </p>
+                </div>
+              </div>
+              <div class="thumbnail">
+                <div class="caption">
+                  <ul>
+                    <li>
+                      <h3><a href="ranking/index.html">Interestingness
+                          Prediction by Robust Learning to Rank </a> </h3>
+                    </li>
+                  </ul>
+                  <p><b>            Yanwei Fu</b>; Timothy M. Hospedales; <b>Tao
+                      Xiang</b>; <b>Shaogang Gong; Yuan </b>Yao. (ECCV 2014,
+                    SCI/EI)</p>
+                </div>
+              </div>
+              <br />
+              2013<br />
+              <br />
+              <div class="row">
+                <div class="col-xs-12 hero-feature">
+                  <div class="thumbnail"> <a href="./USAA/download/"> </a>
+                    <div class="caption">
+                      <ul>
+                        <li>"Learning Multi-modal Latent Attributes" </li>
+                      </ul>
+                      <p><b>            Yanwei Fu</b>; <b>Timothy M. Hospedales</b>
+                        ; <b>Tao Xiang</b> ; Shaogang Gong (IEEE TPAMI,Feb
+                        2014, vol 36(2), Page 303-316, SCI/EI,<b>            
+                          impact factor 6.077</b>)  <a class="btn btn-primary"
+                          href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=6552193">PDF</a>
+                        <a href="./USAA/download/"> dataset</a></p>
+                      <p><span style="color: #065388;"></span><b>2012<br />
+                        </b> </p>
+                      <ul>
+                        <li>
+                          <h3> Attribute Learning for Understanding Unstructured
+                            Social Activity </h3>
+                        </li>
+                      </ul>
+                      <p><b>            Yanwei Fu</b> ;Timothy M. Hospedales; <b>Tao
+                          Xiang</b> ; <b>Shaogang Gong</b>. (ECCV 2012,
+                        SCI/EI).<a href="file:///Users/fuylocal/yanweifu.github.io/visualization.html"> 
+                          Youtube Demo</a> </p>
+                      <p>2011</p>
+                      <ul>
+                        <li><b>
+                            <h3><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876&amp;tag=1">Content-sensitive
+                                collection snapping</a></h3>
+                          </b></li>
+                      </ul>
+                      <p><b> </b></p>
+                      <p><b><b>            Yanwei Fu</b>, Yanwen Guo. (2011 IEEE
+                          International Conference on Multimedia and Expo
+                          (ICME)), Page 1-6<b><b><a class="btn btn-primary" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876">   
+                                PDF</a></b></b></b></p>
+                      <b> </b><b>
+                        <p><a class="btn btn-primary" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876">   
+                            <br /></a></p>
+                      </b>2010<br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 hero-feature">
+                  <div class="thumbnail"> <a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/summarization/summarization.html">
+                    </a>
+                    <div class="caption">
+                      <ul>
+                        <li>
+                          <h3>Multi-view Video Summarization</h3>
+                        </li>
+                      </ul>
+                      <p><b>            Yanwei Fu</b>, Yanwen Guo; Yanshu Zhu;
+                        Feng Liu; Chanming Song; Zhi-hua Zhou. (IEEE TMM Nov
+                        2010, vol 12(7), Page 717-729,             SCI/EI)<a class="btn btn-primary"
+                          href="http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?arnumber=5482155">  
                           PDF</a><a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/summarization/summarization.html">   
                           dataset  </a><b><a href="file:///Users/fuylocal/yanweifu.github.io/visualization_multiview.html">Youtube
-                            Demo </a></b> </p>                    </div>                  </div>                </div>              </div>              <a href="http://mmc.committees.comsoc.org/files/2016/04/MMTC-RLetter-Oct2011.pdf"><span                  style="color: rgb(6, 83, 136);">   
-                          Academic-Press Report and Review by IEEE MMTC                  R-letter, Oct 2011 (Page 13)</span></a><br />              <br />              <br />              <br />              Other material:<br />              <div class="row">                <div class="caption">                  <ul>                    <li>                      <h2> <a href="visualization.html"> Interesting                          Visualisation of the work above </a> </h2>                    </li>                  </ul>                </div>              </div>              <div class="row">                <div class="caption">                  <ul>                    <li>                      <h2> <a href="otherdataset.html"> Other useful dataset </a>                      </h2>                    </li>                  </ul>                </div>              </div>            </b></div>          <b> </b></div>        <b> </b></div>      <b>        <div id="footer">          <script type="text/javascript">ucbfooter();</script> © Yanwei Fu </div>      </b> </div>  </body></html>
+                            Demo </a></b> </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="http://mmc.committees.comsoc.org/files/2016/04/MMTC-RLetter-Oct2011.pdf"><span
+                  style="color: rgb(6, 83, 136);">   
+                          Academic-Press Report and Review by IEEE MMTC
+                  R-letter, Oct 2011 (Page 13)</span></a><br />
+              <br />
+              <br />
+              <br />
+              Other material:<br />
+              <div class="row">
+                <div class="caption">
+                  <ul>
+                    <li>
+                      <h2> <a href="visualization.html"> Interesting
+                          Visualisation of the work above </a> </h2>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="caption">
+                  <ul>
+                    <li>
+                      <h2> <a href="otherdataset.html"> Other useful dataset </a>
+                      </h2>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </b></div>
+          <b> </b></div>
+        <b> </b></div>
+      <b>
+        <div id="footer">
+          <script type="text/javascript">ucbfooter();</script> © Yanwei Fu </div>
+      </b> </div>
+  </body>
+</html>
