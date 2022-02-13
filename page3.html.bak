@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <meta content="application/xhtml+xml; charset=UTF-8" http-equiv="content-type" />
     <title>Yanwei Fu: EECS-QMUL</title>
     <link href="defaultstyle.css" rel="stylesheet" media="screen" />
     <script type="text/javascript" src="branding.js"></script>
@@ -89,21 +89,31 @@
           </div>
         </div>
         <div id="page">
-          <h3>2021</h3>
-          <ul>          
-            <li><b> Multi-view Shape Generation for 3D Human-like Body. Hang Yu, Yanwei Fu, Xiangyang Xue. ACM Transactions on Multimedia Computing Communications and Applications (TOMM), to appear </b></li>
+          <h3>2022</h3>
+          <br />
+          <ul>
+            <li><b> High-fidelity Portrait Editing via Exploring Differentiable
+                Guided Sketches from the Latent Space. Chengrong Wang, Chenjie
+                Cao, Yanwei Fu, Xiangyang Xue. ICASSP 2022 </b></li>
             <br />
-            <li><b> Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions.
-              Haitao Lin, Chilam Cheang, Yanwei Fu, Xiangyang Xue, ICRA 2022
-               </b></li>
+            <li><b> Multi-view Shape Generation for 3D Human-like Body. Hang Yu,
+                Yanwei Fu, Xiangyang Xue. ACM Transactions on Multimedia
+                Computing Communications and Applications (TOMM), to appear </b></li>
             <br />
-            <li><b>  I Know What You Draw:Learning Grasp Detection Conditioned on a Few Freehand Sketches.
-              Chilam Cheang, Haitao Lin, Yanwei Fu, Xiangyang Xue, ICRA 2022
-                </b></li>
-             <br /> 
+            <li><b> Learning 6-DoF Object Poses to Grasp Category-level Objects
+                by Language Instructions. Haitao Lin, Chilam Cheang, Yanwei Fu,
+                Xiangyang Xue, ICRA 2022 </b></li>
+            <br />
+            <li><b> I Know What You Draw:Learning Grasp Detection
+                Conditioned on a Few Freehand Sketches. Chilam Cheang, Haitao
+                Lin, Yanwei Fu, Xiangyang Xue, ICRA 2022 </b></li>
+            <br />
             <li><b> HandO: a hybrid 3D hand–object reconstruction model for
                 unknown objects. Hang Yu, Yanwei Fu, Xiangyang Xue. Multimedia
                 Systems. to appear </b></li>
+          </ul>
+          <h3>2021</h3>
+          <ul>
             <br />
             <li><b> Adaptive End-to-End Budgeted Network Learning via Inverse
                 Scale Space. Zuyuan Zhong, Chen Liu, Yanwei Fu. BMVC 2021 </b></li>
