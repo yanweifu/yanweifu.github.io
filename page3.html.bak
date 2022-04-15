@@ -3,10 +3,9 @@
   <head>
     <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
     <title>Yanwei Fu: EECS-QMUL</title>
-    <link media="screen" rel="stylesheet" href="defaultstyle.css" />
-    <script src="branding.js" type="text/javascript"></script>
-    <script src="http://www.colorado.edu/templates/faculty-template/js/curvycorners.js"
-type="text/JavaScript"></script>
+    <link href="defaultstyle.css" rel="stylesheet" media="screen" />
+    <script type="text/javascript" src="branding.js"></script>
+    <script type="text/JavaScript" src="http://www.colorado.edu/templates/faculty-template/js/curvycorners.js"></script>
     <!-- Custom CSS for the 'Heroic Features' Template -->
     <!--<link href="css/heroic-features.css" rel="stylesheet">-->
     <style>
@@ -93,31 +92,62 @@ type="text/JavaScript"></script>
           <h3>2022</h3>
           <ul>
             <br />
-            <li><b> Reinforcing Generated Images via Meta-learning for One-Shot Fine-Grained Visual Recognition, Satoshi Tsutsui, Yanwei Fu, David Crandall. IEEE TPAMI accepted (2022) </b></li>
+            <li><b> Exploring Structural Sparsity of Deep Networks via Inverse Scale Spaces,
+              Yanwei Fu, Chen Liu, Donghao Li, Zuyuan Zhong, Xinwei Sun, Jinshan Zeng, Yuan Yao. 
+              IEEE TPAMI accepted (2022) </b></li>
+          <br />
+            <li><b> Reinforcing Generated Images via Meta-learning for One-Shot
+                Fine-Grained Visual Recognition, Satoshi Tsutsui, Yanwei Fu,
+                David Crandall. IEEE TPAMI accepted (2022) </b></li>
             <br />
-
-            <li><b> DST: Dynamic Substitute Training for Data-free Black-box Attack. Wenxuan Wang, Xuelin Qian, Yanwei Fu, Xiangyang Xue. CVPR 2022 </b></li>
+            <li><b> DST: Dynamic Substitute Training for Data-free Black-box
+                Attack. Wenxuan Wang, Xuelin Qian, Yanwei Fu, Xiangyang Xue.
+                CVPR 2022 </b></li>
             <br />
-            <li><b> Density-preserving Deep Point Cloud Compression.        
-              Yun He, Xinlin Ren, Yanwei Fu, Xiangyang Xue, Danhang Tang, Yinda Zhang.  CVPR 2022</b></li>
+            <li><b> Density-preserving Deep Point Cloud Compression. Yun He,
+                Xinlin Ren, Yanwei Fu, Xiangyang Xue, Danhang Tang, Yinda Zhang.
+                CVPR 2022</b></li>
             <br />
-            <li><b> ONCE-3DLanes: Building Monocular 3D Lane Detection. Yan Fan, Ming Nie, Xinyue Cai, Jianhua Han, Yanwei Fu, Hang Xu, Zhen Yang, Chaoqiang Ye, Michael Bi Mi, Li Zhang.CVPR 2022</b></li>
+            <li><b> ONCE-3DLanes: Building Monocular 3D Lane Detection. Yan Fan,
+                Ming Nie, Xinyue Cai, Jianhua Han, Yanwei Fu, Hang Xu, Zhen
+                Yang, Chaoqiang Ye, Michael Bi Mi, Li Zhang.CVPR 2022</b></li>
             <br />
-            <li><b> H4D: Human 4D Modeling by Learning Neural Compositional Representation. Boyan Jiang, Yinda Zhang, Xiangyang Xue, Yanwei Fu.  CVPR 2022 </b></li>
+            <li><b> H4D: Human 4D Modeling by Learning Neural Compositional
+                Representation. Boyan Jiang, Yinda Zhang, Xiangyang Xue, Yanwei
+                Fu. CVPR 2022 <a href="" project page> </a><br />
+              </b></li>
             <br />
-            <li><b> Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels. Yikang Wang, Xinwei Sun, Yanwei Fu. CVPR 2022 </b></li>
+            <li><b> Scalable Penalized Regression for Noise Detection in
+                Learning With Noisy Labels. Yikang Wang, Xinwei Sun, Yanwei Fu.
+                CVPR 2022 </b></li>
             <br />
-            <li><b> Incremental Transformer Structure Enhanced Image Inpainting with Masking Positional Encoding. Qiaole Dong, Chenjie Cao, Yanwei Fu.  CVPR 2022 </b></li>
+            <li><b> Incremental Transformer Structure Enhanced Image Inpainting
+                with Masking Positional Encoding. Qiaole Dong, Chenjie Cao,
+                Yanwei Fu. CVPR 2022 <a href="https://dqiaole.github.io/ZITS_inpainting/" project page> </a> </b></li>
             <br />
-            <li><b> SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation. Haitao Lin, Zichang Liu, Chilam Cheang, Yanwei Fu, Guodong Guo, Xiangyang Xue. CVPR 2022</b></li>
+            <li><b> SAR-Net: Shape Alignment and Recovery Network for
+                Category-level 6D Object Pose and Size Estimation. Haitao Lin,
+                Zichang Liu, Chilam Cheang, Yanwei Fu, Guodong Guo, Xiangyang
+                Xue. CVPR 2022</b></li>
             <br />
-            <li><b> ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation. Jianan Wang, Guansong Lu, Hang Xu, Zhenguo Li, Chunjing Xu, Yanwei Fu. CVPR 2022 </b></li>
+            <li><b> ManiTrans: Entity-Level Text-Guided Image Manipulation via
+                Token-wise Semantic Alignment and Generation. Jianan Wang,
+                Guansong Lu, Hang Xu, Zhenguo Li, Chunjing Xu, Yanwei Fu. CVPR
+                2022 <a href="https://jawang19.github.io/manitrans/index.html" project page> </a> </b></li>
+                
             <br />
-            <li><b> Ranking Distance Calibration for Cross-Domain Few-Shot Learning. Pan Li, Shaogang Gong, Chengjie Wang, Yanwei Fu. CVPR 2022 </b></li>
+            <li><b> Ranking Distance Calibration for Cross-Domain Few-Shot
+                Learning. Pan Li, Shaogang Gong, Chengjie Wang, Yanwei Fu. CVPR
+                2022 </b></li>
             <br />
-            <li><b> Learning to Memorize Feature Hallucination for One-Shot Image Generation. Yu Xie, Yanwei Fu, Ying Tai, Junwei Zhu, Yun Cao, Chengjie Wang.  CVPR 2022 </b></li>
+            <li><b> Learning to Memorize Feature Hallucination for One-Shot
+                Image Generation. Yu Xie, Yanwei Fu, Ying Tai, Junwei Zhu, Yun
+                Cao, Chengjie Wang. CVPR 2022 </b></li>
             <br />
-             <li><b> Clustering by the Probability Distributions from Extreme Value Theory. Sixiao Zheng, Ke Fan, Yanxi Hou, Jianfeng Feng, and Yanwei Fu. IEEE Transactions on Artificial Intelligence, to appear </b></li>
+            <li><b> Clustering by the Probability Distributions from Extreme
+                Value Theory. Sixiao Zheng, Ke Fan, Yanxi Hou, Jianfeng Feng,
+                and Yanwei Fu. IEEE Transactions on Artificial Intelligence, to
+                appear </b></li>
             <br />
             <li><b> High-fidelity Portrait Editing via Exploring Differentiable
                 Guided Sketches from the Latent Space. Chengrong Wang, Chenjie
@@ -127,9 +157,9 @@ type="text/JavaScript"></script>
                 Yanwei Fu, Xiangyang Xue. ACM Transactions on Multimedia
                 Computing Communications and Applications (TOMM), to appear </b></li>
             <br />
-            <li><b> Learning 6-DoF Object Poses to Grasp
-                Category-level Objects by Language Instructions.
-                Haitao Lin, Chilam Cheang, Yanwei Fu, Xiangyang Xue, ICRA 2022 </b></li>
+            <li><b> Learning 6-DoF Object Poses to Grasp Category-level Objects
+                by Language Instructions. Haitao Lin, Chilam Cheang, Yanwei Fu,
+                Xiangyang Xue, ICRA 2022 </b></li>
             <br />
             <li><b> I Know What You Draw:Learning Grasp Detection Conditioned on
                 a Few Freehand Sketches. Chilam Cheang, Haitao Lin, Yanwei Fu,
@@ -943,8 +973,8 @@ type="text/JavaScript"></script>
                       <p><b>            Yanwei Fu</b>; <b>Timothy M. Hospedales</b>
                         ; <b>Tao Xiang</b> ; Shaogang Gong (IEEE TPAMI,Feb
                         2014, vol 36(2), Page 303-316, SCI/EI,<b>            
-                          impact factor 6.077</b>)  <a class="btn btn-primary"
-                          href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=6552193">PDF</a>
+                          impact factor 6.077</b>)  <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&amp;arnumber=6552193"
+                          class="btn btn-primary">PDF</a>
                         <a href="./USAA/download/"> dataset</a></p>
                       <p><span style="color: #065388;"></span><b>2012<br />
                         </b> </p>
@@ -968,10 +998,12 @@ type="text/JavaScript"></script>
                       <p><b> </b></p>
                       <p><b><b>            Yanwei Fu</b>, Yanwen Guo. (2011 IEEE
                           International Conference on Multimedia and Expo
-                          (ICME)), Page 1-6<b><b><a class="btn btn-primary" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876">   
+                          (ICME)), Page 1-6<b><b><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876"
+                                class="btn btn-primary">   
                                 PDF</a></b></b></b></p>
                       <b> </b><b>
-                        <p><a class="btn btn-primary" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876">   
+                        <p><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6011876"
+                            class="btn btn-primary">   
                             <br /></a></p>
                       </b>2010<br />
                     </div>
@@ -990,8 +1022,8 @@ type="text/JavaScript"></script>
                       </ul>
                       <p><b>            Yanwei Fu</b>, Yanwen Guo; Yanshu Zhu;
                         Feng Liu; Chanming Song; Zhi-hua Zhou. (IEEE TMM Nov
-                        2010, vol 12(7), Page 717-729,             SCI/EI)<a class="btn btn-primary"
-                          href="http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?arnumber=5482155">  
+                        2010, vol 12(7), Page 717-729,             SCI/EI)<a href="http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?arnumber=5482155"
+                          class="btn btn-primary">  
                           PDF</a><a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/summarization/summarization.html">   
                           dataset  </a><b><a href="file:///Users/fuylocal/yanweifu.github.io/visualization_multiview.html">Youtube
                             Demo </a></b> </p>
