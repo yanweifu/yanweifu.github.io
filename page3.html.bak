@@ -93,24 +93,60 @@ type="text/JavaScript"></script>
           <h3>2022</h3>
           <ul>
             <br />
-            <li><b> Pixel2Mesh++: Multi-View 3D Mesh Generation via Deformation, 
-              Chao Wen, Yinda Zhang, Chenjie Cao, Zhuwen Li, Xiangyang Xue, Yanwei Fu. IEEE TPAMI accepted (2022)
-                </b></li>
-             <br />
+              <li><b> ME-D2N: Multi-Expert Domain Decompositional Network for Cross-Domain Few-Shot Learning,
+                Yuqian Fu, YU XIE, Yanwei Fu, Jingjing Chen, Yu-Gang Jiang, 
+                ACM MM2022 </b></li>
+            <br />
+            
+              <li><b> Split-PU: Hardness-aware Training Strategy for Positive-Unlabeled Learning,
+                Chengming Xu, Chen Liu, Siqian Yang, Yabiao Wang, Shijie Zhang, Lijie Jia, Yanwei Fu,
+                ACM MM 2022 </b></li>
+            <br />
+            
+              <li><b> LoRD: Local 4D Implicit Representation for High-Fidelity Dynamic Human Modeling。
+                Boyan Jiang, Xinlin Ren, Mingsong Dou, Xiangyang Xue, Yanwei Fu, Yinda Zhang. ECCV 2022</b></li>
+            <br />
+            
+              <li><b> Learning Prior Feature and Attention Enhanced Image Inpainting,
+                Chenjie Cao, Qiaole Dong, Yanwei Fu ECCV 2022 </b></li>
+            <br />
+            
+              <li><b> Learning the compositional domains for Generalized Zero-shot
+                Learning, Hanze Dong, Yanwei Fu, Sung Ju Hwang, Leonid Sigal,
+                Xiangyang Xue, CVIU 2022 </b></li>
+            <br />
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><b> Learning the compositional domains for Generalized Zero-shot
+                Learning, Hanze Dong, Yanwei Fu, Sung Ju Hwang, Leonid Sigal,
+                Xiangyang Xue, CVIU 2022 </b></li>
+            <br />
+            <li><b> UAST: Uncertainty-Aware Siamese Tracking, Dawei Zhang,
+                Yanwei Fu, Zhonglong Zheng, ICML 2022 </b></li>
+            <br />
+            <li><b> Pixel2Mesh++: Multi-View 3D Mesh Generation via Deformation,
+                Chao Wen, Yinda Zhang, Chenjie Cao, Zhuwen Li, Xiangyang Xue,
+                Yanwei Fu. IEEE TPAMI accepted (2022) </b></li>
+            <br />
             <li><b> Exploring Structural Sparsity of Deep Networks via Inverse
                 Scale Spaces, Yanwei Fu, Chen Liu, Donghao Li, Zuyuan Zhong,
-                Xinwei Sun, Jinshan Zeng, Yuan Yao. IEEE TPAMI accepted (2022)
-                </b></li>
-             <br />
+                Xinwei Sun, Jinshan Zeng, Yuan Yao. IEEE TPAMI accepted (2022) </b></li>
+            <br />
             <li><b> Reinforcing Generated Images via Meta-learning for One-Shot
                 Fine-Grained Visual Recognition, Satoshi Tsutsui, Yanwei Fu,
                 David Crandall. IEEE TPAMI accepted (2022) </b></li>
             <br />
             <li><b> Local Slot Attention for Vision-and-Language Navigation,
-				Yifeng Zhuang, Qiang Sun, Yanwei Fu, Lifeng Chen, Xiangyang Xue. ACM ICMR 2022
-			</b></li>
+                Yifeng Zhuang, Qiang Sun, Yanwei Fu, Lifeng Chen, Xiangyang Xue.
+                ACM ICMR 2022 </b></li>
             <br />
-			
             <li><b> DST: Dynamic Substitute Training for Data-free Black-box
                 Attack. Wenxuan Wang, Xuelin Qian, Yanwei Fu, Xiangyang Xue.
                 CVPR 2022 </b></li>
@@ -1076,5 +1112,6 @@ type="text/JavaScript"></script>
         <div id="footer">
           <script type="text/javascript">ucbfooter();</script> © Yanwei Fu </div>
       </b> </div>
+    
   </body>
 </html>
