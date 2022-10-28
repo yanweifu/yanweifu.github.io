@@ -99,6 +99,9 @@
           </ul>
           <h3>2022</h3>
           <ul>
+             <li><b>Self-supervised Amodal Video Object Segmentation. 
+               Jian Yao, Yuxin Hong, Chiyu Wang, Tianjun Xiao, Tong He, Yanwei Fu, Francesco Locatello, David Wipf, Zheng Zhang. NIPS 2022
+               </b></li>
             <br />
 
             <br />
@@ -113,8 +116,8 @@
             <li><b>FFD Augmentor: Towards Few-Shot Oracle Character Recognition
                 from Scratch Xinyi Zhao, Siyuan Liu, Yikai Wang, Yanwei Fu. ACCV
                 2022 (This paper is the final project of the first and second
-                (undergraduate) authours, from my teaching course -- Deep
-                Learning and Neural Network (2022 Spring term). </b></li>
+                (undergraduate) authours, in my course -- Deep
+                Learning and Neural Network (2022 Spring). </b></li>
             <br />
             <li><b>Exploring Efficient Few-shot Adaptation for Vision
                 Transformers. Chengming Xu, Siqian Yang, Yabiao
