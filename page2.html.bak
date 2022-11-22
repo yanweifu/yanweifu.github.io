@@ -1,160 +1,2 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
-    <title>Faculty Name: Department Name</title>
-    <link href="defaultstyle.css" rel="stylesheet" media="screen" />
-    <script type="text/javascript" src="branding.js"></script>
-    <script type="text/JavaScript" src="http://www.colorado.edu/templates/faculty-template/js/curvycorners.js"></script>
-  </head>
-  <body>
-    <div id="container">
-      <div id="ucb">
-        <script type="text/javascript">ucbheader();</script></div>
-      <div id="wrapper">
-        <div id="nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="page1.html">Dataset</a></li>
-            <li><a href="page2.html">Students</a></li>
-            <li><a href="page3.html">Projects</a></li>
-            <li><a href="page4.html">My Life</a></li>
-            <li><a href="page5.html">Contact</a></li>
-          </ul>
-        </div>
-        <div id="banner">
-          <div id="name">
-            <h1>Yanwei Fu </h1>
-            <p>School of Data Science<br />
-              Fudan University</p>
-          </div>
-        </div>
-        <div id="page">
-          <div id="content">
-            <div id="contentbar" class="contentbar2"> </div>
-            <br />
-            <h3> Graduate Students</h3>
-            <b><br />
-              2021 Master of Science<br />
-                Jingshi Lei<br />
-              <br />
-              <br />
-              2020 Master of Science</b><br />
-            Yuxin Hong (Master 2020)<br />
-            Xiang Li (Master 2020)<br />
-            Yun He (Master 2020, co-advised with Prof. Xiangyang Xue)<br />
-            <br />
-            <b>2019 Master</b><b> of Science</b><br />
-            Wenhui Han (Master 2019)<br />
-            Zuyuan Zhong (Master 2019)<br />
-            JianAn Wang (Master 2019)<br />
-            Xingkui Wei (Master 2019, co-advised with Prof. Xiangyang Xue)<br />
-            Chengrong Wang (Master 2019, co-advised with Prof. Xiangyang Xue)<br />
-            <br />
-            <p><b>PhD:</b></p>
-            <p>Qiaole Dong (PhD 2022)</p>
-            <p>Fan Wu (PhD 2021, Co-funded by DNV (https://www.dnv.com)</p>
-            <p>Ke Fan (PhD 2021)</p>
-            <p>Chenjie Cao (PhD 2020) </p>
-            <p>Boyan Jiang (PhD 2019 co-advised with Prof. Xiangyang Xue)</p>
-            <p>Hang Yu (PhD 2019 co-advised with Prof. Yugang Jiang)</p>
-            <p>Yuqian Fu (PhD 2019 co-advised with Prof. Yugang Jiang)</p>
-            <p>Haitao Lin (PhD 2019 co-advised with Prof. Xiangyang Xue)</p>
-            <p>Yikai Wang (PhD 2019)</p>
-            <p>Xu Xie (PhD 2018)</p>
-            <p>Qiang Sun (Ph. Eng. 2018, co-advised with Prof. Xiangyang Xue)</p>
-            <p></p>
-            <p>-------------------------------------------------------------</p>
-            <h3>Visiting PhD Student to Our Lab</h3>
-            <p>2019.04-2019.09 Satoshi Tsutsui, PhD of Indian University
-              (Supervisor: David Crandall)</p>
-            <p>2020.11 - 2021.09 Pan Li, PhD of Queen Mary University of London
-              (Supervisor: Shaogang Gong)</p>
-            <p>2020.10 - 2021.02 Xueting Zhang, PhD from Edinburgh University
-              (Supervisor: Timothy Hospedales)</p>
-            <h3>Alumni of PhD.</h3>
-            <p>2021 </p>
-            <p>Xuelin Qian (PhD 2015-2021, co-advised with Prof. Xiangyang Xue)
-            </p>
-            <p> Xiaomei Wang (PhD 2017-2021,co-advised with Prof. Xiangyang Xue)</p>
-            <h3>Alumni of Masters and Undergraduates</h3>
-            2017:<br />
-            Keke He (Master 2015, co-advised with Prof. Xiangyang Xue), Tencent
-            Youtu Lab<br />
-            Weidong Yin (Undergraduate), PhD/Master at UBC with Leonid Sigal<br />
-            Yiqing Ma (Undergraduate), PhD at HKUST<br />
-            Jiarui Gao (Undergraduate), Master at CMU<br />
-            Chuanzi He (Undergraduate), Master at USC<br />
-            <br />
-            2018:<br />
-            Yu Hao (M.S. 2016, co-advised with Prof. Yu-Gang Jiang), At toutiao<br />
-            Changmao Cheng (M.S. 2016, co-advised with Prof. Yu-Gang Jiang) At
-            Megvii<br />
-            Nanyang Wang (M. Eng 2017, co-advised with Prof. Yu-Gang Jiang) At
-            Alibaba Dharma<br />
-            <br />
-            2019:<br />
-            <p>Huiyuan Zhuo (M. Eng 2017), </p>
-            <p>Ping Chen (M. Eng 2017), </p>
-            <p>Haitao Hu(M. Eng 2017) ,</p>
-            <p>Yu Tang (M. Eng 2017), </p>
-            <p>Weicheng Zhu (M. Eng 2017), </p>
-            <p>Weiqi Fang (M. Eng 2017), </p>
-            <p>Zhiquan Yan (M. Eng 2017), </p>
-            <p>Zihao Xu (M. Eng 2017), </p>
-            <p>Hangchu Guo (M. Eng 2017),</p>
-            Jing Zhou (M. Eng 2017), <br />
-            <br />
-            Hanze Dong (Bsc 2015, PHD@HKUST with Prof. Tong Zhang)
-            <p>Peng Lu (Bsc 2015, Master in US)</p>
-            <p>Zitian Chen (Bsc 2015, PHD in UMass)</p>
-            <p>Donghao Li (Bsc 2015, PHD@HKUST with Prof. Yuan Yao)</p>
-            Shun Zhang (Bsc 2015, Master@CMU)<br />
-            <br />
-            <br />
-            2020:<br />
-            Fangbin Wan (M. Eng 2018), <br />
-            Jing Lin (M. Eng 2017), <br />
-            Yihao Xu (M. Eng 2017), <br />
-            Zhexun Yi (M. Eng 2017)<br />
-            <br />
-            Jiashun Wang (Undergraduate, School of Data Science)<br />
-            Tingjia Cao (Undergraduate, School of Computer Science)<br />
-            Ke Han (Undergraduate, School of Computer Science)<br />
-            <br />
-            2021:<br />
-            Hangyu Lin (Master 2018), Guangying Lab in Tecent<br />
-            <p>Erli Ouhyang (Master 2018), Tecent</p>
-            <p>Fangrui Zhu (Master 2018),  PhD@Northeastern University with
-              Prof. Haizu Jiang</p>
-            <p>Chao Wen (Master 2018, co-advised with Prof. Xiangyang Xue),
-              Toutiao</p>
-            <p>Sixiao Zheng (Master 2018, co-advised with Prof. Jianfeng Feng),
-              Tecent</p>
-            <p>Yuming Sun (Master 2018, co-advised with Prof. Xiangyang Xue),
-              Toutiao</p>
-            <p>Chen Liu (Master 2018, co-advised with Prof. Xiangyang Xue),
-              PHD@HKUST with Prof. Yuan Yao, with the support of HongKong PhD
-              Fellowship, and Redbird PhD Scholarship of HKUST</p>
-            <p>Chen Chen (M. Eng 2018)</p>
-            <p>Xiangyu Fan(M. Eng 2018)</p>
-            <p>Wei Li (M. Eng 2018)</p>
-            <p>Chunming Zhao (M. Eng 2018)</p>
-            <p>Chen Zhan  (M. Eng 2018)</p>
-            <p>Yulu Xu  (M. Eng 2018)</p>
-            <p>Yantan Han  (M. Eng 2018)</p>
-            <p>Yuhao Chen  (M. Eng 2018)</p>
-            <p>Binghui Xie (Undergraduate)</p>
-            <p><br />
-            </p>
-            <p><br />
-            </p>
-            <br />
-          </div>
-        </div>
-      </div>
-      <div id="footer">
-        <script type="text/javascript">ucbfooter();</script> © Yanwei Fu </div>
-    </div>
-  </body>
-</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">  <head>    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />    <title>Faculty Name: Department Name</title>    <link href="defaultstyle.css" rel="stylesheet" media="screen" />    <script type="text/javascript" src="branding.js"></script>    <script type="text/JavaScript" src="http://www.colorado.edu/templates/faculty-template/js/curvycorners.js"></script>  </head>  <body>    <div id="container">      <div id="ucb">        <script type="text/javascript">ucbheader();</script></div>      <div id="wrapper">        <div id="nav">          <ul>            <li><a href="index.html">Home</a></li>            <li><a href="page1.html">Dataset</a></li>            <li><a href="page2.html">Students</a></li>            <li><a href="page3.html">Projects</a></li>            <li><a href="page4.html">My Life</a></li>            <li><a href="page5.html">Contact</a></li>          </ul>        </div>        <div id="banner">          <div id="name">            <h1>Yanwei Fu </h1>            <p>School of Data Science<br />              Fudan University</p>          </div>        </div>        <div id="page">          <div id="content">            <div id="contentbar" class="contentbar2"> </div>            <br />            <h3> Graduate Students</h3>            <br />            <b><b>2022 Master of Science</b><br />            </b>Yongchong Gu <br />            Lingjie Kong<br />            <b><br />              2021 Master of Science<br />            </b>Jingshi Lei<b><br />              <br />              2020 Master of Science</b><br />            Yuxin Hong<br />            Xiang Li <br />            Yun He ( co-advised with Prof. Xiangyang Xue)<br />            <br />            <b>2019 Master</b><b> of Science</b><br />            Wenhui Han (Master 2019): Tecent Yutu Lab<br />            Zuyuan Zhong (Master 2019):  广东省发改委<br />            JianAn Wang (Master 2019): Bytedance<br />            Xingkui Wei (Master 2019, co-advised with Prof. Xiangyang Xue):             Netease, with amazing high salary package<br />            Chengrong Wang (Master 2019, co-advised with Prof. Xiangyang Xue):            上海市人社局<br />            <br />            <b>2018 Master</b><b> of Science</b><br />            Hangyu Lin (Master 2018), Guangying Lab in Tecent. He is awarded the            HongKong PhD Fellowship, pursuing PhD in HKUST.<br />            Erli Ouhyang (Master 2018), Tecent<br />            Fangrui Zhu (Master 2018),  PhD@Northeastern University with Prof.            Haizu Jiang<br />            Chao Wen (Master 2018, co-advised with Prof. Xiangyang Xue), Toutiao<br />            Sixiao Zheng (Master 2018, co-advised with Prof. Jianfeng Feng),            Tecent<br />            Yuming Sun (Master 2018, co-advised with Prof. Xiangyang Xue),            Toutiao<br />            Chen Liu (Master 2018, co-advised with Prof. Xiangyang Xue),            PHD@HKUST with Prof. Yuan Yao, with the support of HongKong PhD            Fellowship, and Redbird PhD Scholarship of HKUST<br />            Yu Hao (M.S. 2016, co-advised with Prof. Yu-Gang Jiang): toutiao<br />            <br />            <b>2017 Master</b><b> of Science</b><br />            Keke He (Master 2015, co-advised with Prof. Xiangyang Xue), Tencent            Youtu Lab<br />            Changmao Cheng (M.S. 2016, co-advised with Prof. Yu-Gang Jiang) At            Megvii<br />            <br />            <p><b>PhD:</b></p>            <p>Yizhuo Ding (PhD 2022, School of Data Science)</p>            <p>Qiaole Dong (PhD 2022, School of Data Science)</p>            <p>Ke Fan (PhD 2021, School of Data Science)</p>            <p>Chenjie Cao (PhD 2020, School of Data Science) </p>            <p>Boyan Jiang (PhD 2019, School of Computer Science, co-advised              with Prof. Xiangyang Xue)</p>            <p>Yuqian Fu (PhD 2019, School of Computer Science, co-advised with              Prof. Yugang Jiang)</p>            <p>Haitao Lin (PhD 2019, School of Computer Science,  co-advised              with Prof. Xiangyang Xue)</p>            <p>Yikai Wang (PhD 2019, School of Data Science)</p>            <p>Chengming Xu (PhD 2018, School of Data Science)</p>            <p>Xu Xie (PhD 2018, School of Data Science)</p>            <p>Qiang Sun (Ph. Eng. 2018, School of Engeering, co-advised with              Prof. Xiangyang Xue)</p>            <p></p>            <p>-------------------------------------------------------------</p>            <h3>Visiting PhD Student to Our Lab</h3>            <p>2019.04-2019.09 Satoshi Tsutsui, PhD of Indian University              (Supervisor: David Crandall): Post-doc in Singapore</p>            <p>2020.11 - 2021.09 Pan Li, PhD of Queen Mary University of London              (Supervisor: Shaogang Gong)</p>            <p>2020.10 - 2021.02 Xueting Zhang, PhD from Edinburgh University              (Supervisor: Timothy Hospedales)</p>            <h3>Alumni of PhD.</h3>            <p>2022:</p>            <p>Hang Yu (PhD 2019-2022 co-advised with Prof. Yugang Jiang ):                Shanghai Lianying Intelligent Medical Technology Co., Ltd.</p>            <p>Wenxuan Wang (PhD 2016-2022, co-advised with Prof. Xiangyang              Xue): Intel lab, shanghai</p>            <p>2021 </p>            <p>Xuelin Qian (PhD 2015-2021, co-advised with Prof. Xiangyang Xue):              Post-doc in Fudan</p>            <p> Xiaomei Wang (PhD 2017-2021,co-advised with Prof. Xiangyang              Xue):Shanghai Deying Date Technology Co.,Ltd.</p>            <h3>Undergraduates</h3>            <p>2022</p>            <p>Ziqi Zhou</p>            <p>Zirui Liu</p>            <p>2021</p>            <p>Simian Luo (Undergraduate, School of Data Science):              PhD@清华大学交叉信息研究院, with Dr. 赵行            </p>            2020            <p>Jiashun Wang (Undergraduate, School of Data Science): PhD@CMU              with Jessica Hodgins<br />              Tingjia Cao (Undergraduate, School of Computer Science):  PhD              UW-Madison<br />              Ke Han (Undergraduate, School of Computer Science): PhD Purdue              University</p>            <p>2019</p>            <p>Zitian Chen( Bsc 2015 Undergraduate, School of Computer Science):              PHD in UMass</p>            <p>2018</p>            <p>Hanze Dong (Bsc 2015,  School of Data Science): PHD@HKUST with              Prof. Tong Zhang<br />              Peng Lu (Bsc 2015, School of Data Science ): Master in US<br />              Donghao Li (Bsc 2015 ): PHD@HKUST with Prof. Yuan Yao</p>            <p>Binghui Xie (Undergraduate): PhD  in NUS</p>            <p>Guoyun Tu( Undergradudate): Master in KTH Royal Instittue of              Technology</p>            <p>2017</p>            <p>Weidong Yin (Undergraduate), PhD/Master at UBC with Leonid Sigal<br />              Yiqing Ma (Undergraduate), PhD at HKUST<br />              Jiarui Gao (Undergraduate), Master at CMU<br />              Chuanzi He (Undergraduate), Master at USC</p>            <h3><br />            </h3>            <h3>Masters of  Engineering </h3>            <br />            2019:<br />            <p>Fangbin Wan (M. Eng 2018), <br />              Jing Lin (M. Eng 2017), <br />              Yihao Xu (M. Eng 2017), <br />              Zhexun Yi (M. Eng 2017) </p>            2018:<br />            <p>Chen Chen (M. Eng 2018)</p>            <p>Xiangyu Fan(M. Eng 2018)</p>            <p>Wei Li (M. Eng 2018)</p>            <p>Chunming Zhao (M. Eng 2018)</p>            <p>Chen Zhan  (M. Eng 2018)</p>            <p>Yulu Xu  (M. Eng 2018)</p>            <p>Yantan Han  (M. Eng 2018)</p>            Yuhao Chen  (M. Eng 2018)<br />            <p>2017:</p>            <p>Nanyang Wang (M. Eng 2017, co-advised with Prof. Yu-Gang Jiang)              At Alibaba Dharma</p>            <p>Huiyuan Zhuo (M. Eng 2017), </p>            <p>Ping Chen (M. Eng 2017), </p>            <p>Haitao Hu(M. Eng 2017) ,</p>            <p>Yu Tang (M. Eng 2017), </p>            <p>Weicheng Zhu (M. Eng 2017), </p>            <p>Weiqi Fang (M. Eng 2017), </p>            <p>Zhiquan Yan (M. Eng 2017), </p>            <p>Zihao Xu (M. Eng 2017), </p>            <p>Hangchu Guo (M. Eng 2017),</p>            Jing Zhou (M. Eng 2017),            <p><br />            </p>            <p>My Group Photos:</p>            <h3> <img style="max-width: 100%;" src="mygroupphotos/compressed.jpg" />            </h3>            <h3> <img style="max-width: 100%;" src="mygroupphotos/iccv2019_compressed.jpg" />            </h3>            <p><br />            </p>            <p><br />            </p>            <p>Master of Science, 2018</p>            <h3> <img style="max-width: 100%;" src="mygroupphotos/master2018.jpg" /></h3>            <h3> <img style="max-width: 100%;" src="mygroupphotos/master2018_another.jpg" />/h3&gt;
+              <p><br />              </p>              <p><br />              </p>              <p>Master of Engineering, 2019<br />              </p>            </h3>            <h3> <img style="max-width: 100%;" src="mygroupphotos/master2019.jpg" />            </h3>            <p></p>            <p><br />            </p>            <br />          </div>        </div>      </div>      <div id="footer">        <script type="text/javascript">ucbfooter();</script> © Yanwei Fu </div>    </div>  </body></html>
