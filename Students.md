@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+#About the research introduction of our group@SDS-Fudan 
+<iframe src="//player.bilibili.com/player.html?aid=988263237&bvid=BV1Y44y1Q7qz&cid=912345802&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe> 
+
+
 ## Graduate Students
 * 2022 Master of Science
    
