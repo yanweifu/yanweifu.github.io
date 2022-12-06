@@ -3,6 +3,8 @@ layout: default
 ---
 ## 2023
 
+* RankDNN: Learning to Rank for Few-shot Learning. Qianyu Guo, Haotong Gong, Xujun Wei, Yanwei Fu, Yizhou Yu, Wenqiang Zhang, Weifeng Ge. AAAI 2023 
+
 * PatchMix Augmentataion to Identify Causal Features in Few-shot Learning. Chengming Xu, Chen Liu, Xinwei Sun, Siqian Yang, Yabiao Wang, Chengjie Wang, and Yanwei Fu, IEEE TPAMI accepted. 
 
 * Generalized Meta-FDMixup: Cross-Domain Few-Shot Learning Guided by Labeled Target data. Yuqian Fu, Yanwei Fu, Jingjing Chen, and Yu-Gang Jiang. IEEE TIP, accepted.
