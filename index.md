@@ -40,6 +40,7 @@ Please donot contact me via my QMUL email address, which has been suspended.
 
 # Recent News
 
+* 12/2022  One IEEE TPAMI and one TMLR paper accepted! The TPAMI one about identifying causal features in one-shot learning; TMLR one is about DINO features for MVS, which took the first place in <a href="https://www.tanksandtemples.org"> tank and temples Leaderboard </a>, during the past 6 months. We released their codes. This year, our group has 4 accepted IEEE TPAMI papers, 2 accepted TMLR paper.
 * 08/2022 I  will organize the tutorial "The Priors Guided Image Editing and Synthesis" with Prof. Shenghua Gao, Mr. Chenjie Cao, and Mr. Qiaole Dong in ACCV 2022, held in Macau SAR, China.
 * 07/2022 We organize the [2nd Visual Intelligence Seminar on Few-shot Learning](http://www.sdspeople.fudan.edu.cn/fuyanwei/VI_seminar/fudan-vi-seminar.github.io/index2.html) with [Online videos](https://space.bilibili.com/670459194/channel/series)
 * 07/2022 Our MVSFormer has ranked as Top-1 (since May) on the [leaderboard](https://www.tanksandtemples.org/leaderboard/)
@@ -54,4 +55,4 @@ Please donot contact me via my QMUL email address, which has been suspended.
 
 
 
-              ````
+              ``````

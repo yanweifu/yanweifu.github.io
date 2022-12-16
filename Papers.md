@@ -3,6 +3,8 @@ layout: default
 ---
 ## 2023
 
+* MVSFormer: Multi-View Stereo by Learning Robust Image Features and Temperature-based Depth. Chenjie Cao, Xinlin Ren, Yanwei Fu. Transaction on Machine Learning Research (TMLR) 2023 <a href="https://openreview.net/forum?id=2VWR6JfwNo&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)">Project</a> 
+
 * RankDNN: Learning to Rank for Few-shot Learning. Qianyu Guo, Haotong Gong, Xujun Wei, Yanwei Fu, Yizhou Yu, Wenqiang Zhang, Weifeng Ge. AAAI 2023 
 
 * PatchMix Augmentataion to Identify Causal Features in Few-shot Learning. Chengming Xu, Chen Liu, Xinwei Sun, Siqian Yang, Yabiao Wang, Chengjie Wang, and Yanwei Fu, IEEE TPAMI accepted. 
