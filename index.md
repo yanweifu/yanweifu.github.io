@@ -10,18 +10,12 @@ He is  Professor of Eastern Scholar, Shanghai (上海高校特聘教授 -- 东�
 
 He is interested in the following ML/CV topics (with the corresponding selected papers from my Project page):
 
-1. Learning from small samples by  exploring the Statistical sparsity; 
+1. Artificial general intelligence (AGI) for Robotic Grasping; 
+2. One-shot learning  by  exploring statistical sparsity; 
+3. Zero-shot learning by the multi-modal universal backbone.
+4. Image/video synthesis and editing, such as image inpainting, sketch-based methods, and methods on videos.
 
-   Xu et al. CVPR 2021,  Wang et al.CVPR 2020; Wang et al. TPAMI2021, Li et al. IJCAI 2021, Fu et al. ICML2020, Zhao et al. ICML 2018,  Fu et al. TPAMI2016, Fu etal. ECCV 2014
-
-2. Learning based 3D/4D object/body Reconstruction and Robotic Grasping; 
-
-   Jiang et al. CVPR 2021, Wei et al. ECCV 2020, Wang et al. ECCV 2018, Wang et al. TPAMI 2020, Wang et al. CVPR 2020 (Neural Pose Transfer),Wen et al. ICCV 2019
-
-3. Zero/One-shot learning via transferring semantic attributes.
-
-   Fu et al. TPAMI2014, TPAMI 2015, TPAMI 2020, IEEE SPM 2020,  Chen et al. TIP 2019
-
+ 
 He also works on some CV and Multimedia applications, such as face recognition, person Re-ID, Sketch-based image retrieval/editing, image inpainting, Attack and Defence,Visual Sentiment Analysis, Video Understanding, Multi-object tracking, Semantic Segmentation. Please use the key words to search the corresponding papers from my Project Pages.
 
 
@@ -36,7 +30,7 @@ Please donot contact me via my QMUL email address, which has been suspended.
 
 关于本组招生：大数据学院科学硕士及直博生是统一招生（而不是分配给导师名额）。所以感兴趣我们组的话，可以直接去申请拿到学院的offer，再联系我即可。申请普博或者Oversea students想来我们组做summer intern的话，可以提前联系我。
 
-本组2022年9月大数据学院入学的学术硕士可能还有一个名额，大家有兴趣可以email联系我。本组招收本科实习生，欢迎大家联系我，或我们组博士后钱学林老师(xuelinq@163.com)（我们最近买些机器)。
+大家有兴趣联系我们，可以email联系我或我们组博士后钱学林老师(xuelinq@163.com)。
 
 # Recent News
 
@@ -55,4 +49,4 @@ Please donot contact me via my QMUL email address, which has been suspended.
 
 
 
-              ``````
+              ````````
