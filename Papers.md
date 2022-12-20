@@ -63,7 +63,15 @@ layout: default
 
 * Incremental Transformer Structure Enhanced Image Inpainting with Masking Positional Encoding. Qiaole Dong, Chenjie Cao, Yanwei Fu. CVPR 2022 <a href="https://dqiaole.github.io/ZITS_inpainting/" project="" page="">Project</a> 
 
-* SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation. Haitao Lin, Zichang Liu, Chilam Cheang, Yanwei Fu, Guodong Guo, Xiangyang Xue. CVPR 2022
+* SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation. Haitao Lin, Zichang Liu, Chilam Cheang, Yanwei Fu, Guodong Guo, Xiangyang Xue. CVPR 2022  <a href="https://hetolin.github.io/SAR-Net/">Project pages</a>
+
+<iframe  width="300" height="160"  src="//player.bilibili.com/player.html?bvid=BV1PY4y1k78b&cid=720319553&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe>
+
+<iframe width="300" height="160"  src="//player.bilibili.com/player.html?bvid=BV1ZA4y1S7wk&cid=720305130&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe>
+
+<iframe width="300" height="160"   src="https://www.youtube.com/embed/b4CLMdhJV58" title="SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="300" height="160"  src="https://www.youtube.com/embed/bW30eQMYqRs" title="SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation. Jianan Wang, Guansong Lu, Hang Xu, Zhenguo Li, Chunjing Xu, Yanwei Fu. CVPR 2022 <a href="https://jawang19.github.io/manitrans/index.html" project="" page="">Project</a> 
 
@@ -77,9 +85,17 @@ layout: default
 
 * Multi-view Shape Generation for 3D Human-like Body. Hang Yu, Yanwei Fu, Xiangyang Xue. ACM Transactions on Multimedia Computing Communications and Applications (TOMM), to appear 
 
-* Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions. Haitao Lin, Chilam Cheang, Yanwei Fu, Xiangyang Xue, ICRA 2022 
+* Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions. Haitao Lin, Chilam Cheang, Yanwei Fu, Xiangyang Xue, ICRA 2022 <a href="https://baboon527.github.io/lang_6d/">Project pages</a>
 
-* I Know What You Draw:Learning Grasp Detection Conditioned on a Few Freehand Sketches. Chilam Cheang, Haitao Lin, Yanwei Fu, Xiangyang Xue, ICRA 2022 
+<iframe width="300" height="160" src="https://www.youtube.com/embed/YFxevuItHNQ" title="Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="300" height="160" src="https://www.youtube.com/embed/ZaFNIyuoKrw" title="Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions: Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* I Know What You Draw:Learning Grasp Detection Conditioned on a Few Freehand Sketches. Chilam Cheang, Haitao Lin, Yanwei Fu, Xiangyang Xue, ICRA 2022 <a href="https://hetolin.github.io/Skt_grasp/">Project pages</a>
+
+<iframe width="300" height="160" src="https://www.youtube.com/embed/aEqF1yxwvqQ" title="I Know What You Draw: Learning Grasp Detection Conditioned on a few freehand Sketches" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="300" height="160" src="//player.bilibili.com/player.html?aid=214076116&bvid=BV1ka411J7d6&cid=720285675&page=1" title="I Know What You Draw: Learning Grasp Detection Conditioned on a few freehand Sketches" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 
 * HandO: a hybrid 3D hand–object reconstruction model for unknown objects. Hang Yu, Yanwei Fu, Xiangyang Xue. Multimedia Systems. to appear 
 
