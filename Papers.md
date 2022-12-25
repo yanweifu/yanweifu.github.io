@@ -59,6 +59,9 @@ layout: default
 
 * H4D: Human 4D Modeling by Learning Neural Compositional Representation. Boyan Jiang, Yinda Zhang, Xiangyang Xue, Yanwei Fu. CVPR 2022 
 
+<iframe width="300" height="160" src="https://www.youtube.com/embed/_Gue5kxtBx8" title="H4D: Human 4D Modeling by Learning Neural Compositional Representation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 * Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels. Yikang Wang, Xinwei Sun, Yanwei Fu. CVPR 2022 
 
 * Incremental Transformer Structure Enhanced Image Inpainting with Masking Positional Encoding. Qiaole Dong, Chenjie Cao, Yanwei Fu. CVPR 2022 <a href="https://dqiaole.github.io/ZITS_inpainting/" project="" page="">Project</a> 
@@ -74,6 +77,8 @@ layout: default
 <iframe width="300" height="160"  src="https://www.youtube.com/embed/bW30eQMYqRs" title="SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation. Jianan Wang, Guansong Lu, Hang Xu, Zhenguo Li, Chunjing Xu, Yanwei Fu. CVPR 2022 <a href="https://jawang19.github.io/manitrans/index.html" project="" page="">Project</a> 
+
+<iframe width="300" height="160" src="https://www.youtube.com/embed/nctTk-W7iHg" title="ManiTrans: Entity Level Text Guided Image Manipulation via Token Wise Semantic Alignment | CVPR 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Ranking Distance Calibration for Cross-Domain Few-Shot Learning. Pan Li, Shaogang Gong, Chengjie Wang, Yanwei Fu. CVPR 2022 
 
@@ -142,6 +147,8 @@ layout: default
 *  Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers. Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu Jianfeng Feng, Tao Xiang, Philip Torr, Li Zhang.CVPR2021
 
 *  Learning Compositional Representation for 4D Captures with Neural ODE. Boyan Jiang, Xingkui Wei, Yinda Zhang, Xiangyang Xue, Yanwei Fu. CVPR2021 
+
+<iframe width="300" height="160"  src="https://www.youtube.com/embed/F-zYAPyAmWE" title="Learning Compositional Representation for 4D Captures with Neural ODE (CVPR 2021)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *  Learning Dynamic Alignment via Meta-filter for Few-shot Learning. Chengming Xu, Li Zhang, Jilin Li, Feiyue Huang, Changjie Wang, Yanwei Fu, Xiangyang Xue. CVPR 2021
 
