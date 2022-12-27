@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+Note that: some video demos are from Youtube.
+
 ## 2023
 
 * MVSFormer: Multi-View Stereo by Learning Robust Image Features and Temperature-based Depth. Chenjie Cao, Xinlin Ren, Yanwei Fu. Transaction on Machine Learning Research (TMLR) 2023 <a href="https://openreview.net/forum?id=2VWR6JfwNo&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)">Project</a> 
@@ -33,7 +35,9 @@ layout: default
 
 * Split-PU: Hardness-aware Training Strategy for Positive-Unlabeled Learning, Chengming Xu, Chen Liu, Siqian Yang, Yabiao Wang, Shijie Zhang, Lijie Jia, Yanwei Fu, ACM MM 2022 
 
-* LoRD: Local 4D Implicit Representation for High-Fidelity Dynamic Human Modeling。 Boyan Jiang, Xinlin Ren, Mingsong Dou, Xiangyang Xue, Yanwei Fu, Yinda Zhang. ECCV 2022
+* LoRD: Local 4D Implicit Representation for High-Fidelity Dynamic Human Modeling. Boyan Jiang, Xinlin Ren, Mingsong Dou, Xiangyang Xue, Yanwei Fu, Yinda Zhang. ECCV 2022
+
+<iframe width="300" height="160" src="https://www.youtube.com/embed/dXuZVrmYKxg" title="LoRD: Local 4D Implicit Representation for High-Fidelity Dynamic Human Modeling" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Learning Prior Feature and Attention Enhanced Image Inpainting, Chenjie Cao, Qiaole Dong, Yanwei Fu ECCV 2022 
 
@@ -60,7 +64,6 @@ layout: default
 * H4D: Human 4D Modeling by Learning Neural Compositional Representation. Boyan Jiang, Yinda Zhang, Xiangyang Xue, Yanwei Fu. CVPR 2022 
 
 <iframe width="300" height="160" src="https://www.youtube.com/embed/_Gue5kxtBx8" title="H4D: Human 4D Modeling by Learning Neural Compositional Representation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 * Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels. Yikang Wang, Xinwei Sun, Yanwei Fu. CVPR 2022 
 
@@ -114,6 +117,8 @@ layout: default
 
 * Deep Hybrid Self-Prior for Full 3D Mesh Generation. Xingkui Wei, Zhenqing Chen Yanwei Fu, Zhaopeng Cui, Yinda Zhang, Xiangyang Xue. ICCV 2021 
 
+<iframe width="300" height="160" src="https://www.youtube.com/embed/GVTV0cJJUzU" title="Deep Hybrid Self-Prior for Full 3D Mesh Generation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * A Simple Feature Augmentation for Domain Generalisation. Pan Li, Da Li, Wei Li Shanggang Gong, Yanwei Fu, Timothy Hospedales, ICCV 2021 
 
 * A COVID-19 screening method based on eyes photographs and artificial intelligence. F Li, XY Xue, P Boned Fustel, SS Rong, Q Sun, HC Tang, WX Wang, Y Fu, A Boned-Ombuena, MW Gu, European Journal of Public Health 2021 
@@ -129,6 +134,7 @@ layout: default
 *  NMS-Loss: Learning with Non-Maximum Suppression for Crowded Pedestrian Detection. Zekun Luo, Zheng Fang, Sixiao Zheng, Yabiao Wang, Yanwei Fu. ACM ICMR 2021
 
 *  Can Action be Imitated? Learn to Reconstruct and Transfer Human Dynamics from Videos. YuQian Fu. Yanwei Fu, Yu-Gang Jiang, ACM ICMR 2021
+<iframe width="300" height="160"  src="https://www.youtube.com/embed/9fNKSZdsAG8" title="Video for "Learning 3D Human Dynamics from Video"" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *  Neural Symbolic Representation Learning for Image Captioning. Xiaomei Wang, Lin Ma, Yanwei Fu, Xiangyang Xue. ACM ICMR 2021
 
@@ -195,9 +201,15 @@ layout: default
 
 * Sketch-BERT: Learning Sketch Bidirectional Encoder Representation from Transformers by Self-supervised Learning of Sketch Gestalt. Hangyu Lin, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. CVPR 2020 
 
+<iframe width="300" height="160" src="https://www.youtube.com/embed/-Rrx761syWo" title="Sketch-BERT: Learning Sketch Bidirectional Encoder Representation From Transformers by Self-Super..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * Neural Pose Transfer by Spatially Adaptive Instance Normalization. Jiashun Wang, Chao Wen, Yanwei Fu, Haitao Lin, Tianyun Zhou, Xiangyang Xue, Yinda Zhang. CVPR 2020. 
 
+<iframe width="300" height="160" src="https://www.youtube.com/embed/1aQAc-bax9U" title="Video of Neural Pose Transfer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * Instance Credibility Inference for Few-Shot Learning. Yikai Wang, Chengming Xu, Chen Liu, Li Zhang, Yanwei Fu, CVPR 2020. 
+
+<iframe width="300" height="160"  src="https://www.youtube.com/embed/H0Qktvncoi8" title="Instance Credibility Inference for Few-Shot Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Feature Deformation Meta-Networks in Image Captioning of Novel Objects. Tingjia Cao, Ke Han, Xiaomei Wang, Lin Ma, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue, AAAI 2020 
 
