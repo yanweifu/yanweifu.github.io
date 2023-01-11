@@ -4,6 +4,19 @@ layout: default
 #About the research introduction of our group@SDS-Fudan 
 <iframe src="//player.bilibili.com/player.html?aid=988263237&bvid=BV1Y44y1Q7qz&cid=912345802&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe> 
 
+## Honary Awards of Students
+**Undergraduates:**
+
+Hangyu Lin: 上海市优秀本科毕业生
+Hanze Dong: 复旦大学优秀毕业生
+
+**Masters&PhD:**
+Hangyu Lin: 上海市优秀毕业生
+Yu Hao: 上海市优秀毕业生
+Xingkui Wei: 上海市优秀毕业生
+Chen Liu: 上海市优秀毕业生
+Wenxuan Wang: 上海市优秀毕业生
+
 
 ## Graduate Students
 * 2022 Master of Science

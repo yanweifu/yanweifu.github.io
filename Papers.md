@@ -15,6 +15,8 @@ Note that: some video demos are from Youtube.
 
 * ImpDet: Exploring Implicit Fields for 3D Object Detection. Xuelin Qian, Li Wang, Yi Zhu, Li Zhang, Yanwei Fu, Xiangyang Xue. WACV 2023 
 
+*  Specialized Re-Ranking: A Novel Retrieval-Verification Framework for Cloth Changing Person Re-Identification Renjie Zhang; Yu Fang; Huaxin Song; Fangbin Wan; Yanwei Fu; Hirokazu Kato; Yang Wu. Pattern Recognition (Full Length Article), 2023. 
+
 ## 2022
 
 * Self-supervised Amodal Video Object Segmentation. Jian Yao, Yuxin Hong, Chiyu Wang, Tianjun Xiao, Tong He, Yanwei Fu, Francesco Locatello, David Wipf, Zheng Zhang. NIPS 2022 
@@ -28,8 +30,6 @@ Note that: some video demos are from Youtube.
 * Exploring Efficient Few-shot Adaptation for Vision Transformers. Chengming Xu, Siqian Yang, Yabiao Wang, Zhanxiong Wang, Yanwei Fu, Xiangyang Xue. Transaction on Machine Learning Research, 2022 (accepted) <a href="https://openreview.net/forum?id=n3qLz4eL1l" project="" page=""> Project</a> 
 
 * Adversarial active testing for risk-based AI assurance. Fan Wu, Qian Wei, Yanwei Fu. ESREL 2022: 32ND EUROPEAN SAFETY AND RELIABILITY CONFERENCE (ESREL) - DUBLIN 2022 
-
-* Specialized Re-Ranking: A Novel Retrieval-Verification Framework for Cloth Changing Person Re-Identification Renjie Zhang; Yu Fang; Huaxin Song; Fangbin Wan; Yanwei Fu; Hirokazu Kato; Yang Wu. Pattern Recognition (Full Length Article), accepted. 
 
 * ME-D2N: Multi-Expert Domain Decompositional Network for Cross-Domain Few-Shot Learning, Yuqian Fu, YU XIE, Yanwei Fu, Jingjing Chen, Yu-Gang Jiang, ACM MM2022 
 
