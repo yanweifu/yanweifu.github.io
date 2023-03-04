@@ -12,7 +12,7 @@ He is interested in the following ML/CV topics (with the corresponding selected 
 
 1. Artificial general intelligence (AGI) for Robotic Grasping; 
 2. One-shot learning  by  exploring statistical sparsity; 
-3. Zero-shot learning by the multi-modal universal backbone.
+3. Multi-modal universal pre-trained model and fine-tuning.
 4. Image/video synthesis and editing, such as image inpainting, sketch-based methods, and methods on videos.
 
  
@@ -51,4 +51,4 @@ Please donot contact me via my QMUL email address, which has been suspended.
 
 
 
-              ````````````
+              ``````````````
