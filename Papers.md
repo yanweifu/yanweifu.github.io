@@ -5,6 +5,18 @@ Note that: some video demos are from Youtube.
 
 ## 2023
 
+* Grad-PU: Arbitrary-Scale Point Cloud Upsampling via Gradient Descent with Learned Distance Functions. Yun He, Danhang Tang, Yinda Zhang, Xiangyang Xue, Yanwei Fu. CVPR 2023
+
+* Rethinking Optical Flow from Geometric Matching Consistent Perspective. Qiaole Dong, Chenjie Cao, Yanwei Fu. CVPR 2023
+
+* Causally-Aware Intraoperative Imputation for Overall Survival Time Prediction. Xiang Li, Litian Liang, Xuelin Qian, Lingjie Kong, Qiaole Dong, Chen Jiejun, Dingxia Liu, Xiuzhong Yao, Yanwei Fu. CVPR 2023
+
+* Meta Style Adversarial Training for Cross-Domain Few-Shot Learning. Yuqian Fu, YU XIE, Yanwei Fu, Yu-Gang Jiang. CVPR 2023
+
+* GeoVLN: Learning Geometry-Enhanced Visual Representation with Slot Attention for Vision-and-Language Navigation. Jingyang Huo, Boyan Jiang, Qiang Sun, Haitao Lin, Yanwei Fu. CVPR 2023
+
+* I Know What You Want: A "Smart Bartender" System by Interactive Gaze Following.  Zhida Ge, Xiang Li, Yanwei Fu, Xiangyang Xue.  2023 IEEE International Conference on Robotics and Automation (ICRA) video paper.
+
 * MVSFormer: Multi-View Stereo by Learning Robust Image Features and Temperature-based Depth. Chenjie Cao, Xinlin Ren, Yanwei Fu. Transaction on Machine Learning Research (TMLR) 2023 <a href="https://openreview.net/forum?id=2VWR6JfwNo&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)">Project</a> 
 
 * RankDNN: Learning to Rank for Few-shot Learning. Qianyu Guo, Haotong Gong, Xujun Wei, Yanwei Fu, Yizhou Yu, Wenqiang Zhang, Weifeng Ge. AAAI 2023 
