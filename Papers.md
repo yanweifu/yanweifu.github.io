@@ -147,7 +147,7 @@ Note that: some video demos are from Youtube.
 
 *  Can Action be Imitated? Learn to Reconstruct and Transfer Human Dynamics from Videos. YuQian Fu. Yanwei Fu, Yu-Gang Jiang, ACM ICMR 2021
 
-<iframe width="300" height="160"  src="https://www.youtube.com/embed/9fNKSZdsAG8" title="Video for "Learning 3D Human Dynamics from Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160"  src="https://www.youtube.com/embed/9fNKSZdsAG8" title="Video for Learning 3D Human Dynamics from Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *  Neural Symbolic Representation Learning for Image Captioning. Xiaomei Wang, Lin Ma, Yanwei Fu, Xiangyang Xue. ACM ICMR 2021
 
