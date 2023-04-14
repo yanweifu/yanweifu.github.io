@@ -49,7 +49,7 @@ Note that: some video demos are from Youtube.
 
 * LoRD: Local 4D Implicit Representation for High-Fidelity Dynamic Human Modeling. Boyan Jiang, Xinlin Ren, Mingsong Dou, Xiangyang Xue, Yanwei Fu, Yinda Zhang. ECCV 2022
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/dXuZVrmYKxg" title="LoRD: Local 4D Implicit Representation for High-Fidelity Dynamic Human Modeling" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160" src="https://www.youtube.com/embed/dXuZVrmYKxg" title="LoRD: Local 4D Implicit Representation for High-Fidelity Dynamic Human Modeling" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Learning Prior Feature and Attention Enhanced Image Inpainting, Chenjie Cao, Qiaole Dong, Yanwei Fu ECCV 2022 
 
@@ -75,7 +75,7 @@ Note that: some video demos are from Youtube.
 
 * H4D: Human 4D Modeling by Learning Neural Compositional Representation. Boyan Jiang, Yinda Zhang, Xiangyang Xue, Yanwei Fu. CVPR 2022 
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/_Gue5kxtBx8" title="H4D: Human 4D Modeling by Learning Neural Compositional Representation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160" src="https://www.youtube.com/embed/_Gue5kxtBx8" title="H4D: Human 4D Modeling by Learning Neural Compositional Representation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels. Yikang Wang, Xinwei Sun, Yanwei Fu. CVPR 2022 
 
@@ -87,13 +87,13 @@ Note that: some video demos are from Youtube.
 
 <iframe width="300" height="160"  src="//player.bilibili.com/player.html?bvid=BV1ZA4y1S7wk&cid=720305130&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe>
 
-<iframe width="300" height="160"   src="https://www.youtube.com/embed/b4CLMdhJV58" title="SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160"   src="https://www.youtube.com/embed/b4CLMdhJV58" title="SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="300" height="160"  src="https://www.youtube.com/embed/bW30eQMYqRs" title="SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160"  src="https://www.youtube.com/embed/bW30eQMYqRs" title="SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation. Jianan Wang, Guansong Lu, Hang Xu, Zhenguo Li, Chunjing Xu, Yanwei Fu. CVPR 2022 <a href="https://jawang19.github.io/manitrans/index.html" project="" page="">Project</a> 
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/nctTk-W7iHg" title="ManiTrans: Entity Level Text Guided Image Manipulation via Token Wise Semantic Alignment | CVPR 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160" src="https://www.youtube.com/embed/nctTk-W7iHg" title="ManiTrans: Entity Level Text Guided Image Manipulation via Token Wise Semantic Alignment | CVPR 2022" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Ranking Distance Calibration for Cross-Domain Few-Shot Learning. Pan Li, Shaogang Gong, Chengjie Wang, Yanwei Fu. CVPR 2022 
 
@@ -107,9 +107,9 @@ Note that: some video demos are from Youtube.
 
 * Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions. Haitao Lin, Chilam Cheang, Yanwei Fu, Xiangyang Xue, ICRA 2022 <a href="https://baboon527.github.io/lang_6d/">Project pages</a>
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/YFxevuItHNQ" title="Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160" src="https://www.youtube.com/embed/YFxevuItHNQ" title="Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/ZaFNIyuoKrw" title="Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions: Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160" src="https://www.youtube.com/embed/ZaFNIyuoKrw" title="Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions: Demo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * I Know What You Draw:Learning Grasp Detection Conditioned on a Few Freehand Sketches. Chilam Cheang, Haitao Lin, Yanwei Fu, Xiangyang Xue, ICRA 2022 <a href="https://hetolin.github.io/Skt_grasp/">Project pages</a>
 
