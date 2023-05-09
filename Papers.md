@@ -113,9 +113,9 @@ Note that: some video demos are from Youtube.
 
 * I Know What You Draw:Learning Grasp Detection Conditioned on a Few Freehand Sketches. Chilam Cheang, Haitao Lin, Yanwei Fu, Xiangyang Xue, ICRA 2022 <a href="https://hetolin.github.io/Skt_grasp/">Project pages</a>
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/aEqF1yxwvqQ" title="I Know What You Draw: Learning Grasp Detection Conditioned on a few freehand Sketches" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160" src="https://www.youtube.com/embed/aEqF1yxwvqQ" title="I Know What You Draw: Learning Grasp Detection Conditioned on a few freehand Sketches" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="300" height="160" src="//player.bilibili.com/player.html?aid=214076116&bvid=BV1ka411J7d6&cid=720285675&page=1" title="I Know What You Draw: Learning Grasp Detection Conditioned on a few freehand Sketches" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+<iframe width="300" height="160" src="//player.bilibili.com/player.html?aid=214076116&bvid=BV1ka411J7d6&cid=720285675&page=1" title="I Know What You Draw: Learning Grasp Detection Conditioned on a few freehand Sketches" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 
 * HandO: a hybrid 3D hand–object reconstruction model for unknown objects. Hang Yu, Yanwei Fu, Xiangyang Xue. Multimedia Systems. to appear 
 
@@ -129,7 +129,7 @@ Note that: some video demos are from Youtube.
 
 * Deep Hybrid Self-Prior for Full 3D Mesh Generation. Xingkui Wei, Zhenqing Chen Yanwei Fu, Zhaopeng Cui, Yinda Zhang, Xiangyang Xue. ICCV 2021 
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/GVTV0cJJUzU" title="Deep Hybrid Self-Prior for Full 3D Mesh Generation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160" src="https://www.youtube.com/embed/GVTV0cJJUzU" title="Deep Hybrid Self-Prior for Full 3D Mesh Generation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * A Simple Feature Augmentation for Domain Generalisation. Pan Li, Da Li, Wei Li Shanggang Gong, Yanwei Fu, Timothy Hospedales, ICCV 2021 
 
@@ -147,7 +147,7 @@ Note that: some video demos are from Youtube.
 
 *  Can Action be Imitated? Learn to Reconstruct and Transfer Human Dynamics from Videos. YuQian Fu. Yanwei Fu, Yu-Gang Jiang, ACM ICMR 2021
 
-<iframe width="300" height="160"  src="https://www.youtube.com/embed/9fNKSZdsAG8" title="Video for Learning 3D Human Dynamics from Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160"  src="https://www.youtube.com/embed/9fNKSZdsAG8" title="Video for Learning 3D Human Dynamics from Video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *  Neural Symbolic Representation Learning for Image Captioning. Xiaomei Wang, Lin Ma, Yanwei Fu, Xiangyang Xue. ACM ICMR 2021
 
@@ -214,15 +214,15 @@ Note that: some video demos are from Youtube.
 
 * Sketch-BERT: Learning Sketch Bidirectional Encoder Representation from Transformers by Self-supervised Learning of Sketch Gestalt. Hangyu Lin, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. CVPR 2020 
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/-Rrx761syWo" title="Sketch-BERT: Learning Sketch Bidirectional Encoder Representation From Transformers by Self-Super..." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160" src="https://www.youtube.com/embed/-Rrx761syWo" title="Sketch-BERT: Learning Sketch Bidirectional Encoder Representation From Transformers by Self-Super..." frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Neural Pose Transfer by Spatially Adaptive Instance Normalization. Jiashun Wang, Chao Wen, Yanwei Fu, Haitao Lin, Tianyun Zhou, Xiangyang Xue, Yinda Zhang. CVPR 2020. 
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/1aQAc-bax9U" title="Video of Neural Pose Transfer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160" src="https://www.youtube.com/embed/1aQAc-bax9U" title="Video of Neural Pose Transfer" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Instance Credibility Inference for Few-Shot Learning. Yikai Wang, Chengming Xu, Chen Liu, Li Zhang, Yanwei Fu, CVPR 2020. 
 
-<iframe width="300" height="160"  src="https://www.youtube.com/embed/H0Qktvncoi8" title="Instance Credibility Inference for Few-Shot Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="160"  src="https://www.youtube.com/embed/H0Qktvncoi8" title="Instance Credibility Inference for Few-Shot Learning" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Feature Deformation Meta-Networks in Image Captioning of Novel Objects. Tingjia Cao, Ke Han, Xiaomei Wang, Lin Ma, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue, AAAI 2020 
 
