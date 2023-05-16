@@ -10,19 +10,13 @@ He is  Professor of Eastern Scholar, Shanghai (上海高校特聘教授 -- 东�
 
 He is interested in the following ML/CV topics (with the corresponding selected papers from my Project page):
 
-1, Learning from small samples by  exploring the Statistical sparsity
-* Statistical Sparsity: Lasso-type ML methods
-* One/Few-shot/Supervised learning by statistical methods
+1. Artificial general intelligence (AGI) for Robotic Grasping; 
+2. One-shot learning  by  exploring statistical sparsity; 
+3. Multi-modal universal pre-trained model and fine-tuning.
+4. Image/video synthesis and editing, such as image inpainting, sketch-based methods, and methods on videos.
 
-2, Learning based 3D/4D object/body Reconstruction and Robotic Grasping;
-* 4D Object Mesh sequence reconstruction from videos/point clouds
-* 6DoF Object Pose Estimation Robotic Grasping
-
-3, AIGC, Foundation Models.
-* AIGC for 3D models: Foundation to generated 3D pointcloud or meshes of objects
-* Mind-Visualization: visualizing fMRI into images
-* Foundation models for Image Manipulation and Editing
-* RobotGPT: ChatGPT enabling the Robot Tasks
+ 
+He also works on some CV and Multimedia applications, such as face recognition, person Re-ID, Sketch-based image retrieval/editing, image inpainting, Attack and Defence,Visual Sentiment Analysis, Video Understanding, Multi-object tracking, Semantic Segmentation. 
 
 
 Please use the key words to search the corresponding papers from my Project Pages.

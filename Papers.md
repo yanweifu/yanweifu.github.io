@@ -77,7 +77,7 @@ Note that: some video demos are from Youtube.
 
 <iframe width="300" height="160" src="https://www.youtube.com/embed/_Gue5kxtBx8" title="H4D: Human 4D Modeling by Learning Neural Compositional Representation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels. Yikang Wang, Xinwei Sun, Yanwei Fu. CVPR 2022 
+* Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels. Yikai Wang, Xinwei Sun, Yanwei Fu. CVPR 2022 
 
 * Incremental Transformer Structure Enhanced Image Inpainting with Masking Positional Encoding. Qiaole Dong, Chenjie Cao, Yanwei Fu. CVPR 2022 <a href="https://dqiaole.github.io/ZITS_inpainting/" project="" page="">Project</a> 
 
