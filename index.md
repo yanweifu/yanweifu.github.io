@@ -43,6 +43,9 @@ Please donot contact me via my QMUL email address, which has been suspended.
 
 # Recent News
 
+* 06/2023 I will organize CVPR 2023 few-shot learning tutorial: https://fsl-fudan.github.io!
+* 05/2023 Chengming Xu, Boyang Jiang, Yuqian Fu, and Qiang Sun passed their PhD Viva. Congratulations!
+* 05/2023 One IEEE TPAMI paper accepted -- ZITS++
 * 01/2023 I will serve as ICML 2023 Area Chair. I guess it may be still challenging, as ML community always likes to make some experiments in exploring a better review process.
 * 12/2022  One IEEE TPAMI and one TMLR paper accepted! The TPAMI one about identifying causal features in one-shot learning; TMLR one is about DINO features for MVS, which took the first place in <a href="https://www.tanksandtemples.org"> tank and temples Leaderboard </a>, during the past 6 months. We released their codes. This year, our group has 4 accepted IEEE TPAMI papers, 2 accepted TMLR paper.
 * 12/2022 Yu Xie, and Pan Li passed their PhD Viva. Congratulations!
@@ -59,5 +62,6 @@ Please donot contact me via my QMUL email address, which has been suspended.
 * 01/2021 We organize the [1st Visual Intelligence Seminar on Few-shot Learning](https://www.bilibili.com/video/BV13X4y1N7iA?p=13).
 
 
+# Media Interview
 
-              ````````````````
+* 05/2023 https://m.thepaper.cn/newsDetail_forward_23279276 
