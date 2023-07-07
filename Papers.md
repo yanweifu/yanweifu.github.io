@@ -5,6 +5,10 @@ Note that: some video demos are from Youtube.
 
 ## 2023
 
+* Language Guided Robotic Grasping with Fine-grained Instructions, Qiang Sun, Haitao Lin, Ying Fu, Yanwei Fu, Xiangyang Xue. IROS 2023
+
+* ZITS++: Image Inpainting by Improving the Incremental Transformer on Structural Priors. Chenjie Cao, Qiaole Dong, Yanwei Fu. IEEE TPAMI, accepted
+
 * ZITS++: Image Inpainting by Improving the Incremental Transformer on Structural Priors. Chenjie Cao, Qiaole Dong, Yanwei Fu. IEEE TPAMI, accepted
 
 * Grad-PU: Arbitrary-Scale Point Cloud Upsampling via Gradient Descent with Learned Distance Functions. Yun He, Danhang Tang, Yinda Zhang, Xiangyang Xue, Yanwei Fu. CVPR 2023
