@@ -5,9 +5,21 @@ Note that: some video demos are from Youtube.
 
 ## 2023
 
-* Language Guided Robotic Grasping with Fine-grained Instructions, Qiang Sun, Haitao Lin, Ying Fu, Yanwei Fu, Xiangyang Xue. IROS 2023
+* Object-centric Multiple Object Tracking, Zixu Zhao et al. ICCV 2023
 
-* ZITS++: Image Inpainting by Improving the Incremental Transformer on Structural Priors. Chenjie Cao, Qiaole Dong, Yanwei Fu. IEEE TPAMI, accepted
+* nsupervised Open-Vocabulary Object Localization in Videos, Fan Ke, et al. ICCV 2023
+
+* PourIt!: Weakly-supervised Liquid Perception from a Single Image for Visual Closed-Loop Robotic Pouring, Haitao Lin, Yanwei Fu, Xiangyang Xue. ICCV 2023
+
+* Improving Transformer-based Image Matching by Cascaded Capturing Spatially Informative Keypoints, Chenjie Cao, Yanwei Fu, ICCV 2023
+
+* Learning Versatile 3D Shape Generation with Improved AR Models, Simian Luo, Xuelin Qian, et al. ICCV 2023
+
+* Rethinking Amodal Video Segmentation from Learning Supervised Signals with Object-centric Representation, Ke Fan, Jingshi Lei, et a. ICCV 2023
+
+* Coarse-to-Fine Amodal Segmentation with Shape Prior, Jianxiong Gao, Xuelin Qian, et al. ICCV 2023
+
+* Language Guided Robotic Grasping with Fine-grained Instructions, Qiang Sun, Haitao Lin, Ying Fu, Yanwei Fu, Xiangyang Xue. IROS 2023
 
 * ZITS++: Image Inpainting by Improving the Incremental Transformer on Structural Priors. Chenjie Cao, Qiaole Dong, Yanwei Fu. IEEE TPAMI, accepted
 

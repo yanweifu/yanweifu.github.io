@@ -43,6 +43,7 @@ Please donot contact me via my QMUL email address, which has been suspended.
 
 # Recent News
 
+* 07/2023 1 IROS 2023 paper, and 7 ICCV 2023 papers accepted
 * 06/2023 I will organize CVPR 2023 few-shot learning tutorial: https://fsl-fudan.github.io!
 * 05/2023 Chengming Xu, Boyang Jiang, Yuqian Fu, and Qiang Sun passed their PhD Viva. Congratulations!
 * 05/2023 One IEEE TPAMI paper accepted -- ZITS++
