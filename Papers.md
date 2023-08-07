@@ -5,6 +5,9 @@ Note that: some video demos are from Youtube.
 
 ## 2023
 
+
+* DeepSFM: Robust Deep Iterative Refinement for Structure From Motion. Xingkui Wei, Yinda Zhang, Xinlin Ren, Zhuwen Li, Xiangyang xue, Yanwei Fu. IEEE TPAMI (accept)
+
 * Local Consensus Enhanced Siamese Network with Reciprocal Loss for Two-view Correspondence Learning, Linbo Wang, Chenjie Cao and et al. ACM Multimedia 2023
 
 * Object-centric Multiple Object Tracking, Zixu Zhao et al. ICCV 2023
