@@ -5,6 +5,9 @@ Note that: some video demos are from Youtube.
 
 ## 2023
 
+* Worst-case Feature Risk Minimization for Data-Efficient Learning. Jingshi Le, Da Li, Chengming Xu, Liming Fang, Timothy Hospedales, Yanwei Fu. TMLR (accept)
+
+* H4MER: Human 4D Modeling by Learning Neural Compositional Representation with Transformer. Boyan Jiang, Yinda Zhang, Jingyang Huo, Xiangyang Xue, Yanwei Fu. IEEE TPAMI (accept)
 
 * DeepSFM: Robust Deep Iterative Refinement for Structure From Motion. Xingkui Wei, Yinda Zhang, Xinlin Ren, Zhuwen Li, Xiangyang xue, Yanwei Fu. IEEE TPAMI (accept)
 
