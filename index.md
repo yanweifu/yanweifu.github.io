@@ -41,6 +41,7 @@ Please donot contact me via my QMUL email address, which has been suspended.
 
 大家有兴趣联系我们，可以email联系我或我们组博士后钱学林老师(xuelinq@163.com)。
 2023年9月开始，因为最近人数比较多，我们组暂不收本科实习生（有兴趣报送本组读硕士、博士的本科生可以来）。
+有兴趣做statistical sparsity的本科同学，可以直接联系孙鑫伟老师，我们可以一起合作。
 
 # Recent News
 
@@ -67,4 +68,4 @@ Please donot contact me via my QMUL email address, which has been suspended.
 # Media Interview
 
 * 05/2023 https://m.thepaper.cn/newsDetail_forward_23279276 
-``
+````
