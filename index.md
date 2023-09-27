@@ -43,6 +43,8 @@ Please donot contact me via my QMUL email address, which has been suspended.
 2023年9月开始，因为最近人数比较多，我们组暂不收本科实习生（有兴趣报送本组读硕士、博士的本科生可以来）。
 有兴趣做statistical sparsity的本科同学，可以直接联系孙鑫伟老师，我们可以一起合作。
 
+另外，自2023年9月起，我们组轮转名额已满，暂不接收类脑院同学轮转。
+
 # Recent News
 
 * 07/2023 1 IROS 2023 paper, and 7 ICCV 2023 papers accepted
@@ -68,4 +70,4 @@ Please donot contact me via my QMUL email address, which has been suspended.
 # Media Interview
 
 * 05/2023 https://m.thepaper.cn/newsDetail_forward_23279276 
-````
+``````
