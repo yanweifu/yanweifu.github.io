@@ -28,6 +28,24 @@ He is interested in the following ML/CV topics (with the corresponding selected 
 Please use the key words to search the corresponding papers from my Project Pages.
 
 
+Homepage of interesting tasks:
+1) Inpainting:
+zits++: https://ewrfcas.github.io/ZITS-PlusPlus/
+CasMTR: https://ewrfcas.github.io/CasMTR/
+ARCI: https://ewrfcas.github.io/ARCI/
+
+2)Vision-Guided Robotic Grapsing:
+2.1, we have used Large Language Model (LLM) to improve the performance of robotics:
+https://star-uu-wang.github.io/WALL-E/
+2.2, Our ICCV 23’s work in fancy controlling the robotics for pouring water:
+https://hetolin.github.io/PourIt/
+2.3, Our CVPR22, ICRA2022 works on vision guided robotic grasping in general.
+6DoF category-level object localization
+https://hetolin.github.io/SAR-Net/
+2.4 sketch-guided robotic grasping
+https://hetolin.github.io/Skt_grasp/
+
+
 
 # Timeline
 
@@ -70,4 +88,4 @@ Please donot contact me via my QMUL email address, which has been suspended.
 # Media Interview
 
 * 05/2023 https://m.thepaper.cn/newsDetail_forward_23279276 
-``````
+````````
