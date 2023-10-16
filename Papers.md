@@ -109,9 +109,6 @@ Note that: some video demos are from Youtube.
 
 * SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation. Haitao Lin, Zichang Liu, Chilam Cheang, Yanwei Fu, Guodong Guo, Xiangyang Xue. CVPR 2022  <a href="https://hetolin.github.io/SAR-Net/">Project pages</a>
 
-<iframe  width="300" height="160"  src="//player.bilibili.com/player.html?bvid=BV1PY4y1k78b&cid=720319553&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe>
-
-<iframe width="300" height="160"  src="//player.bilibili.com/player.html?bvid=BV1ZA4y1S7wk&cid=720305130&page=1" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe>
 
 <iframe width="300" height="160"   src="https://www.youtube.com/embed/b4CLMdhJV58" title="SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -140,8 +137,6 @@ Note that: some video demos are from Youtube.
 * I Know What You Draw:Learning Grasp Detection Conditioned on a Few Freehand Sketches. Chilam Cheang, Haitao Lin, Yanwei Fu, Xiangyang Xue, ICRA 2022 <a href="https://hetolin.github.io/Skt_grasp/">Project pages</a>
 
 <iframe width="300" height="160" src="https://www.youtube.com/embed/aEqF1yxwvqQ" title="I Know What You Draw: Learning Grasp Detection Conditioned on a few freehand Sketches" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="300" height="160" src="//player.bilibili.com/player.html?aid=214076116&bvid=BV1ka411J7d6&cid=720285675&page=1" title="I Know What You Draw: Learning Grasp Detection Conditioned on a few freehand Sketches" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 
 * HandO: a hybrid 3D hand–object reconstruction model for unknown objects. Hang Yu, Yanwei Fu, Xiangyang Xue. Multimedia Systems. to appear 
 
@@ -392,4 +387,4 @@ Note that: some video demos are from Youtube.
 ## Other material:
 <a href="visualization.html"> Interesting Visualisation of the work above </a>
 
-<a href="otherdataset.html"> Other useful dataset </a>
+<a href="otherdataset.html"> Other useful dataset </a>``
