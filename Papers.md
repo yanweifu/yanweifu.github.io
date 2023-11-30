@@ -3,6 +3,11 @@ layout: default
 ---
 Note that: some video demos are from Youtube.
 
+
+## 2024
+
+* Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels. Yikai Wang, Yanwei Fu, and Xinwei Sun. IEEE TPAMI (accepted)
+
 ## 2023
 
 * Worst-case Feature Risk Minimization for Data-Efficient Learning. Jingshi Le, Da Li, Chengming Xu, Liming Fang, Timothy Hospedales, Yanwei Fu. TMLR (accept)
