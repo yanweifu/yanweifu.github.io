@@ -6,7 +6,13 @@ Note that: some video demos are from Youtube.
 
 ## 2024
 
-* Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels. Yikai Wang, Yanwei Fu, and Xinwei Sun. IEEE TPAMI (accepted)
+* Doubly Robust Proximal Causal Learning for Continuous Treatments. Yong Wu, Yanwei Fu, Shouyan Wang, Xinwei Sun. ICLR 2024
+
+* MVSFormer++: Revealing the Devil in the Transformer's Details for Multi-View Stereo. Xinlin Ren, Chenjie Cao, Yanwei Fu. ICLR 2024
+
+* T-Pixel2Mesh: Combining Global and Local Transformer for 3D Mesh Generation from a Single Image. Shijie Zhang, Boyan Jiang, Keke He, Junwei Zhu, Ying Tai, Chengjie Wang, Yinda Zhang, Yanwei Fu. ICASSP 2024
+
+* Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels. Yikai Wang, Yanwei Fu, and Xinwei Sun. IEEE TPAMI 2024
 
 ## 2023
 
