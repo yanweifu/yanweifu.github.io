@@ -12,6 +12,8 @@ Note that: some video demos are from Youtube.
 
 * T-Pixel2Mesh: Combining Global and Local Transformer for 3D Mesh Generation from a Single Image. Shijie Zhang, Boyan Jiang, Keke He, Junwei Zhu, Ying Tai, Chengjie Wang, Yinda Zhang, Yanwei Fu. ICASSP 2024
 
+* HybridGait: A Benchmark for Spatial-Temporal Cloth-Changing Gait Recognition with Hybrid Explorations. Yilian Dong, Chunlin Yu, Ruiyang Ha, Ye Shi, Yuexin Ma, Lan Xu, Yanwei Fu, Jingya Wang. AAAI 2024
+
 * Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels. Yikai Wang, Yanwei Fu, and Xinwei Sun. IEEE TPAMI 2024
 
 ## 2023
