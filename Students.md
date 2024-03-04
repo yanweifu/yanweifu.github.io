@@ -4,6 +4,12 @@ layout: default
 #About the research introduction of our group@SDS-Fudan 
 <iframe src="//player.bilibili.com/player.html?aid=988263237&bvid=BV1Y44y1Q7qz&cid=912345802&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe> 
 
+
+
+<iframe src="//player.bilibili.com/player.html?aid=1951370766&bvid=BV1dC411p7F2&cid=1456426452&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
 ## Honary Awards of Students
 Undergraduates:
 

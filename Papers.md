@@ -6,6 +6,14 @@ Note that: some video demos are from Youtube.
 
 ## 2024
 
+* MemFlow: Optical Flow Estimation and Prediction with Memory. Qiaole Dong, Yanwei Fu, CVPR 2024
+
+* LeftRefill: Filling Right Canvas based on Left Reference through Generalized Text-to-Image Diffusion Model. Chenjie Cao, Yunuo Cai, Qiaole Dong, Yikai Wang, Yanwei Fu. CVPR 2024
+
+* Adaptive Slot Attention: Object Discovery with Dynamic Slot Number. Ke Fan, Zechen Bai, Tianjun Xiao, Tong He, Max Horn, Yanwei Fu, Francesco Locatello, Zheng Zhang CVPR 2024
+
+* Test-Time Linear Out-of-Distribution Detection. Ke Fan, Tong Liu, Xingyu Qiu, Yikai Wang, Lian Huai, Zeyu Shangguan, Shuang Gou, Fengjian Liu, Yuqian Fu, Yanwei Fu, Xingqun Jiang. CVPR 2024
+
 * Doubly Robust Proximal Causal Learning for Continuous Treatments. Yong Wu, Yanwei Fu, Shouyan Wang, Xinwei Sun. ICLR 2024
 
 * MVSFormer++: Revealing the Devil in the Transformer's Details for Multi-View Stereo. Xinlin Ren, Chenjie Cao, Yanwei Fu. ICLR 2024
