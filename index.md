@@ -55,24 +55,21 @@ https://hetolin.github.io/Skt_grasp/
 
 Please donot contact me via my QMUL email address, which has been suspended.
 
-关于本组招生：大数据学院科学硕士及直博生是统一招生（而不是分配给导师名额）。所以感兴趣我们组的话，可以直接去申请拿到学院的offer，再联系我即可。申请普博或者Oversea students想来我们组做summer intern的话，可以提前联系我。
-
-大家有兴趣联系我们，可以email联系我或我们组博士后钱学林老师(xuelinq@163.com)。
-2023年9月开始，因为最近人数比较多，我们组暂不收本科实习生（有兴趣报送本组读硕士、博士的本科生可以来）。
+关于本组招生：大数据学院科学硕士及直博生是统一招生（而不是分配给导师名额）。所以感兴趣我们组的话，可以直接去申请拿到学院的offer，再联系我即可。申请普博或者Oversea students想来我们组做summer intern的话，可以提前联系我。 大家有兴趣联系我们，可以email联系我。
 有兴趣做statistical sparsity的本科同学，可以直接联系孙鑫伟老师，我们可以一起合作。
 
-另外，自2023年9月起，我们组轮转名额已满，暂不接收类脑院同学轮转。
 
 # Recent News
-
+* 03/2024 Chenjie Cao passed his PhD Viva, and Dr. Xuelin Qian will join Northwestern Polytechnical University (NWPU) as Associate Professor.
+* 03/2024 I will organize CVPR 2024 object-centric represenation tutorial with Tong He, Tianjun Xiao, and Francesco Locatello.
 * 07/2023 1 IROS 2023 paper, and 7 ICCV 2023 papers accepted
-* 06/2023 I will organize CVPR 2023 few-shot learning tutorial: https://fsl-fudan.github.io!
+* 06/2023 I will organize CVPR 2023 few-shot learning tutorial with Yikai Wang, Da Li, Yu-Xiong Wang, Timothy Hispedales: https://fsl-fudan.github.io 
 * 05/2023 Chengming Xu, Boyang Jiang, Yuqian Fu, and Qiang Sun passed their PhD Viva. Congratulations!
 * 05/2023 One IEEE TPAMI paper accepted -- ZITS++
 * 01/2023 I will serve as ICML 2023 Area Chair. I guess it may be still challenging, as ML community always likes to make some experiments in exploring a better review process.
 * 12/2022  One IEEE TPAMI and one TMLR paper accepted! The TPAMI one about identifying causal features in one-shot learning; TMLR one is about DINO features for MVS, which took the first place in <a href="https://www.tanksandtemples.org"> tank and temples Leaderboard </a>, during the past 6 months. We released their codes. This year, our group has 4 accepted IEEE TPAMI papers, 2 accepted TMLR paper.
 * 12/2022 Yu Xie, and Pan Li passed their PhD Viva. Congratulations!
-* 08/2022 I  will organize the tutorial "The Priors Guided Image Editing and Synthesis" with Prof. Shenghua Gao, Mr. Chenjie Cao, and Mr. Qiaole Dong in ACCV 2022, held in Macau SAR, China.
+* 08/2022 I  will organize the tutorial "The Priors Guided Image Editing and Synthesis" with Prof. Shenghua Gao, Mr. Chenjie Cao, and Mr. Qiaole Dong in ACCV 2022, held in Macau SAR, China. https://dqiaole.github.io/priors_guided_image_editing_synthesis/``
 * 07/2022 We organize the [2nd Visual Intelligence Seminar on Few-shot Learning](http://www.sdspeople.fudan.edu.cn/fuyanwei/VI_seminar/fudan-vi-seminar.github.io/index2.html) with [Online videos](https://space.bilibili.com/670459194/channel/series)
 * 07/2022 Our MVSFormer has ranked as Top-1 (since May) on the [leaderboard](https://www.tanksandtemples.org/leaderboard/)
 * 07/2022 Two ACM MM2022 and Three ECCV2022 papers accepted.
@@ -88,4 +85,4 @@ Please donot contact me via my QMUL email address, which has been suspended.
 # Media Interview
 
 * 05/2023 https://m.thepaper.cn/newsDetail_forward_23279276 
-````````
+``````````
