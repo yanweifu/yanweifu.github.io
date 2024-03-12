@@ -23,12 +23,16 @@ Note that: some video demos are from Youtube.
 * HybridGait: A Benchmark for Spatial-Temporal Cloth-Changing Gait Recognition with Hybrid Explorations. Yilian Dong, Chunlin Yu, Ruiyang Ha, Ye Shi, Yuexin Ma, Lan Xu, Yanwei Fu, Jingya Wang. AAAI 2024
 
 * Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels. Yikai Wang, Yanwei Fu, and Xinwei Sun. IEEE TPAMI 2024
+ 
+* H4MER: Human 4D Modeling by Learning Neural Compositional Representation with Transformer. Boyan Jiang, Yinda Zhang, Jingyang Huo, Xiangyang Xue, Yanwei Fu. IEEE TPAMI 2024
+
+
 
 ## 2023
 
-* Worst-case Feature Risk Minimization for Data-Efficient Learning. Jingshi Le, Da Li, Chengming Xu, Liming Fang, Timothy Hospedales, Yanwei Fu. TMLR (accept)
+* Worst-case Feature Risk Minimization for Data-Efficient Learning. Jingshi Le, Da Li, Chengming Xu, Liming Fang, Timothy Hospedales, Yanwei Fu. TMLR 2023
 
-* H4MER: Human 4D Modeling by Learning Neural Compositional Representation with Transformer. Boyan Jiang, Yinda Zhang, Jingyang Huo, Xiangyang Xue, Yanwei Fu. IEEE TPAMI (accept)
+* Recent Few-Shot Object Detection Algorithms: A Survey with Performance Comparison, Tianying Liu, Lu Zhang, Yang Wang, Jihong Guan, Yanwei Fu, Jiajia Zhao, Shuigeng Zhou. ACM Transactions on Intelligent Systems and Technology, 2023
 
 * DeepSFM: Robust Deep Iterative Refinement for Structure From Motion. Xingkui Wei, Yinda Zhang, Xinlin Ren, Zhuwen Li, Xiangyang xue, Yanwei Fu. IEEE TPAMI (accept)
 
