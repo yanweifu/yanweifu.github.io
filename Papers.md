@@ -5,6 +5,7 @@ Note that: some video demos are from Youtube.
 
 
 ## 2024
+* Exploring Fine-Grained Representation and Recomposition for Cloth-Changing Person Re-Identification. Qizao Wang, Xuelin Qian, Bin Li, Ying Fu, Yanwei Fu, Xiangyang Xue. IEEE Transactions on Information Forensics and Security. 2024
 
 * MemFlow: Optical Flow Estimation and Prediction with Memory. Qiaole Dong, Yanwei Fu, CVPR 2024
 
