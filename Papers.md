@@ -6,8 +6,21 @@ Note that: some video demos are from Youtube.
 
 ## 2024
 
-* Brain-machine interactive neuromodulation research tool with edge AI computing. Qizao Wang, Yan Li, Yingnan Nie, Zhaoyu Quan, Han Zhang, Rui Song, Hao Feng, Xi Cheng, Wei Liu, Xinyi Geng, Xinwei Sun, Yanwei Fu, Shouyan Wang.   <a href="https://www.sciencedirect.com/science/article/pii/S2405844024086407">Heliyon</a> 
+* MinD-3D: Reconstruct High-quality 3D objects in Human Brain. Jianxiong Gao, Yuqian Fu, Yun Wang, Xuelin Qian, Jianfeng Feng, Yanwei Fu. ECCV 2024
 
+* NeuroPictor: Refining fMRI-to-Image Reconstruction via Multi-individual Pretraining and Multi-level Modulation. Jingyang Huo, Yikai Wang, Yanwei Fu, Xuelin Qian, Chong Li, Yun Wang, Jianfeng Feng. ECCV 2024
+
+* Enhancing Cross-Subject fMRI-to-Video Decoding with Global-Local Functional Alignment. Chong Li, Xuelin Qian, Yun Wang, Jingyang Huo, Xiangyang Xue, Jianfeng Feng, Yanwei Fu. ECCV 2024
+
+* Cross-Domain Few-Shot Object Detection via Enhanced Open-Set Object Detector. Yuqian Fu, Yu Wang, Yixuan Pan, Xingyu Qiu, Lian  Huai, Zeyu Shangguang, Tong Liu, Yanwei Fu, Luc Van Gool, Xingqun Jiang. ECCV 2024
+	
+* Improving Neural Surface Reconstruction with Feature Priors from Multi-View Images. XinLin Ren, Chengjie Cao, Yanwei Fu, Xiangyang Xue. ECCV 2024
+	
+* Polaris: Open-ended Interactive Robotic Manipulation via Syn2Real Visual Grounding and Large Language Models. Tianyu Wang, Haitao Lin, Junqiu Yu, Yanwei Fu. IROS 2024
+
+* LAC-Net: Linear-Fusion Attention-Guided Convolutional Network for Accurate Robotic Grasping Under the Occlusion. Jinyu Zhang, Yongchong Gu, Jianxiong Gao, Haitao Lin, Qiang Sun, Xinwei Sun, Xiangyang Xue, Yanwei Fu. IROS 2024
+
+* Brain-machine interactive neuromodulation research tool with edge AI computing. Qizao Wang, Yan Li, Yingnan Nie, Zhaoyu Quan, Han Zhang, Rui Song, Hao Feng, Xi Cheng, Wei Liu, Xinyi Geng, Xinwei Sun, Yanwei Fu, Shouyan Wang.   <a href="https://www.sciencedirect.com/science/article/pii/S2405844024086407">Heliyon</a> 
 
 * Exploring Fine-Grained Representation and Recomposition for Cloth-Changing Person Re-Identification. Qizao Wang, Xuelin Qian, Bin Li, Ying Fu, Yanwei Fu, Xiangyang Xue. IEEE Transactions on Information Forensics and Security. 2024
 
