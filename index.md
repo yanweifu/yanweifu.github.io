@@ -60,6 +60,7 @@ Please donot contact me via my QMUL email address, which has been suspended.
 
 
 # Recent News
+* 12/2023  Dr. Yanwei Fu is a full professor of Fudan University, starting from Dec. 2023.
 * 03/2024 Chenjie Cao passed his PhD Viva, and Dr. Xuelin Qian will join Northwestern Polytechnical University (NWPU) as Associate Professor.
 * 03/2024 I am holding CVPR tutorial from 2022 to 2024. Hopefully, I can get US visa for the trip.
 * 03/2024 I will organize CVPR 2024 object-centric represenation tutorial with Tong He, Tianjun Xiao, and Francesco Locatello. https://object-centric-representation.github.io/object-centric-tutorial-2024/  
