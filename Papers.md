@@ -6,6 +6,8 @@ Note that: some video demos are from Youtube.
 
 ## 2024
 
+* TC-GEN: Data-driven Tropical Cyclone Downscaling using Machine Learning-Based High-resolution Weather Model. Renzhi Jing, Jianxiong Gao, Yunuo Cai, Dazhi Xi, Yinda Zhang, Yanwei Fu, Kerry Emanuel, Noah S. Diffenbaugh, Eran Bendavid. Journal of Advances in Modeling Earth Systems (JAMES) 2024
+
 * TaMMa: Target-driven Multi-subscene Mobile Manipulation. Jiawei Hou, Tianyu Wang, Tongying Pan, Shouyan Wang, Xiangyang Xue, Yanwei Fu. CoRL 2024
 
 * MinD-3D: Reconstruct High-quality 3D objects in Human Brain. Jianxiong Gao, Yuqian Fu, Yun Wang, Xuelin Qian, Jianfeng Feng, Yanwei Fu. ECCV 2024
