@@ -6,6 +6,14 @@ Note that: some video demos are from Youtube.
 
 ## 2024
 
+* Towards Global Optimal Visual In-Context Learning Prompt Selection, Chengming Xu, Chen Liu, Yikai Wang, Yanwei Fu. NeurIPS 2024
+
+* MVInpainter: Learning Multi-View Consistent Inpainting to Bridge 2D and 3D Editing. Chenjie Cao, Chaohui Yu, Yanwei Fu, Fan Wang, Xiangyang Xue. NeurIPS 2024.
+
+* Unified Lexical Representation for Interpretable Visual-Language Alignment. Yifan Li, Tong He, Yikai Wang, Dongyu Ru, Yanwei Fu, Zheng Zhang. NeurIPS 2024.
+
+* Dynamic Routing and Knowledge Re-Learning for Data-free Black-box Attack. Xuelin Qian, Wenxuan Wang,  Yu-Gang Jiang,  Xiangyang Xue, Yanwei Fu. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2024
+
 * TC-GEN: Data-driven Tropical Cyclone Downscaling using Machine Learning-Based High-resolution Weather Model. Renzhi Jing, Jianxiong Gao, Yunuo Cai, Dazhi Xi, Yinda Zhang, Yanwei Fu, Kerry Emanuel, Noah S. Diffenbaugh, Eran Bendavid. Journal of Advances in Modeling Earth Systems (JAMES) 2024
 
 * TaMMa: Target-driven Multi-subscene Mobile Manipulation. Jiawei Hou, Tianyu Wang, Tongying Pan, Shouyan Wang, Xiangyang Xue, Yanwei Fu. CoRL 2024
