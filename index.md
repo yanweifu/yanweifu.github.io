@@ -58,7 +58,7 @@ Please donot contact me via my QMUL email address, which has been suspended.
 关于本组招生：大数据学院科学硕士及直博生是统一招生（而不是分配给导师名额）。所以感兴趣我们组的话，可以直接去申请拿到学院的offer，再联系我即可。申请普博或者Oversea students想来我们组做summer intern的话，可以提前联系我。 大家有兴趣联系我们，可以email联系我。
 有兴趣做statistical sparsity的本科同学，可以直接联系孙鑫伟老师，我们可以一起合作。
 
-**注意：本组已经没有2024年9月份入学的硕士、博士名额了。
+**注意：本组暂时不在招收2025年9月份入学的类脑院的硕士和博士。有意向做相关研究的类脑院同学，可以联系公维康老师。
 **
 
 # Recent News
