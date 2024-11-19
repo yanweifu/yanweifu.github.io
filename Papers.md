@@ -6,6 +6,12 @@ Note that: some video demos are from Youtube.
 
 ## 2024
 
+* Repositioning the Subject within Image, Yikai Wang, Chenjie Cao, Ke Fan, Qiaole Dong, Yifan Li, Xiangyang Xue, Yanwei Fu. TMLR 2024: dataset, and models are released. Please google it.
+
+
+* LEA: Learning Latent Embedding Alignment Model for fMRI Decoding and Encoding,  Xuelin Qian, Yikai Wang, Xinwei Sun, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. TMLR 2024, dataset, and models are released. Please google it.
+
+
 * Towards Global Optimal Visual In-Context Learning Prompt Selection, Chengming Xu, Chen Liu, Yikai Wang, Yanwei Fu. NeurIPS 2024
 
 * MVInpainter: Learning Multi-View Consistent Inpainting to Bridge 2D and 3D Editing. Chenjie Cao, Chaohui Yu, Yanwei Fu, Fan Wang, Xiangyang Xue. NeurIPS 2024.
