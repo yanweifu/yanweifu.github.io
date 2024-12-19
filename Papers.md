@@ -4,6 +4,10 @@ layout: default
 Note that: some video demos are from Youtube.
 
 
+## 2025
+
+* ContextualStory: Consistent Visual Storytelling with Spatially-Enhanced and Storyline Context. Sixiao Zheng, Yanwei Fu. AAAI 2025.
+
 ## 2024
 
 * Repositioning the Subject within Image, Yikai Wang, Chenjie Cao, Ke Fan, Qiaole Dong, Yifan Li, Xiangyang Xue, Yanwei Fu. TMLR 2024: dataset, and models are released. Please google it.
