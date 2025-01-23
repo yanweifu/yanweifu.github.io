@@ -7,14 +7,15 @@ Note that: some video demos are from Youtube.
 ## 2025
 
 * ContextualStory: Consistent Visual Storytelling with Spatially-Enhanced and Storyline Context. Sixiao Zheng, Yanwei Fu. AAAI 2025.
+* A New Formulation of Lipschitz Constrained With Functional Gradient Learning for GANs. Chang Wan, Ke Fan, Xinwei Sun, Yanwei Fu, Minglu Li, Yunliang Jiang, Zhonglong Zheng. Machine Learning, 2025
 
 ## 2024
 
 * Repositioning the Subject within Image, Yikai Wang, Chenjie Cao, Ke Fan, Qiaole Dong, Yifan Li, Xiangyang Xue, Yanwei Fu. TMLR 2024: dataset, and models are released. Please google it.
 
-
 * LEA: Learning Latent Embedding Alignment Model for fMRI Decoding and Encoding,  Xuelin Qian, Yikai Wang, Xinwei Sun, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. TMLR 2024, dataset, and models are released. Please google it.
 
+* A New Formulation of Lipschitz Constrained With Functional Gradient Learning for GANs. Chang Wan, Ke Fan, Xinwei Sun, Yanwei Fu, Minglu Li, Yunliang Jiang, Zhonglong Zheng. Machine Learning. 2024
 
 * Towards Global Optimal Visual In-Context Learning Prompt Selection, Chengming Xu, Chen Liu, Yikai Wang, Yanwei Fu. NeurIPS 2024
 
