@@ -6,7 +6,12 @@ Note that: some video demos are from Youtube.
 
 ## 2025
 
+* Adaptive Pruning of Pretrained Transformer via Differential Inclusions. Yizhuo Ding, Ke Fan, Yikai Wang, Xinwei Sun, Yanwei Fu. ICLR 2025
+
+* 3D StreetUnveiler with Semantic-aware 2DGS - a simple baseline. Jingwei Xu, Yikai Wang, Yiqun Zhao, Yanwei Fu, Shenghua Gao. ICLR 2025
+
 * ContextualStory: Consistent Visual Storytelling with Spatially-Enhanced and Storyline Context. Sixiao Zheng, Yanwei Fu. AAAI 2025.
+
 * A New Formulation of Lipschitz Constrained With Functional Gradient Learning for GANs. Chang Wan, Ke Fan, Xinwei Sun, Yanwei Fu, Minglu Li, Yunliang Jiang, Zhonglong Zheng. Machine Learning, 2025
 
 ## 2024
