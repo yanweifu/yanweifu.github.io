@@ -156,7 +156,7 @@ Note that: some video demos are from Youtube.
 
 * UAST: Uncertainty-Aware Siamese Tracking, Dawei Zhang, Yanwei Fu, Zhonglong Zheng, ICML 2022 
 
-* Pixel2Mesh++: Multi-View 3D Mesh Generation via Deformation, Chao Wen, Yinda Zhang, Chenjie Cao, Zhuwen Li, Xiangyang Xue, Yanwei Fu. IEEE TPAMI accepted (2022) 
+* Pixel2Mesh++: 3D Mesh Generation and Refinement From Multi-View Images, Chao Wen, Yinda Zhang, Chenjie Cao, Zhuwen Li, Xiangyang Xue, Yanwei Fu. IEEE TPAMI accepted (2022) 
 
 * Exploring Structural Sparsity of Deep Networks via Inverse Scale Spaces, Yanwei Fu, Chen Liu, Donghao Li, Zuyuan Zhong, Xinwei Sun, Jinshan Zeng, Yuan Yao. IEEE TPAMI accepted (2022) 
 
