@@ -6,6 +6,22 @@ Note that: some video demos are from Youtube.
 
 ## 2025
 
+* CAP-Net: A Unified Network for 6D Pose and Size Estimation of Categorical Articulated Parts from a Single RGB-D Image. Jingshun Huang, Haitao Lin, Tianyu Wang, Xiangyang Xue, Yi Zhu, Yanwei Fu. CVPR 2025
+
+* EDEN: Enhanced Diffusion for High-quality Large-motion Video Frame Interpolation, Zihao Zhang, Haoran Chen, Haoyu Zhao, Guansong Lu, Yanwei Fu, Hang Xu, Zuxuan Wu. CVPR 2025
+
+* ReasonGrounder: LVLM-Guided Hierarchical Feature Splatting for Open-Vocabulary 3D Visual Grounding and Reasoning. Zhenyang Liu, Yikai Wang, Sixiao Zheng, Tongying Pan, Longfei Liang, Yanwei Fu, Xiangyang Xue. CVPR 2025
+
+* MVGenMaster: Scaling Multi-View Generation from Any Image via 3D Priors Enhanced Diffusion Model. Chenjie Cao, Chaohui Yu, Shang Liu, Fan Wang, Xiangyang Xue, Yanwei Fu. CVPR 2025
+
+* Towards Context-Stable and Hue-Consistent Image Inpainting. Yikai Wang, Chenjie Cao, Junqiu Yu, Ke Fan, Xiangyang Xue, Yanwei Fu. CVPR 2025
+
+* Concept Replacer: Replacing Sensitive Concepts in Diffusion Models via Precision Localization. Lingyun Zhang, Yu Xie, Yanwei Fu, Ping Chen. CVPR 2025
+
+* CustAny: Customizing Anything from A Single Example. Lingjie Kong, Kai WU, Chengming Xu, Xiaobin Hu, Wenhui Han, Jinlong Peng, Donghao Luo, Mengtian Li, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2025
+
+* HOP: Heterogeneous Topology-based Multimodal Entanglement for Co-Speech Gesture Generation. Hongye Cheng, Tianyu Wang, Guangsi Shi, Zexing Zhao, Yanwei Fu. CVPR 2025
+
 * Adaptive Pruning of Pretrained Transformer via Differential Inclusions. Yizhuo Ding, Ke Fan, Yikai Wang, Xinwei Sun, Yanwei Fu. ICLR 2025
 
 * 3D StreetUnveiler with Semantic-aware 2DGS - a simple baseline. Jingwei Xu, Yikai Wang, Yiqun Zhao, Yanwei Fu, Shenghua Gao. ICLR 2025
