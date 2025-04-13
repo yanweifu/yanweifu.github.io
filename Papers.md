@@ -22,6 +22,12 @@ Note that: some video demos are from Youtube.
 
 * HOP: Heterogeneous Topology-based Multimodal Entanglement for Co-Speech Gesture Generation. Hongye Cheng, Tianyu Wang, Guangsi Shi, Zexing Zhao, Yanwei Fu. CVPR 2025
 
+* You Only Estimate Once: Unified, One-stage, Real-Time  Category-level Articulated Object 6D Pose Estimation for Robotic Grasping. Jingshun Huang, Haitao Lin, Tianyu Wang, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2025
+
+* You Only Estimate Once: Unified, One-stage, Real-Time  Category-level Articulated Object 6D Pose Estimation for Robotic Grasping. Jingshun Huang, Haitao Lin, Tianyu Wang, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2025
+
+* MagicFace: Slot-driven High-fidelity One-shot Facial Appearance Editing. QiLin Wang, Chengming Xu, et al.  IEEE Signal Processing Letters 2025
+
 * Adaptive Pruning of Pretrained Transformer via Differential Inclusions. Yizhuo Ding, Ke Fan, Yikai Wang, Xinwei Sun, Yanwei Fu. ICLR 2025
 
 * 3D StreetUnveiler with Semantic-aware 2DGS - a simple baseline. Jingwei Xu, Yikai Wang, Yiqun Zhao, Yanwei Fu, Shenghua Gao. ICLR 2025
