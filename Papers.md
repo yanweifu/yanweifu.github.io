@@ -6,11 +6,19 @@ Note that: some video demos are from Youtube.
 
 ## 2025
 
-* CAP-Net: A Unified Network for 6D Pose and Size Estimation of Categorical Articulated Parts from a Single RGB-D Image. Jingshun Huang, Haitao Lin, Tianyu Wang, Xiangyang Xue, Yi Zhu, Yanwei Fu. CVPR 2025
+* UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control, Kaizhen Zhu, Mokai Pan, Yuexin Ma, Yanwei Fu, Jingyi Yu, Jingya Wang, Ye Shi. ICML 2025 Spotlight. 
+
+* Bivariate Causal Discovery with Proxy Variables: Integral Solving and Beyond. Yong Wu, Yanwei Fu, Shouyan Wang, Xinwei Sun. ICML 2025. 
+
+* CrossVTON: Mimicking the Logic Reasoning on Cross-category Virtual Try-on guided by Tri-zone Priors. Donghao Luo, Yujie Liang, Xu Peng, Xiaobin Hu, Boyuan Jiang, Chengming Xu, Taisong Jin, Chengjie Wang, Yanwei Fu. IJCAI 2025. 
+
+* MagicFace: Slot-driven High-fidelity One-shot Facial Appearance Editing. Qilin Wang, Qilin Wang, Jiangning Zhang, Chengming Xu, Weijian Cao, and Yanwei Fu. IEEE Signal Processing Letters 2025 
+
+* CAP-Net: A Unified Network for 6D Pose and Size Estimation of Categorical Articulated Parts from a Single RGB-D Image. Jingshun Huang, Haitao Lin, Tianyu Wang, Xiangyang Xue, Yi Zhu, Yanwei Fu. CVPR 2025 Spotlight
 
 * EDEN: Enhanced Diffusion for High-quality Large-motion Video Frame Interpolation, Zihao Zhang, Haoran Chen, Haoyu Zhao, Guansong Lu, Yanwei Fu, Hang Xu, Zuxuan Wu. CVPR 2025
 
-* ReasonGrounder: LVLM-Guided Hierarchical Feature Splatting for Open-Vocabulary 3D Visual Grounding and Reasoning. Zhenyang Liu, Yikai Wang, Sixiao Zheng, Tongying Pan, Longfei Liang, Yanwei Fu, Xiangyang Xue. CVPR 2025
+* ReasonGrounder: LVLM-Guided Hierarchical Feature Splatting for Open-Vocabulary 3D Visual Grounding and Reasoning. Zhenyang Liu, Yikai Wang, Sixiao Zheng, Tongying Pan, Longfei Liang, Yanwei Fu, Xiangyang Xue. CVPR 2025 spotlight
 
 * MVGenMaster: Scaling Multi-View Generation from Any Image via 3D Priors Enhanced Diffusion Model. Chenjie Cao, Chaohui Yu, Shang Liu, Fan Wang, Xiangyang Xue, Yanwei Fu. CVPR 2025
 
@@ -18,7 +26,7 @@ Note that: some video demos are from Youtube.
 
 * Concept Replacer: Replacing Sensitive Concepts in Diffusion Models via Precision Localization. Lingyun Zhang, Yu Xie, Yanwei Fu, Ping Chen. CVPR 2025
 
-* CustAny: Customizing Anything from A Single Example. Lingjie Kong, Kai WU, Chengming Xu, Xiaobin Hu, Wenhui Han, Jinlong Peng, Donghao Luo, Mengtian Li, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2025
+* CustAny: Customizing Anything from A Single Example. Lingjie Kong, Kai WU, Chengming Xu, Xiaobin Hu, Wenhui Han, Jinlong Peng, Donghao Luo, Mengtian Li, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2025 Oral
 
 * HOP: Heterogeneous Topology-based Multimodal Entanglement for Co-Speech Gesture Generation. Hongye Cheng, Tianyu Wang, Guangsi Shi, Zexing Zhao, Yanwei Fu. CVPR 2025
 
