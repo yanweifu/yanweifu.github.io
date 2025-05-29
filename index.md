@@ -62,10 +62,13 @@ Please donot contact me via my QMUL email address, which has been suspended.
 **
 
 # Recent News
-* 12/2023  Dr. Yanwei Fu is a full professor of Fudan University, starting from Dec. 2023.
+
+* 05/2025  "A Unified Diffusion Bridge Framework via Stochastic Optimal Control"
+has been selected as the Long Paper Outstanding Paper Award Winner at the DeLTa Workshop, held in conjunction with ICLR 2025.
 * 03/2024 Chenjie Cao passed his PhD Viva, and Dr. Xuelin Qian will join Northwestern Polytechnical University (NWPU) as Associate Professor.
 * 03/2024 I am holding CVPR tutorial from 2022 to 2024. Hopefully, I can get US visa for the trip.
 * 03/2024 I will organize CVPR 2024 object-centric represenation tutorial with Tong He, Tianjun Xiao, and Francesco Locatello. https://object-centric-representation.github.io/object-centric-tutorial-2024/  
+* 12/2023  Dr. Yanwei Fu is a full professor of Fudan University, starting from Dec. 2023.
 * 07/2023 1 IROS 2023 paper, and 7 ICCV 2023 papers accepted
 * 06/2023 I will organize CVPR 2023 few-shot learning tutorial with Yikai Wang, Da Li, Yu-Xiong Wang, Timothy Hispedales: https://fsl-fudan.github.io 
 * 05/2023 Chengming Xu, Boyang Jiang, Yuqian Fu, and Qiang Sun passed their PhD Viva. Congratulations!
@@ -89,4 +92,4 @@ Please donot contact me via my QMUL email address, which has been suspended.
 # Media Interview
 
 * 05/2023 https://m.thepaper.cn/newsDetail_forward_23279276 
-````````````````
+``````````````````
