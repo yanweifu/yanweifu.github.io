@@ -6,6 +6,8 @@ Note that: some video demos are from Youtube.
 
 ## 2025
 
+* VividPose: Advancing Stable Video Diffusion for Realistic Human Image Animation. Qilin Wang, Zhengkai Jiang, Chengming Xu, Jiangning Zhang, Yabiao Wang, Xinyi Zhang, Yun Cao, Weijian Cao, Chengjie Wang, Yanwei Fu. ICME 2025 (Oral paper)
+
 * UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control, Kaizhen Zhu, Mokai Pan, Yuexin Ma, Yanwei Fu, Jingyi Yu, Jingya Wang, Ye Shi. ICML 2025 Spotlight. 
 
 * Bivariate Causal Discovery with Proxy Variables: Integral Solving and Beyond. Yong Wu, Yanwei Fu, Shouyan Wang, Xinwei Sun. ICML 2025. 
@@ -14,7 +16,7 @@ Note that: some video demos are from Youtube.
 
 * MagicFace: Slot-driven High-fidelity One-shot Facial Appearance Editing. Qilin Wang, Qilin Wang, Jiangning Zhang, Chengming Xu, Weijian Cao, and Yanwei Fu. IEEE Signal Processing Letters 2025 
 
-* CAP-Net: A Unified Network for 6D Pose and Size Estimation of Categorical Articulated Parts from a Single RGB-D Image. Jingshun Huang, Haitao Lin, Tianyu Wang, Xiangyang Xue, Yi Zhu, Yanwei Fu. CVPR 2025 Spotlight
+* CAP-Net: A Unified Network for 6D Pose and Size Estimation of Categorical Articulated Parts from a Single RGB-D Image. Jingshun Huang, Haitao Lin, Tianyu Wang, Xiangyang Xue, Yi Zhu, Yanwei Fu. CVPR 2025 Highlight paper
 
 * EDEN: Enhanced Diffusion for High-quality Large-motion Video Frame Interpolation, Zihao Zhang, Haoran Chen, Haoyu Zhao, Guansong Lu, Yanwei Fu, Hang Xu, Zuxuan Wu. CVPR 2025
 
@@ -22,11 +24,11 @@ Note that: some video demos are from Youtube.
 
 * MVGenMaster: Scaling Multi-View Generation from Any Image via 3D Priors Enhanced Diffusion Model. Chenjie Cao, Chaohui Yu, Shang Liu, Fan Wang, Xiangyang Xue, Yanwei Fu. CVPR 2025
 
-* Towards Context-Stable and Hue-Consistent Image Inpainting. Yikai Wang, Chenjie Cao, Junqiu Yu, Ke Fan, Xiangyang Xue, Yanwei Fu. CVPR 2025
+* Towards Enhanced Image Inpainting: Mitigating Unwanted Object Insertion and Preserving Color Consistency. Yikai Wang, Chenjie Cao, Junqiu Yu, Ke Fan, Xiangyang Xue, Yanwei Fu. CVPR 2025 Highlight Paper
 
 * Concept Replacer: Replacing Sensitive Concepts in Diffusion Models via Precision Localization. Lingyun Zhang, Yu Xie, Yanwei Fu, Ping Chen. CVPR 2025
 
-* CustAny: Customizing Anything from A Single Example. Lingjie Kong, Kai WU, Chengming Xu, Xiaobin Hu, Wenhui Han, Jinlong Peng, Donghao Luo, Mengtian Li, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2025 Oral
+* CustAny: Customizing Anything from A Single Example. Lingjie Kong, Kai WU, Chengming Xu, Xiaobin Hu, Wenhui Han, Jinlong Peng, Donghao Luo, Mengtian Li, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2025 (Oral paper）
 
 * HOP: Heterogeneous Topology-based Multimodal Entanglement for Co-Speech Gesture Generation. Hongye Cheng, Tianyu Wang, Guangsi Shi, Zexing Zhao, Yanwei Fu. CVPR 2025
 
@@ -215,7 +217,7 @@ Note that: some video demos are from Youtube.
 
 <iframe width="300" height="160"  src="https://www.youtube.com/embed/bW30eQMYqRs" title="SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation. Jianan Wang, Guansong Lu, Hang Xu, Zhenguo Li, Chunjing Xu, Yanwei Fu. CVPR 2022 <a href="https://jawang19.github.io/manitrans/index.html" project="" page="">Project</a> 
+* ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation. Jianan Wang, Guansong Lu, Hang Xu, Zhenguo Li, Chunjing Xu, Yanwei Fu. CVPR 2022 (Oral Paper) <a href="https://jawang19.github.io/manitrans/index.html" project="" page="">Project</a> 
 
 <iframe width="300" height="160" src="https://www.youtube.com/embed/nctTk-W7iHg" title="ManiTrans: Entity Level Text Guided Image Manipulation via Token Wise Semantic Alignment | CVPR 2022" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
