@@ -6,6 +6,28 @@ Note that: some video demos are from Youtube.
 
 ## 2025
 
+* A Neural Representation Framework with LLM-Driven Spatial Reasoning for Open-Vocabulary 3D Visual Grounding. Zhenyang Liu, Sixiao Zheng, Siyu Chen, Cairong Zhao, Longfei Liang, Xiangyang Xue, Yanwei Fu. ACM MM 2025
+
+* Ali-UI: Enhancing Complex Vision-Language Navigation with Alignment of Unified Map and Instruction Parsing. Shanshan Li, Jiawei Hou, Da Huang, Yanwei Fu, Xiangyang Xue. ACM MM 2025
+
+* Disentangle Identity, Cooperate Emotion: Correlation-Aware Emotional Talking Portrait Generation. Weipeng Tan, Chuming Lin, Chengming Xu, FeiFan Xu, Xiaobin Hu, Xiaozhong Ji, Junwei Zhu, Chengjie Wang, Yanwei Fu. ACM MM 2025
+
+* StrandDesigner: Towards Practical Strand Generation with Sketch Guidance. Na Zhang, Moran Li, Chengming Xu, Han Feng, Xiaobin Hu, Jiangning Zhang, Weijian Cao, Chengjie Wang, Yanwei Fu. ACM MM 2025
+
+* TransSoft: The Low-Cost, Adaptable, and Radial Reconfigurable Soft Hand for Diverse Object Grasping. Yongchong Gu*, Haitao Lin, Yanwei Fu. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). 2025.
+
+* Sequential Multi-Object Grasping with One Dexterous Hand. Sicheng He, Zeyu Shangguan, Kuanning Wang, Yongchong Gu, Yuqian Fu, Yanwei Fu, Daniel Seita.  IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2025
+
+* RAG-6DPose: Retrieval-Augmented 6D Pose Estimation via Leveraging CAD as Knowledge Base. Kuanning Wang, Yuqian Fu, Tianyu Wang, Yanwei Fu, Longfei Liang, Yu-Gang Jiang, Xiangyang Xue.  2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
+
+* Spatial-Temporal Aware Visuomotor Diffusion Policy Learning. Zhenyang Liu, Yikai Wang, Kuanning Wang, Longfei Liang, Xiangyang Xue, Yanwei Fu. ICCV 2025
+
+* Online Dense Point Tracking with Streaming Memory. Qiaole Dong, Yanwei Fu. ICCV 2025
+
+* Diffusion-Based Imaginative Coordination for Bimanual Manipulation. huilin xu, Jian Ding, Jiakun Xu, Ruixiang Wang, Jun Chen, Jinjie Mai, Yanwei Fu, Bernard Ghanem, Feng Xu, Mohamed Elhoseiny. ICCV 2025
+
+* ObjectRelator: Enabling Cross-View Object Relation Understanding Across Ego-Centric and Exo-Centric Perspectives. Yuqian Fu, Runze Wang, Bin Ren, Guolei Sun, Biao Gong, Yanwei Fu, Danda Pani Paudel, Xuanjing Huang, Luc Van Gool. ICCV 2025
+
 * VividPose: Advancing Stable Video Diffusion for Realistic Human Image Animation. Qilin Wang, Zhengkai Jiang, Chengming Xu, Jiangning Zhang, Yabiao Wang, Xinyi Zhang, Yun Cao, Weijian Cao, Chengjie Wang, Yanwei Fu. ICME 2025 (Oral paper)
 
 * UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control, Kaizhen Zhu, Mokai Pan, Yuexin Ma, Yanwei Fu, Jingyi Yu, Jingya Wang, Ye Shi. ICML 2025 Spotlight. 
