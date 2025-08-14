@@ -6,6 +6,10 @@ Note that: some video demos are from Youtube.
 
 ## 2025
 
+* MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset. Jianxiong Gao, Yanwei Fu, Yuqian Fu, Yun Wang, Xuelin Qian, Jianfeng Feng, IEEE TPAMI 2025
+
+* Uni3C: Unifying Precisely 3D-Enhanced Camera and Human Motion Controls for Video Generation. Chenjie Cao, Jingkai Zhou, Shikai Li, Jingyun Liang, Chaohui Yu, Fan Wang, Xiangyang Xue, Yanwei Fu, ACM Siggraph Asia 2025
+
 * A Neural Representation Framework with LLM-Driven Spatial Reasoning for Open-Vocabulary 3D Visual Grounding. Zhenyang Liu, Sixiao Zheng, Siyu Chen, Cairong Zhao, Longfei Liang, Xiangyang Xue, Yanwei Fu. ACM MM 2025
 
 * Ali-UI: Enhancing Complex Vision-Language Navigation with Alignment of Unified Map and Instruction Parsing. Shanshan Li, Jiawei Hou, Da Huang, Yanwei Fu, Xiangyang Xue. ACM MM 2025
