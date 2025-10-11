@@ -6,6 +6,14 @@ Note that: some video demos are from Youtube.
 
 ## 2025
 
+* Towards Reliable and Holistic Visual In-Context Learning Prompt Selection. Wenxiao Wu, Jing-Hao Xue, Chengming Xu, Chen Liu, Xinwei Sun, Changxin Gao, Nong Sang, Yanwei Fu. NIPS 2025
+
+* Retrieval-Guided Compositional Image Generation for Cross-Domain Few-Shot Object Detection. Yu Li, Xingyu Qiu, Yuqian Fu, Jie Chen, Tianwen Qian, Xu Zheng, Danda Pani Paudel, Yanwei Fu, Xuanjing Huang, Luc Van Gool, Yu-Gang Jiang. NIPS 2025
+
+* PPMStereo: Pick-and-Play Memory Construction for Consistent Dynamic Stereo Matching. Yun Wang, Qiaole Dong, Yongjian Zhang, Tin Lun Lam, Yanwei Fu, Dapeng Wu, Junjie Hu. NIPS 2025
+
+* TP-MDDN: Task-Preferenced Multi-Demand-Driven Navigation with Autonomous Decision-Making. Shanshan Li, Da Huang, Yu He, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. NIPS 2025
+
 * MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset. Jianxiong Gao, Yanwei Fu, Yuqian Fu, Yun Wang, Xuelin Qian, Jianfeng Feng, IEEE TPAMI 2025
 
 * Image-Text-Image Knowledge Transferring for Lifelong Person Re-Identification with Hybrid Clothing States. Qizao Wang, Xuelin Qian, Bin Li, Yanwei Fu, Xiangyang Xue. IEEE TIP 2025
@@ -59,8 +67,6 @@ Note that: some video demos are from Youtube.
 * CustAny: Customizing Anything from A Single Example. Lingjie Kong, Kai WU, Chengming Xu, Xiaobin Hu, Wenhui Han, Jinlong Peng, Donghao Luo, Mengtian Li, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2025 (Oral paper）
 
 * HOP: Heterogeneous Topology-based Multimodal Entanglement for Co-Speech Gesture Generation. Hongye Cheng, Tianyu Wang, Guangsi Shi, Zexing Zhao, Yanwei Fu. CVPR 2025
-
-* You Only Estimate Once: Unified, One-stage, Real-Time  Category-level Articulated Object 6D Pose Estimation for Robotic Grasping. Jingshun Huang, Haitao Lin, Tianyu Wang, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2025
 
 * You Only Estimate Once: Unified, One-stage, Real-Time  Category-level Articulated Object 6D Pose Estimation for Robotic Grasping. Jingshun Huang, Haitao Lin, Tianyu Wang, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2025
 
