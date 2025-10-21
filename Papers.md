@@ -82,7 +82,8 @@ Note that: some video demos are from Youtube.
 
 ## 2024
 
-* Repositioning the Subject within Image, Yikai Wang, Chenjie Cao, Ke Fan, Qiaole Dong, Yifan Li, Xiangyang Xue, Yanwei Fu. TMLR 2024: dataset, and models are released. Please google it.
+* Repositioning the Subject within Image, Yikai Wang, Chenjie Cao, Ke Fan, Qiaole Dong, Yifan Li, Xiangyang Xue, Yanwei Fu. TMLR 2024: dataset, and models are released. Please google it. (This paper is awarded a (Journal-to-Conference) J2C Certification! So, basically, this is equivalent to an ICLR/ICML/NeuIPS paper.
+(J2C Certification. Awarded to publications based on responses by the AE and reviewers, to the question of whether the work would be appropriate for the joint NeurIPS/ICLR/ICML Journal-to-Conference Track. Receiving this selective certification (or the Outstanding/Featured Certifications) enables an opportunity to present in this track at one of these participating conferences. See the track’s website for details and the complete list of eligibility criteria. https://jmlr.org/tmlr/editorial-policies.html#certifications. https://jmlr.org/tmlr/editorial-policies.html#certifications )
 
 * LEA: Learning Latent Embedding Alignment Model for fMRI Decoding and Encoding,  Xuelin Qian, Yikai Wang, Xinwei Sun, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. TMLR 2024, dataset, and models are released. Please google it.
 
