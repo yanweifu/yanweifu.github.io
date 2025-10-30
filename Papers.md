@@ -85,7 +85,7 @@ Note that: some video demos are from Youtube.
 
 * You Only Estimate Once: Unified, One-stage, Real-Time  Category-level Articulated Object 6D Pose Estimation for Robotic Grasping. Jingshun Huang, Haitao Lin, Tianyu Wang, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2025
 
-**Brain: **
+**Brain:**
 
 * MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset. Jianxiong Gao, Yanwei Fu, Yuqian Fu, Yun Wang, Xuelin Qian, Jianfeng Feng, IEEE TPAMI 2025
 
