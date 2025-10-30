@@ -6,43 +6,26 @@ Note that: some video demos are from Youtube.
 
 ## 2025
 
+**Vision and Machine Learning:**
+
 * Towards Reliable and Holistic Visual In-Context Learning Prompt Selection. Wenxiao Wu, Jing-Hao Xue, Chengming Xu, Chen Liu, Xinwei Sun, Changxin Gao, Nong Sang, Yanwei Fu. NIPS 2025
 
 * Retrieval-Guided Compositional Image Generation for Cross-Domain Few-Shot Object Detection. Yu Li, Xingyu Qiu, Yuqian Fu, Jie Chen, Tianwen Qian, Xu Zheng, Danda Pani Paudel, Yanwei Fu, Xuanjing Huang, Luc Van Gool, Yu-Gang Jiang. NIPS 2025
 
 * PPMStereo: Pick-and-Play Memory Construction for Consistent Dynamic Stereo Matching. Yun Wang, Qiaole Dong, Yongjian Zhang, Tin Lun Lam, Yanwei Fu, Dapeng Wu, Junjie Hu. NIPS 2025
 
-* TP-MDDN: Task-Preferenced Multi-Demand-Driven Navigation with Autonomous Decision-Making. Shanshan Li, Da Huang, Yu He, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. NIPS 2025
-
-* MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset. Jianxiong Gao, Yanwei Fu, Yuqian Fu, Yun Wang, Xuelin Qian, Jianfeng Feng, IEEE TPAMI 2025
-
 * Image-Text-Image Knowledge Transferring for Lifelong Person Re-Identification with Hybrid Clothing States. Qizao Wang, Xuelin Qian, Bin Li, Yanwei Fu, Xiangyang Xue. IEEE TIP 2025
 
 * Uni3C: Unifying Precisely 3D-Enhanced Camera and Human Motion Controls for Video Generation. Chenjie Cao, Jingkai Zhou, Shikai Li, Jingyun Liang, Chaohui Yu, Fan Wang, Xiangyang Xue, Yanwei Fu, ACM Siggraph Asia 2025
 
-* A Neural Representation Framework with LLM-Driven Spatial Reasoning for Open-Vocabulary 3D Visual Grounding. Zhenyang Liu, Sixiao Zheng, Siyu Chen, Cairong Zhao, Longfei Liang, Xiangyang Xue, Yanwei Fu. ACM MM 2025
-
-* Ali-UI: Enhancing Complex Vision-Language Navigation with Alignment of Unified Map and Instruction Parsing. Shanshan Li, Jiawei Hou, Da Huang, Yanwei Fu, Xiangyang Xue. ACM MM 2025
-
-* Disentangle Identity, Cooperate Emotion: Correlation-Aware Emotional Talking Portrait Generation. Weipeng Tan, Chuming Lin, Chengming Xu, FeiFan Xu, Xiaobin Hu, Xiaozhong Ji, Junwei Zhu, Chengjie Wang, Yanwei Fu. ACM MM 2025
 
 * StrandDesigner: Towards Practical Strand Generation with Sketch Guidance. Na Zhang, Moran Li, Chengming Xu, Han Feng, Xiaobin Hu, Jiangning Zhang, Weijian Cao, Chengjie Wang, Yanwei Fu. ACM MM 2025
-
-* TransSoft: The Low-Cost, Adaptable, and Radial Reconfigurable Soft Hand for Diverse Object Grasping. Yongchong Gu*, Haitao Lin, Yanwei Fu. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). 2025.
-
-* Sequential Multi-Object Grasping with One Dexterous Hand. Sicheng He, Zeyu Shangguan, Kuanning Wang, Yongchong Gu, Yuqian Fu, Yanwei Fu, Daniel Seita.  IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2025
-
-* RAG-6DPose: Retrieval-Augmented 6D Pose Estimation via Leveraging CAD as Knowledge Base. Kuanning Wang, Yuqian Fu, Tianyu Wang, Yanwei Fu, Longfei Liang, Yu-Gang Jiang, Xiangyang Xue.  2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
 
 * Spatial-Temporal Aware Visuomotor Diffusion Policy Learning. Zhenyang Liu, Yikai Wang, Kuanning Wang, Longfei Liang, Xiangyang Xue, Yanwei Fu. ICCV 2025
 
 * Online Dense Point Tracking with Streaming Memory. Qiaole Dong, Yanwei Fu. ICCV 2025
 
-* Diffusion-Based Imaginative Coordination for Bimanual Manipulation. huilin xu, Jian Ding, Jiakun Xu, Ruixiang Wang, Jun Chen, Jinjie Mai, Yanwei Fu, Bernard Ghanem, Feng Xu, Mohamed Elhoseiny. ICCV 2025
-
 * ObjectRelator: Enabling Cross-View Object Relation Understanding Across Ego-Centric and Exo-Centric Perspectives. Yuqian Fu, Runze Wang, Bin Ren, Guolei Sun, Biao Gong, Yanwei Fu, Danda Pani Paudel, Xuanjing Huang, Luc Van Gool. ICCV 2025
-
-* VividPose: Advancing Stable Video Diffusion for Realistic Human Image Animation. Qilin Wang, Zhengkai Jiang, Chengming Xu, Jiangning Zhang, Yabiao Wang, Xinyi Zhang, Yun Cao, Weijian Cao, Chengjie Wang, Yanwei Fu. ICME 2025 (Oral paper)
 
 * UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control, Kaizhen Zhu, Mokai Pan, Yuexin Ma, Yanwei Fu, Jingyi Yu, Jingya Wang, Ye Shi. ICML 2025 Spotlight. 
 
@@ -52,11 +35,7 @@ Note that: some video demos are from Youtube.
 
 * MagicFace: Slot-driven High-fidelity One-shot Facial Appearance Editing. Qilin Wang, Qilin Wang, Jiangning Zhang, Chengming Xu, Weijian Cao, and Yanwei Fu. IEEE Signal Processing Letters 2025 
 
-* CAP-Net: A Unified Network for 6D Pose and Size Estimation of Categorical Articulated Parts from a Single RGB-D Image. Jingshun Huang, Haitao Lin, Tianyu Wang, Xiangyang Xue, Yi Zhu, Yanwei Fu. CVPR 2025 Highlight paper
-
 * EDEN: Enhanced Diffusion for High-quality Large-motion Video Frame Interpolation, Zihao Zhang, Haoran Chen, Haoyu Zhao, Guansong Lu, Yanwei Fu, Hang Xu, Zuxuan Wu. CVPR 2025
-
-* ReasonGrounder: LVLM-Guided Hierarchical Feature Splatting for Open-Vocabulary 3D Visual Grounding and Reasoning. Zhenyang Liu, Yikai Wang, Sixiao Zheng, Tongying Pan, Longfei Liang, Yanwei Fu, Xiangyang Xue. CVPR 2025 spotlight
 
 * MVGenMaster: Scaling Multi-View Generation from Any Image via 3D Priors Enhanced Diffusion Model. Chenjie Cao, Chaohui Yu, Shang Liu, Fan Wang, Xiangyang Xue, Yanwei Fu. CVPR 2025
 
@@ -65,11 +44,7 @@ Note that: some video demos are from Youtube.
 * Concept Replacer: Replacing Sensitive Concepts in Diffusion Models via Precision Localization. Lingyun Zhang, Yu Xie, Yanwei Fu, Ping Chen. CVPR 2025
 
 * CustAny: Customizing Anything from A Single Example. Lingjie Kong, Kai WU, Chengming Xu, Xiaobin Hu, Wenhui Han, Jinlong Peng, Donghao Luo, Mengtian Li, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2025 (Oral paper）
-
-* HOP: Heterogeneous Topology-based Multimodal Entanglement for Co-Speech Gesture Generation. Hongye Cheng, Tianyu Wang, Guangsi Shi, Zexing Zhao, Yanwei Fu. CVPR 2025
-
-* You Only Estimate Once: Unified, One-stage, Real-Time  Category-level Articulated Object 6D Pose Estimation for Robotic Grasping. Jingshun Huang, Haitao Lin, Tianyu Wang, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2025
-
+ 
 * MagicFace: Slot-driven High-fidelity One-shot Facial Appearance Editing. QiLin Wang, Chengming Xu, et al.  IEEE Signal Processing Letters 2025
 
 * Adaptive Pruning of Pretrained Transformer via Differential Inclusions. Yizhuo Ding, Ke Fan, Yikai Wang, Xinwei Sun, Yanwei Fu. ICLR 2025
@@ -80,12 +55,52 @@ Note that: some video demos are from Youtube.
 
 * A New Formulation of Lipschitz Constrained With Functional Gradient Learning for GANs. Chang Wan, Ke Fan, Xinwei Sun, Yanwei Fu, Minglu Li, Yunliang Jiang, Zhonglong Zheng. Machine Learning, 2025
 
+
+
+**Robotics:**
+
+* TP-MDDN: Task-Preferenced Multi-Demand-Driven Navigation with Autonomous Decision-Making. Shanshan Li, Da Huang, Yu He, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. NIPS 2025
+
+* A Neural Representation Framework with LLM-Driven Spatial Reasoning for Open-Vocabulary 3D Visual Grounding. Zhenyang Liu, Sixiao Zheng, Siyu Chen, Cairong Zhao, Longfei Liang, Xiangyang Xue, Yanwei Fu. ACM MM 2025
+
+* Ali-UI: Enhancing Complex Vision-Language Navigation with Alignment of Unified Map and Instruction Parsing. Shanshan Li, Jiawei Hou, Da Huang, Yanwei Fu, Xiangyang Xue. ACM MM 2025
+
+* Disentangle Identity, Cooperate Emotion: Correlation-Aware Emotional Talking Portrait Generation. Weipeng Tan, Chuming Lin, Chengming Xu, FeiFan Xu, Xiaobin Hu, Xiaozhong Ji, Junwei Zhu, Chengjie Wang, Yanwei Fu. ACM MM 2025
+
+* TransSoft: The Low-Cost, Adaptable, and Radial Reconfigurable Soft Hand for Diverse Object Grasping. Yongchong Gu*, Haitao Lin, Yanwei Fu. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). 2025.
+
+* Sequential Multi-Object Grasping with One Dexterous Hand. Sicheng He, Zeyu Shangguan, Kuanning Wang, Yongchong Gu, Yuqian Fu, Yanwei Fu, Daniel Seita.  IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2025
+
+* RAG-6DPose: Retrieval-Augmented 6D Pose Estimation via Leveraging CAD as Knowledge Base. Kuanning Wang, Yuqian Fu, Tianyu Wang, Yanwei Fu, Longfei Liang, Yu-Gang Jiang, Xiangyang Xue.  2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
+
+* Diffusion-Based Imaginative Coordination for Bimanual Manipulation. huilin xu, Jian Ding, Jiakun Xu, Ruixiang Wang, Jun Chen, Jinjie Mai, Yanwei Fu, Bernard Ghanem, Feng Xu, Mohamed Elhoseiny. ICCV 2025
+
+* VividPose: Advancing Stable Video Diffusion for Realistic Human Image Animation. Qilin Wang, Zhengkai Jiang, Chengming Xu, Jiangning Zhang, Yabiao Wang, Xinyi Zhang, Yun Cao, Weijian Cao, Chengjie Wang, Yanwei Fu. ICME 2025 (Oral paper)
+
+* CAP-Net: A Unified Network for 6D Pose and Size Estimation of Categorical Articulated Parts from a Single RGB-D Image. Jingshun Huang, Haitao Lin, Tianyu Wang, Xiangyang Xue, Yi Zhu, Yanwei Fu. CVPR 2025 Highlight paper
+
+* ReasonGrounder: LVLM-Guided Hierarchical Feature Splatting for Open-Vocabulary 3D Visual Grounding and Reasoning. Zhenyang Liu, Yikai Wang, Sixiao Zheng, Tongying Pan, Longfei Liang, Yanwei Fu, Xiangyang Xue. CVPR 2025 spotlight
+
+* HOP: Heterogeneous Topology-based Multimodal Entanglement for Co-Speech Gesture Generation. Hongye Cheng, Tianyu Wang, Guangsi Shi, Zexing Zhao, Yanwei Fu. CVPR 2025
+
+* You Only Estimate Once: Unified, One-stage, Real-Time  Category-level Articulated Object 6D Pose Estimation for Robotic Grasping. Jingshun Huang, Haitao Lin, Tianyu Wang, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2025
+
+**Brain: 
+**
+* MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset. Jianxiong Gao, Yanwei Fu, Yuqian Fu, Yun Wang, Xuelin Qian, Jianfeng Feng, IEEE TPAMI 2025
+
+* CineBrain: A Large-Scale Multi-Modal Brain Dataset During Naturalistic Audiovisual Narrative Processing.  Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, Yanwei Fu. Arxiv 2025 https://arxiv.org/abs/2503.06940 (It's a nice dataset)
+
+* DecoFuse: Decomposing and Fusing the" What"," Where", and" How" for Brain-Inspired fMRI-to-Video Decoding.  Chong Li, Jingyang Huo, Weikang Gong, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. Arxiv 2025 https://arxiv.org/pdf/2504.00432
+
+* LEA: Learning Latent Embedding Alignment Model for fMRI Decoding and Encoding,  Xuelin Qian, Yikai Wang, Xinwei Sun, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. TMLR 2025, dataset, and models are released. 
+
 ## 2024
 
 * Repositioning the Subject within Image, Yikai Wang, Chenjie Cao, Ke Fan, Qiaole Dong, Yifan Li, Xiangyang Xue, Yanwei Fu. TMLR 2024: dataset, and models are released. Please google it. (This paper is awarded a (Journal-to-Conference) J2C Certification! So, basically, this is equivalent to an ICLR/ICML/NeuIPS paper.
-(J2C Certification. Awarded to publications based on responses by the AE and reviewers, to the question of whether the work would be appropriate for the joint NeurIPS/ICLR/ICML Journal-to-Conference Track. Receiving this selective certification (or the Outstanding/Featured Certifications) enables an opportunity to present in this track at one of these participating conferences. See the track’s website for details and the complete list of eligibility criteria. https://jmlr.org/tmlr/editorial-policies.html#certifications. https://jmlr.org/tmlr/editorial-policies.html#certifications )
+(*J2C Certification. Awarded to publications based on responses by the AE and reviewers, to the question of whether the work would be appropriate for the joint NeurIPS/ICLR/ICML Journal-to-Conference Track. Receiving this selective certification (or the Outstanding/Featured Certifications) enables an opportunity to present in this track at one of these participating conferences. See the track’s website for details and the complete list of eligibility criteria. https://jmlr.org/tmlr/editorial-policies.html#certifications. https://jmlr.org/tmlr/editorial-policies.html#certifications *)
 
-* LEA: Learning Latent Embedding Alignment Model for fMRI Decoding and Encoding,  Xuelin Qian, Yikai Wang, Xinwei Sun, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. TMLR 2024, dataset, and models are released. Please google it.
+
 
 * A New Formulation of Lipschitz Constrained With Functional Gradient Learning for GANs. Chang Wan, Ke Fan, Xinwei Sun, Yanwei Fu, Minglu Li, Yunliang Jiang, Zhonglong Zheng. Machine Learning. 2024
 
