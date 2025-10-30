@@ -85,8 +85,8 @@ Note that: some video demos are from Youtube.
 
 * You Only Estimate Once: Unified, One-stage, Real-Time  Category-level Articulated Object 6D Pose Estimation for Robotic Grasping. Jingshun Huang, Haitao Lin, Tianyu Wang, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2025
 
-**Brain: 
-**
+**Brain: **
+
 * MinD-3D++: Advancing fMRI-Based 3D Reconstruction with High-Quality Textured Mesh Generation and a Comprehensive Dataset. Jianxiong Gao, Yanwei Fu, Yuqian Fu, Yun Wang, Xuelin Qian, Jianfeng Feng, IEEE TPAMI 2025
 
 * CineBrain: A Large-Scale Multi-Modal Brain Dataset During Naturalistic Audiovisual Narrative Processing.  Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, Yanwei Fu. Arxiv 2025 https://arxiv.org/abs/2503.06940 (It's a nice dataset)
