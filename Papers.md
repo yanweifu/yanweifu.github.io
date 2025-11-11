@@ -8,6 +8,12 @@ Note that: some video demos are from Youtube.
 
 **Vision and Machine Learning:**
 
+* SwiftVideo: A Unified Framework for Few-Step Video Generation through Trajectory-Distribution Alignment. Yanxiao Sun, Jiafu Wu, Yun Cao, Chengming Xu, Yabiao Wang, Weijian Cao, Donghao Luo, Chengjie Wang, Yanwei Fu. AAAI 2026
+
+* Reasoning or Memorization? Unreliable Results of Reinforcement Learning Due to Data Contamination. Mingqi Wu, Zhihao Zhang, Qiaole Dong, Zhiheng Xi, Jun Zhao, Senjie Jin, Xiaoran Fan, Yuhao Zhou, Huijie Lv, Ming Zhang, Yanwei Fu, Qin Liu, Songyang Zhang, Qi Zhang. AAAI 2026
+
+* One-Step Generative Policies with Q-Learning: A Reformulation of MeanFlow. Zeyuan Wang, Da Li, Yulin Chen, Ye Shi, Liang Bai, Tianyuan Yu, Yanwei Fu. AAAI 2026
+
 * Towards Reliable and Holistic Visual In-Context Learning Prompt Selection. Wenxiao Wu, Jing-Hao Xue, Chengming Xu, Chen Liu, Xinwei Sun, Changxin Gao, Nong Sang, Yanwei Fu. NIPS 2025
 
 * Retrieval-Guided Compositional Image Generation for Cross-Domain Few-Shot Object Detection. Yu Li, Xingyu Qiu, Yuqian Fu, Jie Chen, Tianwen Qian, Xu Zheng, Danda Pani Paudel, Yanwei Fu, Xuanjing Huang, Luc Van Gool, Yu-Gang Jiang. NIPS 2025
