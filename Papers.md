@@ -214,7 +214,11 @@ Note that: some video demos are from Youtube.
 
 *  Specialized Re-Ranking: A Novel Retrieval-Verification Framework for Cloth Changing Person Re-Identification Renjie Zhang; Yu Fang; Huaxin Song; Fangbin Wan; Yanwei Fu; Hirokazu Kato; Yang Wu. Pattern Recognition (Full Length Article), 2023. 
 
+* 基于少量图像的三维重建综述. 于航,  付彦伟,  姜柏言,  薛向阳. 智能科学与技术学报 2023
+
 ## 2022
+
+
 
 * Self-supervised Amodal Video Object Segmentation. Jian Yao, Yuxin Hong, Chiyu Wang, Tianjun Xiao, Tong He, Yanwei Fu, Francesco Locatello, David Wipf, Zheng Zhang. NIPS 2022 
 
