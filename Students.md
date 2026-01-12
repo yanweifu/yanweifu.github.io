@@ -24,8 +24,75 @@ Xingkui Wei: 上海市优秀毕业生
 Chen Liu: 上海市优秀毕业生
 Wenxuan Wang: 上海市优秀毕业生
 
+## Current Postdoc
 
-## Graduate Students
+汪昀 （复旦博士）
+徐宾霞 （UCL 博士）
+
+## Current PhD Students
+董巧乐
+樊可
+侯佳伟
+黄溪杰
+丁一倬
+霍婧阳
+高剑雄
+顾颂恩
+吴昱铮
+曲婉莹
+刘艺畅
+
+
+上海创智学院: 
+王天宇
+顾永翀（河套）
+黄敬顺
+张晋瑜
+李一帆
+刘振阳
+蔡羽诺
+谢鸣
+朱炳文
+叶航见
+凌宇韬
+郑思晓
+高雅晨
+何方
+
+王泽源（国科大）
+
+## Current Master Students
+
+王宽宁
+喻俊秋
+耿佳薇
+林思羽
+邱宸豪
+裘星宇
+南书峰
+
+陈颂若
+鲍重源
+龚跃虎
+霍畅
+何俊懿
+张娜
+曾成杰
+李宇
+谭伟鹏
+孙言笑
+张菡
+范钧杰
+孙钰茹
+潘童颖
+王灏
+崔家源
+
+
+
+
+
+## Graduate Students, Alumni
 * 2022 Master of Science
    
    Yongchong Gu
@@ -81,11 +148,7 @@ Wenxuan Wang: 上海市优秀毕业生
    
 * PhD:
 
-  Yizhuo Ding (PhD 2022, School of Data Science)
-  
-  Qiaole Dong (PhD 2022, School of Data Science)
-  
-  Ke Fan (PhD 2021, School of Data Science)
+  任新麟 （PhD 2021)
   
   Chenjie Cao (PhD 2020, School of Data Science) 
   
@@ -105,15 +168,19 @@ Wenxuan Wang: 上海市优秀毕业生
   
 * PhD in ISTBI:
 
-  Yong Wu (PhD 2021), mainly advised by Dr. Xinwei Sun
+  Wanying Qu (PhD 2024)
   
-  Hanjia Liu (PhD 2021), mainly advised by Dr. Xinwei Sun
+  Yichang Liu (PhD 2024), co-advised with Prof. Shouyan Wang
+
+  Yong Wu (PhD 2021), co-advised by Prof. Xinwei Sun
+  
+  Hanjia Liu (PhD 2021), co-advised by Prof. Xinwei Sun
   
   Jianxing Gao (PhD 2022)
   
   Jingyang Huo (PhD 2022)
   
-  Tianyu Wang (PhD 2022)
+
   
 -------------------------------------------------------------
 
