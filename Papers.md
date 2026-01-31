@@ -4,6 +4,15 @@ layout: default
 Note that: some video demos are from Youtube.
 
 
+## 2026
+
+**Robotics:**
+
+* Why Reinforcement Fine-Tuning Enables MLLMs Preserve Prior Knowledge Better: A Data Perspective. Zhihao Zhang, Qiaole Dong, Qi Zhang, Enyu Zhou, Jun Zhao, Zhiheng Xi, Senjie Jin, Xiaoran Fan, Yuhao Zhou, Mingqi Wu, Yanwei Fu, Tao Ji, Tao Gui, Xuanjing Huang, Kai Chen. ICLR 2026.  
+
+* Spatially Guided Training for Vision-Language-Action Model. Jinhui Ye, Fangjing Wang, Ning Gao, Junqiu Yu, Zhu Yangkun, Bin Wang, Jinyu Zhang, Weiyang Jin, Yanwei Fu, Feng Zheng, Yilun Chen, Jiangmiao Pang. ICLR 2026.  Comments: This work is internVLA, and my student Junqiu Yu, along with collaborators, developed starVLA, which is also an excellent contribution: https://github.com/starVLA/starVLA
+
+
 ## 2025
 
 **Vision and Machine Learning:**
@@ -23,7 +32,6 @@ Note that: some video demos are from Youtube.
 * Image-Text-Image Knowledge Transferring for Lifelong Person Re-Identification with Hybrid Clothing States. Qizao Wang, Xuelin Qian, Bin Li, Yanwei Fu, Xiangyang Xue. IEEE TIP 2025
 
 * Uni3C: Unifying Precisely 3D-Enhanced Camera and Human Motion Controls for Video Generation. Chenjie Cao, Jingkai Zhou, Shikai Li, Jingyun Liang, Chaohui Yu, Fan Wang, Xiangyang Xue, Yanwei Fu, ACM Siggraph Asia 2025
-
 
 * StrandDesigner: Towards Practical Strand Generation with Sketch Guidance. Na Zhang, Moran Li, Chengming Xu, Han Feng, Xiaobin Hu, Jiangning Zhang, Weijian Cao, Chengjie Wang, Yanwei Fu. ACM MM 2025
 
@@ -61,7 +69,8 @@ Note that: some video demos are from Youtube.
 
 * A New Formulation of Lipschitz Constrained With Functional Gradient Learning for GANs. Chang Wan, Ke Fan, Xinwei Sun, Yanwei Fu, Minglu Li, Yunliang Jiang, Zhonglong Zheng. Machine Learning, 2025
 
-
+* Repositioning the Subject within Image, Yikai Wang, Chenjie Cao, Ke Fan, Qiaole Dong, Yifan Li, Xiangyang Xue, Yanwei Fu. TMLR 2025: dataset, and models are released. Please google it. (This paper is awarded a (Journal-to-Conference) J2C Certification! This paper Will be presented in ICML 2026@Seoul.
+(*J2C Certification. Publications awarded this certification, are eligible for presentation in the joint NeurIPS/ICLR/ICML Journal-to-Conference Track. https://jmlr.org/tmlr/editorial-policies.html#certifications. *)
 
 **Robotics:**
 
@@ -102,11 +111,6 @@ Note that: some video demos are from Youtube.
 * LEA: Learning Latent Embedding Alignment Model for fMRI Decoding and Encoding,  Xuelin Qian, Yikai Wang, Xinwei Sun, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. TMLR 2025, dataset, and models are released. 
 
 ## 2024
-
-* Repositioning the Subject within Image, Yikai Wang, Chenjie Cao, Ke Fan, Qiaole Dong, Yifan Li, Xiangyang Xue, Yanwei Fu. TMLR 2024: dataset, and models are released. Please google it. (This paper is awarded a (Journal-to-Conference) J2C Certification! So, basically, this is equivalent to an ICLR/ICML/NeuIPS paper.
-(*J2C Certification. Awarded to publications based on responses by the AE and reviewers, to the question of whether the work would be appropriate for the joint NeurIPS/ICLR/ICML Journal-to-Conference Track. Receiving this selective certification (or the Outstanding/Featured Certifications) enables an opportunity to present in this track at one of these participating conferences. See the track’s website for details and the complete list of eligibility criteria. https://jmlr.org/tmlr/editorial-policies.html#certifications. https://jmlr.org/tmlr/editorial-policies.html#certifications *)
-
-
 
 * A New Formulation of Lipschitz Constrained With Functional Gradient Learning for GANs. Chang Wan, Ke Fan, Xinwei Sun, Yanwei Fu, Minglu Li, Yunliang Jiang, Zhonglong Zheng. Machine Learning. 2024
 
