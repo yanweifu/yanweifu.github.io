@@ -6,11 +6,22 @@ Note that: some video demos are from Youtube.
 
 ## 2026
 
-**Robotics:**
+**Vision and Machine Learning:**
 
 * Why Reinforcement Fine-Tuning Enables MLLMs Preserve Prior Knowledge Better: A Data Perspective. Zhihao Zhang, Qiaole Dong, Qi Zhang, Enyu Zhou, Jun Zhao, Zhiheng Xi, Senjie Jin, Xiaoran Fan, Yuhao Zhou, Mingqi Wu, Yanwei Fu, Tao Ji, Tao Gui, Xuanjing Huang, Kai Chen. ICLR 2026.  
 
+
+**Robotics:**
+
+* OCRA: Object-Centric Learning with 3D and Tactile Priors for Human-to-Robot Action Transfer. Kuanning Wang, Ke Fan, Yuqian Fu, Siyu Lin, Hu Luo, Daniel Seita, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2026 
+
+* SCOOP'D: Learning Mixed-Liquid-Solid Scooping via Sim2Real Generative Policy. Kuanning Wang*, Yongchong Gu, Yuqian Fu, Zeyu Shangguan, Sicheng He, Xiangyang Xue, Yanwei Fu, Daniel Seita. ICRA 2026
+
 * Spatially Guided Training for Vision-Language-Action Model. Jinhui Ye, Fangjing Wang, Ning Gao, Junqiu Yu, Zhu Yangkun, Bin Wang, Jinyu Zhang, Weiyang Jin, Yanwei Fu, Feng Zheng, Yilun Chen, Jiangmiao Pang. ICLR 2026.  Comments: This work is internVLA, and my student Junqiu Yu, along with collaborators, developed starVLA, which is also an excellent contribution: https://github.com/starVLA/starVLA
+
+**Brain:**
+
+* Robotic Grasping and Placement Controlled by EEG-Based Hybrid Visual and Motor Imagery. Yichang Liu, Tianyu Wang, Ziyi Ye, Yawei Li, Yanwei Fu, Yu-Gang Jiang, Shouyan Wang. ICRA 2026
 
 
 ## 2025
