@@ -10,6 +10,21 @@ Note that: some video demos are from Youtube.
 
 * Why Reinforcement Fine-Tuning Enables MLLMs Preserve Prior Knowledge Better: A Data Perspective. Zhihao Zhang, Qiaole Dong, Qi Zhang, Enyu Zhou, Jun Zhao, Zhiheng Xi, Senjie Jin, Xiaoran Fan, Yuhao Zhou, Mingqi Wu, Yanwei Fu, Tao Ji, Tao Gui, Xuanjing Huang, Kai Chen. ICLR 2026.  
 
+* MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation. Changli Wu, Haodong Wang, Jiayi Ji, Yutian Yao, Chunsai Du, Jihua Kang, Yanwei Fu, Liujuan Cao. CVPR 2026
+
+* FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing. Xijie Huang, Chengming Xu, Donghao Luo, Xiaobin Hu, Peng Tang, Xu Peng, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2026
+
+* V-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence. Jiancheng Pan, Runze Wang, Tianwen Qian, Mohammad Mahdi, Yanwei Fu, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu. CVPR 2026 (highlight)
+
+* VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control. Sixiao Zheng, Minghao Yin, Wenbo Hu, Xiaoyu Li, Ying Shan, Yanwei Fu. CVPR 2026
+
+* EgoSound: Benchmarking Sound Understanding in Egocentric Videos. Bingwen Zhu, Yuqian Fu, Qiaole Dong, Guolei Sun, Tianwen Qian, Yuzheng Wu, Danda Pani Paudel, Yanwei Fu, Xiangyang Xue. CVPR 2026 (highlight)
+
+* NI-Tex: Non-isometric Image-based Garment Texture Generation.  Hui Shan, Ming Li, Haitao Yang, Kai Zheng, Sizhe Zheng, Yanwei Fu, Xiangru Huang. CVPR 2026 (highlight)
+
+* ReWeaver: Towards Simulation-Ready and Topology-Accurate Garment Reconstruction. Ming Li, Hui Shan, Kai Zheng, Chentao Shen, Siyu Liu, Yanwei Fu, Zhen Chen, Xiangru Huang. CVPR 2026
+
+
 
 **Robotics:**
 
@@ -19,9 +34,18 @@ Note that: some video demos are from Youtube.
 
 * Spatially Guided Training for Vision-Language-Action Model. Jinhui Ye, Fangjing Wang, Ning Gao, Junqiu Yu, Zhu Yangkun, Bin Wang, Jinyu Zhang, Weiyang Jin, Yanwei Fu, Feng Zheng, Yilun Chen, Jiangmiao Pang. ICLR 2026.  Comments: This work is internVLA, and my student Junqiu Yu, along with collaborators, developed starVLA, which is also an excellent contribution: https://github.com/starVLA/starVLA
 
+* ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation. Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, Yanwei Fu. CVPR 2026
+
+
+
+
 **Brain:**
 
 * Robotic Grasping and Placement Controlled by EEG-Based Hybrid Visual and Motor Imagery. Yichang Liu, Tianyu Wang, Ziyi Ye, Yawei Li, Yanwei Fu, Yu-Gang Jiang, Shouyan Wang. ICRA 2026
+
+* Modeling Spatiotemporal Neural Frames for High Resolution Brain Dynamic. Wanying Qu, Jianxiong Gao, Wei Wang, Yanwei Fu. CVPR 2026
+
+* CineBrain: A Large-Scale Multi-Modal Brain Dataset During Naturalistic Audiovisual Narrative Processing. Jianxiong Gao, Yichang Liu, baofeng yang, Jianfeng Feng, Yanwei Fu. CVPR 2026 (Oral)
 
 
 ## 2025
