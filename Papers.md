@@ -8,7 +8,8 @@ Note that: some video demos are from Youtube.
 
 **Vision and Machine Learning:**
 
-* Why Reinforcement Fine-Tuning Enables MLLMs Preserve Prior Knowledge Better: A Data Perspective. Zhihao Zhang, Qiaole Dong, Qi Zhang, Enyu Zhou, Jun Zhao, Zhiheng Xi, Senjie Jin, Xiaoran Fan, Yuhao Zhou, Mingqi Wu, Yanwei Fu, Tao Ji, Tao Gui, Xuanjing Huang, Kai Chen. ICLR 2026.  
+ 
+* VidCRAFT3: Camera, Object, and Lighting Control for Image-to-Video Generation, Sixiao Zheng, Zimian Peng, Yanpeng Zhou, Yi Zhu, Hang Xu, Xiangru Huang, Yanwei Fu. IEEETransactions on Visualization and Computer Graphics (TVCG) 2026
 
 * MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation. Changli Wu, Haodong Wang, Jiayi Ji, Yutian Yao, Chunsai Du, Jihua Kang, Yanwei Fu, Liujuan Cao. CVPR 2026
 
@@ -23,6 +24,8 @@ Note that: some video demos are from Youtube.
 * NI-Tex: Non-isometric Image-based Garment Texture Generation.  Hui Shan, Ming Li, Haitao Yang, Kai Zheng, Sizhe Zheng, Yanwei Fu, Xiangru Huang. CVPR 2026 (highlight)
 
 * ReWeaver: Towards Simulation-Ready and Topology-Accurate Garment Reconstruction. Ming Li, Hui Shan, Kai Zheng, Chentao Shen, Siyu Liu, Yanwei Fu, Zhen Chen, Xiangru Huang. CVPR 2026
+
+* Why Reinforcement Fine-Tuning Enables MLLMs Preserve Prior Knowledge Better: A Data Perspective. Zhihao Zhang, Qiaole Dong, Qi Zhang, Enyu Zhou, Jun Zhao, Zhiheng Xi, Senjie Jin, Xiaoran Fan, Yuhao Zhou, Mingqi Wu, Yanwei Fu, Tao Ji, Tao Gui, Xuanjing Huang, Kai Chen. ICLR 2026. 
 
 
 
