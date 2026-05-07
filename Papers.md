@@ -27,6 +27,12 @@ Note that: some video demos are from Youtube.
 
 * Why Reinforcement Fine-Tuning Enables MLLMs Preserve Prior Knowledge Better: A Data Perspective. Zhihao Zhang, Qiaole Dong, Qi Zhang, Enyu Zhou, Jun Zhao, Zhiheng Xi, Senjie Jin, Xiaoran Fan, Yuhao Zhou, Mingqi Wu, Yanwei Fu, Tao Ji, Tao Gui, Xuanjing Huang, Kai Chen. ICLR 2026. 
 
+* Split Group Knockoffs: Controlling False Discovery Rate in Transformational Group Sparsity. Siqi Chen, Yachen Gao, Yanwei Fu, Xinwei Sun
+ICML 2026 
+
+* Conformal Reliability: A New Evaluation Metric for Conditional Generation. Yachen Gao, Xinwei Sun, Yikai Wang, Ye Shi, Jingya Wang, Jianfeng Feng, Yanwei Fu. ICML 2026 
+
+* VidCRAFT3: Camera, Object, and Lighting Control for Image-to-Video Generation. Sixiao Zheng, Zimian Peng, Yanpeng Zhou, Yi Zhu, Hang Xu, Xiangru Huang, and Yanwei Fu. IEEE TVCG 2026
 
 
 **Robotics:**
@@ -39,7 +45,9 @@ Note that: some video demos are from Youtube.
 
 * ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation. Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, Yanwei Fu. CVPR 2026
 
+* Universal Pose Pretraining for Generalizable Vision-Language-Action Policies. Haitao Lin, Hanyang Yu, Jingshun Huang, He Zhang, Yonggen Ling, Ping Tan, Xiangyang Xue, Yanwei Fu. RSS 2026
 
+* STABLE: Simulation-Ready Tabletop Layout Generation via a Semantics–Physics Dual System. Zhen Luo, Yixuan Yang, Xudong XU, Jinkun Hao, Zhaoyang Lyu, Feng Zheng, Jiangmiao Pang, Yanwei Fu. ICML 2026
 
 
 **Brain:**
@@ -49,6 +57,10 @@ Note that: some video demos are from Youtube.
 * Modeling Spatiotemporal Neural Frames for High Resolution Brain Dynamic. Wanying Qu, Jianxiong Gao, Wei Wang, Yanwei Fu. CVPR 2026
 
 * CineBrain: A Large-Scale Multi-Modal Brain Dataset During Naturalistic Audiovisual Narrative Processing. Jianxiong Gao, Yichang Liu, baofeng yang, Jianfeng Feng, Yanwei Fu. CVPR 2026 (Oral)
+
+* Harnessing Spectrum Video for Subject-Level Few-Shot and Cross-Montage EEG Generalization. Wei Wang, Fang He, Yifan Li, Wanying Qu, Yawei Li, Quanying Liu, Yanwei Fu. ICML 2026
+
+
 
 
 ## 2025
