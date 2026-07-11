@@ -8,6 +8,9 @@ Note that: some video demos are from Youtube.
 
 **Vision and Machine Learning:**
 
+* ATBench: A Diverse and Realistic Trajectory Benchmark for Long-Horizon Agent Safety. Yu Li, Haoyu Luo, Yuejin Xie, Yuqian Fu, Zhonghao Yang, Shuai Shao, Qihan Ren, Wanying Qu, Yanwei Fu, Yujiu Yang, Jing Shao, Dongrui Liu. COLM 2026.
+ 
+* Federated Parameter-Efficient Selective Fine-Tuning for Vision-Language Models via Global-Local Masking. Wentao Gu, XINYANG JIANG, Junyao Gao, Yuhao Xue, Dongsheng Li, Yanwei Fu, Cairong Zhao. ACM Multimedia 2026
  
 * VidCRAFT3: Camera, Object, and Lighting Control for Image-to-Video Generation, Sixiao Zheng, Zimian Peng, Yanpeng Zhou, Yi Zhu, Hang Xu, Xiangru Huang, Yanwei Fu. IEEETransactions on Visualization and Computer Graphics (TVCG) 2026
 
@@ -36,6 +39,8 @@ ICML 2026
 
 
 **Robotics:**
+
+* TriVLA: A Triple-System-Based Unified Vision-Language-Action Model with Episodic World Modeling for General Robot Control. Zhenyang Liu, Yongchong Gu, Sixiao Zheng, Yanwei Fu, Xiangyang Xue, Yu-Gang Jiang. ACM Multimedia 2026
 
 * OCRA: Object-Centric Learning with 3D and Tactile Priors for Human-to-Robot Action Transfer. Kuanning Wang, Ke Fan, Yuqian Fu, Siyu Lin, Hu Luo, Daniel Seita, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2026 
 
