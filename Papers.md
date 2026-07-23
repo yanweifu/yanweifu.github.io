@@ -14,6 +14,8 @@ Note that: some video demos are from Youtube.
  
 * VidCRAFT3: Camera, Object, and Lighting Control for Image-to-Video Generation, Sixiao Zheng, Zimian Peng, Yanpeng Zhou, Yi Zhu, Hang Xu, Xiangru Huang, Yanwei Fu. IEEETransactions on Visualization and Computer Graphics (TVCG) 2026
 
+* A Unified and Fast-Sampling Diffusion Bridge Framework via Stochastic Optimal Control. Mokai Pan; Kaizhen Zhu; Yuexin Ma; Yanwei Fu; Jingyi Yu; Jingya Wang. IEEE TPAMI 2026
+ 
 * MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation. Changli Wu, Haodong Wang, Jiayi Ji, Yutian Yao, Chunsai Du, Jihua Kang, Yanwei Fu, Liujuan Cao. CVPR 2026
 
 * FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing. Xijie Huang, Chengming Xu, Donghao Luo, Xiaobin Hu, Peng Tang, Xu Peng, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2026
@@ -56,6 +58,8 @@ ICML 2026
 
 
 **Brain:**
+
+* Cross-subject fMRI-to-Image with Visual-cortex 2D Representation and Pre-Training. Xuelin Qian; Yun Wang; Yikai Wang; Shijie Zhao; Jianfeng Feng; Yanwei Fu. IEEE JBHI 2026
 
 * Robotic Grasping and Placement Controlled by EEG-Based Hybrid Visual and Motor Imagery. Yichang Liu, Tianyu Wang, Ziyi Ye, Yawei Li, Yanwei Fu, Yu-Gang Jiang, Shouyan Wang. ICRA 2026
 
