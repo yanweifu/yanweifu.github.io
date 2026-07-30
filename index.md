@@ -28,14 +28,15 @@ Learning from multi-modal data—combining images, videos, audio, and sensor sig
 
 * Jan. 2015 -- July 2016, postdoctoral researcher, Disney Research Pittsburgh with <a href="http://cs.brown.edu/%7Els/">Dr. Leon Sigal</a>
 * Sep. 2011 -- Nov. 2014 PhD in Computer Vision, Queen Mary University of London, with Prof. Tao Xiang (Tony) and Prof. Shaogang Gong (Sean)
-* Sep. 2008 -- Jun. 2011 Master in Computer Science, Nanjing University with Prof. Yanwen Guo.
+* Sep. 2008 -- Jun. 2011 Master in Computer Science, Nanjing University.
 
 Please donot contact me via my QMUL email address, which has been suspended.
 
-关于本组招生：大数据学院科学硕士及直博生是统一招生（而不是分配给导师名额）。所以感兴趣我们组的话，可以直接去申请拿到学院的offer，再联系我即可。申请普博或者Oversea students想来我们组做summer intern的话，可以提前联系我。 大家有兴趣联系我们，可以email联系我。
+2026年关于本组招生：我只在复旦大数据学院以及上海创智学院招生，不在其他地方招生。
+大数据学院科学硕士及直博生是统一招生（而不是分配给导师名额）。所以感兴趣我们组的话，可以直接去申请拿到学院的offer，再联系我即可。申请普博或者Oversea students想来我们组做summer intern的话，可以提前联系我。 大家有兴趣联系我们，可以email联系我。
 有兴趣做statistical sparsity的本科同学，可以直接联系孙鑫伟老师，我们可以一起合作。
 
-**注意：本组2025年入学的硕士已经招满，没有名额了。
+**注意：本组2026年入学的硕士已经招满。
 **
 
 # Recent News
