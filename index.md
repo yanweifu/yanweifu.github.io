@@ -41,10 +41,10 @@ Please donot contact me via my QMUL email address, which has been suspended.
 
 # Recent News
 
+* 06/2026  Cinebrain (CVPR26), selected as CVPR2026 Best paper Finalist
 * 05/2026  "TC-GEN: Data-driven Tropical Cyclone Downscaling using Machine Learning-Based High-resolution Weather Model." (JAMES 2024) has been awarded as the top viewed article in Journal of Advanced in Modelling Earth Systems. This paper is collaborated with American Academies --Prof. Kerry Emanuel, and Prof. Noah Diffenbaugh and from Woods Institute of Stanford, and MIT.
 * 05/2025  "A Unified Diffusion Bridge Framework via Stochastic Optimal Control"
 has been selected as the Long Paper Outstanding Paper Award Winner at the DeLTa Workshop, held in conjunction with ICLR 2025.
-* 06/2024  
 * 03/2024 Chenjie Cao passed his PhD Viva, and Dr. Xuelin Qian will join Northwestern Polytechnical University (NWPU) as Associate Professor.
 * 03/2024 I am holding CVPR tutorial from 2022 to 2024. Hopefully, I can get US visa for the trip.
 * 03/2024 I will organize CVPR 2024 object-centric represenation tutorial with Tong He, Tianjun Xiao, and Francesco Locatello. https://object-centric-representation.github.io/object-centric-tutorial-2024/  
