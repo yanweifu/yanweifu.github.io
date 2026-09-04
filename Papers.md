@@ -11,6 +11,8 @@ Note that: some video demos are from Youtube.
 * ATBench: A Diverse and Realistic Trajectory Benchmark for Long-Horizon Agent Safety. Yu Li, Haoyu Luo, Yuejin Xie, Yuqian Fu, Zhonghao Yang, Shuai Shao, Qihan Ren, Wanying Qu, Yanwei Fu, Yujiu Yang, Jing Shao, Dongrui Liu. COLM 2026.
  
 * Federated Parameter-Efficient Selective Fine-Tuning for Vision-Language Models via Global-Local Masking. Wentao Gu, XINYANG JIANG, Junyao Gao, Yuhao Xue, Dongsheng Li, Yanwei Fu, Cairong Zhao. ACM Multimedia 2026
+
+*  Interact3D: Compositional 3D Generation of Interactive Objects. Hui Shan, Keyang Luo, Ming Li, Sizhe Zheng, Yanwei Fu, Zhen Chen, Xiangru Huang. ECCV 2026
  
 * VidCRAFT3: Camera, Object, and Lighting Control for Image-to-Video Generation, Sixiao Zheng, Zimian Peng, Yanpeng Zhou, Yi Zhu, Hang Xu, Xiangru Huang, Yanwei Fu. IEEETransactions on Visualization and Computer Graphics (TVCG) 2026
 
