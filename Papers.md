@@ -8,6 +8,14 @@ Note that: some video demos are from Youtube.
 
 **Vision and Machine Learning:**
 
+* tau0-WM: A Unified Video-Action World Model for Robotic Manipulation. Pengfei Zhou, Shengcong Chen, Di Chen, Jiaxu Wang, Rongjun Jin, Bingwen Zhu, Yike Pan, Songen Gu, Kuanning Wang, Shufeng Nan, Xingyu Qiu, Chenhao Qiu, Pu Yang, Yunuo Cai, Jianxiong Gao, Yifan Li, Yanwei Fu, Xiangyu Yue, Zhi Chen, Jianlan Luo. CoRL 2026
+
+* Schrödinger's Navigator: Imagining an Ensemble of Futures for Zero-Shot Object Navigation. Yu He, Da Huang, Zhenyang Liu, Zixiao Gu, Qiang Sun, Guangnan Ye, Yanwei Fu, Yu-Gang Jiang. CoRL 2026
+
+* LSPR: Init-Anchored Score-Based Multi-Camera Calibration for Indoor Robot Manipulation. Weifan Mao, Tianyu Wang, Yanwei Fu. CoRL 2026
+
+* StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety--Utility Balancing. Zhijie Zheng, Yu Li, Chen Qian, Yuqian Fu, Yanwei Fu, Lu Sheng, Jing Shao, Dongrui Liu. EMNLP 2026
+
 * ATBench: A Diverse and Realistic Trajectory Benchmark for Long-Horizon Agent Safety. Yu Li, Haoyu Luo, Yuejin Xie, Yuqian Fu, Zhonghao Yang, Shuai Shao, Qihan Ren, Wanying Qu, Yanwei Fu, Yujiu Yang, Jing Shao, Dongrui Liu. COLM 2026.
  
 * Federated Parameter-Efficient Selective Fine-Tuning for Vision-Language Models via Global-Local Masking. Wentao Gu, XINYANG JIANG, Junyao Gao, Yuhao Xue, Dongsheng Li, Yanwei Fu, Cairong Zhao. ACM Multimedia 2026
