@@ -42,8 +42,7 @@ Note that: some video demos are from Youtube.
 
 * Why Reinforcement Fine-Tuning Enables MLLMs Preserve Prior Knowledge Better: A Data Perspective. Zhihao Zhang, Qiaole Dong, Qi Zhang, Enyu Zhou, Jun Zhao, Zhiheng Xi, Senjie Jin, Xiaoran Fan, Yuhao Zhou, Mingqi Wu, Yanwei Fu, Tao Ji, Tao Gui, Xuanjing Huang, Kai Chen. ICLR 2026. 
 
-* Split Group Knockoffs: Controlling False Discovery Rate in Transformational Group Sparsity. Siqi Chen, Yachen Gao, Yanwei Fu, Xinwei Sun
-ICML 2026 
+* Split Group Knockoffs: Controlling False Discovery Rate in Transformational Group Sparsity. Siqi Chen, Yachen Gao, Yanwei Fu, Xinwei Sun ICML 2026 
 
 * Conformal Reliability: A New Evaluation Metric for Conditional Generation. Yachen Gao, Xinwei Sun, Yikai Wang, Ye Shi, Jingya Wang, Jianfeng Feng, Yanwei Fu. ICML 2026 
 
@@ -52,7 +51,7 @@ ICML 2026
 
 **Robotics:**
 
-* TriVLA: A Triple-System-Based Unified Vision-Language-Action Model with Episodic World Modeling for General Robot Control. Zhenyang Liu, Yongchong Gu, Sixiao Zheng, Yanwei Fu, Xiangyang Xue, Yu-Gang Jiang. ACM Multimedia 2026
+* TriVLA: A Triple-System-Based Unified Vision-Language-Action Model with Episodic World Modeling for General Robot Control. Zhenyang Liu, Yongchong Gu, Sixiao Zheng, Yanwei Fu, Xiangyang Xue, Yu-Gang Jiang. ACM Multimedia 2026 Oral
 
 * OCRA: Object-Centric Learning with 3D and Tactile Priors for Human-to-Robot Action Transfer. Kuanning Wang, Ke Fan, Yuqian Fu, Siyu Lin, Hu Luo, Daniel Seita, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2026 
 
@@ -62,7 +61,7 @@ ICML 2026
 
 * ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation. Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, Yanwei Fu. CVPR 2026
 
-* Universal Pose Pretraining for Generalizable Vision-Language-Action Policies. Haitao Lin, Hanyang Yu, Jingshun Huang, He Zhang, Yonggen Ling, Ping Tan, Xiangyang Xue, Yanwei Fu. RSS 2026
+* Universal Pose Pretraining for Generalizable Vision-Language-Action Policies. Haitao Lin, Hanyang Yu, Jingshun Huang, He Zhang, Yonggen Ling, Ping Tan, Xiangyang Xue, Yanwei Fu. RSS 2026 (Oral)
 
 * STABLE: Simulation-Ready Tabletop Layout Generation via a Semantics–Physics Dual System. Zhen Luo, Yixuan Yang, Xudong XU, Jinkun Hao, Zhaoyang Lyu, Feng Zheng, Jiangmiao Pang, Yanwei Fu. ICML 2026
 
