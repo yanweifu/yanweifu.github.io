@@ -8,11 +8,15 @@ Note that: some video demos are from Youtube.
 
 **Vision and Machine Learning:**
 
-* tau0-WM: A Unified Video-Action World Model for Robotic Manipulation. Pengfei Zhou, Shengcong Chen, Di Chen, Jiaxu Wang, Rongjun Jin, Bingwen Zhu, Yike Pan, Songen Gu, Kuanning Wang, Shufeng Nan, Xingyu Qiu, Chenhao Qiu, Pu Yang, Yunuo Cai, Jianxiong Gao, Yifan Li, Yanwei Fu, Xiangyu Yue, Zhi Chen, Jianlan Luo. CoRL 2026
+* VTBench: Disentangled and Human-Aligned Evaluation for Image-Based Virtual Try-on. Donghao Luo, Yujie Liang, Caoshuo Li, Xiaobin Hu, Zuxuan Wu, Yanwei Fu. NIPS 2026 Evaluations and Datasets Track 
 
-* Schrödinger's Navigator: Imagining an Ensemble of Futures for Zero-Shot Object Navigation. Yu He, Da Huang, Zhenyang Liu, Zixiao Gu, Qiang Sun, Guangnan Ye, Yanwei Fu, Yu-Gang Jiang. CoRL 2026
+* F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation. Jinyu Zhang, Haitao Lin, Jiashu Hou, Xiangyang Xue, Yanwei Fu. NIPS 2026
 
-* LSPR: Init-Anchored Score-Based Multi-Camera Calibration for Indoor Robot Manipulation. Weifan Mao, Tianyu Wang, Yanwei Fu. CoRL 2026
+* 3D Skew Normal Splatting. Xiangru Wu, Ke Fan, Yanwei Fu. NIPS 2026
+
+* StreamOV: Streaming Omni-Video Understanding via Evidence-Guided Memory and Response Triggering. Ming Xie, Zizheng Huang, Xudong Tan, Chao Wang, Xiangyu Zeng, Wenxiao Wu, Tao Chen, Limin Wang, Yanwei Fu. NIPS 2026
+
+* Conformal Cache: Reliable Proxy-Discrepancy Caching for Fast Generative Inference. Wenxiao Wu, Yachen Gao, Yukang Feng, Chengming Xu, Moran Li, jingyu li, Ming Xie, Xiaobin Hu, Xinwei Sun, Jing-Hao Xue, Nong Sang, Yanwei Fu. NIPS 2026
 
 * StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety--Utility Balancing. Zhijie Zheng, Yu Li, Chen Qian, Yuqian Fu, Yanwei Fu, Lu Sheng, Jing Shao, Dongrui Liu. EMNLP 2026
 
@@ -51,6 +55,12 @@ Note that: some video demos are from Youtube.
 
 **Robotics:**
 
+* tau0-WM: A Unified Video-Action World Model for Robotic Manipulation. Pengfei Zhou, Shengcong Chen, Di Chen, Jiaxu Wang, Rongjun Jin, Bingwen Zhu, Yike Pan, Songen Gu, Kuanning Wang, Shufeng Nan, Xingyu Qiu, Chenhao Qiu, Pu Yang, Yunuo Cai, Jianxiong Gao, Yifan Li, Yanwei Fu, Xiangyu Yue, Zhi Chen, Jianlan Luo. CoRL 2026
+
+* Schrödinger's Navigator: Imagining an Ensemble of Futures for Zero-Shot Object Navigation. Yu He, Da Huang, Zhenyang Liu, Zixiao Gu, Qiang Sun, Guangnan Ye, Yanwei Fu, Yu-Gang Jiang. CoRL 2026
+
+* LSPR: Init-Anchored Score-Based Multi-Camera Calibration for Indoor Robot Manipulation. Weifan Mao, Tianyu Wang, Yanwei Fu. CoRL 2026
+
 * TriVLA: A Triple-System-Based Unified Vision-Language-Action Model with Episodic World Modeling for General Robot Control. Zhenyang Liu, Yongchong Gu, Sixiao Zheng, Yanwei Fu, Xiangyang Xue, Yu-Gang Jiang. ACM Multimedia 2026 Oral
 
 * OCRA: Object-Centric Learning with 3D and Tactile Priors for Human-to-Robot Action Transfer. Kuanning Wang, Ke Fan, Yuqian Fu, Siyu Lin, Hu Luo, Daniel Seita, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2026 
@@ -78,7 +88,7 @@ Note that: some video demos are from Youtube.
 
 * Harnessing Spectrum Video for Subject-Level Few-Shot and Cross-Montage EEG Generalization. Wei Wang, Fang He, Yifan Li, Wanying Qu, Yawei Li, Quanying Liu, Yanwei Fu. ICML 2026
 
-
+* MindShape: Superquadric-Constrained High-Fidelity 3D Reconstruction from fMRI. Xiaoquan Shen, Ming Li, Jianxiong Gao, Jiaxuan Chen, Xiangru Huang, Yanwei Fu, Gang Pan. NIPS 2026
 
 
 ## 2025
