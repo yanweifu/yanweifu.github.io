@@ -1,7 +1,11 @@
 ---
 layout: default
+title: Publications
+intro: Research publications in machine learning, computer vision, robotics, and brain decoding.
 ---
-Note that: some video demos are from Youtube.
+[Selected paper honors](./#honors) · [Google Scholar](https://scholar.google.co.uk/citations?user=Vg54TcsAAAAJ&hl=en) · [DBLP](https://dblp.org/pid/63/9065.html)
+
+Some video demonstrations are hosted on YouTube.
 
 
 ## 2026
@@ -84,7 +88,7 @@ Note that: some video demos are from Youtube.
 
 * Modeling Spatiotemporal Neural Frames for High Resolution Brain Dynamic. Wanying Qu, Jianxiong Gao, Wei Wang, Yanwei Fu. CVPR 2026
 
-* CineBrain: A Large-Scale Multi-Modal Brain Dataset During Naturalistic Audiovisual Narrative Processing. Jianxiong Gao, Yichang Liu, baofeng yang, Jianfeng Feng, Yanwei Fu. CVPR 2026 (Oral)
+* CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation. Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, Yanwei Fu. CVPR 2026 (Oral). <span class="award-tag">Best Paper Award Candidate</span> [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html) · [Project](https://jianxgao.github.io/CineBrain/)
 
 * Harnessing Spectrum Video for Subject-Level Few-Shot and Cross-Montage EEG Generalization. Wei Wang, Fang He, Yifan Li, Wanying Qu, Yawei Li, Quanying Liu, Yanwei Fu. ICML 2026
 
@@ -119,7 +123,7 @@ Note that: some video demos are from Youtube.
 
 * ObjectRelator: Enabling Cross-View Object Relation Understanding Across Ego-Centric and Exo-Centric Perspectives. Yuqian Fu, Runze Wang, Bin Ren, Guolei Sun, Biao Gong, Yanwei Fu, Danda Pani Paudel, Xuanjing Huang, Luc Van Gool. ICCV 2025
 
-* UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control, Kaizhen Zhu, Mokai Pan, Yuexin Ma, Yanwei Fu, Jingyi Yu, Jingya Wang, Ye Shi. ICML 2025 Spotlight. 
+* UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control. Kaizhen Zhu, Mokai Pan, Yuexin Ma, Yanwei Fu, Jingyi Yu, Jingya Wang, Ye Shi. ICML 2025 (Spotlight). <span class="award-tag">Long Paper Outstanding Paper Award · DeLTa Workshop at ICLR 2025</span> [Paper](https://proceedings.mlr.press/v267/zhu25o.html) · [Code](https://github.com/UniDB-SOC/UniDB/)
 
 * Bivariate Causal Discovery with Proxy Variables: Integral Solving and Beyond. Yong Wu, Yanwei Fu, Shouyan Wang, Xinwei Sun. ICML 2025. 
 
@@ -429,7 +433,7 @@ Note that: some video demos are from Youtube.
 
 *  Delving into Data: Effectively Substitute Training for Black-box Attack. Wenxuan Wang, Bangjie Yin, Li Zhang, Yanwei Fu, Shouhong Ding, Jilin Li, Feiyue Huang, Xiangyang Xue CVPR 2021 
 
-*  Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers. Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu Jianfeng Feng, Tao Xiang, Philip Torr, Li Zhang.CVPR2021
+*  Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers. Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao Xiang, Philip Torr, Li Zhang. CVPR 2021. <span class="award-tag">WAIC 2023 Youth Outstanding Paper Award · Recipient: Sixiao Zheng</span>
 
 *  Learning Compositional Representation for 4D Captures with Neural ODE. Boyan Jiang, Xingkui Wei, Yinda Zhang, Xiangyang Xue, Yanwei Fu. CVPR2021 
 
@@ -527,7 +531,7 @@ Note that: some video demos are from Youtube.
 
 * Large-scale Datasets for Going Deeper in Image Understanding. He Zheng, Bo Zhao, Yixin Li, Baoming Yan, Rui Liang, Wenjia Wang, Shipei Zhou, Guosen Lin, Yanwei Fu, Yizhou Wang, Yonggang Wang. IEEE ICME 2019. A dataset paper collaborated with Sinovation Ventures, and Peking University
 
-* AN END-TO-END ARCHITECTURE FOR CLASS-INCREMENTAL OBJECT DETECTION WITH KNOWLEDGE DISTILLATION. Yu Hao, Yanwei Fu, Yu-Gang Jiang, Qi Tian. IEEE ICME. 2019 (Best Paper Award) [<a href="https://github.com/jinyu121/CIOD">codes</a>]
+* An End-to-End Architecture for Class-Incremental Object Detection with Knowledge Distillation. Yu Hao, Yanwei Fu, Yu-Gang Jiang, Qi Tian. IEEE ICME. 2019 <span class="award-tag">Best Paper Award</span> [<a href="https://github.com/jinyu121/CIOD">codes</a>]
 
 * Multi-level Semantic Feature Augmentation for One-shot Learning. Zitian Chen, Yanwei Fu, Yinda Zhang, Yu-Gang Jiang, Xiangyang Xue, and Leonid Sigal. IEEE Transaction on Image Processing (IEEE TIP 2019)
 
@@ -535,7 +539,7 @@ Note that: some video demos are from Youtube.
                 
 * WAVELET U-NET AND THE CHROMATIC ADAPTATION TRANSFORM FOR SINGLE IMAGE DEHAZING. Hao-Hsiang Yang, Yanwei Fu. IEEE ICIP 2019 [<a href="https://github.com/dectrfov/Wavelet-U-net-Dehazing">codes</a>]
                 
-* Image Deformation Meta-Networks for One-Shot Learning. Zitian Chen, Yanwei Fu, Yu-Xiong Wang, Lin Ma, Wei Liu, Martial Hebert. CVPR 2019 (Oral) [<a href="https://github.com/tankche1/IDeMe-Net">codes</a>] （<i>Best Paper Award Finalist</i>）
+* Image Deformation Meta-Networks for One-Shot Learning. Zitian Chen, Yanwei Fu, Yu-Xiong Wang, Lin Ma, Wei Liu, Martial Hebert. CVPR 2019 (Oral) [<a href="https://github.com/tankche1/IDeMe-Net">codes</a>] <span class="award-tag">Best Paper Finalist</span>
 
 * Learning to Generate Posters of Scientific Papers by Probabilistic Graphical Models. Yu-ting Qiang, Yanwei Fu, Yanwei Fu, Xiao Yu, Yanwen Guo, Zhi-Hua Zhou and Leonid Sigal.  Journal of Computer Science and Technology (JCST). 2019
 

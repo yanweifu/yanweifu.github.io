@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Research resources
+intro: Open datasets, code, and project pages from our research.
 ---
 
 

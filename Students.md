@@ -1,7 +1,9 @@
 ---
 layout: default
+title: People
+intro: Students, collaborators, and alumni of our research group.
 ---
-#About the research introduction of our group@SDS-Fudan 
+## Research group at Fudan University
 <iframe src="//player.bilibili.com/player.html?aid=988263237&bvid=BV1Y44y1Q7qz&cid=912345802&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe> 
 
 
@@ -11,7 +13,7 @@ layout: default
 
 
 
-## Honary Awards of Students
+## Student honors
 Undergraduates:
 
 Hangyu Lin: 上海市优秀本科毕业生
@@ -112,13 +114,13 @@ Wenxuan Wang: 上海市优秀毕业生
    Yun He ( co-advised with Prof. Xiangyang Xue)
    
 * 2019 Master of Science
-   Wenhui Han (Master 2019): Tecent Yutu Lab<
+   Wenhui Han (Master 2019): Tencent Youtu Lab
    
    Zuyuan Zhong (Master 2019):  广东省发改委
    
    JianAn Wang (Master 2019): Bytedance
    
-   Xingkui Wei (Master 2019, co-advised with Prof. Xiangyang Xue): Netease, with amazing high salary package
+   Xingkui Wei (Master 2019, co-advised with Prof. Xiangyang Xue): NetEase
    
    Chengrong Wang (Master 2019, co-advised with Prof. Xiangyang Xue): 上海市人社局
    

@@ -1,4 +1,16 @@
 title: Yanwei Fu
-description: School of Data Science, Fudan University.
-google_analytics:
+tagline: Fudan University
+description: Professor at Fudan University. Research in few-shot learning, reliable generative models, 3D vision, embodied intelligence, and brain decoding.
+url: https://yanweifu.github.io
+baseurl: ""
+lang: en
 theme: jekyll-theme-dinky
+plugins:
+  - jekyll-seo-tag
+google_analytics:
+exclude:
+  - new
+  - scripts
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-theme-dinky.gemspec

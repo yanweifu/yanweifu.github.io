@@ -1,57 +1,44 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en' }}">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-{% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#182d43">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
     {% include head-custom.html %}
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
-        
-        <p class="header"><a href="mailto:yanweifu@fudan.edu.cn">yanweifu@fudan.edu.cn</a><br />
-        <a href="mailto:ztwztq2006@gmail.com">ztwztq2006@gmail.com </a><br />
-        </p>
-
-        <!-- <ul>
-          {% if site.show_downloads %}
-            <li class="download"><a class="buttons" href="{{ site.github.zip_url }}">Download ZIP</a></li>
-            <li class="download"><a class="buttons" href="{{ site.github.tar_url }}">Download TAR</a></li>
-          {% endif %}
-          <li><a class="buttons github" href="{{ site.github.repository_url }}">View On GitHub</a></li> -->
-
-        <!-- {% if site.github.is_project_page %}
-          <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %} -->
-        <li class="header"><a  href="./index.html">Home</a></li>
-        <li class="header"><a  href="./Dataset.html">Dataset</a></li>
-        <li class="header"><a  href="./Students.html">Students</a></li>
-        <li class="header"><a  href="./Papers.html">Papers</a></li>
-        <!-- {% if site.github.is_user_page %}
-          <ul>
-            <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
-          </ul>
-        {% endif %} -->
-      </header>
-
-      <section>
-        {{ content }}
-      </section>
-
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  <body class="{% if page.home %}home-page{% else %}content-page{% endif %}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-brand" href="{{ '/' | relative_url }}">Yanwei Fu<span>Fudan University</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="{{ '/' | relative_url }}" {% if page.home %}aria-current="page"{% endif %}>Home</a>
+          <a href="{{ '/#honors' | relative_url }}">Honors</a>
+          <a href="{{ '/Papers.html' | relative_url }}" {% if page.url == '/Papers.html' %}aria-current="page"{% endif %}>Publications</a>
+          <a href="{{ '/Students.html' | relative_url }}" {% if page.url == '/Students.html' %}aria-current="page"{% endif %}>People</a>
+          <a href="{{ '/Dataset.html' | relative_url }}" {% if page.url == '/Dataset.html' %}aria-current="page"{% endif %}>Resources</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" class="main-content" tabindex="-1">
+      {% unless page.home %}
+        <div class="page-heading">
+          <p class="eyebrow">Yanwei Fu · Academic resources</p>
+          <h1>{{ page.title | default: site.title }}</h1>
+          {% if page.intro %}<p class="page-intro">{{ page.intro }}</p>{% endif %}
+        </div>
+      {% endunless %}
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Yanwei Fu <span>·</span> School of Data Science, Fudan University</p>
+        <a href="mailto:yanweifu@fudan.edu.cn">yanweifu@fudan.edu.cn</a>
+        <p class="footer-note">{% if page.home %}Updated October 2026 <span>·</span> {% endif %}<a href="https://github.com/yanweifu/yanweifu.github.io">GitHub Pages</a></p>
+      </div>
+    </footer>
   </body>
 </html>
