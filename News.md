@@ -9,8 +9,8 @@ intro: News and academic activities from the previous homepage, with dates retai
 * 05/2026 [TC-GEN: Data-Driven Tropical Cyclone Downscaling Using Machine Learning-Based High-Resolution Weather Model](https://doi.org/10.1029/2023MS004203), published in the Journal of Advances in Modeling Earth Systems (JAMES) in 2024, received Top Viewed Article recognition. This work was coauthored with **[Kerry Emanuel](https://eaps.mit.edu/people/faculty/kerry-a-emanuel/) (MIT; Member of the U.S. National Academy of Sciences and the American Academy of Arts and Sciences)**, [Noah S. Diffenbaugh](https://profiles.stanford.edu/noah-diffenbaugh) (Stanford), and [Eran Bendavid](https://med.stanford.edu/profiles/eran-bendavid) (Stanford), among other collaborators.
 * 05/2025  "A Unified Diffusion Bridge Framework via Stochastic Optimal Control"
 has been selected as the Long Paper Outstanding Paper Award Winner at the DeLTa Workshop, held in conjunction with ICLR 2025.
+* 06/2024 I served as **CVPR tutorial co-organizer and speaker for three consecutive years (2022–2024)**, giving opening remarks and tutorial talks on [sparse learning (2022)](https://sparse-learning.github.io/), [few-shot learning (2023)](https://fsl-fudan.github.io/), and [object-centric representations (2024)](https://object-centric-representation.github.io/object-centric-tutorial-2024/).
 * 03/2024 Chenjie Cao passed his PhD Viva, and Dr. Xuelin Qian will join Northwestern Polytechnical University (NWPU) as Associate Professor.
-* 03/2024 I am holding CVPR tutorial from 2022 to 2024. Hopefully, I can get US visa for the trip.
 * 03/2024 I will organize CVPR 2024 object-centric represenation tutorial with Tong He, Tianjun Xiao, and Francesco Locatello. https://object-centric-representation.github.io/object-centric-tutorial-2024/  
 * 12/2023  Dr. Yanwei Fu is a full professor of Fudan University, starting from Dec. 2023.
 * 07/2023 1 IROS 2023 paper, and 7 ICCV 2023 papers accepted

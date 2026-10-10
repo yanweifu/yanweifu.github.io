@@ -14,6 +14,7 @@ image: /assets/images/yanwei-fu.png
       Faculty, <a href="https://www.sii.edu.cn/2026/0523/c94a993/page.htm">Shanghai Innovation Institute</a>
     </p>
     <p class="profile-bio">I study how machines learn and generalize from limited data. My research connects few-shot learning and statistical methods with generative models, 3D vision, robotics, and brain decoding.</p>
+    <p class="profile-highlight"><strong>CVPR Tutorial Organizer &amp; Speaker, 2022–2024</strong><br>Three consecutive years · <a href="#tutorials">Topics &amp; talks →</a></p>
     <div class="profile-links">
       <a href="mailto:yanweifu@fudan.edu.cn">Email</a>
       <a href="https://scholar.google.co.uk/citations?user=Vg54TcsAAAAJ&amp;hl=en">Google Scholar</a>
@@ -214,15 +215,45 @@ image: /assets/images/yanwei-fu.png
   </ol>
 </section>
 
+<section id="tutorials" class="home-section tutorials-section" aria-labelledby="tutorials-title">
+  <p class="eyebrow">Three consecutive years</p>
+  <h2 id="tutorials-title">CVPR tutorials · 2022–2024</h2>
+  <p class="tutorials-intro">Co-organizer and speaker for three consecutive years, giving opening remarks and tutorial talks at CVPR 2022, 2023, and 2024.</p>
+  <ol class="publication-list">
+    <li class="publication">
+      <div class="publication-venue">CVPR 2024</div>
+      <div>
+        <h3><a href="https://object-centric-representation.github.io/object-centric-tutorial-2024/">Object-centric Representations in Computer Vision</a></h3>
+        <p><strong>Talk:</strong> More Real-world Applications by Object-centric Representations</p>
+        <div class="publication-links"><a href="https://object-centric-representation.github.io/object-centric-tutorial-2024/">Program, slides &amp; videos ↗</a></div>
+      </div>
+    </li>
+    <li class="publication">
+      <div class="publication-venue">CVPR 2023</div>
+      <div>
+        <h3><a href="https://fsl-fudan.github.io/">Few-shot Learning from Meta-Learning, Statistical Understanding to Applications</a></h3>
+        <p><strong>Talk:</strong> Few-shot Learning by Statistical Methods <span>(with Yikai Wang)</span></p>
+        <div class="publication-links"><a href="https://fsl-fudan.github.io/">Program &amp; slides ↗</a></div>
+      </div>
+    </li>
+    <li class="publication">
+      <div class="publication-venue">CVPR 2022</div>
+      <div>
+        <h3><a href="https://sparse-learning.github.io/">Sparse Learning in Neural Networks and Robust Statistical Analysis</a></h3>
+        <p><strong>Talks:</strong> Introduction; Sparse Learning in Noisy Data Detection <span>(with Yikai Wang)</span></p>
+        <div class="publication-links"><a href="https://sparse-learning.github.io/">Program, slides &amp; videos ↗</a></div>
+      </div>
+    </li>
+  </ol>
+</section>
+
 <section class="home-section academic-columns" aria-label="Academic service and honors">
   <div>
     <h2>Academic service</h2>
     <ul class="compact-list">
       <li><strong>Action Editor</strong><small><a href="https://jmlr.org/tmlr/editorial-board.html">Transactions on Machine Learning Research</a></small></li>
       <li><strong>Area Chair, ICML 2023</strong></li>
-      <li><strong>Tutorial co-organizer, CVPR 2024</strong><small><a href="https://object-centric-representation.github.io/object-centric-tutorial-2024/">Object-Centric Representations</a></small></li>
-      <li><strong>Tutorial co-organizer, CVPR 2023</strong><small><a href="https://fsl-fudan.github.io">Few-Shot Learning</a></small></li>
-      <li><strong>Tutorial co-organizer, CVPR 2022</strong><small><a href="https://sparse-learning.github.io">Sparsity Learning in Neural Networks and Robust Statistical Analysis</a></small></li>
+      <li><strong><a href="#tutorials">CVPR Tutorial Organizer &amp; Speaker</a></strong><small>2022–2024 · Three consecutive years</small></li>
     </ul>
   </div>
   <div id="fellowships">

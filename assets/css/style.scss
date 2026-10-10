@@ -54,6 +54,8 @@ pre { padding: 18px; overflow: auto; }
 .affiliations { font-size: 16px; line-height: 1.7; margin-bottom: 15px; }
 .affiliations a { color: var(--ink); }
 .profile-bio { max-width: 580px; margin-bottom: 18px; }
+.profile-highlight { border-left: 2px solid var(--gold-line); padding-left: 13px; margin-bottom: 19px; color: var(--muted); font-size: 13px; line-height: 1.65; }
+.profile-highlight strong { color: var(--gold); }
 .profile-links { display: flex; flex-wrap: wrap; column-gap: 21px; row-gap: 7px; font-size: 13px; margin: 0; }
 .profile-image { margin: 0; }
 .profile-image img { display: block; width: 270px; height: 230px; object-fit: cover; object-position: 40% center; border-radius: 3px; }
@@ -92,6 +94,9 @@ pre { padding: 18px; overflow: auto; }
 .publication h3 a { color: var(--ink); }
 .publication p { color: var(--muted); font-size: 13px; margin: 0 0 8px; line-height: 1.6; }
 .publication-links { display: flex; gap: 18px; flex-wrap: wrap; font-size: 12px; align-items: baseline; }
+.tutorials-section .eyebrow { color: var(--gold); margin-bottom: 8px; }
+.tutorials-section h2 { margin-bottom: 14px; }
+.tutorials-intro { font-size: 14px; margin-bottom: 28px; }
 .award-tag { color: var(--gold); background: var(--gold-wash); padding: 2px 8px; border: 1px solid #e6d9bb; font-size: 11px; line-height: 1.5; display: inline-block; border-radius: 2px; }
 .academic-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 54px; }
 .academic-columns h2 { font-size: 26px; }
