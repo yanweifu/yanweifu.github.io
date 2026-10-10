@@ -64,6 +64,7 @@ pre { padding: 18px; overflow: auto; }
 .section-heading > a { font-size: 13px; white-space: nowrap; }
 .honors-section { border-top: 3px solid var(--gold-line); padding-top: 28px; }
 .honors-section .eyebrow { color: var(--gold); margin-bottom: 6px; }
+.honor-nav { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: -6px 0 20px; font-size: 12px; }
 .honor-list { list-style: none; margin: 0; padding: 0; }
 .honor-item { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 18px; padding: 20px 0; border-top: 1px solid var(--line); margin: 0; }
 .honor-year { font: 400 25px/1.3 Georgia, serif; color: var(--gold); }
@@ -73,6 +74,10 @@ pre { padding: 18px; overflow: auto; }
 .honor-title a { color: var(--ink); }
 .honor-source { font-size: 12px; display: inline-block; margin-top: 6px; }
 .honor-credit { color: var(--muted); font-size: 12px; margin: 3px 0 0; }
+.industry-recognition { border-top: 1px solid var(--line); padding-top: 24px; margin-top: 8px; }
+.industry-recognition h3 { margin-bottom: 16px; }
+.recognition-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 40px; }
+.recognition-grid li { margin-bottom: 0; }
 .research-intro { max-width: 820px; font-size: 18px; line-height: 1.7; }
 .research-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 40px; margin-top: 30px; }
 .research-topic { border-left: 2px solid var(--line); padding-left: 18px; }
@@ -152,7 +157,7 @@ pre { padding: 18px; overflow: auto; }
   .honor-label span { display: block; margin-left: 0; }
   .honor-title { font-size: 13px; }
   .research-intro { font-size: 16px; }
-  .research-grid, .academic-columns { grid-template-columns: 1fr; gap: 24px; }
+  .research-grid, .academic-columns, .recognition-grid { grid-template-columns: 1fr; gap: 24px; }
   .publication { grid-template-columns: 1fr; gap: 8px; padding: 20px 0; }
   .publication-venue span { display: inline; margin-left: 5px; }
   .publication h3 { font-size: 15px; }

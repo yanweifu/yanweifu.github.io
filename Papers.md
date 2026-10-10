@@ -476,7 +476,7 @@ Some video demonstrations are hosted on YouTube.
 
 * An Embarrassingly Simple Baseline to One-shot Learning. Chen Liu, Chengming Xu, Yikai Wang, Li Zhang, Yanwei Fu. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), workshop on Visual Learning with Limited Labels, Seattle, Washington, USA, June 2020.  
 
-* When Person Re-identification Meets Changing Clothes. Fangbin Wan, Yang Wu, Xuelin Qian, Yanwei Fu. arxiv <a href="https://wanfb.github.io/dataset.html#">codes and dataset CVPR2020 workshop </a>
+* [When Person Re-Identification Meets Changing Clothes](https://openaccess.thecvf.com/content_CVPRW_2020/html/w48/Wan_When_Person_Re-Identification_Meets_Changing_Clothes_CVPRW_2020_paper.html). Fangbin Wan, Yang Wu, Xuelin Qian, Yixiong Chen, Yanwei Fu. CVPR 2020 Biometrics Workshop. **Highest Impact Award, IEEE Computer Society Biometrics Workshop (awarded in 2024).** [Code and dataset](https://wanfb.github.io/dataset.html) · [Award record](https://schuture.github.io/)
 
 * Pixel2Mesh: 3D Mesh Model Generation via Image Guided Deformation. Nanyang Wang, Yinda Zhang, Zhuwen Li, Yanwei Fu, Hang Yu, Wei Liu, Xiangyang Xue, Yu-Gang Jiang. IEEE TPAMI to appear. 
 

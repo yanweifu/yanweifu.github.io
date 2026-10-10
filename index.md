@@ -31,6 +31,11 @@ image: /assets/images/yanwei-fu.png
 <section id="honors" class="home-section honors-section" aria-labelledby="honors-title">
   <p class="eyebrow">Selected paper honors</p>
   <div class="section-heading"><h2 id="honors-title">Paper awards &amp; recognition</h2></div>
+  <nav class="honor-nav" aria-label="Honor categories">
+    <a href="#honors">Paper awards</a>
+    <a href="#research-awards">Research awards</a>
+    <a href="#fellowships">Fellowships &amp; honors</a>
+  </nav>
   <ol class="honor-list">
     <li class="honor-item">
       <span class="honor-year">2026</span>
@@ -55,6 +60,15 @@ image: /assets/images/yanwei-fu.png
         <p class="honor-label">Long Paper Outstanding Paper Award <span>DeLTa Workshop at ICLR 2025</span></p>
         <p class="honor-title"><a href="https://unidb-soc.github.io/UniDB_page/">A Unified Diffusion Bridge Framework via Stochastic Optimal Control</a></p>
         <a class="honor-source" href="https://delta-workshop.github.io/#awards">Official award announcement ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2024</span>
+      <div>
+        <p class="honor-label">Highest Impact Award <span>IEEE Computer Society Biometrics Workshop</span></p>
+        <p class="honor-title"><a href="https://openaccess.thecvf.com/content_CVPRW_2020/html/w48/Wan_When_Person_Re-Identification_Meets_Changing_Clothes_CVPRW_2020_paper.html">When Person Re-Identification Meets Changing Clothes</a></p>
+        <p class="honor-credit">Published at the CVPR 2020 Biometrics Workshop · Awarded in 2024</p>
+        <a class="honor-source" href="https://schuture.github.io/">Coauthor's award record ↗</a>
       </div>
     </li>
     <li class="honor-item">
@@ -83,6 +97,55 @@ image: /assets/images/yanwei-fu.png
       </div>
     </li>
   </ol>
+</section>
+
+<section id="research-awards" class="home-section" aria-labelledby="research-awards-title">
+  <h2 id="research-awards-title">Research awards</h2>
+  <ol class="honor-list">
+    <li class="honor-item">
+      <span class="honor-year">2023</span>
+      <div>
+        <p class="honor-label">State Natural Science Award, Second Class <span>China</span></p>
+        <p class="honor-title" lang="zh-CN">多元协同的视觉计算理论与方法</p>
+        <p class="honor-credit">Team award · Fourth contributor · 2023 award year, announced in 2024</p>
+        <a class="honor-source" href="https://news.fudan.edu.cn/2024/0624/c4a141416/page.htm">Fudan University announcement ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2023</span>
+      <div>
+        <p class="honor-label">Shanghai Technological Invention Award, First Class</p>
+        <p class="honor-title" lang="zh-CN">面向智能制造的跨域融合感知关键技术及应用</p>
+        <p class="honor-credit">Team award · Third contributor</p>
+        <a class="honor-source" href="https://www.shanghai.gov.cn/newshanghai2018/zfgb/202421/ZFGB2421.pdf#page=11">Shanghai government award list ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2023</span>
+      <div>
+        <p class="honor-label">Shanghai Natural Science Award, Second Class</p>
+        <p class="honor-title" lang="zh-CN">面向行人重识别的高效学习理论与方法</p>
+        <p class="honor-credit">Team award · Fourth contributor</p>
+        <a class="honor-source" href="https://www.shanghai.gov.cn/newshanghai2018/zfgb/202421/ZFGB2421.pdf#page=8">Shanghai government award list ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2022</span>
+      <div>
+        <p class="honor-label">Ministry of Education Natural Science Award, First Class <span>China</span></p>
+        <p class="honor-title" lang="zh-CN">多元协同的视觉计算理论与方法</p>
+        <p class="honor-credit">Team award · 2022 award year, announced in 2023</p>
+        <a class="honor-source" href="https://iipl.fudan.edu.cn/c3/59/c45232a508761/page.htm">Fudan University announcement ↗</a>
+      </div>
+    </li>
+  </ol>
+  <div class="industry-recognition">
+    <h3>Industry recognition</h3>
+    <ul class="compact-list recognition-grid">
+      <li><strong>Outstanding Technical Achievement Award, 2021</strong><small>Huawei Shanghai Research Institute</small><small lang="zh-CN">华为上海研究所 · 2021 年度优秀技术成果奖</small></li>
+      <li><strong>Tencent Rhino-Bird Visiting Scholar</strong><small lang="zh-CN">腾讯“犀牛鸟计划”访问学者</small></li>
+    </ul>
+  </div>
 </section>
 
 <section id="research" class="home-section" aria-labelledby="research-title">
@@ -161,14 +224,14 @@ image: /assets/images/yanwei-fu.png
       <li><strong>Tutorial co-organizer, CVPR 2022</strong><small><a href="https://sparse-learning.github.io">Sparsity Learning in Neural Networks and Robust Statistical Analysis</a></small></li>
     </ul>
   </div>
-  <div>
-    <h2>Honors &amp; fellowships</h2>
+  <div id="fellowships">
+    <h2>Fellowships &amp; honors</h2>
     <ul class="compact-list">
-      <li><strong><a href="https://news.fudan.edu.cn/2024/0624/c4a141416/page.htm">State Natural Science Award, Second Class</a></strong><small>2023 award · Announced in 2024 · Team member (fourth contributor)</small><small lang="zh-CN">多元协同的视觉计算理论与方法</small></li>
-      <li><strong>Fellow of the British Computer Society</strong><small>BCS</small></li>
-      <li><strong>Shanghai Eastern Scholar</strong><small lang="zh-CN">上海高校特聘教授 · 东方学者</small></li>
-      <li><strong>ARC DECRA Fellow</strong><small>Australian Research Council</small></li>
-      <li><strong>Young Thousand Talents Program</strong><small lang="zh-CN">青年千人计划</small></li>
+      <li><strong>Fellow of the British Computer Society</strong><small>2022 · BCS</small></li>
+      <li><strong>Young Thousand Talents Program</strong><small lang="zh-CN">2018 · 国家青年千人计划</small></li>
+      <li><strong>Shanghai Eastern Scholar</strong><small lang="zh-CN">2017 · 上海市东方学者</small></li>
+      <li><strong>ARC DECRA Fellow</strong><small>2016 · Australian Research Council</small><small>Discovery Early Career Researcher Award</small></li>
+      <li><strong>Chinese Government Award for Outstanding Self-financed Students Abroad</strong><small lang="zh-CN">2014 · 国家优秀自费留学生奖学金</small></li>
     </ul>
   </div>
 </section>
