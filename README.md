@@ -13,7 +13,7 @@ Source for [yanweifu.github.io](https://yanweifu.github.io), built with Jekyll o
 - `assets/css/style.scss`: responsive styling, including mobile and print layouts.
 - `assets/images/yanwei-fu.png`: the existing homepage portrait, extracted from its original embedded image.
 
-Paper honors link to official award records. Preserve the distinction between winners, finalists, and award candidates; identify workshop awards and named recipients explicitly. The WAIC award belongs to coauthored work with Sixiao Zheng as recipient. The State Natural Science Award is a team award for the 2023 award year, announced in 2024.
+Paper awards link to official award records. Top Viewed Article recognition for TC-GEN follows the owner's May 2026 news and links to the journal article. Preserve the distinction between winners, finalists, and award candidates; identify workshop awards and named recipients explicitly. The WAIC award belongs to coauthored work with Sixiao Zheng as recipient. The State Natural Science Award is a team award for the 2023 award year, announced in 2024.
 
 The existing `Papers.html`, `Students.html`, and `Dataset.html` routes and legacy project directories are retained. The unrelated local `new/` directory is excluded from the Jekyll build.
 

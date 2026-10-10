@@ -30,7 +30,7 @@ image: /assets/images/yanwei-fu.png
 
 <section id="honors" class="home-section honors-section" aria-labelledby="honors-title">
   <p class="eyebrow">Selected paper honors</p>
-  <div class="section-heading"><h2 id="honors-title">Best paper awards &amp; recognition</h2></div>
+  <div class="section-heading"><h2 id="honors-title">Paper awards &amp; recognition</h2></div>
   <ol class="honor-list">
     <li class="honor-item">
       <span class="honor-year">2026</span>
@@ -38,6 +38,15 @@ image: /assets/images/yanwei-fu.png
         <p class="honor-label">Best Paper Award Candidate <span>CVPR 2026 · Oral</span></p>
         <p class="honor-title"><a href="https://jianxgao.github.io/CineBrain/">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></p>
         <a class="honor-source" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Official conference program ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2026</span>
+      <div>
+        <p class="honor-label">Top Viewed Article <span>Journal of Advances in Modeling Earth Systems (JAMES)</span></p>
+        <p class="honor-title"><a href="https://doi.org/10.1029/2023MS004203">TC-GEN: Data-Driven Tropical Cyclone Downscaling Using Machine Learning-Based High-Resolution Weather Model</a></p>
+        <p class="honor-credit">Published in 2024 · Recognition announced May 2026</p>
+        <a class="honor-source" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023MS004203">Journal article ↗</a>
       </div>
     </li>
     <li class="honor-item">

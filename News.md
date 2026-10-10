@@ -6,7 +6,7 @@ intro: News and academic activities from the previous homepage, with dates retai
 
 
 * 06/2026  CineBrain (CVPR 2026), selected as a Best Paper Award Candidate
-* 05/2026  "TC-GEN: Data-driven Tropical Cyclone Downscaling using Machine Learning-Based High-resolution Weather Model." (JAMES 2024) has been awarded as the top viewed article in Journal of Advanced in Modelling Earth Systems. This paper is collaborated with American Academies --Prof. Kerry Emanuel, and Prof. Noah Diffenbaugh and from Woods Institute of Stanford, and MIT.
+* 05/2026 [TC-GEN: Data-Driven Tropical Cyclone Downscaling Using Machine Learning-Based High-Resolution Weather Model](https://doi.org/10.1029/2023MS004203), published in the Journal of Advances in Modeling Earth Systems (JAMES) in 2024, received Top Viewed Article recognition. This work was coauthored with Kerry Emanuel (MIT) and Noah S. Diffenbaugh (Stanford), among other collaborators.
 * 05/2025  "A Unified Diffusion Bridge Framework via Stochastic Optimal Control"
 has been selected as the Long Paper Outstanding Paper Award Winner at the DeLTa Workshop, held in conjunction with ICLR 2025.
 * 03/2024 Chenjie Cao passed his PhD Viva, and Dr. Xuelin Qian will join Northwestern Polytechnical University (NWPU) as Associate Professor.
