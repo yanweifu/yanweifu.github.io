@@ -172,7 +172,7 @@ image: /assets/images/yanwei-fu.png
       <div>
         <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></h3>
         <p>Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, <strong>Yanwei Fu</strong></p>
-        <div class="publication-links"><a href="https://jianxgao.github.io/CineBrain/">Project &amp; dataset</a><span class="award-tag">Best Paper Award Candidate · Oral</span></div>
+        <div class="publication-links"><a href="https://jianxgao.github.io/CineBrain/">Project &amp; dataset</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Oral</a><span class="award-tag">Best Paper Award Candidate</span></div>
       </div>
     </li>
     <li class="publication">
@@ -200,11 +200,11 @@ image: /assets/images/yanwei-fu.png
       </div>
     </li>
     <li class="publication">
-      <div class="publication-venue">ICML 2025<span>Spotlight</span></div>
+      <div class="publication-venue">ICML 2025<span>Diffusion bridges</span></div>
       <div>
         <h3><a href="https://proceedings.mlr.press/v267/zhu25o.html">UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control</a></h3>
         <p>Kaizhen Zhu, Mokai Pan, Yuexin Ma, <strong>Yanwei Fu</strong>, Jingyi Yu, Jingya Wang, Ye Shi</p>
-        <div class="publication-links"><a href="https://proceedings.mlr.press/v267/zhu25o.html">Paper</a><a href="https://github.com/UniDB-SOC/UniDB/">Code</a><span class="award-tag">Outstanding Paper · DeLTa @ ICLR 2025</span></div>
+        <div class="publication-links"><a href="https://proceedings.mlr.press/v267/zhu25o.html">Paper</a><a href="https://github.com/UniDB-SOC/UniDB/">Code</a><a class="presentation-tag" href="https://icml.cc/virtual/2025/poster/43713" title="ICML 2025 Spotlight Poster">Spotlight</a><span class="award-tag">Outstanding Paper · DeLTa @ ICLR 2025</span></div>
       </div>
     </li>
     <li class="publication">

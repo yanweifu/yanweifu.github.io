@@ -98,6 +98,7 @@ pre { padding: 18px; overflow: auto; }
 .tutorials-section h2 { margin-bottom: 14px; }
 .tutorials-intro { font-size: 14px; margin-bottom: 28px; }
 .award-tag { color: var(--gold); background: var(--gold-wash); padding: 2px 8px; border: 1px solid #e6d9bb; font-size: 11px; line-height: 1.5; display: inline-block; border-radius: 2px; }
+.presentation-tag { color: var(--link); background: #edf3f7; padding: 2px 8px; border: 1px solid #cbdce8; font-size: 11px; font-weight: 650; line-height: 1.5; display: inline-block; border-radius: 2px; vertical-align: baseline; }
 .academic-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 54px; }
 .academic-columns h2 { font-size: 26px; }
 .compact-list { list-style: none; padding: 0; margin: 0; font-size: 14px; }

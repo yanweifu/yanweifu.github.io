@@ -5,7 +5,7 @@ intro: Research publications in machine learning, computer vision, robotics, and
 ---
 [Selected paper honors](./#honors) · [Google Scholar](https://scholar.google.co.uk/citations?user=Vg54TcsAAAAJ&hl=en) · [DBLP](https://dblp.org/pid/63/9065.html)
 
-Some video demonstrations are hosted on YouTube.
+Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Linked labels open the conference program or author record. Some video demonstrations are hosted on YouTube.
 
 
 ## 2026
@@ -38,13 +38,13 @@ Some video demonstrations are hosted on YouTube.
 
 * FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing. Xijie Huang, Chengming Xu, Donghao Luo, Xiaobin Hu, Peng Tang, Xu Peng, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2026
 
-* V-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence. Jiancheng Pan, Runze Wang, Tianwen Qian, Mohammad Mahdi, Yanwei Fu, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu. CVPR 2026 (highlight)
+* V-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence. Jiancheng Pan, Runze Wang, Tianwen Qian, Mohammad Mahdi, Yanwei Fu, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu. CVPR 2026. <a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=62">Highlight</a>
 
 * VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control. Sixiao Zheng, Minghao Yin, Wenbo Hu, Xiaoyu Li, Ying Shan, Yanwei Fu. CVPR 2026
 
-* EgoSound: Benchmarking Sound Understanding in Egocentric Videos. Bingwen Zhu, Yuqian Fu, Qiaole Dong, Guolei Sun, Tianwen Qian, Yuzheng Wu, Danda Pani Paudel, Yanwei Fu, Xiangyang Xue. CVPR 2026 (highlight)
+* EgoSound: Benchmarking Sound Understanding in Egocentric Videos. Bingwen Zhu, Yuqian Fu, Qiaole Dong, Guolei Sun, Tianwen Qian, Yuzheng Wu, Danda Pani Paudel, Yanwei Fu, Xiangyang Xue. CVPR 2026. <a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=81">Highlight</a>
 
-* NI-Tex: Non-isometric Image-based Garment Texture Generation.  Hui Shan, Ming Li, Haitao Yang, Kai Zheng, Sizhe Zheng, Yanwei Fu, Xiangru Huang. CVPR 2026 (highlight)
+* NI-Tex: Non-isometric Image-based Garment Texture Generation.  Hui Shan, Ming Li, Haitao Yang, Kai Zheng, Sizhe Zheng, Yanwei Fu, Xiangru Huang. CVPR 2026. <a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=68">Highlight</a>
 
 * ReWeaver: Towards Simulation-Ready and Topology-Accurate Garment Reconstruction. Ming Li, Hui Shan, Kai Zheng, Chentao Shen, Siyu Liu, Yanwei Fu, Zhen Chen, Xiangru Huang. CVPR 2026
 
@@ -65,7 +65,7 @@ Some video demonstrations are hosted on YouTube.
 
 * LSPR: Init-Anchored Score-Based Multi-Camera Calibration for Indoor Robot Manipulation. Weifan Mao, Tianyu Wang, Yanwei Fu. CoRL 2026
 
-* TriVLA: A Triple-System-Based Unified Vision-Language-Action Model with Episodic World Modeling for General Robot Control. Zhenyang Liu, Yongchong Gu, Sixiao Zheng, Yanwei Fu, Xiangyang Xue, Yu-Gang Jiang. ACM Multimedia 2026 Oral
+* TriVLA: A Triple-System-Based Unified Vision-Language-Action Model with Episodic World Modeling for General Robot Control. Zhenyang Liu, Yongchong Gu, Sixiao Zheng, Yanwei Fu, Xiangyang Xue, Yu-Gang Jiang. ACM Multimedia 2026. <a class="presentation-tag" href="https://sixiaozheng.github.io/">Oral</a>
 
 * OCRA: Object-Centric Learning with 3D and Tactile Priors for Human-to-Robot Action Transfer. Kuanning Wang, Ke Fan, Yuqian Fu, Siyu Lin, Hu Luo, Daniel Seita, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. ICRA 2026 
 
@@ -75,7 +75,7 @@ Some video demonstrations are hosted on YouTube.
 
 * ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation. Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, Yanwei Fu. CVPR 2026
 
-* Universal Pose Pretraining for Generalizable Vision-Language-Action Policies. Haitao Lin, Hanyang Yu, Jingshun Huang, He Zhang, Yonggen Ling, Ping Tan, Xiangyang Xue, Yanwei Fu. RSS 2026 (Oral)
+* Universal Pose Pretraining for Generalizable Vision-Language-Action Policies. Haitao Lin, Hanyang Yu, Jingshun Huang, He Zhang, Yonggen Ling, Ping Tan, Xiangyang Xue, Yanwei Fu. RSS 2026. <a class="presentation-tag" href="https://roboticsconference.org/2026/program/papers/145/">Oral</a>
 
 * STABLE: Simulation-Ready Tabletop Layout Generation via a Semantics–Physics Dual System. Zhen Luo, Yixuan Yang, Xudong XU, Jinkun Hao, Zhaoyang Lyu, Feng Zheng, Jiangmiao Pang, Yanwei Fu. ICML 2026
 
@@ -88,7 +88,7 @@ Some video demonstrations are hosted on YouTube.
 
 * Modeling Spatiotemporal Neural Frames for High Resolution Brain Dynamic. Wanying Qu, Jianxiong Gao, Wei Wang, Yanwei Fu. CVPR 2026
 
-* CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation. Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, Yanwei Fu. CVPR 2026 (Oral). <span class="award-tag">Best Paper Award Candidate</span> [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html) · [Project](https://jianxgao.github.io/CineBrain/)
+* CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation. Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, Yanwei Fu. CVPR 2026. <a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Oral</a> <span class="award-tag">Best Paper Award Candidate</span> [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html) · [Project](https://jianxgao.github.io/CineBrain/)
 
 * Harnessing Spectrum Video for Subject-Level Few-Shot and Cross-Montage EEG Generalization. Wei Wang, Fang He, Yifan Li, Wanying Qu, Yawei Li, Quanying Liu, Yanwei Fu. ICML 2026
 
@@ -121,9 +121,9 @@ Some video demonstrations are hosted on YouTube.
 
 * Online Dense Point Tracking with Streaming Memory. Qiaole Dong, Yanwei Fu. ICCV 2025
 
-* ObjectRelator: Enabling Cross-View Object Relation Understanding Across Ego-Centric and Exo-Centric Perspectives. Yuqian Fu, Runze Wang, Bin Ren, Guolei Sun, Biao Gong, Yanwei Fu, Danda Pani Paudel, Xuanjing Huang, Luc Van Gool. ICCV 2025
+* ObjectRelator: Enabling Cross-View Object Relation Understanding Across Ego-Centric and Exo-Centric Perspectives. Yuqian Fu, Runze Wang, Bin Ren, Guolei Sun, Biao Gong, Yanwei Fu, Danda Pani Paudel, Xuanjing Huang, Luc Van Gool. ICCV 2025. <a class="presentation-tag" href="https://iccv.thecvf.com/Conferences/2025/AcceptedPapers">Highlight</a>
 
-* UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control. Kaizhen Zhu, Mokai Pan, Yuexin Ma, Yanwei Fu, Jingyi Yu, Jingya Wang, Ye Shi. ICML 2025 (Spotlight). <span class="award-tag">Long Paper Outstanding Paper Award · DeLTa Workshop at ICLR 2025</span> [Paper](https://proceedings.mlr.press/v267/zhu25o.html) · [Code](https://github.com/UniDB-SOC/UniDB/)
+* UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control. Kaizhen Zhu, Mokai Pan, Yuexin Ma, Yanwei Fu, Jingyi Yu, Jingya Wang, Ye Shi. ICML 2025. <a class="presentation-tag" href="https://icml.cc/virtual/2025/poster/43713" title="ICML 2025 Spotlight Poster">Spotlight</a> <span class="award-tag">Long Paper Outstanding Paper Award · DeLTa Workshop at ICLR 2025</span> [Paper](https://proceedings.mlr.press/v267/zhu25o.html) · [Code](https://github.com/UniDB-SOC/UniDB/)
 
 * Bivariate Causal Discovery with Proxy Variables: Integral Solving and Beyond. Yong Wu, Yanwei Fu, Shouyan Wang, Xinwei Sun. ICML 2025. 
 
@@ -135,11 +135,11 @@ Some video demonstrations are hosted on YouTube.
 
 * MVGenMaster: Scaling Multi-View Generation from Any Image via 3D Priors Enhanced Diffusion Model. Chenjie Cao, Chaohui Yu, Shang Liu, Fan Wang, Xiangyang Xue, Yanwei Fu. CVPR 2025
 
-* Towards Enhanced Image Inpainting: Mitigating Unwanted Object Insertion and Preserving Color Consistency. Yikai Wang, Chenjie Cao, Junqiu Yu, Ke Fan, Xiangyang Xue, Yanwei Fu. CVPR 2025 Highlight Paper
+* Towards Enhanced Image Inpainting: Mitigating Unwanted Object Insertion and Preserving Color Consistency. Yikai Wang, Chenjie Cao, Junqiu Yu, Ke Fan, Xiangyang Xue, Yanwei Fu. CVPR 2025. <a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2025/CVPR_main_conf_2025.pdf#page=60">Highlight</a>
 
 * Concept Replacer: Replacing Sensitive Concepts in Diffusion Models via Precision Localization. Lingyun Zhang, Yu Xie, Yanwei Fu, Ping Chen. CVPR 2025
 
-* CustAny: Customizing Anything from A Single Example. Lingjie Kong, Kai WU, Chengming Xu, Xiaobin Hu, Wenhui Han, Jinlong Peng, Donghao Luo, Mengtian Li, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2025 (Oral paper）
+* CustAny: Customizing Anything from A Single Example. Lingjie Kong, Kai WU, Chengming Xu, Xiaobin Hu, Wenhui Han, Jinlong Peng, Donghao Luo, Mengtian Li, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2025. <a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2025/CVPR_main_conf_2025.pdf#page=55">Oral</a>
  
 * MagicFace: Slot-driven High-fidelity One-shot Facial Appearance Editing. QiLin Wang, Chengming Xu, et al.  IEEE Signal Processing Letters 2025
 
@@ -172,11 +172,11 @@ Some video demonstrations are hosted on YouTube.
 
 * Diffusion-Based Imaginative Coordination for Bimanual Manipulation. huilin xu, Jian Ding, Jiakun Xu, Ruixiang Wang, Jun Chen, Jinjie Mai, Yanwei Fu, Bernard Ghanem, Feng Xu, Mohamed Elhoseiny. ICCV 2025
 
-* VividPose: Advancing Stable Video Diffusion for Realistic Human Image Animation. Qilin Wang, Zhengkai Jiang, Chengming Xu, Jiangning Zhang, Yabiao Wang, Xinyi Zhang, Yun Cao, Weijian Cao, Chengjie Wang, Yanwei Fu. ICME 2025 (Oral paper)
+* VividPose: Advancing Stable Video Diffusion for Realistic Human Image Animation. Qilin Wang, Zhengkai Jiang, Chengming Xu, Jiangning Zhang, Yabiao Wang, Xinyi Zhang, Yun Cao, Weijian Cao, Chengjie Wang, Yanwei Fu. ICME 2025. <a class="presentation-tag" href="https://kelu007.github.io/">Oral</a>
 
-* CAP-Net: A Unified Network for 6D Pose and Size Estimation of Categorical Articulated Parts from a Single RGB-D Image. Jingshun Huang, Haitao Lin, Tianyu Wang, Xiangyang Xue, Yi Zhu, Yanwei Fu. CVPR 2025 Highlight paper
+* CAP-Net: A Unified Network for 6D Pose and Size Estimation of Categorical Articulated Parts from a Single RGB-D Image. Jingshun Huang, Haitao Lin, Tianyu Wang, Xiangyang Xue, Yi Zhu, Yanwei Fu. CVPR 2025. <a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2025/CVPR_main_conf_2025.pdf#page=34">Highlight</a>
 
-* ReasonGrounder: LVLM-Guided Hierarchical Feature Splatting for Open-Vocabulary 3D Visual Grounding and Reasoning. Zhenyang Liu, Yikai Wang, Sixiao Zheng, Tongying Pan, Longfei Liang, Yanwei Fu, Xiangyang Xue. CVPR 2025 spotlight
+* ReasonGrounder: LVLM-Guided Hierarchical Feature Splatting for Open-Vocabulary 3D Visual Grounding and Reasoning. Zhenyang Liu, Yikai Wang, Sixiao Zheng, Tongying Pan, Longfei Liang, Yanwei Fu, Xiangyang Xue. CVPR 2025
 
 * HOP: Heterogeneous Topology-based Multimodal Entanglement for Co-Speech Gesture Generation. Hongye Cheng, Tianyu Wang, Guangsi Shi, Zexing Zhao, Yanwei Fu. CVPR 2025
 
@@ -310,7 +310,7 @@ Some video demonstrations are hosted on YouTube.
 
 * QS-Craft: Learning to Quantize, Scrabble and Craft for Conditional Human Motion Animation. Yuxin Hong, Xuelin Qian, Simian Luo, Yanwei Fu, Guodong Guo, Xiangyang Xue. ACCV 2022 
 
-* Co-Attention Aligned Mutual Cross-Attention for Cloth-Changing Person Re-Identification. Qizao Wang, Xuelin Qian, Yanwei Fu, xiangyang Xue, ACCV 2022 
+* Co-Attention Aligned Mutual Cross-Attention for Cloth-Changing Person Re-Identification. Qizao Wang, Xuelin Qian, Yanwei Fu, xiangyang Xue, ACCV 2022. <a class="presentation-tag" href="https://naiq.github.io/">Oral</a>
 
 * FFD Augmentor: Towards Few-Shot Oracle Character Recognition from Scratch Xinyi Zhao, Siyuan Liu, Yikai Wang, Yanwei Fu. ACCV 2022 (This paper is the final project of the first and second (undergraduate) authours, in my course -- Deep Learning and Neural Network (2022 Spring). 
 
@@ -363,7 +363,7 @@ Some video demonstrations are hosted on YouTube.
 
 <iframe width="300" height="160"  src="https://www.youtube.com/embed/bW30eQMYqRs" title="SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation. Jianan Wang, Guansong Lu, Hang Xu, Zhenguo Li, Chunjing Xu, Yanwei Fu. CVPR 2022 (Oral Paper) <a href="https://jawang19.github.io/manitrans/index.html" project="" page="">Project</a> 
+* ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation. Jianan Wang, Guansong Lu, Hang Xu, Zhenguo Li, Chunjing Xu, Yanwei Fu. CVPR 2022. <a class="presentation-tag" href="https://docs.google.com/spreadsheets/d/1ilb2Wqea0uVKxlJsdJHR-3IVaWeqsWyk2M2aGmYVAPE/edit">Oral</a> <a href="https://jawang19.github.io/manitrans/index.html" project="" page="">Project</a>
 
 <iframe width="300" height="160" src="https://www.youtube.com/embed/nctTk-W7iHg" title="ManiTrans: Entity Level Text Guided Image Manipulation via Token Wise Semantic Alignment | CVPR 2022" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -443,20 +443,20 @@ Some video demonstrations are hosted on YouTube.
 
 * Learning a Few-shot Embedding Model with Contrastive Learning. Chen Liu*, Yanwei Fu*, Chengming Xu, Siqian Yang, Jilin Li, Chengjie Wang, Li Zhang. AAAI 20201, *, co-first authour 
 
-* Whose hand is this? Person Identification from Egocentric Hand Gestures. Satoshi Tsutsui, Yanwei Fu, David Crandall. IEEE WACV 2021
+* Whose hand is this? Person Identification from Egocentric Hand Gestures. Satoshi Tsutsui, Yanwei Fu, David Crandall. IEEE WACV 2021. <a class="presentation-tag" href="https://wacv2021.thecvf.com/program">Oral</a>
 
-*  Data-efficient Alignment of Multimodal Sequences by Aligning Gradient Updates and Internal Feature Distributions Jianan Wang, Boyang Li, Xiangyu Fan, Jing Lin, Yanwei Fu. IEEE WACV 2021
+*  Data-efficient Alignment of Multimodal Sequences by Aligning Gradient Updates and Internal Feature Distributions Jianan Wang, Boyang Li, Xiangyu Fan, Jing Lin, Yanwei Fu. IEEE WACV 2021. <a class="presentation-tag" href="https://wacv2021.thecvf.com/program">Oral</a>
                 
 ## 2020
-* Incrementally Zero-Shot Detection by an Extreme Value Analyzer. Sixiao Zheng, Yanwei Fu, Yanxi Hou. ICPR 2021 
+* Incrementally Zero-Shot Detection by an Extreme Value Analyzer. Sixiao Zheng, Yanwei Fu, Yanxi Hou. ICPR 2020 (held in 2021). <a class="presentation-tag" href="https://sixiaozheng.github.io/">Oral</a>
 
 * Dynamic Depth Fusion and Transformation for Monocular 3D Object Detection. Erli Ouyang, Li Zhang, Mohan Chen, Anurag Arnab, and Yanwei Fu. ACCV 2020
 
-* Long-Term Cloth-Changing Person Re-identification. Xuelin Qian, Wenxuan Wang, Li Zhang, Fangrui Zhu, Yanwei Fu, Tao Xiang, Yu-Gang Jiang, and Xiangyang Xue. ACCV 2020
+* Long-Term Cloth-Changing Person Re-identification. Xuelin Qian, Wenxuan Wang, Li Zhang, Fangrui Zhu, Yanwei Fu, Tao Xiang, Yu-Gang Jiang, and Xiangyang Xue. ACCV 2020. <a class="presentation-tag" href="https://accv2020.github.io/programs/sessions/index.html">Oral</a>
 
 * Second Order Enhanced Multi-glimpse Attention in Visual Question Answering. Qiang Sun, Binghui Xie, and Yanwei Fu. ACCV 2020
 
-* Self-supervised Learning of Orc-Bert Augmentor for Recognizing Few-Shot Oracle Characters. Wenhui Han, Xinlin Ren, Hangyu Lin, Yanwei Fu, and Xiangyang Xue. ACCV 2020 
+* Self-supervised Learning of Orc-Bert Augmentor for Recognizing Few-Shot Oracle Characters. Wenhui Han, Xinlin Ren, Hangyu Lin, Yanwei Fu, and Xiangyang Xue. ACCV 2020. <a class="presentation-tag" href="https://accv2020.github.io/programs/sessions/index.html">Oral</a>
 
 * Learning Layer-Skippable Inference Network. Yu-Gang Jiang; Changmao Cheng; Hangyu Lin; Yanwei Fu. IEEE TIP, 2020 
 
@@ -466,9 +466,9 @@ Some video demonstrations are hosted on YouTube.
 
 * Depth Guided Adaptive Meta-Fusion Network for Few-shot Video Recognition. Yu-Qian Fu, Li Zhang, Junke Wang, Yanwei Fu, Yu-Gang Jiang ACM MM 2020
 
-* DeepSFM: Structure From Motion Via Deep Bundle Adjustment. Xingkui Wei, Yinda Zhang, Zhuwen Li, Yanwei Fu, Xiangyang Xue, ECCV 2020 (oral)
+* DeepSFM: Structure From Motion Via Deep Bundle Adjustment. Xingkui Wei, Yinda Zhang, Zhuwen Li, Yanwei Fu, Xiangyang Xue, ECCV 2020. <a class="presentation-tag" href="https://eccv2020.eu/posters/">Oral</a>
 
-* Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking. Jinlong Peng, Changan Wang, Fangbin Wan, Yang Wu, Yabiao Wang, Ying Tai, Chengjie Wang, Jilin Li Feiyue Huang, Yanwei Fu, ECCV 2020 (spotlight)
+* Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking. Jinlong Peng, Changan Wang, Fangbin Wan, Yang Wu, Yabiao Wang, Ying Tai, Chengjie Wang, Jilin Li Feiyue Huang, Yanwei Fu, ECCV 2020. <a class="presentation-tag" href="https://eccv2020.eu/posters/">Spotlight</a>
 
 * DessiLBI: Exploring Structural Sparsity on Deep Network via Differential Inclusion Paths. Yanwei Fu, Chen Liu, Donghao Li, Xinwei Sun, Jinshan Zeng, and Yuan Yao, ICML 2020
 
@@ -511,9 +511,9 @@ Some video demonstrations are hosted on YouTube.
 
 * Comp-GAN: Compositional Generative Adversarial Network in Synthesizing and Recognizing Facial Expression. Wenxuan Wang, Qiang Sun, Yanwei Fu, Tao Chen, Chenjie Cao, Ziqi Zheng, Guoqiang Xu, Han Qiu, Yu-Gang Jiang and Xiangyang Xue. ACM MM 2019
 
-* Embodied One-Shot Video Recognition: Learning from Actions of a Virtual Embodied Agent. Yuqian Fu, Chengrong Wang, Yanwei Fu, Yu-Xiong Wang, Cong Bai, Xiangyang Xue and Yu-Gang Jiang. ACM MM 2019 [codes,<a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/dataset/UnrealAction/">dataset</a>]
+* Embodied One-Shot Video Recognition: Learning from Actions of a Virtual Embodied Agent. Yuqian Fu, Chengrong Wang, Yanwei Fu, Yu-Xiong Wang, Cong Bai, Xiangyang Xue and Yu-Gang Jiang. ACM MM 2019. <a class="presentation-tag" href="https://2019.acmmm.org/wp-content/uploads/2019/10/ACMMM19-Booklet_final-0810.pdf#page=46">Oral</a> [codes,<a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/dataset/UnrealAction/">dataset</a>]
 
-* TC-Net for iSBIR: Triplet Classification Network for instance-level Sketch Based Image Retrieval. Hangyu Lin, Peng Lu, Yanwei Fu, Shaogang Gong, Xiangyang Xue and Yu-Gang Jiang. ACM MM 2019 [<a href="https://github.com/avalonstrel/TCNet">codes</a>]
+* TC-Net for iSBIR: Triplet Classification Network for instance-level Sketch Based Image Retrieval. Hangyu Lin, Peng Lu, Yanwei Fu, Shaogang Gong, Xiangyang Xue and Yu-Gang Jiang. ACM MM 2019. <a class="presentation-tag" href="https://2019.acmmm.org/wp-content/uploads/2019/10/ACMMM19-Booklet_final-0810.pdf#page=66">Oral</a> [<a href="https://github.com/avalonstrel/TCNet">codes</a>]
 
 * Leader-based Multi-scale Attention Deep Architectures for Person Re-identification. Xuelin Qian, Yanwei Fu, Tao Xiang, Yu-Gang Jiang, Xiangyang Xue, IEEE TPAMI to appear 
 
@@ -531,7 +531,7 @@ Some video demonstrations are hosted on YouTube.
 
 * Large-scale Datasets for Going Deeper in Image Understanding. He Zheng, Bo Zhao, Yixin Li, Baoming Yan, Rui Liang, Wenjia Wang, Shipei Zhou, Guosen Lin, Yanwei Fu, Yizhou Wang, Yonggang Wang. IEEE ICME 2019. A dataset paper collaborated with Sinovation Ventures, and Peking University
 
-* An End-to-End Architecture for Class-Incremental Object Detection with Knowledge Distillation. Yu Hao, Yanwei Fu, Yu-Gang Jiang, Qi Tian. IEEE ICME. 2019 <span class="award-tag">Best Paper Award</span> [<a href="https://github.com/jinyu121/CIOD">codes</a>]
+* An End-to-End Architecture for Class-Incremental Object Detection with Knowledge Distillation. Yu Hao, Yanwei Fu, Yu-Gang Jiang, Qi Tian. IEEE ICME 2019. <a class="presentation-tag" href="https://www.proceedings.com/content/049/049867webtoc.pdf#page=3">Oral</a> <span class="award-tag">Best Paper Award</span> [<a href="https://github.com/jinyu121/CIOD">codes</a>]
 
 * Multi-level Semantic Feature Augmentation for One-shot Learning. Zitian Chen, Yanwei Fu, Yinda Zhang, Yu-Gang Jiang, Xiangyang Xue, and Leonid Sigal. IEEE Transaction on Image Processing (IEEE TIP 2019)
 
@@ -539,7 +539,7 @@ Some video demonstrations are hosted on YouTube.
                 
 * WAVELET U-NET AND THE CHROMATIC ADAPTATION TRANSFORM FOR SINGLE IMAGE DEHAZING. Hao-Hsiang Yang, Yanwei Fu. IEEE ICIP 2019 [<a href="https://github.com/dectrfov/Wavelet-U-net-Dehazing">codes</a>]
                 
-* Image Deformation Meta-Networks for One-Shot Learning. Zitian Chen, Yanwei Fu, Yu-Xiong Wang, Lin Ma, Wei Liu, Martial Hebert. CVPR 2019 (Oral) [<a href="https://github.com/tankche1/IDeMe-Net">codes</a>] <span class="award-tag">Best Paper Finalist</span>
+* Image Deformation Meta-Networks for One-Shot Learning. Zitian Chen, Yanwei Fu, Yu-Xiong Wang, Lin Ma, Wei Liu, Martial Hebert. CVPR 2019. <a class="presentation-tag" href="https://cvpr2019.thecvf.com/program/main_conference">Oral</a> [<a href="https://github.com/tankche1/IDeMe-Net">codes</a>] <span class="award-tag">Best Paper Finalist</span>
 
 * Learning to Generate Posters of Scientific Papers by Probabilistic Graphical Models. Yu-ting Qiang, Yanwei Fu, Yanwei Fu, Xiao Yu, Yanwen Guo, Zhi-Hua Zhou and Leonid Sigal.  Journal of Computer Science and Technology (JCST). 2019
 
@@ -552,9 +552,9 @@ Some video demonstrations are hosted on YouTube.
 
 * Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images. Nanyang Wang, Yinda Zhang, Zhuwen Li, Yanwei Fu, Wei Liu, Yu-Gang Jiang. ECCV 2018   Arxiv: 1804.01654 Project page (<a href="https://github.com/nywang16/Pixel2Mesh">codes&amp;models</a>):http://bigvid.fudan.edu.cn/pixel2mesh/ 
 
-* MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning. Bo Zhao, Xinwei Sun, Yanwei Fu, Yizhou Wang, Yuan Yao. ICML 2018
+* MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning. Bo Zhao, Xinwei Sun, Yanwei Fu, Yizhou Wang, Yuan Yao. ICML 2018. <a class="presentation-tag" href="https://cfcs.pku.edu.cn/news/42cfcs239283.htm">Oral</a>
 
-* Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks. Yang He, Guoliang Kang, Xuanyi Dong, Yanwei Fu, Yi Yang. IJCAI 2018
+* Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks. Yang He, Guoliang Kang, Xuanyi Dong, Yanwei Fu, Yi Yang. IJCAI 2018. <a class="presentation-tag" href="https://he-y.github.io/uploads/resume.pdf#page=2">Oral</a>
 
 * Harnessing Synthesized Abstraction Images to Improve Facial Attribute Recognition. Keke He, Yanwei Fu, Wuhao Zhang, Chengjie Wang，Yu-Gang Jiang, Feiyue Huang, Xiangyang Xue. IJCAI 2018
 * <a href="https://arxiv.org/abs/1710.10386">Dual Skipping Networks</a>   Changmao Cheng, Yanwei Fu, Yu-Gang Jiang, Wei Liu, Wenlian Lu, Jianfeng Feng, Xiangyang Xue. CVPR 2018 <a href="https://challenger.ai/competition/zsl2018/subject">https://challenger.ai/competition/zsl2018/</a> We help Sinovation Ventures to host a zero-shot grant challenge. 
@@ -586,15 +586,15 @@ Some video demonstrations are hosted on YouTube.
 
 * <a href="http://multimediaeval.org/mediaeval2016/mediainterestingness/">BigVid at MediaEval 2016: Predicting Interestingness in Images and Videos(Media Interestingness challenges)</a> Baohan Xu, Yanwei Fu, Yu-Gang Jiang. MediaEval 2016 Workshop, 2016. 
 
-* <a href="http://www.yugangjiang.info/research/VideoEmotions/index.html">Video Emotion Recognition with Transferred Deep Feature Encodings </a> Baohan Xu, Yanwei Fu, Yu-Gang Jiang, Boyang Li and Leonid Sigal; ICMR 2016 (long paper, oral, accept rate 18%)<a href="file:///Users/yanwei/yanweifu.github.io/ICMR2016_V5-baohan">[slides]</a>
+* <a href="http://www.yugangjiang.info/research/VideoEmotions/index.html">Video Emotion Recognition with Transferred Deep Feature Encodings </a> Baohan Xu, Yanwei Fu, Yu-Gang Jiang, Boyang Li and Leonid Sigal; ICMR 2016 (long paper; acceptance rate 18%). <a class="presentation-tag" href="{{ '/yanwei_cv.pdf' | relative_url }}#page=2">Oral</a> <a href="file:///Users/yanwei/yanweifu.github.io/ICMR2016_V5-baohan">[slides]</a>
 
 * <a href="http://arxiv.org/pdf/1405.6434v2.pdf">MULTI-VIEW METRIC LEARNING FOR MULTI-VIEW VIDEO SUMMARIZATION </a>Yanwei Fu, Arxiv paper.
 
 * <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7159107">Robust Estimation of Subjective Visual Properties from Crowdsourced Pairwise Labels </a> Yanwei Fu; Timothy M. Hospedales; Jiechao Xiong; Tao Xiang; Shaogang Gong ; Yuan Yao; Yizhou Wang; (IEEE TPAMI,March 2016, vol 38(3), Page 563-577, SCI/EI, impact factor 6.077 <a href="https://github.com/yanweifu/Robust_ranking">[codes]</a>
 
-* <a href="./">Harnessing Object and Scene Semantics for Large-Scale Video Understanding </a> ZuXuan Wu, Yanwei Fu, Yu-gang Jiang, Leonid Sigal (CVPR 2016, Spotlight)<a href="http://www.eurekalert.org/pub_releases/2016-06/dr-oas062316.php">[Press Release]</a> <a href="http://www.science20.com/news_articles/object_and_scene_recognition_software_work_together_to_understand_video_content-175270">[Science20]</a><a href="http://cacm.acm.org/news/204186-object-and-scene-recognition-software-work-together-to-understand-video-content/fulltext">[Communications of             the ACM] [</a> <a href="http://www.business-standard.com/article/news-ians/this-software-can-recognise-unseen-events-in-youtube-videos-116062400527_1.html">Business Standard</a>] [<a href="http://www.sciencenewsline.com/summary/2016062314080018.html">Science Newsline Technology] [</a><a href="https://www.eurekalert.org/pub_releases/2016-06/dr-oas062316.php">Eurekalert</a>][<a href="http://phys.org/news/2016-06-scene-recognition-software-video-content.html">PhyORG</a>]
+* <a href="./">Harnessing Object and Scene Semantics for Large-Scale Video Understanding </a> ZuXuan Wu, Yanwei Fu, Yu-gang Jiang, Leonid Sigal (CVPR 2016). <a class="presentation-tag" href="https://cvpr2016.thecvf.com/program/main_conference">Spotlight</a> <a href="http://www.eurekalert.org/pub_releases/2016-06/dr-oas062316.php">[Press Release]</a> <a href="http://www.science20.com/news_articles/object_and_scene_recognition_software_work_together_to_understand_video_content-175270">[Science20]</a><a href="http://cacm.acm.org/news/204186-object-and-scene-recognition-software-work-together-to-understand-video-content/fulltext">[Communications of             the ACM] [</a> <a href="http://www.business-standard.com/article/news-ians/this-software-can-recognise-unseen-events-in-youtube-videos-116062400527_1.html">Business Standard</a>] [<a href="http://www.sciencenewsline.com/summary/2016062314080018.html">Science Newsline Technology] [</a><a href="https://www.eurekalert.org/pub_releases/2016-06/dr-oas062316.php">Eurekalert</a>][<a href="http://phys.org/news/2016-06-scene-recognition-software-video-content.html">PhyORG</a>]
                          
-* <a href="https://www.disneyresearch.com/publication/semi-supervised-vocabulary-informed-learning/">Semi-supervised Vocabulary-informed Learning</a> Yanwei Fu and Leonid Sigal (CVPR 2016, oral)<a href="http://www.eurekalert.org/pub_releases/2016-06/dr-cvs062316.php"> [Press Release]</a> <a href="http://phys.org/news/2016-06-vision-word.html">[Science 2.0] [PhyORG]</a> <b><a href="http://www.sciencenewsline.com/summary/2016062314080016.html">[ScienceNewsline Technology]</a> <a href="https://arxiv.org/abs/1604.07093"> [arxiv version]</a> <a href="semi_supervised_vocab/yanwei_cvpr16slides.pdf">[Slides]</a> 
+* <a href="https://www.disneyresearch.com/publication/semi-supervised-vocabulary-informed-learning/">Semi-supervised Vocabulary-informed Learning</a> Yanwei Fu and Leonid Sigal (CVPR 2016). <a class="presentation-tag" href="https://cvpr2016.thecvf.com/program/main_conference">Oral</a> <a href="http://www.eurekalert.org/pub_releases/2016-06/dr-cvs062316.php"> [Press Release]</a> <a href="http://phys.org/news/2016-06-vision-word.html">[Science 2.0] [PhyORG]</a> <b><a href="http://www.sciencenewsline.com/summary/2016062314080016.html">[ScienceNewsline Technology]</a> <a href="https://arxiv.org/abs/1604.07093"> [arxiv version]</a> <a href="semi_supervised_vocab/yanwei_cvpr16slides.pdf">[Slides]</a>
 
 * <a href="http://cs.brown.edu/%7Els/Publications/aaai2016kuznetsova.pdf">Learning to Generate Posters of Scientific Papers</a> Yu-ting Qiang, Yanwei Fu, Yanwen Guo, Zhi-hua Zhou, Leonid Sigal, AAAI 2016. <a href="http://www.weibo.com/2536116592/DoliWoqpO?type=comment#_rnd1463339222782">Press/Blog Release   Weibo</a>  Twitter Comments
 
@@ -613,7 +613,7 @@ Some video demonstrations are hosted on YouTube.
 
 * <a href="embedding/eccv14_attrb_workshop.pdf">Transductive Multi-calss and Multi-label Zero-shot Learning </a> Fu, Y.;Yang, Y.; Timothy M. Hospedales; Tao Xiang; Shaogang Gong (ECCV 2014 workshop on Parts and Attribute)<a href="https://github.com/yanweifu/embedding_zero-shot-learning"> code</a> 
 
-* <a href="embedding/Multilabel/index.html">Transductive Multi-label Zero-shot Learning</a> Yanwei Fu; Yongxin Yang; Timothy M. Hospedales; Tao Xiang; Shaogang Gong (BMVC 2014)   <a href="embedding/Multilabel/mat/readme.txt">Dataset and codes</a>  
+* <a href="embedding/Multilabel/index.html">Transductive Multi-label Zero-shot Learning</a> Yanwei Fu; Yongxin Yang; Timothy M. Hospedales; Tao Xiang; Shaogang Gong (BMVC 2014) <a class="presentation-tag" href="{{ '/yanwei_cv.pdf' | relative_url }}#page=2">Oral</a>   <a href="embedding/Multilabel/mat/readme.txt">Dataset and codes</a>
 
 * <a href="ranking/index.html">Interestingness Prediction by Robust Learning to Rank </a>  Yanwei Fu; Timothy M. Hospedales; Tao Xiang; Shaogang Gong; Yuan Yao. (ECCV 2014, SCI/EI)
 
