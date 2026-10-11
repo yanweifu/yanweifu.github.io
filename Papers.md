@@ -5,7 +5,7 @@ intro: Research publications in machine learning, computer vision, robotics, and
 ---
 [Selected paper honors](./#honors) · [Google Scholar](https://scholar.google.co.uk/citations?user=Vg54TcsAAAAJ&hl=en) · [DBLP](https://dblp.org/pid/63/9065.html)
 
-Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Linked labels open the conference program or author record. Some video demonstrations are hosted on YouTube.
+Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Linked labels open the conference program or author record.
 
 
 ## 2026
@@ -324,8 +324,6 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * LoRD: Local 4D Implicit Representation for High-Fidelity Dynamic Human Modeling. Boyan Jiang, Xinlin Ren, Mingsong Dou, Xiangyang Xue, Yanwei Fu, Yinda Zhang. ECCV 2022
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/dXuZVrmYKxg" title="LoRD: Local 4D Implicit Representation for High-Fidelity Dynamic Human Modeling" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 * Learning Prior Feature and Attention Enhanced Image Inpainting, Chenjie Cao, Qiaole Dong, Yanwei Fu ECCV 2022 
 
 * RCLaneDet: Relay Chain Prediction for Lane Detection. Shenghua Xu, Xinyue Cai, Bin Zhao, Li Zhang, Hang Xu, Yanwei Fu, Xiangyang Xue. ECCV 2022 
@@ -350,8 +348,6 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * H4D: Human 4D Modeling by Learning Neural Compositional Representation. Boyan Jiang, Yinda Zhang, Xiangyang Xue, Yanwei Fu. CVPR 2022 
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/_Gue5kxtBx8" title="H4D: Human 4D Modeling by Learning Neural Compositional Representation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 * Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels. Yikai Wang, Xinwei Sun, Yanwei Fu. CVPR 2022 
 
 * Incremental Transformer Structure Enhanced Image Inpainting with Masking Positional Encoding. Qiaole Dong, Chenjie Cao, Yanwei Fu. CVPR 2022 <a href="https://dqiaole.github.io/ZITS_inpainting/" project="" page="">Project</a> 
@@ -359,13 +355,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 * SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation. Haitao Lin, Zichang Liu, Chilam Cheang, Yanwei Fu, Guodong Guo, Xiangyang Xue. CVPR 2022  <a href="https://hetolin.github.io/SAR-Net/">Project pages</a>
 
 
-<iframe width="300" height="160"   src="https://www.youtube.com/embed/b4CLMdhJV58" title="SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="300" height="160"  src="https://www.youtube.com/embed/bW30eQMYqRs" title="SAR-Net: Shape Alignment and Recovery Network for Category-level 6D Object Pose and Size Estimation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 * ManiTrans: Entity-Level Text-Guided Image Manipulation via Token-wise Semantic Alignment and Generation. Jianan Wang, Guansong Lu, Hang Xu, Zhenguo Li, Chunjing Xu, Yanwei Fu. CVPR 2022. <a class="presentation-tag" href="https://docs.google.com/spreadsheets/d/1ilb2Wqea0uVKxlJsdJHR-3IVaWeqsWyk2M2aGmYVAPE/edit">Oral</a> <a href="https://jawang19.github.io/manitrans/index.html" project="" page="">Project</a>
-
-<iframe width="300" height="160" src="https://www.youtube.com/embed/nctTk-W7iHg" title="ManiTrans: Entity Level Text Guided Image Manipulation via Token Wise Semantic Alignment | CVPR 2022" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Ranking Distance Calibration for Cross-Domain Few-Shot Learning. Pan Li, Shaogang Gong, Chengjie Wang, Yanwei Fu. CVPR 2022 
 
@@ -379,13 +369,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions. Haitao Lin, Chilam Cheang, Yanwei Fu, Xiangyang Xue, ICRA 2022 <a href="https://baboon527.github.io/lang_6d/">Project pages</a>
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/YFxevuItHNQ" title="Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="300" height="160" src="https://www.youtube.com/embed/ZaFNIyuoKrw" title="Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions: Demo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 * I Know What You Draw:Learning Grasp Detection Conditioned on a Few Freehand Sketches. Chilam Cheang, Haitao Lin, Yanwei Fu, Xiangyang Xue, ICRA 2022 <a href="https://hetolin.github.io/Skt_grasp/">Project pages</a>
-
-<iframe width="300" height="160" src="https://www.youtube.com/embed/aEqF1yxwvqQ" title="I Know What You Draw: Learning Grasp Detection Conditioned on a few freehand Sketches" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * HandO: a hybrid 3D hand–object reconstruction model for unknown objects. Hang Yu, Yanwei Fu, Xiangyang Xue. Multimedia Systems. to appear 
 
@@ -398,8 +382,6 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 * Learning a Sketch Tensor Space for Image Inpainting of Man-made Scenes. Chenjie Cao, Yanwei Fu. ICCV 2021 
 
 * Deep Hybrid Self-Prior for Full 3D Mesh Generation. Xingkui Wei, Zhenqing Chen Yanwei Fu, Zhaopeng Cui, Yinda Zhang, Xiangyang Xue. ICCV 2021 
-
-<iframe width="300" height="160" src="https://www.youtube.com/embed/GVTV0cJJUzU" title="Deep Hybrid Self-Prior for Full 3D Mesh Generation" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * A Simple Feature Augmentation for Domain Generalisation. Pan Li, Da Li, Wei Li Shanggang Gong, Yanwei Fu, Timothy Hospedales, ICCV 2021 
 
@@ -416,8 +398,6 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 *  NMS-Loss: Learning with Non-Maximum Suppression for Crowded Pedestrian Detection. Zekun Luo, Zheng Fang, Sixiao Zheng, Yabiao Wang, Yanwei Fu. ACM ICMR 2021
 
 *  Can Action be Imitated? Learn to Reconstruct and Transfer Human Dynamics from Videos. YuQian Fu. Yanwei Fu, Yu-Gang Jiang, ACM ICMR 2021
-
-<iframe width="300" height="160"  src="https://www.youtube.com/embed/9fNKSZdsAG8" title="Video for Learning 3D Human Dynamics from Video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *  Neural Symbolic Representation Learning for Image Captioning. Xiaomei Wang, Lin Ma, Yanwei Fu, Xiangyang Xue. ACM ICMR 2021
 
@@ -436,8 +416,6 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 *  Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers. Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao Xiang, Philip Torr, Li Zhang. CVPR 2021. <span class="award-tag">WAIC 2023 Youth Outstanding Paper Award · Recipient: Sixiao Zheng</span>
 
 *  Learning Compositional Representation for 4D Captures with Neural ODE. Boyan Jiang, Xingkui Wei, Yinda Zhang, Xiangyang Xue, Yanwei Fu. CVPR2021 
-
-<iframe width="300" height="160"  src="https://www.youtube.com/embed/F-zYAPyAmWE" title="Learning Compositional Representation for 4D Captures with Neural ODE (CVPR 2021)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *  Learning Dynamic Alignment via Meta-filter for Few-shot Learning. Chengming Xu, Li Zhang, Jilin Li, Feiyue Huang, Changjie Wang, Yanwei Fu, Xiangyang Xue. CVPR 2021
 
@@ -484,15 +462,9 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * Sketch-BERT: Learning Sketch Bidirectional Encoder Representation from Transformers by Self-supervised Learning of Sketch Gestalt. Hangyu Lin, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. CVPR 2020 
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/-Rrx761syWo" title="Sketch-BERT: Learning Sketch Bidirectional Encoder Representation From Transformers by Self-Super..." frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 * Neural Pose Transfer by Spatially Adaptive Instance Normalization. Jiashun Wang, Chao Wen, Yanwei Fu, Haitao Lin, Tianyun Zhou, Xiangyang Xue, Yinda Zhang. CVPR 2020. 
 
-<iframe width="300" height="160" src="https://www.youtube.com/embed/1aQAc-bax9U" title="Video of Neural Pose Transfer" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 * Instance Credibility Inference for Few-Shot Learning. Yikai Wang, Chengming Xu, Chen Liu, Li Zhang, Yanwei Fu, CVPR 2020. 
-
-<iframe width="300" height="160"  src="https://www.youtube.com/embed/H0Qktvncoi8" title="Instance Credibility Inference for Few-Shot Learning" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Feature Deformation Meta-Networks in Image Captioning of Novel Objects. Tingjia Cao, Ke Han, Xiaomei Wang, Lin Ma, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue, AAAI 2020 
 
@@ -607,7 +579,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 * <a href="thesis/yanwei_thesis.pdf">Attribute Learning for Image/Video Understanding (my thesis) </a> Yanwei Fu
 
 ## 2014
-* Transductive Multi-view Zero-Shot Learning Yanwei Fu; Timothy M. Hospedales; Tao Xiang; Shaogang Gong. IEEE TPAMI, 2015; <a href="https://www.youtube.com/watch?v=jBnCcr-3bXc">Invited talk    Youtube-talk(by Prof. Tao Xiang)   Youtube-talk(by Dr. Hopspedales)</a>
+* Transductive Multi-view Zero-Shot Learning Yanwei Fu; Timothy M. Hospedales; Tao Xiang; Shaogang Gong. IEEE TPAMI, 2015.
 
 *  Transductive Multi-view Embedding for Zero-Shot Recognition and Annotation Yanwei Fu; Timothy M. Hospedales; Tao Xiang; Fu, Z.; Shaogang Gong. (ECCV 2014  SCI/EI) 
 
@@ -623,7 +595,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 ## 2012
 
-* Attribute Learning for Understanding Unstructured Social Activity  Yanwei Fu ;Timothy M. Hospedales; Tao Xiang; Shaogang Gong. (ECCV 2012, SCI/EI).<a href="file:///Users/fuylocal/yanweifu.github.io/visualization.html"> Youtube Demo</a>
+* Attribute Learning for Understanding Unstructured Social Activity  Yanwei Fu ;Timothy M. Hospedales; Tao Xiang; Shaogang Gong. (ECCV 2012, SCI/EI).
 
 ## 2011
 
@@ -631,7 +603,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 ## 2010
 
-* Multi-view Video Summarization Yanwei Fu, Yanwen Guo; Yanshu Zhu; Feng Liu; Chanming Song; Zhi-hua Zhou. (IEEE TMM Nov 2010, vol 12(7), Page 717-729, SCI/EI)<a href="http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?arnumber=5482155" class="btn btn-primary"> PDF</a><a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/summarization/summarization.html"> dataset  </a><a href="file:///Users/fuylocal/yanweifu.github.io/visualization_multiview.html">Youtube Demo </a><a href="http://mmc.committees.comsoc.org/files/2016/04/MMTC-RLetter-Oct2011.pdf">Academic-Press Report and Review by IEEE MMTC R-letter, Oct 2011 (Page 13)</a>
+* Multi-view Video Summarization Yanwei Fu, Yanwen Guo; Yanshu Zhu; Feng Liu; Chanming Song; Zhi-hua Zhou. (IEEE TMM Nov 2010, vol 12(7), Page 717-729, SCI/EI)<a href="http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?arnumber=5482155" class="btn btn-primary"> PDF</a><a href="http://www.sdspeople.fudan.edu.cn/fuyanwei/summarization/summarization.html"> dataset  </a><a href="http://mmc.committees.comsoc.org/files/2016/04/MMTC-RLetter-Oct2011.pdf">Academic-Press Report and Review by IEEE MMTC R-letter, Oct 2011 (Page 13)</a>
 
 ## Other material:
 <a href="visualization.html"> Interesting Visualisation of the work above </a>
