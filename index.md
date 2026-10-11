@@ -2,6 +2,7 @@
 layout: default
 home: true
 title: Yanwei Fu
+lang: en
 image: /assets/images/yanwei-fu.png
 ---
 

@@ -1,26 +1,42 @@
 <!doctype html>
-<html lang="{{ site.lang | default: 'en' }}">
+{% assign is_chinese = false %}
+{% assign home_url = '/' %}
+{% if page.lang == 'zh-CN' %}
+  {% assign is_chinese = true %}
+  {% assign home_url = '/zh/' %}
+{% endif %}
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#182d43">
     {% seo %}
+    {% if page.home %}
+      <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+      <link rel="alternate" hreflang="zh-CN" href="{{ '/zh/' | absolute_url }}">
+      <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+    {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
     <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
     {% include head-custom.html %}
   </head>
-  <body class="{% if page.home %}home-page{% else %}content-page{% endif %}">
-    <a class="skip-link" href="#main-content">Skip to content</a>
+  <body class="{% if page.home %}home-page{% else %}content-page{% endif %}{% if is_chinese %} lang-zh{% endif %}">
+    <a class="skip-link" href="#main-content">{% if is_chinese %}跳至正文{% else %}Skip to content{% endif %}</a>
     <header class="site-header">
       <div class="header-inner">
-        <a class="site-brand" href="{{ '/' | relative_url }}">Yanwei Fu<span>Fudan University</span></a>
-        <nav class="site-nav" aria-label="Main navigation">
-          <a href="{{ '/' | relative_url }}" {% if page.home %}aria-current="page"{% endif %}>Home</a>
-          <a href="{{ '/#honors' | relative_url }}">Honors</a>
-          <a href="{{ '/Papers.html' | relative_url }}" {% if page.url == '/Papers.html' %}aria-current="page"{% endif %}>Publications</a>
-          <a href="{{ '/Students.html' | relative_url }}" {% if page.url == '/Students.html' %}aria-current="page"{% endif %}>People</a>
-          <a href="{{ '/Dataset.html' | relative_url }}" {% if page.url == '/Dataset.html' %}aria-current="page"{% endif %}>Resources</a>
+        <a class="site-brand" href="{{ home_url | relative_url }}">{% if is_chinese %}付彦伟<span>复旦大学</span>{% else %}Yanwei Fu<span>Fudan University</span>{% endif %}</a>
+        <nav class="site-nav" aria-label="{% if is_chinese %}主导航{% else %}Main navigation{% endif %}">
+          <a href="{{ home_url | relative_url }}" {% if page.home %}aria-current="page"{% endif %}>{% if is_chinese %}首页{% else %}Home{% endif %}</a>
+          <a href="{{ home_url | append: '#honors' | relative_url }}">{% if is_chinese %}荣誉{% else %}Honors{% endif %}</a>
+          <a href="{{ '/Papers.html' | relative_url }}" {% if page.url == '/Papers.html' %}aria-current="page"{% endif %}>{% if is_chinese %}论文{% else %}Publications{% endif %}</a>
+          <a href="{{ '/Students.html' | relative_url }}" {% if page.url == '/Students.html' %}aria-current="page"{% endif %}>{% if is_chinese %}团队{% else %}People{% endif %}</a>
+          <a href="{{ '/Dataset.html' | relative_url }}" {% if page.url == '/Dataset.html' %}aria-current="page"{% endif %}>{% if is_chinese %}资源{% else %}Resources{% endif %}</a>
         </nav>
+        {% if is_chinese %}
+          <a class="language-switch" href="{{ '/' | relative_url }}" lang="en" hreflang="en" aria-label="切换到英文主页">English</a>
+        {% else %}
+          <a class="language-switch" href="{{ '/zh/' | relative_url }}" lang="zh-CN" hreflang="zh-CN" aria-label="View the Chinese homepage">中文</a>
+        {% endif %}
       </div>
     </header>
     <main id="main-content" class="main-content" tabindex="-1">
@@ -35,9 +51,9 @@
     </main>
     <footer class="site-footer">
       <div class="footer-inner">
-        <p>Yanwei Fu <span>·</span> School of Data Science, Fudan University</p>
+        <p>{% if is_chinese %}付彦伟 <span>·</span> 复旦大学大数据学院{% else %}Yanwei Fu <span>·</span> School of Data Science, Fudan University{% endif %}</p>
         <a href="mailto:yanweifu@fudan.edu.cn">yanweifu@fudan.edu.cn</a>
-        <p class="footer-note">{% if page.home %}Updated October 2026 <span>·</span> {% endif %}<a href="https://github.com/yanweifu/yanweifu.github.io">GitHub Pages</a></p>
+        <p class="footer-note">{% if page.home %}{% if is_chinese %}更新于 2026 年 10 月{% else %}Updated October 2026{% endif %} <span>·</span> {% endif %}<a href="https://github.com/yanweifu/yanweifu.github.io">GitHub Pages</a></p>
       </div>
     </footer>
   </body>

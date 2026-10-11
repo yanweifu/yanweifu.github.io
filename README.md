@@ -5,6 +5,7 @@ Source for [yanweifu.github.io](https://yanweifu.github.io), built with Jekyll o
 ## Editing the site
 
 - `index.md`: biography, paper honors, collaborative research awards, fellowships, research themes, selected publications, CVPR tutorials, service, and admissions.
+- `zh.md`: Chinese homepage at `/zh/`, with the same honors, sources, research themes, selected publications, and admissions information.
 - `Papers.md`: complete publication archive. Keep paper titles and award labels consistent with the homepage.
 - `Students.md`: group members and alumni.
 - `Dataset.md`: datasets, code, and project resources.
@@ -12,6 +13,8 @@ Source for [yanweifu.github.io](https://yanweifu.github.io), built with Jekyll o
 - `_layouts/default.html`: shared navigation, page structure, and footer.
 - `assets/css/style.scss`: responsive styling, including mobile and print layouts.
 - `assets/images/yanwei-fu.png`: the existing homepage portrait, extracted from its original embedded image.
+
+The root homepage remains English by default. The header's language link switches between `/` and `/zh/`; no browser-language detection or saved preference redirects visitors. Keep factual updates and source links consistent between both homepage versions. The Chinese version uses Chinese navigation and explanatory text while retaining original paper titles and author lists. Publication, people, and resource archives retain their existing routes.
 
 Paper awards link to official award records where available. The 2024 Highest Impact Award links to coauthor Yixiong Chen's record and recognizes a CVPR 2020 Biometrics Workshop paper. TC-GEN's Top Viewed Article recognition is confirmed by the owner's Wiley certificate, supplied October 11, 2026: the certificate badge is dated 2025 and covers JAMES articles published January 1–December 31, 2024, with view counts taken 12 months after publication. Use 2025 as the recognition year; May 2026 is the retained news-entry date. The certificate does not specify a numerical rank or percentile. Preserve the distinction between winners, finalists, and award candidates; identify workshop awards and named recipients explicitly. The WAIC award belongs to coauthored work with Sixiao Zheng as recipient. The State Natural Science Award is a team award for the 2023 award year, announced in 2024.
 
