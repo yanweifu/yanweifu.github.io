@@ -297,11 +297,8 @@ image: /assets/images/yanwei-fu.png
 <section id="talks" class="home-section talks-section" aria-labelledby="talks-title">
   <h2 id="talks-title">Selected talks</h2>
   <ul class="talk-list">
-    <li><span class="talk-meta">CVPR 2024</span><div><a href="https://drive.google.com/file/d/1xmFiaprtdIcTiijeuiikby-MGUsjusND/view?usp=sharing">More Real-world Applications by Object-centric Representations</a></div></li>
     <li><span class="talk-meta">SNU 2024</span><div><a href="https://cse.snu.ac.kr/en/community/seminar/1059">Unlocking the Potential of Large Models for Vision Related Tasks</a></div></li>
-    <li><span class="talk-meta">CVPR 2023</span><div><a href="https://fsl-fudan.github.io/pdf/fsl-by-stats.pdf">Few-shot Learning by Statistical Methods</a><small> · with Yikai Wang</small></div></li>
     <li><span class="talk-meta">Fudan 2023</span><div><a href="https://news.fudan.edu.cn/2023/0912/c236a136755/page.htm">Do we really know a model’s performance in the wild?</a></div></li>
     <li><span class="talk-meta">ACCV 2022</span><div><a href="https://dqiaole.github.io/priors_guided_image_editing_synthesis/pdf/accv2022_tutorial_yanwei_fu.pdf">The Priors Guided Image Synthesis and Editing</a></div></li>
-    <li><span class="talk-meta">CVPR 2022</span><div><a href="https://sparse-learning.github.io/pdf/YikaiWang.pdf">Sparse Learning in Noisy Data Detection</a><small> · with Yikai Wang</small></div></li>
   </ul>
 </section>
