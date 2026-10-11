@@ -300,6 +300,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
 <section id="talks" class="home-section talks-section" aria-labelledby="talks-title">
   <h2 id="talks-title">代表性报告</h2>
   <ul class="talk-list">
+    <li><span class="talk-meta">KAIST 2026</span><div>学术报告</div></li>
     <li><span class="talk-meta">首尔大学 2024</span><div><a href="https://cse.snu.ac.kr/en/community/seminar/1059">释放大模型在视觉任务中的潜力</a></div></li>
     <li><span class="talk-meta">复旦 2023</span><div><a href="https://news.fudan.edu.cn/2023/0912/c236a136755/page.htm">我们真的了解模型在真实环境中的表现吗？</a></div></li>
     <li><span class="talk-meta">ACCV 2022</span><div><a href="https://dqiaole.github.io/priors_guided_image_editing_synthesis/pdf/accv2022_tutorial_yanwei_fu.pdf">先验引导的图像合成与编辑</a></div></li>
