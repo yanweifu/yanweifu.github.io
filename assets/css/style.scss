@@ -126,6 +126,7 @@ pre { padding: 18px; overflow: auto; }
 .talk-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 28px; font-size: 13px; line-height: 1.6; }
 .talk-list li { display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: 10px; align-items: baseline; margin: 0; }
 .talk-meta, .talk-list small { color: var(--muted); font-size: 11px; }
+.talk-list small { white-space: nowrap; }
 .talk-list a { text-decoration: underline; overflow-wrap: anywhere; }
 .home-page .site-footer { margin-top: 32px; }
 .page-heading { padding: 52px 0 30px; border-bottom: 1px solid var(--line); margin-bottom: 36px; }
