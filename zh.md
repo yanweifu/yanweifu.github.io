@@ -33,81 +33,6 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
   </figure>
 </section>
 
-<section id="honors" class="home-section honors-section" aria-labelledby="honors-title">
-  <p class="eyebrow">代表性论文荣誉</p>
-  <div class="section-heading"><h2 id="honors-title">论文奖励与学术认可</h2></div>
-  <nav class="honor-nav" aria-label="荣誉类别">
-    <a href="#honors">论文荣誉</a>
-    <a href="#research-awards">科研奖励</a>
-    <a href="#fellowships">个人荣誉</a>
-  </nav>
-  <ol class="honor-list">
-    <li class="honor-item">
-      <span class="honor-year">2026</span>
-      <div>
-        <p class="honor-label">最佳论文奖候选 <span>CVPR 2026 · Oral / 口头报告</span></p>
-        <p class="honor-title"><a href="https://jianxgao.github.io/CineBrain/">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></p>
-        <a class="honor-source" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">会议官方日程 ↗</a>
-      </div>
-    </li>
-    <li class="honor-item">
-      <span class="honor-year">2025</span>
-      <div>
-        <p class="honor-label">Top Viewed Article · 高阅读量论文 <span>Wiley · Journal of Advances in Modeling Earth Systems（JAMES）</span></p>
-        <p class="honor-title"><a href="https://doi.org/10.1029/2023MS004203">TC-GEN: Data-Driven Tropical Cyclone Downscaling Using Machine Learning-Based High-Resolution Weather Model</a></p>
-        <p class="honor-collaboration">与麻省理工学院 <a href="https://eaps.mit.edu/people/faculty/kerry-a-emanuel/"><strong>Kerry Emanuel</strong></a> 教授（<strong>美国国家科学院院士、美国艺术与科学学院院士</strong>），以及斯坦福大学 <a href="https://profiles.stanford.edu/noah-diffenbaugh">Noah S. Diffenbaugh</a> 和 <a href="https://med.stanford.edu/profiles/eran-bendavid">Eran Bendavid</a> 合作完成。</p>
-        <p class="honor-credit">Wiley 于 2025 年授予认证：在 JAMES 2024 年发表的论文中获评 Top Viewed Article，阅读量统计截至论文发表后 12 个月。</p>
-        <div class="publication-links">
-          <a class="honor-source" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023MS004203">期刊论文 ↗</a>
-          <a class="honor-source" href="{{ '/assets/honors/tc-gen-wiley-top-viewed-article-2025.jpg' | relative_url }}">查看证书 ↗</a>
-        </div>
-      </div>
-    </li>
-    <li class="honor-item">
-      <span class="honor-year">2025</span>
-      <div>
-        <p class="honor-label">杰出长论文奖 <span>ICLR 2025 DeLTa 工作坊</span></p>
-        <p class="honor-title"><a href="https://unidb-soc.github.io/UniDB_page/">A Unified Diffusion Bridge Framework via Stochastic Optimal Control</a></p>
-        <a class="honor-source" href="https://delta-workshop.github.io/#awards">官方获奖公告 ↗</a>
-      </div>
-    </li>
-    <li class="honor-item">
-      <span class="honor-year">2024</span>
-      <div>
-        <p class="honor-label">Highest Impact Award · 最高影响力奖 <span>IEEE Computer Society Biometrics Workshop</span></p>
-        <p class="honor-title"><a href="https://openaccess.thecvf.com/content_CVPRW_2020/html/w48/Wan_When_Person_Re-Identification_Meets_Changing_Clothes_CVPRW_2020_paper.html">When Person Re-Identification Meets Changing Clothes</a></p>
-        <p class="honor-credit">发表于 CVPR 2020 Biometrics 工作坊 · 2024 年获奖</p>
-        <a class="honor-source" href="https://schuture.github.io/">合作作者获奖记录 ↗</a>
-      </div>
-    </li>
-    <li class="honor-item">
-      <span class="honor-year">2023</span>
-      <div>
-        <p class="honor-label">青年优秀论文奖 <span>世界人工智能大会（WAIC）</span></p>
-        <p class="honor-title"><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Rethinking_Semantic_Segmentation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_CVPR_2021_paper.html">SETR: Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers</a></p>
-        <p class="honor-credit">共同署名成果 · 获奖人：郑思晓（Sixiao Zheng）</p>
-        <a class="honor-source" href="https://www.waicyop.cn/article/11">官方获奖名单 ↗</a>
-      </div>
-    </li>
-    <li class="honor-item">
-      <span class="honor-year">2019</span>
-      <div>
-        <p class="honor-label">最佳论文奖 <span>IEEE ICME 2019</span></p>
-        <p class="honor-title"><a href="https://doi.org/10.1109/ICME.2019.00009">An End-to-End Architecture for Class-Incremental Object Detection with Knowledge Distillation</a></p>
-        <a class="honor-source" href="https://www.2019.ieeeicme.org/167.99.148.246/conf_awards.html">官方获奖公告 ↗</a>
-      </div>
-    </li>
-    <li class="honor-item">
-      <span class="honor-year">2019</span>
-      <div>
-        <p class="honor-label">最佳论文奖入围（Finalist） <span>CVPR 2019 · Oral / 口头报告</span></p>
-        <p class="honor-title"><a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Image_Deformation_Meta-Networks_for_One-Shot_Learning_CVPR_2019_paper.html">Image Deformation Meta-Networks for One-Shot Learning</a></p>
-        <a class="honor-source" href="https://cvpr2019.thecvf.com/files/CVPR%202019%20-%20Welcome%20Slides%20Final.pdf#page=26">官方获奖公告 ↗</a>
-      </div>
-    </li>
-  </ol>
-</section>
-
 <section id="research-awards" class="home-section" aria-labelledby="research-awards-title">
   <h2 id="research-awards-title">国家与省部级科研奖励</h2>
   <ol class="honor-list">
@@ -285,6 +210,81 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     <li><time>2011–2014</time><p><strong>伦敦玛丽女王大学计算机视觉博士</strong><small>导师：Tao Xiang、Shaogang Gong</small></p></li>
     <li><time>2008–2011</time><p><strong>南京大学计算机科学硕士</strong></p></li>
   </ul>
+</section>
+
+<section id="honors" class="home-section honors-section" aria-labelledby="honors-title">
+  <p class="eyebrow">代表性论文荣誉</p>
+  <div class="section-heading"><h2 id="honors-title">论文奖励与学术认可</h2></div>
+  <nav class="honor-nav" aria-label="荣誉类别">
+    <a href="#honors">论文荣誉</a>
+    <a href="#research-awards">科研奖励</a>
+    <a href="#fellowships">个人荣誉</a>
+  </nav>
+  <ol class="honor-list">
+    <li class="honor-item">
+      <span class="honor-year">2026</span>
+      <div>
+        <p class="honor-label">最佳论文奖候选 <span>CVPR 2026 · Oral / 口头报告</span></p>
+        <p class="honor-title"><a href="https://jianxgao.github.io/CineBrain/">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></p>
+        <a class="honor-source" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">会议官方日程 ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2025</span>
+      <div>
+        <p class="honor-label">Top Viewed Article · 高阅读量论文 <span>Wiley · Journal of Advances in Modeling Earth Systems（JAMES）</span></p>
+        <p class="honor-title"><a href="https://doi.org/10.1029/2023MS004203">TC-GEN: Data-Driven Tropical Cyclone Downscaling Using Machine Learning-Based High-Resolution Weather Model</a></p>
+        <p class="honor-collaboration">与麻省理工学院 <a href="https://eaps.mit.edu/people/faculty/kerry-a-emanuel/"><strong>Kerry Emanuel</strong></a> 教授（<strong>美国国家科学院院士、美国艺术与科学学院院士</strong>），以及斯坦福大学 <a href="https://profiles.stanford.edu/noah-diffenbaugh">Noah S. Diffenbaugh</a> 和 <a href="https://med.stanford.edu/profiles/eran-bendavid">Eran Bendavid</a> 合作完成。</p>
+        <p class="honor-credit">Wiley 于 2025 年授予认证：在 JAMES 2024 年发表的论文中获评 Top Viewed Article，阅读量统计截至论文发表后 12 个月。</p>
+        <div class="publication-links">
+          <a class="honor-source" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023MS004203">期刊论文 ↗</a>
+          <a class="honor-source" href="{{ '/assets/honors/tc-gen-wiley-top-viewed-article-2025.jpg' | relative_url }}">查看证书 ↗</a>
+        </div>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2025</span>
+      <div>
+        <p class="honor-label">杰出长论文奖 <span>ICLR 2025 DeLTa 工作坊</span></p>
+        <p class="honor-title"><a href="https://unidb-soc.github.io/UniDB_page/">A Unified Diffusion Bridge Framework via Stochastic Optimal Control</a></p>
+        <a class="honor-source" href="https://delta-workshop.github.io/#awards">官方获奖公告 ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2024</span>
+      <div>
+        <p class="honor-label">Highest Impact Award · 最高影响力奖 <span>IEEE Computer Society Biometrics Workshop</span></p>
+        <p class="honor-title"><a href="https://openaccess.thecvf.com/content_CVPRW_2020/html/w48/Wan_When_Person_Re-Identification_Meets_Changing_Clothes_CVPRW_2020_paper.html">When Person Re-Identification Meets Changing Clothes</a></p>
+        <p class="honor-credit">发表于 CVPR 2020 Biometrics 工作坊 · 2024 年获奖</p>
+        <a class="honor-source" href="https://schuture.github.io/">合作作者获奖记录 ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2023</span>
+      <div>
+        <p class="honor-label">青年优秀论文奖 <span>世界人工智能大会（WAIC）</span></p>
+        <p class="honor-title"><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Rethinking_Semantic_Segmentation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_CVPR_2021_paper.html">SETR: Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers</a></p>
+        <p class="honor-credit">共同署名成果 · 获奖人：郑思晓（Sixiao Zheng）</p>
+        <a class="honor-source" href="https://www.waicyop.cn/article/11">官方获奖名单 ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2019</span>
+      <div>
+        <p class="honor-label">最佳论文奖 <span>IEEE ICME 2019</span></p>
+        <p class="honor-title"><a href="https://doi.org/10.1109/ICME.2019.00009">An End-to-End Architecture for Class-Incremental Object Detection with Knowledge Distillation</a></p>
+        <a class="honor-source" href="https://www.2019.ieeeicme.org/167.99.148.246/conf_awards.html">官方获奖公告 ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2019</span>
+      <div>
+        <p class="honor-label">最佳论文奖入围（Finalist） <span>CVPR 2019 · Oral / 口头报告</span></p>
+        <p class="honor-title"><a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Image_Deformation_Meta-Networks_for_One-Shot_Learning_CVPR_2019_paper.html">Image Deformation Meta-Networks for One-Shot Learning</a></p>
+        <a class="honor-source" href="https://cvpr2019.thecvf.com/files/CVPR%202019%20-%20Welcome%20Slides%20Final.pdf#page=26">官方获奖公告 ↗</a>
+      </div>
+    </li>
+  </ol>
 </section>
 
 <section id="join" class="home-section" aria-labelledby="join-title">

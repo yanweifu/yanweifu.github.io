@@ -30,81 +30,6 @@ image: /assets/images/yanwei-fu.png
   </figure>
 </section>
 
-<section id="honors" class="home-section honors-section" aria-labelledby="honors-title">
-  <p class="eyebrow">Selected paper honors</p>
-  <div class="section-heading"><h2 id="honors-title">Paper awards &amp; recognition</h2></div>
-  <nav class="honor-nav" aria-label="Honor categories">
-    <a href="#honors">Paper awards</a>
-    <a href="#research-awards">Research awards</a>
-    <a href="#fellowships">Fellowships &amp; honors</a>
-  </nav>
-  <ol class="honor-list">
-    <li class="honor-item">
-      <span class="honor-year">2026</span>
-      <div>
-        <p class="honor-label">Best Paper Award Candidate <span>CVPR 2026 · Oral</span></p>
-        <p class="honor-title"><a href="https://jianxgao.github.io/CineBrain/">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></p>
-        <a class="honor-source" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Official conference program ↗</a>
-      </div>
-    </li>
-    <li class="honor-item">
-      <span class="honor-year">2025</span>
-      <div>
-        <p class="honor-label">Top Viewed Article <span>Wiley · Journal of Advances in Modeling Earth Systems (JAMES)</span></p>
-        <p class="honor-title"><a href="https://doi.org/10.1029/2023MS004203">TC-GEN: Data-Driven Tropical Cyclone Downscaling Using Machine Learning-Based High-Resolution Weather Model</a></p>
-        <p class="honor-collaboration">Coauthored with <a href="https://eaps.mit.edu/people/faculty/kerry-a-emanuel/"><strong>Kerry Emanuel</strong></a> (MIT; Member of the <strong>U.S. National Academy of Sciences</strong> and the <strong>American Academy of Arts and Sciences</strong>), <a href="https://profiles.stanford.edu/noah-diffenbaugh">Noah S. Diffenbaugh</a> (Stanford), and <a href="https://med.stanford.edu/profiles/eran-bendavid">Eran Bendavid</a> (Stanford).</p>
-        <p class="honor-credit">Wiley recognition, 2025 · Among JAMES articles published in 2024, with views counted 12 months after publication.</p>
-        <div class="publication-links">
-          <a class="honor-source" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023MS004203">Journal article ↗</a>
-          <a class="honor-source" href="{{ '/assets/honors/tc-gen-wiley-top-viewed-article-2025.jpg' | relative_url }}">View certificate ↗</a>
-        </div>
-      </div>
-    </li>
-    <li class="honor-item">
-      <span class="honor-year">2025</span>
-      <div>
-        <p class="honor-label">Long Paper Outstanding Paper Award <span>DeLTa Workshop at ICLR 2025</span></p>
-        <p class="honor-title"><a href="https://unidb-soc.github.io/UniDB_page/">A Unified Diffusion Bridge Framework via Stochastic Optimal Control</a></p>
-        <a class="honor-source" href="https://delta-workshop.github.io/#awards">Official award announcement ↗</a>
-      </div>
-    </li>
-    <li class="honor-item">
-      <span class="honor-year">2024</span>
-      <div>
-        <p class="honor-label">Highest Impact Award <span>IEEE Computer Society Biometrics Workshop</span></p>
-        <p class="honor-title"><a href="https://openaccess.thecvf.com/content_CVPRW_2020/html/w48/Wan_When_Person_Re-Identification_Meets_Changing_Clothes_CVPRW_2020_paper.html">When Person Re-Identification Meets Changing Clothes</a></p>
-        <p class="honor-credit">Published at the CVPR 2020 Biometrics Workshop · Awarded in 2024</p>
-        <a class="honor-source" href="https://schuture.github.io/">Coauthor's award record ↗</a>
-      </div>
-    </li>
-    <li class="honor-item">
-      <span class="honor-year">2023</span>
-      <div>
-        <p class="honor-label">Youth Outstanding Paper Award <span>World Artificial Intelligence Conference (WAIC)</span></p>
-        <p class="honor-title"><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Rethinking_Semantic_Segmentation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_CVPR_2021_paper.html">SETR: Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers</a></p>
-        <p class="honor-credit">Coauthored work · Award recipient: Sixiao Zheng</p>
-        <a class="honor-source" href="https://www.waicyop.cn/article/11">Official award list ↗</a>
-      </div>
-    </li>
-    <li class="honor-item">
-      <span class="honor-year">2019</span>
-      <div>
-        <p class="honor-label">Best Paper Award <span>IEEE ICME 2019</span></p>
-        <p class="honor-title"><a href="https://doi.org/10.1109/ICME.2019.00009">An End-to-End Architecture for Class-Incremental Object Detection with Knowledge Distillation</a></p>
-        <a class="honor-source" href="https://www.2019.ieeeicme.org/167.99.148.246/conf_awards.html">Official award announcement ↗</a>
-      </div>
-    </li>
-    <li class="honor-item">
-      <span class="honor-year">2019</span>
-      <div>
-        <p class="honor-label">Best Paper Finalist <span>CVPR 2019 · Oral</span></p>
-        <p class="honor-title"><a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Image_Deformation_Meta-Networks_for_One-Shot_Learning_CVPR_2019_paper.html">Image Deformation Meta-Networks for One-Shot Learning</a></p>
-        <a class="honor-source" href="https://cvpr2019.thecvf.com/files/CVPR%202019%20-%20Welcome%20Slides%20Final.pdf#page=26">Official award announcement ↗</a>
-      </div>
-    </li>
-  </ol>
-</section>
-
 <section id="research-awards" class="home-section" aria-labelledby="research-awards-title">
   <h2 id="research-awards-title">Research awards</h2>
   <ol class="honor-list">
@@ -282,6 +207,81 @@ image: /assets/images/yanwei-fu.png
     <li><time>2011–2014</time><p><strong>Ph.D. in Computer Vision, Queen Mary University of London</strong><small>Advisors: Tao Xiang and Shaogang Gong</small></p></li>
     <li><time>2008–2011</time><p><strong>Master’s degree in Computer Science, Nanjing University</strong></p></li>
   </ul>
+</section>
+
+<section id="honors" class="home-section honors-section" aria-labelledby="honors-title">
+  <p class="eyebrow">Selected paper honors</p>
+  <div class="section-heading"><h2 id="honors-title">Paper awards &amp; recognition</h2></div>
+  <nav class="honor-nav" aria-label="Honor categories">
+    <a href="#honors">Paper awards</a>
+    <a href="#research-awards">Research awards</a>
+    <a href="#fellowships">Fellowships &amp; honors</a>
+  </nav>
+  <ol class="honor-list">
+    <li class="honor-item">
+      <span class="honor-year">2026</span>
+      <div>
+        <p class="honor-label">Best Paper Award Candidate <span>CVPR 2026 · Oral</span></p>
+        <p class="honor-title"><a href="https://jianxgao.github.io/CineBrain/">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></p>
+        <a class="honor-source" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Official conference program ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2025</span>
+      <div>
+        <p class="honor-label">Top Viewed Article <span>Wiley · Journal of Advances in Modeling Earth Systems (JAMES)</span></p>
+        <p class="honor-title"><a href="https://doi.org/10.1029/2023MS004203">TC-GEN: Data-Driven Tropical Cyclone Downscaling Using Machine Learning-Based High-Resolution Weather Model</a></p>
+        <p class="honor-collaboration">Coauthored with <a href="https://eaps.mit.edu/people/faculty/kerry-a-emanuel/"><strong>Kerry Emanuel</strong></a> (MIT; Member of the <strong>U.S. National Academy of Sciences</strong> and the <strong>American Academy of Arts and Sciences</strong>), <a href="https://profiles.stanford.edu/noah-diffenbaugh">Noah S. Diffenbaugh</a> (Stanford), and <a href="https://med.stanford.edu/profiles/eran-bendavid">Eran Bendavid</a> (Stanford).</p>
+        <p class="honor-credit">Wiley recognition, 2025 · Among JAMES articles published in 2024, with views counted 12 months after publication.</p>
+        <div class="publication-links">
+          <a class="honor-source" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023MS004203">Journal article ↗</a>
+          <a class="honor-source" href="{{ '/assets/honors/tc-gen-wiley-top-viewed-article-2025.jpg' | relative_url }}">View certificate ↗</a>
+        </div>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2025</span>
+      <div>
+        <p class="honor-label">Long Paper Outstanding Paper Award <span>DeLTa Workshop at ICLR 2025</span></p>
+        <p class="honor-title"><a href="https://unidb-soc.github.io/UniDB_page/">A Unified Diffusion Bridge Framework via Stochastic Optimal Control</a></p>
+        <a class="honor-source" href="https://delta-workshop.github.io/#awards">Official award announcement ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2024</span>
+      <div>
+        <p class="honor-label">Highest Impact Award <span>IEEE Computer Society Biometrics Workshop</span></p>
+        <p class="honor-title"><a href="https://openaccess.thecvf.com/content_CVPRW_2020/html/w48/Wan_When_Person_Re-Identification_Meets_Changing_Clothes_CVPRW_2020_paper.html">When Person Re-Identification Meets Changing Clothes</a></p>
+        <p class="honor-credit">Published at the CVPR 2020 Biometrics Workshop · Awarded in 2024</p>
+        <a class="honor-source" href="https://schuture.github.io/">Coauthor's award record ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2023</span>
+      <div>
+        <p class="honor-label">Youth Outstanding Paper Award <span>World Artificial Intelligence Conference (WAIC)</span></p>
+        <p class="honor-title"><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Rethinking_Semantic_Segmentation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_CVPR_2021_paper.html">SETR: Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers</a></p>
+        <p class="honor-credit">Coauthored work · Award recipient: Sixiao Zheng</p>
+        <a class="honor-source" href="https://www.waicyop.cn/article/11">Official award list ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2019</span>
+      <div>
+        <p class="honor-label">Best Paper Award <span>IEEE ICME 2019</span></p>
+        <p class="honor-title"><a href="https://doi.org/10.1109/ICME.2019.00009">An End-to-End Architecture for Class-Incremental Object Detection with Knowledge Distillation</a></p>
+        <a class="honor-source" href="https://www.2019.ieeeicme.org/167.99.148.246/conf_awards.html">Official award announcement ↗</a>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2019</span>
+      <div>
+        <p class="honor-label">Best Paper Finalist <span>CVPR 2019 · Oral</span></p>
+        <p class="honor-title"><a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Image_Deformation_Meta-Networks_for_One-Shot_Learning_CVPR_2019_paper.html">Image Deformation Meta-Networks for One-Shot Learning</a></p>
+        <a class="honor-source" href="https://cvpr2019.thecvf.com/files/CVPR%202019%20-%20Welcome%20Slides%20Final.pdf#page=26">Official award announcement ↗</a>
+      </div>
+    </li>
+  </ol>
 </section>
 
 <section id="join" class="home-section" aria-labelledby="join-title">
