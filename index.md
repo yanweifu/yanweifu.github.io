@@ -262,6 +262,7 @@ image: /assets/images/yanwei-fu.png
   <div id="fellowships">
     <h2>Fellowships &amp; honors</h2>
     <ul class="compact-list">
+      <li><strong>Ten-Year Honor Certificate</strong><small>2026 · School of Data Science, Fudan University</small><small lang="zh-CN">复旦大学大数据学院十周年荣誉证书</small><small><a href="{{ '/assets/honors/fudan-data-science-ten-year-honor-certificate-2026.jpg' | relative_url }}">View certificate ↗</a></small></li>
       <li><strong>Fellow of the British Computer Society</strong><small>2022 · BCS</small></li>
       <li><strong>Young Thousand Talents Program</strong><small lang="zh-CN">2018 · 国家青年千人计划</small></li>
       <li><strong>Shanghai Eastern Scholar</strong><small lang="zh-CN">2017 · 上海市东方学者</small></li>

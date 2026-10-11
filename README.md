@@ -23,6 +23,8 @@ Presentation labels were audited against conference programs and author records 
 
 Additional research awards and personal honors follow the owner's 2026 academic summary. Keep team awards separate from individual honors, preserve contributor ranks, and use the award year rather than the announcement year. Industry recognition and visiting-scholar programs are labeled separately. The Ministry of Education award is for 2022; both Shanghai awards are for 2023. The application PDF itself is not part of the public site.
 
+The Ten-Year Honor Certificate was issued by the School of Data Science, Fudan University on September 10, 2026. It recognizes a decade of contributions to research and real-world applications. The owner supplied the certificate photograph, which is linked unchanged under Fellowships & honors; it is an institutional honor, not a paper award.
+
 The existing `Papers.html`, `Students.html`, and `Dataset.html` routes and legacy project directories are retained. The unrelated local `new/` directory is excluded from the Jekyll build.
 
 ## Local preview
