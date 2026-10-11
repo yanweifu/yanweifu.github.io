@@ -300,7 +300,7 @@ image: /assets/images/yanwei-fu.png
     <li><span class="talk-meta">KAIST 2026</span><div>Academic talk</div></li>
     <li><span class="talk-meta">MBZUAI 2024</span><div><a href="https://mbzuai.ac.ae/news-events/news/unlocking-the-potential-large-models-vision-related-tasks/">Unlocking the Potential of Large Models for Vision Related Tasks</a></div></li>
     <li><span class="talk-meta">SNU 2024</span><div><a href="https://cse.snu.ac.kr/en/community/seminar/1059">Unlocking the Potential of Large Models for Vision Related Tasks</a></div></li>
-    <li><span class="talk-meta">Fudan 2023</span><div><a href="https://news.fudan.edu.cn/2023/0912/c236a136755/page.htm">Do we really know a model’s performance in the wild?</a></div></li>
+    <li><span class="talk-meta">Fudan 2023</span><div><a href="https://news.fudan.edu.cn/2023/0912/c236a136755/page.htm">Do we really know a model’s performance in the wild?</a><small> · Host</small></div></li>
     <li><span class="talk-meta">ACCV 2022</span><div><a href="https://dqiaole.github.io/priors_guided_image_editing_synthesis/pdf/accv2022_tutorial_yanwei_fu.pdf">The Priors Guided Image Synthesis and Editing</a></div></li>
   </ul>
 </section>
