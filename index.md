@@ -251,12 +251,13 @@ image: /assets/images/yanwei-fu.png
   </ol>
 </section>
 
-<section class="home-section academic-columns" aria-label="Academic service and honors">
+<section id="academic-service" class="home-section academic-columns" aria-label="Academic service and honors">
   <div>
     <h2>Academic service</h2>
     <ul class="compact-list">
       <li><strong>Action Editor</strong><small><a href="https://jmlr.org/tmlr/editorial-board.html">Transactions on Machine Learning Research</a></small></li>
-      <li><strong>Area Chair, ICML 2023</strong></li>
+      <li><strong>Area Chair (multiple years)</strong><small>NeurIPS · ICML · ICLR</small></li>
+      <li><strong>Senior Area Chair (multiple years)</strong><small>AAAI</small></li>
       <li><strong><a href="#tutorials">CVPR Tutorial Organizer &amp; Speaker</a></strong><small>2022–2024 · Three consecutive years</small></li>
     </ul>
   </div>

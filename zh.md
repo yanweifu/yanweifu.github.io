@@ -254,12 +254,13 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
   </ol>
 </section>
 
-<section class="home-section academic-columns" aria-label="学术服务与个人荣誉">
+<section id="academic-service" class="home-section academic-columns" aria-label="学术服务与个人荣誉">
   <div>
     <h2>学术服务</h2>
     <ul class="compact-list">
       <li><strong>Action Editor · 责任编辑</strong><small><a href="https://jmlr.org/tmlr/editorial-board.html">Transactions on Machine Learning Research</a></small></li>
-      <li><strong>ICML 2023 领域主席（Area Chair）</strong></li>
+      <li><strong>长期担任领域主席（Area Chair）</strong><small>NeurIPS · ICML · ICLR</small></li>
+      <li><strong>长期担任高级领域主席（Senior Area Chair）</strong><small>AAAI</small></li>
       <li><strong><a href="#tutorials">CVPR 学术教程联合组织者与报告人</a></strong><small>2022–2024 · 连续三年</small></li>
     </ul>
   </div>
