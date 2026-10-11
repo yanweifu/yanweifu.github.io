@@ -47,12 +47,12 @@ image: /assets/images/yanwei-fu.png
       </div>
     </li>
     <li class="honor-item">
-      <span class="honor-year">2026</span>
+      <span class="honor-year">2025</span>
       <div>
-        <p class="honor-label">Top Viewed Article <span>Journal of Advances in Modeling Earth Systems (JAMES)</span></p>
+        <p class="honor-label">Top Viewed Article <span>Wiley · Journal of Advances in Modeling Earth Systems (JAMES)</span></p>
         <p class="honor-title"><a href="https://doi.org/10.1029/2023MS004203">TC-GEN: Data-Driven Tropical Cyclone Downscaling Using Machine Learning-Based High-Resolution Weather Model</a></p>
         <p class="honor-collaboration">Coauthored with <a href="https://eaps.mit.edu/people/faculty/kerry-a-emanuel/"><strong>Kerry Emanuel</strong></a> (MIT; Member of the <strong>U.S. National Academy of Sciences</strong> and the <strong>American Academy of Arts and Sciences</strong>), <a href="https://profiles.stanford.edu/noah-diffenbaugh">Noah S. Diffenbaugh</a> (Stanford), and <a href="https://med.stanford.edu/profiles/eran-bendavid">Eran Bendavid</a> (Stanford).</p>
-        <p class="honor-credit">Published in 2024 · Recognition announced May 2026</p>
+        <p class="honor-credit">Wiley recognition, 2025 · Among JAMES articles published in 2024, with views counted 12 months after publication.</p>
         <a class="honor-source" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023MS004203">Journal article ↗</a>
       </div>
     </li>
