@@ -4,7 +4,7 @@ Source for [yanweifu.github.io](https://yanweifu.github.io), built with Jekyll o
 
 ## Editing the site
 
-- `index.md`: biography, paper honors, collaborative research awards, fellowships, research themes, selected publications, CVPR tutorials, service, and admissions.
+- `index.md`: biography, paper honors, collaborative research awards, fellowships, research themes, selected publications, CVPR tutorials, service, admissions, and selected talks.
 - `zh.md`: Chinese homepage at `/zh/`, with the same honors, sources, research themes, selected publications, and admissions information.
 - `Papers.md`: complete publication archive. Keep paper titles and award labels consistent with the homepage.
 - `Students.md`: group members and alumni.
@@ -23,6 +23,8 @@ TC-GEN's collaborator affiliations follow the journal author list. Kerry Emanuel
 The CVPR tutorial highlight covers three consecutive years, 2022–2024. Each linked tutorial program identifies Yanwei Fu as an organizer and speaker and lists his opening remarks and tutorial talks. Preserve joint talk attribution to Yikai Wang in the 2022 and 2023 programs.
 
 The owner confirmed recurring Area Chair service for NeurIPS, ICML, and ICLR, and Senior Area Chair service for AAAI on October 11, 2026. Do not infer specific service years from these entries.
+
+Selected talks appear as a compact list at the bottom of both homepages, linking to slides or official event pages. The [SNU 2024 seminar](https://cse.snu.ac.kr/en/community/seminar/1059) and [Fudan 2023 lecture](https://news.fudan.edu.cn/2023/0912/c236a136755/page.htm) name Yanwei Fu as the speaker. The four tutorial slide links follow the corresponding CVPR programs and the [ACCV 2022 program](https://dqiaole.github.io/priors_guided_image_editing_synthesis/). Retain joint attribution to Yikai Wang for the CVPR 2022 and 2023 talks. Chinese talk titles are concise translations of their original English titles.
 
 Presentation labels were audited against conference programs and author records on October 11, 2026. Use `presentation-tag` for Oral, Spotlight, and Highlight, with a link to the supporting program or author record. Preserve each conference's terminology: these labels do not imply the same selection rate across venues and are separate from paper awards. WACV 2021 labels describe the official oral sessions. Do not infer Oral from an award, a recorded talk, a teaser session, or the `/poster/` path in a virtual-conference URL. ReasonGrounder's former CVPR 2025 Spotlight label was removed because the official program lists it as a regular poster; its star denotes an outstanding reviewer. ACM MM 2025 used ordinary oral presentations for all on-site papers, so a talk alone does not establish a selected Oral distinction. Leave presentation types unmarked when the available records do not establish them.
 
