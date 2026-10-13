@@ -179,38 +179,6 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
   </ol>
 </section>
 
-<section id="valse" class="home-section tutorials-section" aria-labelledby="valse-title">
-  <p class="eyebrow">零样本与小样本学习</p>
-  <h2 id="valse-title">VALSE 学术报告 · 2017–2019</h2>
-  <p class="tutorials-intro"><strong>连续三年在 VALSE 作零样本与小样本学习相关报告</strong>，从开集识别到小样本学习年度进展，再到语义嵌入与数据增强，持续面向视觉与学习学术社区分享研究方法与成果。</p>
-  <ol class="publication-list">
-    <li class="publication">
-      <div class="publication-venue">VALSE 2017<span>大会报告</span></div>
-      <div>
-        <h3>零样本、小样本以及开集条件下的图像目标分类识别</h3>
-        <p><time datetime="2017-04-21">2017 年 4 月 21 日</time> · VOOC 专场 · 厦门</p>
-        <div class="publication-links"><a href="https://valser.org/2017/speakers.html">官方讲者与摘要 ↗</a><a href="https://sds.fudan.edu.cn/b0/66/c17425a176230/page.htm">复旦学院报道 ↗</a></div>
-      </div>
-    </li>
-    <li class="publication">
-      <div class="publication-venue">VALSE 2018<span>APR 报告</span></div>
-      <div>
-        <h3>小样本学习年度进展评述</h3>
-        <p><time datetime="2018-04">2018 年 4 月</time> · 受邀作年度进展评述（APR）· 大连</p>
-        <div class="publication-links"><a href="https://valser.org/article-258-1.html">官方大会报道 ↗</a></div>
-      </div>
-    </li>
-    <li class="publication">
-      <div class="publication-venue">VALSE 2019<span>Webinar</span></div>
-      <div>
-        <h3>One-shot learning in semantic embedding, and data augmentation</h3>
-        <p><time datetime="2019-12-04">2019 年 12 月 4 日</time> · VALSE Webinar“举一反三：小样本学习新进展”· 语义嵌入与数据增强</p>
-        <div class="publication-links"><a href="https://valser.org/article-342-1.html">官方议程与报告摘要 ↗</a></div>
-      </div>
-    </li>
-  </ol>
-</section>
-
 <section id="academic-service" class="home-section academic-columns" aria-label="学术服务与个人荣誉">
   <div>
     <h2>学术服务</h2>

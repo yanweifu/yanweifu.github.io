@@ -176,38 +176,6 @@ image: /assets/images/yanwei-fu.png
   </ol>
 </section>
 
-<section id="valse" class="home-section tutorials-section" aria-labelledby="valse-title">
-  <p class="eyebrow">Zero-shot &amp; few-shot learning</p>
-  <h2 id="valse-title">VALSE talks · 2017–2019</h2>
-  <p class="tutorials-intro"><strong>Three consecutive years of research talks</strong> on zero-shot and few-shot learning at VALSE, covering open-set recognition, annual research progress, semantic embedding, and data augmentation.</p>
-  <ol class="publication-list">
-    <li class="publication">
-      <div class="publication-venue">VALSE 2017<span>Conference talk</span></div>
-      <div>
-        <h3>Zero-shot, few-shot and open-set image classification</h3>
-        <p><time datetime="2017-04-21">April 21, 2017</time> · VOOC session · Xiamen</p>
-        <div class="publication-links"><a href="https://valser.org/2017/speakers.html">Official speaker page ↗</a><a href="https://sds.fudan.edu.cn/b0/66/c17425a176230/page.htm">Fudan report ↗</a></div>
-      </div>
-    </li>
-    <li class="publication">
-      <div class="publication-venue">VALSE 2018<span>APR speaker</span></div>
-      <div>
-        <h3>Few-shot learning: annual progress review</h3>
-        <p><time datetime="2018-04">April 2018</time> · Invited Annual Progress Review (APR) speaker · Dalian</p>
-        <div class="publication-links"><a href="https://valser.org/article-258-1.html">Official conference report ↗</a></div>
-      </div>
-    </li>
-    <li class="publication">
-      <div class="publication-venue">VALSE 2019<span>Webinar</span></div>
-      <div>
-        <h3>One-shot learning in semantic embedding, and data augmentation</h3>
-        <p><time datetime="2019-12-04">December 4, 2019</time> · VALSE Webinar · Few-shot learning research advances</p>
-        <div class="publication-links"><a href="https://valser.org/article-342-1.html">Official program &amp; abstract ↗</a></div>
-      </div>
-    </li>
-  </ol>
-</section>
-
 <section id="academic-service" class="home-section academic-columns" aria-label="Academic service and honors">
   <div>
     <h2>Academic service</h2>
