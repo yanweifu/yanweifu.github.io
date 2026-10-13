@@ -289,7 +289,7 @@ image: /assets/images/yanwei-fu.png
     <h2 id="join-title">Prospective students &amp; visitors</h2>
     <p>For research inquiries, doctoral applications, or summer visits, please contact <a href="mailto:yanweifu@fudan.edu.cn">yanweifu@fudan.edu.cn</a>. International students interested in summer internships are welcome to get in touch.</p>
     <p lang="zh-CN"><strong>2026 年招生说明：</strong>本组仅在复旦大学大数据学院和上海创智学院招生。大数据学院科学硕士及直博生由学院统一招生，请先申请并获得学院 offer，再联系我；申请普博或暑期访问可提前联系。有兴趣研究统计稀疏性的本科生，也可联系孙鑫伟老师共同合作。</p>
-    <p lang="zh-CN"><strong>本组 2026 年入学的硕士名额已满。</strong></p>
+    <p lang="zh-CN"><strong>本组 2027年入学的普博博士名额已满。</strong></p>
   </div>
   <div class="home-bottom"><a href="{{ '/Students.html' | relative_url }}">People &amp; alumni →</a><a href="{{ '/News.html' | relative_url }}">News archive →</a><a href="mailto:ztwztq2006@gmail.com">Alternative email</a></div>
 </section>
