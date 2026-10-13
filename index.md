@@ -673,6 +673,26 @@ image: /assets/images/yanwei-fu.png
         <div class="publication-links"><a href="https://proceedings.mlr.press/v119/fu20d.html">ICML paper</a><a href="https://doi.org/10.1109/TPAMI.2022.3168881">TPAMI paper</a><a href="https://github.com/DessiLBI2020/DessiLBI">Code</a></div>
       </div>
     </li>
+    <li id="causal-learning" class="publication">
+      <div class="publication-venue">2023–2025<span>Causal learning</span></div>
+      <div>
+        <h3>Causal learning: hidden confounding and reliable generalization</h3>
+        <p>Develops doubly robust estimation for continuous treatments and nonparametric causal discovery using proxy variables. These methods address unmeasured confounding, clarify when single-proxy tests can miss genuine causal relationships, and introduce additional proxy restrictions to restore identification under stated assumptions.</p>
+        <div class="publication-extension">
+          <p class="publication-version">Continuous-treatment estimation · ICLR 2024</p>
+          <h4><a href="https://arxiv.org/abs/2309.12819">Doubly Robust Proximal Causal Learning for Continuous Treatments</a></h4>
+          <p>Yong Wu, <strong>Yanwei Fu</strong>, Shouyan Wang, Xinwei Sun</p>
+        </div>
+        <div class="publication-extension">
+          <p class="publication-version">Proxy-based causal discovery · ICML 2025</p>
+          <h4><a href="https://proceedings.mlr.press/v267/wu25h.html">Bivariate Causal Discovery with Proxy Variables: Integral Solving and Beyond</a></h4>
+          <p>Yong Wu, <strong>Yanwei Fu</strong>, Shouyan Wang, Xinwei Sun</p>
+        </div>
+        <p>Related applications connect causal feature learning with few-shot recognition in <a href="https://arxiv.org/abs/2211.16019">PatchMix (TPAMI 2023)</a>, and incorporate intraoperative information into preoperative survival prediction in <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Li_Causally-Aware_Intraoperative_Imputation_for_Overall_Survival_Time_Prediction_CVPR_2023_paper.html">Causally-Aware Intraoperative Imputation (CVPR 2023)</a>.</p>
+        <p><strong>Independent research uptake.</strong> The continuous-treatment estimator appears in Arthur Gretton’s CLeaR 2026 keynote materials and was used as a baseline, with its experimental settings reused, in an independent NeurIPS 2025 study. A 2026 follow-up preprint develops statistical inference for proximal dose-response curves.</p>
+        <div class="publication-links"><a href="https://github.com/yezichu/PCL_Continuous_Treatment">ICLR code</a><a href="https://www.gatsby.ucl.ac.uk/~gretton/coursefiles/CLeaR26.pdf#page=49">CLeaR 2026 keynote · Arthur Gretton</a><a href="https://papers.nips.cc/paper_files/paper/2025/file/55f6ba76cc449c993d357e7ec2b58dca-Paper-Conference.pdf">Independent follow-up · NeurIPS 2025</a><a href="https://arxiv.org/abs/2608.00404">Further statistical theory · 2026 preprint</a></div>
+      </div>
+    </li>
     <li id="transductive-zsl" class="publication">
       <div class="publication-venue">TPAMI 2015<span>Zero-shot learning</span></div>
       <div>

@@ -676,6 +676,26 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div class="publication-links"><a href="https://proceedings.mlr.press/v119/fu20d.html">ICML 论文</a><a href="https://doi.org/10.1109/TPAMI.2022.3168881">TPAMI 论文</a><a href="https://github.com/DessiLBI2020/DessiLBI">代码</a></div>
       </div>
     </li>
+    <li id="causal-learning" class="publication">
+      <div class="publication-venue">2023–2025<span>因果学习</span></div>
+      <div>
+        <h3>因果学习：未观测混杂与可靠泛化</h3>
+        <p>发展连续干预的双重稳健估计与基于代理变量的非参数因果发现方法，处理未观测混杂问题；分析单一代理变量检验何时会漏掉真实因果关系，并通过额外的代理变量约束，在相应假设下恢复识别。</p>
+        <div class="publication-extension">
+          <p class="publication-version">连续干预的因果估计 · ICLR 2024</p>
+          <h4><a href="https://arxiv.org/abs/2309.12819">Doubly Robust Proximal Causal Learning for Continuous Treatments</a></h4>
+          <p>Yong Wu, <strong>Yanwei Fu</strong>, Shouyan Wang, Xinwei Sun</p>
+        </div>
+        <div class="publication-extension">
+          <p class="publication-version">基于代理变量的因果发现 · ICML 2025</p>
+          <h4><a href="https://proceedings.mlr.press/v267/wu25h.html">Bivariate Causal Discovery with Proxy Variables: Integral Solving and Beyond</a></h4>
+          <p>Yong Wu, <strong>Yanwei Fu</strong>, Shouyan Wang, Xinwei Sun</p>
+        </div>
+        <p>相关应用包括以 <a href="https://arxiv.org/abs/2211.16019">PatchMix（TPAMI 2023）</a> 将因果特征学习用于小样本识别，以及以 <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Li_Causally-Aware_Intraoperative_Imputation_for_Overall_Survival_Time_Prediction_CVPR_2023_paper.html">Causally-Aware Intraoperative Imputation（CVPR 2023）</a> 将术中信息融入术前生存结局预测。</p>
+        <p><strong>独立研究采用。</strong>连续干预估计方法被纳入 Arthur Gretton 的 CLeaR 2026 大会主旨报告材料，并被独立团队的 NeurIPS 2025 研究用作实验基线、沿用实验设置。2026 年的后续预印本进一步发展了近端因果剂量响应曲线的统计推断。</p>
+        <div class="publication-links"><a href="https://github.com/yezichu/PCL_Continuous_Treatment">ICLR 代码</a><a href="https://www.gatsby.ucl.ac.uk/~gretton/coursefiles/CLeaR26.pdf#page=49">CLeaR 2026 主旨报告 · Arthur Gretton</a><a href="https://papers.nips.cc/paper_files/paper/2025/file/55f6ba76cc449c993d357e7ec2b58dca-Paper-Conference.pdf">独立后续研究 · NeurIPS 2025</a><a href="https://arxiv.org/abs/2608.00404">后续统计理论 · 2026 预印本</a></div>
+      </div>
+    </li>
     <li id="transductive-zsl" class="publication">
       <div class="publication-venue">TPAMI 2015<span>零样本学习</span></div>
       <div>
