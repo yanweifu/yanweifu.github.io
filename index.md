@@ -426,12 +426,13 @@ image: /assets/images/yanwei-fu.png
         </div>
       </li>
       <li id="trivla" class="media-item">
-        <div class="media-meta">Fudan University · Shanghai Innovation Institute<time datetime="2025-07-02">2025</time></div>
+        <div class="media-meta">Fudan University · Shanghai Innovation Institute<time datetime="2025-07-02">First preprint · July 2, 2025</time></div>
         <div>
           <h4><a href="https://zhenyangliu.github.io/TriVLA/">TriVLA: unifying world knowledge and world modeling in a triple-system VLA</a></h4>
-          <p>Our TriVLA is <strong>the first framework to formalize episodic world modeling within a unified triple-system VLA architecture</strong>. It combines world knowledge from a vision-language model, dynamic prediction from a video diffusion model, and an action policy to support complex instructions and long-horizon robotic manipulation.</p>
+          <p><strong>TriVLA was first publicly introduced on <time datetime="2025-07-02">July 2, 2025</time> (arXiv v1)</strong>. The initial version already unified world knowledge from a vision-language model, a video world model, and an action policy in a triple-system VLA architecture.</p>
+          <p>The <time datetime="2025-10-13">October 13, 2025</time> v3 revision explicitly formalizes episodic world modeling, describing TriVLA as <strong>the first framework to do so within a unified triple-system VLA architecture</strong>, supporting complex instructions and long-horizon robotic manipulation.</p>
           <p>Discussed in a Shenlan Academy video and research reviews by Moonlight and the CSDN developer community.</p>
-          <div class="recognition-links"><a href="https://zhenyangliu.github.io/TriVLA/">Project ↗</a><a href="https://arxiv.org/abs/2507.01424">Research paper ↗</a><a href="https://www.bilibili.com/video/BV188u2zQEga/">Shenlan Academy · Video review ↗</a><a href="https://www.themoonlight.io/zh/review/trivla-a-unified-triple-system-based-unified-vision-language-action-model-for-general-robot-control">Moonlight review ↗</a><a href="https://adg.csdn.net/69708e24437a6b40336aaff5.html">CSDN analysis ↗</a></div>
+          <div class="recognition-links"><a href="https://zhenyangliu.github.io/TriVLA/">Project ↗</a><a href="https://arxiv.org/abs/2507.01424v1">First version · July 2, 2025 ↗</a><a href="https://arxiv.org/abs/2507.01424v3">Episodic world modeling · v3 ↗</a><a href="https://www.bilibili.com/video/BV188u2zQEga/">Shenlan Academy · Video review ↗</a><a href="https://www.themoonlight.io/zh/review/trivla-a-unified-triple-system-based-unified-vision-language-action-model-for-general-robot-control">Moonlight review ↗</a><a href="https://adg.csdn.net/69708e24437a6b40336aaff5.html">CSDN analysis ↗</a></div>
         </div>
       </li>
       <li id="visuo-tactile" class="media-item">
