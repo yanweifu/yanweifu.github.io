@@ -125,7 +125,7 @@ image: /assets/images/yanwei-fu.png
       <div>
         <h4><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation</a></h4>
         <p>Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, <strong>Yanwei Fu</strong></p>
-        <p>Active selection of virtual viewpoints and 3D zoom-in for precise manipulation under occlusion.</p>
+        <p><strong>Bringing active perception into 3D robotic manipulation:</strong> virtual viewpoint selection and active 3D zoom-in overcome the constraints of fixed visual inputs.</p>
         <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">Paper</a><a href="https://zhenyangliu.github.io/ActiveVLA/">Project &amp; demos</a></div>
       </div>
     </li>
@@ -465,17 +465,19 @@ image: /assets/images/yanwei-fu.png
       <li id="pose-vla" class="media-item">
         <div class="media-meta">RSS 2026<time datetime="2026-07">July 2026</time></div>
         <div>
-          <h4><a href="https://hetolin.github.io/PoseVLA/">Pose-VLA: universal 3D pose pretraining for generalizable robot policies</a></h4>
-          <p><strong>Pose-VLA connects 3D spatial understanding with learning from limited robot demonstrations.</strong> It separates pretraining for universal spatial priors from subsequent alignment to a robot’s action space, using discrete pose tokens to bring together diverse 3D datasets and robot trajectories.</p>
-          <p>Published at Robotics: Science and Systems (RSS) 2026, the work demonstrates real-world generalization across diverse objects with <strong>only 100 demonstrations per task</strong>. This extends our research on learning with limited data to vision-language-action policies.</p>
+          <h4><a href="https://hetolin.github.io/PoseVLA/">Pose-VLA: reshaping VLA around 3D poses</a></h4>
+          <p><strong>Pose-VLA puts universal 3D poses at the core of VLA representation and pretraining.</strong> Discrete pose tokens unify spatial learning from diverse 3D datasets and robot trajectories; pretraining builds transferable geometric priors before these are aligned to a specific robot’s action space. This addresses the gap between semantic recognition and the fine 3D state distinctions that precise actions require.</p>
+          <p><strong>Our central message to the embodied AI community: 3D spatial understanding is crucial for embodied foundation models.</strong> Published at Robotics: Science and Systems (RSS) 2026, Pose-VLA demonstrates real-world generalization across diverse objects with <strong>only 100 demonstrations per task</strong>.</p>
+          <p>I see a parallel in the recent GPT-6 Astra robot demonstrations documented in <a href="https://wentao.live/blog/astra-and-beyond/">Wentao Zhu’s technical perspective</a>: using a low-level robot SDK, the model plans bimanual coordination, active vision, and error recovery. These developments underscore, through a different approach, the importance of connecting spatial understanding with action.</p>
           <div class="recognition-links"><a href="https://roboticsproceedings.org/rss22/p145.html">RSS paper ↗</a><a href="https://hetolin.github.io/PoseVLA/">Project &amp; demos ↗</a><a href="https://github.com/hetolin/PoseVLA">Code &amp; models ↗</a></div>
         </div>
       </li>
       <li id="active-vla" class="media-item">
         <div class="media-meta">CVPR 2026<time datetime="2026-06">June 2026</time></div>
         <div>
-          <h4><a href="https://zhenyangliu.github.io/ActiveVLA/">ActiveVLA: choosing where to look for precise robotic manipulation</a></h4>
-          <p><strong>ActiveVLA gives vision-language-action models active perception: selecting informative virtual viewpoints and zooming in on task-critical 3D regions.</strong> Its coarse-to-fine process first locates the relevant region, then synthesizes views that reduce occlusion and reveal fine geometric details before predicting an action.</p>
+          <h4><a href="https://zhenyangliu.github.io/ActiveVLA/">ActiveVLA: bringing active perception into 3D robotic manipulation</a></h4>
+          <p><strong>ActiveVLA’s core advance is to integrate active perception into precise 3D manipulation, enabling a VLA to decide where to look and how closely to inspect.</strong> It tackles a central limitation of fixed-view VLA approaches: task-critical geometry can be obscured or too small to resolve in the original camera inputs.</p>
+          <p>Our novel coarse-to-fine framework combines <strong>task-driven virtual viewpoint selection with active 3D zoom-in</strong>. It first locates the relevant 3D region, then synthesizes informative views and magnifies local geometry before predicting an action, overcoming the viewpoint and resolution constraints of fixed visual inputs.</p>
           <p>I am a co-corresponding author of this CVPR 2026 paper. Evaluations on RLBench, COLOSSEUM, and GemBench, together with real-robot demonstrations, show improved precision and robustness for manipulation in cluttered and occluded scenes.</p>
           <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">CVPR paper ↗</a><a href="https://arxiv.org/abs/2601.08325">Preprint ↗</a><a href="https://zhenyangliu.github.io/ActiveVLA/">Project &amp; demos ↗</a></div>
         </div>

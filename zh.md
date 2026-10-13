@@ -128,7 +128,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <div>
         <h4><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation</a></h4>
         <p>Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, <strong>Yanwei Fu</strong></p>
-        <p>主动选择虚拟视角并放大关键三维区域，提升遮挡场景下的精细操作能力。</p>
+        <p><strong>将主动感知融入三维机器人操作</strong>，通过虚拟视角选择与主动三维放大，突破固定视觉输入的限制。</p>
         <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">论文</a><a href="https://zhenyangliu.github.io/ActiveVLA/">项目与演示</a></div>
       </div>
     </li>
@@ -468,17 +468,19 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="pose-vla" class="media-item">
         <div class="media-meta">RSS 2026<time datetime="2026-07">2026 年 7 月</time></div>
         <div>
-          <h4><a href="https://hetolin.github.io/PoseVLA/">Pose-VLA：通过通用三维姿态预训练提升机器人策略泛化</a></h4>
-          <p><strong>Pose-VLA 将三维空间理解与少量机器人示教学习相结合</strong>，把通用空间先验的预训练与具体机器人动作空间的后续对齐分开，通过离散姿态 token 统一利用多种三维数据集和机器人轨迹。</p>
-          <p>该工作发表于 Robotics: Science and Systems（RSS）2026，在真实机器人实验中，<strong>每项任务仅用 100 条示教即可验证对多种物体的泛化能力</strong>，将我们关于有限数据学习的研究推进至视觉—语言—动作策略。</p>
+          <h4><a href="https://hetolin.github.io/PoseVLA/">Pose-VLA：围绕 3D 位姿重塑 VLA 架构</a></h4>
+          <p><strong>Pose-VLA 的核心技术突破，是以通用三维位姿重构 VLA 的表征与预训练范式。</strong>通过离散位姿 token 统一利用多种三维数据集和机器人轨迹，先建立可迁移的三维几何先验，再对齐具体机器人的动作空间，弥合语义识别与精细操作所需的三维状态理解之间的鸿沟。</p>
+          <p><strong>我们向具身智能社区传递的核心判断是：3D 空间理解对具身智能大模型至关重要。</strong>该工作发表于 Robotics: Science and Systems（RSS）2026，在真实机器人实验中，<strong>每项任务仅用 100 条示教即可验证对多种物体的泛化能力</strong>。</p>
+          <p>在我看来，近期 GPT-6 Astra 的机器人演示也从另一条技术路径呼应了这一判断：<a href="https://wentao.live/blog/astra-and-beyond/zh/">Wentao Zhu 的技术观察</a>记录了模型通过底层机器人 SDK 规划双臂协调、主动视觉与错误恢复的演示，进一步凸显空间理解与行动相结合的价值。</p>
           <div class="recognition-links"><a href="https://roboticsproceedings.org/rss22/p145.html">RSS 正式论文 ↗</a><a href="https://hetolin.github.io/PoseVLA/">项目与演示 ↗</a><a href="https://github.com/hetolin/PoseVLA">代码与模型 ↗</a></div>
         </div>
       </li>
       <li id="active-vla" class="media-item">
         <div class="media-meta">CVPR 2026<time datetime="2026-06">2026 年 6 月</time></div>
         <div>
-          <h4><a href="https://zhenyangliu.github.io/ActiveVLA/">ActiveVLA：主动选择观察视角，实现精细机器人操作</a></h4>
-          <p><strong>ActiveVLA 为视觉—语言—动作模型引入主动感知，选择信息更充分的虚拟视角，并放大与任务相关的关键三维区域。</strong>模型先粗定位目标区域，再合成减少遮挡、呈现局部几何细节的视图，为后续动作预测提供更准确的视觉信息。</p>
+          <h4><a href="https://zhenyangliu.github.io/ActiveVLA/">ActiveVLA：将主动感知融入三维机器人操作</a></h4>
+          <p><strong>ActiveVLA 的核心突破在于将“主动感知”融入精细三维操作，让 VLA 主动决定“从哪里看、看得多细”。</strong>针对传统固定视角 VLA 对摄像头原始观测的依赖，该方法解决关键几何信息因遮挡或分辨率不足而难以辨认的问题。</p>
+          <p>我们提出原创的粗到细感知框架，将<strong>任务驱动的虚拟视角选择与主动三维放大</strong>相结合：先定位关键三维区域，再合成信息更充分的视图、放大局部几何细节，最后预测动作，突破固定视觉输入在视角与分辨率上的限制。</p>
           <p>我是这篇 CVPR 2026 论文的共同通讯作者。RLBench、COLOSSEUM、GemBench 基准评测与真实机器人演示表明，该方法提升了复杂、遮挡场景下操作的精度与鲁棒性。</p>
           <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">CVPR 正式论文 ↗</a><a href="https://arxiv.org/abs/2601.08325">预印本 ↗</a><a href="https://zhenyangliu.github.io/ActiveVLA/">项目与演示 ↗</a></div>
         </div>
