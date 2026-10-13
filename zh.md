@@ -358,6 +358,15 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">阅读专访 ↗</a><a href="https://arxiv.org/abs/2512.21201">研究论文 ↗</a></div>
         </div>
       </li>
+      <li id="trivla" class="media-item">
+        <div class="media-meta">复旦大学 · 上海创智学院<time datetime="2025-07-02">2025 年</time></div>
+        <div>
+          <h4><a href="https://zhenyangliu.github.io/TriVLA/">TriVLA：融合世界知识与世界模型的三系统 VLA</a></h4>
+          <p>团队提出 TriVLA，<strong>首个在统一三系统 VLA 架构中形式化构建情景世界模型的框架</strong>。它将视觉语言模型的世界知识、视频扩散模型的动态预测与动作策略统一起来，支撑复杂指令理解和长时程机器人操作。</p>
+          <p>研究获得深蓝学院视频解读，以及 Moonlight 和 CSDN 开发者社区的论文评述与技术解析。</p>
+          <div class="recognition-links"><a href="https://zhenyangliu.github.io/TriVLA/">项目主页 ↗</a><a href="https://arxiv.org/abs/2507.01424">研究论文 ↗</a><a href="https://www.bilibili.com/video/BV188u2zQEga/">深蓝学院 · 视频解读 ↗</a><a href="https://www.themoonlight.io/zh/review/trivla-a-unified-triple-system-based-unified-vision-language-action-model-for-general-robot-control">Moonlight 论文评述 ↗</a><a href="https://adg.csdn.net/69708e24437a6b40336aaff5.html">CSDN 技术解析 ↗</a></div>
+        </div>
+      </li>
       <li id="visuo-tactile" class="media-item">
         <div class="media-meta">WAIC 2025 · 复旦大学<time datetime="2025-07-26">2025 年 7 月</time></div>
         <div>

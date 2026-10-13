@@ -355,6 +355,15 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">Read the interview ↗</a><a href="https://arxiv.org/abs/2512.21201">Research paper ↗</a></div>
         </div>
       </li>
+      <li id="trivla" class="media-item">
+        <div class="media-meta">Fudan University · Shanghai Innovation Institute<time datetime="2025-07-02">2025</time></div>
+        <div>
+          <h4><a href="https://zhenyangliu.github.io/TriVLA/">TriVLA: unifying world knowledge and world modeling in a triple-system VLA</a></h4>
+          <p>Our TriVLA is <strong>the first framework to formalize episodic world modeling within a unified triple-system VLA architecture</strong>. It combines world knowledge from a vision-language model, dynamic prediction from a video diffusion model, and an action policy to support complex instructions and long-horizon robotic manipulation.</p>
+          <p>Discussed in a Shenlan Academy video and research reviews by Moonlight and the CSDN developer community.</p>
+          <div class="recognition-links"><a href="https://zhenyangliu.github.io/TriVLA/">Project ↗</a><a href="https://arxiv.org/abs/2507.01424">Research paper ↗</a><a href="https://www.bilibili.com/video/BV188u2zQEga/">Shenlan Academy · Video review ↗</a><a href="https://www.themoonlight.io/zh/review/trivla-a-unified-triple-system-based-unified-vision-language-action-model-for-general-robot-control">Moonlight review ↗</a><a href="https://adg.csdn.net/69708e24437a6b40336aaff5.html">CSDN analysis ↗</a></div>
+        </div>
+      </li>
       <li id="visuo-tactile" class="media-item">
         <div class="media-meta">WAIC 2025 · Fudan University<time datetime="2025-07-26">July 2025</time></div>
         <div>
