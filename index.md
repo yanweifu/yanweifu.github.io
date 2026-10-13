@@ -412,8 +412,9 @@ image: /assets/images/yanwei-fu.png
         <div class="media-meta">fMRI · Dream decoding</div>
         <div>
           <h4><a href="https://arxiv.org/abs/2501.09350">fMRI dream decoding: from neural signals to visual narratives</a></h4>
-          <p>Our exploratory study combines fMRI decoding of dream imagery with language models to construct video narratives. It is discussed in a direct ScienceWriters / NASW interview and an Innovando.News feature; Science and Fiction pairs the research with an original short story.</p>
-          <div class="recognition-links"><a href="https://www.nasw.org/article/dream-decoding-what-if-you-could-replay-your-inner-world">ScienceWriters / NASW interview ↗</a><a href="https://innovando.news/sogni-realta-anticipazioni-fantascienza-innovazione/">Innovando.News feature ↗</a><a href="https://scienceandfiction.net/stories/31_dream-oracle/">Science and Fiction · Story &amp; study ↗</a><a href="https://arxiv.org/abs/2501.09350">Research preprint ↗</a></div>
+          <p>Our exploratory study combines fMRI decoding of dream imagery with language models to construct video narratives.</p>
+          <p>Communications of the ACM featured the work in May 2026, interviewing me about dream decoding and CineBrain. Additional coverage includes a direct ScienceWriters / NASW interview and an Innovando.News feature; Science and Fiction pairs the research with an original short story.</p>
+          <div class="recognition-links"><a href="https://cacm.acm.org/news/decoding-dreams-with-ai/">Communications of the ACM · Feature &amp; interview ↗</a><a href="https://www.nasw.org/article/dream-decoding-what-if-you-could-replay-your-inner-world">ScienceWriters / NASW interview ↗</a><a href="https://innovando.news/sogni-realta-anticipazioni-fantascienza-innovazione/">Innovando.News feature ↗</a><a href="https://scienceandfiction.net/stories/31_dream-oracle/">Science and Fiction · Story &amp; study ↗</a><a href="https://arxiv.org/abs/2501.09350">Research preprint ↗</a></div>
         </div>
       </li>
     </ul>

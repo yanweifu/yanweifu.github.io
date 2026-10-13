@@ -415,8 +415,9 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div class="media-meta">fMRI · 梦境解码</div>
         <div>
           <h4><a href="https://arxiv.org/abs/2501.09350">fMRI 梦境解码：从睡眠脑信号到视觉叙事</a></h4>
-          <p>团队探索利用 fMRI 解码梦境视觉意象，并结合语言模型构建视频叙事。研究获得 NASW / ScienceWriters 专访及 Innovando.News 专题介绍，Science and Fiction 则将论文解读与原创科幻故事相结合。</p>
-          <div class="recognition-links"><a href="https://www.nasw.org/article/dream-decoding-what-if-you-could-replay-your-inner-world">美国科学作家协会 NASW 专访 ↗</a><a href="https://innovando.news/sogni-realta-anticipazioni-fantascienza-innovazione/">Innovando.News 专题 ↗</a><a href="https://scienceandfiction.net/stories/31_dream-oracle/">Science and Fiction 解读与故事 ↗</a><a href="https://arxiv.org/abs/2501.09350">研究预印本 ↗</a></div>
+          <p>团队探索利用 fMRI 解码梦境视觉意象，并结合语言模型构建视频叙事。</p>
+          <p>《Communications of the ACM》于 2026 年 5 月刊发专题报道并专访我，介绍梦境解码与 CineBrain 研究。研究亦获得 NASW / ScienceWriters 专访及 Innovando.News 专题介绍，Science and Fiction 则将论文解读与原创科幻故事相结合。</p>
+          <div class="recognition-links"><a href="https://cacm.acm.org/news/decoding-dreams-with-ai/">Communications of the ACM 专题报道与专访 ↗</a><a href="https://www.nasw.org/article/dream-decoding-what-if-you-could-replay-your-inner-world">美国科学作家协会 NASW 专访 ↗</a><a href="https://innovando.news/sogni-realta-anticipazioni-fantascienza-innovazione/">Innovando.News 专题 ↗</a><a href="https://scienceandfiction.net/stories/31_dream-oracle/">Science and Fiction 解读与故事 ↗</a><a href="https://arxiv.org/abs/2501.09350">研究预印本 ↗</a></div>
         </div>
       </li>
     </ul>
