@@ -308,6 +308,19 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     </div>
   </div>
   <div class="media-group">
+    <h3>产业应用</h3>
+    <ul class="media-list">
+      <li id="zits-huawei" class="media-item">
+        <div class="media-meta">华为 Mate 60<br>AI 消除</div>
+        <div>
+          <h4><a href="https://sds.fudan.edu.cn/71/82/c17412a749954/page.htm">ZITS 图像修复算法落地华为 Mate 60 的 AI 消除功能</a></h4>
+          <p>我们团队研发的 ZITS 系列图像修复算法应用于华为 Mate 60 手机的 AI 消除功能，将结构感知图像补全研究转化为日常照片编辑体验。</p>
+          <div class="recognition-links"><a href="https://sds.fudan.edu.cn/71/82/c17412a749954/page.htm">复旦官方报道 ↗</a><a href="https://www.jfdaily.com.cn/wx/detail.do?id=991495">解放日报报道 ↗</a><a href="https://dqiaole.github.io/ZITS_inpainting/">ZITS · CVPR 2022 ↗</a><a href="https://ewrfcas.github.io/ZITS-PlusPlus/">ZITS++ · IEEE TPAMI ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="media-group">
     <h3>具身智能</h3>
     <ul class="media-list">
       <li class="media-item">

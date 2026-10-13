@@ -305,6 +305,19 @@ image: /assets/images/yanwei-fu.png
     </div>
   </div>
   <div class="media-group">
+    <h3>Industry deployment</h3>
+    <ul class="media-list">
+      <li id="zits-huawei" class="media-item">
+        <div class="media-meta">Huawei Mate 60<br>AI object removal</div>
+        <div>
+          <h4><a href="https://sds.fudan.edu.cn/71/82/c17412a749954/page.htm">ZITS image inpainting in Huawei Mate 60 AI object removal</a></h4>
+          <p>Our team’s ZITS-series image-inpainting algorithms have been deployed in Huawei Mate 60’s AI object-removal feature, bringing structure-aware image completion into everyday smartphone photo editing.</p>
+          <div class="recognition-links"><a href="https://sds.fudan.edu.cn/71/82/c17412a749954/page.htm">Fudan report ↗</a><a href="https://www.jfdaily.com.cn/wx/detail.do?id=991495">Jiefang Daily coverage ↗</a><a href="https://dqiaole.github.io/ZITS_inpainting/">ZITS · CVPR 2022 ↗</a><a href="https://ewrfcas.github.io/ZITS-PlusPlus/">ZITS++ · IEEE TPAMI ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="media-group">
     <h3>Embodied intelligence</h3>
     <ul class="media-list">
       <li class="media-item">
