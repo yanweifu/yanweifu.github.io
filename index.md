@@ -125,7 +125,8 @@ image: /assets/images/yanwei-fu.png
       <div>
         <h4><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation</a></h4>
         <p>Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, <strong>Yanwei Fu</strong></p>
-        <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">Paper</a></div>
+        <p>Active selection of virtual viewpoints and 3D zoom-in for precise manipulation under occlusion.</p>
+        <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">Paper</a><a href="https://zhenyangliu.github.io/ActiveVLA/">Project &amp; demos</a></div>
       </div>
     </li>
     <li class="publication">
@@ -439,7 +440,7 @@ image: /assets/images/yanwei-fu.png
       </li>
     </ul>
   </div>
-  <div class="media-group">
+  <div id="embodied-intelligence" class="media-group">
     <h3>Embodied intelligence</h3>
     <ul class="media-list">
       <li id="tau0-wm" class="media-item">
@@ -448,8 +449,8 @@ image: /assets/images/yanwei-fu.png
           <h4><a href="https://tau0-wm.github.io/">τ₀-WM: a unified video-action world model for robotic manipulation</a></h4>
           <p>I coauthored τ₀-WM, jointly released by Shanghai Innovation Institute and AGIBOT Finch. Pretrained on approximately 27,300 hours of robot and human interaction data, the model unifies video prediction, action generation, and evaluation of action consequences, allowing robots to predict, evaluate, and revise candidate actions before execution.</p>
           <p><strong>He You, a member of the Chinese Academy of Engineering, featured τ₀-WM in his presentation on intelligent unmanned systems at the Fourth Shanghai Computer Vision Conference (2026).</strong> His slide highlighted its training-data scale and described it at the time as the world’s largest-scale open-source pretrained embodied world model.</p>
-          <p>Featured in Wenhui Daily / Shangguan News and QbitAI, with code and model weights openly available.</p>
-          <div class="recognition-links"><a href="https://tau0-wm.github.io/">Project ↗</a><a href="https://arxiv.org/abs/2606.01027">Research paper ↗</a><a href="https://github.com/sii-research/tau-0-wm">Code &amp; model weights ↗</a><a href="{{ '/assets/media/tau0-wm-he-you-shanghai-computer-vision-conference-2026.jpg' | relative_url }}">He You’s presentation · Photo ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">Institute announcement ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">Wenhui Daily / Shangguan News ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">QbitAI feature ↗</a></div>
+          <p><strong>Featured in Wenhui Daily / Shangguan News, Xinmin Evening News, and QbitAI.</strong> The coverage explains how the model anticipates action consequences and generalizes across tasks; code and model weights are openly available.</p>
+          <div class="recognition-links"><a href="https://tau0-wm.github.io/">Project ↗</a><a href="https://arxiv.org/abs/2606.01027">Research paper ↗</a><a href="https://github.com/sii-research/tau-0-wm">Code &amp; model weights ↗</a><a href="{{ '/assets/media/tau0-wm-he-you-shanghai-computer-vision-conference-2026.jpg' | relative_url }}">He You’s presentation · Photo ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">Institute announcement ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">Wenhui Daily / Shangguan News ↗</a><a href="https://paper.xinmin.cn/html/xmwb/2026-05-31/5/239280.html">Xinmin Evening News · Print edition ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">QbitAI feature ↗</a></div>
         </div>
       </li>
       <li id="schrodinger-navigator" class="media-item">
@@ -457,8 +458,26 @@ image: /assets/images/yanwei-fu.png
         <div>
           <h4><a href="https://www.mittrchina.com/news/detail/16139">Schrödinger’s Navigator: letting robots imagine before navigating</a></h4>
           <p><strong>A novel AI framework for zero-shot object navigation (ZSON), enabling robots to imagine possible futures before acting.</strong> It uses a 3D world model to explore possibilities beyond occlusions, weighing target cues, navigable space, and geometric risks to guide navigation in unfamiliar environments.</p>
-          <p>Featured in a MIT Technology Review China / DeepTech interview on our research.</p>
-          <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">Read the interview ↗</a><a href="https://arxiv.org/abs/2512.21201">Research paper ↗</a><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/">Project ↗</a></div>
+          <p><strong>MIT Technology Review China / DeepTech interviewed me about this research</strong>, including its real-world quadruped demonstrations, the motivation for imagining before navigating, and mentoring students to develop new research frameworks.</p>
+          <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">MIT Technology Review China / DeepTech · Interview ↗</a><a href="https://arxiv.org/abs/2512.21201">Research paper ↗</a><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/">Project ↗</a></div>
+        </div>
+      </li>
+      <li id="pose-vla" class="media-item">
+        <div class="media-meta">RSS 2026<time datetime="2026-07">July 2026</time></div>
+        <div>
+          <h4><a href="https://hetolin.github.io/PoseVLA/">Pose-VLA: universal 3D pose pretraining for generalizable robot policies</a></h4>
+          <p><strong>Pose-VLA connects 3D spatial understanding with learning from limited robot demonstrations.</strong> It separates pretraining for universal spatial priors from subsequent alignment to a robot’s action space, using discrete pose tokens to bring together diverse 3D datasets and robot trajectories.</p>
+          <p>Published at Robotics: Science and Systems (RSS) 2026, the work demonstrates real-world generalization across diverse objects with <strong>only 100 demonstrations per task</strong>. This extends our research on learning with limited data to vision-language-action policies.</p>
+          <div class="recognition-links"><a href="https://roboticsproceedings.org/rss22/p145.html">RSS paper ↗</a><a href="https://hetolin.github.io/PoseVLA/">Project &amp; demos ↗</a><a href="https://github.com/hetolin/PoseVLA">Code &amp; models ↗</a></div>
+        </div>
+      </li>
+      <li id="active-vla" class="media-item">
+        <div class="media-meta">CVPR 2026<time datetime="2026-06">June 2026</time></div>
+        <div>
+          <h4><a href="https://zhenyangliu.github.io/ActiveVLA/">ActiveVLA: choosing where to look for precise robotic manipulation</a></h4>
+          <p><strong>ActiveVLA gives vision-language-action models active perception: selecting informative virtual viewpoints and zooming in on task-critical 3D regions.</strong> Its coarse-to-fine process first locates the relevant region, then synthesizes views that reduce occlusion and reveal fine geometric details before predicting an action.</p>
+          <p>I am a co-corresponding author of this CVPR 2026 paper. Evaluations on RLBench, COLOSSEUM, and GemBench, together with real-robot demonstrations, show improved precision and robustness for manipulation in cluttered and occluded scenes.</p>
+          <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">CVPR paper ↗</a><a href="https://arxiv.org/abs/2601.08325">Preprint ↗</a><a href="https://zhenyangliu.github.io/ActiveVLA/">Project &amp; demos ↗</a></div>
         </div>
       </li>
       <li id="trivla" class="media-item">
@@ -476,8 +495,17 @@ image: /assets/images/yanwei-fu.png
         <div>
           <h4><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Visuo-tactile AI sensing: live demonstration to Premier Li Qiang</a></h4>
           <p>I contributed to the team’s adaptive visuo-tactile AI sensor, demonstrated live to Chinese Premier Li Qiang at WAIC 2025. The work enables delicate robotic handling of fragile objects such as tofu and jelly.</p>
-          <p>China Science Daily / ScienceNet interviewed me about the technology’s applications and reported demonstrations of grasping jelly and scooping tangyuan (glutinous rice balls), in a feature published on <time datetime="2025-07-29">July 29, 2025</time>.</p>
-          <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Premier’s visit &amp; demo ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">Project report ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Media interview ↗</a><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">China Science Daily / ScienceNet · Jelly &amp; tangyuan demos ↗</a></div>
+          <p><strong>China Science Daily / ScienceNet and Wenhui Daily / Shangguan News interviewed me about the technology.</strong> Wenhui’s <time datetime="2025-07-26">July 26, 2025</time> WAIC report discusses the sensing algorithm; China Science Daily’s <time datetime="2025-07-29">July 29 feature</time> covers jelly-grasping and tangyuan-scooping demonstrations and applications in precise sorting and assembly.</p>
+          <div class="recognition-links"><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">China Science Daily / ScienceNet · Feature &amp; interview ↗</a><a href="https://www.jfdaily.com/wx/detail.do?id=953117">Wenhui Daily / Shangguan News · Interview ↗</a><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Premier’s visit &amp; demo ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">Project report ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Shanghai Education News · Interview ↗</a></div>
+        </div>
+      </li>
+      <li id="smart-bartender" class="media-item">
+        <div class="media-meta">IEEE Spectrum<br>ICRA 2023 video selection</div>
+        <div>
+          <h4><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">Smart Bartender: serving drinks through interactive gaze following</a></h4>
+          <p>Our Smart Bartender lets users choose a drink by looking at it. Combining gaze following, category-level object pose estimation, and motion planning, the robot identifies the selected bottle, grasps it, and pours into a cup, generalizing to bottles and cups not seen during training.</p>
+          <p><strong>Featured in IEEE Spectrum’s Video Friday selection of ICRA 2023 robot videos.</strong> The editorial roundup includes the demonstration and credits the Fudan University team.</p>
+          <div class="recognition-links"><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">IEEE Spectrum · ICRA 2023 video selection ↗</a><a href="#robotics-2023">Earlier robotics demonstrations ↓</a></div>
         </div>
       </li>
       <li id="robotics-2023" class="media-item">

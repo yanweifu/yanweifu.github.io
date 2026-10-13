@@ -128,7 +128,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <div>
         <h4><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation</a></h4>
         <p>Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, <strong>Yanwei Fu</strong></p>
-        <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">论文</a></div>
+        <p>主动选择虚拟视角并放大关键三维区域，提升遮挡场景下的精细操作能力。</p>
+        <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">论文</a><a href="https://zhenyangliu.github.io/ActiveVLA/">项目与演示</a></div>
       </div>
     </li>
     <li class="publication">
@@ -442,7 +443,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       </li>
     </ul>
   </div>
-  <div class="media-group">
+  <div id="embodied-intelligence" class="media-group">
     <h3>具身智能</h3>
     <ul class="media-list">
       <li id="tau0-wm" class="media-item">
@@ -451,8 +452,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <h4><a href="https://tau0-wm.github.io/">τ₀-WM：与智元合作的统一视频—动作具身世界模型</a></h4>
           <p>我参与了上海创智学院与智元机器人具身研究中心联合发布的 τ₀-WM 研究。该模型利用约 27,300 小时的机器人与人类交互数据进行预训练，将视频预测、动作生成与行动后果评估统一起来，使机器人能够在实际执行前预测、评估并修正候选动作。</p>
           <p><strong>中国工程院院士何友在第四届（2026）上海计算机视觉大会《智能无人系统发展前沿》报告中介绍 τ₀-WM</strong>，其报告幻灯片称该工作为“当前全球最大规模的开源预训练具身世界模型”，强调了当时的预训练数据规模。</p>
-          <p>研究获得《文汇报》／上观新闻及量子位专题报道，模型权重与代码已开源。</p>
-          <div class="recognition-links"><a href="https://tau0-wm.github.io/">项目主页 ↗</a><a href="https://arxiv.org/abs/2606.01027">研究论文 ↗</a><a href="https://github.com/sii-research/tau-0-wm">代码与模型权重 ↗</a><a href="{{ '/assets/media/tau0-wm-he-you-shanghai-computer-vision-conference-2026.jpg' | relative_url }}">何友院士评述 · 报告现场照片 ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">创智学院官方发布 ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">《文汇报》／上观新闻 ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">量子位专题 ↗</a></div>
+          <p><strong>研究获得《文汇报》／上观新闻、《新民晚报》及量子位专题报道</strong>，介绍模型在执行前预判行动后果、实现跨任务泛化的能力；模型权重与代码已开源。</p>
+          <div class="recognition-links"><a href="https://tau0-wm.github.io/">项目主页 ↗</a><a href="https://arxiv.org/abs/2606.01027">研究论文 ↗</a><a href="https://github.com/sii-research/tau-0-wm">代码与模型权重 ↗</a><a href="{{ '/assets/media/tau0-wm-he-you-shanghai-computer-vision-conference-2026.jpg' | relative_url }}">何友院士评述 · 报告现场照片 ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">创智学院官方发布 ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">《文汇报》／上观新闻 ↗</a><a href="https://paper.xinmin.cn/html/xmwb/2026-05-31/5/239280.html">《新民晚报》纸刊原版 ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">量子位专题 ↗</a></div>
         </div>
       </li>
       <li id="schrodinger-navigator" class="media-item">
@@ -460,8 +461,26 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div>
           <h4><a href="https://www.mittrchina.com/news/detail/16139">Schrödinger’s Navigator：让机器人先想象、再导航</a></h4>
           <p><strong>一种用于零样本目标导航（Zero-Shot Object Navigation，ZSON）的创新人工智能框架，让机器人学会“先想象、再行动”。</strong>利用三维世界模型想象遮挡后方的多种可能未来，综合目标线索、可通行空间与几何风险，在未知环境中规划导航路线。</p>
-          <p>《麻省理工科技评论》中文版／DeepTech 专访介绍了这项研究。</p>
-          <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">阅读专访 ↗</a><a href="https://arxiv.org/abs/2512.21201">研究论文 ↗</a><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/">项目主页 ↗</a></div>
+          <p><strong>《麻省理工科技评论》中文版／DeepTech 就这项研究对我进行了专访</strong>，介绍真实四足机器人的导航演示，并讨论“先想象、再导航”的研究动机，以及引导学生探索新研究框架的经历。</p>
+          <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">麻省理工科技评论中文版／DeepTech · 专访 ↗</a><a href="https://arxiv.org/abs/2512.21201">研究论文 ↗</a><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/">项目主页 ↗</a></div>
+        </div>
+      </li>
+      <li id="pose-vla" class="media-item">
+        <div class="media-meta">RSS 2026<time datetime="2026-07">2026 年 7 月</time></div>
+        <div>
+          <h4><a href="https://hetolin.github.io/PoseVLA/">Pose-VLA：通过通用三维姿态预训练提升机器人策略泛化</a></h4>
+          <p><strong>Pose-VLA 将三维空间理解与少量机器人示教学习相结合</strong>，把通用空间先验的预训练与具体机器人动作空间的后续对齐分开，通过离散姿态 token 统一利用多种三维数据集和机器人轨迹。</p>
+          <p>该工作发表于 Robotics: Science and Systems（RSS）2026，在真实机器人实验中，<strong>每项任务仅用 100 条示教即可验证对多种物体的泛化能力</strong>，将我们关于有限数据学习的研究推进至视觉—语言—动作策略。</p>
+          <div class="recognition-links"><a href="https://roboticsproceedings.org/rss22/p145.html">RSS 正式论文 ↗</a><a href="https://hetolin.github.io/PoseVLA/">项目与演示 ↗</a><a href="https://github.com/hetolin/PoseVLA">代码与模型 ↗</a></div>
+        </div>
+      </li>
+      <li id="active-vla" class="media-item">
+        <div class="media-meta">CVPR 2026<time datetime="2026-06">2026 年 6 月</time></div>
+        <div>
+          <h4><a href="https://zhenyangliu.github.io/ActiveVLA/">ActiveVLA：主动选择观察视角，实现精细机器人操作</a></h4>
+          <p><strong>ActiveVLA 为视觉—语言—动作模型引入主动感知，选择信息更充分的虚拟视角，并放大与任务相关的关键三维区域。</strong>模型先粗定位目标区域，再合成减少遮挡、呈现局部几何细节的视图，为后续动作预测提供更准确的视觉信息。</p>
+          <p>我是这篇 CVPR 2026 论文的共同通讯作者。RLBench、COLOSSEUM、GemBench 基准评测与真实机器人演示表明，该方法提升了复杂、遮挡场景下操作的精度与鲁棒性。</p>
+          <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">CVPR 正式论文 ↗</a><a href="https://arxiv.org/abs/2601.08325">预印本 ↗</a><a href="https://zhenyangliu.github.io/ActiveVLA/">项目与演示 ↗</a></div>
         </div>
       </li>
       <li id="trivla" class="media-item">
@@ -479,8 +498,17 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div>
           <h4><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">视触觉 AI 传感器：WAIC 2025 向国务院总理李强现场演示</a></h4>
           <p>我作为团队成员参与研发的自适应视触觉 AI 传感器，在 WAIC 2025 向国务院总理李强进行了现场演示，展示机器人对豆腐、果冻等易碎物体的精细抓取能力。</p>
-          <p>《中国科学报》／科学网于 <time datetime="2025-07-29">2025 年 7 月 29 日</time>专题报道了机器人抓果冻、舀汤圆等精细操作演示，并采访我介绍这项技术在智能抓取、精细分拣与精密装配中的应用前景。</p>
-          <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">总理参观与现场演示 ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">项目报道 ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">媒体专访 ↗</a><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">《中国科学报》／科学网：抓果冻、舀汤圆 ↗</a></div>
+          <p><strong>《中国科学报》／科学网及《文汇报》／上观新闻均就这项技术采访了我。</strong>《文汇报》于 <time datetime="2025-07-26">2025 年 7 月 26 日</time>的 WAIC 现场报道介绍了视触觉感知算法；《中国科学报》<time datetime="2025-07-29">7 月 29 日的专题报道</time>介绍抓果冻、舀汤圆等演示，以及精细分拣与精密装配中的应用前景。</p>
+          <div class="recognition-links"><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">《中国科学报》／科学网 · 专题与采访 ↗</a><a href="https://www.jfdaily.com/wx/detail.do?id=953117">《文汇报》／上观新闻 · 采访 ↗</a><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">总理参观与现场演示 ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">项目报道 ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">上海教育新闻网 · 采访 ↗</a></div>
+        </div>
+      </li>
+      <li id="smart-bartender" class="media-item">
+        <div class="media-meta">IEEE Spectrum<br>ICRA 2023 机器人视频精选</div>
+        <div>
+          <h4><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">Smart Bartender：通过眼动交互理解意图并提供饮料</a></h4>
+          <p>我们的 Smart Bartender 让用户通过注视选择饮料。系统结合眼动跟随、类别级物体位姿估计与运动规划，识别用户选中的瓶子，完成抓取和倒饮料，并泛化至训练时未见过的瓶子与杯子。</p>
+          <p><strong>入选 IEEE Spectrum 的 Video Friday 栏目 ICRA 2023 机器人视频精选。</strong>该编辑精选收录了演示，并列明复旦大学团队及作者。</p>
+          <div class="recognition-links"><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">IEEE Spectrum · ICRA 2023 视频精选 ↗</a><a href="#robotics-2023">早期机器人系统展示 ↓</a></div>
         </div>
       </li>
       <li id="robotics-2023" class="media-item">
