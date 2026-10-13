@@ -337,25 +337,27 @@ image: /assets/images/yanwei-fu.png
       </li>
     </ul>
   </div>
-  <div id="mvsformer-series" class="media-group">
-    <h3>3D reconstruction · MVSFormer series</h3>
+  <div id="3d-reconstruction" class="media-group">
+    <h3>3D reconstruction</h3>
     <ul class="media-list">
-      <li id="mvsformer" class="media-item">
-        <div class="media-meta">MVSFormer · TMLR<time datetime="2022-05">Submission · May 2022</time></div>
+      <li id="mvsformer-series" class="media-item">
+        <div class="media-meta">TMLR · ICLR 2024<time datetime="2022-05">Benchmark submission · May 2022</time></div>
         <div>
-          <h4><a href="https://maybelx.github.io/MVSFormer.github.io/">MVSFormer: pretrained vision transformers for multi-view 3D reconstruction</a></h4>
+          <h4 id="mvsformer"><a href="https://maybelx.github.io/MVSFormer.github.io/">MVSFormer series: advancing multi-view stereo with pretrained vision transformers</a></h4>
           <p><strong>With results submitted in May 2022, MVSFormer ranked first among published methods on both the Intermediate and Advanced Tanks and Temples leaderboards at the time.</strong> Its mean F-scores were 66.37 and 40.87, respectively.</p>
-          <p>To our knowledge, <strong>MVSFormer is the first work to systematically study how pretrained vision transformers enhance multi-view stereo</strong>, strengthening features in reflective and textureless regions and improving depth estimation. It was introduced in the official TMLR weekly digest.</p>
-          <div class="recognition-links"><a href="https://arxiv.org/html/2208.02541v3">Paper &amp; historical results ↗</a><a href="https://github.com/ewrfcas/MVSFormer">Code &amp; models ↗</a><a href="https://www.tanksandtemples.org/details/4145/">Official benchmark submission ↗</a><a href="https://groups.google.com/g/tmlr-announce-weekly/c/CsDsZ5meS6A">TMLR official digest ↗</a></div>
+          <p>To our knowledge, <strong>MVSFormer is the first work to systematically study how pretrained vision transformers enhance multi-view stereo</strong>. <span id="mvsformer-plusplus">MVSFormer++ (ICLR 2024) extends this approach with DINOv2 features, cross-view information, and refined transformer design, improving reconstruction accuracy and generalization.</span></p>
+          <p>The series has been introduced in the TMLR official digest and research overviews from BAAI Hub and HyperAI.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/html/2208.02541v3">MVSFormer paper ↗</a><a href="https://arxiv.org/abs/2401.11673">MVSFormer++ paper ↗</a><a href="https://github.com/ewrfcas/MVSFormer">MVSFormer code ↗</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">MVSFormer++ code ↗</a><a href="https://www.tanksandtemples.org/details/4145/">Official benchmark submission ↗</a><a href="https://groups.google.com/g/tmlr-announce-weekly/c/CsDsZ5meS6A">TMLR official digest ↗</a><a href="https://hub.baai.ac.cn/paper/9e3e63c0-f2b1-43e0-a551-2d8067a119ab">BAAI Hub overview ↗</a><a href="https://hyper.ai/cn/papers/2401.11673">HyperAI overview ↗</a></div>
         </div>
       </li>
-      <li id="mvsformer-plusplus" class="media-item">
-        <div class="media-meta">MVSFormer++<br>ICLR 2024</div>
+      <li id="pixel2mesh-series" class="media-item">
+        <div class="media-meta">ECCV 2018 · ICCV 2019<time datetime="2018-04-05">First preprint · April 5, 2018</time></div>
         <div>
-          <h4><a href="https://arxiv.org/abs/2401.11673">MVSFormer++: refining transformer design for multi-view stereo</a></h4>
-          <p>Our follow-up integrates cross-view information into pretrained DINOv2 features and refines the transformer architecture for depth estimation, advancing reconstruction accuracy and generalization across image resolutions.</p>
-          <p>Research overviews are available from BAAI Hub and HyperAI.</p>
-          <div class="recognition-links"><a href="https://arxiv.org/abs/2401.11673">ICLR 2024 paper ↗</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">Code &amp; models ↗</a><a href="https://hub.baai.ac.cn/paper/9e3e63c0-f2b1-43e0-a551-2d8067a119ab">BAAI Hub · Paper overview ↗</a><a href="https://hyper.ai/cn/papers/2401.11673">HyperAI · Paper overview ↗</a></div>
+          <h4 id="pixel2mesh"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh series: from a single RGB image directly to a 3D mesh</a></h4>
+          <p><strong>Pixel2Mesh is the first end-to-end deep learning framework to directly generate a 3D triangular mesh from a single RGB image.</strong> It bypasses the extra conversion from point clouds or voxels to meshes, directly producing a mesh representation for rendering and geometric processing.</p>
+          <p id="pixel2mesh-plusplus">Pixel2Mesh++ (ICCV 2019) extends the series to multi-view mesh generation and refinement, improving geometric detail and consistency across viewpoints.</p>
+          <p>PaperWeekly published dedicated features on Pixel2Mesh in <time datetime="2018-09-10">September 2018</time> and Pixel2Mesh++ in <time datetime="2019-11-08">November 2019</time>, explaining the direct-mesh breakthrough and its multi-view extension.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh paper ↗</a><a href="https://github.com/nywang16/Pixel2Mesh">Pixel2Mesh code &amp; models ↗</a><a href="https://arxiv.org/abs/1908.01491">Pixel2Mesh++ paper ↗</a><a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Pixel2Mesh++ project &amp; code ↗</a><a href="https://www.sohu.com/a/252979433_500659">PaperWeekly · Pixel2Mesh feature ↗</a><a href="https://www.sohu.com/a/352447127_500659">PaperWeekly · Pixel2Mesh++ feature ↗</a></div>
         </div>
       </li>
     </ul>

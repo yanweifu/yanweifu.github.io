@@ -340,25 +340,27 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       </li>
     </ul>
   </div>
-  <div id="mvsformer-series" class="media-group">
-    <h3>三维重建 · MVSFormer 系列</h3>
+  <div id="3d-reconstruction" class="media-group">
+    <h3>三维重建</h3>
     <ul class="media-list">
-      <li id="mvsformer" class="media-item">
-        <div class="media-meta">MVSFormer · TMLR<time datetime="2022-05">2022 年 5 月提交</time></div>
+      <li id="mvsformer-series" class="media-item">
+        <div class="media-meta">TMLR · ICLR 2024<time datetime="2022-05">榜单提交 · 2022 年 5 月</time></div>
         <div>
-          <h4><a href="https://maybelx.github.io/MVSFormer.github.io/">MVSFormer：预训练视觉 Transformer 驱动的多视图三维重建</a></h4>
+          <h4 id="mvsformer"><a href="https://maybelx.github.io/MVSFormer.github.io/">MVSFormer 系列：预训练视觉 Transformer 推进多视图三维重建</a></h4>
           <p><strong>基于 2022 年 5 月提交的结果，MVSFormer 在 Tanks and Temples 的 Intermediate 与 Advanced 两组中，均位列当时已发表方法第一。</strong> 平均 F-score 分别为 66.37 和 40.87。</p>
-          <p>据我们所知，这是<strong>首个系统研究预训练视觉 Transformer 如何增强多视图立体重建的工作</strong>，改善反光、弱纹理等复杂区域的图像表征与深度估计，并获 TMLR 官方周报介绍。</p>
-          <div class="recognition-links"><a href="https://arxiv.org/html/2208.02541v3">论文与历史榜单结果 ↗</a><a href="https://github.com/ewrfcas/MVSFormer">代码与模型 ↗</a><a href="https://www.tanksandtemples.org/details/4145/">榜单官方提交记录 ↗</a><a href="https://groups.google.com/g/tmlr-announce-weekly/c/CsDsZ5meS6A">TMLR 官方周报 ↗</a></div>
+          <p>据我们所知，MVSFormer 是<strong>首个系统研究预训练视觉 Transformer 如何增强多视图立体重建的工作</strong>。<span id="mvsformer-plusplus">MVSFormer++（ICLR 2024）进一步融入 DINOv2 表征与跨视图信息，优化 Transformer 设计，持续提升重建精度与泛化能力。</span></p>
+          <p>系列研究获 TMLR 官方周报介绍，智源社区与 HyperAI 提供了论文介绍。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/html/2208.02541v3">MVSFormer 论文 ↗</a><a href="https://arxiv.org/abs/2401.11673">MVSFormer++ 论文 ↗</a><a href="https://github.com/ewrfcas/MVSFormer">MVSFormer 代码 ↗</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">MVSFormer++ 代码 ↗</a><a href="https://www.tanksandtemples.org/details/4145/">榜单官方提交记录 ↗</a><a href="https://groups.google.com/g/tmlr-announce-weekly/c/CsDsZ5meS6A">TMLR 官方周报 ↗</a><a href="https://hub.baai.ac.cn/paper/9e3e63c0-f2b1-43e0-a551-2d8067a119ab">智源社区论文介绍 ↗</a><a href="https://hyper.ai/cn/papers/2401.11673">HyperAI 论文介绍 ↗</a></div>
         </div>
       </li>
-      <li id="mvsformer-plusplus" class="media-item">
-        <div class="media-meta">MVSFormer++<br>ICLR 2024</div>
+      <li id="pixel2mesh-series" class="media-item">
+        <div class="media-meta">ECCV 2018 · ICCV 2019<time datetime="2018-04-05">首次公开 · 2018 年 4 月 5 日</time></div>
         <div>
-          <h4><a href="https://arxiv.org/abs/2401.11673">MVSFormer++：优化 Transformer 设计，持续推进多视图三维重建</a></h4>
-          <p>后续工作进一步将跨视图信息融入 DINOv2 预训练表征，并优化用于深度估计的 Transformer 架构，提升重建精度和不同图像分辨率下的泛化能力。</p>
-          <p>智源社区与 HyperAI 提供了论文介绍与摘要解读。</p>
-          <div class="recognition-links"><a href="https://arxiv.org/abs/2401.11673">ICLR 2024 论文 ↗</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">代码与模型 ↗</a><a href="https://hub.baai.ac.cn/paper/9e3e63c0-f2b1-43e0-a551-2d8067a119ab">智源社区论文介绍 ↗</a><a href="https://hyper.ai/cn/papers/2401.11673">HyperAI 论文介绍 ↗</a></div>
+          <h4 id="pixel2mesh"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh 系列：从单张 RGB 图像直接生成三维网格</a></h4>
+          <p><strong>Pixel2Mesh 是首个能够从单张彩色图像（RGB）直接端到端生成 3D 三角网格（Mesh）的深度学习框架。</strong>突破以点云或体素作为中间表示、再转换为网格的流程，直接输出可用于渲染和几何处理的网格模型。</p>
+          <p id="pixel2mesh-plusplus">Pixel2Mesh++（ICCV 2019）进一步实现多视角网格生成与精细化，提升几何细节和跨视角一致性。</p>
+          <p>PaperWeekly 分别于 <time datetime="2018-09-10">2018 年 9 月</time>和 <time datetime="2019-11-08">2019 年 11 月</time>刊发专题解读，介绍单图直接生成网格的突破及后续多视角扩展。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh 论文 ↗</a><a href="https://github.com/nywang16/Pixel2Mesh">Pixel2Mesh 代码与模型 ↗</a><a href="https://arxiv.org/abs/1908.01491">Pixel2Mesh++ 论文 ↗</a><a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Pixel2Mesh++ 项目与代码 ↗</a><a href="https://www.sohu.com/a/252979433_500659">PaperWeekly · Pixel2Mesh 专题 ↗</a><a href="https://www.sohu.com/a/352447127_500659">PaperWeekly · Pixel2Mesh++ 专题 ↗</a></div>
         </div>
       </li>
     </ul>
