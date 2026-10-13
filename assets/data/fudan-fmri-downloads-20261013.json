@@ -1,0 +1,60 @@
+{
+  "checkedAtSessionDate": "2026-10-13",
+  "sourceApiUrl": "https://huggingface.co/api/datasets?author=Fudan-fMRI&expand[]=downloads&expand[]=downloadsAllTime&limit=100",
+  "sourceApiUrlEncoded": "https://huggingface.co/api/datasets?author=Fudan-fMRI&expand%5B%5D=downloads&expand%5B%5D=downloadsAllTime&limit=100",
+  "measurement": "Hugging Face repository download counts, not unique users",
+  "countingDocumentation": "https://huggingface.co/docs/hub/datasets-download-stats",
+  "datasetRepositories": 8,
+  "downloadsLastMonthTotal": 7870,
+  "downloadsAllTimeTotal": 189671,
+  "datasets": [
+    {
+      "id": "Fudan-fMRI/fMRI-Shape",
+      "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape",
+      "downloadsLastMonth": 3353,
+      "downloadsAllTime": 133630
+    },
+    {
+      "id": "Fudan-fMRI/fMRI-Video",
+      "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video",
+      "downloadsLastMonth": 217,
+      "downloadsAllTime": 15415
+    },
+    {
+      "id": "Fudan-fMRI/fMRI-Objaverse",
+      "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse",
+      "downloadsLastMonth": 2289,
+      "downloadsAllTime": 27891
+    },
+    {
+      "id": "Fudan-fMRI/CineBrain",
+      "url": "https://huggingface.co/datasets/Fudan-fMRI/CineBrain",
+      "downloadsLastMonth": 1718,
+      "downloadsAllTime": 10602
+    },
+    {
+      "id": "Fudan-fMRI/fMRI-Shape-CIFTI",
+      "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape-CIFTI",
+      "downloadsLastMonth": 11,
+      "downloadsAllTime": 223
+    },
+    {
+      "id": "Fudan-fMRI/fMRI-Objaverse-CIFTI",
+      "url": "https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse-CIFTI",
+      "downloadsLastMonth": 26,
+      "downloadsAllTime": 305
+    },
+    {
+      "id": "Fudan-fMRI/MinD-3DPP-Results",
+      "url": "https://huggingface.co/datasets/Fudan-fMRI/MinD-3DPP-Results",
+      "downloadsLastMonth": 33,
+      "downloadsAllTime": 536
+    },
+    {
+      "id": "Fudan-fMRI/EEG-Graspbot",
+      "url": "https://huggingface.co/datasets/Fudan-fMRI/EEG-Graspbot",
+      "downloadsLastMonth": 223,
+      "downloadsAllTime": 1069
+    }
+  ]
+}

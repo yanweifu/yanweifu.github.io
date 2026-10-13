@@ -86,7 +86,7 @@ image: /assets/images/yanwei-fu.png
     <div class="research-topic"><h3>Few-shot learning &amp; statistical foundations</h3><p>Meta-learning, sparsity, causal learning, and reliable generalization under limited supervision.</p></div>
     <div class="research-topic"><h3>Generative models &amp; 3D vision</h3><p>Diffusion models, controllable video generation, and 3D/4D reconstruction from sparse observations.</p></div>
     <div class="research-topic"><h3>Embodied intelligence</h3><p>Vision-guided manipulation, vision-language-action models, and learning from demonstrations.</p></div>
-    <div class="research-topic"><h3>Multimodal learning &amp; brain decoding</h3><p>Learning across visual, language, and neural signals, including fMRI and EEG representations.</p></div>
+    <div class="research-topic"><h3>Multimodal learning &amp; brain decoding</h3><p>Large-scale fMRI pretraining, fMRI-to-3D decoding, and open fMRI/EEG datasets for the research community.</p></div>
   </div>
 </section>
 
@@ -99,7 +99,7 @@ image: /assets/images/yanwei-fu.png
         <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></h3>
         <p>Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, <strong>Yanwei Fu</strong></p>
         <p><strong>First large-scale audiovisual brain dataset pairing time-aligned fMRI and EEG recordings.</strong></p>
-        <div class="publication-links"><a href="https://jianxgao.github.io/CineBrain/">Project &amp; dataset</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Oral</a><span class="award-tag">Best Paper Award Candidate</span></div>
+        <div class="publication-links"><a href="https://jianxgao.github.io/CineBrain/">Project</a><a href="https://huggingface.co/datasets/Fudan-fMRI/CineBrain">Dataset ↗</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Oral</a><span class="award-tag">Best Paper Award Candidate</span></div>
       </div>
     </li>
     <li class="publication">
@@ -442,9 +442,36 @@ image: /assets/images/yanwei-fu.png
       </li>
     </ul>
   </div>
-  <div class="media-group">
-    <h3>Brain decoding</h3>
+  <div id="brain-decoding" class="media-group">
+    <h3>Brain decoding &amp; open research resources</h3>
     <ul class="media-list">
+      <li id="fmri-pte" class="media-item">
+        <div class="media-meta">fMRI pretraining<time datetime="2023-11-01">November 1, 2023</time></div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2311.00342">fMRI-PTE: large-scale, multi-subject fMRI pretraining</a></h4>
+          <p>To our knowledge, <strong>fMRI-PTE is the first fMRI foundation model pretrained at the scale of approximately 40,000 participants for cross-subject visual brain decoding</strong>. Pretrained on 39,630 UK Biobank participants, it learns shared neural representations for within-subject and cross-subject visual decoding.</p>
+          <p>Our group released the arXiv preprint on <strong><time datetime="2023-11-01">November 1, 2023</time></strong>.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2311.00342">Paper &amp; release history ↗</a><a href="https://arxiv.org/html/2311.00342v1">Method &amp; pretraining scale ↗</a><a href="#brain-open-data">Our open brain-signal resources ↓</a></div>
+        </div>
+      </li>
+      <li id="mind3d" class="media-item">
+        <div class="media-meta">ECCV 2024<time datetime="2023-12-12">Preprint · December 12, 2023</time></div>
+        <div>
+          <h4><a href="https://jianxgao.github.io/MinD-3D/">MinD-3D: establishing the fMRI-to-3D reconstruction task</a></h4>
+          <p><strong>Our group first introduced and defined the fMRI-to-3D reconstruction task, Recon3DMind</strong>, and demonstrated its feasibility with MinD-3D. We released <strong>fMRI-Shape, the first dataset pairing fMRI signals with 3D shapes</strong>, collected from 14 participants.</p>
+          <p>The preprint was released on <time datetime="2023-12-12">December 12, 2023</time>, followed by publication at ECCV 2024.</p>
+          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">Project ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV paper ↗</a><a href="https://arxiv.org/abs/2312.07485">Preprint &amp; release history ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape dataset ↗</a></div>
+        </div>
+      </li>
+      <li id="brain-open-data" class="media-item">
+        <div class="media-meta">Fudan-fMRI · Hugging Face<time datetime="2026-10-13">Checked October 13, 2026</time></div>
+        <div>
+          <h4><a href="https://huggingface.co/Fudan-fMRI">Open brain-signal datasets: over 180,000 cumulative downloads</a></h4>
+          <p>Our group contributes brain-signal datasets and research resources to the community through Fudan-fMRI, with <strong>8 public repositories and over 180,000 cumulative downloads</strong>. <strong>fMRI-Shape alone has over 130,000 downloads</strong>; other resources include fMRI-Objaverse, fMRI-Video, and CineBrain.</p>
+          <p>Hugging Face cumulative repository download counts, checked on <time datetime="2026-10-13">October 13, 2026</time>.</p>
+          <div class="recognition-links"><a href="https://huggingface.co/Fudan-fMRI">All datasets &amp; models ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse">fMRI-Objaverse ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video">fMRI-Video ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/CineBrain">CineBrain ↗</a></div>
+        </div>
+      </li>
       <li class="media-item">
         <div class="media-meta">CVPR Daily · RSIP Vision<time datetime="2026-06-07">June 2026</time></div>
         <div>

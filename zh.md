@@ -89,7 +89,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     <div class="research-topic"><h3>小样本学习与统计基础</h3><p>研究元学习、稀疏性与因果学习，建立有限监督条件下可靠泛化的方法与理论基础。</p></div>
     <div class="research-topic"><h3>生成模型与三维视觉</h3><p>研究扩散模型、可控视频生成，以及稀疏观测下的三维与四维重建。</p></div>
     <div class="research-topic"><h3>具身智能</h3><p>研究视觉引导的机器人操作、视觉—语言—动作模型与示范学习。</p></div>
-    <div class="research-topic"><h3>多模态学习与脑解码</h3><p>融合视觉、语言与神经信号，研究包括 fMRI 和 EEG 在内的跨模态表征。</p></div>
+    <div class="research-topic"><h3>多模态学习与脑解码</h3><p>fMRI 大规模预训练、fMRI-to-3D 脑解码，以及面向科研社区的 fMRI／EEG 开放数据集。</p></div>
   </div>
 </section>
 
@@ -102,7 +102,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></h3>
         <p>Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, <strong>Yanwei Fu</strong></p>
         <p><strong>首个在视听观看过程中同步采集 fMRI 与 EEG 的大规模脑数据集。</strong></p>
-        <div class="publication-links"><a href="https://jianxgao.github.io/CineBrain/">项目与数据集</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Oral / 口头报告</a><span class="award-tag">最佳论文奖候选</span></div>
+        <div class="publication-links"><a href="https://jianxgao.github.io/CineBrain/">项目主页</a><a href="https://huggingface.co/datasets/Fudan-fMRI/CineBrain">开放数据集 ↗</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Oral / 口头报告</a><span class="award-tag">最佳论文奖候选</span></div>
       </div>
     </li>
     <li class="publication">
@@ -445,9 +445,36 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       </li>
     </ul>
   </div>
-  <div class="media-group">
-    <h3>脑解码</h3>
+  <div id="brain-decoding" class="media-group">
+    <h3>脑解码与开放科研资源</h3>
     <ul class="media-list">
+      <li id="fmri-pte" class="media-item">
+        <div class="media-meta">fMRI 大规模预训练<time datetime="2023-11-01">2023 年 11 月 1 日</time></div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2311.00342">fMRI-PTE：大规模、多受试者 fMRI 预训练大模型</a></h4>
+          <p>据我们所知，<strong>fMRI-PTE 是首个以约 4 万名受试者进行大规模预训练、面向跨受试者视觉脑解码的 fMRI 大模型</strong>。模型利用 UK Biobank 的 39,630 名受试者数据进行预训练，学习共享神经表征，支持受试者内及跨受试者视觉解码。</p>
+          <p>本团队于 <strong><time datetime="2023-11-01">2023 年 11 月 1 日</time></strong>公开 arXiv 预印本。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2311.00342">论文与首次公开时间 ↗</a><a href="https://arxiv.org/html/2311.00342v1">模型方法与预训练规模 ↗</a><a href="#brain-open-data">团队开放脑信号资源 ↓</a></div>
+        </div>
+      </li>
+      <li id="mind3d" class="media-item">
+        <div class="media-meta">ECCV 2024<time datetime="2023-12-12">预印本 · 2023 年 12 月 12 日</time></div>
+        <div>
+          <h4><a href="https://jianxgao.github.io/MinD-3D/">MinD-3D：首次提出并定义 fMRI-to-3D 脑解码任务</a></h4>
+          <p><strong>本团队首次提出并定义 fMRI-to-3D（Recon3DMind）研究任务</strong>，开发 MinD-3D 框架验证从脑信号重建三维物体的可行性，并发布<strong>首个 fMRI–3D 形状配对数据集 fMRI-Shape</strong>，覆盖 14 名受试者。</p>
+          <p>预印本于 <time datetime="2023-12-12">2023 年 12 月 12 日</time>公开，发表于 ECCV 2024。</p>
+          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">项目主页 ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV 正式论文 ↗</a><a href="https://arxiv.org/abs/2312.07485">预印本与首次公开时间 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape 开放数据集 ↗</a></div>
+        </div>
+      </li>
+      <li id="brain-open-data" class="media-item">
+        <div class="media-meta">Fudan-fMRI · Hugging Face<time datetime="2026-10-13">2026 年 10 月 13 日查询</time></div>
+        <div>
+          <h4><a href="https://huggingface.co/Fudan-fMRI">开放脑信号数据：累计下载逾 18 万次</a></h4>
+          <p>团队通过 Fudan-fMRI 持续向科研社区开放脑信号数据与研究资源，已发布 <strong>8 个公开仓库，累计下载逾 18 万次</strong>。其中 <strong>fMRI-Shape 单项累计下载逾 13 万次</strong>，其他资源包括 fMRI-Objaverse、fMRI-Video 和 CineBrain。</p>
+          <p>以上为 Hugging Face 的仓库累计下载统计，查询日期为 <time datetime="2026-10-13">2026 年 10 月 13 日</time>。</p>
+          <div class="recognition-links"><a href="https://huggingface.co/Fudan-fMRI">全部开放数据与模型 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse">fMRI-Objaverse ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video">fMRI-Video ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/CineBrain">CineBrain ↗</a></div>
+        </div>
+      </li>
       <li class="media-item">
         <div class="media-meta">CVPR Daily · RSIP Vision<time datetime="2026-06-07">2026 年 6 月</time></div>
         <div>
