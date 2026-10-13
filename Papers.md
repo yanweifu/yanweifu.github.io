@@ -447,7 +447,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * Chained-Tracker: Chaining Paired Attentive Regression Results for End-to-End Joint Multiple-Object Detection and Tracking. Jinlong Peng, Changan Wang, Fangbin Wan, Yang Wu, Yabiao Wang, Ying Tai, Chengjie Wang, Jilin Li Feiyue Huang, Yanwei Fu, ECCV 2020. <a class="presentation-tag" href="https://eccv2020.eu/posters/">Spotlight</a>
 
-* DessiLBI: Exploring Structural Sparsity on Deep Network via Differential Inclusion Paths. Yanwei Fu, Chen Liu, Donghao Li, Xinwei Sun, Jinshan Zeng, and Yuan Yao, ICML 2020
+* DessiLBI: Exploring Structural Sparsity of Deep Networks via Differential Inclusion Paths. Yanwei Fu, Chen Liu, Donghao Li, Xinwei Sun, Jinshan Zeng, and Yuan Yao, ICML 2020
 
 * Deep Ranking for Image Zero-Shot Multi-Label Classification. Zhong Ji, Biying Cui, Huihui Li, Yu-Gang Jiang, Tao Xiang, Timothy Hospedales, Yanwei Fu. IEEE Trans. Image Processing (TIP), to appear
 

@@ -107,15 +107,19 @@ pre { padding: 18px; overflow: auto; }
 .research-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 40px; margin-top: 30px; }
 .research-topic { border-left: 2px solid var(--line); padding-left: 18px; }
 .research-topic p { margin: 0; color: var(--muted); font-size: 14px; }
+.publication-group-title { color: var(--gold); font-size: 15px; line-height: 1.5; margin: 0 0 22px; }
 .publication-list { list-style: none; margin: 0; padding: 0; }
 .publication { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 24px; border-top: 1px solid var(--line); padding: 22px 0; margin: 0; }
 .publication:first-child { border-top: 0; padding-top: 0; }
 .publication-venue { color: var(--ink); font-size: 12px; font-weight: 650; line-height: 1.5; }
 .publication-venue span { display: block; color: var(--muted); font-weight: 400; }
-.publication h3 { font-size: 16px; font-weight: 600; line-height: 1.5; margin-bottom: 6px; }
-.publication h3 a { color: var(--ink); }
+.publication h3, .publication h4 { font-size: 16px; font-weight: 600; line-height: 1.5; margin: 0 0 6px; }
+.publication h3 a, .publication h4 a { color: var(--ink); }
 .publication p { color: var(--muted); font-size: 13px; margin: 0 0 8px; line-height: 1.6; }
 .publication-links { display: flex; gap: 18px; flex-wrap: wrap; font-size: 12px; align-items: baseline; }
+.publication-extension { border-left: 2px solid var(--line); padding-left: 14px; margin: 14px 0 10px; }
+.publication-extension h4 { font-size: 14px; }
+.publication p.publication-version { color: var(--gold); font-size: 11px; font-weight: 650; margin-bottom: 4px; }
 .tutorials-section .eyebrow { color: var(--gold); margin-bottom: 8px; }
 .tutorials-section h2 { margin-bottom: 14px; }
 .tutorials-intro { font-size: 14px; margin-bottom: 28px; }
@@ -213,7 +217,8 @@ pre { padding: 18px; overflow: auto; }
   .media-meta time { display: inline; margin-left: 8px; }
   .publication { grid-template-columns: 1fr; gap: 8px; padding: 20px 0; }
   .publication-venue span { display: inline; margin-left: 5px; }
-  .publication h3 { font-size: 15px; }
+  .publication h3, .publication h4 { font-size: 15px; }
+  .publication-extension h4 { font-size: 14px; }
   .background-list li { grid-template-columns: 78px minmax(0, 1fr); gap: 12px; }
   .recruitment { padding: 22px 20px; }
   .page-heading { padding-top: 34px; }

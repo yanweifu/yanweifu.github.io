@@ -95,11 +95,12 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
 
 <section id="publications" class="home-section" aria-labelledby="publications-title">
   <div class="section-heading"><h2 id="publications-title">代表性论文</h2><a href="{{ '/Papers.html' | relative_url }}">完整论文列表 →</a></div>
-  <ol class="publication-list">
+  <h3 id="recent-publications-title" class="publication-group-title">研究亮点</h3>
+  <ol class="publication-list" aria-labelledby="recent-publications-title">
     <li class="publication">
       <div class="publication-venue">CVPR 2026<span>脑解码</span></div>
       <div>
-        <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></h3>
+        <h4><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></h4>
         <p>Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, <strong>Yanwei Fu</strong></p>
         <p><strong>首个在视听观看过程中同步采集 fMRI 与 EEG 的大规模脑数据集。</strong></p>
         <div class="publication-links"><a href="https://jianxgao.github.io/CineBrain/">项目主页</a><a href="https://huggingface.co/datasets/Fudan-fMRI/CineBrain">开放数据集 ↗</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Oral / 口头报告</a><span class="award-tag">最佳论文奖候选</span></div>
@@ -108,7 +109,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     <li class="publication">
       <div class="publication-venue">ICML 2026<span>可靠生成</span></div>
       <div>
-        <h3><a href="https://proceedings.mlr.press/v306/gao26aa.html">Conformal Reliability: A New Evaluation Metric for Conditional Generation</a></h3>
+        <h4><a href="https://proceedings.mlr.press/v306/gao26aa.html">Conformal Reliability: A New Evaluation Metric for Conditional Generation</a></h4>
         <p>Yachen Gao, Xinwei Sun, Yikai Wang, Ye Shi, Jingya Wang, Jianfeng Feng, <strong>Yanwei Fu</strong></p>
         <div class="publication-links"><a href="https://proceedings.mlr.press/v306/gao26aa.html">论文</a><a href="https://ggc29.github.io/CReL/">项目与代码</a></div>
       </div>
@@ -116,7 +117,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     <li class="publication">
       <div class="publication-venue">CVPR 2026<span>视频世界模型</span></div>
       <div>
-        <h3><a href="https://sixiaozheng.github.io/VerseCrafter_page/">VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control</a></h3>
+        <h4><a href="https://sixiaozheng.github.io/VerseCrafter_page/">VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control</a></h4>
         <p>Sixiao Zheng, Minghao Yin, Wenbo Hu, Xiaoyu Li, Ying Shan, <strong>Yanwei Fu</strong></p>
         <p>据我们所知，这是<strong>首个通过显式 4D 几何协同控制相机与多物体运动的动态真实视频世界模型。</strong></p>
         <div class="publication-links"><a href="https://arxiv.org/abs/2601.05138">论文</a><a href="https://sixiaozheng.github.io/VerseCrafter_page/">项目与代码</a></div>
@@ -125,7 +126,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     <li class="publication">
       <div class="publication-venue">CVPR 2026<span>机器人</span></div>
       <div>
-        <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation</a></h3>
+        <h4><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation</a></h4>
         <p>Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, <strong>Yanwei Fu</strong></p>
         <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">论文</a></div>
       </div>
@@ -133,7 +134,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     <li class="publication">
       <div class="publication-venue">ICML 2025<span>扩散桥</span></div>
       <div>
-        <h3><a href="https://proceedings.mlr.press/v267/zhu25o.html">UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control</a></h3>
+        <h4><a href="https://proceedings.mlr.press/v267/zhu25o.html">UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control</a></h4>
         <p>Kaizhen Zhu, Mokai Pan, Yuexin Ma, <strong>Yanwei Fu</strong>, Jingyi Yu, Jingya Wang, Ye Shi</p>
         <div class="publication-links"><a href="https://proceedings.mlr.press/v267/zhu25o.html">论文</a><a href="https://github.com/UniDB-SOC/UniDB/">代码</a><a class="presentation-tag" href="https://icml.cc/virtual/2025/poster/43713" title="ICML 2025 Spotlight Poster">Spotlight</a><span class="award-tag">杰出论文奖 · ICLR 2025 DeLTa 工作坊</span></div>
       </div>
@@ -141,9 +142,18 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     <li class="publication">
       <div class="publication-venue">ICLR 2024<span>三维重建</span></div>
       <div>
-        <h3><a href="https://arxiv.org/abs/2401.11673">MVSFormer++: Revealing the Devil in Transformer's Details for Multi-View Stereo</a></h3>
+        <h4><a href="https://arxiv.org/abs/2401.11673">MVSFormer++: Revealing the Devil in Transformer's Details for Multi-View Stereo</a></h4>
         <p>Chenjie Cao, Xinlin Ren, <strong>Yanwei Fu</strong></p>
         <div class="publication-links"><a href="https://arxiv.org/abs/2401.11673">论文</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">代码</a></div>
+      </div>
+    </li>
+    <li id="setr" class="publication">
+      <div class="publication-venue">CVPR 2021<span>语义分割</span></div>
+      <div>
+        <h4><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Rethinking_Semantic_Segmentation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_CVPR_2021_paper.html">SETR: Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers</a></h4>
+        <p>Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, <strong>Yanwei Fu</strong>, Jianfeng Feng, Tao Xiang, Philip H.S. Torr, Li Zhang</p>
+        <p>据我们所知，SETR <strong>首次采用纯视觉 Transformer 编码器，将语义分割建模为序列到序列预测任务。</strong>它在编码器各层建模全局上下文，无需逐级降低空间分辨率。</p>
+        <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Rethinking_Semantic_Segmentation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_CVPR_2021_paper.html">论文</a><a href="https://fudan-zvg.github.io/SETR/">项目主页</a><a href="https://github.com/fudan-zvg/SETR">代码</a><a href="https://doi.org/10.1007/s11263-024-02173-w">IJCV 2024 扩展版</a></div>
       </div>
     </li>
   </ol>
@@ -373,8 +383,20 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <h4 id="pixel2mesh"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh 系列：从单张 RGB 图像直接生成三维网格</a></h4>
           <p><strong>Pixel2Mesh 是首个能够从单张彩色图像（RGB）直接端到端生成 3D 三角网格（Mesh）的深度学习框架。</strong>突破以点云或体素作为中间表示、再转换为网格的流程，直接输出可用于渲染和几何处理的网格模型。</p>
           <p id="pixel2mesh-plusplus">Pixel2Mesh++（ICCV 2019）进一步实现多视角网格生成与精细化，提升几何细节和跨视角一致性。</p>
+          <p><strong>系列代表作 Pixel2Mesh 连续三年（2022–2024）被斯坦福大学 CS231n 课程讲授。</strong>课程在三维视觉章节中，以 Pixel2Mesh 讲解从单张 RGB 图像重建三角网格的方法。</p>
           <p>PaperWeekly 分别于 <time datetime="2018-09-10">2018 年 9 月</time>和 <time datetime="2019-11-08">2019 年 11 月</time>刊发专题解读，介绍单图直接生成网格的突破及后续多视角扩展。</p>
-          <div class="recognition-links"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh 论文 ↗</a><a href="https://github.com/nywang16/Pixel2Mesh">Pixel2Mesh 代码与模型 ↗</a><a href="https://arxiv.org/abs/1908.01491">Pixel2Mesh++ 论文 ↗</a><a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Pixel2Mesh++ 项目与代码 ↗</a><a href="https://www.sohu.com/a/252979433_500659">PaperWeekly · Pixel2Mesh 专题 ↗</a><a href="https://www.sohu.com/a/352447127_500659">PaperWeekly · Pixel2Mesh++ 专题 ↗</a></div>
+          <div class="recognition-links"><a href="https://cs231n.stanford.edu/slides/2022/lecture_16_jiajun.pdf#page=129">斯坦福 CS231n · 2022 年讲义 ↗</a><a href="https://cs231n.stanford.edu/slides/2023/lecture_16.pdf#page=39">斯坦福 CS231n · 2023 年讲义 ↗</a><a href="https://cs231n.stanford.edu/slides/2024/lecture_18.pdf#page=47">斯坦福 CS231n · 2024 年讲义 ↗</a><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh 论文 ↗</a><a href="https://github.com/nywang16/Pixel2Mesh">Pixel2Mesh 代码与模型 ↗</a><a href="https://arxiv.org/abs/1908.01491">Pixel2Mesh++ 论文 ↗</a><a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Pixel2Mesh++ 项目与代码 ↗</a><a href="https://www.sohu.com/a/252979433_500659">PaperWeekly · Pixel2Mesh 专题 ↗</a><a href="https://www.sohu.com/a/352447127_500659">PaperWeekly · Pixel2Mesh++ 专题 ↗</a></div>
+        </div>
+      </li>
+      <li id="deepsfm-series" class="media-item">
+        <div class="media-meta">ECCV 2020<br>IEEE TPAMI 2024</div>
+        <div>
+          <h4><a href="https://weixk2015.github.io/DeepSFM/">DeepSFM 系列：深度光束法平差及其学术影响</a></h4>
+          <p><a href="https://arxiv.org/abs/1912.09697">ECCV 论文</a>及其 <a href="https://doi.org/10.1109/TPAMI.2023.3307567">TPAMI 扩展工作</a>结合几何约束与可学习代价体，迭代优化深度和相机位姿。</p>
+          <p><strong>MaFreeI2P（2024）明确将 DeepSFM 作为图像—点云配准方法的启发来源之一。</strong>该论文在引言中引用 DeepSFM 的 TPAMI 版本，以其代价体方法的成功应用为依据，引出基于位姿的代价体设计。</p>
+          <p><strong>第三方技术解读重点肯定了少视图、初始化噪声及图像质量变化条件下的鲁棒性。</strong>TSUKAMOTO Kenji 在 <time datetime="2020-12-12">2020 年 12 月</time>的日本计算机视觉读书会专题报告中讨论了这些优势，同时分析了位姿假设生成所引入的任务相关参数。</p>
+          <p><strong>被纳入 Gerard Pons-Moll 在图宾根大学开设的 2025 年三维视觉课程。</strong>第九讲将 DeepSFM 与 VGGSfM 并列，作为“端到端可学习 SfM 流程”介绍。此外，3D视觉工坊将其收录于 ECCV 2020 优秀论文汇总，电子工程专辑平台转载的自动驾驶行业综述也引用了该工作。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/html/2408.02392v1#S1">MaFreeI2P · 明确的方法借鉴 ↗</a><a href="https://speakerdeck.com/tsukamotokenji/deepsfm-structure-from-motion-via-deep-bundle-adjustment">第三方技术解读 · 2020 ↗</a><a href="https://virtualhumans.mpi-inf.mpg.de/3DVision25/slides25/pdf/Lecture_09_Learning_based.pdf#page=8">三维视觉课程 · 第 8 页 ↗</a><a href="https://www.cnblogs.com/YongQiVisionIMAX/p/13413962.html">3D视觉工坊 · 优秀论文汇总 ↗</a><a href="https://www.eet-china.com/mp/a102940.html">电子工程专辑平台 · 行业综述 ↗</a></div>
         </div>
       </li>
       <li id="argus-3d" class="media-item">
@@ -541,6 +563,58 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       </li>
     </ul>
   </div>
+</section>
+
+<section id="foundational-publications" class="home-section" aria-labelledby="foundational-publications-title">
+  <h2 id="foundational-publications-title">奠基性工作</h2>
+  <ol class="publication-list">
+    <li id="ici" class="publication">
+      <div class="publication-venue">CVPR 2020<br>TPAMI 2022<span>小样本学习</span></div>
+      <div>
+        <h3><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">Instance Credibility Inference for Few-Shot Learning</a></h3>
+        <p>Yikai Wang, Chengming Xu, Chen Liu, Li Zhang, <strong>Yanwei Fu</strong></p>
+        <div class="publication-extension">
+          <p class="publication-version">期刊扩展版</p>
+          <h4><a href="https://doi.org/10.1109/TPAMI.2021.3086140">How to Trust Unlabeled Data? Instance Credibility Inference for Few-Shot Learning</a></h4>
+          <p>Yikai Wang, Li Zhang, Yuan Yao, <strong>Yanwei Fu</strong></p>
+        </div>
+        <p>通过稀疏统计建模识别可信伪标签，利用未标注数据提升小样本学习；期刊扩展版进一步引入广义线性模型与理论分析。</p>
+        <div class="publication-links"><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">CVPR 论文</a><a href="https://doi.org/10.1109/TPAMI.2021.3086140">TPAMI 论文</a><a href="https://github.com/Yikai-Wang/ICI-FSL">代码</a></div>
+      </div>
+    </li>
+    <li id="knockoffs-spr" class="publication">
+      <div class="publication-venue">TPAMI 2024<span>噪声标签学习</span></div>
+      <div>
+        <h3><a href="https://doi.org/10.1109/TPAMI.2023.3338268">Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels</a></h3>
+        <p>Yikai Wang, <strong>Yanwei Fu</strong>, Xinwei Sun</p>
+        <p>利用 Knockoff 滤波器筛选干净训练样本，并在理论假设下控制误选率。</p>
+        <div class="publication-links"><a href="https://doi.org/10.1109/TPAMI.2023.3338268">论文</a><a href="https://github.com/Yikai-Wang/Knockoffs-SPR">代码</a></div>
+      </div>
+    </li>
+    <li id="dessilbi" class="publication">
+      <div class="publication-venue">ICML 2020<br>TPAMI 2023<span>统计学习基础</span></div>
+      <div>
+        <h3><a href="https://proceedings.mlr.press/v119/fu20d.html">DessiLBI: Exploring Structural Sparsity of Deep Networks via Differential Inclusion Paths</a></h3>
+        <p><strong>Yanwei Fu</strong>, Chen Liu, Donghao Li, Xinwei Sun, Jinshan Zeng, Yuan Yao</p>
+        <div class="publication-extension">
+          <p class="publication-version">期刊扩展版</p>
+          <h4><a href="https://doi.org/10.1109/TPAMI.2022.3168881">Exploring Structural Sparsity of Deep Networks Via Inverse Scale Spaces</a></h4>
+          <p><strong>Yanwei Fu</strong>, Chen Liu, Donghao Li, Zuyuan Zhong, Xinwei Sun, Jinshan Zeng, Yuan Yao</p>
+        </div>
+        <p>通过逆尺度空间动力学学习神经网络的稀疏结构；期刊扩展版进一步研究自适应网络生长与稀疏子网络迁移。</p>
+        <div class="publication-links"><a href="https://proceedings.mlr.press/v119/fu20d.html">ICML 论文</a><a href="https://doi.org/10.1109/TPAMI.2022.3168881">TPAMI 论文</a><a href="https://github.com/DessiLBI2020/DessiLBI">代码</a></div>
+      </div>
+    </li>
+    <li id="transductive-zsl" class="publication">
+      <div class="publication-venue">TPAMI 2015<span>零样本学习</span></div>
+      <div>
+        <h3><a href="https://arxiv.org/abs/1501.04560">Transductive Multi-view Zero-Shot Learning</a></h3>
+        <p><strong>Yanwei Fu</strong>, Timothy M. Hospedales, Tao Xiang, Shaogang Gong</p>
+        <p>揭示零样本学习中的投影域偏移问题，并通过传导式多视图嵌入加以解决。</p>
+        <div class="publication-links"><a href="https://arxiv.org/abs/1501.04560">论文</a><a href="https://github.com/yanweifu/embedding_zero-shot-learning">代码（ECCV 版本）</a></div>
+      </div>
+    </li>
+  </ol>
 </section>
 
 <section id="join" class="home-section" aria-labelledby="join-title">

@@ -92,11 +92,12 @@ image: /assets/images/yanwei-fu.png
 
 <section id="publications" class="home-section" aria-labelledby="publications-title">
   <div class="section-heading"><h2 id="publications-title">Selected publications</h2><a href="{{ '/Papers.html' | relative_url }}">Full publication list →</a></div>
-  <ol class="publication-list">
+  <h3 id="recent-publications-title" class="publication-group-title">Research highlights</h3>
+  <ol class="publication-list" aria-labelledby="recent-publications-title">
     <li class="publication">
       <div class="publication-venue">CVPR 2026<span>Brain decoding</span></div>
       <div>
-        <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></h3>
+        <h4><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></h4>
         <p>Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, <strong>Yanwei Fu</strong></p>
         <p><strong>First large-scale audiovisual brain dataset pairing time-aligned fMRI and EEG recordings.</strong></p>
         <div class="publication-links"><a href="https://jianxgao.github.io/CineBrain/">Project</a><a href="https://huggingface.co/datasets/Fudan-fMRI/CineBrain">Dataset ↗</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Oral</a><span class="award-tag">Best Paper Award Candidate</span></div>
@@ -105,7 +106,7 @@ image: /assets/images/yanwei-fu.png
     <li class="publication">
       <div class="publication-venue">ICML 2026<span>Reliable generation</span></div>
       <div>
-        <h3><a href="https://proceedings.mlr.press/v306/gao26aa.html">Conformal Reliability: A New Evaluation Metric for Conditional Generation</a></h3>
+        <h4><a href="https://proceedings.mlr.press/v306/gao26aa.html">Conformal Reliability: A New Evaluation Metric for Conditional Generation</a></h4>
         <p>Yachen Gao, Xinwei Sun, Yikai Wang, Ye Shi, Jingya Wang, Jianfeng Feng, <strong>Yanwei Fu</strong></p>
         <div class="publication-links"><a href="https://proceedings.mlr.press/v306/gao26aa.html">Paper</a><a href="https://ggc29.github.io/CReL/">Project &amp; code</a></div>
       </div>
@@ -113,7 +114,7 @@ image: /assets/images/yanwei-fu.png
     <li class="publication">
       <div class="publication-venue">CVPR 2026<span>Video world models</span></div>
       <div>
-        <h3><a href="https://sixiaozheng.github.io/VerseCrafter_page/">VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control</a></h3>
+        <h4><a href="https://sixiaozheng.github.io/VerseCrafter_page/">VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control</a></h4>
         <p>Sixiao Zheng, Minghao Yin, Wenbo Hu, Xiaoyu Li, Ying Shan, <strong>Yanwei Fu</strong></p>
         <p>To our knowledge, this is <strong>the first dynamic, realistic video world model with explicit 4D geometric control over camera and multi-object motion.</strong></p>
         <div class="publication-links"><a href="https://arxiv.org/abs/2601.05138">Paper</a><a href="https://sixiaozheng.github.io/VerseCrafter_page/">Project &amp; code</a></div>
@@ -122,7 +123,7 @@ image: /assets/images/yanwei-fu.png
     <li class="publication">
       <div class="publication-venue">CVPR 2026<span>Robotics</span></div>
       <div>
-        <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation</a></h3>
+        <h4><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation</a></h4>
         <p>Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, <strong>Yanwei Fu</strong></p>
         <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">Paper</a></div>
       </div>
@@ -130,7 +131,7 @@ image: /assets/images/yanwei-fu.png
     <li class="publication">
       <div class="publication-venue">ICML 2025<span>Diffusion bridges</span></div>
       <div>
-        <h3><a href="https://proceedings.mlr.press/v267/zhu25o.html">UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control</a></h3>
+        <h4><a href="https://proceedings.mlr.press/v267/zhu25o.html">UniDB: A Unified Diffusion Bridge Framework via Stochastic Optimal Control</a></h4>
         <p>Kaizhen Zhu, Mokai Pan, Yuexin Ma, <strong>Yanwei Fu</strong>, Jingyi Yu, Jingya Wang, Ye Shi</p>
         <div class="publication-links"><a href="https://proceedings.mlr.press/v267/zhu25o.html">Paper</a><a href="https://github.com/UniDB-SOC/UniDB/">Code</a><a class="presentation-tag" href="https://icml.cc/virtual/2025/poster/43713" title="ICML 2025 Spotlight Poster">Spotlight</a><span class="award-tag">Outstanding Paper · DeLTa @ ICLR 2025</span></div>
       </div>
@@ -138,9 +139,18 @@ image: /assets/images/yanwei-fu.png
     <li class="publication">
       <div class="publication-venue">ICLR 2024<span>3D reconstruction</span></div>
       <div>
-        <h3><a href="https://arxiv.org/abs/2401.11673">MVSFormer++: Revealing the Devil in Transformer's Details for Multi-View Stereo</a></h3>
+        <h4><a href="https://arxiv.org/abs/2401.11673">MVSFormer++: Revealing the Devil in Transformer's Details for Multi-View Stereo</a></h4>
         <p>Chenjie Cao, Xinlin Ren, <strong>Yanwei Fu</strong></p>
         <div class="publication-links"><a href="https://arxiv.org/abs/2401.11673">Paper</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">Code</a></div>
+      </div>
+    </li>
+    <li id="setr" class="publication">
+      <div class="publication-venue">CVPR 2021<span>Semantic segmentation</span></div>
+      <div>
+        <h4><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Rethinking_Semantic_Segmentation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_CVPR_2021_paper.html">SETR: Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers</a></h4>
+        <p>Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, <strong>Yanwei Fu</strong>, Jianfeng Feng, Tao Xiang, Philip H.S. Torr, Li Zhang</p>
+        <p>To our knowledge, SETR was <strong>the first to formulate semantic segmentation as sequence-to-sequence prediction with a pure Vision Transformer encoder.</strong> It models global context at every encoder layer without progressive spatial downsampling.</p>
+        <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Rethinking_Semantic_Segmentation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_CVPR_2021_paper.html">Paper</a><a href="https://fudan-zvg.github.io/SETR/">Project</a><a href="https://github.com/fudan-zvg/SETR">Code</a><a href="https://doi.org/10.1007/s11263-024-02173-w">IJCV 2024 extension</a></div>
       </div>
     </li>
   </ol>
@@ -370,8 +380,20 @@ image: /assets/images/yanwei-fu.png
           <h4 id="pixel2mesh"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh series: from a single RGB image directly to a 3D mesh</a></h4>
           <p><strong>Pixel2Mesh is the first end-to-end deep learning framework to directly generate a 3D triangular mesh from a single RGB image.</strong> It bypasses the extra conversion from point clouds or voxels to meshes, directly producing a mesh representation for rendering and geometric processing.</p>
           <p id="pixel2mesh-plusplus">Pixel2Mesh++ (ICCV 2019) extends the series to multi-view mesh generation and refinement, improving geometric detail and consistency across viewpoints.</p>
+          <p><strong>Pixel2Mesh was taught in Stanford University’s CS231n course for three consecutive years (2022–2024).</strong> The 3D vision lectures use Pixel2Mesh to explain learning-based reconstruction of triangle meshes from single RGB images.</p>
           <p>PaperWeekly published dedicated features on Pixel2Mesh in <time datetime="2018-09-10">September 2018</time> and Pixel2Mesh++ in <time datetime="2019-11-08">November 2019</time>, explaining the direct-mesh breakthrough and its multi-view extension.</p>
-          <div class="recognition-links"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh paper ↗</a><a href="https://github.com/nywang16/Pixel2Mesh">Pixel2Mesh code &amp; models ↗</a><a href="https://arxiv.org/abs/1908.01491">Pixel2Mesh++ paper ↗</a><a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Pixel2Mesh++ project &amp; code ↗</a><a href="https://www.sohu.com/a/252979433_500659">PaperWeekly · Pixel2Mesh feature ↗</a><a href="https://www.sohu.com/a/352447127_500659">PaperWeekly · Pixel2Mesh++ feature ↗</a></div>
+          <div class="recognition-links"><a href="https://cs231n.stanford.edu/slides/2022/lecture_16_jiajun.pdf#page=129">Stanford CS231n · 2022 ↗</a><a href="https://cs231n.stanford.edu/slides/2023/lecture_16.pdf#page=39">Stanford CS231n · 2023 ↗</a><a href="https://cs231n.stanford.edu/slides/2024/lecture_18.pdf#page=47">Stanford CS231n · 2024 ↗</a><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh paper ↗</a><a href="https://github.com/nywang16/Pixel2Mesh">Pixel2Mesh code &amp; models ↗</a><a href="https://arxiv.org/abs/1908.01491">Pixel2Mesh++ paper ↗</a><a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Pixel2Mesh++ project &amp; code ↗</a><a href="https://www.sohu.com/a/252979433_500659">PaperWeekly · Pixel2Mesh feature ↗</a><a href="https://www.sohu.com/a/352447127_500659">PaperWeekly · Pixel2Mesh++ feature ↗</a></div>
+        </div>
+      </li>
+      <li id="deepsfm-series" class="media-item">
+        <div class="media-meta">ECCV 2020<br>IEEE TPAMI 2024</div>
+        <div>
+          <h4><a href="https://weixk2015.github.io/DeepSFM/">DeepSFM series: deep bundle adjustment and its research impact</a></h4>
+          <p>The <a href="https://arxiv.org/abs/1912.09697">ECCV paper</a> and <a href="https://doi.org/10.1109/TPAMI.2023.3307567">TPAMI extension</a> combine geometric constraints with learned cost volumes to iteratively refine depth and camera pose.</p>
+          <p><strong>MaFreeI2P (2024) explicitly cites DeepSFM as a source of inspiration for its image-to-point-cloud registration method.</strong> Its introduction credits the TPAMI work when motivating a pose-based cost volume.</p>
+          <p><strong>Independent technical commentary highlights robustness to few input views, initialization noise, and changes in image quality.</strong> In a <time datetime="2020-12-12">December 2020</time> Japanese computer-vision reading-group report, TSUKAMOTO Kenji discusses these strengths alongside the task-dependent parameters introduced by pose-hypothesis generation.</p>
+          <p><strong>Included in Gerard Pons-Moll's 2025 University of Tübingen 3D vision course.</strong> Lecture 09 introduces DeepSFM alongside VGGSfM under “End-to-End Learnable SfM Pipelines.” The work also appears in 3D视觉工坊's ECCV 2020 paper roundup and an autonomous-driving overview hosted on EE Times China.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/html/2408.02392v1#S1">MaFreeI2P · explicit methodological inspiration ↗</a><a href="https://speakerdeck.com/tsukamotokenji/deepsfm-structure-from-motion-via-deep-bundle-adjustment">Independent technical review · 2020 ↗</a><a href="https://virtualhumans.mpi-inf.mpg.de/3DVision25/slides25/pdf/Lecture_09_Learning_based.pdf#page=8">3D vision course · slide 8 ↗</a><a href="https://www.cnblogs.com/YongQiVisionIMAX/p/13413962.html">3D视觉工坊 · paper roundup ↗</a><a href="https://www.eet-china.com/mp/a102940.html">EE Times China · industry overview ↗</a></div>
         </div>
       </li>
       <li id="argus-3d" class="media-item">
@@ -538,6 +560,58 @@ image: /assets/images/yanwei-fu.png
       </li>
     </ul>
   </div>
+</section>
+
+<section id="foundational-publications" class="home-section" aria-labelledby="foundational-publications-title">
+  <h2 id="foundational-publications-title">Foundational contributions</h2>
+  <ol class="publication-list">
+    <li id="ici" class="publication">
+      <div class="publication-venue">CVPR 2020<br>TPAMI 2022<span>Few-shot learning</span></div>
+      <div>
+        <h3><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">Instance Credibility Inference for Few-Shot Learning</a></h3>
+        <p>Yikai Wang, Chengming Xu, Chen Liu, Li Zhang, <strong>Yanwei Fu</strong></p>
+        <div class="publication-extension">
+          <p class="publication-version">Journal extension</p>
+          <h4><a href="https://doi.org/10.1109/TPAMI.2021.3086140">How to Trust Unlabeled Data? Instance Credibility Inference for Few-Shot Learning</a></h4>
+          <p>Yikai Wang, Li Zhang, Yuan Yao, <strong>Yanwei Fu</strong></p>
+        </div>
+        <p>Uses sparse statistical modeling to identify trustworthy pseudo-labels for few-shot learning; the journal extension develops generalized linear models and theoretical analysis.</p>
+        <div class="publication-links"><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">CVPR paper</a><a href="https://doi.org/10.1109/TPAMI.2021.3086140">TPAMI paper</a><a href="https://github.com/Yikai-Wang/ICI-FSL">Code</a></div>
+      </div>
+    </li>
+    <li id="knockoffs-spr" class="publication">
+      <div class="publication-venue">TPAMI 2024<span>Learning with noisy labels</span></div>
+      <div>
+        <h3><a href="https://doi.org/10.1109/TPAMI.2023.3338268">Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels</a></h3>
+        <p>Yikai Wang, <strong>Yanwei Fu</strong>, Xinwei Sun</p>
+        <p>Selects clean training samples with knockoff filters, controlling the false-selection rate under the method’s theoretical assumptions.</p>
+        <div class="publication-links"><a href="https://doi.org/10.1109/TPAMI.2023.3338268">Paper</a><a href="https://github.com/Yikai-Wang/Knockoffs-SPR">Code</a></div>
+      </div>
+    </li>
+    <li id="dessilbi" class="publication">
+      <div class="publication-venue">ICML 2020<br>TPAMI 2023<span>Statistical foundations</span></div>
+      <div>
+        <h3><a href="https://proceedings.mlr.press/v119/fu20d.html">DessiLBI: Exploring Structural Sparsity of Deep Networks via Differential Inclusion Paths</a></h3>
+        <p><strong>Yanwei Fu</strong>, Chen Liu, Donghao Li, Xinwei Sun, Jinshan Zeng, Yuan Yao</p>
+        <div class="publication-extension">
+          <p class="publication-version">Journal extension</p>
+          <h4><a href="https://doi.org/10.1109/TPAMI.2022.3168881">Exploring Structural Sparsity of Deep Networks Via Inverse Scale Spaces</a></h4>
+          <p><strong>Yanwei Fu</strong>, Chen Liu, Donghao Li, Zuyuan Zhong, Xinwei Sun, Jinshan Zeng, Yuan Yao</p>
+        </div>
+        <p>Learns sparse neural structures through inverse-scale-space dynamics; the journal extension also studies adaptive network growth and transfer of sparse subnetworks.</p>
+        <div class="publication-links"><a href="https://proceedings.mlr.press/v119/fu20d.html">ICML paper</a><a href="https://doi.org/10.1109/TPAMI.2022.3168881">TPAMI paper</a><a href="https://github.com/DessiLBI2020/DessiLBI">Code</a></div>
+      </div>
+    </li>
+    <li id="transductive-zsl" class="publication">
+      <div class="publication-venue">TPAMI 2015<span>Zero-shot learning</span></div>
+      <div>
+        <h3><a href="https://arxiv.org/abs/1501.04560">Transductive Multi-view Zero-Shot Learning</a></h3>
+        <p><strong>Yanwei Fu</strong>, Timothy M. Hospedales, Tao Xiang, Shaogang Gong</p>
+        <p>Identifies projection domain shift in zero-shot learning and addresses it through transductive multi-view embedding.</p>
+        <div class="publication-links"><a href="https://arxiv.org/abs/1501.04560">Paper</a><a href="https://github.com/yanweifu/embedding_zero-shot-learning">Code (ECCV version)</a></div>
+      </div>
+    </li>
+  </ol>
 </section>
 
 <section id="join" class="home-section" aria-labelledby="join-title">
