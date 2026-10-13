@@ -216,6 +216,7 @@ image: /assets/images/yanwei-fu.png
     <a href="#honors">Paper awards</a>
     <a href="#research-awards">Research awards</a>
     <a href="#fellowships">Fellowships &amp; honors</a>
+    <a href="#recognition-media">Recognition &amp; media</a>
   </nav>
   <ol class="honor-list">
     <li class="honor-item">
@@ -282,6 +283,82 @@ image: /assets/images/yanwei-fu.png
       </div>
     </li>
   </ol>
+</section>
+
+<section id="recognition-media" class="home-section" aria-labelledby="recognition-media-title">
+  <h2 id="recognition-media-title">Academic recognition &amp; media</h2>
+  <div class="recognition-cards">
+    <div class="recognition-card">
+      <h3>ACM China Rising Star Awards</h3>
+      <p>2017 · SIGAI China<br>2018 · Shanghai Chapter</p>
+      <div class="recognition-links"><a href="https://www.acmturc.com/2018/new_star_award.html">2017 award list ↗</a><a href="https://www.acmturc.com/2019/cn/new_star_award.html">2018 award list ↗</a></div>
+    </div>
+    <div class="recognition-card">
+      <h3>World’s Top 2% Scientists · 2026</h3>
+      <p>Selected for both career-long and single-year citation impact lists in the Stanford/Elsevier database.</p>
+      <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/1c/b8/c48841a793784/page.htm">Fudan announcement ↗</a><a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9">Citation database ↗</a></div>
+    </div>
+    <div class="recognition-card">
+      <h3>World Robot Contest · 2020</h3>
+      <p>Best Collaboration Award for FDU-Insight in the collaborative robotics challenge. I led the team and co-advised it with Xiangyang Xue.</p>
+      <div class="recognition-links"><a href="https://sds.fudan.edu.cn/_t2392/f0/20/c17425a258080/page.htm">Team award &amp; report ↗</a></div>
+    </div>
+  </div>
+  <div class="media-group">
+    <h3>Embodied intelligence</h3>
+    <ul class="media-list">
+      <li class="media-item">
+        <div class="media-meta">MIT Technology Review China · DeepTech<time datetime="2026-03-25">March 2026</time></div>
+        <div>
+          <h4><a href="https://www.mittrchina.com/news/detail/16139">Schrödinger’s Navigator: imagining multiple futures for robot navigation</a></h4>
+          <p>An interview on our work using imagined 3D futures to guide zero-shot object navigation.</p>
+          <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">Read the interview ↗</a><a href="https://arxiv.org/abs/2512.21201">Research paper ↗</a></div>
+        </div>
+      </li>
+      <li class="media-item">
+        <div class="media-meta">Shanghai Education News<time datetime="2025-07-29">July 2025</time></div>
+        <div>
+          <h4><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Visuo-tactile sensing for dexterous robot manipulation</a></h4>
+          <p>Coverage of the team’s AI sensor unveiled at WAIC 2025, including an interview with me on bringing touch to robotic manipulation.</p>
+          <div class="recognition-links"><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Read the report ↗</a><a href="https://news.fudan.edu.cn/2025/0728/c1247a146338/page.htm">Fudan coverage ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="media-group">
+    <h3>Brain decoding</h3>
+    <ul class="media-list">
+      <li class="media-item">
+        <div class="media-meta">CVPR Daily · RSIP Vision<time datetime="2026-06-07">June 2026</time></div>
+        <div>
+          <h4><a href="https://rsipvision.com/CVPR2026-Sunday/">CineBrain on the cover of CVPR Daily</a></h4>
+          <p>Featured on the cover of the Sunday issue, with a five-page interview and review of our audiovisual brain decoding research (pp. 10–14).</p>
+          <div class="recognition-links"><a href="https://rsipvision.com/CVPR2026-Sunday/">Cover &amp; full issue ↗</a><a href="https://rsipvision.com/CVPR2026-Sunday/10/">Feature article ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="media-group">
+    <h3>Earlier work at Disney Research</h3>
+    <ul class="media-list">
+      <li class="media-item">
+        <div class="media-meta">Phys.org · Disney Research<time datetime="2016-06-23">June 2016</time></div>
+        <div>
+          <h4><a href="https://phys.org/news/2016-06-vision-word.html">Learning to recognize unseen objects from language</a></h4>
+          <p>Coverage of my work with Leonid Sigal on semi-supervised vocabulary-informed learning, connecting language and visual recognition.</p>
+          <div class="recognition-links"><a href="https://phys.org/news/2016-06-vision-word.html">Phys.org ↗</a><a href="https://studios.disneyresearch.com/2016/06/24/completed-semi-supervised-vocabulary-informed-learning/">Disney Research ↗</a></div>
+        </div>
+      </li>
+      <li class="media-item">
+        <div class="media-meta">Phys.org · Disney Research<time datetime="2016-06-23">June 2016</time></div>
+        <div>
+          <h4><a href="https://phys.org/news/2016-06-scene-recognition-software-video-content.html">Understanding video events through object and scene semantics</a></h4>
+          <p>Coverage of our Disney Research–Fudan collaboration on video understanding and recognizing events beyond the training examples.</p>
+          <div class="recognition-links"><a href="https://phys.org/news/2016-06-scene-recognition-software-video-content.html">Phys.org ↗</a><a href="https://la.disneyresearch.com/publication/harnessing-object-and-scene-semantics/">Disney Research ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
 </section>
 
 <section id="join" class="home-section" aria-labelledby="join-title">

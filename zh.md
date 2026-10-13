@@ -219,6 +219,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     <a href="#honors">论文荣誉</a>
     <a href="#research-awards">科研奖励</a>
     <a href="#fellowships">个人荣誉</a>
+    <a href="#recognition-media">学术认可与报道</a>
   </nav>
   <ol class="honor-list">
     <li class="honor-item">
@@ -285,6 +286,82 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       </div>
     </li>
   </ol>
+</section>
+
+<section id="recognition-media" class="home-section" aria-labelledby="recognition-media-title">
+  <h2 id="recognition-media-title">学术荣誉与研究报道</h2>
+  <div class="recognition-cards">
+    <div class="recognition-card">
+      <h3>ACM 中国新星奖</h3>
+      <p>2017 · SIGAI China<br>2018 · 上海分会</p>
+      <div class="recognition-links"><a href="https://www.acmturc.com/2018/new_star_award.html">2017 年获奖名单 ↗</a><a href="https://www.acmturc.com/2019/cn/new_star_award.html">2018 年获奖名单 ↗</a></div>
+    </div>
+    <div class="recognition-card">
+      <h3>全球前 2% 顶尖科学家 · 2026</h3>
+      <p>同时入选斯坦福大学／爱思唯尔数据库的终身科学影响力与年度科学影响力榜单。</p>
+      <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/1c/b8/c48841a793784/page.htm">复旦官方公告 ↗</a><a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9">原始数据库 ↗</a></div>
+    </div>
+    <div class="recognition-card">
+      <h3>世界机器人大赛 · 2020</h3>
+      <p>带领 FDU-Insight 战队获共融机器人挑战赛最佳协作奖，与薛向阳教授联合指导，探索基于视觉感知的人机协作。</p>
+      <div class="recognition-links"><a href="https://sds.fudan.edu.cn/_t2392/f0/20/c17425a258080/page.htm">团队获奖报道 ↗</a></div>
+    </div>
+  </div>
+  <div class="media-group">
+    <h3>具身智能</h3>
+    <ul class="media-list">
+      <li class="media-item">
+        <div class="media-meta">麻省理工科技评论中文版 · DeepTech<time datetime="2026-03-25">2026 年 3 月</time></div>
+        <div>
+          <h4><a href="https://www.mittrchina.com/news/detail/16139">Schrödinger’s Navigator：让机器人通过想象多种未来规划导航</a></h4>
+          <p>专访介绍团队如何通过想象多种三维未来场景，引导机器人在未知环境中进行零样本目标导航。</p>
+          <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">阅读专访 ↗</a><a href="https://arxiv.org/abs/2512.21201">研究论文 ↗</a></div>
+        </div>
+      </li>
+      <li class="media-item">
+        <div class="media-meta">上海教育新闻网<time datetime="2025-07-29">2025 年 7 月</time></div>
+        <div>
+          <h4><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">视触觉 AI 传感器亮相 WAIC 2025，推动机器人精细操作</a></h4>
+          <p>报道团队的视触觉感知研究，并采访我关于机器人获取触觉、提升精细操作能力的思考。</p>
+          <div class="recognition-links"><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">阅读报道 ↗</a><a href="https://news.fudan.edu.cn/2025/0728/c1247a146338/page.htm">复旦报道 ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="media-group">
+    <h3>脑解码</h3>
+    <ul class="media-list">
+      <li class="media-item">
+        <div class="media-meta">CVPR Daily · RSIP Vision<time datetime="2026-06-07">2026 年 6 月</time></div>
+        <div>
+          <h4><a href="https://rsipvision.com/CVPR2026-Sunday/">CineBrain 入选 CVPR Daily 封面文章</a></h4>
+          <p>登上周日刊封面，并获五页专题专访与评述（第 10–14 页），介绍团队融合视听感知与多模态脑信号的脑解码研究。</p>
+          <div class="recognition-links"><a href="https://rsipvision.com/CVPR2026-Sunday/">封面与完整刊物 ↗</a><a href="https://rsipvision.com/CVPR2026-Sunday/10/">专题文章 ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="media-group">
+    <h3>Disney Research 时期的研究</h3>
+    <ul class="media-list">
+      <li class="media-item">
+        <div class="media-meta">Phys.org · Disney Research<time datetime="2016-06-23">2016 年 6 月</time></div>
+        <div>
+          <h4><a href="https://phys.org/news/2016-06-vision-word.html">借助语言知识，让机器识别未见物体</a></h4>
+          <p>报道我与 Leonid Sigal 关于半监督词汇引导学习的研究，将语言知识与视觉识别相连接。</p>
+          <div class="recognition-links"><a href="https://phys.org/news/2016-06-vision-word.html">Phys.org 报道 ↗</a><a href="https://studios.disneyresearch.com/2016/06/24/completed-semi-supervised-vocabulary-informed-learning/">Disney Research 项目 ↗</a></div>
+        </div>
+      </li>
+      <li class="media-item">
+        <div class="media-meta">Phys.org · Disney Research<time datetime="2016-06-23">2016 年 6 月</time></div>
+        <div>
+          <h4><a href="https://phys.org/news/2016-06-scene-recognition-software-video-content.html">融合物体与场景语义，理解复杂视频事件</a></h4>
+          <p>报道 Disney Research 与复旦的合作成果，探索视频理解以及对训练样本之外的新事件的识别。</p>
+          <div class="recognition-links"><a href="https://phys.org/news/2016-06-scene-recognition-software-video-content.html">Phys.org 报道 ↗</a><a href="https://la.disneyresearch.com/publication/harnessing-object-and-scene-semantics/">Disney Research 项目 ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
 </section>
 
 <section id="join" class="home-section" aria-labelledby="join-title">

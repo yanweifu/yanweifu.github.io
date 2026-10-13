@@ -4,7 +4,7 @@ Source for [yanweifu.github.io](https://yanweifu.github.io), built with Jekyll o
 
 ## Editing the site
 
-- `index.md`: biography, paper honors, collaborative research awards, fellowships, research themes, selected publications, CVPR tutorials, service, admissions, and selected talks.
+- `index.md`: biography, paper honors, collaborative research awards, fellowships, research themes, selected publications, CVPR tutorials, service, academic recognition, research coverage, admissions, and selected talks.
 - `zh.md`: Chinese homepage at `/zh/`, with the same honors, sources, research themes, selected publications, and admissions information.
 - `Papers.md`: complete publication archive. Keep paper titles and award labels consistent with the homepage.
 - `Students.md`: group members and alumni.
@@ -35,6 +35,18 @@ Presentation labels were audited against conference programs and author records 
 Additional research awards and personal honors follow the owner's 2026 academic summary. Keep team awards separate from individual honors, preserve contributor ranks, and use the award year rather than the announcement year. Industry recognition and visiting-scholar programs are labeled separately. The Ministry of Education award is for 2022; both Shanghai awards are for 2023. The application PDF itself is not part of the public site.
 
 The Ten-Year Honor Certificate was issued by the School of Data Science, Fudan University on September 10, 2026. It recognizes a decade of contributions to research and real-world applications. The owner supplied the certificate photograph, which is linked unchanged under Fellowships & honors; it is an institutional honor, not a paper award.
+
+Academic recognition and research coverage appear in `#recognition-media`, immediately after the paper-awards section in both languages. The [ACM TURC 2018 record](https://www.acmturc.com/2018/new_star_award.html) lists Fu's 2017 SIGAI China Rising Star award (certificate `2017ACMCHINA-XX-S0801`); the [ACM TURC 2019 record](https://www.acmturc.com/2019/cn/new_star_award.html) lists the 2018 Shanghai Chapter award (`2018ACMCHINA-XX-C0301`). Both name 付彦伟 and Fudan University. Keep the professional-group and chapter designations; these entries are distinct from the national award recipients on the same pages.
+
+The [Fudan announcement dated October 10, 2026](https://ciram.fudan.edu.cn/1c/b8/c48841a793784/page.htm) confirms Fu's inclusion in both career-long and single-year World’s Top 2% Scientists lists for the 2026 release. It cites the [Stanford/Elsevier citation database, version 9](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9), published October 7, 2026, with single-year impact based on 2025 citations. Do not infer a specific global rank or continuous years of inclusion.
+
+CineBrain appears on the cover of the [Sunday CVPR Daily issue, June 7, 2026](https://rsipvision.com/CVPR2026-Sunday/), published by RSIP Vision / Computer Vision News. Its feature spans pages 10–14 and interviews Jianxiong Gao; the owner supplied a matching cover photograph on October 13, 2026. This is an editorial cover feature, separate from the conference's Best Paper Award candidacy. The publisher states that its editorial choices are independent of IEEE/CVPR and the organizers.
+
+The [Schrödinger’s Navigator interview](https://www.mittrchina.com/news/detail/16139), dated March 25, 2026, is from MIT Technology Review China / DeepTech and explicitly interviews Yanwei Fu about the paper [arXiv:2512.21201](https://arxiv.org/abs/2512.21201). Preserve the China-edition attribution; do not relabel it as an article in the English TechnologyReview.com edition or count syndicated reposts as separate coverage.
+
+The [Shanghai Education News article dated July 29, 2025](https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html) and [Fudan's July 28 report](https://news.fudan.edu.cn/2025/0728/c1247a146338/page.htm) discuss the visuo-tactile sensor unveiled at WAIC 2025 and interview Fu as a project team member. Yu-Gang Jiang is identified as the team leader; do not attribute sole leadership to Fu. A separate [Fudan School of Data Science report dated December 17, 2020](https://sds.fudan.edu.cn/_t2392/f0/20/c17425a258080/page.htm) confirms that Fu led FDU-Insight and co-advised it with Xiangyang Xue, winning the Best Collaboration Award in the World Robot Contest's collaborative robotics challenge (共融机器人挑战赛). It is a team competition award. The report includes a CCTV broadcast screenshot, but no separate CCTV link has been verified.
+
+Disney-era coverage links to two distinct CVPR 2016 projects: [semi-supervised vocabulary-informed learning](https://phys.org/news/2016-06-vision-word.html) and [object/scene semantics for video understanding](https://phys.org/news/2016-06-scene-recognition-software-video-content.html). Both Phys.org articles are dated June 23, 2016 and attribute their material to Disney Research; the associated Disney project pages confirm authorship. Treat these as research coverage, not awards or independent endorsements. The old Communications of the ACM link was omitted because a working replacement could not be verified.
 
 The existing `Papers.html`, `Students.html`, and `Dataset.html` routes and legacy project directories are retained. The unrelated local `new/` directory is excluded from the Jekyll build.
 
