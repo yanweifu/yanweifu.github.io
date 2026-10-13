@@ -337,6 +337,19 @@ image: /assets/images/yanwei-fu.png
     </div>
   </div>
   <div class="media-group">
+    <h3>White paper contribution</h3>
+    <ul class="media-list">
+      <li id="ai-for-science-whitepaper" class="media-item">
+        <div class="media-meta">Nature Research Intelligence<time datetime="2025-05-26">2025</time></div>
+        <div>
+          <h4><a href="https://www.nature.com/collections/bfefgbacag">AI for Science 2025 · Embodied intelligence section</a></h4>
+          <p><strong>I drafted the embodied intelligence section</strong> of <em>AI for Science 2025</em>, a white paper jointly released by Fudan University, the Shanghai Academy of AI for Science, and Nature Research Intelligence, part of Springer Nature. The section reviews research progress, key scientific challenges, and directions for future breakthroughs.</p>
+          <div class="recognition-links"><a href="https://project-team-assets.oss-cn-shanghai.aliyuncs.com/preview科学智能白皮书CN0523.pdf#page=8">Chinese white paper · PDF ↗</a><a href="https://www.nature.com/articles/d42473-025-00161-3.pdf">English white paper · PDF ↗</a><a href="https://www.nature.com/collections/bfefgbacag">Nature official page ↗</a><a href="https://ist.fudan.edu.cn/Data/View/3135">Fudan announcement ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="media-group">
     <h3>Industry deployment</h3>
     <ul class="media-list">
       <li id="zits-huawei" class="media-item">

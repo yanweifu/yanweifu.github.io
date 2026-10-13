@@ -340,6 +340,19 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     </div>
   </div>
   <div class="media-group">
+    <h3>学术白皮书贡献</h3>
+    <ul class="media-list">
+      <li id="ai-for-science-whitepaper" class="media-item">
+        <div class="media-meta">Nature Research Intelligence<time datetime="2025-05-26">2025 年</time></div>
+        <div>
+          <h4><a href="https://www.nature.com/collections/bfefgbacag">起草《科学智能白皮书2025》具身智能部分</a></h4>
+          <p><strong>我负责《科学智能白皮书2025》具身智能部分的起草</strong>，梳理领域进展、关键科学问题与突破路径。白皮书由复旦大学、上海科学智能研究院与施普林格·自然旗下的自然科研智讯（Nature Research Intelligence）合作发布。</p>
+          <div class="recognition-links"><a href="https://project-team-assets.oss-cn-shanghai.aliyuncs.com/preview科学智能白皮书CN0523.pdf#page=8">中文版白皮书 · PDF ↗</a><a href="https://www.nature.com/articles/d42473-025-00161-3.pdf">英文版白皮书 · PDF ↗</a><a href="https://www.nature.com/collections/bfefgbacag">Nature 官方页面 ↗</a><a href="https://ist.fudan.edu.cn/Data/View/3135">复旦发布介绍 ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="media-group">
     <h3>产业应用</h3>
     <ul class="media-list">
       <li id="zits-huawei" class="media-item">
