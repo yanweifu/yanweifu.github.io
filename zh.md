@@ -338,6 +338,29 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       </li>
     </ul>
   </div>
+  <div id="mvsformer-series" class="media-group">
+    <h3>三维重建 · MVSFormer 系列</h3>
+    <ul class="media-list">
+      <li id="mvsformer" class="media-item">
+        <div class="media-meta">MVSFormer · TMLR<time datetime="2022-05">2022 年 5 月提交</time></div>
+        <div>
+          <h4><a href="https://maybelx.github.io/MVSFormer.github.io/">MVSFormer：预训练视觉 Transformer 驱动的多视图三维重建</a></h4>
+          <p><strong>基于 2022 年 5 月提交的结果，MVSFormer 在 Tanks and Temples 的 Intermediate 与 Advanced 两组中，均位列当时已发表方法第一。</strong> 平均 F-score 分别为 66.37 和 40.87。</p>
+          <p>研究将预训练视觉 Transformer 引入多视图立体重建，增强反光、弱纹理等复杂区域的图像表征，提升深度估计质量，并获 TMLR 官方周报介绍。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/html/2208.02541v3">论文与历史榜单结果 ↗</a><a href="https://github.com/ewrfcas/MVSFormer">代码与模型 ↗</a><a href="https://www.tanksandtemples.org/details/4145/">榜单官方提交记录 ↗</a><a href="https://groups.google.com/g/tmlr-announce-weekly/c/CsDsZ5meS6A">TMLR 官方周报 ↗</a></div>
+        </div>
+      </li>
+      <li id="mvsformer-plusplus" class="media-item">
+        <div class="media-meta">MVSFormer++<br>ICLR 2024</div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2401.11673">MVSFormer++：优化 Transformer 设计，持续推进多视图三维重建</a></h4>
+          <p>后续工作进一步将跨视图信息融入 DINOv2 预训练表征，并优化用于深度估计的 Transformer 架构，提升重建精度和不同图像分辨率下的泛化能力。</p>
+          <p>智源社区与 HyperAI 提供了论文介绍与摘要解读。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2401.11673">ICLR 2024 论文 ↗</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">代码与模型 ↗</a><a href="https://hub.baai.ac.cn/paper/9e3e63c0-f2b1-43e0-a551-2d8067a119ab">智源社区论文介绍 ↗</a><a href="https://hyper.ai/cn/papers/2401.11673">HyperAI 论文介绍 ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
   <div id="video-generation" class="media-group">
     <h3>可控视频生成与开源生态</h3>
     <ul class="media-list">

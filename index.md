@@ -335,6 +335,29 @@ image: /assets/images/yanwei-fu.png
       </li>
     </ul>
   </div>
+  <div id="mvsformer-series" class="media-group">
+    <h3>3D reconstruction · MVSFormer series</h3>
+    <ul class="media-list">
+      <li id="mvsformer" class="media-item">
+        <div class="media-meta">MVSFormer · TMLR<time datetime="2022-05">Submission · May 2022</time></div>
+        <div>
+          <h4><a href="https://maybelx.github.io/MVSFormer.github.io/">MVSFormer: pretrained vision transformers for multi-view 3D reconstruction</a></h4>
+          <p><strong>With results submitted in May 2022, MVSFormer ranked first among published methods on both the Intermediate and Advanced Tanks and Temples leaderboards at the time.</strong> Its mean F-scores were 66.37 and 40.87, respectively.</p>
+          <p>The work brings pretrained vision transformers into multi-view stereo, strengthening image features in reflective and textureless regions and improving depth estimation. It was introduced in the official TMLR weekly digest.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/html/2208.02541v3">Paper &amp; historical results ↗</a><a href="https://github.com/ewrfcas/MVSFormer">Code &amp; models ↗</a><a href="https://www.tanksandtemples.org/details/4145/">Official benchmark submission ↗</a><a href="https://groups.google.com/g/tmlr-announce-weekly/c/CsDsZ5meS6A">TMLR official digest ↗</a></div>
+        </div>
+      </li>
+      <li id="mvsformer-plusplus" class="media-item">
+        <div class="media-meta">MVSFormer++<br>ICLR 2024</div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2401.11673">MVSFormer++: refining transformer design for multi-view stereo</a></h4>
+          <p>Our follow-up integrates cross-view information into pretrained DINOv2 features and refines the transformer architecture for depth estimation, advancing reconstruction accuracy and generalization across image resolutions.</p>
+          <p>Research overviews are available from BAAI Hub and HyperAI.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2401.11673">ICLR 2024 paper ↗</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">Code &amp; models ↗</a><a href="https://hub.baai.ac.cn/paper/9e3e63c0-f2b1-43e0-a551-2d8067a119ab">BAAI Hub · Paper overview ↗</a><a href="https://hyper.ai/cn/papers/2401.11673">HyperAI · Paper overview ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
   <div id="video-generation" class="media-group">
     <h3>Controllable video generation &amp; adoption</h3>
     <ul class="media-list">
