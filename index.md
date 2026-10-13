@@ -330,6 +330,11 @@ image: /assets/images/yanwei-fu.png
       <p>Selected for both career-long and single-year citation impact lists in the Stanford/Elsevier database.</p>
       <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/1c/b8/c48841a793784/page.htm">Fudan announcement ↗</a><a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9">Citation database ↗</a></div>
     </div>
+    <div id="ai100-2025" class="recognition-card">
+      <h3>Global Top 100 AI Talents · 2025</h3>
+      <p>Also included in the Top 100 Chinese AI Talents list. The lists were jointly released by UNIDO ITPO Beijing and Dongbi Data.</p>
+      <div class="recognition-links"><a href="https://ai100.dbdata.com/">Official TOP100 lists ↗</a><a href="https://mp.weixin.qq.com/s/lPQ9aM0Uqs6l_H2bCcdeqA">Original announcement ↗</a></div>
+    </div>
     <div class="recognition-card">
       <h3>World Robot Contest · 2020</h3>
       <p>Best Collaboration Award for FDU-Insight in the collaborative robotics challenge. I led the team and co-advised it with Xiangyang Xue.</p>

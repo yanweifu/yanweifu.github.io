@@ -333,6 +333,11 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <p>同时入选斯坦福大学／爱思唯尔数据库的终身科学影响力与年度科学影响力榜单。</p>
       <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/1c/b8/c48841a793784/page.htm">复旦官方公告 ↗</a><a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9">原始数据库 ↗</a></div>
     </div>
+    <div id="ai100-2025" class="recognition-card">
+      <h3>全球人工智能人才榜 TOP100 · 2025</h3>
+      <p>同时入选中国人工智能人才榜 TOP100。榜单由联合国工业发展组织投资和技术促进办公室（中国·北京）与东壁科技数据联合发布。</p>
+      <div class="recognition-links"><a href="https://ai100.dbdata.com/">官方 TOP100 名单 ↗</a><a href="https://mp.weixin.qq.com/s/lPQ9aM0Uqs6l_H2bCcdeqA">原始发布文章 ↗</a></div>
+    </div>
     <div class="recognition-card">
       <h3>世界机器人大赛 · 2020</h3>
       <p>带领 FDU-Insight 战队获共融机器人挑战赛最佳协作奖，与薛向阳教授联合指导，探索基于视觉感知的人机协作。</p>
