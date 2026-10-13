@@ -319,11 +319,11 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         </div>
       </li>
       <li class="media-item">
-        <div class="media-meta">上海教育新闻网<time datetime="2025-07-29">2025 年 7 月</time></div>
+        <div class="media-meta">WAIC 2025 · 复旦大学<time datetime="2025-07-26">2025 年 7 月</time></div>
         <div>
-          <h4><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">视触觉 AI 传感器亮相 WAIC 2025，推动机器人精细操作</a></h4>
-          <p>报道团队的视触觉感知研究，并采访我关于机器人获取触觉、提升精细操作能力的思考。</p>
-          <div class="recognition-links"><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">阅读报道 ↗</a><a href="https://news.fudan.edu.cn/2025/0728/c1247a146338/page.htm">复旦报道 ↗</a></div>
+          <h4><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">视触觉 AI 传感器：WAIC 2025 向国务院总理李强现场演示</a></h4>
+          <p>我作为团队成员参与研发的自适应视触觉 AI 传感器，在 WAIC 2025 向国务院总理李强进行了现场演示，展示机器人对豆腐、果冻等易碎物体的精细抓取能力。</p>
+          <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">总理参观与现场演示 ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">项目报道 ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">媒体专访 ↗</a></div>
         </div>
       </li>
     </ul>

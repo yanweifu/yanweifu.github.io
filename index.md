@@ -316,11 +316,11 @@ image: /assets/images/yanwei-fu.png
         </div>
       </li>
       <li class="media-item">
-        <div class="media-meta">Shanghai Education News<time datetime="2025-07-29">July 2025</time></div>
+        <div class="media-meta">WAIC 2025 · Fudan University<time datetime="2025-07-26">July 2025</time></div>
         <div>
-          <h4><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Visuo-tactile sensing for dexterous robot manipulation</a></h4>
-          <p>Coverage of the team’s AI sensor unveiled at WAIC 2025, including an interview with me on bringing touch to robotic manipulation.</p>
-          <div class="recognition-links"><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Read the report ↗</a><a href="https://news.fudan.edu.cn/2025/0728/c1247a146338/page.htm">Fudan coverage ↗</a></div>
+          <h4><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Visuo-tactile AI sensing: live demonstration to Premier Li Qiang</a></h4>
+          <p>I contributed to the team’s adaptive visuo-tactile AI sensor, demonstrated live to Chinese Premier Li Qiang at WAIC 2025. The work enables delicate robotic handling of fragile objects such as tofu and jelly.</p>
+          <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Premier’s visit &amp; demo ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">Project report ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Media interview ↗</a></div>
         </div>
       </li>
     </ul>
