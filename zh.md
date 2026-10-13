@@ -373,6 +373,15 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
   <div class="media-group">
     <h3>具身智能</h3>
     <ul class="media-list">
+      <li id="tau0-wm" class="media-item">
+        <div class="media-meta">上海创智学院 · 智元机器人具身研究中心<time datetime="2026-05-31">2026 年 5 月</time></div>
+        <div>
+          <h4><a href="https://tau0-wm.github.io/">τ₀-WM：与智元合作的统一视频—动作具身世界模型</a></h4>
+          <p>我参与了上海创智学院与智元机器人具身研究中心联合发布的 τ₀-WM 研究。该模型利用约 27,300 小时的机器人与人类交互数据进行预训练，将视频预测、动作生成与行动后果评估统一起来，使机器人能够在实际执行前预测、评估并修正候选动作。</p>
+          <p>研究获得《文汇报》／上观新闻及量子位专题报道，模型权重与代码已开源。</p>
+          <div class="recognition-links"><a href="https://tau0-wm.github.io/">项目主页 ↗</a><a href="https://arxiv.org/abs/2606.01027">研究论文 ↗</a><a href="https://github.com/sii-research/tau-0-wm">代码与模型权重 ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">创智学院官方发布 ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">《文汇报》／上观新闻 ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">量子位专题 ↗</a></div>
+        </div>
+      </li>
       <li class="media-item">
         <div class="media-meta">麻省理工科技评论中文版 · DeepTech<time datetime="2026-03-25">2026 年 3 月</time></div>
         <div>

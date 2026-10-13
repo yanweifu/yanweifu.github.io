@@ -370,6 +370,15 @@ image: /assets/images/yanwei-fu.png
   <div class="media-group">
     <h3>Embodied intelligence</h3>
     <ul class="media-list">
+      <li id="tau0-wm" class="media-item">
+        <div class="media-meta">Shanghai Innovation Institute · AGIBOT Finch<time datetime="2026-05-31">May 2026</time></div>
+        <div>
+          <h4><a href="https://tau0-wm.github.io/">τ₀-WM: a unified video-action world model for robotic manipulation</a></h4>
+          <p>I coauthored τ₀-WM, jointly released by Shanghai Innovation Institute and AGIBOT Finch. Pretrained on approximately 27,300 hours of robot and human interaction data, the model unifies video prediction, action generation, and evaluation of action consequences, allowing robots to predict, evaluate, and revise candidate actions before execution.</p>
+          <p>Featured in Wenhui Daily / Shangguan News and QbitAI, with code and model weights openly available.</p>
+          <div class="recognition-links"><a href="https://tau0-wm.github.io/">Project ↗</a><a href="https://arxiv.org/abs/2606.01027">Research paper ↗</a><a href="https://github.com/sii-research/tau-0-wm">Code &amp; model weights ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">Institute announcement ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">Wenhui Daily / Shangguan News ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">QbitAI feature ↗</a></div>
+        </div>
+      </li>
       <li class="media-item">
         <div class="media-meta">MIT Technology Review China · DeepTech<time datetime="2026-03-25">March 2026</time></div>
         <div>
