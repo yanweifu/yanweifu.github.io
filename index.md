@@ -570,7 +570,17 @@ image: /assets/images/yanwei-fu.png
           <h4><a href="https://arxiv.org/abs/2311.00342">fMRI-PTE: large-scale, multi-subject fMRI pretraining</a></h4>
           <p>To our knowledge, <strong>fMRI-PTE is the first fMRI foundation model pretrained at the scale of approximately 40,000 participants for cross-subject visual brain decoding</strong>. Pretrained on 39,630 UK Biobank participants, it learns shared neural representations for within-subject and cross-subject visual decoding.</p>
           <p>Our group released the arXiv preprint on <strong><time datetime="2023-11-01">November 1, 2023</time></strong>.</p>
-          <div class="recognition-links"><a href="https://arxiv.org/abs/2311.00342">Paper &amp; release history ↗</a><a href="https://arxiv.org/html/2311.00342v1">Method &amp; pretraining scale ↗</a><a href="#brain-open-data">Our open brain-signal resources ↓</a></div>
+          <p>Science and Technology Daily highlighted the team’s pioneering fMRI pretraining research in August 2024; the report was republished by People.cn and CNR.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2311.00342">Paper &amp; release history ↗</a><a href="https://arxiv.org/html/2311.00342v1">Method &amp; pretraining scale ↗</a><a href="http://edu.people.com.cn/n1/2024/0805/c1006-40292400.html">Science and Technology Daily · People.cn ↗</a><a href="https://tech.cnr.cn/techyw/kan/20240804/t20240804_526832288.shtml">CNR republication ↗</a><a href="#brain-open-data">Our open brain-signal resources ↓</a></div>
+        </div>
+      </li>
+      <li id="neuropictor" class="media-item">
+        <div class="media-meta">ECCV 2024 · AAAI 2026<br>Independent evaluation</div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2403.18211">NeuroPictor: leading structural fidelity in an independent evaluation</a></h4>
+          <p>An AAAI 2026 study by University of Cambridge researchers Weihao Xia and Cengiz Öztireli compared 14 brain visual decoding methods on NSD. <strong>NeuroPictor ranked first in structural fidelity (BASIC-L)</strong>, with a score of 25.88.</p>
+          <p>ZEBRA (NeurIPS 2025), from HKUST, builds on NeuroPictor’s unified brain representation and adopts the fMRI-PTE pretrained encoder for zero-shot cross-subject visual decoding.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2403.18211">NeuroPictor paper ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">AAAI independent evaluation ↗</a><a href="https://arxiv.org/html/2507.07993v2#S4">Results &amp; Table 3 ↗</a><a href="https://arxiv.org/html/2510.27128v1">ZEBRA follow-up research ↗</a></div>
         </div>
       </li>
       <li id="mind3d" class="media-item">
@@ -579,7 +589,8 @@ image: /assets/images/yanwei-fu.png
           <h4><a href="https://jianxgao.github.io/MinD-3D/">MinD-3D: establishing the fMRI-to-3D reconstruction task</a></h4>
           <p><strong>Our group first introduced and defined the fMRI-to-3D reconstruction task, Recon3DMind</strong>, and demonstrated its feasibility with MinD-3D. We released <strong>fMRI-Shape, the first dataset pairing fMRI signals with 3D shapes</strong>, collected from 14 participants.</p>
           <p>The preprint was released on <time datetime="2023-12-12">December 12, 2023</time>, followed by publication at ECCV 2024.</p>
-          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">Project ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV paper ↗</a><a href="https://arxiv.org/abs/2312.07485">Preprint &amp; release history ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape dataset ↗</a></div>
+          <p><strong>Independent studies recognize fMRI-Shape’s pioneering role and use it for further brain-to-3D research.</strong> Neuro-3D (CVPR 2025) identifies it as the first paired fMRI–3D shape dataset; NeuroSculptor3D (AAAI 2026) and BrainGS (CVPR 2026) use it in their experiments. BrainGS also follows MinD-3D’s cross-subject and cross-category evaluation protocols.</p>
+          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">Project ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV paper ↗</a><a href="https://arxiv.org/abs/2312.07485">Preprint &amp; release history ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape dataset ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Neuro-3D_Towards_3D_Visual_Decoding_from_EEG_Signals_CVPR_2025_paper.pdf">Neuro-3D · Recognition of first dataset ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D · Dataset adoption ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jing_More_Natural_More_Real_Object-aware_Gaussian_Splatting_for_3D_Visual_CVPR_2026_paper.pdf">BrainGS · Dataset &amp; protocol adoption ↗</a></div>
         </div>
       </li>
       <li id="brain-open-data" class="media-item">
@@ -591,12 +602,22 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://huggingface.co/Fudan-fMRI">All datasets &amp; models ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse">fMRI-Objaverse ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video">fMRI-Video ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/CineBrain">CineBrain ↗</a></div>
         </div>
       </li>
-      <li class="media-item">
+      <li id="cinebrain-impact" class="media-item">
         <div class="media-meta">CVPR Daily · RSIP Vision<time datetime="2026-06-07">June 2026</time></div>
         <div>
-          <h4><a href="https://rsipvision.com/CVPR2026-Sunday/">CineBrain on the cover of CVPR Daily</a></h4>
+          <h4><a href="https://rsipvision.com/CVPR2026-Sunday/">CineBrain: CVPR Daily cover feature and independent research adoption</a></h4>
           <p>CineBrain also presents <strong>the first systematic investigation of fMRI–EEG fusion for video reconstruction</strong>. Featured on the cover of the Sunday issue, with a five-page interview and review of our audiovisual brain decoding research (pp. 10–14).</p>
-          <div class="recognition-links"><a href="https://rsipvision.com/CVPR2026-Sunday/">Cover &amp; full issue ↗</a><a href="https://rsipvision.com/CVPR2026-Sunday/10/">Feature article ↗</a></div>
+          <p><strong>The open dataset supports independent video and speech reconstruction research.</strong> Tongji University’s DynaMind (CVPR 2026) uses CineBrain for EEG-to-video experiments and describes Cine-Benchmark as “more comprehensive for naturalistic human-centric videos.” NeuroSonic (MICCAI 2026) uses the dataset for EEG-conditioned speech reconstruction.</p>
+          <p>Brain–Computer Interface Community published a Chinese-language overview on July 8, 2026, archived by X-Techcon.</p>
+          <div class="recognition-links"><a href="https://rsipvision.com/CVPR2026-Sunday/">Cover &amp; full issue ↗</a><a href="https://rsipvision.com/CVPR2026-Sunday/10/">Feature article ↗</a><a href="https://www.jiangtongli.me/uploads/papers/2026-CVPR-DynaMind.pdf">DynaMind · Dataset &amp; benchmark adoption ↗</a><a href="https://papers.miccai.org/miccai-2026/0711-Paper4295.html">NeuroSonic · Speech reconstruction ↗</a><a href="https://www.x-techcon.com/article/161149.html">BCI Community · Chinese overview ↗</a></div>
+        </div>
+      </li>
+      <li id="eeg-grasping" class="media-item">
+        <div class="media-meta">Fudan Technology Transfer Center<time datetime="2025-06-05">June 5, 2025</time></div>
+        <div>
+          <h4><a href="https://fdzhuanyi.fudan.edu.cn/46/fe/c40933a739070/page.htm">EEG intention decoding: presenting a robotic grasping system</a></h4>
+          <p>Our <strong>EEG intention-decoding robotic grasping system</strong> was presented at Fudan’s robotics and technology-transfer salon on June 5, 2025. The university’s Technology Transfer Center documented the presentation in its June 6 report.</p>
+          <div class="recognition-links"><a href="https://fdzhuanyi.fudan.edu.cn/46/fe/c40933a739070/page.htm">Fudan Technology Transfer Center · Event report ↗</a></div>
         </div>
       </li>
       <li id="dream-decoding" class="media-item">

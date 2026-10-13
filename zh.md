@@ -573,7 +573,17 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <h4><a href="https://arxiv.org/abs/2311.00342">fMRI-PTE：大规模、多受试者 fMRI 预训练大模型</a></h4>
           <p>据我们所知，<strong>fMRI-PTE 是首个以约 4 万名受试者进行大规模预训练、面向跨受试者视觉脑解码的 fMRI 大模型</strong>。模型利用 UK Biobank 的 39,630 名受试者数据进行预训练，学习共享神经表征，支持受试者内及跨受试者视觉解码。</p>
           <p>本团队于 <strong><time datetime="2023-11-01">2023 年 11 月 1 日</time></strong>公开 arXiv 预印本。</p>
-          <div class="recognition-links"><a href="https://arxiv.org/abs/2311.00342">论文与首次公开时间 ↗</a><a href="https://arxiv.org/html/2311.00342v1">模型方法与预训练规模 ↗</a><a href="#brain-open-data">团队开放脑信号资源 ↓</a></div>
+          <p>《科技日报》于 2024 年 8 月报道团队的 fMRI 预训练研究，人民网与央广网转载了同篇报道，介绍其对视觉脑解码研究的意义。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2311.00342">论文与首次公开时间 ↗</a><a href="https://arxiv.org/html/2311.00342v1">模型方法与预训练规模 ↗</a><a href="http://edu.people.com.cn/n1/2024/0805/c1006-40292400.html">科技日报报道 · 人民网转载 ↗</a><a href="https://tech.cnr.cn/techyw/kan/20240804/t20240804_526832288.shtml">央广网转载 ↗</a><a href="#brain-open-data">团队开放脑信号资源 ↓</a></div>
+        </div>
+      </li>
+      <li id="neuropictor" class="media-item">
+        <div class="media-meta">ECCV 2024 · AAAI 2026<br>独立评测</div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2403.18211">NeuroPictor：在独立评测中取得结构保真度第一</a></h4>
+          <p>剑桥大学研究者 Weihao Xia 与 Cengiz Öztireli 的 AAAI 2026 论文在 NSD 数据集上比较了 14 种脑视觉解码方法，<strong>NeuroPictor 的结构保真度指标 BASIC-L 排名第一</strong>，得分为 25.88。</p>
+          <p>香港科技大学的 ZEBRA（NeurIPS 2025）沿用 NeuroPictor 的统一脑信号表征思路，并采用 fMRI-PTE 的预训练编码器，研究零样本跨受试者视觉解码。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2403.18211">NeuroPictor 论文 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">AAAI 独立评测 ↗</a><a href="https://arxiv.org/html/2507.07993v2#S4">评测结果与 Table 3 ↗</a><a href="https://arxiv.org/html/2510.27128v1">ZEBRA 后续研究 ↗</a></div>
         </div>
       </li>
       <li id="mind3d" class="media-item">
@@ -582,7 +592,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <h4><a href="https://jianxgao.github.io/MinD-3D/">MinD-3D：首次提出并定义 fMRI-to-3D 脑解码任务</a></h4>
           <p><strong>本团队首次提出并定义 fMRI-to-3D（Recon3DMind）研究任务</strong>，开发 MinD-3D 框架验证从脑信号重建三维物体的可行性，并发布<strong>首个 fMRI–3D 形状配对数据集 fMRI-Shape</strong>，覆盖 14 名受试者。</p>
           <p>预印本于 <time datetime="2023-12-12">2023 年 12 月 12 日</time>公开，发表于 ECCV 2024。</p>
-          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">项目主页 ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV 正式论文 ↗</a><a href="https://arxiv.org/abs/2312.07485">预印本与首次公开时间 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape 开放数据集 ↗</a></div>
+          <p><strong>fMRI-Shape 的首创性与后续研究价值获得独立团队认可</strong>：Neuro-3D（CVPR 2025）明确将其称为首个 fMRI–3D 形状配对数据集；NeuroSculptor3D（AAAI 2026）与 BrainGS（CVPR 2026）将其用于脑到三维重建研究，其中 BrainGS 沿用 MinD-3D 的跨受试者、跨类别评测设置。</p>
+          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">项目主页 ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV 正式论文 ↗</a><a href="https://arxiv.org/abs/2312.07485">预印本与首次公开时间 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape 开放数据集 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Neuro-3D_Towards_3D_Visual_Decoding_from_EEG_Signals_CVPR_2025_paper.pdf">Neuro-3D 首创性评价 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D 数据集采用 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jing_More_Natural_More_Real_Object-aware_Gaussian_Splatting_for_3D_Visual_CVPR_2026_paper.pdf">BrainGS 数据与评测采用 ↗</a></div>
         </div>
       </li>
       <li id="brain-open-data" class="media-item">
@@ -594,12 +605,22 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://huggingface.co/Fudan-fMRI">全部开放数据与模型 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse">fMRI-Objaverse ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video">fMRI-Video ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/CineBrain">CineBrain ↗</a></div>
         </div>
       </li>
-      <li class="media-item">
+      <li id="cinebrain-impact" class="media-item">
         <div class="media-meta">CVPR Daily · RSIP Vision<time datetime="2026-06-07">2026 年 6 月</time></div>
         <div>
-          <h4><a href="https://rsipvision.com/CVPR2026-Sunday/">CineBrain 入选 CVPR Daily 封面文章</a></h4>
+          <h4><a href="https://rsipvision.com/CVPR2026-Sunday/">CineBrain：CVPR Daily 封面报道与独立团队采用</a></h4>
           <p><strong>首次系统探索融合 fMRI 与 EEG 进行视频重建</strong>，并登上周日刊封面，获五页专题专访与评述（第 10–14 页），介绍团队融合视听感知与多模态脑信号的脑解码研究。</p>
-          <div class="recognition-links"><a href="https://rsipvision.com/CVPR2026-Sunday/">封面与完整刊物 ↗</a><a href="https://rsipvision.com/CVPR2026-Sunday/10/">专题文章 ↗</a></div>
+          <p><strong>开放数据集已支持独立团队的视频与语音重建研究</strong>。同济大学的 DynaMind（CVPR 2026）采用 CineBrain 开展 EEG-to-video 实验，并评价 Cine-Benchmark 对自然、以人为中心的视频评测更全面；NeuroSonic（MICCAI 2026）将其用于 EEG 条件下的语音重建。</p>
+          <p>脑机接口社区于 2026 年 7 月 8 日刊发 CineBrain 专题解读，全文收录于科技区角。</p>
+          <div class="recognition-links"><a href="https://rsipvision.com/CVPR2026-Sunday/">封面与完整刊物 ↗</a><a href="https://rsipvision.com/CVPR2026-Sunday/10/">专题文章 ↗</a><a href="https://www.jiangtongli.me/uploads/papers/2026-CVPR-DynaMind.pdf">DynaMind 数据与评测采用 ↗</a><a href="https://papers.miccai.org/miccai-2026/0711-Paper4295.html">NeuroSonic 语音重建研究 ↗</a><a href="https://www.x-techcon.com/article/161149.html">脑机接口社区专题解读 ↗</a></div>
+        </div>
+      </li>
+      <li id="eeg-grasping" class="media-item">
+        <div class="media-meta">复旦大学技术转移中心<time datetime="2025-06-05">2025 年 6 月 5 日</time></div>
+        <div>
+          <h4><a href="https://fdzhuanyi.fudan.edu.cn/46/fe/c40933a739070/page.htm">脑电意图解码：机器人智能抓取系统展示</a></h4>
+          <p>团队的<strong>基于脑电意图解码的机器人智能抓取系统</strong>于 2025 年 6 月 5 日在复旦大学聚焦机器人技术与产业转化的闭门沙龙上展示，复旦大学技术转移中心于 6 月 6 日报道了这次展示。</p>
+          <div class="recognition-links"><a href="https://fdzhuanyi.fudan.edu.cn/46/fe/c40933a739070/page.htm">复旦大学技术转移中心活动报道 ↗</a></div>
         </div>
       </li>
       <li id="dream-decoding" class="media-item">
