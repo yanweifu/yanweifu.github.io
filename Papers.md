@@ -151,9 +151,6 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * A New Formulation of Lipschitz Constrained With Functional Gradient Learning for GANs. Chang Wan, Ke Fan, Xinwei Sun, Yanwei Fu, Minglu Li, Yunliang Jiang, Zhonglong Zheng. Machine Learning, 2025
 
-* Repositioning the Subject within Image, Yikai Wang, Chenjie Cao, Ke Fan, Qiaole Dong, Yifan Li, Xiangyang Xue, Yanwei Fu. TMLR 2025: dataset, and models are released. Please google it. (This paper is awarded a (Journal-to-Conference) J2C Certification! This paper Will be presented in ICML 2026@Seoul.
-(*J2C Certification. Publications awarded this certification, are eligible for presentation in the joint NeurIPS/ICLR/ICML Journal-to-Conference Track. https://jmlr.org/tmlr/editorial-policies.html#certifications. *)
-
 **Robotics:**
 
 * TP-MDDN: Task-Preferenced Multi-Demand-Driven Navigation with Autonomous Decision-Making. Shanshan Li, Da Huang, Yu He, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue. NIPS 2025
@@ -193,6 +190,8 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 * LEA: Learning Latent Embedding Alignment Model for fMRI Decoding and Encoding,  Xuelin Qian, Yikai Wang, Xinwei Sun, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. TMLR 2025, dataset, and models are released. 
 
 ## 2024
+
+* Repositioning the Subject within Image. Yikai Wang, Chenjie Cao, Ke Fan, Qiaole Dong, Yifan Li, Xiangyang Xue, Yanwei Fu. TMLR, November 2024. <span class="award-tag">Journal-to-Conference (J2C) Certification · October 2025</span> <a class="presentation-tag" href="https://icml.cc/virtual/2026/poster/68784">ICML 2026 Poster · Journal-to-Conference Track</a> [Paper](https://openreview.net/forum?id=orHH4fCtR8) · [Official TMLR certification record](https://jmlr.org/tmlr/papers/) · [Project, data & code](https://yikai-wang.github.io/seele/)
 
 * A New Formulation of Lipschitz Constrained With Functional Gradient Learning for GANs. Chang Wan, Ke Fan, Xinwei Sun, Yanwei Fu, Minglu Li, Yunliang Jiang, Zhonglong Zheng. Machine Learning. 2024
 

@@ -246,6 +246,19 @@ image: /assets/images/yanwei-fu.png
     <li class="honor-item">
       <span class="honor-year">2025</span>
       <div>
+        <p class="honor-label">TMLR Journal-to-Conference (J2C) Certification <span>ICML 2026 · Poster</span></p>
+        <p class="honor-title" id="j2c-subject"><a href="https://openreview.net/forum?id=orHH4fCtR8">Repositioning the Subject within Image</a></p>
+        <p class="honor-credit">Published in TMLR, November 2024 · J2C certified October 2025 · Selected for the ICML 2026 Journal-to-Conference Track.</p>
+        <div class="publication-links">
+          <a class="honor-source" href="https://jmlr.org/tmlr/papers/">Official TMLR certification record ↗</a>
+          <a class="honor-source" href="https://icml.cc/virtual/2026/poster/68784">ICML 2026 poster ↗</a>
+          <a class="honor-source" href="https://yikai-wang.github.io/seele/">Project, data &amp; code ↗</a>
+        </div>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2025</span>
+      <div>
         <p class="honor-label">Long Paper Outstanding Paper Award <span>DeLTa Workshop at ICLR 2025</span></p>
         <p class="honor-title"><a href="https://unidb-soc.github.io/UniDB_page/">A Unified Diffusion Bridge Framework via Stochastic Optimal Control</a></p>
         <a class="honor-source" href="https://delta-workshop.github.io/#awards">Official award announcement ↗</a>

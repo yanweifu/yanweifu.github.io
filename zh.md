@@ -249,6 +249,19 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     <li class="honor-item">
       <span class="honor-year">2025</span>
       <div>
+        <p class="honor-label">TMLR Journal-to-Conference（J2C）认证 <span>ICML 2026 · 海报展示</span></p>
+        <p class="honor-title" id="j2c-subject"><a href="https://openreview.net/forum?id=orHH4fCtR8">Repositioning the Subject within Image</a></p>
+        <p class="honor-credit">2024 年 11 月发表于 TMLR · 2025 年 10 月获 J2C 认证 · 入选 ICML 2026 Journal-to-Conference Track 展示。</p>
+        <div class="publication-links">
+          <a class="honor-source" href="https://jmlr.org/tmlr/papers/">TMLR 官方认证记录 ↗</a>
+          <a class="honor-source" href="https://icml.cc/virtual/2026/poster/68784">ICML 2026 海报展示 ↗</a>
+          <a class="honor-source" href="https://yikai-wang.github.io/seele/">项目、数据与代码 ↗</a>
+        </div>
+      </div>
+    </li>
+    <li class="honor-item">
+      <span class="honor-year">2025</span>
+      <div>
         <p class="honor-label">杰出长论文奖 <span>ICLR 2025 DeLTa 工作坊</span></p>
         <p class="honor-title"><a href="https://unidb-soc.github.io/UniDB_page/">A Unified Diffusion Bridge Framework via Stochastic Optimal Control</a></p>
         <a class="honor-source" href="https://delta-workshop.github.io/#awards">官方获奖公告 ↗</a>
