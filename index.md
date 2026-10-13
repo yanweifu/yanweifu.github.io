@@ -205,6 +205,7 @@ image: /assets/images/yanwei-fu.png
   <h2 id="background-title">Academic background</h2>
   <ul class="background-list">
     <li><time>Since 2023</time><p><strong>Full Professor, Fudan University</strong><small>School of Data Science · Full Professor since December 2023</small></p></li>
+    <li><time>2016–2023</time><p><strong>Young Associate Research Fellow, then Young Research Fellow, Fudan University</strong><small>School of Data Science</small></p></li>
     <li><time>2015–2016</time><p><strong>Postdoctoral Researcher, Disney Research Pittsburgh</strong><small>With <a href="https://www.cs.ubc.ca/~lsigal/">Leonid Sigal</a></small></p></li>
     <li><time>2011–2014</time><p><strong>Ph.D. in Computer Vision, Queen Mary University of London</strong><small>Advisors: Tao Xiang and Shaogang Gong</small></p></li>
     <li><time>2008–2011</time><p><strong>Master’s degree in Computer Science, Nanjing University</strong></p></li>

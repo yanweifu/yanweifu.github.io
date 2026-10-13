@@ -208,6 +208,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
   <h2 id="background-title">学术经历</h2>
   <ul class="background-list">
     <li><time>2023 至今</time><p><strong>复旦大学教授</strong><small>大数据学院 · 2023 年 12 月起任教授</small></p></li>
+    <li><time>2016–2023</time><p><strong>复旦大学青年副研究员、青年研究员</strong><small>大数据学院 · 先后任职</small></p></li>
     <li><time>2015–2016</time><p><strong>Disney Research Pittsburgh 博士后研究员</strong><small>合作导师：<a href="https://www.cs.ubc.ca/~lsigal/">Leonid Sigal</a></small></p></li>
     <li><time>2011–2014</time><p><strong>伦敦玛丽女王大学计算机视觉博士</strong><small>导师：Tao Xiang、Shaogang Gong</small></p></li>
     <li><time>2008–2011</time><p><strong>南京大学计算机科学硕士</strong></p></li>
