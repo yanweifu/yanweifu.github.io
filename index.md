@@ -360,12 +360,13 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">Read the interview ↗</a><a href="https://arxiv.org/abs/2512.21201">Research paper ↗</a></div>
         </div>
       </li>
-      <li class="media-item">
+      <li id="visuo-tactile" class="media-item">
         <div class="media-meta">WAIC 2025 · Fudan University<time datetime="2025-07-26">July 2025</time></div>
         <div>
           <h4><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Visuo-tactile AI sensing: live demonstration to Premier Li Qiang</a></h4>
           <p>I contributed to the team’s adaptive visuo-tactile AI sensor, demonstrated live to Chinese Premier Li Qiang at WAIC 2025. The work enables delicate robotic handling of fragile objects such as tofu and jelly.</p>
-          <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Premier’s visit &amp; demo ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">Project report ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Media interview ↗</a></div>
+          <p>China Science Daily / ScienceNet interviewed me about the technology’s applications and reported demonstrations of grasping jelly and scooping tangyuan (glutinous rice balls), in a feature published on <time datetime="2025-07-29">July 29, 2025</time>.</p>
+          <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Premier’s visit &amp; demo ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">Project report ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Media interview ↗</a><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">China Science Daily / ScienceNet · Jelly &amp; tangyuan demos ↗</a></div>
         </div>
       </li>
     </ul>

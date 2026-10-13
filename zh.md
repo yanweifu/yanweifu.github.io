@@ -363,12 +363,13 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">阅读专访 ↗</a><a href="https://arxiv.org/abs/2512.21201">研究论文 ↗</a></div>
         </div>
       </li>
-      <li class="media-item">
+      <li id="visuo-tactile" class="media-item">
         <div class="media-meta">WAIC 2025 · 复旦大学<time datetime="2025-07-26">2025 年 7 月</time></div>
         <div>
           <h4><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">视触觉 AI 传感器：WAIC 2025 向国务院总理李强现场演示</a></h4>
           <p>我作为团队成员参与研发的自适应视触觉 AI 传感器，在 WAIC 2025 向国务院总理李强进行了现场演示，展示机器人对豆腐、果冻等易碎物体的精细抓取能力。</p>
-          <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">总理参观与现场演示 ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">项目报道 ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">媒体专访 ↗</a></div>
+          <p>《中国科学报》／科学网于 <time datetime="2025-07-29">2025 年 7 月 29 日</time>专题报道了机器人抓果冻、舀汤圆等精细操作演示，并采访我介绍这项技术在智能抓取、精细分拣与精密装配中的应用前景。</p>
+          <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">总理参观与现场演示 ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">项目报道 ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">媒体专访 ↗</a><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">《中国科学报》／科学网：抓果冻、舀汤圆 ↗</a></div>
         </div>
       </li>
     </ul>
