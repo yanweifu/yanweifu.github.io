@@ -335,6 +335,38 @@ image: /assets/images/yanwei-fu.png
       </li>
     </ul>
   </div>
+  <div id="video-generation" class="media-group">
+    <h3>Controllable video generation &amp; adoption</h3>
+    <ul class="media-list">
+      <li id="uni3c" class="media-item">
+        <div class="media-meta">SIGGRAPH Asia 2025<time datetime="2026-07-29">ComfyUI · July 2026</time></div>
+        <div>
+          <h4><a href="https://alibaba-damo-academy.github.io/Uni3C/">Uni3C: 3D video control with native ComfyUI camera support</a></h4>
+          <p>Our Uni3C unifies 3D-enhanced camera and human-motion control for video generation, combining scene geometry with controllable viewpoints and character motion.</p>
+          <p><strong>Its camera-control module is natively supported in ComfyUI for Wan models</strong>, included in the official v0.29.0 release. ComfyLab documents a hands-on camera-orbit workflow using this integration.</p>
+          <div class="recognition-links"><a href="https://alibaba-damo-academy.github.io/Uni3C/">Project ↗</a><a href="https://arxiv.org/abs/2504.14899">Research paper ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.29.0">Official ComfyUI release ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/pull/14946">Native integration ↗</a><a href="https://comfylab.dev/blog/workflows/uni3c-controlnet-camera-control-wan-comfyui/">ComfyLab · Hands-on review ↗</a></div>
+        </div>
+      </li>
+      <li id="versecrafter" class="media-item">
+        <div class="media-meta">CVPR 2026 · Ji Qizhixin<time datetime="2026-01-18">January 2026</time></div>
+        <div>
+          <h4><a href="https://sixiaozheng.github.io/VerseCrafter_page/">VerseCrafter: 4D geometric control of camera and multiple moving objects</a></h4>
+          <p>Developed with Tencent ARC Lab and collaborators, VerseCrafter jointly controls camera motion and multiple object trajectories through a unified 4D geometric world state. Its Blender interface lets users design the camera and object motion interactively.</p>
+          <p>Featured by Ji Qizhixin (机器之心), with the article available through the outlet’s Tencent Cloud account.</p>
+          <div class="recognition-links"><a href="https://sixiaozheng.github.io/VerseCrafter_page/">Project &amp; Blender interface ↗</a><a href="https://arxiv.org/abs/2601.05138">Research paper ↗</a><a href="https://github.com/TencentARC/VerseCrafter">Code &amp; models ↗</a><a href="https://cloud.tencent.com/developer/article/2622259">Ji Qizhixin feature ↗</a></div>
+        </div>
+      </li>
+      <li id="vidcraft3" class="media-item">
+        <div class="media-meta">IEEE TVCG 2026<br>Research reviews</div>
+        <div>
+          <h4><a href="https://sixiaozheng.github.io/VidCRAFT3/">VidCRAFT3: camera, object, and lighting control for video generation</a></h4>
+          <p>Our VidCRAFT3 brings camera motion, object motion, and lighting direction into one image-to-video framework, supporting both individual and combined controls for coherent visual creation.</p>
+          <p>Discussed in Japanese-language technical commentary by D × MirAI and a research review by The Moonlight.</p>
+          <div class="recognition-links"><a href="https://sixiaozheng.github.io/VidCRAFT3/">Project ↗</a><a href="https://doi.org/10.1109/TVCG.2026.3688720">IEEE TVCG paper ↗</a><a href="https://note.com/life_to_ai/n/n4bb558a626e3">D × MirAI · Technical blog ↗</a><a href="https://www.themoonlight.io/en/review/vidcraft3-camera-object-and-lighting-control-for-image-to-video-generation">The Moonlight review ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
   <div class="media-group">
     <h3>Embodied intelligence</h3>
     <ul class="media-list">

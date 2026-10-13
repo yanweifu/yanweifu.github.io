@@ -338,6 +338,38 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       </li>
     </ul>
   </div>
+  <div id="video-generation" class="media-group">
+    <h3>可控视频生成与开源生态</h3>
+    <ul class="media-list">
+      <li id="uni3c" class="media-item">
+        <div class="media-meta">SIGGRAPH Asia 2025<time datetime="2026-07-29">ComfyUI · 2026 年 7 月</time></div>
+        <div>
+          <h4><a href="https://alibaba-damo-academy.github.io/Uni3C/">Uni3C：三维可控视频生成，相机控制原生集成 ComfyUI</a></h4>
+          <p>团队提出的 Uni3C 统一三维增强的相机与人体运动控制，将场景几何、相机轨迹和人物动作结合起来，实现可控视频生成。</p>
+          <p><strong>Uni3C 的相机控制模块已纳入 ComfyUI 原生支持</strong>，随官方 v0.29.0 版本发布，为 Wan 视频模型提供相机控制。ComfyLab 通过实际环绕运镜工作流介绍了这一集成。</p>
+          <div class="recognition-links"><a href="https://alibaba-damo-academy.github.io/Uni3C/">项目主页 ↗</a><a href="https://arxiv.org/abs/2504.14899">研究论文 ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.29.0">ComfyUI 官方版本 ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/pull/14946">原生集成记录 ↗</a><a href="https://comfylab.dev/blog/workflows/uni3c-controlnet-camera-control-wan-comfyui/">ComfyLab 社区实测 ↗</a></div>
+        </div>
+      </li>
+      <li id="versecrafter" class="media-item">
+        <div class="media-meta">CVPR 2026 · 机器之心<time datetime="2026-01-18">2026 年 1 月</time></div>
+        <div>
+          <h4><a href="https://sixiaozheng.github.io/VerseCrafter_page/">VerseCrafter：四维几何控制，让视频生成精准运镜、协同控物</a></h4>
+          <p>与腾讯 ARC Lab 等合作提出 VerseCrafter，在统一的四维几何世界状态中协同控制相机运动与多个物体的运动轨迹，并提供 Blender 交互界面，便于设计运镜和物体运动。</p>
+          <p>研究获《机器之心》专题报道，文章可通过该媒体在腾讯云的同步发表页阅读。</p>
+          <div class="recognition-links"><a href="https://sixiaozheng.github.io/VerseCrafter_page/">项目与 Blender 界面 ↗</a><a href="https://arxiv.org/abs/2601.05138">研究论文 ↗</a><a href="https://github.com/TencentARC/VerseCrafter">代码与模型 ↗</a><a href="https://cloud.tencent.com/developer/article/2622259">《机器之心》专题报道 ↗</a></div>
+        </div>
+      </li>
+      <li id="vidcraft3" class="media-item">
+        <div class="media-meta">IEEE TVCG 2026<br>论文与技术解读</div>
+        <div>
+          <h4><a href="https://sixiaozheng.github.io/VidCRAFT3/">VidCRAFT3：统一控制相机、物体与光照的视频生成</a></h4>
+          <p>团队提出的 VidCRAFT3 将相机运动、物体运动与光照方向统一纳入图像到视频生成框架，支持独立控制及组合控制，让视频创作兼顾精细操控与视觉一致性。</p>
+          <p>研究获日文技术博客 D × MirAI 及 The Moonlight 论文解读介绍。</p>
+          <div class="recognition-links"><a href="https://sixiaozheng.github.io/VidCRAFT3/">项目主页 ↗</a><a href="https://doi.org/10.1109/TVCG.2026.3688720">IEEE TVCG 论文 ↗</a><a href="https://note.com/life_to_ai/n/n4bb558a626e3">D × MirAI 技术博客 ↗</a><a href="https://www.themoonlight.io/en/review/vidcraft3-camera-object-and-lighting-control-for-image-to-video-generation">The Moonlight 论文解读 ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
   <div class="media-group">
     <h3>具身智能</h3>
     <ul class="media-list">
