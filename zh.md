@@ -101,6 +101,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <div>
         <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></h3>
         <p>Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, <strong>Yanwei Fu</strong></p>
+        <p><strong>首个在视听观看过程中同步采集 fMRI 与 EEG 的大规模脑数据集。</strong></p>
         <div class="publication-links"><a href="https://jianxgao.github.io/CineBrain/">项目与数据集</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Oral / 口头报告</a><span class="award-tag">最佳论文奖候选</span></div>
       </div>
     </li>
@@ -117,6 +118,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <div>
         <h3><a href="https://sixiaozheng.github.io/VerseCrafter_page/">VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control</a></h3>
         <p>Sixiao Zheng, Minghao Yin, Wenbo Hu, Xiaoyu Li, Ying Shan, <strong>Yanwei Fu</strong></p>
+        <p>据我们所知，这是<strong>首个通过显式 4D 几何协同控制相机与多物体运动的动态真实视频世界模型。</strong></p>
         <div class="publication-links"><a href="https://arxiv.org/abs/2601.05138">论文</a><a href="https://sixiaozheng.github.io/VerseCrafter_page/">项目与代码</a></div>
       </div>
     </li>
@@ -346,7 +348,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div>
           <h4><a href="https://maybelx.github.io/MVSFormer.github.io/">MVSFormer：预训练视觉 Transformer 驱动的多视图三维重建</a></h4>
           <p><strong>基于 2022 年 5 月提交的结果，MVSFormer 在 Tanks and Temples 的 Intermediate 与 Advanced 两组中，均位列当时已发表方法第一。</strong> 平均 F-score 分别为 66.37 和 40.87。</p>
-          <p>研究将预训练视觉 Transformer 引入多视图立体重建，增强反光、弱纹理等复杂区域的图像表征，提升深度估计质量，并获 TMLR 官方周报介绍。</p>
+          <p>据我们所知，这是<strong>首个系统研究预训练视觉 Transformer 如何增强多视图立体重建的工作</strong>，改善反光、弱纹理等复杂区域的图像表征与深度估计，并获 TMLR 官方周报介绍。</p>
           <div class="recognition-links"><a href="https://arxiv.org/html/2208.02541v3">论文与历史榜单结果 ↗</a><a href="https://github.com/ewrfcas/MVSFormer">代码与模型 ↗</a><a href="https://www.tanksandtemples.org/details/4145/">榜单官方提交记录 ↗</a><a href="https://groups.google.com/g/tmlr-announce-weekly/c/CsDsZ5meS6A">TMLR 官方周报 ↗</a></div>
         </div>
       </li>
@@ -377,7 +379,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div class="media-meta">CVPR 2026 · 机器之心<time datetime="2026-01-18">2026 年 1 月</time></div>
         <div>
           <h4><a href="https://sixiaozheng.github.io/VerseCrafter_page/">VerseCrafter：四维几何控制，让视频生成精准运镜、协同控物</a></h4>
-          <p>与腾讯 ARC Lab 等合作提出 VerseCrafter，在统一的四维几何世界状态中协同控制相机运动与多个物体的运动轨迹，并提供 Blender 交互界面，便于设计运镜和物体运动。</p>
+          <p>据我们所知，<strong>VerseCrafter 是首个通过显式 4D 几何协同控制相机与多物体运动的动态真实视频世界模型</strong>。与腾讯 ARC Lab 等合作研发，并提供 Blender 交互界面，便于设计运镜和物体运动。</p>
           <p>研究获《机器之心》专题报道，文章可通过该媒体在腾讯云的同步发表页阅读。</p>
           <div class="recognition-links"><a href="https://sixiaozheng.github.io/VerseCrafter_page/">项目与 Blender 界面 ↗</a><a href="https://arxiv.org/abs/2601.05138">研究论文 ↗</a><a href="https://github.com/TencentARC/VerseCrafter">代码与模型 ↗</a><a href="https://cloud.tencent.com/developer/article/2622259">《机器之心》专题报道 ↗</a></div>
         </div>
@@ -386,7 +388,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div class="media-meta">IEEE TVCG 2026<br>论文与技术解读</div>
         <div>
           <h4><a href="https://sixiaozheng.github.io/VidCRAFT3/">VidCRAFT3：统一控制相机、物体与光照的视频生成</a></h4>
-          <p>团队提出的 VidCRAFT3 将相机运动、物体运动与光照方向统一纳入图像到视频生成框架，支持独立控制及组合控制，让视频创作兼顾精细操控与视觉一致性。</p>
+          <p>VidCRAFT3 是<strong>首个在图生视频（Image-to-Video，I2V）领域，支持相机运动、物体运动与光照方向独立及联合控制的统一扩散模型框架</strong>，在同一模型中精细控制视点、场景动态与光照。</p>
           <p>研究获日文技术博客 D × MirAI 及 The Moonlight 论文解读介绍。</p>
           <div class="recognition-links"><a href="https://sixiaozheng.github.io/VidCRAFT3/">项目主页 ↗</a><a href="https://doi.org/10.1109/TVCG.2026.3688720">IEEE TVCG 论文 ↗</a><a href="https://note.com/life_to_ai/n/n4bb558a626e3">D × MirAI 技术博客 ↗</a><a href="https://www.themoonlight.io/en/review/vidcraft3-camera-object-and-lighting-control-for-image-to-video-generation">The Moonlight 论文解读 ↗</a></div>
         </div>
@@ -401,16 +403,18 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div>
           <h4><a href="https://tau0-wm.github.io/">τ₀-WM：与智元合作的统一视频—动作具身世界模型</a></h4>
           <p>我参与了上海创智学院与智元机器人具身研究中心联合发布的 τ₀-WM 研究。该模型利用约 27,300 小时的机器人与人类交互数据进行预训练，将视频预测、动作生成与行动后果评估统一起来，使机器人能够在实际执行前预测、评估并修正候选动作。</p>
+          <p><strong>中国工程院院士何友在第四届（2026）上海计算机视觉大会《智能无人系统发展前沿》报告中介绍 τ₀-WM</strong>，其报告幻灯片称该工作为“当前全球最大规模的开源预训练具身世界模型”，强调了当时的预训练数据规模。</p>
           <p>研究获得《文汇报》／上观新闻及量子位专题报道，模型权重与代码已开源。</p>
-          <div class="recognition-links"><a href="https://tau0-wm.github.io/">项目主页 ↗</a><a href="https://arxiv.org/abs/2606.01027">研究论文 ↗</a><a href="https://github.com/sii-research/tau-0-wm">代码与模型权重 ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">创智学院官方发布 ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">《文汇报》／上观新闻 ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">量子位专题 ↗</a></div>
+          <div class="recognition-links"><a href="https://tau0-wm.github.io/">项目主页 ↗</a><a href="https://arxiv.org/abs/2606.01027">研究论文 ↗</a><a href="https://github.com/sii-research/tau-0-wm">代码与模型权重 ↗</a><a href="{{ '/assets/media/tau0-wm-he-you-shanghai-computer-vision-conference-2026.jpg' | relative_url }}">何友院士评述 · 报告现场照片 ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">创智学院官方发布 ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">《文汇报》／上观新闻 ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">量子位专题 ↗</a></div>
         </div>
       </li>
-      <li class="media-item">
+      <li id="schrodinger-navigator" class="media-item">
         <div class="media-meta">麻省理工科技评论中文版 · DeepTech<time datetime="2026-03-25">2026 年 3 月</time></div>
         <div>
-          <h4><a href="https://www.mittrchina.com/news/detail/16139">Schrödinger’s Navigator：让机器人通过想象多种未来规划导航</a></h4>
-          <p>专访介绍团队如何通过想象多种三维未来场景，引导机器人在未知环境中进行零样本目标导航。</p>
-          <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">阅读专访 ↗</a><a href="https://arxiv.org/abs/2512.21201">研究论文 ↗</a></div>
+          <h4><a href="https://www.mittrchina.com/news/detail/16139">Schrödinger’s Navigator：让机器人先想象、再导航</a></h4>
+          <p><strong>一种用于零样本目标导航（Zero-Shot Object Navigation，ZSON）的创新人工智能框架，让机器人学会“先想象、再行动”。</strong>利用三维世界模型想象遮挡后方的多种可能未来，综合目标线索、可通行空间与几何风险，在未知环境中规划导航路线。</p>
+          <p>《麻省理工科技评论》中文版／DeepTech 专访介绍了这项研究。</p>
+          <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">阅读专访 ↗</a><a href="https://arxiv.org/abs/2512.21201">研究论文 ↗</a><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/">项目主页 ↗</a></div>
         </div>
       </li>
       <li id="trivla" class="media-item">
@@ -448,7 +452,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div class="media-meta">CVPR Daily · RSIP Vision<time datetime="2026-06-07">2026 年 6 月</time></div>
         <div>
           <h4><a href="https://rsipvision.com/CVPR2026-Sunday/">CineBrain 入选 CVPR Daily 封面文章</a></h4>
-          <p>登上周日刊封面，并获五页专题专访与评述（第 10–14 页），介绍团队融合视听感知与多模态脑信号的脑解码研究。</p>
+          <p><strong>首次系统探索融合 fMRI 与 EEG 进行视频重建</strong>，并登上周日刊封面，获五页专题专访与评述（第 10–14 页），介绍团队融合视听感知与多模态脑信号的脑解码研究。</p>
           <div class="recognition-links"><a href="https://rsipvision.com/CVPR2026-Sunday/">封面与完整刊物 ↗</a><a href="https://rsipvision.com/CVPR2026-Sunday/10/">专题文章 ↗</a></div>
         </div>
       </li>

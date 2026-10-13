@@ -98,6 +98,7 @@ image: /assets/images/yanwei-fu.png
       <div>
         <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html">CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation</a></h3>
         <p>Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, <strong>Yanwei Fu</strong></p>
+        <p><strong>First large-scale audiovisual brain dataset pairing time-aligned fMRI and EEG recordings.</strong></p>
         <div class="publication-links"><a href="https://jianxgao.github.io/CineBrain/">Project &amp; dataset</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Oral</a><span class="award-tag">Best Paper Award Candidate</span></div>
       </div>
     </li>
@@ -114,6 +115,7 @@ image: /assets/images/yanwei-fu.png
       <div>
         <h3><a href="https://sixiaozheng.github.io/VerseCrafter_page/">VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control</a></h3>
         <p>Sixiao Zheng, Minghao Yin, Wenbo Hu, Xiaoyu Li, Ying Shan, <strong>Yanwei Fu</strong></p>
+        <p>To our knowledge, this is <strong>the first dynamic, realistic video world model with explicit 4D geometric control over camera and multi-object motion.</strong></p>
         <div class="publication-links"><a href="https://arxiv.org/abs/2601.05138">Paper</a><a href="https://sixiaozheng.github.io/VerseCrafter_page/">Project &amp; code</a></div>
       </div>
     </li>
@@ -343,7 +345,7 @@ image: /assets/images/yanwei-fu.png
         <div>
           <h4><a href="https://maybelx.github.io/MVSFormer.github.io/">MVSFormer: pretrained vision transformers for multi-view 3D reconstruction</a></h4>
           <p><strong>With results submitted in May 2022, MVSFormer ranked first among published methods on both the Intermediate and Advanced Tanks and Temples leaderboards at the time.</strong> Its mean F-scores were 66.37 and 40.87, respectively.</p>
-          <p>The work brings pretrained vision transformers into multi-view stereo, strengthening image features in reflective and textureless regions and improving depth estimation. It was introduced in the official TMLR weekly digest.</p>
+          <p>To our knowledge, <strong>MVSFormer is the first work to systematically study how pretrained vision transformers enhance multi-view stereo</strong>, strengthening features in reflective and textureless regions and improving depth estimation. It was introduced in the official TMLR weekly digest.</p>
           <div class="recognition-links"><a href="https://arxiv.org/html/2208.02541v3">Paper &amp; historical results ↗</a><a href="https://github.com/ewrfcas/MVSFormer">Code &amp; models ↗</a><a href="https://www.tanksandtemples.org/details/4145/">Official benchmark submission ↗</a><a href="https://groups.google.com/g/tmlr-announce-weekly/c/CsDsZ5meS6A">TMLR official digest ↗</a></div>
         </div>
       </li>
@@ -374,7 +376,7 @@ image: /assets/images/yanwei-fu.png
         <div class="media-meta">CVPR 2026 · Ji Qizhixin<time datetime="2026-01-18">January 2026</time></div>
         <div>
           <h4><a href="https://sixiaozheng.github.io/VerseCrafter_page/">VerseCrafter: 4D geometric control of camera and multiple moving objects</a></h4>
-          <p>Developed with Tencent ARC Lab and collaborators, VerseCrafter jointly controls camera motion and multiple object trajectories through a unified 4D geometric world state. Its Blender interface lets users design the camera and object motion interactively.</p>
+          <p>To our knowledge, <strong>VerseCrafter is the first dynamic, realistic video world model with explicit 4D geometric control over camera and multi-object motion</strong>. Developed with Tencent ARC Lab and collaborators, it provides a Blender interface for interactively designing these trajectories.</p>
           <p>Featured by Ji Qizhixin (机器之心), with the article available through the outlet’s Tencent Cloud account.</p>
           <div class="recognition-links"><a href="https://sixiaozheng.github.io/VerseCrafter_page/">Project &amp; Blender interface ↗</a><a href="https://arxiv.org/abs/2601.05138">Research paper ↗</a><a href="https://github.com/TencentARC/VerseCrafter">Code &amp; models ↗</a><a href="https://cloud.tencent.com/developer/article/2622259">Ji Qizhixin feature ↗</a></div>
         </div>
@@ -383,7 +385,7 @@ image: /assets/images/yanwei-fu.png
         <div class="media-meta">IEEE TVCG 2026<br>Research reviews</div>
         <div>
           <h4><a href="https://sixiaozheng.github.io/VidCRAFT3/">VidCRAFT3: camera, object, and lighting control for video generation</a></h4>
-          <p>Our VidCRAFT3 brings camera motion, object motion, and lighting direction into one image-to-video framework, supporting both individual and combined controls for coherent visual creation.</p>
+          <p>VidCRAFT3 is <strong>the first unified image-to-video (I2V) diffusion framework supporting independent and joint control over camera motion, object motion, and lighting direction</strong>, enabling precise control of viewpoint, scene dynamics, and illumination within one model.</p>
           <p>Discussed in Japanese-language technical commentary by D × MirAI and a research review by The Moonlight.</p>
           <div class="recognition-links"><a href="https://sixiaozheng.github.io/VidCRAFT3/">Project ↗</a><a href="https://doi.org/10.1109/TVCG.2026.3688720">IEEE TVCG paper ↗</a><a href="https://note.com/life_to_ai/n/n4bb558a626e3">D × MirAI · Technical blog ↗</a><a href="https://www.themoonlight.io/en/review/vidcraft3-camera-object-and-lighting-control-for-image-to-video-generation">The Moonlight review ↗</a></div>
         </div>
@@ -398,16 +400,18 @@ image: /assets/images/yanwei-fu.png
         <div>
           <h4><a href="https://tau0-wm.github.io/">τ₀-WM: a unified video-action world model for robotic manipulation</a></h4>
           <p>I coauthored τ₀-WM, jointly released by Shanghai Innovation Institute and AGIBOT Finch. Pretrained on approximately 27,300 hours of robot and human interaction data, the model unifies video prediction, action generation, and evaluation of action consequences, allowing robots to predict, evaluate, and revise candidate actions before execution.</p>
+          <p><strong>He You, a member of the Chinese Academy of Engineering, featured τ₀-WM in his presentation on intelligent unmanned systems at the Fourth Shanghai Computer Vision Conference (2026).</strong> His slide highlighted its training-data scale and described it at the time as the world’s largest-scale open-source pretrained embodied world model.</p>
           <p>Featured in Wenhui Daily / Shangguan News and QbitAI, with code and model weights openly available.</p>
-          <div class="recognition-links"><a href="https://tau0-wm.github.io/">Project ↗</a><a href="https://arxiv.org/abs/2606.01027">Research paper ↗</a><a href="https://github.com/sii-research/tau-0-wm">Code &amp; model weights ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">Institute announcement ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">Wenhui Daily / Shangguan News ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">QbitAI feature ↗</a></div>
+          <div class="recognition-links"><a href="https://tau0-wm.github.io/">Project ↗</a><a href="https://arxiv.org/abs/2606.01027">Research paper ↗</a><a href="https://github.com/sii-research/tau-0-wm">Code &amp; model weights ↗</a><a href="{{ '/assets/media/tau0-wm-he-you-shanghai-computer-vision-conference-2026.jpg' | relative_url }}">He You’s presentation · Photo ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">Institute announcement ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">Wenhui Daily / Shangguan News ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">QbitAI feature ↗</a></div>
         </div>
       </li>
-      <li class="media-item">
+      <li id="schrodinger-navigator" class="media-item">
         <div class="media-meta">MIT Technology Review China · DeepTech<time datetime="2026-03-25">March 2026</time></div>
         <div>
-          <h4><a href="https://www.mittrchina.com/news/detail/16139">Schrödinger’s Navigator: imagining multiple futures for robot navigation</a></h4>
-          <p>An interview on our work using imagined 3D futures to guide zero-shot object navigation.</p>
-          <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">Read the interview ↗</a><a href="https://arxiv.org/abs/2512.21201">Research paper ↗</a></div>
+          <h4><a href="https://www.mittrchina.com/news/detail/16139">Schrödinger’s Navigator: letting robots imagine before navigating</a></h4>
+          <p><strong>A novel AI framework for zero-shot object navigation (ZSON), enabling robots to imagine possible futures before acting.</strong> It uses a 3D world model to explore possibilities beyond occlusions, weighing target cues, navigable space, and geometric risks to guide navigation in unfamiliar environments.</p>
+          <p>Featured in a MIT Technology Review China / DeepTech interview on our research.</p>
+          <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">Read the interview ↗</a><a href="https://arxiv.org/abs/2512.21201">Research paper ↗</a><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/">Project ↗</a></div>
         </div>
       </li>
       <li id="trivla" class="media-item">
@@ -445,7 +449,7 @@ image: /assets/images/yanwei-fu.png
         <div class="media-meta">CVPR Daily · RSIP Vision<time datetime="2026-06-07">June 2026</time></div>
         <div>
           <h4><a href="https://rsipvision.com/CVPR2026-Sunday/">CineBrain on the cover of CVPR Daily</a></h4>
-          <p>Featured on the cover of the Sunday issue, with a five-page interview and review of our audiovisual brain decoding research (pp. 10–14).</p>
+          <p>CineBrain also presents <strong>the first systematic investigation of fMRI–EEG fusion for video reconstruction</strong>. Featured on the cover of the Sunday issue, with a five-page interview and review of our audiovisual brain decoding research (pp. 10–14).</p>
           <div class="recognition-links"><a href="https://rsipvision.com/CVPR2026-Sunday/">Cover &amp; full issue ↗</a><a href="https://rsipvision.com/CVPR2026-Sunday/10/">Feature article ↗</a></div>
         </div>
       </li>
