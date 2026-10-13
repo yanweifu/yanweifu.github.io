@@ -338,7 +338,7 @@ image: /assets/images/yanwei-fu.png
     </ul>
   </div>
   <div id="3d-reconstruction" class="media-group">
-    <h3>3D reconstruction</h3>
+    <h3>3D reconstruction &amp; generative foundation models</h3>
     <ul class="media-list">
       <li id="mvsformer-series" class="media-item">
         <div class="media-meta">TMLR · ICLR 2024<time datetime="2022-05">Benchmark submission · May 2022</time></div>
@@ -358,6 +358,15 @@ image: /assets/images/yanwei-fu.png
           <p id="pixel2mesh-plusplus">Pixel2Mesh++ (ICCV 2019) extends the series to multi-view mesh generation and refinement, improving geometric detail and consistency across viewpoints.</p>
           <p>PaperWeekly published dedicated features on Pixel2Mesh in <time datetime="2018-09-10">September 2018</time> and Pixel2Mesh++ in <time datetime="2019-11-08">November 2019</time>, explaining the direct-mesh breakthrough and its multi-view extension.</p>
           <div class="recognition-links"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh paper ↗</a><a href="https://github.com/nywang16/Pixel2Mesh">Pixel2Mesh code &amp; models ↗</a><a href="https://arxiv.org/abs/1908.01491">Pixel2Mesh++ paper ↗</a><a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Pixel2Mesh++ project &amp; code ↗</a><a href="https://www.sohu.com/a/252979433_500659">PaperWeekly · Pixel2Mesh feature ↗</a><a href="https://www.sohu.com/a/352447127_500659">PaperWeekly · Pixel2Mesh++ feature ↗</a></div>
+        </div>
+      </li>
+      <li id="argus-3d" class="media-item">
+        <div class="media-meta">3D-native generation<time datetime="2023-06-20">First preprint · June 20, 2023</time></div>
+        <div>
+          <h4><a href="https://argus-3d.github.io/">Argus-3D: a 3D-native generative foundation model at 3.6-billion-parameter scale</a></h4>
+          <p>To our knowledge, <strong>Argus-3D was the first academic 3D-native shape generation model scaled to 3.6 billion trainable parameters</strong>, first publicly introduced on <strong><time datetime="2023-06-20">June 20, 2023</time></strong>. Developed with BAAI and collaborators, it learns discrete geometric representations and autoregressive priors directly from approximately 900,000 3D objects, supporting multimodal conditional shape generation.</p>
+          <p>The original paper reported it as the largest 3D shape generation model at the time. BAAI Hub published a detailed feature on <time datetime="2023-07-13">July 13, 2023</time>; an expanded preprint followed on <time datetime="2024-02-19">February 19, 2024</time>.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2306.11510">Original paper &amp; release history ↗</a><a href="https://arxiv.org/abs/2402.12225">Expanded paper ↗</a><a href="https://argus-3d.github.io/">Project ↗</a><a href="https://github.com/AImind/Argus-3D">Code &amp; models ↗</a><a href="https://huggingface.co/datasets/BAAI/Objaverse-MIX">Objaverse-MIX dataset ↗</a><a href="https://hub.baai.ac.cn/view/27838">BAAI Hub feature · July 2023 ↗</a></div>
         </div>
       </li>
     </ul>

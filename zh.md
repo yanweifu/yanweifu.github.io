@@ -341,7 +341,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     </ul>
   </div>
   <div id="3d-reconstruction" class="media-group">
-    <h3>三维重建</h3>
+    <h3>三维重建与 3D 生成大模型</h3>
     <ul class="media-list">
       <li id="mvsformer-series" class="media-item">
         <div class="media-meta">TMLR · ICLR 2024<time datetime="2022-05">榜单提交 · 2022 年 5 月</time></div>
@@ -361,6 +361,15 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <p id="pixel2mesh-plusplus">Pixel2Mesh++（ICCV 2019）进一步实现多视角网格生成与精细化，提升几何细节和跨视角一致性。</p>
           <p>PaperWeekly 分别于 <time datetime="2018-09-10">2018 年 9 月</time>和 <time datetime="2019-11-08">2019 年 11 月</time>刊发专题解读，介绍单图直接生成网格的突破及后续多视角扩展。</p>
           <div class="recognition-links"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh 论文 ↗</a><a href="https://github.com/nywang16/Pixel2Mesh">Pixel2Mesh 代码与模型 ↗</a><a href="https://arxiv.org/abs/1908.01491">Pixel2Mesh++ 论文 ↗</a><a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Pixel2Mesh++ 项目与代码 ↗</a><a href="https://www.sohu.com/a/252979433_500659">PaperWeekly · Pixel2Mesh 专题 ↗</a><a href="https://www.sohu.com/a/352447127_500659">PaperWeekly · Pixel2Mesh++ 专题 ↗</a></div>
+        </div>
+      </li>
+      <li id="argus-3d" class="media-item">
+        <div class="media-meta">3D 原生生成大模型<time datetime="2023-06-20">首次公开 · 2023 年 6 月 20 日</time></div>
+        <div>
+          <h4><a href="https://argus-3d.github.io/">Argus-3D：36 亿参数规模的 3D 原生生成大模型</a></h4>
+          <p>据我们所知，<strong>Argus-3D 是学术界首个扩展至 36 亿可训练参数的 3D 原生形状生成大模型</strong>，于 <strong><time datetime="2023-06-20">2023 年 6 月 20 日</time>首次公开</strong>。与智源研究院等合作提出，汇集约 90 万个公开 3D 物体，直接学习三维几何的离散表征与自回归生成先验，支持多模态条件下的三维形状生成。</p>
+          <p>原论文报告其为当时最大规模的 3D 形状生成模型。智源社区于 <time datetime="2023-07-13">2023 年 7 月 13 日</time>刊发专题介绍，扩展预印本于 <time datetime="2024-02-19">2024 年 2 月 19 日</time>公开。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2306.11510">原始论文与首次公开时间 ↗</a><a href="https://arxiv.org/abs/2402.12225">扩展论文 ↗</a><a href="https://argus-3d.github.io/">项目主页 ↗</a><a href="https://github.com/AImind/Argus-3D">代码与模型 ↗</a><a href="https://huggingface.co/datasets/BAAI/Objaverse-MIX">Objaverse-MIX 开放数据 ↗</a><a href="https://hub.baai.ac.cn/view/27838">智源社区专题 · 2023 年 7 月 ↗</a></div>
         </div>
       </li>
     </ul>
