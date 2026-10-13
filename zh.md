@@ -372,6 +372,14 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">总理参观与现场演示 ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">项目报道 ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">媒体专访 ↗</a><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">《中国科学报》／科学网：抓果冻、舀汤圆 ↗</a></div>
         </div>
       </li>
+      <li id="robotics-2023" class="media-item">
+        <div class="media-meta">复旦大学大数据学院<time datetime="2023-02-27">2023 年 2 月</time></div>
+        <div>
+          <h4><a href="https://sds.fudan.edu.cn/_t2392/6d/6d/c17423a486765/page.htm">2023 年初：视觉引导机器人抓取、倒水与眼动交互</a></h4>
+          <p>早在 2023 年 2 月，我的课题组已公开展示机器人抓取与倒水系统，结合类别泛化和六自由度位姿估计，将仅用合成图像训练的模型应用于真实场景，并通过眼动凝视实现饮料供应。复旦大数据学院报道记录了 <time datetime="2023-02-12">2023 年 2 月 12 日</time>的成果展示。</p>
+          <div class="recognition-links"><a href="https://sds.fudan.edu.cn/_t2392/6d/6d/c17423a486765/page.htm">复旦官方报道：机器人倒水与眼动交互 ↗</a></div>
+        </div>
+      </li>
     </ul>
   </div>
   <div class="media-group">

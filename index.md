@@ -369,6 +369,14 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Premier’s visit &amp; demo ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">Project report ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Media interview ↗</a><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">China Science Daily / ScienceNet · Jelly &amp; tangyuan demos ↗</a></div>
         </div>
       </li>
+      <li id="robotics-2023" class="media-item">
+        <div class="media-meta">Fudan School of Data Science<time datetime="2023-02-27">February 2023</time></div>
+        <div>
+          <h4><a href="https://sds.fudan.edu.cn/_t2392/6d/6d/c17423a486765/page.htm">Robotics in early 2023: vision-guided grasping and pouring</a></h4>
+          <p>By February 2023, my group had publicly demonstrated robotic grasping and pouring using category-level generalization and 6D pose estimation, with models trained on synthetic images and applied to real scenes. Gaze tracking enabled user-directed drink serving. Fudan’s School of Data Science documented the demonstrations held on <time datetime="2023-02-12">February 12, 2023</time>.</p>
+          <div class="recognition-links"><a href="https://sds.fudan.edu.cn/_t2392/6d/6d/c17423a486765/page.htm">Fudan report · Robotic pouring &amp; gaze interaction ↗</a></div>
+        </div>
+      </li>
     </ul>
   </div>
   <div class="media-group">
