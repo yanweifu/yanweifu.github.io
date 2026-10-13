@@ -85,7 +85,7 @@ image: /assets/images/yanwei-fu.png
   <div class="research-grid">
     <div class="research-topic"><h3>Few-shot learning &amp; statistical foundations</h3><p>Meta-learning, sparsity, causal learning, and reliable generalization under limited supervision.</p></div>
     <div class="research-topic"><h3>Generative models &amp; 3D vision</h3><p>Diffusion models, controllable video generation, and 3D/4D reconstruction from sparse observations.</p></div>
-    <div class="research-topic"><h3>Embodied intelligence</h3><p>Vision-guided manipulation, vision-language-action models, and learning from demonstrations.</p></div>
+    <div class="research-topic"><h3>Embodied intelligence</h3><p>Vision-guided manipulation, vision-language-action models, learning from demonstrations, and <a href="#egocentric-understanding">egocentric &amp; ego–exo understanding</a>.</p></div>
     <div class="research-topic"><h3>Multimodal learning &amp; brain decoding</h3><p>Large-scale fMRI pretraining, fMRI-to-3D decoding, and open fMRI/EEG datasets for the research community.</p></div>
   </div>
 </section>
@@ -155,6 +155,56 @@ image: /assets/images/yanwei-fu.png
       </div>
     </li>
   </ol>
+</section>
+
+<section id="egocentric-understanding" class="home-section" aria-labelledby="egocentric-understanding-title">
+  <h2 id="egocentric-understanding-title">Egocentric &amp; ego–exo understanding</h2>
+  <p class="research-intro">Understanding the world from a first-person perspective: connecting objects across viewpoints, reasoning about sound, and evaluating generalization beyond everyday activities.</p>
+  <ol class="publication-list">
+    <li id="egosound" class="publication">
+      <div class="publication-venue">CVPR 2026<span>Sound understanding</span></div>
+      <div>
+        <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_EgoSound_Benchmarking_Sound_Understanding_in_Egocentric_Videos_CVPR_2026_paper.html">EgoSound: Benchmarking Sound Understanding in Egocentric Videos</a></h3>
+        <p>Bingwen Zhu, Yuqian Fu, Qiaole Dong, Guolei Sun, Tianwen Qian, Yuzheng Wu, Danda Pani Paudel, <strong>Yanwei Fu</strong>, Xiangyang Xue</p>
+        <p><strong>Extending first-person understanding from vision to sound.</strong> Evaluates multimodal models on sound perception, spatial localization, causal inference, and cross-modal reasoning.</p>
+        <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_EgoSound_Benchmarking_Sound_Understanding_in_Egocentric_Videos_CVPR_2026_paper.html">Paper</a><a href="https://groolegend.github.io/EgoSound/">Project</a><a href="https://github.com/groolegend/EgoSound">Code</a><a href="https://huggingface.co/datasets/grooLegend/EgoSound">Dataset</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=81">Highlight</a></div>
+      </div>
+    </li>
+    <li id="v2-sam" class="publication">
+      <div class="publication-venue">CVPR 2026<span>Cross-view correspondence</span></div>
+      <div>
+        <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Pan_V2-SAM_Marrying_SAM2_with_Multi-Prompt_Experts_for_Cross-View_Object_Correspondence_CVPR_2026_paper.html">V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence</a></h3>
+        <p>Jiancheng Pan, Runze Wang, Tianwen Qian, Mohammad Mahdi, <strong>Yanwei Fu</strong>, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu</p>
+        <p><strong>Adapting SAM2 to match objects across first- and third-person views.</strong> Combines geometry-aware anchor prompts and appearance-aware visual prompts to handle large viewpoint changes.</p>
+        <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Pan_V2-SAM_Marrying_SAM2_with_Multi-Prompt_Experts_for_Cross-View_Object_Correspondence_CVPR_2026_paper.html">Paper</a><a href="https://github.com/jaychempan/V2-SAM">Code</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=62">Highlight</a></div>
+      </div>
+    </li>
+    <li id="objectrelator" class="publication">
+      <div class="publication-venue">ICCV 2025<span>Ego–exo object relations</span></div>
+      <div>
+        <h3><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Fu_ObjectRelator_Enabling_Cross-View_Object_Relation_Understanding_Across_Ego-Centric_and_Exo-Centric_ICCV_2025_paper.html">ObjectRelator: Enabling Cross-View Object Relation Understanding Across Ego-Centric and Exo-Centric Perspectives</a></h3>
+        <p>Yuqian Fu, Runze Wang, Bin Ren, Guolei Sun, Biao Gong, <strong>Yanwei Fu</strong>, Danda Pani Paudel, Xuanjing Huang, Luc Van Gool</p>
+        <p><strong>Finding and segmenting the same object across ego–exo views</strong> through visual–language condition fusion and cross-view object alignment. The related challenge method placed second in the Ego-Exo4D 2025 Correspondences track.</p>
+        <div class="publication-links"><a href="https://yuqianfu.com/ObjectRelator/">Project</a><a href="https://github.com/insait-institute/ObjectRelator">Code</a><a class="presentation-tag" href="https://iccv.thecvf.com/Conferences/2025/AcceptedPapers">Highlight</a><a class="award-tag" href="https://arxiv.org/abs/2506.05856">2nd place · Ego-Exo4D Correspondences 2025</a></div>
+      </div>
+    </li>
+    <li id="egocentric-hand-identification" class="publication">
+      <div class="publication-venue">WACV 2021<span>Earlier work</span></div>
+      <div>
+        <h3><a href="https://arxiv.org/abs/2011.08900">Whose hand is this? Person Identification from Egocentric Hand Gestures</a></h3>
+        <p>Satoshi Tsutsui, <strong>Yanwei Fu</strong>, David Crandall</p>
+        <p>Studies camera-wearer identification from hand appearance and motion, and uses identity-adversarial training to improve gesture recognition across users.</p>
+        <div class="publication-links"><a href="https://arxiv.org/abs/2011.08900">Paper</a><a class="presentation-tag" href="https://wacv2021.thecvf.com/program">Oral</a></div>
+      </div>
+    </li>
+  </ol>
+  <div id="egocross-challenge" class="industry-recognition">
+    <h3>Community contribution · EgoCross Challenge 2026</h3>
+    <ul class="compact-list">
+      <li><strong>Co-organizer of the first EgoCross Challenge at EgoVis, CVPR 2026</strong><small>Cross-domain egocentric video question answering across surgery, industrial assembly, extreme sports, and animal perspectives. The challenge report records over 130 participants and over 1,500 submissions.</small></li>
+    </ul>
+    <div class="publication-links"><a href="https://egocross-benchmark.github.io/">Challenge &amp; organizers</a><a href="https://arxiv.org/abs/2608.04589">Coauthored challenge report</a></div>
+  </div>
 </section>
 
 <section id="tutorials" class="home-section tutorials-section" aria-labelledby="tutorials-title">
@@ -516,6 +566,38 @@ image: /assets/images/yanwei-fu.png
           <h4><a href="https://sds.fudan.edu.cn/_t2392/6d/6d/c17423a486765/page.htm">Robotics in early 2023: vision-guided grasping and pouring</a></h4>
           <p>By February 2023, my group had publicly demonstrated robotic grasping and pouring using category-level generalization and 6D pose estimation, with models trained on synthetic images and applied to real scenes. Gaze tracking enabled user-directed drink serving. Fudan’s School of Data Science documented the demonstrations held on <time datetime="2023-02-12">February 12, 2023</time>.</p>
           <div class="recognition-links"><a href="https://sds.fudan.edu.cn/_t2392/6d/6d/c17423a486765/page.htm">Fudan report · Robotic pouring &amp; gaze interaction ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="egocentric-vision" class="media-group" aria-labelledby="egocentric-vision-title">
+    <h3 id="egocentric-vision-title">Egocentric vision &amp; ego–exo understanding</h3>
+    <ul class="media-list">
+      <li id="ego-exo-recognition" class="media-item">
+        <div class="media-meta">ICCV 2025 · CVPR 2026<br>Highlight papers</div>
+        <div>
+          <h4><a href="https://yuqianfu.com/ObjectRelator/">ObjectRelator &amp; V²-SAM: connecting first- and third-person views</a></h4>
+          <p><strong>ObjectRelator (ICCV 2025) and V²-SAM (CVPR 2026) were both selected as Highlight papers.</strong> The two works establish object correspondence across ego–exo views through multimodal alignment and complementary geometric and visual prompts.</p>
+          <p><strong>The related ObjectRelator challenge method took second place in the Ego-Exo4D 2025 Correspondences track</strong> at the EgoVis Workshop held with CVPR 2025.</p>
+          <div class="recognition-links"><a href="https://iccv.thecvf.com/Conferences/2025/AcceptedPapers">ObjectRelator · ICCV Highlight record ↗</a><a href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=62">V²-SAM · CVPR Highlight record ↗</a><a href="https://arxiv.org/abs/2506.05856">Second-place challenge report ↗</a><a href="https://github.com/insait-institute/ObjectRelator">ObjectRelator code ↗</a><a href="https://github.com/jaychempan/V2-SAM">V²-SAM code ↗</a><a href="#egocentric-understanding">Selected papers ↑</a></div>
+        </div>
+      </li>
+      <li id="egosound-benchmark" class="media-item">
+        <div class="media-meta">CVPR 2026 · Highlight<br>Open benchmark</div>
+        <div>
+          <h4><a href="https://groolegend.github.io/EgoSound/">EgoSound: an open benchmark for first-person sound understanding</a></h4>
+          <p><strong>EgoSound extends egocentric understanding to sound perception and audiovisual reasoning.</strong> It evaluates spatial localization, causal inference, and cross-modal understanding, with publicly available data and evaluation code.</p>
+          <p>The work was selected as a <strong>CVPR 2026 Highlight</strong>, complementing our ego–exo visual correspondence research with multisensory evaluation.</p>
+          <div class="recognition-links"><a href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=81">CVPR Highlight record ↗</a><a href="https://groolegend.github.io/EgoSound/">Project ↗</a><a href="https://github.com/groolegend/EgoSound">Evaluation code ↗</a><a href="https://huggingface.co/datasets/grooLegend/EgoSound">Open dataset ↗</a></div>
+        </div>
+      </li>
+      <li id="egocross-community" class="media-item">
+        <div class="media-meta">EgoVis @ CVPR 2026<br>Challenge co-organizer</div>
+        <div>
+          <h4><a href="https://egocross-benchmark.github.io/">EgoCross Challenge: advancing cross-domain egocentric video understanding</a></h4>
+          <p><strong>I co-organized the first EgoCross Challenge at EgoVis, CVPR 2026, and coauthored its technical report.</strong> The challenge evaluates video question answering across surgery, industrial assembly, extreme sports, and animal perspectives.</p>
+          <p>The report records <strong>over 130 participants and over 1,500 submissions</strong>, with public challenge data, baseline code, and winning-team solutions.</p>
+          <div class="recognition-links"><a href="https://egocross-benchmark.github.io/">Challenge &amp; organizer list ↗</a><a href="https://arxiv.org/abs/2608.04589">Challenge report &amp; results ↗</a></div>
         </div>
       </li>
     </ul>

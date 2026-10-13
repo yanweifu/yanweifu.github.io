@@ -38,7 +38,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * FFP-300K: Scaling First-Frame Propagation for Generalizable Video Editing. Xijie Huang, Chengming Xu, Donghao Luo, Xiaobin Hu, Peng Tang, Xu Peng, Jiangning Zhang, Chengjie Wang, Yanwei Fu. CVPR 2026
 
-* V-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence. Jiancheng Pan, Runze Wang, Tianwen Qian, Mohammad Mahdi, Yanwei Fu, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu. CVPR 2026. <a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=62">Highlight</a>
+* V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence. Jiancheng Pan, Runze Wang, Tianwen Qian, Mohammad Mahdi, Yanwei Fu, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu. CVPR 2026. <a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=62">Highlight</a> [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Pan_V2-SAM_Marrying_SAM2_with_Multi-Prompt_Experts_for_Cross-View_Object_Correspondence_CVPR_2026_paper.html) · [Code](https://github.com/jaychempan/V2-SAM)
 
 * VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control. Sixiao Zheng, Minghao Yin, Wenbo Hu, Xiaoyu Li, Ying Shan, Yanwei Fu. CVPR 2026
 

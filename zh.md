@@ -88,7 +88,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
   <div class="research-grid">
     <div class="research-topic"><h3>小样本学习与统计基础</h3><p>研究元学习、稀疏性与因果学习，建立有限监督条件下可靠泛化的方法与理论基础。</p></div>
     <div class="research-topic"><h3>生成模型与三维视觉</h3><p>研究扩散模型、可控视频生成，以及稀疏观测下的三维与四维重建。</p></div>
-    <div class="research-topic"><h3>具身智能</h3><p>研究视觉引导的机器人操作、视觉—语言—动作模型与示范学习。</p></div>
+    <div class="research-topic"><h3>具身智能</h3><p>研究视觉引导的机器人操作、视觉—语言—动作模型、示范学习，以及<a href="#egocentric-understanding">第一视角与跨视角理解</a>。</p></div>
     <div class="research-topic"><h3>多模态学习与脑解码</h3><p>fMRI 大规模预训练、fMRI-to-3D 脑解码，以及面向科研社区的 fMRI／EEG 开放数据集。</p></div>
   </div>
 </section>
@@ -158,6 +158,56 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       </div>
     </li>
   </ol>
+</section>
+
+<section id="egocentric-understanding" class="home-section" aria-labelledby="egocentric-understanding-title">
+  <h2 id="egocentric-understanding-title">第一视角与跨视角理解</h2>
+  <p class="research-intro">从第一视角理解世界：建立不同视角间的物体对应，理解声音中的空间与因果线索，并评估模型超越日常活动场景的泛化能力。</p>
+  <ol class="publication-list">
+    <li id="egosound" class="publication">
+      <div class="publication-venue">CVPR 2026<span>声音理解</span></div>
+      <div>
+        <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_EgoSound_Benchmarking_Sound_Understanding_in_Egocentric_Videos_CVPR_2026_paper.html">EgoSound: Benchmarking Sound Understanding in Egocentric Videos</a></h3>
+        <p>Bingwen Zhu, Yuqian Fu, Qiaole Dong, Guolei Sun, Tianwen Qian, Yuzheng Wu, Danda Pani Paudel, <strong>Yanwei Fu</strong>, Xiangyang Xue</p>
+        <p><strong>将第一视角理解从视觉拓展到声音。</strong>评估多模态模型的声音感知、空间定位、因果推断与跨模态推理能力。</p>
+        <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_EgoSound_Benchmarking_Sound_Understanding_in_Egocentric_Videos_CVPR_2026_paper.html">论文</a><a href="https://groolegend.github.io/EgoSound/">项目主页</a><a href="https://github.com/groolegend/EgoSound">代码</a><a href="https://huggingface.co/datasets/grooLegend/EgoSound">数据集</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=81">Highlight</a></div>
+      </div>
+    </li>
+    <li id="v2-sam" class="publication">
+      <div class="publication-venue">CVPR 2026<span>跨视角物体对应</span></div>
+      <div>
+        <h3><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Pan_V2-SAM_Marrying_SAM2_with_Multi-Prompt_Experts_for_Cross-View_Object_Correspondence_CVPR_2026_paper.html">V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence</a></h3>
+        <p>Jiancheng Pan, Runze Wang, Tianwen Qian, Mohammad Mahdi, <strong>Yanwei Fu</strong>, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu</p>
+        <p><strong>将 SAM2 拓展到第一与第三视角间的物体匹配。</strong>结合几何感知的锚点提示与外观感知的视觉提示，应对大幅视角变化。</p>
+        <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Pan_V2-SAM_Marrying_SAM2_with_Multi-Prompt_Experts_for_Cross-View_Object_Correspondence_CVPR_2026_paper.html">论文</a><a href="https://github.com/jaychempan/V2-SAM">代码</a><a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=62">Highlight</a></div>
+      </div>
+    </li>
+    <li id="objectrelator" class="publication">
+      <div class="publication-venue">ICCV 2025<span>第一／第三视角物体关系</span></div>
+      <div>
+        <h3><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Fu_ObjectRelator_Enabling_Cross-View_Object_Relation_Understanding_Across_Ego-Centric_and_Exo-Centric_ICCV_2025_paper.html">ObjectRelator: Enabling Cross-View Object Relation Understanding Across Ego-Centric and Exo-Centric Perspectives</a></h3>
+        <p>Yuqian Fu, Runze Wang, Bin Ren, Guolei Sun, Biao Gong, <strong>Yanwei Fu</strong>, Danda Pani Paudel, Xuanjing Huang, Luc Van Gool</p>
+        <p>通过视觉—语言条件融合与跨视角物体对齐，<strong>在第一与第三视角间定位、分割同一物体。</strong>相关参赛方法获 Ego-Exo4D 2025 挑战赛物体对应赛道第二名。</p>
+        <div class="publication-links"><a href="https://yuqianfu.com/ObjectRelator/">项目主页</a><a href="https://github.com/insait-institute/ObjectRelator">代码</a><a class="presentation-tag" href="https://iccv.thecvf.com/Conferences/2025/AcceptedPapers">Highlight</a><a class="award-tag" href="https://arxiv.org/abs/2506.05856">第二名 · Ego-Exo4D 2025 物体对应赛道</a></div>
+      </div>
+    </li>
+    <li id="egocentric-hand-identification" class="publication">
+      <div class="publication-venue">WACV 2021<span>早期探索</span></div>
+      <div>
+        <h3><a href="https://arxiv.org/abs/2011.08900">Whose hand is this? Person Identification from Egocentric Hand Gestures</a></h3>
+        <p>Satoshi Tsutsui, <strong>Yanwei Fu</strong>, David Crandall</p>
+        <p>研究如何根据手部外观与运动识别第一视角相机佩戴者，并通过身份对抗训练提升手势识别的跨用户泛化能力。</p>
+        <div class="publication-links"><a href="https://arxiv.org/abs/2011.08900">论文</a><a class="presentation-tag" href="https://wacv2021.thecvf.com/program">Oral / 口头报告</a></div>
+      </div>
+    </li>
+  </ol>
+  <div id="egocross-challenge" class="industry-recognition">
+    <h3>社区贡献 · EgoCross Challenge 2026</h3>
+    <ul class="compact-list">
+      <li><strong>首届 EgoCross 挑战赛联合组织者 · EgoVis @ CVPR 2026</strong><small>面向手术、工业装配、极限运动与动物视角的跨域第一视角视频问答。挑战赛技术报告记录了超过 130 名参与者、超过 1,500 次提交。</small></li>
+    </ul>
+    <div class="publication-links"><a href="https://egocross-benchmark.github.io/">挑战赛与组织者</a><a href="https://arxiv.org/abs/2608.04589">共同署名的挑战赛技术报告</a></div>
+  </div>
 </section>
 
 <section id="tutorials" class="home-section tutorials-section" aria-labelledby="tutorials-title">
@@ -519,6 +569,38 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <h4><a href="https://sds.fudan.edu.cn/_t2392/6d/6d/c17423a486765/page.htm">2023 年初：视觉引导机器人抓取、倒水与眼动交互</a></h4>
           <p>早在 2023 年 2 月，我的课题组已公开展示机器人抓取与倒水系统，结合类别泛化和六自由度位姿估计，将仅用合成图像训练的模型应用于真实场景，并通过眼动凝视实现饮料供应。复旦大数据学院报道记录了 <time datetime="2023-02-12">2023 年 2 月 12 日</time>的成果展示。</p>
           <div class="recognition-links"><a href="https://sds.fudan.edu.cn/_t2392/6d/6d/c17423a486765/page.htm">复旦官方报道：机器人倒水与眼动交互 ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="egocentric-vision" class="media-group" aria-labelledby="egocentric-vision-title">
+    <h3 id="egocentric-vision-title">第一视角视觉与跨视角理解</h3>
+    <ul class="media-list">
+      <li id="ego-exo-recognition" class="media-item">
+        <div class="media-meta">ICCV 2025 · CVPR 2026<br>Highlight 论文</div>
+        <div>
+          <h4><a href="https://yuqianfu.com/ObjectRelator/">ObjectRelator 与 V²-SAM：连接第一与第三视角</a></h4>
+          <p><strong>ObjectRelator（ICCV 2025）与 V²-SAM（CVPR 2026）均入选 Highlight 论文。</strong>两项工作通过多模态对齐以及互补的几何与视觉提示，建立第一与第三视角间的物体对应关系。</p>
+          <p><strong>ObjectRelator 相关参赛方法获 Ego-Exo4D 2025 挑战赛物体对应赛道第二名</strong>，该挑战赛于 CVPR 2025 的 EgoVis 工作坊举行。</p>
+          <div class="recognition-links"><a href="https://iccv.thecvf.com/Conferences/2025/AcceptedPapers">ObjectRelator · ICCV Highlight 记录 ↗</a><a href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=62">V²-SAM · CVPR Highlight 记录 ↗</a><a href="https://arxiv.org/abs/2506.05856">挑战赛第二名技术报告 ↗</a><a href="https://github.com/insait-institute/ObjectRelator">ObjectRelator 代码 ↗</a><a href="https://github.com/jaychempan/V2-SAM">V²-SAM 代码 ↗</a><a href="#egocentric-understanding">代表性论文 ↑</a></div>
+        </div>
+      </li>
+      <li id="egosound-benchmark" class="media-item">
+        <div class="media-meta">CVPR 2026 · Highlight<br>开放评测基准</div>
+        <div>
+          <h4><a href="https://groolegend.github.io/EgoSound/">EgoSound：面向第一视角声音理解的开放基准</a></h4>
+          <p><strong>EgoSound 将第一视角理解拓展到声音感知与视听推理。</strong>评估空间定位、因果推断与跨模态理解能力，并开放数据集与评测代码。</p>
+          <p>该工作入选 <strong>CVPR 2026 Highlight</strong>，从多感官评测角度与跨视角视觉物体对应研究形成互补。</p>
+          <div class="recognition-links"><a href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=81">CVPR Highlight 记录 ↗</a><a href="https://groolegend.github.io/EgoSound/">项目主页 ↗</a><a href="https://github.com/groolegend/EgoSound">评测代码 ↗</a><a href="https://huggingface.co/datasets/grooLegend/EgoSound">开放数据集 ↗</a></div>
+        </div>
+      </li>
+      <li id="egocross-community" class="media-item">
+        <div class="media-meta">EgoVis @ CVPR 2026<br>挑战赛联合组织者</div>
+        <div>
+          <h4><a href="https://egocross-benchmark.github.io/">EgoCross 挑战赛：推动跨域第一视角视频理解</a></h4>
+          <p><strong>我担任首届 EgoCross 挑战赛联合组织者，并共同署名挑战赛技术报告。</strong>该赛事于 EgoVis @ CVPR 2026 举行，面向手术、工业装配、极限运动与动物视角，评估跨域视频问答能力。</p>
+          <p>报告记录了<strong>超过 130 名参与者、超过 1,500 次提交</strong>，并公开挑战赛数据、基线代码与获胜团队方案。</p>
+          <div class="recognition-links"><a href="https://egocross-benchmark.github.io/">挑战赛与组织者名单 ↗</a><a href="https://arxiv.org/abs/2608.04589">挑战赛报告与结果 ↗</a></div>
         </div>
       </li>
     </ul>
