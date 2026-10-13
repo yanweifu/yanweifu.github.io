@@ -136,13 +136,21 @@ pre { padding: 18px; overflow: auto; }
 .recruitment p { font-size: 14px; }
 .recruitment p:last-child { margin-bottom: 0; }
 .home-bottom { margin-top: 26px; display: flex; gap: 24px; font-size: 13px; }
-.talks-section { padding: 22px 0 0; }
-.talks-section h2 { font-size: 22px; margin-bottom: 14px; }
-.talk-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 28px; font-size: 13px; line-height: 1.6; }
-.talk-list li { display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: 10px; align-items: baseline; margin: 0; }
-.talk-meta, .talk-list small { color: var(--muted); font-size: 11px; }
-.talk-list small { white-space: nowrap; }
-.talk-list a { text-decoration: underline; overflow-wrap: anywhere; }
+.patents-section { padding-bottom: 0; }
+.patents-section h2 { margin-bottom: 14px; }
+.patents-intro { max-width: 800px; color: var(--muted); font-size: 14px; margin-bottom: 26px; }
+.patent-group + .patent-group { margin-top: 28px; }
+.patent-group > h3 { font-size: 15px; margin-bottom: 10px; color: var(--gold); }
+.patent-group > h3 span { margin-left: 10px; color: var(--muted); font-size: 11px; font-weight: 400; }
+.patent-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; }
+.patent-application .patent-list { grid-template-columns: 1fr; }
+.patent-item { min-width: 0; margin: 0; padding: 16px 0; border-top: 1px solid var(--line); }
+.patent-item h4 { font-size: 15px; font-weight: 600; line-height: 1.5; margin: 0 0 6px; }
+.patent-original-title, .patent-inventors { font-size: 12px; line-height: 1.6; color: var(--muted); margin: 0 0 7px; }
+.patent-grants { display: flex; flex-wrap: wrap; gap: 5px 16px; font-size: 12px; }
+.patent-grants > span { display: inline-block; }
+.patent-grants a { text-decoration: underline; }
+.patent-grants time { color: var(--muted); margin-left: 6px; font-size: 11px; white-space: nowrap; }
 .home-page .site-footer { margin-top: 32px; }
 .page-heading { padding: 52px 0 30px; border-bottom: 1px solid var(--line); margin-bottom: 36px; }
 .page-intro { color: var(--muted); max-width: 720px; margin: 0; }
@@ -190,8 +198,8 @@ pre { padding: 18px; overflow: auto; }
   .affiliations { font-size: 14px; }
   .profile-links { font-size: 12px; column-gap: 16px; }
   .home-section { padding: 30px 0; }
-  .talks-section { padding: 20px 0 0; }
-  .talk-list { grid-template-columns: 1fr; gap: 8px; }
+  .patents-section { padding-bottom: 0; }
+  .patent-list { grid-template-columns: 1fr; }
   .section-heading { gap: 15px; margin-bottom: 20px; flex-wrap: wrap; }
   .honor-item { grid-template-columns: 48px minmax(0, 1fr); gap: 12px; padding: 17px 0; }
   .honor-year { font-size: 22px; }

@@ -392,12 +392,95 @@ image: /assets/images/yanwei-fu.png
   <div class="home-bottom"><a href="{{ '/Students.html' | relative_url }}">People &amp; alumni →</a><a href="{{ '/News.html' | relative_url }}">News archive →</a><a href="mailto:ztwztq2006@gmail.com">Alternative email</a></div>
 </section>
 
-<section id="talks" class="home-section talks-section" aria-labelledby="talks-title">
-  <h2 id="talks-title">Selected talks</h2>
-  <ul class="talk-list">
-    <li><span class="talk-meta">KAIST 2026</span><div>Academic talk</div></li>
-    <li><span class="talk-meta">MBZUAI 2024</span><div><a href="https://mbzuai.ac.ae/news-events/news/unlocking-the-potential-large-models-vision-related-tasks/">Unlocking the Potential of Large Models for Vision Related Tasks</a></div></li>
-    <li><span class="talk-meta">SNU 2024</span><div><a href="https://cse.snu.ac.kr/en/community/seminar/1059">Unlocking the Potential of Large Models for Vision Related Tasks</a></div></li>
-    <li><span class="talk-meta">ACCV 2022</span><div><a href="https://dqiaole.github.io/priors_guided_image_editing_synthesis/pdf/accv2022_tutorial_yanwei_fu.pdf">The Priors Guided Image Synthesis and Editing</a></div></li>
-  </ul>
+<section id="patents" class="home-section patents-section" aria-labelledby="patents-title">
+  <h2 id="patents-title">U.S. patents</h2>
+  <p class="patents-intro">Granted U.S. patents from my research at Fudan University and Disney Research, spanning 3D vision, image restoration and visual recognition. The 11 grants below are grouped by invention.</p>
+  <div class="patent-group">
+    <h3>Fudan University <span>Original assignee</span></h3>
+    <ol class="patent-list">
+      <li class="patent-item">
+        <h4>Network and system for pose and size estimation</h4>
+        <p class="patent-inventors"><strong>Yanwei Fu</strong>, Haitao Lin, Xiangyang Xue</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US11593957B2/en">US11593957B2 ↗</a> <time datetime="2023-02-28">2023-02-28</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>System and method for image inpainting</h4>
+        <p class="patent-inventors"><strong>Yanwei Fu</strong>, Chenjie Cao</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US11580622B2/en">US11580622B2 ↗</a> <time datetime="2023-02-14">2023-02-14</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>Network and system for neural pose transfer</h4>
+        <p class="patent-inventors"><strong>Yanwei Fu</strong>, Xiangyang Xue, Yinda Zhang, Chao Wen, Haitao Lin, Jiashun Wang, Tianyun Zou</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US11455776B2/en">US11455776B2 ↗</a> <time datetime="2022-09-27">2022-09-27</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>Network, system and method for image processing</h4>
+        <p class="patent-inventors">Yugang Jiang, <strong>Yanwei Fu</strong>, Changmao Cheng, Xiangyang Xue</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US11055549B2/en">US11055549B2 ↗</a> <time datetime="2021-07-06">2021-07-06</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>Network, system and method for multi-view 3D mesh generation via deformation</h4>
+        <p class="patent-inventors"><strong>Yanwei Fu</strong>, Chao Wen, Yinda Zhang, Zhuwen Li</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US10885707B1/en">US10885707B1 ↗</a> <time datetime="2021-01-05">2021-01-05</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>Network, system and method for 3D shape generation</h4>
+        <p class="patent-inventors">Yugang Jiang, <strong>Yanwei Fu</strong>, Nanyang Wang, Yinda Zhang, Zhuwen Li</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US10783709B2/en">US10783709B2 ↗</a> <time datetime="2020-09-22">2020-09-22</time></span>
+          <span><a href="https://patents.google.com/patent/US10777003B2/en">US10777003B2 ↗</a> <time datetime="2020-09-15">2020-09-15</time></span>
+        </div>
+      </li>
+    </ol>
+  </div>
+  <div class="patent-group">
+    <h3>Disney Enterprises, Inc. <span>Original assignee</span></h3>
+    <ol class="patent-list">
+      <li class="patent-item">
+        <h4>Robust classification by pre-conditioned lasso and transductive diffusion component analysis</h4>
+        <p class="patent-inventors"><strong>Yanwei Fu</strong>, Leonid Sigal</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US10614379B2/en">US10614379B2 ↗</a> <time datetime="2020-04-07">2020-04-07</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>System and method of vocabulary-informed categorization of items of interest included within digital information</h4>
+        <p class="patent-inventors"><strong>Yanwei Fu</strong>, Leonid Sigal</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US10331676B2/en">US10331676B2 ↗</a> <time datetime="2019-06-25">2019-06-25</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>Systems and methods for identifying activities and/or events in media contents based on object data and scene data</h4>
+        <p class="patent-inventors">Zuxuan Wu, <strong>Yanwei Fu</strong>, Leonid Sigal</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US10482329B2/en">US10482329B2 ↗</a> <time datetime="2019-11-19">2019-11-19</time></span>
+          <span><a href="https://patents.google.com/patent/US9940522B2/en">US9940522B2 ↗</a> <time datetime="2018-04-10">2018-04-10</time></span>
+        </div>
+      </li>
+    </ol>
+  </div>
+  <div class="patent-group patent-application">
+    <h3>Published U.S. patent application</h3>
+    <p class="patent-inventors">Applicant: Tencent Technology (Shenzhen) Company Limited</p>
+    <ol class="patent-list">
+      <li class="patent-item">
+        <h4>Three-dimensional image generation</h4>
+        <p class="patent-inventors">Shijie Zhang, Chengming Xu, Junwei Zhu, Xuelin Qian, Ying Tai, <strong>Yanwei Fu</strong>, Chengjie Wang</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.justia.com/patent/20260245287">US20260245287A1 ↗</a> · Published <time datetime="2026-08-20">2026-08-20</time></span>
+        </div>
+      </li>
+    </ol>
+  </div>
 </section>

@@ -395,12 +395,105 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
   <div class="home-bottom"><a href="{{ '/Students.html' | relative_url }}">学生与校友 →</a><a href="{{ '/News.html' | relative_url }}">历史动态 →</a><a href="mailto:ztwztq2006@gmail.com">备用邮箱</a></div>
 </section>
 
-<section id="talks" class="home-section talks-section" aria-labelledby="talks-title">
-  <h2 id="talks-title">代表性报告</h2>
-  <ul class="talk-list">
-    <li><span class="talk-meta">KAIST 2026</span><div>学术报告</div></li>
-    <li><span class="talk-meta">MBZUAI 2024</span><div><a href="https://mbzuai.ac.ae/news-events/news/unlocking-the-potential-large-models-vision-related-tasks/">释放大模型在视觉任务中的潜力</a></div></li>
-    <li><span class="talk-meta">首尔大学 2024</span><div><a href="https://cse.snu.ac.kr/en/community/seminar/1059">释放大模型在视觉任务中的潜力</a></div></li>
-    <li><span class="talk-meta">ACCV 2022</span><div><a href="https://dqiaole.github.io/priors_guided_image_editing_synthesis/pdf/accv2022_tutorial_yanwei_fu.pdf">先验引导的图像合成与编辑</a></div></li>
-  </ul>
+<section id="patents" class="home-section patents-section" aria-labelledby="patents-title">
+  <h2 id="patents-title">美国专利</h2>
+  <p class="patents-intro">复旦大学与 Disney Research 时期的美国授权专利，涵盖三维视觉、图像修复与视觉识别。以下列出 11 个授权号，相关延续申请合并展示。</p>
+  <div class="patent-group">
+    <h3>复旦大学 <span>原始受让人</span></h3>
+    <ol class="patent-list">
+      <li class="patent-item">
+        <h4>姿态与尺寸估计网络与系统</h4>
+        <p class="patent-original-title" lang="en">Network and system for pose and size estimation</p>
+        <p class="patent-inventors"><strong>Yanwei Fu</strong>, Haitao Lin, Xiangyang Xue</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US11593957B2/en">US11593957B2 ↗</a> <time datetime="2023-02-28">2023-02-28</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>图像修复系统与方法</h4>
+        <p class="patent-original-title" lang="en">System and method for image inpainting</p>
+        <p class="patent-inventors"><strong>Yanwei Fu</strong>, Chenjie Cao</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US11580622B2/en">US11580622B2 ↗</a> <time datetime="2023-02-14">2023-02-14</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>神经姿态迁移网络与系统</h4>
+        <p class="patent-original-title" lang="en">Network and system for neural pose transfer</p>
+        <p class="patent-inventors"><strong>Yanwei Fu</strong>, Xiangyang Xue, Yinda Zhang, Chao Wen, Haitao Lin, Jiashun Wang, Tianyun Zou</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US11455776B2/en">US11455776B2 ↗</a> <time datetime="2022-09-27">2022-09-27</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>图像处理网络、系统与方法</h4>
+        <p class="patent-original-title" lang="en">Network, system and method for image processing</p>
+        <p class="patent-inventors">Yugang Jiang, <strong>Yanwei Fu</strong>, Changmao Cheng, Xiangyang Xue</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US11055549B2/en">US11055549B2 ↗</a> <time datetime="2021-07-06">2021-07-06</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>基于形变的多视图三维网格生成</h4>
+        <p class="patent-original-title" lang="en">Network, system and method for multi-view 3D mesh generation via deformation</p>
+        <p class="patent-inventors"><strong>Yanwei Fu</strong>, Chao Wen, Yinda Zhang, Zhuwen Li</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US10885707B1/en">US10885707B1 ↗</a> <time datetime="2021-01-05">2021-01-05</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>三维形状生成网络、系统与方法</h4>
+        <p class="patent-original-title" lang="en">Network, system and method for 3D shape generation</p>
+        <p class="patent-inventors">Yugang Jiang, <strong>Yanwei Fu</strong>, Nanyang Wang, Yinda Zhang, Zhuwen Li</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US10783709B2/en">US10783709B2 ↗</a> <time datetime="2020-09-22">2020-09-22</time></span>
+          <span><a href="https://patents.google.com/patent/US10777003B2/en">US10777003B2 ↗</a> <time datetime="2020-09-15">2020-09-15</time></span>
+        </div>
+      </li>
+    </ol>
+  </div>
+  <div class="patent-group">
+    <h3>Disney Enterprises, Inc. <span>原始受让人</span></h3>
+    <ol class="patent-list">
+      <li class="patent-item">
+        <h4>基于预条件 Lasso 与直推扩散成分分析的鲁棒分类</h4>
+        <p class="patent-original-title" lang="en">Robust classification by pre-conditioned lasso and transductive diffusion component analysis</p>
+        <p class="patent-inventors"><strong>Yanwei Fu</strong>, Leonid Sigal</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US10614379B2/en">US10614379B2 ↗</a> <time datetime="2020-04-07">2020-04-07</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>词汇知识引导的数字内容分类</h4>
+        <p class="patent-original-title" lang="en">System and method of vocabulary-informed categorization of items of interest included within digital information</p>
+        <p class="patent-inventors"><strong>Yanwei Fu</strong>, Leonid Sigal</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US10331676B2/en">US10331676B2 ↗</a> <time datetime="2019-06-25">2019-06-25</time></span>
+        </div>
+      </li>
+      <li class="patent-item">
+        <h4>融合物体与场景信息的活动及事件识别</h4>
+        <p class="patent-original-title" lang="en">Systems and methods for identifying activities and/or events in media contents based on object data and scene data</p>
+        <p class="patent-inventors">Zuxuan Wu, <strong>Yanwei Fu</strong>, Leonid Sigal</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.google.com/patent/US10482329B2/en">US10482329B2 ↗</a> <time datetime="2019-11-19">2019-11-19</time></span>
+          <span><a href="https://patents.google.com/patent/US9940522B2/en">US9940522B2 ↗</a> <time datetime="2018-04-10">2018-04-10</time></span>
+        </div>
+      </li>
+    </ol>
+  </div>
+  <div class="patent-group patent-application">
+    <h3>已公开美国专利申请</h3>
+    <p class="patent-inventors">申请人：腾讯科技（深圳）有限公司</p>
+    <ol class="patent-list">
+      <li class="patent-item">
+        <h4>三维图像生成</h4>
+        <p class="patent-original-title" lang="en">Three-dimensional image generation</p>
+        <p class="patent-inventors">Shijie Zhang, Chengming Xu, Junwei Zhu, Xuelin Qian, Ying Tai, <strong>Yanwei Fu</strong>, Chengjie Wang</p>
+        <div class="patent-grants">
+          <span><a href="https://patents.justia.com/patent/20260245287">US20260245287A1 ↗</a> · 公开于 <time datetime="2026-08-20">2026-08-20</time></span>
+        </div>
+      </li>
+    </ol>
+  </div>
 </section>
