@@ -525,8 +525,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="wall-e" class="media-item">
         <div class="media-meta">LLM 机器人交互<time datetime="2023-08-30">预印本 · 2023 年 8 月 30 日</time></div>
         <div>
-          <h4><a href="https://arxiv.org/abs/2308.15962">WALL-E：早在 2023 年连接持续对话与真实机器人动作</a></h4>
-          <p><strong>WALL-E 于 2023 年 8 月公开，是我们将持续人机对话连接到物理动作的早期探索。</strong>工作将 ChatGPT 的多轮偏好理解与 9D 视觉定位——6D 物体位姿和三维尺寸——结合，把对话中的用户意图转化为可执行抓取，并引入执行后的用户反馈，让后续交流能够结合最近一次动作的结果，将语言交互、空间感知与真实机器人控制连接起来。</p>
+          <h4><a href="https://arxiv.org/abs/2308.15962">WALL-E：2023 年 ChatGPT 机器人系统的首批探索之一</a></h4>
+          <p><strong>WALL-E 是 2023 年首批将 ChatGPT 多轮对话与视觉定位结合、用于真实机器人抓取的研究之一。</strong>首篇公开预印本于 2023 年 8 月 30 日发布。工作将 ChatGPT 的多轮偏好理解与 9D 视觉定位——6D 物体位姿和三维尺寸——结合，把对话中的用户意图转化为可执行抓取，并引入执行后的用户反馈，让后续交流能够结合最近一次动作的结果，将语言交互、空间感知与真实机器人控制连接起来。</p>
           <p><strong>入选得克萨斯大学达拉斯分校 CS 6301（2023 年秋季）课程项目指南的代表性参考文献</strong>，与 SayCan、Instruct2Act 一同列于“语言引导操作”主题。KAIST 研究者发表于《Intelligent Service Robotics》的大语言模型与智能机器人综述，也在物体定位部分引用该工作，讨论语言信息与视觉感知的连接。</p>
           <div class="recognition-links"><a href="https://star-uu-wang.github.io/WALL-E/">项目与机器人演示 ↗</a><a href="https://arxiv.org/abs/2308.15962">预印本与首次公开时间 ↗</a><a href="https://yuxng.github.io/Courses/CS6301Fall2023/CS_6301_Project_Proposal.pdf#page=3">UT Dallas · 课程项目参考文献 ↗</a><a href="https://link.springer.com/article/10.1007/s11370-024-00550-5">KAIST 研究者的机器人综述 ↗</a></div>
         </div>
@@ -573,7 +573,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <h4><a href="https://baboon527.github.io/lang_6d/">语言引导抓取：将物体语义描述与完整六自由度位姿连接起来</a></h4>
           <p><strong>早在 2022 年，这项工作就将自然语言定位与类别级完整六自由度位姿估计结合，用于真实机器人抓取。</strong>通过名称、属性与空间关系识别目标，再估计三维位置与姿态，支持抓取已知类别中的未见实例，将语义意图落实为物理操作所需的几何信息。IROS 2023 的细粒度指令抓取研究进一步发展这一方向，增强对目标物体属性的表达与定位。</p>
           <p>独立团队的 <strong>MaskGrasp（IROS 2024）</strong>在语言驱动抓取的相关工作中引用这两篇论文。两项研究记录了团队在 2022–2023 年从语言意图理解到三维感知和动作执行的持续探索，并与 WALL-E、Polaris 的交互式机器人研究形成持续的研究脉络。</p>
-          <div class="recognition-links"><a href="https://baboon527.github.io/lang_6d/">ICRA 2022 · 项目与演示 ↗</a><a href="https://arxiv.org/abs/2205.04028">ICRA 2022 · 研究论文 ↗</a><a href="https://doi.org/10.1109/IROS55552.2023.10342331">IROS 2023 · 细粒度指令抓取 ↗</a><a href="https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2024_IROS_MaskGrasp.pdf">MaskGrasp · 后续研究引用 ↗</a></div>
+          <div class="recognition-links"><a href="https://baboon527.github.io/lang_6d/">ICRA 2022 · 项目与演示 ↗</a><a href="https://arxiv.org/abs/2205.04028">ICRA 2022 · 研究论文 ↗</a><a href="https://doi.org/10.1109/IROS55552.2023.10342331">IROS 2023 · 细粒度指令抓取 ↗</a><a href="https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2024_IROS_MaskGrasp.pdf">MaskGrasp · 后续研究引用 ↗</a><a href="https://www.youtube.com/watch?v=ZaFNIyuoKrw">ICRA 2022 · YouTube 实机演示 ↗</a><a href="https://www.youtube.com/watch?v=YFxevuItHNQ">ICRA 2022 · YouTube 论文视频 ↗</a><a href="https://sunqiang85.github.io/FLarG/">IROS 2023 · 项目与演示视频 ↗</a></div>
         </div>
       </li>
       <li id="smart-bartender" class="media-item">
@@ -582,7 +582,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <h4><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">Smart Bartender：通过眼动交互理解意图并提供饮料</a></h4>
           <p>我们的 Smart Bartender 让用户通过注视选择饮料。系统结合眼动跟随、类别级物体位姿估计与运动规划，识别用户选中的瓶子，完成抓取和倒饮料，并泛化至训练时未见过的瓶子与杯子。</p>
           <p><strong>入选 IEEE Spectrum 的 Video Friday 栏目 ICRA 2023 机器人视频精选。</strong>该编辑精选收录了演示，并列明复旦大学团队及作者。</p>
-          <div class="recognition-links"><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">IEEE Spectrum · ICRA 2023 视频精选 ↗</a><a href="#robotics-2023">早期机器人系统展示 ↓</a></div>
+          <div class="recognition-links"><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">IEEE Spectrum · ICRA 2023 视频精选 ↗</a><a href="#robotics-2023">早期机器人系统展示 ↓</a><a href="https://www.youtube.com/watch?v=zumlLDaXfMg">YouTube · Smart Bartender 演示 ↗</a></div>
         </div>
       </li>
       <li id="robotics-2023" class="media-item">
@@ -602,17 +602,18 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div class="media-meta">ICCV 2025 · CVPR 2026<br>Highlight 论文</div>
         <div>
           <h4><a href="https://yuqianfu.com/ObjectRelator/"><span id="objectrelator">ObjectRelator</span> 与 <span id="v2-sam">V²-SAM</span>：连接第一与第三视角</a></h4>
-          <p><strong>ObjectRelator（ICCV 2025）与 V²-SAM（CVPR 2026）均入选 Highlight 论文。</strong>两项工作通过多模态对齐以及互补的几何与视觉提示，建立第一与第三视角间的物体对应关系。</p>
-          <p><strong>ObjectRelator 相关参赛方法获 Ego-Exo4D 2025 挑战赛物体对应赛道第二名</strong>，该挑战赛于 CVPR 2025 的 EgoVis 工作坊举行。</p>
+          <p><strong>ObjectRelator（ICCV 2025）首次将文本模态引入第一—第三视角物体对应任务。</strong>通过多模态条件融合与物体级跨视角对齐，克服大幅视角变化带来的差异，识别并分割同一物体，将人眼所见与外部相机观察连接起来。</p>
+          <p><strong>V²-SAM（CVPR 2026）首次实现 SAM2 在跨视角场景下的坐标点提示。</strong>方法结合几何与外观提示专家，通过循环一致性选择可靠预测，拓展基础分割模型处理跨视角物体对应的能力。</p>
+          <p><strong>两篇论文均入选 Highlight。</strong>ObjectRelator 相关参赛方法还获 <strong>Ego-Exo4D 2025 挑战赛物体对应赛道第二名</strong>，该挑战赛于 CVPR 2025 的 EgoVis 工作坊举行。</p>
           <div class="recognition-links"><a href="https://iccv.thecvf.com/Conferences/2025/AcceptedPapers">ObjectRelator · ICCV Highlight 记录 ↗</a><a href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=62">V²-SAM · CVPR Highlight 记录 ↗</a><a href="https://arxiv.org/abs/2506.05856">挑战赛第二名技术报告 ↗</a><a href="https://github.com/insait-institute/ObjectRelator">ObjectRelator 代码 ↗</a><a href="https://github.com/jaychempan/V2-SAM">V²-SAM 代码 ↗</a><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Fu_ObjectRelator_Enabling_Cross-View_Object_Relation_Understanding_Across_Ego-Centric_and_Exo-Centric_ICCV_2025_paper.html">ObjectRelator 论文 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Pan_V2-SAM_Marrying_SAM2_with_Multi-Prompt_Experts_for_Cross-View_Object_Correspondence_CVPR_2026_paper.html">V²-SAM 论文 ↗</a></div>
         </div>
       </li>
       <li id="egosound-benchmark" class="media-item">
         <div class="media-meta">CVPR 2026 · Highlight<br>开放评测基准</div>
         <div>
-          <h4 id="egosound"><a href="https://groolegend.github.io/EgoSound/">EgoSound：面向第一视角声音理解的开放基准</a></h4>
-          <p><strong>EgoSound 将第一视角理解拓展到声音感知与视听推理。</strong>评估空间定位、因果推断与跨模态理解能力，并开放数据集与评测代码。</p>
-          <p>该工作入选 <strong>CVPR 2026 Highlight</strong>，从多感官评测角度与跨视角视觉物体对应研究形成互补。</p>
+          <h4 id="egosound"><a href="https://groolegend.github.io/EgoSound/">EgoSound：首个系统评测多模态大模型第一视角声音理解能力的基准</a></h4>
+          <p><strong>EgoSound 是首个系统评测多模态大模型第一视角声音理解能力的基准。</strong>它结合 Ego4D 与 EgoBlind 的生活场景，以七类任务覆盖声音感知、空间定位、因果推断与视听联合推理，为利用声音和视觉理解相机佩戴者周围发生的事件提供专门的评测平台。</p>
+          <p>该工作入选 <strong>CVPR 2026 Highlight</strong>，并开放数据集与评测代码，推动第一视角智能从视觉理解走向多感官理解。</p>
           <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_EgoSound_Benchmarking_Sound_Understanding_in_Egocentric_Videos_CVPR_2026_paper.html">论文 ↗</a><a href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=81">CVPR Highlight 记录 ↗</a><a href="https://groolegend.github.io/EgoSound/">项目主页 ↗</a><a href="https://github.com/groolegend/EgoSound">评测代码 ↗</a><a href="https://huggingface.co/datasets/grooLegend/EgoSound">开放数据集 ↗</a></div>
         </div>
       </li>
@@ -645,8 +646,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <h4><a href="https://arxiv.org/abs/2311.00342">fMRI-PTE：大规模、多受试者 fMRI 预训练大模型</a></h4>
           <p>据我们所知，<strong>fMRI-PTE 是首个以约 4 万名受试者进行大规模预训练、面向跨受试者视觉脑解码的 fMRI 大模型</strong>。模型利用 UK Biobank 的 39,630 名受试者数据进行预训练，学习共享神经表征，支持受试者内及跨受试者视觉解码。</p>
           <p>本团队于 <strong><time datetime="2023-11-01">2023 年 11 月 1 日</time></strong>公开 arXiv 预印本。</p>
-          <p>《科技日报》于 2024 年 8 月报道团队的 fMRI 预训练研究，人民网与央广网转载了同篇报道，介绍其对视觉脑解码研究的意义。</p>
-          <div class="recognition-links"><a href="https://arxiv.org/abs/2311.00342">论文与首次公开时间 ↗</a><a href="https://arxiv.org/html/2311.00342v1">模型方法与预训练规模 ↗</a><a href="http://edu.people.com.cn/n1/2024/0805/c1006-40292400.html">科技日报报道 · 人民网转载 ↗</a><a href="https://tech.cnr.cn/techyw/kan/20240804/t20240804_526832288.shtml">央广网转载 ↗</a><a href="#brain-open-data">团队开放脑信号资源 ↓</a></div>
+          <p><strong>2024 年 8 月，《科技日报》将付彦伟团队完成的成果称为“学术界首个功能性磁共振成像预训练大模型”。</strong>报道指出，这项进展为解码记忆与梦境中的视觉想象奠定基础；人民网与央广网转载了同篇报道。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2311.00342">论文与首次公开时间 ↗</a><a href="https://arxiv.org/html/2311.00342v1">模型方法与预训练规模 ↗</a><a href="https://edu.people.com.cn/n1/2024/0805/c1006-40292400.html">科技日报报道 · 人民网转载 ↗</a><a href="https://tech.cnr.cn/techyw/kan/20240804/t20240804_526832288.shtml">央广网转载 ↗</a><a href="#brain-open-data">团队开放脑信号资源 ↓</a></div>
         </div>
       </li>
       <li id="neuropictor" class="media-item">
