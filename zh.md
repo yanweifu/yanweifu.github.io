@@ -319,11 +319,6 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
   <h2 id="recognition-media-title">学术荣誉与研究报道</h2>
   <div class="recognition-cards">
     <div class="recognition-card">
-      <h3>ACM 中国新星奖</h3>
-      <p>2017 · SIGAI China<br>2018 · 上海分会</p>
-      <div class="recognition-links"><a href="https://www.acmturc.com/2018/new_star_award.html">2017 年获奖名单 ↗</a><a href="https://www.acmturc.com/2019/cn/new_star_award.html">2018 年获奖名单 ↗</a></div>
-    </div>
-    <div class="recognition-card">
       <h3>全球前 2% 顶尖科学家 · 2026</h3>
       <p>同时入选斯坦福大学／爱思唯尔数据库的终身科学影响力与年度科学影响力榜单。</p>
       <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/1c/b8/c48841a793784/page.htm">复旦官方公告 ↗</a><a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9">原始数据库 ↗</a></div>
@@ -337,6 +332,11 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <h3>世界机器人大赛 · 2020</h3>
       <p>带领 FDU-Insight 战队获共融机器人挑战赛最佳协作奖，与薛向阳教授联合指导，探索基于视觉感知的人机协作。</p>
       <div class="recognition-links"><a href="https://sds.fudan.edu.cn/_t2392/f0/20/c17425a258080/page.htm">团队获奖报道 ↗</a></div>
+    </div>
+    <div class="recognition-card">
+      <h3>ACM 中国新星奖</h3>
+      <p>2017 · SIGAI China<br>2018 · 上海分会</p>
+      <div class="recognition-links"><a href="https://www.acmturc.com/2018/new_star_award.html">2017 年获奖名单 ↗</a><a href="https://www.acmturc.com/2019/cn/new_star_award.html">2018 年获奖名单 ↗</a></div>
     </div>
   </div>
   <div class="media-group">
@@ -368,27 +368,6 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
   <div id="3d-reconstruction" class="media-group">
     <h3>三维重建与 3D 生成大模型</h3>
     <ul class="media-list">
-      <li id="mvsformer-series" class="media-item">
-        <div class="media-meta">TMLR · ICLR 2024<time datetime="2022-05">榜单提交 · 2022 年 5 月</time></div>
-        <div>
-          <h4 id="mvsformer"><a href="https://maybelx.github.io/MVSFormer.github.io/">MVSFormer 系列：预训练视觉 Transformer 推进多视图三维重建</a></h4>
-          <p><strong>基于 2022 年 5 月提交的结果，MVSFormer 在 Tanks and Temples 的 Intermediate 与 Advanced 两组中，均位列当时已发表方法第一。</strong> 平均 F-score 分别为 66.37 和 40.87。</p>
-          <p>据我们所知，MVSFormer 是<strong>首个系统研究预训练视觉 Transformer 如何增强多视图立体重建的工作</strong>。<span id="mvsformer-plusplus">MVSFormer++（ICLR 2024）进一步融入 DINOv2 表征与跨视图信息，优化 Transformer 设计，持续提升重建精度与泛化能力。</span></p>
-          <p>系列研究获 TMLR 官方周报介绍，智源社区与 HyperAI 提供了论文介绍。</p>
-          <div class="recognition-links"><a href="https://arxiv.org/html/2208.02541v3">MVSFormer 论文 ↗</a><a href="https://arxiv.org/abs/2401.11673">MVSFormer++ 论文 ↗</a><a href="https://github.com/ewrfcas/MVSFormer">MVSFormer 代码 ↗</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">MVSFormer++ 代码 ↗</a><a href="https://www.tanksandtemples.org/details/4145/">榜单官方提交记录 ↗</a><a href="https://groups.google.com/g/tmlr-announce-weekly/c/CsDsZ5meS6A">TMLR 官方周报 ↗</a><a href="https://hub.baai.ac.cn/paper/9e3e63c0-f2b1-43e0-a551-2d8067a119ab">智源社区论文介绍 ↗</a><a href="https://hyper.ai/cn/papers/2401.11673">HyperAI 论文介绍 ↗</a></div>
-        </div>
-      </li>
-      <li id="pixel2mesh-series" class="media-item">
-        <div class="media-meta">ECCV 2018 · ICCV 2019<time datetime="2018-04-05">首次公开 · 2018 年 4 月 5 日</time></div>
-        <div>
-          <h4 id="pixel2mesh"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh 系列：从单张 RGB 图像直接生成三维网格</a></h4>
-          <p><strong>Pixel2Mesh 是首个能够从单张彩色图像（RGB）直接端到端生成 3D 三角网格（Mesh）的深度学习框架。</strong>突破以点云或体素作为中间表示、再转换为网格的流程，直接输出可用于渲染和几何处理的网格模型。</p>
-          <p id="pixel2mesh-plusplus">Pixel2Mesh++（ICCV 2019）进一步实现多视角网格生成与精细化，提升几何细节和跨视角一致性。</p>
-          <p><strong>系列代表作 Pixel2Mesh 连续三年（2022–2024）被斯坦福大学 CS231n 课程讲授。</strong>课程在三维视觉章节中，以 Pixel2Mesh 讲解从单张 RGB 图像重建三角网格的方法。</p>
-          <p>PaperWeekly 分别于 <time datetime="2018-09-10">2018 年 9 月</time>和 <time datetime="2019-11-08">2019 年 11 月</time>刊发专题解读，介绍单图直接生成网格的突破及后续多视角扩展。</p>
-          <div class="recognition-links"><a href="https://cs231n.stanford.edu/slides/2022/lecture_16_jiajun.pdf#page=129">斯坦福 CS231n · 2022 年讲义 ↗</a><a href="https://cs231n.stanford.edu/slides/2023/lecture_16.pdf#page=39">斯坦福 CS231n · 2023 年讲义 ↗</a><a href="https://cs231n.stanford.edu/slides/2024/lecture_18.pdf#page=47">斯坦福 CS231n · 2024 年讲义 ↗</a><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh 论文 ↗</a><a href="https://github.com/nywang16/Pixel2Mesh">Pixel2Mesh 代码与模型 ↗</a><a href="https://arxiv.org/abs/1908.01491">Pixel2Mesh++ 论文 ↗</a><a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Pixel2Mesh++ 项目与代码 ↗</a><a href="https://www.sohu.com/a/252979433_500659">PaperWeekly · Pixel2Mesh 专题 ↗</a><a href="https://www.sohu.com/a/352447127_500659">PaperWeekly · Pixel2Mesh++ 专题 ↗</a></div>
-        </div>
-      </li>
       <li id="deepsfm-series" class="media-item">
         <div class="media-meta">ECCV 2020<br>IEEE TPAMI 2024</div>
         <div>
@@ -400,13 +379,34 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://arxiv.org/html/2408.02392v1#S1">MaFreeI2P · 明确的方法借鉴 ↗</a><a href="https://speakerdeck.com/tsukamotokenji/deepsfm-structure-from-motion-via-deep-bundle-adjustment">第三方技术解读 · 2020 ↗</a><a href="https://virtualhumans.mpi-inf.mpg.de/3DVision25/slides25/pdf/Lecture_09_Learning_based.pdf#page=8">三维视觉课程 · 第 8 页 ↗</a><a href="https://www.cnblogs.com/YongQiVisionIMAX/p/13413962.html">3D视觉工坊 · 优秀论文汇总 ↗</a><a href="https://www.eet-china.com/mp/a102940.html">电子工程专辑平台 · 行业综述 ↗</a></div>
         </div>
       </li>
+      <li id="mvsformer-series" class="media-item">
+        <div class="media-meta">TMLR · ICLR 2024<time datetime="2022-05">榜单提交 · 2022 年 5 月</time></div>
+        <div>
+          <h4 id="mvsformer"><a href="https://maybelx.github.io/MVSFormer.github.io/">MVSFormer 系列：预训练视觉 Transformer 推进多视图三维重建</a></h4>
+          <p><strong>基于 2022 年 5 月提交的结果，MVSFormer 在 Tanks and Temples 的 Intermediate 与 Advanced 两组中，均位列当时已发表方法第一。</strong> 平均 F-score 分别为 66.37 和 40.87。</p>
+          <p>据我们所知，MVSFormer 是<strong>首个系统研究预训练视觉 Transformer 如何增强多视图立体重建的工作</strong>。<span id="mvsformer-plusplus">MVSFormer++（ICLR 2024）进一步融入 DINOv2 表征与跨视图信息，优化 Transformer 设计，持续提升重建精度与泛化能力。</span></p>
+          <p>系列研究获 TMLR 官方周报介绍，智源社区与 HyperAI 提供了论文介绍。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/html/2208.02541v3">MVSFormer 论文 ↗</a><a href="https://arxiv.org/abs/2401.11673">MVSFormer++ 论文 ↗</a><a href="https://github.com/ewrfcas/MVSFormer">MVSFormer 代码 ↗</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">MVSFormer++ 代码 ↗</a><a href="https://www.tanksandtemples.org/details/4145/">榜单官方提交记录 ↗</a><a href="https://groups.google.com/g/tmlr-announce-weekly/c/CsDsZ5meS6A">TMLR 官方周报 ↗</a><a href="https://hub.baai.ac.cn/paper/9e3e63c0-f2b1-43e0-a551-2d8067a119ab">智源社区论文介绍 ↗</a><a href="https://hyper.ai/cn/papers/2401.11673">HyperAI 论文介绍 ↗</a></div>
+        </div>
+      </li>
       <li id="argus-3d" class="media-item">
-        <div class="media-meta">3D 原生生成大模型<time datetime="2023-06-20">首次公开 · 2023 年 6 月 20 日</time></div>
+        <div class="media-meta">3D 原生生成大模型<time datetime="2024-02-19">扩展论文 · 2024 年 2 月</time><time datetime="2023-06-20">首次公开 · 2023 年 6 月 20 日</time></div>
         <div>
           <h4><a href="https://argus-3d.github.io/">Argus-3D：36 亿参数规模的 3D 原生生成大模型</a></h4>
           <p>据我们所知，<strong>Argus-3D 是学术界首个扩展至 36 亿可训练参数的 3D 原生形状生成大模型</strong>，于 <strong><time datetime="2023-06-20">2023 年 6 月 20 日</time>首次公开</strong>。与智源研究院等合作提出，汇集约 90 万个公开 3D 物体，直接学习三维几何的离散表征与自回归生成先验，支持多模态条件下的三维形状生成。</p>
           <p>原论文报告其为当时最大规模的 3D 形状生成模型。智源社区于 <time datetime="2023-07-13">2023 年 7 月 13 日</time>刊发专题介绍，扩展预印本于 <time datetime="2024-02-19">2024 年 2 月 19 日</time>公开。</p>
           <div class="recognition-links"><a href="https://arxiv.org/abs/2306.11510">原始论文与首次公开时间 ↗</a><a href="https://arxiv.org/abs/2402.12225">扩展论文 ↗</a><a href="https://argus-3d.github.io/">项目主页 ↗</a><a href="https://github.com/AImind/Argus-3D">代码与模型 ↗</a><a href="https://huggingface.co/datasets/BAAI/Objaverse-MIX">Objaverse-MIX 开放数据 ↗</a><a href="https://hub.baai.ac.cn/view/27838">智源社区专题 · 2023 年 7 月 ↗</a></div>
+        </div>
+      </li>
+      <li id="pixel2mesh-series" class="media-item">
+        <div class="media-meta">ECCV 2018 · ICCV 2019<time datetime="2018-04-05">首次公开 · 2018 年 4 月 5 日</time></div>
+        <div>
+          <h4 id="pixel2mesh"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh 系列：从单张 RGB 图像直接生成三维网格</a></h4>
+          <p><strong>Pixel2Mesh 是首个能够从单张彩色图像（RGB）直接端到端生成 3D 三角网格（Mesh）的深度学习框架。</strong>突破以点云或体素作为中间表示、再转换为网格的流程，直接输出可用于渲染和几何处理的网格模型。</p>
+          <p id="pixel2mesh-plusplus">Pixel2Mesh++（ICCV 2019）进一步实现多视角网格生成与精细化，提升几何细节和跨视角一致性。</p>
+          <p><strong>系列代表作 Pixel2Mesh 连续三年（2022–2024）被斯坦福大学 CS231n 课程讲授。</strong>课程在三维视觉章节中，以 Pixel2Mesh 讲解从单张 RGB 图像重建三角网格的方法。</p>
+          <p>PaperWeekly 分别于 <time datetime="2018-09-10">2018 年 9 月</time>和 <time datetime="2019-11-08">2019 年 11 月</time>刊发专题解读，介绍单图直接生成网格的突破及后续多视角扩展。</p>
+          <div class="recognition-links"><a href="https://cs231n.stanford.edu/slides/2022/lecture_16_jiajun.pdf#page=129">斯坦福 CS231n · 2022 年讲义 ↗</a><a href="https://cs231n.stanford.edu/slides/2023/lecture_16.pdf#page=39">斯坦福 CS231n · 2023 年讲义 ↗</a><a href="https://cs231n.stanford.edu/slides/2024/lecture_18.pdf#page=47">斯坦福 CS231n · 2024 年讲义 ↗</a><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh 论文 ↗</a><a href="https://github.com/nywang16/Pixel2Mesh">Pixel2Mesh 代码与模型 ↗</a><a href="https://arxiv.org/abs/1908.01491">Pixel2Mesh++ 论文 ↗</a><a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Pixel2Mesh++ 项目与代码 ↗</a><a href="https://www.sohu.com/a/252979433_500659">PaperWeekly · Pixel2Mesh 专题 ↗</a><a href="https://www.sohu.com/a/352447127_500659">PaperWeekly · Pixel2Mesh++ 专题 ↗</a></div>
         </div>
       </li>
     </ul>
@@ -423,6 +423,15 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://alibaba-damo-academy.github.io/Uni3C/">项目主页 ↗</a><a href="https://arxiv.org/abs/2504.14899">研究论文 ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.29.0">ComfyUI 官方版本 ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/pull/14946">原生集成记录 ↗</a><a href="https://comfylab.dev/blog/workflows/uni3c-controlnet-camera-control-wan-comfyui/">ComfyLab 社区实测 ↗</a></div>
         </div>
       </li>
+      <li id="vidcraft3" class="media-item">
+        <div class="media-meta">IEEE TVCG<time datetime="2026-07">2026 年 7 月</time></div>
+        <div>
+          <h4><a href="https://sixiaozheng.github.io/VidCRAFT3/">VidCRAFT3：统一控制相机、物体与光照的视频生成</a></h4>
+          <p>VidCRAFT3 是<strong>首个在图生视频（Image-to-Video，I2V）领域，支持相机运动、物体运动与光照方向独立及联合控制的统一扩散模型框架</strong>，在同一模型中精细控制视点、场景动态与光照。</p>
+          <p>研究获日文技术博客 D × MirAI 及 The Moonlight 论文解读介绍。</p>
+          <div class="recognition-links"><a href="https://sixiaozheng.github.io/VidCRAFT3/">项目主页 ↗</a><a href="https://doi.org/10.1109/TVCG.2026.3688720">IEEE TVCG 论文 ↗</a><a href="https://note.com/life_to_ai/n/n4bb558a626e3">D × MirAI 技术博客 ↗</a><a href="https://www.themoonlight.io/en/review/vidcraft3-camera-object-and-lighting-control-for-image-to-video-generation">The Moonlight 论文解读 ↗</a></div>
+        </div>
+      </li>
       <li id="versecrafter" class="media-item">
         <div class="media-meta">CVPR 2026 · 机器之心<time datetime="2026-01-18">2026 年 1 月</time></div>
         <div>
@@ -432,39 +441,11 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://sixiaozheng.github.io/VerseCrafter_page/">项目与 Blender 界面 ↗</a><a href="https://arxiv.org/abs/2601.05138">研究论文 ↗</a><a href="https://github.com/TencentARC/VerseCrafter">代码与模型 ↗</a><a href="https://cloud.tencent.com/developer/article/2622259">《机器之心》专题报道 ↗</a></div>
         </div>
       </li>
-      <li id="vidcraft3" class="media-item">
-        <div class="media-meta">IEEE TVCG 2026<br>论文与技术解读</div>
-        <div>
-          <h4><a href="https://sixiaozheng.github.io/VidCRAFT3/">VidCRAFT3：统一控制相机、物体与光照的视频生成</a></h4>
-          <p>VidCRAFT3 是<strong>首个在图生视频（Image-to-Video，I2V）领域，支持相机运动、物体运动与光照方向独立及联合控制的统一扩散模型框架</strong>，在同一模型中精细控制视点、场景动态与光照。</p>
-          <p>研究获日文技术博客 D × MirAI 及 The Moonlight 论文解读介绍。</p>
-          <div class="recognition-links"><a href="https://sixiaozheng.github.io/VidCRAFT3/">项目主页 ↗</a><a href="https://doi.org/10.1109/TVCG.2026.3688720">IEEE TVCG 论文 ↗</a><a href="https://note.com/life_to_ai/n/n4bb558a626e3">D × MirAI 技术博客 ↗</a><a href="https://www.themoonlight.io/en/review/vidcraft3-camera-object-and-lighting-control-for-image-to-video-generation">The Moonlight 论文解读 ↗</a></div>
-        </div>
-      </li>
     </ul>
   </div>
   <div id="embodied-intelligence" class="media-group">
     <h3>具身智能</h3>
     <ul class="media-list">
-      <li id="tau0-wm" class="media-item">
-        <div class="media-meta">上海创智学院 · 智元机器人具身研究中心<time datetime="2026-05-31">2026 年 5 月</time></div>
-        <div>
-          <h4><a href="https://tau0-wm.github.io/">τ₀-WM：与智元合作的统一视频—动作具身世界模型</a></h4>
-          <p>我参与了上海创智学院与智元机器人具身研究中心联合发布的 τ₀-WM 研究。该模型利用约 27,300 小时的机器人与人类交互数据进行预训练，将视频预测、动作生成与行动后果评估统一起来，使机器人能够在实际执行前预测、评估并修正候选动作。</p>
-          <p><strong>中国工程院院士何友在第四届（2026）上海计算机视觉大会《智能无人系统发展前沿》报告中介绍 τ₀-WM</strong>，其报告幻灯片称该工作为“当前全球最大规模的开源预训练具身世界模型”，强调了当时的预训练数据规模。</p>
-          <p><strong>研究获得《文汇报》／上观新闻、《新民晚报》及量子位专题报道</strong>，介绍模型在执行前预判行动后果、实现跨任务泛化的能力；模型权重与代码已开源。</p>
-          <div class="recognition-links"><a href="https://tau0-wm.github.io/">项目主页 ↗</a><a href="https://arxiv.org/abs/2606.01027">研究论文 ↗</a><a href="https://github.com/sii-research/tau-0-wm">代码与模型权重 ↗</a><a href="{{ '/assets/media/tau0-wm-he-you-shanghai-computer-vision-conference-2026.jpg' | relative_url }}">何友院士评述 · 报告现场照片 ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">创智学院官方发布 ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">《文汇报》／上观新闻 ↗</a><a href="https://paper.xinmin.cn/html/xmwb/2026-05-31/5/239280.html">《新民晚报》纸刊原版 ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">量子位专题 ↗</a></div>
-        </div>
-      </li>
-      <li id="schrodinger-navigator" class="media-item">
-        <div class="media-meta">麻省理工科技评论中文版 · DeepTech<time datetime="2026-03-25">2026 年 3 月</time></div>
-        <div>
-          <h4><a href="https://www.mittrchina.com/news/detail/16139">Schrödinger’s Navigator：让机器人先想象、再导航</a></h4>
-          <p><strong>一种用于零样本目标导航（Zero-Shot Object Navigation，ZSON）的创新人工智能框架，让机器人学会“先想象、再行动”。</strong>利用三维世界模型想象遮挡后方的多种可能未来，综合目标线索、可通行空间与几何风险，在未知环境中规划导航路线。</p>
-          <p><strong>《麻省理工科技评论》中文版／DeepTech 就这项研究对我进行了专访</strong>，介绍真实四足机器人的导航演示，并讨论“先想象、再导航”的研究动机，以及引导学生探索新研究框架的经历。</p>
-          <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">麻省理工科技评论中文版／DeepTech · 专访 ↗</a><a href="https://arxiv.org/abs/2512.21201">研究论文 ↗</a><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/">项目主页 ↗</a></div>
-        </div>
-      </li>
       <li id="pose-vla" class="media-item">
         <div class="media-meta">RSS 2026<time datetime="2026-07">2026 年 7 月</time></div>
         <div>
@@ -472,7 +453,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <p><strong>Pose-VLA 的核心技术突破，是以通用三维位姿重构 VLA 的表征与预训练范式。</strong>通过离散位姿 token 统一利用多种三维数据集和机器人轨迹，先建立可迁移的三维几何先验，再对齐具体机器人的动作空间，弥合语义识别与精细操作所需的三维状态理解之间的鸿沟。</p>
           <p><strong>我们向具身智能社区传递的核心判断是：3D 空间理解对具身智能大模型至关重要。</strong>该工作发表于 Robotics: Science and Systems（RSS）2026，在真实机器人实验中，<strong>每项任务仅用 100 条示教即可验证对多种物体的泛化能力</strong>。</p>
           <p>在我看来，近期 GPT-6 Astra 的机器人演示也从另一条技术路径呼应了这一判断：<a href="https://wentao.live/blog/astra-and-beyond/zh/">Wentao Zhu 的技术观察</a>记录了模型通过底层机器人 SDK 规划双臂协调、主动视觉与错误恢复的演示，进一步凸显空间理解与行动相结合的价值。</p>
-          <div class="recognition-links"><a href="https://roboticsproceedings.org/rss22/p145.html">RSS 正式论文 ↗</a><a href="https://hetolin.github.io/PoseVLA/">项目与演示 ↗</a><a href="https://github.com/hetolin/PoseVLA">代码与模型 ↗</a></div>
+          <div class="recognition-links"><a href="https://hetolin.github.io/PoseVLA/resources/videos/posevla.mp4">视频 · 机器人演示 ↗</a><a href="https://roboticsproceedings.org/rss22/p145.html">RSS 正式论文 ↗</a><a href="https://hetolin.github.io/PoseVLA/">项目与演示 ↗</a><a href="https://github.com/hetolin/PoseVLA">代码与模型 ↗</a></div>
         </div>
       </li>
       <li id="active-vla" class="media-item">
@@ -482,7 +463,35 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <p><strong>ActiveVLA 的核心突破在于将“主动感知”融入精细三维操作，让 VLA 主动决定“从哪里看、看得多细”。</strong>针对传统固定视角 VLA 对摄像头原始观测的依赖，该方法解决关键几何信息因遮挡或分辨率不足而难以辨认的问题。</p>
           <p>我们提出原创的粗到细感知框架，将<strong>任务驱动的虚拟视角选择与主动三维放大</strong>相结合：先定位关键三维区域，再合成信息更充分的视图、放大局部几何细节，最后预测动作，突破固定视觉输入在视角与分辨率上的限制。</p>
           <p>我是这篇 CVPR 2026 论文的共同通讯作者。RLBench、COLOSSEUM、GemBench 基准评测与真实机器人演示表明，该方法提升了复杂、遮挡场景下操作的精度与鲁棒性。</p>
-          <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">CVPR 正式论文 ↗</a><a href="https://arxiv.org/abs/2601.08325">预印本 ↗</a><a href="https://zhenyangliu.github.io/ActiveVLA/">项目与演示 ↗</a></div>
+          <div class="recognition-links"><a href="https://zhenyangliu.github.io/ActiveVLA/static/videos/demo.mp4">视频 · 项目演示 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">CVPR 正式论文 ↗</a><a href="https://arxiv.org/abs/2601.08325">预印本 ↗</a><a href="https://zhenyangliu.github.io/ActiveVLA/">项目与演示 ↗</a></div>
+        </div>
+      </li>
+      <li id="tau0-wm" class="media-item">
+        <div class="media-meta">上海创智学院 · 智元机器人具身研究中心<time datetime="2026-05-31">2026 年 5 月</time></div>
+        <div>
+          <h4><a href="https://tau0-wm.github.io/">τ₀-WM：与智元合作的统一视频—动作具身世界模型</a></h4>
+          <p>我参与了上海创智学院与智元机器人具身研究中心联合发布的 τ₀-WM 研究。该模型利用约 27,300 小时的机器人与人类交互数据进行预训练，将视频预测、动作生成与行动后果评估统一起来，使机器人能够在实际执行前预测、评估并修正候选动作。</p>
+          <p><strong>中国工程院院士何友在第四届（2026）上海计算机视觉大会《智能无人系统发展前沿》报告中介绍 τ₀-WM</strong>，其报告幻灯片称该工作为“当前全球最大规模的开源预训练具身世界模型”，强调了当时的预训练数据规模。</p>
+          <p><strong>研究获得《文汇报》／上观新闻、《新民晚报》及量子位专题报道</strong>，介绍模型在执行前预判行动后果、实现跨任务泛化的能力；模型权重与代码已开源。</p>
+          <div class="recognition-links"><a href="https://tau0-wm.github.io/media/tau-0-videos.mp4">视频 · 项目总览 ↗</a><a href="https://tau0-wm.github.io/">项目主页 ↗</a><a href="https://arxiv.org/abs/2606.01027">研究论文 ↗</a><a href="https://github.com/sii-research/tau-0-wm">代码与模型权重 ↗</a><a href="{{ '/assets/media/tau0-wm-he-you-shanghai-computer-vision-conference-2026.jpg' | relative_url }}">何友院士评述 · 报告现场照片 ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">创智学院官方发布 ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">《文汇报》／上观新闻 ↗</a><a href="https://paper.xinmin.cn/html/xmwb/2026-05-31/5/239280.html">《新民晚报》纸刊原版 ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">量子位专题 ↗</a></div>
+        </div>
+      </li>
+      <li id="schrodinger-navigator" class="media-item">
+        <div class="media-meta">麻省理工科技评论中文版 · DeepTech<time datetime="2026-03-25">2026 年 3 月</time></div>
+        <div>
+          <h4><a href="https://www.mittrchina.com/news/detail/16139">Schrödinger’s Navigator：让机器人先想象、再导航</a></h4>
+          <p><strong>一种用于零样本目标导航（Zero-Shot Object Navigation，ZSON）的创新人工智能框架，让机器人学会“先想象、再行动”。</strong>利用三维世界模型想象遮挡后方的多种可能未来，综合目标线索、可通行空间与几何风险，在未知环境中规划导航路线。</p>
+          <p><strong>《麻省理工科技评论》中文版／DeepTech 就这项研究对我进行了专访</strong>，介绍真实四足机器人的导航演示，并讨论“先想象、再导航”的研究动机，以及引导学生探索新研究框架的经历。</p>
+          <div class="recognition-links"><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/static/videos/supp-optimized.mp4">视频 · 实机与仿真演示 ↗</a><a href="https://www.mittrchina.com/news/detail/16139">麻省理工科技评论中文版／DeepTech · 专访 ↗</a><a href="https://arxiv.org/abs/2512.21201">研究论文 ↗</a><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/">项目主页 ↗</a></div>
+        </div>
+      </li>
+      <li id="visuo-tactile" class="media-item">
+        <div class="media-meta">WAIC 2025 · 复旦大学<time datetime="2025-07-26">2025 年 7 月</time></div>
+        <div>
+          <h4><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">视触觉 AI 传感器：WAIC 2025 向国务院总理李强现场演示</a></h4>
+          <p>我作为团队成员参与研发的自适应视触觉 AI 传感器，在 WAIC 2025 向国务院总理李强进行了现场演示，展示机器人对豆腐、果冻等易碎物体的精细抓取能力。</p>
+          <p><strong>《中国科学报》／科学网及《文汇报》／上观新闻均就这项技术采访了我。</strong>《文汇报》于 <time datetime="2025-07-26">2025 年 7 月 26 日</time>的 WAIC 现场报道介绍了视触觉感知算法；《中国科学报》<time datetime="2025-07-29">7 月 29 日的专题报道</time>介绍抓果冻、舀汤圆等演示，以及精细分拣与精密装配中的应用前景。</p>
+          <div class="recognition-links"><a href="https://www.fudan.edu.cn/2025/0728/c24a146338/page.htm">复旦 · WAIC 视频报道 ↗</a><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">《中国科学报》／科学网 · 专题与采访 ↗</a><a href="https://www.jfdaily.com/wx/detail.do?id=953117">《文汇报》／上观新闻 · 采访 ↗</a><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">总理参观与现场演示 ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">项目报道 ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">上海教育新闻网 · 采访 ↗</a></div>
         </div>
       </li>
       <li id="trivla" class="media-item">
@@ -492,16 +501,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <p><strong>TriVLA 于 <time datetime="2025-07-02">2025 年 7 月 2 日</time>首次公开（arXiv v1）</strong>，首版即提出融合视觉语言模型的世界知识、视频世界模型与动作策略的统一三系统 VLA 架构。</p>
           <p><time datetime="2025-10-13">2025 年 10 月 13 日</time>的 v3 更新稿进一步明确情景世界模型的形式化：<strong>首个在统一三系统 VLA 架构中形式化构建情景世界模型的框架</strong>，支撑复杂指令理解和长时程机器人操作。</p>
           <p>研究获得深蓝学院视频解读，以及 Moonlight 和 CSDN 开发者社区的论文评述与技术解析。</p>
-          <div class="recognition-links"><a href="https://zhenyangliu.github.io/TriVLA/">项目主页 ↗</a><a href="https://arxiv.org/abs/2507.01424v1">首发版本 · 2025 年 7 月 2 日 ↗</a><a href="https://arxiv.org/abs/2507.01424v3">情景世界模型 · v3 更新稿 ↗</a><a href="https://www.bilibili.com/video/BV188u2zQEga/">深蓝学院 · 视频解读 ↗</a><a href="https://www.themoonlight.io/zh/review/trivla-a-unified-triple-system-based-unified-vision-language-action-model-for-general-robot-control">Moonlight 论文评述 ↗</a><a href="https://adg.csdn.net/69708e24437a6b40336aaff5.html">CSDN 技术解析 ↗</a></div>
-        </div>
-      </li>
-      <li id="visuo-tactile" class="media-item">
-        <div class="media-meta">WAIC 2025 · 复旦大学<time datetime="2025-07-26">2025 年 7 月</time></div>
-        <div>
-          <h4><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">视触觉 AI 传感器：WAIC 2025 向国务院总理李强现场演示</a></h4>
-          <p>我作为团队成员参与研发的自适应视触觉 AI 传感器，在 WAIC 2025 向国务院总理李强进行了现场演示，展示机器人对豆腐、果冻等易碎物体的精细抓取能力。</p>
-          <p><strong>《中国科学报》／科学网及《文汇报》／上观新闻均就这项技术采访了我。</strong>《文汇报》于 <time datetime="2025-07-26">2025 年 7 月 26 日</time>的 WAIC 现场报道介绍了视触觉感知算法；《中国科学报》<time datetime="2025-07-29">7 月 29 日的专题报道</time>介绍抓果冻、舀汤圆等演示，以及精细分拣与精密装配中的应用前景。</p>
-          <div class="recognition-links"><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">《中国科学报》／科学网 · 专题与采访 ↗</a><a href="https://www.jfdaily.com/wx/detail.do?id=953117">《文汇报》／上观新闻 · 采访 ↗</a><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">总理参观与现场演示 ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">项目报道 ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">上海教育新闻网 · 采访 ↗</a></div>
+          <div class="recognition-links"><a href="https://zhenyangliu.github.io/TriVLA/static/images/demo_video.mp4">视频 · 项目演示 ↗</a><a href="https://zhenyangliu.github.io/TriVLA/">项目主页 ↗</a><a href="https://arxiv.org/abs/2507.01424v1">首发版本 · 2025 年 7 月 2 日 ↗</a><a href="https://arxiv.org/abs/2507.01424v3">情景世界模型 · v3 更新稿 ↗</a><a href="https://www.bilibili.com/video/BV188u2zQEga/">深蓝学院 · 视频解读 ↗</a><a href="https://www.themoonlight.io/zh/review/trivla-a-unified-triple-system-based-unified-vision-language-action-model-for-general-robot-control">Moonlight 论文评述 ↗</a><a href="https://adg.csdn.net/69708e24437a6b40336aaff5.html">CSDN 技术解析 ↗</a></div>
         </div>
       </li>
       <li id="tamma" class="media-item">
@@ -510,7 +510,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <h4><a href="https://proceedings.mlr.press/v270/hou25a.html">TaMMa：稀疏观测下的跨场景精细移动操作</a></h4>
           <p><strong>TaMMa 面向移动操作中的关键难题：让机器人仅凭稀疏观测，就能跨多个子场景完成精细的组合任务。</strong>工作将语义三维高斯场景先验、扩散式深度补全与高斯场景修复相结合，从粗定位目标和底盘导航逐步获得精确操作位姿，并在执行前表示预期的物体布局，在真实机器人上完成跨工作区域的倒水、堆叠与整理。其价值在于将可扩展的场景表示与精细操作衔接起来。</p>
           <p>2025 年综述《Towards a Unified Understanding of Robot Manipulation》在<strong>移动操作</strong>章节中专门讨论 TaMMa，将其作为利用三维场景建模辅助操作的工作，介绍稀疏高斯定位与深度补全如何支持准确的目标位姿估计。</p>
-          <div class="recognition-links"><a href="https://jarvishou829.github.io/TaMMa/">项目与机器人演示 ↗</a><a href="https://proceedings.mlr.press/v270/hou25a.html">CoRL 正式论文 · PMLR 论文集 ↗</a><a href="https://arxiv.org/html/2510.10903v1#S4.SS6">机器人操作综述 · 移动操作章节 ↗</a></div>
+          <div class="recognition-links"><a href="https://jarvishou829.github.io/TaMMa/resources/images/196_TaMMa_Target_driven_Multi__Spotlight%20Video.mp4">视频 · 研究介绍与演示 ↗</a><a href="https://jarvishou829.github.io/TaMMa/">项目与机器人演示 ↗</a><a href="https://proceedings.mlr.press/v270/hou25a.html">CoRL 正式论文 · PMLR 论文集 ↗</a><a href="https://arxiv.org/html/2510.10903v1#S4.SS6">机器人操作综述 · 移动操作章节 ↗</a></div>
         </div>
       </li>
       <li id="polaris" class="media-item">
@@ -519,16 +519,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <h4><a href="https://star-uu-wang.github.io/Polaris/">Polaris：打通开放式语言推理与精确三维操作</a></h4>
           <p><strong>Polaris 面向语言驱动机器人的关键问题：如何将开放式交互落实为物理操作所需的精确几何信息。</strong>工作提出合成到真实的类别级位姿估计流程，仅用渲染数据训练位姿模型，再与 GPT-4 和基于位姿的操作规划器结合，在降低真实位姿标注需求的同时，支持真实桌面场景中的堆叠、整理与组合操作，将语言意图理解与三维动作执行衔接起来。</p>
           <p>真实机器人实验展示了堆叠瓶子、整理工作台，以及场景受到碰撞后继续交互并完成组合任务。后续《Text-guided RGB-P grasp generation》研究在相关工作中讨论 Polaris，介绍其结合大语言模型与合成到真实视觉定位、支持开放式交互操作的思路。</p>
-          <div class="recognition-links"><a href="https://star-uu-wang.github.io/Polaris/">项目与真实机器人演示 ↗</a><a href="https://arxiv.org/abs/2408.07975">研究论文 ↗</a><a href="https://peerj.com/articles/cs-3060.pdf">PeerJ Computer Science · 后续研究讨论 ↗</a></div>
-        </div>
-      </li>
-      <li id="wall-e" class="media-item">
-        <div class="media-meta">LLM 机器人交互<time datetime="2023-08-30">预印本 · 2023 年 8 月 30 日</time></div>
-        <div>
-          <h4><a href="https://arxiv.org/abs/2308.15962">WALL-E：2023 年 ChatGPT 机器人系统的首批探索之一</a></h4>
-          <p><strong>WALL-E 是 2023 年首批将 ChatGPT 多轮对话与视觉定位结合、用于真实机器人抓取的研究之一。</strong>首篇公开预印本于 2023 年 8 月 30 日发布。工作将 ChatGPT 的多轮偏好理解与 9D 视觉定位——6D 物体位姿和三维尺寸——结合，把对话中的用户意图转化为可执行抓取，并引入执行后的用户反馈，让后续交流能够结合最近一次动作的结果，将语言交互、空间感知与真实机器人控制连接起来。</p>
-          <p><strong>入选得克萨斯大学达拉斯分校 CS 6301（2023 年秋季）课程项目指南的代表性参考文献</strong>，与 SayCan、Instruct2Act 一同列于“语言引导操作”主题。KAIST 研究者发表于《Intelligent Service Robotics》的大语言模型与智能机器人综述，也在物体定位部分引用该工作，讨论语言信息与视觉感知的连接。</p>
-          <div class="recognition-links"><a href="https://star-uu-wang.github.io/WALL-E/">项目与机器人演示 ↗</a><a href="https://arxiv.org/abs/2308.15962">预印本与首次公开时间 ↗</a><a href="https://yuxng.github.io/Courses/CS6301Fall2023/CS_6301_Project_Proposal.pdf#page=3">UT Dallas · 课程项目参考文献 ↗</a><a href="https://link.springer.com/article/10.1007/s11370-024-00550-5">KAIST 研究者的机器人综述 ↗</a></div>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=UXtXFkCjIbo">YouTube · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1mbesefE71/">B站 · 演示 ↗</a><a href="https://star-uu-wang.github.io/Polaris/">项目与真实机器人演示 ↗</a><a href="https://arxiv.org/abs/2408.07975">研究论文 ↗</a><a href="https://peerj.com/articles/cs-3060.pdf">PeerJ Computer Science · 后续研究讨论 ↗</a></div>
         </div>
       </li>
       <li id="pourit" class="media-item">
@@ -537,34 +528,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <h4><a href="https://hetolin.github.io/PourIt/">PourIt!：开创用于机器人闭环倾倒的单图三维液流感知</a></h4>
           <p><strong>据我们所知，PourIt! 首次在不依赖时序信息的条件下，从单张图像感知并近似重建倾倒液流的三维形状。</strong>方法结合估计的源容器位姿、液体掩码与重力对齐的几何假设，在无需直接测量液体深度的情况下提供视觉反馈；仅用图像级“有／无液流”标签学习感知，降低逐像素标注成本，并在真实 Franka 机器人的倾倒实验中以 10 Hz 运行。</p>
           <p>独立开源项目 <strong>IsaacLabPouringExtension</strong> 在项目说明中明确使用 PourIt 进行图像处理，探索结合强化学习的透明液体倾倒。这提供了第三方尝试复用感知方法的具体实例；该项目目前标注为开发中。</p>
-          <div class="recognition-links"><a href="https://arxiv.org/html/2307.11299v1#S1">原论文 · 创新与优先性表述 ↗</a><a href="https://hetolin.github.io/PourIt/">项目、数据与机器人演示 ↗</a><a href="https://arxiv.org/abs/2307.11299">研究论文 ↗</a><a href="https://github.com/hetolin/PourIt">开放代码与模型 ↗</a><a href="https://github.com/robegi/IsaacLabPouringExtension">独立 Isaac Lab 项目 · 开发中 ↗</a></div>
-        </div>
-      </li>
-      <li id="geovln" class="media-item">
-        <div class="media-meta">CVPR 2023<br>几何增强的视觉语言导航</div>
-        <div>
-          <h4><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">GeoVLN：让语言导航具备空间几何与邻域视图理解</a></h4>
-          <p><strong>GeoVLN 将空间几何和邻域视图关联纳入语言导航的视觉表示，增强智能体对未见环境的空间理解。</strong>方法用预测深度与表面法线补充 RGB 外观信息，通过局部 slot attention 聚合相邻视图，并以多路注意力对齐指令短语与相关视觉特征。在 R2R 基准上验证了几何线索对导航的帮助，将团队的具身研究从物体操作拓展到环境中的移动决策。</p>
-          <p>后续 STE-VLN 研究在其 <strong>2026 年预印本的 R2R 对比表</strong>中列入 GeoVLN，与 HAMT、DUET、GridMM 等方法共同用于比较导航性能，体现了该工作作为几何增强导航方法的后续参考价值。</p>
-          <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">CVPR 正式论文 ↗</a><a href="https://arxiv.org/abs/2305.17102">预印本 ↗</a><a href="https://arxiv.org/html/2602.23937v1#S5">STE-VLN 预印本 · 后续 R2R 对比评测 ↗</a></div>
-        </div>
-      </li>
-      <li id="sar-net" class="media-item">
-        <div class="media-meta">CVPR 2022<br>类别级三维位姿与尺寸估计</div>
-        <div>
-          <h4><a href="https://hetolin.github.io/SAR-Net/">SAR-Net：以形状学习推动机器人抓取的几何泛化</a></h4>
-          <p><strong>SAR-Net 提出以形状对齐与对称恢复为核心的类别级六自由度位姿和尺寸估计方法，让合成数据训练的位姿模型迁移到真实物体。</strong>通过类别模板对齐推断旋转、对称形状恢复估计位置与尺寸，降低对高成本真实位姿标注的依赖。Baxter 实验验证了对已知类别中未见实例的抓取；其位姿估计器还为后续 PourIt! 和 WALL-E 系统提供几何定位基础。</p>
-          <p><strong>被独立团队纳入 PACE（ECCV 2024）基准的类别级位姿评测。</strong>PACE 在复杂、杂乱的真实场景中比较包括 SAR-Net 在内的方法，并公开其预测结果供下载与复现，使这项研究成为后续检验位姿估计泛化能力的比较对象。</p>
-          <div class="recognition-links"><a href="https://hetolin.github.io/SAR-Net/">项目与机器人抓取演示 ↗</a><a href="https://github.com/hetolin/SAR-Net">开放代码与模型 ↗</a><a href="https://github.com/qq456cvb/PACE#category-level-pose-estimation">PACE · 独立评测与预测结果 ↗</a></div>
-        </div>
-      </li>
-      <li id="sketch-grasping" class="media-item">
-        <div class="media-meta">ICRA 2022<br>少样本草图引导抓取</div>
-        <div>
-          <h4><a href="https://hetolin.github.io/Skt_grasp/">I Know What You Draw：开创由手绘物体内容指定目标抓取的方法</a></h4>
-          <p><strong>据我们所知，这是首个依据手绘物体草图所描绘的内容来指定目标并完成抓取的机器人方法。</strong>它把用户“画了什么”转化为抓取目标，为难以用语言描述物体的情形提供交互方式。方法以图结构保留笔画关系，支持从约 100 幅手绘样本学习，并在数据集与真实 Baxter 机器人上验证了草图意图到物理抓取的连接。</p>
-          <p><strong>丰田 Frontier Research Center 参与的 Sketch-MoMa（ICRA 2025）在相关工作中明确引用并讨论这项研究。</strong>该论文将其作为通过手绘物体草图检测并操作目标的先前工作，进一步探索用草图控制移动机械臂的导航与操作。</p>
-          <div class="recognition-links"><a href="https://arxiv.org/html/2205.04026v1#S2">原论文 · 创新与优先性表述 ↗</a><a href="https://hetolin.github.io/Skt_grasp/">项目与机器人演示 ↗</a><a href="https://arxiv.org/abs/2205.04026">研究论文 ↗</a><a href="https://arxiv.org/html/2412.19153v1#S2.SS2">Sketch-MoMa · 对本工作的讨论 ↗</a><a href="https://toyotafrc.github.io/SketchMoMa-Proj/">丰田 Sketch-MoMa 项目 ↗</a></div>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=R5SpiV0658Q">YouTube · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1Th4y1L77j/">B站 · 演示 ↗</a><a href="https://arxiv.org/html/2307.11299v1#S1">原论文 · 创新与优先性表述 ↗</a><a href="https://hetolin.github.io/PourIt/">项目、数据与机器人演示 ↗</a><a href="https://arxiv.org/abs/2307.11299">研究论文 ↗</a><a href="https://github.com/hetolin/PourIt">开放代码与模型 ↗</a><a href="https://github.com/robegi/IsaacLabPouringExtension">独立 Isaac Lab 项目 · 开发中 ↗</a></div>
         </div>
       </li>
       <li id="language-guided-grasping" class="media-item">
@@ -573,7 +537,25 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <h4><a href="https://baboon527.github.io/lang_6d/">语言引导抓取：将物体语义描述与完整六自由度位姿连接起来</a></h4>
           <p><strong>早在 2022 年，这项工作就将自然语言定位与类别级完整六自由度位姿估计结合，用于真实机器人抓取。</strong>通过名称、属性与空间关系识别目标，再估计三维位置与姿态，支持抓取已知类别中的未见实例，将语义意图落实为物理操作所需的几何信息。IROS 2023 的细粒度指令抓取研究进一步发展这一方向，增强对目标物体属性的表达与定位。</p>
           <p>独立团队的 <strong>MaskGrasp（IROS 2024）</strong>在语言驱动抓取的相关工作中引用这两篇论文。两项研究记录了团队在 2022–2023 年从语言意图理解到三维感知和动作执行的持续探索，并与 WALL-E、Polaris 的交互式机器人研究形成持续的研究脉络。</p>
-          <div class="recognition-links"><a href="https://baboon527.github.io/lang_6d/">ICRA 2022 · 项目与演示 ↗</a><a href="https://arxiv.org/abs/2205.04028">ICRA 2022 · 研究论文 ↗</a><a href="https://doi.org/10.1109/IROS55552.2023.10342331">IROS 2023 · 细粒度指令抓取 ↗</a><a href="https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2024_IROS_MaskGrasp.pdf">MaskGrasp · 后续研究引用 ↗</a><a href="https://www.youtube.com/watch?v=ZaFNIyuoKrw">ICRA 2022 · YouTube 实机演示 ↗</a><a href="https://www.youtube.com/watch?v=YFxevuItHNQ">ICRA 2022 · YouTube 论文视频 ↗</a><a href="https://sunqiang85.github.io/FLarG/">IROS 2023 · 项目与演示视频 ↗</a></div>
+          <div class="recognition-links"><a href="https://sunqiang85.github.io/FLarG/video/demo.mp4">IROS 2023 · 机器人演示视频 ↗</a><a href="https://baboon527.github.io/lang_6d/">ICRA 2022 · 项目与演示 ↗</a><a href="https://arxiv.org/abs/2205.04028">ICRA 2022 · 研究论文 ↗</a><a href="https://doi.org/10.1109/IROS55552.2023.10342331">IROS 2023 · 细粒度指令抓取 ↗</a><a href="https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2024_IROS_MaskGrasp.pdf">MaskGrasp · 后续研究引用 ↗</a><a href="https://www.youtube.com/watch?v=ZaFNIyuoKrw">ICRA 2022 · YouTube 实机演示 ↗</a><a href="https://www.youtube.com/watch?v=YFxevuItHNQ">ICRA 2022 · YouTube 论文视频 ↗</a><a href="https://sunqiang85.github.io/FLarG/">IROS 2023 · 项目与演示视频 ↗</a></div>
+        </div>
+      </li>
+      <li id="wall-e" class="media-item">
+        <div class="media-meta">LLM 机器人交互<time datetime="2023-08-30">预印本 · 2023 年 8 月 30 日</time></div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2308.15962">WALL-E：2023 年 ChatGPT 机器人系统的首批探索之一</a></h4>
+          <p><strong>WALL-E 是 2023 年首批将 ChatGPT 多轮对话与视觉定位结合、用于真实机器人抓取的研究之一。</strong>首篇公开预印本于 2023 年 8 月 30 日发布。工作将 ChatGPT 的多轮偏好理解与 9D 视觉定位——6D 物体位姿和三维尺寸——结合，把对话中的用户意图转化为可执行抓取，并引入执行后的用户反馈，让后续交流能够结合最近一次动作的结果，将语言交互、空间感知与真实机器人控制连接起来。</p>
+          <p><strong>入选得克萨斯大学达拉斯分校 CS 6301（2023 年秋季）课程项目指南的代表性参考文献</strong>，与 SayCan、Instruct2Act 一同列于“语言引导操作”主题。KAIST 研究者发表于《Intelligent Service Robotics》的大语言模型与智能机器人综述，也在物体定位部分引用该工作，讨论语言信息与视觉感知的连接。</p>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=0P6bNYcVNKA">YouTube · 演示 ↗</a><a href="https://star-uu-wang.github.io/WALL-E/">项目与机器人演示 ↗</a><a href="https://arxiv.org/abs/2308.15962">预印本与首次公开时间 ↗</a><a href="https://yuxng.github.io/Courses/CS6301Fall2023/CS_6301_Project_Proposal.pdf#page=3">UT Dallas · 课程项目参考文献 ↗</a><a href="https://link.springer.com/article/10.1007/s11370-024-00550-5">KAIST 研究者的机器人综述 ↗</a></div>
+        </div>
+      </li>
+      <li id="geovln" class="media-item">
+        <div class="media-meta">CVPR 2023<br>几何增强的视觉语言导航</div>
+        <div>
+          <h4><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">GeoVLN：让语言导航具备空间几何与邻域视图理解</a></h4>
+          <p><strong>GeoVLN 将空间几何和邻域视图关联纳入语言导航的视觉表示，增强智能体对未见环境的空间理解。</strong>方法用预测深度与表面法线补充 RGB 外观信息，通过局部 slot attention 聚合相邻视图，并以多路注意力对齐指令短语与相关视觉特征。在 R2R 基准上验证了几何线索对导航的帮助，将团队的具身研究从物体操作拓展到环境中的移动决策。</p>
+          <p>后续 STE-VLN 研究在其 <strong>2026 年预印本的 R2R 对比表</strong>中列入 GeoVLN，与 HAMT、DUET、GridMM 等方法共同用于比较导航性能，体现了该工作作为几何增强导航方法的后续参考价值。</p>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=i-WjmcNMnQI">YouTube · CVPR 论文报告 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">CVPR 正式论文 ↗</a><a href="https://arxiv.org/abs/2305.17102">预印本 ↗</a><a href="https://arxiv.org/html/2602.23937v1#S5">STE-VLN 预印本 · 后续 R2R 对比评测 ↗</a></div>
         </div>
       </li>
       <li id="smart-bartender" class="media-item">
@@ -585,16 +567,6 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">IEEE Spectrum · ICRA 2023 视频精选 ↗</a><a href="#robotics-2023">早期机器人系统展示 ↓</a><a href="https://www.youtube.com/watch?v=zumlLDaXfMg">YouTube · Smart Bartender 演示 ↗</a></div>
         </div>
       </li>
-      <li id="autonomous-swab-robot" class="media-item">
-        <div class="media-meta">上海长宁 · 人民网<time datetime="2022">2022 年 · 真实场景采样试用</time></div>
-        <div>
-          <h4><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">无需咬口器的自主核酸采样机器人</a></h4>
-          <p>我与上海优复博合作研发核酸采样机器人，融合 AI 视觉感知与力控技术，<strong>无需咬口器等接触式定位辅助器材，自主完成口腔定位与咽拭子采样，在真实场景中开展采样环节无人值守的实际试用</strong>。</p>
-          <p><strong>机器人在上海虹桥临空园区为员工提供日常采样服务。</strong>上海长宁现场报道、人民网转载记录了约 30 秒完成采样，以及员工连续多日使用的真实试用情况；报道同时记载了人工辅助消杀。</p>
-          <p>成果<strong>入选上海城市数字化转型成果，并在上海城市数字化转型体验馆展出</strong>。</p>
-          <div class="recognition-links"><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">上海长宁 · 现场报道 ↗</a><a href="https://sh.people.com.cn/n2/2022/0709/c134768-40030902.html">人民网 · 转载报道 ↗</a><a href="https://www.gkong.com/news/110248.html">大族机器人 · 公司供稿 ↗</a></div>
-        </div>
-      </li>
       <li id="robotics-2023" class="media-item">
         <div class="media-meta">复旦大学大数据学院<time datetime="2023-02-27">2023 年 2 月</time></div>
         <div>
@@ -603,11 +575,48 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://sds.fudan.edu.cn/_t2392/6d/6d/c17423a486765/page.htm">复旦官方报道：机器人倒水与眼动交互 ↗</a></div>
         </div>
       </li>
+      <li id="autonomous-swab-robot" class="media-item">
+        <div class="media-meta">上海长宁 · 人民网<time datetime="2022">2022 年 · 真实场景采样试用</time></div>
+        <div>
+          <h4><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">无需咬口器的自主核酸采样机器人</a></h4>
+          <p>我与上海优复博合作研发核酸采样机器人，融合 AI 视觉感知与力控技术，<strong>无需咬口器等接触式定位辅助器材，自主完成口腔定位与咽拭子采样，在真实场景中开展采样环节无人值守的实际试用</strong>。</p>
+          <p><strong>机器人在上海虹桥临空园区为员工提供日常采样服务。</strong>上海长宁现场报道、人民网转载记录了约 30 秒完成采样，以及员工连续多日使用的真实试用情况；报道同时记载了人工辅助消杀。</p>
+          <p>成果<strong>入选上海城市数字化转型成果，并在上海城市数字化转型体验馆展出</strong>。</p>
+          <div class="recognition-links"><a href="https://hetolin.github.io/resources/images/projects/project_nucleic_acid.mp4">视频 · 2022 年采样机器人原型 ↗</a><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">上海长宁 · 现场报道 ↗</a><a href="https://sh.people.com.cn/n2/2022/0709/c134768-40030902.html">人民网 · 转载报道 ↗</a><a href="https://www.gkong.com/news/110248.html">大族机器人 · 公司供稿 ↗</a></div>
+        </div>
+      </li>
+      <li id="sar-net" class="media-item">
+        <div class="media-meta">CVPR 2022<br>类别级三维位姿与尺寸估计</div>
+        <div>
+          <h4><a href="https://hetolin.github.io/SAR-Net/">SAR-Net：以形状学习推动机器人抓取的几何泛化</a></h4>
+          <p><strong>SAR-Net 提出以形状对齐与对称恢复为核心的类别级六自由度位姿和尺寸估计方法，让合成数据训练的位姿模型迁移到真实物体。</strong>通过类别模板对齐推断旋转、对称形状恢复估计位置与尺寸，降低对高成本真实位姿标注的依赖。Baxter 实验验证了对已知类别中未见实例的抓取；其位姿估计器还为后续 PourIt! 和 WALL-E 系统提供几何定位基础。</p>
+          <p><strong>被独立团队纳入 PACE（ECCV 2024）基准的类别级位姿评测。</strong>PACE 在复杂、杂乱的真实场景中比较包括 SAR-Net 在内的方法，并公开其预测结果供下载与复现，使这项研究成为后续检验位姿估计泛化能力的比较对象。</p>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=b4CLMdhJV58">YouTube · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1PY4y1k78b/">B站 · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1ZA4y1S7wk/">B站 · 人机交互倒水演示 ↗</a><a href="https://hetolin.github.io/SAR-Net/">项目与机器人抓取演示 ↗</a><a href="https://github.com/hetolin/SAR-Net">开放代码与模型 ↗</a><a href="https://github.com/qq456cvb/PACE#category-level-pose-estimation">PACE · 独立评测与预测结果 ↗</a></div>
+        </div>
+      </li>
+      <li id="sketch-grasping" class="media-item">
+        <div class="media-meta">ICRA 2022<br>少样本草图引导抓取</div>
+        <div>
+          <h4><a href="https://hetolin.github.io/Skt_grasp/">I Know What You Draw：开创由手绘物体内容指定目标抓取的方法</a></h4>
+          <p><strong>据我们所知，这是首个依据手绘物体草图所描绘的内容来指定目标并完成抓取的机器人方法。</strong>它把用户“画了什么”转化为抓取目标，为难以用语言描述物体的情形提供交互方式。方法以图结构保留笔画关系，支持从约 100 幅手绘样本学习，并在数据集与真实 Baxter 机器人上验证了草图意图到物理抓取的连接。</p>
+          <p><strong>丰田 Frontier Research Center 参与的 Sketch-MoMa（ICRA 2025）在相关工作中明确引用并讨论这项研究。</strong>该论文将其作为通过手绘物体草图检测并操作目标的先前工作，进一步探索用草图控制移动机械臂的导航与操作。</p>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=RIp4g7ibQ9o">YouTube · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1xU4y1m7vN/">B站 · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1ka411J7d6/">B站 · 论文介绍 ↗</a><a href="https://arxiv.org/html/2205.04026v1#S2">原论文 · 创新与优先性表述 ↗</a><a href="https://hetolin.github.io/Skt_grasp/">项目与机器人演示 ↗</a><a href="https://arxiv.org/abs/2205.04026">研究论文 ↗</a><a href="https://arxiv.org/html/2412.19153v1#S2.SS2">Sketch-MoMa · 对本工作的讨论 ↗</a><a href="https://toyotafrc.github.io/SketchMoMa-Proj/">丰田 Sketch-MoMa 项目 ↗</a></div>
+        </div>
+      </li>
     </ul>
   </div>
   <div id="egocentric-vision" class="media-group" aria-labelledby="egocentric-vision-title">
     <h3 id="egocentric-vision-title"><span id="egocentric-understanding">第一视角视觉与跨视角理解</span></h3>
     <ul class="media-list">
+      <li id="egocross-community" class="media-item">
+        <div class="media-meta">EgoVis @ CVPR 2026<time datetime="2026-08">挑战赛报告 · 2026 年 8 月</time></div>
+        <div>
+          <h4 id="egocross-challenge"><a href="https://egocross-benchmark.github.io/">EgoCross 挑战赛：推动跨域第一视角视频理解</a></h4>
+          <p><strong>我担任首届 EgoCross 挑战赛联合组织者，并共同署名挑战赛技术报告。</strong>该赛事于 EgoVis @ CVPR 2026 举行，面向手术、工业装配、极限运动与动物视角，评估跨域视频问答能力。</p>
+          <p>报告记录了<strong>超过 130 名参与者、超过 1,500 次提交</strong>，并公开挑战赛数据、基线代码与获胜团队方案。</p>
+          <div class="recognition-links"><a href="https://egocross-benchmark.github.io/">挑战赛与组织者名单 ↗</a><a href="https://arxiv.org/abs/2608.04589">挑战赛报告与结果 ↗</a></div>
+        </div>
+      </li>
       <li id="ego-exo-recognition" class="media-item">
         <div class="media-meta">ICCV 2025 · CVPR 2026<br>Highlight 论文</div>
         <div>
@@ -636,49 +645,11 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://arxiv.org/abs/2011.08900">论文 ↗</a><a href="https://wacv2021.thecvf.com/program">WACV 口头报告日程 ↗</a></div>
         </div>
       </li>
-      <li id="egocross-community" class="media-item">
-        <div class="media-meta">EgoVis @ CVPR 2026<br>挑战赛联合组织者</div>
-        <div>
-          <h4 id="egocross-challenge"><a href="https://egocross-benchmark.github.io/">EgoCross 挑战赛：推动跨域第一视角视频理解</a></h4>
-          <p><strong>我担任首届 EgoCross 挑战赛联合组织者，并共同署名挑战赛技术报告。</strong>该赛事于 EgoVis @ CVPR 2026 举行，面向手术、工业装配、极限运动与动物视角，评估跨域视频问答能力。</p>
-          <p>报告记录了<strong>超过 130 名参与者、超过 1,500 次提交</strong>，并公开挑战赛数据、基线代码与获胜团队方案。</p>
-          <div class="recognition-links"><a href="https://egocross-benchmark.github.io/">挑战赛与组织者名单 ↗</a><a href="https://arxiv.org/abs/2608.04589">挑战赛报告与结果 ↗</a></div>
-        </div>
-      </li>
     </ul>
   </div>
   <div id="brain-decoding" class="media-group">
     <h3>脑解码与开放科研资源</h3>
     <ul class="media-list">
-      <li id="fmri-pte" class="media-item">
-        <div class="media-meta">fMRI 大规模预训练<time datetime="2023-11-01">2023 年 11 月 1 日</time></div>
-        <div>
-          <h4><a href="https://arxiv.org/abs/2311.00342">fMRI-PTE：大规模、多受试者 fMRI 预训练大模型</a></h4>
-          <p>据我们所知，<strong>fMRI-PTE 是首个以约 4 万名受试者进行大规模预训练、面向跨受试者视觉脑解码的 fMRI 大模型</strong>。模型利用 UK Biobank 的 39,630 名受试者数据进行预训练，学习共享神经表征，支持受试者内及跨受试者视觉解码。</p>
-          <p>本团队于 <strong><time datetime="2023-11-01">2023 年 11 月 1 日</time></strong>公开 arXiv 预印本。</p>
-          <p><strong>2024 年 8 月，《科技日报》将付彦伟团队完成的成果称为“学术界首个功能性磁共振成像预训练大模型”。</strong>报道指出，这项进展为解码记忆与梦境中的视觉想象奠定基础；人民网与央广网转载了同篇报道。</p>
-          <div class="recognition-links"><a href="https://arxiv.org/abs/2311.00342">论文与首次公开时间 ↗</a><a href="https://arxiv.org/html/2311.00342v1">模型方法与预训练规模 ↗</a><a href="https://edu.people.com.cn/n1/2024/0805/c1006-40292400.html">科技日报报道 · 人民网转载 ↗</a><a href="https://tech.cnr.cn/techyw/kan/20240804/t20240804_526832288.shtml">央广网转载 ↗</a><a href="#brain-open-data">团队开放脑信号资源 ↓</a></div>
-        </div>
-      </li>
-      <li id="neuropictor" class="media-item">
-        <div class="media-meta">ECCV 2024 · AAAI 2026<br>独立评测</div>
-        <div>
-          <h4><a href="https://arxiv.org/abs/2403.18211">NeuroPictor：在独立评测中取得结构保真度第一</a></h4>
-          <p>剑桥大学研究者 Weihao Xia 与 Cengiz Öztireli 的 AAAI 2026 论文在 NSD 数据集上比较了 14 种脑视觉解码方法，<strong>NeuroPictor 的结构保真度指标 BASIC-L 排名第一</strong>，得分为 25.88。</p>
-          <p>香港科技大学的 ZEBRA（NeurIPS 2025）沿用 NeuroPictor 的统一脑信号表征思路，并采用 fMRI-PTE 的预训练编码器，研究零样本跨受试者视觉解码。</p>
-          <div class="recognition-links"><a href="https://arxiv.org/abs/2403.18211">NeuroPictor 论文 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">AAAI 独立评测 ↗</a><a href="https://arxiv.org/html/2507.07993v2#S4">评测结果与 Table 3 ↗</a><a href="https://arxiv.org/html/2510.27128v1">ZEBRA 后续研究 ↗</a></div>
-        </div>
-      </li>
-      <li id="mind3d" class="media-item">
-        <div class="media-meta">ECCV 2024<time datetime="2023-12-12">预印本 · 2023 年 12 月 12 日</time></div>
-        <div>
-          <h4><a href="https://jianxgao.github.io/MinD-3D/">MinD-3D：首次提出并定义 fMRI-to-3D 脑解码任务</a></h4>
-          <p><strong>本团队首次提出并定义 fMRI-to-3D（Recon3DMind）研究任务</strong>，开发 MinD-3D 框架验证从脑信号重建三维物体的可行性，并发布<strong>首个 fMRI–3D 形状配对数据集 fMRI-Shape</strong>，覆盖 14 名受试者。</p>
-          <p>预印本于 <time datetime="2023-12-12">2023 年 12 月 12 日</time>公开，发表于 ECCV 2024。</p>
-          <p><strong>fMRI-Shape 的首创性与后续研究价值获得独立团队认可</strong>：Neuro-3D（CVPR 2025）明确将其称为首个 fMRI–3D 形状配对数据集；NeuroSculptor3D（AAAI 2026）与 BrainGS（CVPR 2026）将其用于脑到三维重建研究，其中 BrainGS 沿用 MinD-3D 的跨受试者、跨类别评测设置。</p>
-          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">项目主页 ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV 正式论文 ↗</a><a href="https://arxiv.org/abs/2312.07485">预印本与首次公开时间 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape 开放数据集 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Neuro-3D_Towards_3D_Visual_Decoding_from_EEG_Signals_CVPR_2025_paper.pdf">Neuro-3D 首创性评价 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D 数据集采用 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jing_More_Natural_More_Real_Object-aware_Gaussian_Splatting_for_3D_Visual_CVPR_2026_paper.pdf">BrainGS 数据与评测采用 ↗</a></div>
-        </div>
-      </li>
       <li id="brain-open-data" class="media-item">
         <div class="media-meta">Fudan-fMRI · Hugging Face<time datetime="2026-10-13">2026 年 10 月 13 日查询</time></div>
         <div>
@@ -698,6 +669,24 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://rsipvision.com/CVPR2026-Sunday/">封面与完整刊物 ↗</a><a href="https://rsipvision.com/CVPR2026-Sunday/10/">专题文章 ↗</a><a href="https://www.jiangtongli.me/uploads/papers/2026-CVPR-DynaMind.pdf">DynaMind 数据与评测采用 ↗</a><a href="https://papers.miccai.org/miccai-2026/0711-Paper4295.html">NeuroSonic 语音重建研究 ↗</a><a href="https://www.x-techcon.com/article/161149.html">脑机接口社区专题解读 ↗</a></div>
         </div>
       </li>
+      <li id="dream-decoding" class="media-item">
+        <div class="media-meta">fMRI · 梦境解码<time datetime="2026-05">CACM 专题 · 2026 年 5 月</time></div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2501.09350">fMRI 梦境解码：从睡眠脑信号到视觉叙事</a></h4>
+          <p>团队探索利用 fMRI 解码梦境视觉意象，并结合语言模型构建视频叙事。</p>
+          <p>《Communications of the ACM》于 2026 年 5 月刊发专题报道并专访我，介绍梦境解码与 CineBrain 研究。研究亦获得 NASW / ScienceWriters 专访及 Innovando.News 专题介绍，Science and Fiction 则将论文解读与原创科幻故事相结合。</p>
+          <div class="recognition-links"><a href="https://cacm.acm.org/news/decoding-dreams-with-ai/">Communications of the ACM 专题报道与专访 ↗</a><a href="https://www.nasw.org/article/dream-decoding-what-if-you-could-replay-your-inner-world">美国科学作家协会 NASW 专访 ↗</a><a href="https://innovando.news/sogni-realta-anticipazioni-fantascienza-innovazione/">Innovando.News 专题 ↗</a><a href="https://scienceandfiction.net/stories/31_dream-oracle/">Science and Fiction 解读与故事 ↗</a><a href="https://arxiv.org/abs/2501.09350">研究预印本 ↗</a></div>
+        </div>
+      </li>
+      <li id="neuropictor" class="media-item">
+        <div class="media-meta">ECCV 2024 · AAAI 2026<br>独立评测</div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2403.18211">NeuroPictor：在独立评测中取得结构保真度第一</a></h4>
+          <p>剑桥大学研究者 Weihao Xia 与 Cengiz Öztireli 的 AAAI 2026 论文在 NSD 数据集上比较了 14 种脑视觉解码方法，<strong>NeuroPictor 的结构保真度指标 BASIC-L 排名第一</strong>，得分为 25.88。</p>
+          <p>香港科技大学的 ZEBRA（NeurIPS 2025）沿用 NeuroPictor 的统一脑信号表征思路，并采用 fMRI-PTE 的预训练编码器，研究零样本跨受试者视觉解码。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2403.18211">NeuroPictor 论文 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">AAAI 独立评测 ↗</a><a href="https://arxiv.org/html/2507.07993v2#S4">评测结果与 Table 3 ↗</a><a href="https://arxiv.org/html/2510.27128v1">ZEBRA 后续研究 ↗</a></div>
+        </div>
+      </li>
       <li id="eeg-grasping" class="media-item">
         <div class="media-meta">复旦大学技术转移中心<time datetime="2025-06-05">2025 年 6 月 5 日</time></div>
         <div>
@@ -706,13 +695,24 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://fdzhuanyi.fudan.edu.cn/46/fe/c40933a739070/page.htm">复旦大学技术转移中心活动报道 ↗</a></div>
         </div>
       </li>
-      <li id="dream-decoding" class="media-item">
-        <div class="media-meta">fMRI · 梦境解码</div>
+      <li id="mind3d" class="media-item">
+        <div class="media-meta">ECCV 2024<time datetime="2023-12-12">预印本 · 2023 年 12 月 12 日</time></div>
         <div>
-          <h4><a href="https://arxiv.org/abs/2501.09350">fMRI 梦境解码：从睡眠脑信号到视觉叙事</a></h4>
-          <p>团队探索利用 fMRI 解码梦境视觉意象，并结合语言模型构建视频叙事。</p>
-          <p>《Communications of the ACM》于 2026 年 5 月刊发专题报道并专访我，介绍梦境解码与 CineBrain 研究。研究亦获得 NASW / ScienceWriters 专访及 Innovando.News 专题介绍，Science and Fiction 则将论文解读与原创科幻故事相结合。</p>
-          <div class="recognition-links"><a href="https://cacm.acm.org/news/decoding-dreams-with-ai/">Communications of the ACM 专题报道与专访 ↗</a><a href="https://www.nasw.org/article/dream-decoding-what-if-you-could-replay-your-inner-world">美国科学作家协会 NASW 专访 ↗</a><a href="https://innovando.news/sogni-realta-anticipazioni-fantascienza-innovazione/">Innovando.News 专题 ↗</a><a href="https://scienceandfiction.net/stories/31_dream-oracle/">Science and Fiction 解读与故事 ↗</a><a href="https://arxiv.org/abs/2501.09350">研究预印本 ↗</a></div>
+          <h4><a href="https://jianxgao.github.io/MinD-3D/">MinD-3D：首次提出并定义 fMRI-to-3D 脑解码任务</a></h4>
+          <p><strong>本团队首次提出并定义 fMRI-to-3D（Recon3DMind）研究任务</strong>，开发 MinD-3D 框架验证从脑信号重建三维物体的可行性，并发布<strong>首个 fMRI–3D 形状配对数据集 fMRI-Shape</strong>，覆盖 14 名受试者。</p>
+          <p>预印本于 <time datetime="2023-12-12">2023 年 12 月 12 日</time>公开，发表于 ECCV 2024。</p>
+          <p><strong>fMRI-Shape 的首创性与后续研究价值获得独立团队认可</strong>：Neuro-3D（CVPR 2025）明确将其称为首个 fMRI–3D 形状配对数据集；NeuroSculptor3D（AAAI 2026）与 BrainGS（CVPR 2026）将其用于脑到三维重建研究，其中 BrainGS 沿用 MinD-3D 的跨受试者、跨类别评测设置。</p>
+          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">项目主页 ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV 正式论文 ↗</a><a href="https://arxiv.org/abs/2312.07485">预印本与首次公开时间 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape 开放数据集 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Neuro-3D_Towards_3D_Visual_Decoding_from_EEG_Signals_CVPR_2025_paper.pdf">Neuro-3D 首创性评价 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D 数据集采用 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jing_More_Natural_More_Real_Object-aware_Gaussian_Splatting_for_3D_Visual_CVPR_2026_paper.pdf">BrainGS 数据与评测采用 ↗</a></div>
+        </div>
+      </li>
+      <li id="fmri-pte" class="media-item">
+        <div class="media-meta">fMRI 大规模预训练<time datetime="2023-11-01">2023 年 11 月 1 日</time></div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2311.00342">fMRI-PTE：大规模、多受试者 fMRI 预训练大模型</a></h4>
+          <p>据我们所知，<strong>fMRI-PTE 是首个以约 4 万名受试者进行大规模预训练、面向跨受试者视觉脑解码的 fMRI 大模型</strong>。模型利用 UK Biobank 的 39,630 名受试者数据进行预训练，学习共享神经表征，支持受试者内及跨受试者视觉解码。</p>
+          <p>本团队于 <strong><time datetime="2023-11-01">2023 年 11 月 1 日</time></strong>公开 arXiv 预印本。</p>
+          <p><strong>2024 年 8 月，《科技日报》将付彦伟团队完成的成果称为“学术界首个功能性磁共振成像预训练大模型”。</strong>报道指出，这项进展为解码记忆与梦境中的视觉想象奠定基础；人民网与央广网转载了同篇报道。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2311.00342">论文与首次公开时间 ↗</a><a href="https://arxiv.org/html/2311.00342v1">模型方法与预训练规模 ↗</a><a href="https://edu.people.com.cn/n1/2024/0805/c1006-40292400.html">科技日报报道 · 人民网转载 ↗</a><a href="https://tech.cnr.cn/techyw/kan/20240804/t20240804_526832288.shtml">央广网转载 ↗</a><a href="#brain-open-data">团队开放脑信号资源 ↓</a></div>
         </div>
       </li>
     </ul>

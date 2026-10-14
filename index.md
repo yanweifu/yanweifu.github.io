@@ -316,11 +316,6 @@ image: /assets/images/yanwei-fu.png
   <h2 id="recognition-media-title">Academic recognition &amp; media</h2>
   <div class="recognition-cards">
     <div class="recognition-card">
-      <h3>ACM China Rising Star Awards</h3>
-      <p>2017 · SIGAI China<br>2018 · Shanghai Chapter</p>
-      <div class="recognition-links"><a href="https://www.acmturc.com/2018/new_star_award.html">2017 award list ↗</a><a href="https://www.acmturc.com/2019/cn/new_star_award.html">2018 award list ↗</a></div>
-    </div>
-    <div class="recognition-card">
       <h3>World’s Top 2% Scientists · 2026</h3>
       <p>Selected for both career-long and single-year citation impact lists in the Stanford/Elsevier database.</p>
       <div class="recognition-links"><a href="https://ciram.fudan.edu.cn/1c/b8/c48841a793784/page.htm">Fudan announcement ↗</a><a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/9">Citation database ↗</a></div>
@@ -334,6 +329,11 @@ image: /assets/images/yanwei-fu.png
       <h3>World Robot Contest · 2020</h3>
       <p>Best Collaboration Award for FDU-Insight in the collaborative robotics challenge. I led the team and co-advised it with Xiangyang Xue.</p>
       <div class="recognition-links"><a href="https://sds.fudan.edu.cn/_t2392/f0/20/c17425a258080/page.htm">Team award &amp; report ↗</a></div>
+    </div>
+    <div class="recognition-card">
+      <h3>ACM China Rising Star Awards</h3>
+      <p>2017 · SIGAI China<br>2018 · Shanghai Chapter</p>
+      <div class="recognition-links"><a href="https://www.acmturc.com/2018/new_star_award.html">2017 award list ↗</a><a href="https://www.acmturc.com/2019/cn/new_star_award.html">2018 award list ↗</a></div>
     </div>
   </div>
   <div class="media-group">
@@ -365,27 +365,6 @@ image: /assets/images/yanwei-fu.png
   <div id="3d-reconstruction" class="media-group">
     <h3>3D reconstruction &amp; generative foundation models</h3>
     <ul class="media-list">
-      <li id="mvsformer-series" class="media-item">
-        <div class="media-meta">TMLR · ICLR 2024<time datetime="2022-05">Benchmark submission · May 2022</time></div>
-        <div>
-          <h4 id="mvsformer"><a href="https://maybelx.github.io/MVSFormer.github.io/">MVSFormer series: advancing multi-view stereo with pretrained vision transformers</a></h4>
-          <p><strong>With results submitted in May 2022, MVSFormer ranked first among published methods on both the Intermediate and Advanced Tanks and Temples leaderboards at the time.</strong> Its mean F-scores were 66.37 and 40.87, respectively.</p>
-          <p>To our knowledge, <strong>MVSFormer is the first work to systematically study how pretrained vision transformers enhance multi-view stereo</strong>. <span id="mvsformer-plusplus">MVSFormer++ (ICLR 2024) extends this approach with DINOv2 features, cross-view information, and refined transformer design, improving reconstruction accuracy and generalization.</span></p>
-          <p>The series has been introduced in the TMLR official digest and research overviews from BAAI Hub and HyperAI.</p>
-          <div class="recognition-links"><a href="https://arxiv.org/html/2208.02541v3">MVSFormer paper ↗</a><a href="https://arxiv.org/abs/2401.11673">MVSFormer++ paper ↗</a><a href="https://github.com/ewrfcas/MVSFormer">MVSFormer code ↗</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">MVSFormer++ code ↗</a><a href="https://www.tanksandtemples.org/details/4145/">Official benchmark submission ↗</a><a href="https://groups.google.com/g/tmlr-announce-weekly/c/CsDsZ5meS6A">TMLR official digest ↗</a><a href="https://hub.baai.ac.cn/paper/9e3e63c0-f2b1-43e0-a551-2d8067a119ab">BAAI Hub overview ↗</a><a href="https://hyper.ai/cn/papers/2401.11673">HyperAI overview ↗</a></div>
-        </div>
-      </li>
-      <li id="pixel2mesh-series" class="media-item">
-        <div class="media-meta">ECCV 2018 · ICCV 2019<time datetime="2018-04-05">First preprint · April 5, 2018</time></div>
-        <div>
-          <h4 id="pixel2mesh"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh series: from a single RGB image directly to a 3D mesh</a></h4>
-          <p><strong>Pixel2Mesh is the first end-to-end deep learning framework to directly generate a 3D triangular mesh from a single RGB image.</strong> It bypasses the extra conversion from point clouds or voxels to meshes, directly producing a mesh representation for rendering and geometric processing.</p>
-          <p id="pixel2mesh-plusplus">Pixel2Mesh++ (ICCV 2019) extends the series to multi-view mesh generation and refinement, improving geometric detail and consistency across viewpoints.</p>
-          <p><strong>Pixel2Mesh was taught in Stanford University’s CS231n course for three consecutive years (2022–2024).</strong> The 3D vision lectures use Pixel2Mesh to explain learning-based reconstruction of triangle meshes from single RGB images.</p>
-          <p>PaperWeekly published dedicated features on Pixel2Mesh in <time datetime="2018-09-10">September 2018</time> and Pixel2Mesh++ in <time datetime="2019-11-08">November 2019</time>, explaining the direct-mesh breakthrough and its multi-view extension.</p>
-          <div class="recognition-links"><a href="https://cs231n.stanford.edu/slides/2022/lecture_16_jiajun.pdf#page=129">Stanford CS231n · 2022 ↗</a><a href="https://cs231n.stanford.edu/slides/2023/lecture_16.pdf#page=39">Stanford CS231n · 2023 ↗</a><a href="https://cs231n.stanford.edu/slides/2024/lecture_18.pdf#page=47">Stanford CS231n · 2024 ↗</a><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh paper ↗</a><a href="https://github.com/nywang16/Pixel2Mesh">Pixel2Mesh code &amp; models ↗</a><a href="https://arxiv.org/abs/1908.01491">Pixel2Mesh++ paper ↗</a><a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Pixel2Mesh++ project &amp; code ↗</a><a href="https://www.sohu.com/a/252979433_500659">PaperWeekly · Pixel2Mesh feature ↗</a><a href="https://www.sohu.com/a/352447127_500659">PaperWeekly · Pixel2Mesh++ feature ↗</a></div>
-        </div>
-      </li>
       <li id="deepsfm-series" class="media-item">
         <div class="media-meta">ECCV 2020<br>IEEE TPAMI 2024</div>
         <div>
@@ -397,13 +376,34 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://arxiv.org/html/2408.02392v1#S1">MaFreeI2P · explicit methodological inspiration ↗</a><a href="https://speakerdeck.com/tsukamotokenji/deepsfm-structure-from-motion-via-deep-bundle-adjustment">Independent technical review · 2020 ↗</a><a href="https://virtualhumans.mpi-inf.mpg.de/3DVision25/slides25/pdf/Lecture_09_Learning_based.pdf#page=8">3D vision course · slide 8 ↗</a><a href="https://www.cnblogs.com/YongQiVisionIMAX/p/13413962.html">3D视觉工坊 · paper roundup ↗</a><a href="https://www.eet-china.com/mp/a102940.html">EE Times China · industry overview ↗</a></div>
         </div>
       </li>
+      <li id="mvsformer-series" class="media-item">
+        <div class="media-meta">TMLR · ICLR 2024<time datetime="2022-05">Benchmark submission · May 2022</time></div>
+        <div>
+          <h4 id="mvsformer"><a href="https://maybelx.github.io/MVSFormer.github.io/">MVSFormer series: advancing multi-view stereo with pretrained vision transformers</a></h4>
+          <p><strong>With results submitted in May 2022, MVSFormer ranked first among published methods on both the Intermediate and Advanced Tanks and Temples leaderboards at the time.</strong> Its mean F-scores were 66.37 and 40.87, respectively.</p>
+          <p>To our knowledge, <strong>MVSFormer is the first work to systematically study how pretrained vision transformers enhance multi-view stereo</strong>. <span id="mvsformer-plusplus">MVSFormer++ (ICLR 2024) extends this approach with DINOv2 features, cross-view information, and refined transformer design, improving reconstruction accuracy and generalization.</span></p>
+          <p>The series has been introduced in the TMLR official digest and research overviews from BAAI Hub and HyperAI.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/html/2208.02541v3">MVSFormer paper ↗</a><a href="https://arxiv.org/abs/2401.11673">MVSFormer++ paper ↗</a><a href="https://github.com/ewrfcas/MVSFormer">MVSFormer code ↗</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">MVSFormer++ code ↗</a><a href="https://www.tanksandtemples.org/details/4145/">Official benchmark submission ↗</a><a href="https://groups.google.com/g/tmlr-announce-weekly/c/CsDsZ5meS6A">TMLR official digest ↗</a><a href="https://hub.baai.ac.cn/paper/9e3e63c0-f2b1-43e0-a551-2d8067a119ab">BAAI Hub overview ↗</a><a href="https://hyper.ai/cn/papers/2401.11673">HyperAI overview ↗</a></div>
+        </div>
+      </li>
       <li id="argus-3d" class="media-item">
-        <div class="media-meta">3D-native generation<time datetime="2023-06-20">First preprint · June 20, 2023</time></div>
+        <div class="media-meta">3D-native generation<time datetime="2024-02-19">Expanded paper · February 2024</time><time datetime="2023-06-20">First preprint · June 20, 2023</time></div>
         <div>
           <h4><a href="https://argus-3d.github.io/">Argus-3D: a 3D-native generative foundation model at 3.6-billion-parameter scale</a></h4>
           <p>To our knowledge, <strong>Argus-3D was the first academic 3D-native shape generation model scaled to 3.6 billion trainable parameters</strong>, first publicly introduced on <strong><time datetime="2023-06-20">June 20, 2023</time></strong>. Developed with BAAI and collaborators, it learns discrete geometric representations and autoregressive priors directly from approximately 900,000 3D objects, supporting multimodal conditional shape generation.</p>
           <p>The original paper reported it as the largest 3D shape generation model at the time. BAAI Hub published a detailed feature on <time datetime="2023-07-13">July 13, 2023</time>; an expanded preprint followed on <time datetime="2024-02-19">February 19, 2024</time>.</p>
           <div class="recognition-links"><a href="https://arxiv.org/abs/2306.11510">Original paper &amp; release history ↗</a><a href="https://arxiv.org/abs/2402.12225">Expanded paper ↗</a><a href="https://argus-3d.github.io/">Project ↗</a><a href="https://github.com/AImind/Argus-3D">Code &amp; models ↗</a><a href="https://huggingface.co/datasets/BAAI/Objaverse-MIX">Objaverse-MIX dataset ↗</a><a href="https://hub.baai.ac.cn/view/27838">BAAI Hub feature · July 2023 ↗</a></div>
+        </div>
+      </li>
+      <li id="pixel2mesh-series" class="media-item">
+        <div class="media-meta">ECCV 2018 · ICCV 2019<time datetime="2018-04-05">First preprint · April 5, 2018</time></div>
+        <div>
+          <h4 id="pixel2mesh"><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh series: from a single RGB image directly to a 3D mesh</a></h4>
+          <p><strong>Pixel2Mesh is the first end-to-end deep learning framework to directly generate a 3D triangular mesh from a single RGB image.</strong> It bypasses the extra conversion from point clouds or voxels to meshes, directly producing a mesh representation for rendering and geometric processing.</p>
+          <p id="pixel2mesh-plusplus">Pixel2Mesh++ (ICCV 2019) extends the series to multi-view mesh generation and refinement, improving geometric detail and consistency across viewpoints.</p>
+          <p><strong>Pixel2Mesh was taught in Stanford University’s CS231n course for three consecutive years (2022–2024).</strong> The 3D vision lectures use Pixel2Mesh to explain learning-based reconstruction of triangle meshes from single RGB images.</p>
+          <p>PaperWeekly published dedicated features on Pixel2Mesh in <time datetime="2018-09-10">September 2018</time> and Pixel2Mesh++ in <time datetime="2019-11-08">November 2019</time>, explaining the direct-mesh breakthrough and its multi-view extension.</p>
+          <div class="recognition-links"><a href="https://cs231n.stanford.edu/slides/2022/lecture_16_jiajun.pdf#page=129">Stanford CS231n · 2022 ↗</a><a href="https://cs231n.stanford.edu/slides/2023/lecture_16.pdf#page=39">Stanford CS231n · 2023 ↗</a><a href="https://cs231n.stanford.edu/slides/2024/lecture_18.pdf#page=47">Stanford CS231n · 2024 ↗</a><a href="https://arxiv.org/abs/1804.01654">Pixel2Mesh paper ↗</a><a href="https://github.com/nywang16/Pixel2Mesh">Pixel2Mesh code &amp; models ↗</a><a href="https://arxiv.org/abs/1908.01491">Pixel2Mesh++ paper ↗</a><a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">Pixel2Mesh++ project &amp; code ↗</a><a href="https://www.sohu.com/a/252979433_500659">PaperWeekly · Pixel2Mesh feature ↗</a><a href="https://www.sohu.com/a/352447127_500659">PaperWeekly · Pixel2Mesh++ feature ↗</a></div>
         </div>
       </li>
     </ul>
@@ -420,6 +420,15 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://alibaba-damo-academy.github.io/Uni3C/">Project ↗</a><a href="https://arxiv.org/abs/2504.14899">Research paper ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.29.0">Official ComfyUI release ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/pull/14946">Native integration ↗</a><a href="https://comfylab.dev/blog/workflows/uni3c-controlnet-camera-control-wan-comfyui/">ComfyLab · Hands-on review ↗</a></div>
         </div>
       </li>
+      <li id="vidcraft3" class="media-item">
+        <div class="media-meta">IEEE TVCG<time datetime="2026-07">July 2026</time></div>
+        <div>
+          <h4><a href="https://sixiaozheng.github.io/VidCRAFT3/">VidCRAFT3: camera, object, and lighting control for video generation</a></h4>
+          <p>VidCRAFT3 is <strong>the first unified image-to-video (I2V) diffusion framework supporting independent and joint control over camera motion, object motion, and lighting direction</strong>, enabling precise control of viewpoint, scene dynamics, and illumination within one model.</p>
+          <p>Discussed in Japanese-language technical commentary by D × MirAI and a research review by The Moonlight.</p>
+          <div class="recognition-links"><a href="https://sixiaozheng.github.io/VidCRAFT3/">Project ↗</a><a href="https://doi.org/10.1109/TVCG.2026.3688720">IEEE TVCG paper ↗</a><a href="https://note.com/life_to_ai/n/n4bb558a626e3">D × MirAI · Technical blog ↗</a><a href="https://www.themoonlight.io/en/review/vidcraft3-camera-object-and-lighting-control-for-image-to-video-generation">The Moonlight review ↗</a></div>
+        </div>
+      </li>
       <li id="versecrafter" class="media-item">
         <div class="media-meta">CVPR 2026 · Ji Qizhixin<time datetime="2026-01-18">January 2026</time></div>
         <div>
@@ -429,39 +438,11 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://sixiaozheng.github.io/VerseCrafter_page/">Project &amp; Blender interface ↗</a><a href="https://arxiv.org/abs/2601.05138">Research paper ↗</a><a href="https://github.com/TencentARC/VerseCrafter">Code &amp; models ↗</a><a href="https://cloud.tencent.com/developer/article/2622259">Ji Qizhixin feature ↗</a></div>
         </div>
       </li>
-      <li id="vidcraft3" class="media-item">
-        <div class="media-meta">IEEE TVCG 2026<br>Research reviews</div>
-        <div>
-          <h4><a href="https://sixiaozheng.github.io/VidCRAFT3/">VidCRAFT3: camera, object, and lighting control for video generation</a></h4>
-          <p>VidCRAFT3 is <strong>the first unified image-to-video (I2V) diffusion framework supporting independent and joint control over camera motion, object motion, and lighting direction</strong>, enabling precise control of viewpoint, scene dynamics, and illumination within one model.</p>
-          <p>Discussed in Japanese-language technical commentary by D × MirAI and a research review by The Moonlight.</p>
-          <div class="recognition-links"><a href="https://sixiaozheng.github.io/VidCRAFT3/">Project ↗</a><a href="https://doi.org/10.1109/TVCG.2026.3688720">IEEE TVCG paper ↗</a><a href="https://note.com/life_to_ai/n/n4bb558a626e3">D × MirAI · Technical blog ↗</a><a href="https://www.themoonlight.io/en/review/vidcraft3-camera-object-and-lighting-control-for-image-to-video-generation">The Moonlight review ↗</a></div>
-        </div>
-      </li>
     </ul>
   </div>
   <div id="embodied-intelligence" class="media-group">
     <h3>Embodied intelligence</h3>
     <ul class="media-list">
-      <li id="tau0-wm" class="media-item">
-        <div class="media-meta">Shanghai Innovation Institute · AGIBOT Finch<time datetime="2026-05-31">May 2026</time></div>
-        <div>
-          <h4><a href="https://tau0-wm.github.io/">τ₀-WM: a unified video-action world model for robotic manipulation</a></h4>
-          <p>I coauthored τ₀-WM, jointly released by Shanghai Innovation Institute and AGIBOT Finch. Pretrained on approximately 27,300 hours of robot and human interaction data, the model unifies video prediction, action generation, and evaluation of action consequences, allowing robots to predict, evaluate, and revise candidate actions before execution.</p>
-          <p><strong>He You, a member of the Chinese Academy of Engineering, featured τ₀-WM in his presentation on intelligent unmanned systems at the Fourth Shanghai Computer Vision Conference (2026).</strong> His slide highlighted its training-data scale and described it at the time as the world’s largest-scale open-source pretrained embodied world model.</p>
-          <p><strong>Featured in Wenhui Daily / Shangguan News, Xinmin Evening News, and QbitAI.</strong> The coverage explains how the model anticipates action consequences and generalizes across tasks; code and model weights are openly available.</p>
-          <div class="recognition-links"><a href="https://tau0-wm.github.io/">Project ↗</a><a href="https://arxiv.org/abs/2606.01027">Research paper ↗</a><a href="https://github.com/sii-research/tau-0-wm">Code &amp; model weights ↗</a><a href="{{ '/assets/media/tau0-wm-he-you-shanghai-computer-vision-conference-2026.jpg' | relative_url }}">He You’s presentation · Photo ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">Institute announcement ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">Wenhui Daily / Shangguan News ↗</a><a href="https://paper.xinmin.cn/html/xmwb/2026-05-31/5/239280.html">Xinmin Evening News · Print edition ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">QbitAI feature ↗</a></div>
-        </div>
-      </li>
-      <li id="schrodinger-navigator" class="media-item">
-        <div class="media-meta">MIT Technology Review China · DeepTech<time datetime="2026-03-25">March 2026</time></div>
-        <div>
-          <h4><a href="https://www.mittrchina.com/news/detail/16139">Schrödinger’s Navigator: letting robots imagine before navigating</a></h4>
-          <p><strong>A novel AI framework for zero-shot object navigation (ZSON), enabling robots to imagine possible futures before acting.</strong> It uses a 3D world model to explore possibilities beyond occlusions, weighing target cues, navigable space, and geometric risks to guide navigation in unfamiliar environments.</p>
-          <p><strong>MIT Technology Review China / DeepTech interviewed me about this research</strong>, including its real-world quadruped demonstrations, the motivation for imagining before navigating, and mentoring students to develop new research frameworks.</p>
-          <div class="recognition-links"><a href="https://www.mittrchina.com/news/detail/16139">MIT Technology Review China / DeepTech · Interview ↗</a><a href="https://arxiv.org/abs/2512.21201">Research paper ↗</a><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/">Project ↗</a></div>
-        </div>
-      </li>
       <li id="pose-vla" class="media-item">
         <div class="media-meta">RSS 2026<time datetime="2026-07">July 2026</time></div>
         <div>
@@ -469,7 +450,7 @@ image: /assets/images/yanwei-fu.png
           <p><strong>Pose-VLA puts universal 3D poses at the core of VLA representation and pretraining.</strong> Discrete pose tokens unify spatial learning from diverse 3D datasets and robot trajectories; pretraining builds transferable geometric priors before these are aligned to a specific robot’s action space. This addresses the gap between semantic recognition and the fine 3D state distinctions that precise actions require.</p>
           <p><strong>Our central message to the embodied AI community: 3D spatial understanding is crucial for embodied foundation models.</strong> Published at Robotics: Science and Systems (RSS) 2026, Pose-VLA demonstrates real-world generalization across diverse objects with <strong>only 100 demonstrations per task</strong>.</p>
           <p>I see a parallel in the recent GPT-6 Astra robot demonstrations documented in <a href="https://wentao.live/blog/astra-and-beyond/">Wentao Zhu’s technical perspective</a>: using a low-level robot SDK, the model plans bimanual coordination, active vision, and error recovery. These developments underscore, through a different approach, the importance of connecting spatial understanding with action.</p>
-          <div class="recognition-links"><a href="https://roboticsproceedings.org/rss22/p145.html">RSS paper ↗</a><a href="https://hetolin.github.io/PoseVLA/">Project &amp; demos ↗</a><a href="https://github.com/hetolin/PoseVLA">Code &amp; models ↗</a></div>
+          <div class="recognition-links"><a href="https://hetolin.github.io/PoseVLA/resources/videos/posevla.mp4">Video · Robot demo ↗</a><a href="https://roboticsproceedings.org/rss22/p145.html">RSS paper ↗</a><a href="https://hetolin.github.io/PoseVLA/">Project &amp; demos ↗</a><a href="https://github.com/hetolin/PoseVLA">Code &amp; models ↗</a></div>
         </div>
       </li>
       <li id="active-vla" class="media-item">
@@ -479,7 +460,35 @@ image: /assets/images/yanwei-fu.png
           <p><strong>ActiveVLA’s core advance is to integrate active perception into precise 3D manipulation, enabling a VLA to decide where to look and how closely to inspect.</strong> It tackles a central limitation of fixed-view VLA approaches: task-critical geometry can be obscured or too small to resolve in the original camera inputs.</p>
           <p>Our novel coarse-to-fine framework combines <strong>task-driven virtual viewpoint selection with active 3D zoom-in</strong>. It first locates the relevant 3D region, then synthesizes informative views and magnifies local geometry before predicting an action, overcoming the viewpoint and resolution constraints of fixed visual inputs.</p>
           <p>I am a co-corresponding author of this CVPR 2026 paper. Evaluations on RLBench, COLOSSEUM, and GemBench, together with real-robot demonstrations, show improved precision and robustness for manipulation in cluttered and occluded scenes.</p>
-          <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">CVPR paper ↗</a><a href="https://arxiv.org/abs/2601.08325">Preprint ↗</a><a href="https://zhenyangliu.github.io/ActiveVLA/">Project &amp; demos ↗</a></div>
+          <div class="recognition-links"><a href="https://zhenyangliu.github.io/ActiveVLA/static/videos/demo.mp4">Video · Project demo ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">CVPR paper ↗</a><a href="https://arxiv.org/abs/2601.08325">Preprint ↗</a><a href="https://zhenyangliu.github.io/ActiveVLA/">Project &amp; demos ↗</a></div>
+        </div>
+      </li>
+      <li id="tau0-wm" class="media-item">
+        <div class="media-meta">Shanghai Innovation Institute · AGIBOT Finch<time datetime="2026-05-31">May 2026</time></div>
+        <div>
+          <h4><a href="https://tau0-wm.github.io/">τ₀-WM: a unified video-action world model for robotic manipulation</a></h4>
+          <p>I coauthored τ₀-WM, jointly released by Shanghai Innovation Institute and AGIBOT Finch. Pretrained on approximately 27,300 hours of robot and human interaction data, the model unifies video prediction, action generation, and evaluation of action consequences, allowing robots to predict, evaluate, and revise candidate actions before execution.</p>
+          <p><strong>He You, a member of the Chinese Academy of Engineering, featured τ₀-WM in his presentation on intelligent unmanned systems at the Fourth Shanghai Computer Vision Conference (2026).</strong> His slide highlighted its training-data scale and described it at the time as the world’s largest-scale open-source pretrained embodied world model.</p>
+          <p><strong>Featured in Wenhui Daily / Shangguan News, Xinmin Evening News, and QbitAI.</strong> The coverage explains how the model anticipates action consequences and generalizes across tasks; code and model weights are openly available.</p>
+          <div class="recognition-links"><a href="https://tau0-wm.github.io/media/tau-0-videos.mp4">Video · Project overview ↗</a><a href="https://tau0-wm.github.io/">Project ↗</a><a href="https://arxiv.org/abs/2606.01027">Research paper ↗</a><a href="https://github.com/sii-research/tau-0-wm">Code &amp; model weights ↗</a><a href="{{ '/assets/media/tau0-wm-he-you-shanghai-computer-vision-conference-2026.jpg' | relative_url }}">He You’s presentation · Photo ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">Institute announcement ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">Wenhui Daily / Shangguan News ↗</a><a href="https://paper.xinmin.cn/html/xmwb/2026-05-31/5/239280.html">Xinmin Evening News · Print edition ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">QbitAI feature ↗</a></div>
+        </div>
+      </li>
+      <li id="schrodinger-navigator" class="media-item">
+        <div class="media-meta">MIT Technology Review China · DeepTech<time datetime="2026-03-25">March 2026</time></div>
+        <div>
+          <h4><a href="https://www.mittrchina.com/news/detail/16139">Schrödinger’s Navigator: letting robots imagine before navigating</a></h4>
+          <p><strong>A novel AI framework for zero-shot object navigation (ZSON), enabling robots to imagine possible futures before acting.</strong> It uses a 3D world model to explore possibilities beyond occlusions, weighing target cues, navigable space, and geometric risks to guide navigation in unfamiliar environments.</p>
+          <p><strong>MIT Technology Review China / DeepTech interviewed me about this research</strong>, including its real-world quadruped demonstrations, the motivation for imagining before navigating, and mentoring students to develop new research frameworks.</p>
+          <div class="recognition-links"><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/static/videos/supp-optimized.mp4">Video · Robot &amp; simulation demos ↗</a><a href="https://www.mittrchina.com/news/detail/16139">MIT Technology Review China / DeepTech · Interview ↗</a><a href="https://arxiv.org/abs/2512.21201">Research paper ↗</a><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/">Project ↗</a></div>
+        </div>
+      </li>
+      <li id="visuo-tactile" class="media-item">
+        <div class="media-meta">WAIC 2025 · Fudan University<time datetime="2025-07-26">July 2025</time></div>
+        <div>
+          <h4><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Visuo-tactile AI sensing: live demonstration to Premier Li Qiang</a></h4>
+          <p>I contributed to the team’s adaptive visuo-tactile AI sensor, demonstrated live to Chinese Premier Li Qiang at WAIC 2025. The work enables delicate robotic handling of fragile objects such as tofu and jelly.</p>
+          <p><strong>China Science Daily / ScienceNet and Wenhui Daily / Shangguan News interviewed me about the technology.</strong> Wenhui’s <time datetime="2025-07-26">July 26, 2025</time> WAIC report discusses the sensing algorithm; China Science Daily’s <time datetime="2025-07-29">July 29 feature</time> covers jelly-grasping and tangyuan-scooping demonstrations and applications in precise sorting and assembly.</p>
+          <div class="recognition-links"><a href="https://www.fudan.edu.cn/2025/0728/c24a146338/page.htm">Fudan · WAIC video report ↗</a><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">China Science Daily / ScienceNet · Feature &amp; interview ↗</a><a href="https://www.jfdaily.com/wx/detail.do?id=953117">Wenhui Daily / Shangguan News · Interview ↗</a><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Premier’s visit &amp; demo ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">Project report ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Shanghai Education News · Interview ↗</a></div>
         </div>
       </li>
       <li id="trivla" class="media-item">
@@ -489,16 +498,7 @@ image: /assets/images/yanwei-fu.png
           <p><strong>TriVLA was first publicly introduced on <time datetime="2025-07-02">July 2, 2025</time> (arXiv v1)</strong>. The initial version already unified world knowledge from a vision-language model, a video world model, and an action policy in a triple-system VLA architecture.</p>
           <p>The <time datetime="2025-10-13">October 13, 2025</time> v3 revision explicitly formalizes episodic world modeling, describing TriVLA as <strong>the first framework to do so within a unified triple-system VLA architecture</strong>, supporting complex instructions and long-horizon robotic manipulation.</p>
           <p>Discussed in a Shenlan Academy video and research reviews by Moonlight and the CSDN developer community.</p>
-          <div class="recognition-links"><a href="https://zhenyangliu.github.io/TriVLA/">Project ↗</a><a href="https://arxiv.org/abs/2507.01424v1">First version · July 2, 2025 ↗</a><a href="https://arxiv.org/abs/2507.01424v3">Episodic world modeling · v3 ↗</a><a href="https://www.bilibili.com/video/BV188u2zQEga/">Shenlan Academy · Video review ↗</a><a href="https://www.themoonlight.io/zh/review/trivla-a-unified-triple-system-based-unified-vision-language-action-model-for-general-robot-control">Moonlight review ↗</a><a href="https://adg.csdn.net/69708e24437a6b40336aaff5.html">CSDN analysis ↗</a></div>
-        </div>
-      </li>
-      <li id="visuo-tactile" class="media-item">
-        <div class="media-meta">WAIC 2025 · Fudan University<time datetime="2025-07-26">July 2025</time></div>
-        <div>
-          <h4><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Visuo-tactile AI sensing: live demonstration to Premier Li Qiang</a></h4>
-          <p>I contributed to the team’s adaptive visuo-tactile AI sensor, demonstrated live to Chinese Premier Li Qiang at WAIC 2025. The work enables delicate robotic handling of fragile objects such as tofu and jelly.</p>
-          <p><strong>China Science Daily / ScienceNet and Wenhui Daily / Shangguan News interviewed me about the technology.</strong> Wenhui’s <time datetime="2025-07-26">July 26, 2025</time> WAIC report discusses the sensing algorithm; China Science Daily’s <time datetime="2025-07-29">July 29 feature</time> covers jelly-grasping and tangyuan-scooping demonstrations and applications in precise sorting and assembly.</p>
-          <div class="recognition-links"><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">China Science Daily / ScienceNet · Feature &amp; interview ↗</a><a href="https://www.jfdaily.com/wx/detail.do?id=953117">Wenhui Daily / Shangguan News · Interview ↗</a><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Premier’s visit &amp; demo ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">Project report ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Shanghai Education News · Interview ↗</a></div>
+          <div class="recognition-links"><a href="https://zhenyangliu.github.io/TriVLA/static/images/demo_video.mp4">Video · Project demo ↗</a><a href="https://zhenyangliu.github.io/TriVLA/">Project ↗</a><a href="https://arxiv.org/abs/2507.01424v1">First version · July 2, 2025 ↗</a><a href="https://arxiv.org/abs/2507.01424v3">Episodic world modeling · v3 ↗</a><a href="https://www.bilibili.com/video/BV188u2zQEga/">Shenlan Academy · Video review ↗</a><a href="https://www.themoonlight.io/zh/review/trivla-a-unified-triple-system-based-unified-vision-language-action-model-for-general-robot-control">Moonlight review ↗</a><a href="https://adg.csdn.net/69708e24437a6b40336aaff5.html">CSDN analysis ↗</a></div>
         </div>
       </li>
       <li id="tamma" class="media-item">
@@ -507,7 +507,7 @@ image: /assets/images/yanwei-fu.png
           <h4><a href="https://jarvishou829.github.io/TaMMa/">TaMMa: precise mobile manipulation across subscenes from sparse observations</a></h4>
           <p><strong>TaMMa addresses a central challenge in mobile manipulation: completing precise, compositional tasks across multiple subscenes from sparse observations.</strong> It connects semantic 3D Gaussian scene priors, diffusion-based depth completion, and Gaussian inpainting to guide the robot from coarse navigation to accurate manipulation poses. By representing the intended arrangement before execution, the framework enables real-robot pouring, stacking, and tidying across separate workspaces.</p>
           <p>The 2025 survey <em>Towards a Unified Understanding of Robot Manipulation</em> discusses TaMMa in its mobile-manipulation section, highlighting sparse Gaussian localization and depth completion as a way to connect 3D scene modeling with accurate target poses.</p>
-          <div class="recognition-links"><a href="https://jarvishou829.github.io/TaMMa/">Project &amp; demos ↗</a><a href="https://proceedings.mlr.press/v270/hou25a.html">CoRL paper · PMLR proceedings ↗</a><a href="https://arxiv.org/html/2510.10903v1#S4.SS6">Independent survey · Mobile manipulation ↗</a></div>
+          <div class="recognition-links"><a href="https://jarvishou829.github.io/TaMMa/resources/images/196_TaMMa_Target_driven_Multi__Spotlight%20Video.mp4">Video · Research overview &amp; demos ↗</a><a href="https://jarvishou829.github.io/TaMMa/">Project &amp; demos ↗</a><a href="https://proceedings.mlr.press/v270/hou25a.html">CoRL paper · PMLR proceedings ↗</a><a href="https://arxiv.org/html/2510.10903v1#S4.SS6">Independent survey · Mobile manipulation ↗</a></div>
         </div>
       </li>
       <li id="polaris" class="media-item">
@@ -516,16 +516,7 @@ image: /assets/images/yanwei-fu.png
           <h4><a href="https://star-uu-wang.github.io/Polaris/">Polaris: connecting open-ended language reasoning with precise 3D manipulation</a></h4>
           <p><strong>Polaris addresses the gap between understanding an open-ended request and obtaining the precise 3D geometry needed to act on it.</strong> It introduces a synthetic-to-real pipeline that trains category-level object pose estimation entirely on rendered data, then connects the pose model with GPT-4 and a pose-based manipulation planner. This combination supports stacking, tidying, and compositional tabletop tasks while reducing reliance on real-world pose annotations.</p>
           <p>The independent 2025 paper <em>Text-guided RGB-P grasp generation</em> discusses Polaris in its review of LLM-based robotic grasping, describing how language interpretation is connected to visual grounding. Polaris provides a concrete example of bringing language reasoning and precise spatial perception together for physical action.</p>
-          <div class="recognition-links"><a href="https://star-uu-wang.github.io/Polaris/">Project &amp; demos ↗</a><a href="https://arxiv.org/abs/2408.07975">Research paper ↗</a><a href="https://peerj.com/articles/cs-3060.pdf">Independent discussion · PeerJ Computer Science ↗</a></div>
-        </div>
-      </li>
-      <li id="wall-e" class="media-item">
-        <div class="media-meta">2023 preprint<time datetime="2023-08-30">First released · August 30, 2023</time></div>
-        <div>
-          <h4><a href="https://star-uu-wang.github.io/WALL-E/">WALL-E: part of the first wave of ChatGPT-based robot systems</a></h4>
-          <p><strong>WALL-E contributed to the first wave of ChatGPT-based robotics research in 2023 by connecting multi-round dialogue, visual grounding, and real robot grasping.</strong> First publicly released on August 30, 2023, it combines ChatGPT’s multi-round preference understanding with 9D visual grounding—6D object pose and 3D size—to convert conversational intent into executable grasps. User feedback after execution lets the dialogue continue with information about the latest action, connecting interaction, spatial perception, and real robot control.</p>
-          <p><strong>UT Dallas's Fall 2023 robot manipulation and navigation course selected WALL-E as a representative reference for language-guided manipulation</strong>, alongside SayCan and Instruct2Act in its project guide. A 2024 survey by researchers at KAIST also includes the work in its discussion of object grounding for LLM-integrated robots.</p>
-          <div class="recognition-links"><a href="https://star-uu-wang.github.io/WALL-E/">Project &amp; demos ↗</a><a href="https://arxiv.org/abs/2308.15962">2023 preprint ↗</a><a href="https://yuxng.github.io/Courses/CS6301Fall2023/CS_6301_Project_Proposal.pdf#page=3">UT Dallas · Course project references ↗</a><a href="https://link.springer.com/article/10.1007/s11370-024-00550-5">KAIST survey · Intelligent Service Robotics ↗</a></div>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=UXtXFkCjIbo">YouTube · Demo ↗</a><a href="https://www.bilibili.com/video/BV1mbesefE71/">Bilibili · Demo ↗</a><a href="https://star-uu-wang.github.io/Polaris/">Project &amp; demos ↗</a><a href="https://arxiv.org/abs/2408.07975">Research paper ↗</a><a href="https://peerj.com/articles/cs-3060.pdf">Independent discussion · PeerJ Computer Science ↗</a></div>
         </div>
       </li>
       <li id="pourit" class="media-item">
@@ -534,34 +525,7 @@ image: /assets/images/yanwei-fu.png
           <h4><a href="https://hetolin.github.io/PourIt/">PourIt!: pioneering single-image 3D liquid perception for robotic pouring</a></h4>
           <p><strong>To our knowledge, PourIt! introduced the first method to perceive and approximately reconstruct the 3D shape of pouring liquid from a single image without temporal information.</strong> Combining the estimated source-container pose with a liquid mask and a gravity-aligned geometric assumption provides visual feedback without directly measuring liquid depth. Image-level “liquid / no liquid” supervision reduces pixel-annotation costs, and the framework runs at 10 Hz in real Franka robot pouring experiments.</p>
           <p>The project releases code and a dedicated dataset. An independent, ongoing <em>IsaacLabPouringExtension</em> project explicitly uses PourIt for image processing in a transparent-liquid pouring task, providing a concrete example of reuse in a subsequent robotics implementation.</p>
-          <div class="recognition-links"><a href="https://arxiv.org/html/2307.11299v1#S1">Original paper · Novelty statement ↗</a><a href="https://hetolin.github.io/PourIt/">Project, dataset &amp; demos ↗</a><a href="https://arxiv.org/abs/2307.11299">Research paper ↗</a><a href="https://github.com/hetolin/PourIt">Code ↗</a><a href="https://github.com/robegi/IsaacLabPouringExtension">Independent reuse · Ongoing Isaac Lab project ↗</a></div>
-        </div>
-      </li>
-      <li id="geovln" class="media-item">
-        <div class="media-meta">CVPR 2023<br>Vision-and-language navigation</div>
-        <div>
-          <h4><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">GeoVLN: making spatial geometry part of language-guided navigation</a></h4>
-          <p><strong>GeoVLN makes spatial geometry and neighboring-view context part of the visual representation used for language-guided navigation.</strong> Predicted depth and surface normals complement RGB appearance, while local slot attention aggregates neighboring views and multiway attention connects instruction phrases with relevant visual features. This strengthens spatial understanding for navigation in unseen environments, extending our embodied research from manipulating objects to moving through scenes.</p>
-          <p>GeoVLN continues to appear in subsequent navigation comparisons: the independent 2026 STE-VLN preprint includes it in its R2R benchmark table. This documents its use as a comparison method in later research.</p>
-          <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">CVPR paper ↗</a><a href="https://arxiv.org/abs/2305.17102">Preprint ↗</a><a href="https://arxiv.org/html/2602.23937v1#S5">Subsequent comparison · STE-VLN preprint ↗</a></div>
-        </div>
-      </li>
-      <li id="sar-net" class="media-item">
-        <div class="media-meta">CVPR 2022<br>Category-level 6D perception</div>
-        <div>
-          <h4><a href="https://hetolin.github.io/SAR-Net/">SAR-Net: a shape-based approach to geometric generalization for robot grasping</a></h4>
-          <p><strong>SAR-Net introduces a shape-based learning approach that transfers category-level 6D pose and size estimation from synthetic training to real objects.</strong> Template alignment encodes rotation, while symmetry-aware shape recovery supports translation and size estimation, reducing dependence on costly real pose annotations. Baxter experiments demonstrate grasping of unseen instances from known categories; the same pose estimator later provides geometric grounding in our PourIt! and WALL-E systems.</p>
-          <p><strong>The independent PACE benchmark (ECCV 2024) includes SAR-Net among its evaluated category-level pose-estimation methods and publishes its baseline results.</strong> This provides direct evidence of external evaluation and establishes SAR-Net as a reference point for later research on pose estimation in cluttered environments.</p>
-          <div class="recognition-links"><a href="https://hetolin.github.io/SAR-Net/">Project &amp; robot demos ↗</a><a href="https://github.com/hetolin/SAR-Net">Code &amp; models ↗</a><a href="https://github.com/qq456cvb/PACE#category-level-pose-estimation">Independent evaluation · PACE, ECCV 2024 ↗</a></div>
-        </div>
-      </li>
-      <li id="sketch-grasping" class="media-item">
-        <div class="media-meta">ICRA 2022<br>Sketch-guided grasping</div>
-        <div>
-          <h4><a href="https://hetolin.github.io/Skt_grasp/">I Know What You Draw: pioneering grasping from freehand object sketches</a></h4>
-          <p><strong>To our knowledge, this was the first robotic method to grasp a target object according to the content depicted in a freehand object sketch.</strong> It turns the object a user draws into a grasping goal, providing an interface when that object is difficult to describe in words. A graph representation preserves stroke structure and supports learning from around 100 hand-drawn examples, with dataset evaluations and real Baxter robot demonstrations.</p>
-          <p><strong>Toyota Frontier Research Center's subsequent Sketch-MoMa work explicitly discusses this paper as prior research on sketch-based object detection and manipulation.</strong> The connection places our ICRA 2022 study in the continuing development of drawing-based interfaces for robot control.</p>
-          <div class="recognition-links"><a href="https://arxiv.org/html/2205.04026v1#S2">Original paper · Novelty statement ↗</a><a href="https://hetolin.github.io/Skt_grasp/">ICRA project &amp; demos ↗</a><a href="https://arxiv.org/abs/2205.04026">Research paper ↗</a><a href="https://arxiv.org/html/2412.19153v1#S2.SS2">Toyota follow-up · Related-work discussion ↗</a><a href="https://toyotafrc.github.io/SketchMoMa-Proj/">Sketch-MoMa project ↗</a></div>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=R5SpiV0658Q">YouTube · Demo ↗</a><a href="https://www.bilibili.com/video/BV1Th4y1L77j/">Bilibili · Demo ↗</a><a href="https://arxiv.org/html/2307.11299v1#S1">Original paper · Novelty statement ↗</a><a href="https://hetolin.github.io/PourIt/">Project, dataset &amp; demos ↗</a><a href="https://arxiv.org/abs/2307.11299">Research paper ↗</a><a href="https://github.com/hetolin/PourIt">Code ↗</a><a href="https://github.com/robegi/IsaacLabPouringExtension">Independent reuse · Ongoing Isaac Lab project ↗</a></div>
         </div>
       </li>
       <li id="language-guided-grasping" class="media-item">
@@ -570,7 +534,25 @@ image: /assets/images/yanwei-fu.png
           <h4><a href="https://arxiv.org/abs/2205.04028">Language-guided grasping: connecting object descriptions with full 6D poses</a></h4>
           <p><strong>As early as 2022, this work connected natural-language grounding with full category-level 6-DoF object poses for real robot grasping.</strong> Names, attributes, and spatial relations identify the target; geometric estimation enables grasping of previously unseen instances from known categories. The contribution is to connect semantic intent with the position and orientation needed for physical action. Our IROS 2023 study further develops this direction with fine-grained instructions for specifying the intended object.</p>
           <p>The independent <em>MaskGrasp</em> study (IROS 2024) cites both papers in its discussion of language-driven grasp detection. Together, these studies form a sustained research direction connecting human instructions with robot perception and action.</p>
-          <div class="recognition-links"><a href="https://baboon527.github.io/lang_6d/">ICRA 2022 · Project &amp; demos ↗</a><a href="https://arxiv.org/abs/2205.04028">ICRA 2022 paper ↗</a><a href="https://doi.org/10.1109/IROS55552.2023.10342331">IROS 2023 paper ↗</a><a href="https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2024_IROS_MaskGrasp.pdf">Independent discussion · MaskGrasp ↗</a><a href="https://www.youtube.com/watch?v=ZaFNIyuoKrw">ICRA 2022 · YouTube robot demo ↗</a><a href="https://www.youtube.com/watch?v=YFxevuItHNQ">ICRA 2022 · YouTube paper video ↗</a><a href="https://sunqiang85.github.io/FLarG/">IROS 2023 · Project &amp; demo video ↗</a></div>
+          <div class="recognition-links"><a href="https://sunqiang85.github.io/FLarG/video/demo.mp4">IROS 2023 · Robot demo video ↗</a><a href="https://baboon527.github.io/lang_6d/">ICRA 2022 · Project &amp; demos ↗</a><a href="https://arxiv.org/abs/2205.04028">ICRA 2022 paper ↗</a><a href="https://doi.org/10.1109/IROS55552.2023.10342331">IROS 2023 paper ↗</a><a href="https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2024_IROS_MaskGrasp.pdf">Independent discussion · MaskGrasp ↗</a><a href="https://www.youtube.com/watch?v=ZaFNIyuoKrw">ICRA 2022 · YouTube robot demo ↗</a><a href="https://www.youtube.com/watch?v=YFxevuItHNQ">ICRA 2022 · YouTube paper video ↗</a><a href="https://sunqiang85.github.io/FLarG/">IROS 2023 · Project &amp; demo video ↗</a></div>
+        </div>
+      </li>
+      <li id="wall-e" class="media-item">
+        <div class="media-meta">2023 preprint<time datetime="2023-08-30">First released · August 30, 2023</time></div>
+        <div>
+          <h4><a href="https://star-uu-wang.github.io/WALL-E/">WALL-E: part of the first wave of ChatGPT-based robot systems</a></h4>
+          <p><strong>WALL-E contributed to the first wave of ChatGPT-based robotics research in 2023 by connecting multi-round dialogue, visual grounding, and real robot grasping.</strong> First publicly released on August 30, 2023, it combines ChatGPT’s multi-round preference understanding with 9D visual grounding—6D object pose and 3D size—to convert conversational intent into executable grasps. User feedback after execution lets the dialogue continue with information about the latest action, connecting interaction, spatial perception, and real robot control.</p>
+          <p><strong>UT Dallas's Fall 2023 robot manipulation and navigation course selected WALL-E as a representative reference for language-guided manipulation</strong>, alongside SayCan and Instruct2Act in its project guide. A 2024 survey by researchers at KAIST also includes the work in its discussion of object grounding for LLM-integrated robots.</p>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=0P6bNYcVNKA">YouTube · Demo ↗</a><a href="https://star-uu-wang.github.io/WALL-E/">Project &amp; demos ↗</a><a href="https://arxiv.org/abs/2308.15962">2023 preprint ↗</a><a href="https://yuxng.github.io/Courses/CS6301Fall2023/CS_6301_Project_Proposal.pdf#page=3">UT Dallas · Course project references ↗</a><a href="https://link.springer.com/article/10.1007/s11370-024-00550-5">KAIST survey · Intelligent Service Robotics ↗</a></div>
+        </div>
+      </li>
+      <li id="geovln" class="media-item">
+        <div class="media-meta">CVPR 2023<br>Vision-and-language navigation</div>
+        <div>
+          <h4><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">GeoVLN: making spatial geometry part of language-guided navigation</a></h4>
+          <p><strong>GeoVLN makes spatial geometry and neighboring-view context part of the visual representation used for language-guided navigation.</strong> Predicted depth and surface normals complement RGB appearance, while local slot attention aggregates neighboring views and multiway attention connects instruction phrases with relevant visual features. This strengthens spatial understanding for navigation in unseen environments, extending our embodied research from manipulating objects to moving through scenes.</p>
+          <p>GeoVLN continues to appear in subsequent navigation comparisons: the independent 2026 STE-VLN preprint includes it in its R2R benchmark table. This documents its use as a comparison method in later research.</p>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=i-WjmcNMnQI">YouTube · CVPR paper video ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">CVPR paper ↗</a><a href="https://arxiv.org/abs/2305.17102">Preprint ↗</a><a href="https://arxiv.org/html/2602.23937v1#S5">Subsequent comparison · STE-VLN preprint ↗</a></div>
         </div>
       </li>
       <li id="smart-bartender" class="media-item">
@@ -582,16 +564,6 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">IEEE Spectrum · ICRA 2023 video selection ↗</a><a href="#robotics-2023">Earlier robotics demonstrations ↓</a><a href="https://www.youtube.com/watch?v=zumlLDaXfMg">YouTube · Smart Bartender demo ↗</a></div>
         </div>
       </li>
-      <li id="autonomous-swab-robot" class="media-item">
-        <div class="media-meta">Shanghai Changning · People.cn<time datetime="2022">2022 · Real-world sampling trials</time></div>
-        <div>
-          <h4><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">Autonomous throat-swab sampling without a mouthpiece</a></h4>
-          <p>I collaborated with Shanghai YOFO (优复博) to develop a robot for throat-swab sampling. Combining AI vision and force control, it <strong>requires no mouthpiece or other contact-based positioning aids, autonomously locates the mouth and collects a throat swab, and underwent real-world trials with no operator needed for the robotic sampling step</strong>.</p>
-          <p><strong>Used for routine employee sampling in Shanghai’s Hongqiao Linkong business park.</strong> Shanghai Changning’s on-site report, republished by People.cn, documented sampling in approximately 30 seconds and employees returning over successive days. The report also noted human assistance with disinfection.</p>
-          <p>The project was <strong>selected among Shanghai’s urban digital transformation achievements and exhibited at the Shanghai Digital Transformation Experience Hall</strong>.</p>
-          <div class="recognition-links"><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">Shanghai Changning · On-site report ↗</a><a href="https://sh.people.com.cn/n2/2022/0709/c134768-40030902.html">People.cn · Republication ↗</a><a href="https://www.gkong.com/news/110248.html">Han’s Robot · Company release ↗</a></div>
-        </div>
-      </li>
       <li id="robotics-2023" class="media-item">
         <div class="media-meta">Fudan School of Data Science<time datetime="2023-02-27">February 2023</time></div>
         <div>
@@ -600,11 +572,48 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://sds.fudan.edu.cn/_t2392/6d/6d/c17423a486765/page.htm">Fudan report · Robotic pouring &amp; gaze interaction ↗</a></div>
         </div>
       </li>
+      <li id="autonomous-swab-robot" class="media-item">
+        <div class="media-meta">Shanghai Changning · People.cn<time datetime="2022">2022 · Real-world sampling trials</time></div>
+        <div>
+          <h4><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">Autonomous throat-swab sampling without a mouthpiece</a></h4>
+          <p>I collaborated with Shanghai YOFO (优复博) to develop a robot for throat-swab sampling. Combining AI vision and force control, it <strong>requires no mouthpiece or other contact-based positioning aids, autonomously locates the mouth and collects a throat swab, and underwent real-world trials with no operator needed for the robotic sampling step</strong>.</p>
+          <p><strong>Used for routine employee sampling in Shanghai’s Hongqiao Linkong business park.</strong> Shanghai Changning’s on-site report, republished by People.cn, documented sampling in approximately 30 seconds and employees returning over successive days. The report also noted human assistance with disinfection.</p>
+          <p>The project was <strong>selected among Shanghai’s urban digital transformation achievements and exhibited at the Shanghai Digital Transformation Experience Hall</strong>.</p>
+          <div class="recognition-links"><a href="https://hetolin.github.io/resources/images/projects/project_nucleic_acid.mp4">Video · 2022 sampling-robot prototype ↗</a><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">Shanghai Changning · On-site report ↗</a><a href="https://sh.people.com.cn/n2/2022/0709/c134768-40030902.html">People.cn · Republication ↗</a><a href="https://www.gkong.com/news/110248.html">Han’s Robot · Company release ↗</a></div>
+        </div>
+      </li>
+      <li id="sar-net" class="media-item">
+        <div class="media-meta">CVPR 2022<br>Category-level 6D perception</div>
+        <div>
+          <h4><a href="https://hetolin.github.io/SAR-Net/">SAR-Net: a shape-based approach to geometric generalization for robot grasping</a></h4>
+          <p><strong>SAR-Net introduces a shape-based learning approach that transfers category-level 6D pose and size estimation from synthetic training to real objects.</strong> Template alignment encodes rotation, while symmetry-aware shape recovery supports translation and size estimation, reducing dependence on costly real pose annotations. Baxter experiments demonstrate grasping of unseen instances from known categories; the same pose estimator later provides geometric grounding in our PourIt! and WALL-E systems.</p>
+          <p><strong>The independent PACE benchmark (ECCV 2024) includes SAR-Net among its evaluated category-level pose-estimation methods and publishes its baseline results.</strong> This provides direct evidence of external evaluation and establishes SAR-Net as a reference point for later research on pose estimation in cluttered environments.</p>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=b4CLMdhJV58">YouTube · Demo ↗</a><a href="https://www.bilibili.com/video/BV1PY4y1k78b/">Bilibili · Demo ↗</a><a href="https://www.bilibili.com/video/BV1ZA4y1S7wk/">Bilibili · Interactive pouring demo ↗</a><a href="https://hetolin.github.io/SAR-Net/">Project &amp; robot demos ↗</a><a href="https://github.com/hetolin/SAR-Net">Code &amp; models ↗</a><a href="https://github.com/qq456cvb/PACE#category-level-pose-estimation">Independent evaluation · PACE, ECCV 2024 ↗</a></div>
+        </div>
+      </li>
+      <li id="sketch-grasping" class="media-item">
+        <div class="media-meta">ICRA 2022<br>Sketch-guided grasping</div>
+        <div>
+          <h4><a href="https://hetolin.github.io/Skt_grasp/">I Know What You Draw: pioneering grasping from freehand object sketches</a></h4>
+          <p><strong>To our knowledge, this was the first robotic method to grasp a target object according to the content depicted in a freehand object sketch.</strong> It turns the object a user draws into a grasping goal, providing an interface when that object is difficult to describe in words. A graph representation preserves stroke structure and supports learning from around 100 hand-drawn examples, with dataset evaluations and real Baxter robot demonstrations.</p>
+          <p><strong>Toyota Frontier Research Center's subsequent Sketch-MoMa work explicitly discusses this paper as prior research on sketch-based object detection and manipulation.</strong> The connection places our ICRA 2022 study in the continuing development of drawing-based interfaces for robot control.</p>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=RIp4g7ibQ9o">YouTube · Demo ↗</a><a href="https://www.bilibili.com/video/BV1xU4y1m7vN/">Bilibili · Demo ↗</a><a href="https://www.bilibili.com/video/BV1ka411J7d6/">Bilibili · Paper presentation ↗</a><a href="https://arxiv.org/html/2205.04026v1#S2">Original paper · Novelty statement ↗</a><a href="https://hetolin.github.io/Skt_grasp/">ICRA project &amp; demos ↗</a><a href="https://arxiv.org/abs/2205.04026">Research paper ↗</a><a href="https://arxiv.org/html/2412.19153v1#S2.SS2">Toyota follow-up · Related-work discussion ↗</a><a href="https://toyotafrc.github.io/SketchMoMa-Proj/">Sketch-MoMa project ↗</a></div>
+        </div>
+      </li>
     </ul>
   </div>
   <div id="egocentric-vision" class="media-group" aria-labelledby="egocentric-vision-title">
     <h3 id="egocentric-vision-title"><span id="egocentric-understanding">Egocentric vision &amp; ego–exo understanding</span></h3>
     <ul class="media-list">
+      <li id="egocross-community" class="media-item">
+        <div class="media-meta">EgoVis @ CVPR 2026<time datetime="2026-08">Challenge report · August 2026</time></div>
+        <div>
+          <h4 id="egocross-challenge"><a href="https://egocross-benchmark.github.io/">EgoCross Challenge: advancing cross-domain egocentric video understanding</a></h4>
+          <p><strong>I co-organized the first EgoCross Challenge at EgoVis, CVPR 2026, and coauthored its technical report.</strong> The challenge evaluates video question answering across surgery, industrial assembly, extreme sports, and animal perspectives.</p>
+          <p>The report records <strong>over 130 participants and over 1,500 submissions</strong>, with public challenge data, baseline code, and winning-team solutions.</p>
+          <div class="recognition-links"><a href="https://egocross-benchmark.github.io/">Challenge &amp; organizer list ↗</a><a href="https://arxiv.org/abs/2608.04589">Challenge report &amp; results ↗</a></div>
+        </div>
+      </li>
       <li id="ego-exo-recognition" class="media-item">
         <div class="media-meta">ICCV 2025 · CVPR 2026<br>Highlight papers</div>
         <div>
@@ -633,49 +642,11 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://arxiv.org/abs/2011.08900">Paper ↗</a><a href="https://wacv2021.thecvf.com/program">WACV Oral program ↗</a></div>
         </div>
       </li>
-      <li id="egocross-community" class="media-item">
-        <div class="media-meta">EgoVis @ CVPR 2026<br>Challenge co-organizer</div>
-        <div>
-          <h4 id="egocross-challenge"><a href="https://egocross-benchmark.github.io/">EgoCross Challenge: advancing cross-domain egocentric video understanding</a></h4>
-          <p><strong>I co-organized the first EgoCross Challenge at EgoVis, CVPR 2026, and coauthored its technical report.</strong> The challenge evaluates video question answering across surgery, industrial assembly, extreme sports, and animal perspectives.</p>
-          <p>The report records <strong>over 130 participants and over 1,500 submissions</strong>, with public challenge data, baseline code, and winning-team solutions.</p>
-          <div class="recognition-links"><a href="https://egocross-benchmark.github.io/">Challenge &amp; organizer list ↗</a><a href="https://arxiv.org/abs/2608.04589">Challenge report &amp; results ↗</a></div>
-        </div>
-      </li>
     </ul>
   </div>
   <div id="brain-decoding" class="media-group">
     <h3>Brain decoding &amp; open research resources</h3>
     <ul class="media-list">
-      <li id="fmri-pte" class="media-item">
-        <div class="media-meta">fMRI pretraining<time datetime="2023-11-01">November 1, 2023</time></div>
-        <div>
-          <h4><a href="https://arxiv.org/abs/2311.00342">fMRI-PTE: large-scale, multi-subject fMRI pretraining</a></h4>
-          <p>To our knowledge, <strong>fMRI-PTE is the first fMRI foundation model pretrained at the scale of approximately 40,000 participants for cross-subject visual brain decoding</strong>. Pretrained on 39,630 UK Biobank participants, it learns shared neural representations for within-subject and cross-subject visual decoding.</p>
-          <p>Our group released the arXiv preprint on <strong><time datetime="2023-11-01">November 1, 2023</time></strong>.</p>
-          <p><strong>In August 2024, <em>Science and Technology Daily</em> described Yanwei Fu’s team as having developed academia’s first pretrained large-scale fMRI model.</strong> The report connected this advance to decoding visual imagination in memories and dreams, and was republished by People.cn and CNR.</p>
-          <div class="recognition-links"><a href="https://arxiv.org/abs/2311.00342">Paper &amp; release history ↗</a><a href="https://arxiv.org/html/2311.00342v1">Method &amp; pretraining scale ↗</a><a href="https://edu.people.com.cn/n1/2024/0805/c1006-40292400.html">Science and Technology Daily · People.cn ↗</a><a href="https://tech.cnr.cn/techyw/kan/20240804/t20240804_526832288.shtml">CNR republication ↗</a><a href="#brain-open-data">Our open brain-signal resources ↓</a></div>
-        </div>
-      </li>
-      <li id="neuropictor" class="media-item">
-        <div class="media-meta">ECCV 2024 · AAAI 2026<br>Independent evaluation</div>
-        <div>
-          <h4><a href="https://arxiv.org/abs/2403.18211">NeuroPictor: leading structural fidelity in an independent evaluation</a></h4>
-          <p>An AAAI 2026 study by University of Cambridge researchers Weihao Xia and Cengiz Öztireli compared 14 brain visual decoding methods on NSD. <strong>NeuroPictor ranked first in structural fidelity (BASIC-L)</strong>, with a score of 25.88.</p>
-          <p>ZEBRA (NeurIPS 2025), from HKUST, builds on NeuroPictor’s unified brain representation and adopts the fMRI-PTE pretrained encoder for zero-shot cross-subject visual decoding.</p>
-          <div class="recognition-links"><a href="https://arxiv.org/abs/2403.18211">NeuroPictor paper ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">AAAI independent evaluation ↗</a><a href="https://arxiv.org/html/2507.07993v2#S4">Results &amp; Table 3 ↗</a><a href="https://arxiv.org/html/2510.27128v1">ZEBRA follow-up research ↗</a></div>
-        </div>
-      </li>
-      <li id="mind3d" class="media-item">
-        <div class="media-meta">ECCV 2024<time datetime="2023-12-12">Preprint · December 12, 2023</time></div>
-        <div>
-          <h4><a href="https://jianxgao.github.io/MinD-3D/">MinD-3D: establishing the fMRI-to-3D reconstruction task</a></h4>
-          <p><strong>Our group first introduced and defined the fMRI-to-3D reconstruction task, Recon3DMind</strong>, and demonstrated its feasibility with MinD-3D. We released <strong>fMRI-Shape, the first dataset pairing fMRI signals with 3D shapes</strong>, collected from 14 participants.</p>
-          <p>The preprint was released on <time datetime="2023-12-12">December 12, 2023</time>, followed by publication at ECCV 2024.</p>
-          <p><strong>Independent studies recognize fMRI-Shape’s pioneering role and use it for further brain-to-3D research.</strong> Neuro-3D (CVPR 2025) identifies it as the first paired fMRI–3D shape dataset; NeuroSculptor3D (AAAI 2026) and BrainGS (CVPR 2026) use it in their experiments. BrainGS also follows MinD-3D’s cross-subject and cross-category evaluation protocols.</p>
-          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">Project ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV paper ↗</a><a href="https://arxiv.org/abs/2312.07485">Preprint &amp; release history ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape dataset ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Neuro-3D_Towards_3D_Visual_Decoding_from_EEG_Signals_CVPR_2025_paper.pdf">Neuro-3D · Recognition of first dataset ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D · Dataset adoption ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jing_More_Natural_More_Real_Object-aware_Gaussian_Splatting_for_3D_Visual_CVPR_2026_paper.pdf">BrainGS · Dataset &amp; protocol adoption ↗</a></div>
-        </div>
-      </li>
       <li id="brain-open-data" class="media-item">
         <div class="media-meta">Fudan-fMRI · Hugging Face<time datetime="2026-10-13">Checked October 13, 2026</time></div>
         <div>
@@ -695,6 +666,24 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://rsipvision.com/CVPR2026-Sunday/">Cover &amp; full issue ↗</a><a href="https://rsipvision.com/CVPR2026-Sunday/10/">Feature article ↗</a><a href="https://www.jiangtongli.me/uploads/papers/2026-CVPR-DynaMind.pdf">DynaMind · Dataset &amp; benchmark adoption ↗</a><a href="https://papers.miccai.org/miccai-2026/0711-Paper4295.html">NeuroSonic · Speech reconstruction ↗</a><a href="https://www.x-techcon.com/article/161149.html">BCI Community · Chinese overview ↗</a></div>
         </div>
       </li>
+      <li id="dream-decoding" class="media-item">
+        <div class="media-meta">fMRI · Dream decoding<time datetime="2026-05">CACM feature · May 2026</time></div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2501.09350">fMRI dream decoding: from neural signals to visual narratives</a></h4>
+          <p>Our exploratory study combines fMRI decoding of dream imagery with language models to construct video narratives.</p>
+          <p>Communications of the ACM featured the work in May 2026, interviewing me about dream decoding and CineBrain. Additional coverage includes a direct ScienceWriters / NASW interview and an Innovando.News feature; Science and Fiction pairs the research with an original short story.</p>
+          <div class="recognition-links"><a href="https://cacm.acm.org/news/decoding-dreams-with-ai/">Communications of the ACM · Feature &amp; interview ↗</a><a href="https://www.nasw.org/article/dream-decoding-what-if-you-could-replay-your-inner-world">ScienceWriters / NASW interview ↗</a><a href="https://innovando.news/sogni-realta-anticipazioni-fantascienza-innovazione/">Innovando.News feature ↗</a><a href="https://scienceandfiction.net/stories/31_dream-oracle/">Science and Fiction · Story &amp; study ↗</a><a href="https://arxiv.org/abs/2501.09350">Research preprint ↗</a></div>
+        </div>
+      </li>
+      <li id="neuropictor" class="media-item">
+        <div class="media-meta">ECCV 2024 · AAAI 2026<br>Independent evaluation</div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2403.18211">NeuroPictor: leading structural fidelity in an independent evaluation</a></h4>
+          <p>An AAAI 2026 study by University of Cambridge researchers Weihao Xia and Cengiz Öztireli compared 14 brain visual decoding methods on NSD. <strong>NeuroPictor ranked first in structural fidelity (BASIC-L)</strong>, with a score of 25.88.</p>
+          <p>ZEBRA (NeurIPS 2025), from HKUST, builds on NeuroPictor’s unified brain representation and adopts the fMRI-PTE pretrained encoder for zero-shot cross-subject visual decoding.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2403.18211">NeuroPictor paper ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">AAAI independent evaluation ↗</a><a href="https://arxiv.org/html/2507.07993v2#S4">Results &amp; Table 3 ↗</a><a href="https://arxiv.org/html/2510.27128v1">ZEBRA follow-up research ↗</a></div>
+        </div>
+      </li>
       <li id="eeg-grasping" class="media-item">
         <div class="media-meta">Fudan Technology Transfer Center<time datetime="2025-06-05">June 5, 2025</time></div>
         <div>
@@ -703,13 +692,24 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://fdzhuanyi.fudan.edu.cn/46/fe/c40933a739070/page.htm">Fudan Technology Transfer Center · Event report ↗</a></div>
         </div>
       </li>
-      <li id="dream-decoding" class="media-item">
-        <div class="media-meta">fMRI · Dream decoding</div>
+      <li id="mind3d" class="media-item">
+        <div class="media-meta">ECCV 2024<time datetime="2023-12-12">Preprint · December 12, 2023</time></div>
         <div>
-          <h4><a href="https://arxiv.org/abs/2501.09350">fMRI dream decoding: from neural signals to visual narratives</a></h4>
-          <p>Our exploratory study combines fMRI decoding of dream imagery with language models to construct video narratives.</p>
-          <p>Communications of the ACM featured the work in May 2026, interviewing me about dream decoding and CineBrain. Additional coverage includes a direct ScienceWriters / NASW interview and an Innovando.News feature; Science and Fiction pairs the research with an original short story.</p>
-          <div class="recognition-links"><a href="https://cacm.acm.org/news/decoding-dreams-with-ai/">Communications of the ACM · Feature &amp; interview ↗</a><a href="https://www.nasw.org/article/dream-decoding-what-if-you-could-replay-your-inner-world">ScienceWriters / NASW interview ↗</a><a href="https://innovando.news/sogni-realta-anticipazioni-fantascienza-innovazione/">Innovando.News feature ↗</a><a href="https://scienceandfiction.net/stories/31_dream-oracle/">Science and Fiction · Story &amp; study ↗</a><a href="https://arxiv.org/abs/2501.09350">Research preprint ↗</a></div>
+          <h4><a href="https://jianxgao.github.io/MinD-3D/">MinD-3D: establishing the fMRI-to-3D reconstruction task</a></h4>
+          <p><strong>Our group first introduced and defined the fMRI-to-3D reconstruction task, Recon3DMind</strong>, and demonstrated its feasibility with MinD-3D. We released <strong>fMRI-Shape, the first dataset pairing fMRI signals with 3D shapes</strong>, collected from 14 participants.</p>
+          <p>The preprint was released on <time datetime="2023-12-12">December 12, 2023</time>, followed by publication at ECCV 2024.</p>
+          <p><strong>Independent studies recognize fMRI-Shape’s pioneering role and use it for further brain-to-3D research.</strong> Neuro-3D (CVPR 2025) identifies it as the first paired fMRI–3D shape dataset; NeuroSculptor3D (AAAI 2026) and BrainGS (CVPR 2026) use it in their experiments. BrainGS also follows MinD-3D’s cross-subject and cross-category evaluation protocols.</p>
+          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">Project ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV paper ↗</a><a href="https://arxiv.org/abs/2312.07485">Preprint &amp; release history ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape dataset ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Neuro-3D_Towards_3D_Visual_Decoding_from_EEG_Signals_CVPR_2025_paper.pdf">Neuro-3D · Recognition of first dataset ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D · Dataset adoption ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jing_More_Natural_More_Real_Object-aware_Gaussian_Splatting_for_3D_Visual_CVPR_2026_paper.pdf">BrainGS · Dataset &amp; protocol adoption ↗</a></div>
+        </div>
+      </li>
+      <li id="fmri-pte" class="media-item">
+        <div class="media-meta">fMRI pretraining<time datetime="2023-11-01">November 1, 2023</time></div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2311.00342">fMRI-PTE: large-scale, multi-subject fMRI pretraining</a></h4>
+          <p>To our knowledge, <strong>fMRI-PTE is the first fMRI foundation model pretrained at the scale of approximately 40,000 participants for cross-subject visual brain decoding</strong>. Pretrained on 39,630 UK Biobank participants, it learns shared neural representations for within-subject and cross-subject visual decoding.</p>
+          <p>Our group released the arXiv preprint on <strong><time datetime="2023-11-01">November 1, 2023</time></strong>.</p>
+          <p><strong>In August 2024, <em>Science and Technology Daily</em> described Yanwei Fu’s team as having developed academia’s first pretrained large-scale fMRI model.</strong> The report connected this advance to decoding visual imagination in memories and dreams, and was republished by People.cn and CNR.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2311.00342">Paper &amp; release history ↗</a><a href="https://arxiv.org/html/2311.00342v1">Method &amp; pretraining scale ↗</a><a href="https://edu.people.com.cn/n1/2024/0805/c1006-40292400.html">Science and Technology Daily · People.cn ↗</a><a href="https://tech.cnr.cn/techyw/kan/20240804/t20240804_526832288.shtml">CNR republication ↗</a><a href="#brain-open-data">Our open brain-signal resources ↓</a></div>
         </div>
       </li>
     </ul>
