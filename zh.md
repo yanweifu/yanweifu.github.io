@@ -585,6 +585,16 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">IEEE Spectrum · ICRA 2023 视频精选 ↗</a><a href="#robotics-2023">早期机器人系统展示 ↓</a><a href="https://www.youtube.com/watch?v=zumlLDaXfMg">YouTube · Smart Bartender 演示 ↗</a></div>
         </div>
       </li>
+      <li id="autonomous-swab-robot" class="media-item">
+        <div class="media-meta">上海长宁 · 人民网<time datetime="2022">2022 年 · 真实场景采样试用</time></div>
+        <div>
+          <h4><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">无需咬口器的自主核酸采样机器人</a></h4>
+          <p>我与上海优复博合作研发核酸采样机器人，融合 AI 视觉感知与力控技术，<strong>无需咬口器等接触式定位辅助器材，自主完成口腔定位与咽拭子采样，在真实场景中开展采样环节无人值守的实际试用</strong>。</p>
+          <p><strong>机器人在上海虹桥临空园区为员工提供日常采样服务。</strong>上海长宁现场报道、人民网转载记录了约 30 秒完成采样，以及员工连续多日使用的真实试用情况；报道同时记载了人工辅助消杀。</p>
+          <p>成果<strong>入选上海城市数字化转型成果，并在上海城市数字化转型体验馆展出</strong>。</p>
+          <div class="recognition-links"><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">上海长宁 · 现场报道 ↗</a><a href="https://sh.people.com.cn/n2/2022/0709/c134768-40030902.html">人民网 · 转载报道 ↗</a><a href="https://www.gkong.com/news/110248.html">大族机器人 · 公司供稿 ↗</a></div>
+        </div>
+      </li>
       <li id="robotics-2023" class="media-item">
         <div class="media-meta">复旦大学大数据学院<time datetime="2023-02-27">2023 年 2 月</time></div>
         <div>

@@ -582,6 +582,16 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">IEEE Spectrum · ICRA 2023 video selection ↗</a><a href="#robotics-2023">Earlier robotics demonstrations ↓</a><a href="https://www.youtube.com/watch?v=zumlLDaXfMg">YouTube · Smart Bartender demo ↗</a></div>
         </div>
       </li>
+      <li id="autonomous-swab-robot" class="media-item">
+        <div class="media-meta">Shanghai Changning · People.cn<time datetime="2022">2022 · Real-world sampling trials</time></div>
+        <div>
+          <h4><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">Autonomous throat-swab sampling without a mouthpiece</a></h4>
+          <p>I collaborated with Shanghai YOFO (优复博) to develop a robot for throat-swab sampling. Combining AI vision and force control, it <strong>requires no mouthpiece or other contact-based positioning aids, autonomously locates the mouth and collects a throat swab, and underwent real-world trials with no operator needed for the robotic sampling step</strong>.</p>
+          <p><strong>Used for routine employee sampling in Shanghai’s Hongqiao Linkong business park.</strong> Shanghai Changning’s on-site report, republished by People.cn, documented sampling in approximately 30 seconds and employees returning over successive days. The report also noted human assistance with disinfection.</p>
+          <p>The project was <strong>selected among Shanghai’s urban digital transformation achievements and exhibited at the Shanghai Digital Transformation Experience Hall</strong>.</p>
+          <div class="recognition-links"><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">Shanghai Changning · On-site report ↗</a><a href="https://sh.people.com.cn/n2/2022/0709/c134768-40030902.html">People.cn · Republication ↗</a><a href="https://www.gkong.com/news/110248.html">Han’s Robot · Company release ↗</a></div>
+        </div>
+      </li>
       <li id="robotics-2023" class="media-item">
         <div class="media-meta">Fudan School of Data Science<time datetime="2023-02-27">February 2023</time></div>
         <div>
