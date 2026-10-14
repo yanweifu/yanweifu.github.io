@@ -595,7 +595,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div class="media-meta">WAIC 2025 · 复旦大学<time datetime="2025-07-26">2025 年 7 月</time></div>
         <div>
           <h4><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">视触觉 AI 传感器：WAIC 2025 向国务院总理李强现场演示</a></h4>
-          <p>我作为团队成员参与研发的自适应视触觉 AI 传感器，在 WAIC 2025 向国务院总理李强进行了现场演示，展示机器人对豆腐、果冻等易碎物体的精细抓取能力。</p>
+          <p>我作为团队成员参与研发的自适应视触觉 AI 传感器，在 <strong>WAIC 2025“镇馆之宝——WAIC 里机器人技能大舞台”的核心中央展区进行了现场 demo，并向国务院总理李强现场演示</strong>，展示机器人对豆腐、果冻等易碎物体的精细抓取能力。</p>
           <p><strong>《中国科学报》／科学网及《文汇报》／上观新闻均就这项技术采访了我。</strong>《文汇报》于 <time datetime="2025-07-26">2025 年 7 月 26 日</time>的 WAIC 现场报道介绍了视触觉感知算法；《中国科学报》<time datetime="2025-07-29">7 月 29 日的专题报道</time>介绍抓果冻、舀汤圆等演示，以及精细分拣与精密装配中的应用前景。</p>
           <div class="recognition-links"><a href="https://www.fudan.edu.cn/2025/0728/c24a146338/page.htm">复旦 · WAIC 视频报道 ↗</a><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">《中国科学报》／科学网 · 专题与采访 ↗</a><a href="https://www.jfdaily.com/wx/detail.do?id=953117">《文汇报》／上观新闻 · 采访 ↗</a><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">总理参观与现场演示 ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">项目报道 ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">上海教育新闻网 · 采访 ↗</a></div>
         </div>
@@ -603,8 +603,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="trivla" class="media-item">
         <div class="media-meta">复旦大学 · 上海创智学院<time datetime="2025-07-02">首次公开 · 2025 年 7 月 2 日</time></div>
         <div>
-          <h4><a href="https://zhenyangliu.github.io/TriVLA/">TriVLA：融合世界知识与世界模型的三系统 VLA</a></h4>
-          <p><strong>TriVLA 于 <time datetime="2025-07-02">2025 年 7 月 2 日</time>首次公开（arXiv v1）</strong>，首版即提出融合视觉语言模型的世界知识、视频世界模型与动作策略的统一三系统 VLA 架构。</p>
+          <h4><a href="https://zhenyangliu.github.io/TriVLA/">TriVLA：System 1／2／3 三系统中世界模型与 VLA 的深度融合</a></h4>
+          <p><strong>据我们所知，TriVLA 首次在统一的 System 1／System 2／System 3 三系统 VLA 架构中，将世界模型与视觉语言动作模型进行深度融合。</strong>于 <time datetime="2025-07-02">2025 年 7 月 2 日</time>首次公开的版本中，System 1 负责实时动作生成，System 2 提供视觉语言理解与世界知识，System 3 通过视频世界模型预测未来动态；动作策略联合使用后两者的表征，使机器人既能理解复杂意图，也能预判操作后果，完成长时程任务。</p>
           <p><time datetime="2025-10-13">2025 年 10 月 13 日</time>的 v3 更新稿进一步明确情景世界模型的形式化：<strong>首个在统一三系统 VLA 架构中形式化构建情景世界模型的框架</strong>，支撑复杂指令理解和长时程机器人操作。</p>
           <p>研究获得深蓝学院视频解读，以及 Moonlight 和 CSDN 开发者社区的论文评述与技术解析。</p>
           <div class="recognition-links"><a href="https://zhenyangliu.github.io/TriVLA/static/images/demo_video.mp4">视频 · 项目演示 ↗</a><a href="https://zhenyangliu.github.io/TriVLA/">项目主页 ↗</a><a href="https://arxiv.org/abs/2507.01424v1">首发版本 · 2025 年 7 月 2 日 ↗</a><a href="https://arxiv.org/abs/2507.01424v3">情景世界模型 · v3 更新稿 ↗</a><a href="https://www.bilibili.com/video/BV188u2zQEga/">深蓝学院 · 视频解读 ↗</a><a href="https://www.themoonlight.io/zh/review/trivla-a-unified-triple-system-based-unified-vision-language-action-model-for-general-robot-control">Moonlight 论文评述 ↗</a><a href="https://adg.csdn.net/69708e24437a6b40336aaff5.html">CSDN 技术解析 ↗</a></div>
@@ -632,7 +632,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="polaris" class="media-item">
         <div class="media-meta">IROS 2024<br>开放式交互与虚实迁移</div>
         <div>
-          <h4><a href="https://star-uu-wang.github.io/Polaris/">Polaris：打通开放式语言推理与精确三维操作</a></h4>
+          <h4><a href="https://star-uu-wang.github.io/Polaris/">Polaris：2024 年公开展示 GPT 调用技能库完成长程复杂任务</a></h4>
+          <p><strong>Polaris 于 2024 年首次向学术界公开展示其“基础能力封装为 skill 技能库，再由 GPT 大模型调用”的机器人操作框架。</strong>框架将感知定位、抓取、放置、递交、堆叠与整理等能力组织为可组合的技能，由 GPT-4 理解开放式指令并协调调用，结合精确六自由度位姿与操作规划，在真实机器人上完成多步骤、长程复杂任务。</p>
           <p><strong>Polaris 面向语言驱动机器人的关键问题：如何将开放式交互落实为物理操作所需的精确几何信息。</strong>工作提出合成到真实的类别级位姿估计流程，仅用渲染数据训练位姿模型，再与 GPT-4 和基于位姿的操作规划器结合，在降低真实位姿标注需求的同时，支持真实桌面场景中的堆叠、整理与组合操作，将语言意图理解与三维动作执行衔接起来。</p>
           <p>真实机器人实验展示了堆叠瓶子、整理工作台，以及场景受到碰撞后继续交互并完成组合任务。后续《Text-guided RGB-P grasp generation》研究在相关工作中讨论 Polaris，介绍其结合大语言模型与合成到真实视觉定位、支持开放式交互操作的思路。</p>
           <div class="recognition-links"><a href="https://www.youtube.com/watch?v=UXtXFkCjIbo">YouTube · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1mbesefE71/">B站 · 演示 ↗</a><a href="https://star-uu-wang.github.io/Polaris/">项目与真实机器人演示 ↗</a><a href="https://arxiv.org/abs/2408.07975">研究论文 ↗</a><a href="https://peerj.com/articles/cs-3060.pdf">PeerJ Computer Science · 后续研究讨论 ↗</a></div>
@@ -659,8 +660,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="wall-e" class="media-item">
         <div class="media-meta">LLM 机器人交互<time datetime="2023-08-30">预印本 · 2023 年 8 月 30 日</time></div>
         <div>
-          <h4><a href="https://arxiv.org/abs/2308.15962">WALL-E：2023 年 ChatGPT 机器人系统的首批探索之一</a></h4>
-          <p><strong>WALL-E 是 2023 年首批将 ChatGPT 多轮对话与视觉定位结合、用于真实机器人抓取的研究之一。</strong>首篇公开预印本于 2023 年 8 月 30 日发布。工作将 ChatGPT 的多轮偏好理解与 9D 视觉定位——6D 物体位姿和三维尺寸——结合，把对话中的用户意图转化为可执行抓取，并引入执行后的用户反馈，让后续交流能够结合最近一次动作的结果，将语言交互、空间感知与真实机器人控制连接起来。</p>
+          <h4><a href="https://arxiv.org/abs/2308.15962">WALL-E：将 ChatGPT 多轮对话与 9D 视觉定位结合的先驱系统</a></h4>
+          <p><strong>据我们所知，WALL-E 是首个将 ChatGPT 多轮偏好对话与 9D 视觉定位相结合、用于真实机器人抓取的系统。</strong>首篇公开预印本于 2023 年 8 月 30 日发布。工作将 ChatGPT 的多轮偏好理解与 9D 视觉定位——6D 物体位姿和三维尺寸——结合，把对话中的用户意图转化为可执行抓取，并引入执行后的用户反馈，让后续交流能够结合最近一次动作的结果，将语言交互、空间感知与真实机器人控制连接起来。</p>
           <p><strong>入选得克萨斯大学达拉斯分校 CS 6301（2023 年秋季）课程项目指南的代表性参考文献</strong>，与 SayCan、Instruct2Act 一同列于“语言引导操作”主题。KAIST 研究者发表于《Intelligent Service Robotics》的大语言模型与智能机器人综述，也在物体定位部分引用该工作，讨论语言信息与视觉感知的连接。</p>
           <div class="recognition-links"><a href="https://www.youtube.com/watch?v=0P6bNYcVNKA">YouTube · 演示 ↗</a><a href="https://star-uu-wang.github.io/WALL-E/">项目与机器人演示 ↗</a><a href="https://arxiv.org/abs/2308.15962">预印本与首次公开时间 ↗</a><a href="https://yuxng.github.io/Courses/CS6301Fall2023/CS_6301_Project_Proposal.pdf#page=3">UT Dallas · 课程项目参考文献 ↗</a><a href="https://link.springer.com/article/10.1007/s11370-024-00550-5">KAIST 研究者的机器人综述 ↗</a></div>
         </div>
@@ -668,8 +669,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="smart-bartender" class="media-item">
         <div class="media-meta">IEEE Spectrum<br>ICRA 2023 机器人视频精选</div>
         <div>
-          <h4><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">Smart Bartender：通过眼动交互理解意图并提供饮料</a></h4>
-          <p>我们的 Smart Bartender 让用户通过注视选择饮料。系统结合眼动跟随、类别级物体位姿估计与运动规划，识别用户选中的瓶子，完成抓取和倒饮料，并泛化至训练时未见过的瓶子与杯子。</p>
+          <h4><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">Smart Bartender（智慧酒保）：看懂你的眼神，就知道你想喝什么</a></h4>
+          <p><strong>我们的 Smart Bartender（智慧酒保）看懂你的眼神，就知道你想喝什么酒或饮料。</strong>用户只需注视目标饮料，机器人便通过眼动跟随识别所选瓶子，结合类别级物体位姿估计与运动规划，完成抓取和倒饮料，并泛化至训练时未见过的瓶子与杯子。</p>
           <p><strong>入选 IEEE Spectrum 的 Video Friday 栏目 ICRA 2023 机器人视频精选。</strong>该编辑精选收录了演示，并列明复旦大学团队及作者。</p>
           <div class="recognition-links"><a href="https://spectrum.ieee.org/video-friday-autonomous-car-drifting">IEEE Spectrum · ICRA 2023 视频精选 ↗</a><a href="#robotics-2023">早期机器人系统展示 ↓</a><a href="https://www.youtube.com/watch?v=zumlLDaXfMg">YouTube · Smart Bartender 演示 ↗</a></div>
         </div>
@@ -687,18 +688,20 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div>
           <h4><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">无需咬口器的自主核酸采样机器人</a></h4>
           <p>我与上海优复博合作研发核酸采样机器人，融合 AI 视觉感知与力控技术，<strong>无需咬口器等接触式定位辅助器材，自主完成口腔定位与咽拭子采样，在真实场景中开展采样环节无人值守的实际试用</strong>。</p>
+          <p><strong>据我们所知，这是上海市 2022 年唯一真正投入实际使用的核酸采样机器人。</strong></p>
           <p><strong>机器人在上海虹桥临空园区为员工提供日常采样服务。</strong>上海长宁现场报道、人民网转载记录了约 30 秒完成采样，以及员工连续多日使用的真实试用情况；报道同时记载了人工辅助消杀。</p>
           <p>成果<strong>入选上海城市数字化转型成果，并在上海城市数字化转型体验馆展出</strong>。</p>
           <div class="recognition-links"><a href="https://hetolin.github.io/resources/images/projects/project_nucleic_acid.mp4">视频 · 2022 年采样机器人原型 ↗</a><a href="https://www.shcn.gov.cn/col3991/20220711/1218080.html">上海长宁 · 现场报道 ↗</a><a href="https://sh.people.com.cn/n2/2022/0709/c134768-40030902.html">人民网 · 转载报道 ↗</a><a href="https://www.gkong.com/news/110248.html">大族机器人 · 公司供稿 ↗</a></div>
         </div>
       </li>
       <li id="sar-net" class="media-item">
-        <div class="media-meta">CVPR 2022<br>类别级三维位姿与尺寸估计</div>
+        <div class="media-meta">CVPR 2022<br>F2G-Pose · NeurIPS 2026</div>
         <div>
-          <h4><a href="https://hetolin.github.io/SAR-Net/">SAR-Net：以形状学习推动机器人抓取的几何泛化</a></h4>
+          <h4><a href="https://hetolin.github.io/SAR-Net/">SAR-Net／F2G-Pose：从形状学习到类别级 6D 位姿估计大模型</a></h4>
           <p><strong>SAR-Net 提出以形状对齐与对称恢复为核心的类别级六自由度位姿和尺寸估计方法，让合成数据训练的位姿模型迁移到真实物体。</strong>通过类别模板对齐推断旋转、对称形状恢复估计位置与尺寸，降低对高成本真实位姿标注的依赖。Baxter 实验验证了对已知类别中未见实例的抓取；其位姿估计器还为后续 PourIt! 和 WALL-E 系统提供几何定位基础。</p>
+          <p><strong>SAR-Net 的后续工作 F2G-Pose 将这一研究路线推进到基础模型驱动的类别级 6D 位姿估计。</strong><em>F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation</em>（Jinyu Zhang、Haitao Lin、Jiashu Hou、Xiangyang Xue、Yanwei Fu，NeurIPS 2026）将视觉基础模型特征提升到三维几何空间，从 RGB-D 观测直接预测物体位姿、尺寸与完整形状。<strong>我们将开源据我们所知学术界最大的类别级 6D 位姿估计大模型。</strong></p>
           <p><strong>被独立团队纳入 PACE（ECCV 2024）基准的类别级位姿评测。</strong>PACE 在复杂、杂乱的真实场景中比较包括 SAR-Net 在内的方法，并公开其预测结果供下载与复现，使这项研究成为后续检验位姿估计泛化能力的比较对象。</p>
-          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=b4CLMdhJV58">YouTube · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1PY4y1k78b/">B站 · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1ZA4y1S7wk/">B站 · 人机交互倒水演示 ↗</a><a href="https://hetolin.github.io/SAR-Net/">项目与机器人抓取演示 ↗</a><a href="https://github.com/hetolin/SAR-Net">开放代码与模型 ↗</a><a href="https://github.com/qq456cvb/PACE#category-level-pose-estimation">PACE · 独立评测与预测结果 ↗</a></div>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=b4CLMdhJV58">YouTube · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1PY4y1k78b/">B站 · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1ZA4y1S7wk/">B站 · 人机交互倒水演示 ↗</a><a href="https://hetolin.github.io/SAR-Net/">项目与机器人抓取演示 ↗</a><a href="https://github.com/hetolin/SAR-Net">开放代码与模型 ↗</a><a href="https://github.com/qq456cvb/PACE#category-level-pose-estimation">PACE · 独立评测与预测结果 ↗</a><a href="https://jrryzh.github.io/F2G-Pose/">F2G-Pose · 项目主页 ↗</a><a href="https://github.com/jrryzh/F2G-Pose">F2G-Pose · 代码与模型 ↗</a><a href="https://jrryzh.github.io/F2G-Pose/media/film.mp4">F2G-Pose · 演示视频 ↗</a></div>
         </div>
       </li>
       <li id="sketch-grasping" class="media-item">
@@ -706,7 +709,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <div>
           <h4><a href="https://hetolin.github.io/Skt_grasp/">I Know What You Draw：开创由手绘物体内容指定目标抓取的方法</a></h4>
           <p><strong>据我们所知，这是首个依据手绘物体草图所描绘的内容来指定目标并完成抓取的机器人方法。</strong>它把用户“画了什么”转化为抓取目标，为难以用语言描述物体的情形提供交互方式。方法以图结构保留笔画关系，支持从约 100 幅手绘样本学习，并在数据集与真实 Baxter 机器人上验证了草图意图到物理抓取的连接。</p>
-          <p><strong>丰田 Frontier Research Center 参与的 Sketch-MoMa（ICRA 2025）在相关工作中明确引用并讨论这项研究。</strong>该论文将其作为通过手绘物体草图检测并操作目标的先前工作，进一步探索用草图控制移动机械臂的导航与操作。</p>
+          <p><strong>这项工作启发了丰田 Frontier Research Center 参与的 Sketch-MoMa（ICRA 2025），进一步探索用草图控制移动机械臂的导航与操作。</strong></p>
           <div class="recognition-links"><a href="https://www.youtube.com/watch?v=RIp4g7ibQ9o">YouTube · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1xU4y1m7vN/">B站 · 演示 ↗</a><a href="https://www.bilibili.com/video/BV1ka411J7d6/">B站 · 论文介绍 ↗</a><a href="https://arxiv.org/html/2205.04026v1#S2">原论文 · 创新与优先性表述 ↗</a><a href="https://hetolin.github.io/Skt_grasp/">项目与机器人演示 ↗</a><a href="https://arxiv.org/abs/2205.04026">研究论文 ↗</a><a href="https://arxiv.org/html/2412.19153v1#S2.SS2">Sketch-MoMa · 对本工作的讨论 ↗</a><a href="https://toyotafrc.github.io/SketchMoMa-Proj/">丰田 Sketch-MoMa 项目 ↗</a></div>
         </div>
       </li>
