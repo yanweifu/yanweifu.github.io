@@ -501,6 +501,78 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">China Science Daily / ScienceNet · Feature &amp; interview ↗</a><a href="https://www.jfdaily.com/wx/detail.do?id=953117">Wenhui Daily / Shangguan News · Interview ↗</a><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">Premier’s visit &amp; demo ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">Project report ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">Shanghai Education News · Interview ↗</a></div>
         </div>
       </li>
+      <li id="tamma" class="media-item">
+        <div class="media-meta">CoRL 2024<br>PMLR proceedings · 2025</div>
+        <div>
+          <h4><a href="https://jarvishou829.github.io/TaMMa/">TaMMa: connecting navigation with precise manipulation across subscenes</a></h4>
+          <p><strong>TaMMa extends robotic manipulation across multiple tabletop subscenes, coordinating a mobile base with a robotic arm.</strong> A semantic 3D Gaussian representation first locates the target and guides the robot toward it; depth completion then refines local geometry and object poses. Gaussian inpainting represents the intended arrangement before execution, supporting real-robot pouring, stacking, and tidying tasks.</p>
+          <p>The 2025 survey <em>Towards a Unified Understanding of Robot Manipulation</em> discusses TaMMa in its mobile-manipulation section, highlighting sparse Gaussian localization and depth completion as a way to connect 3D scene modeling with accurate target poses.</p>
+          <div class="recognition-links"><a href="https://jarvishou829.github.io/TaMMa/">Project &amp; demos ↗</a><a href="https://proceedings.mlr.press/v270/hou25a.html">CoRL paper · PMLR proceedings ↗</a><a href="https://arxiv.org/html/2510.10903v1#S4.SS6">Independent survey · Mobile manipulation ↗</a></div>
+        </div>
+      </li>
+      <li id="polaris" class="media-item">
+        <div class="media-meta">IROS 2024<br>Interactive robot manipulation</div>
+        <div>
+          <h4><a href="https://star-uu-wang.github.io/Polaris/">Polaris: grounding open-ended dialogue in real robot actions</a></h4>
+          <p><strong>Polaris combines GPT-4 interaction with category-level 6D pose estimation trained on synthetic data to perform real tabletop manipulation.</strong> It connects users' open-ended requests to the geometry needed for grasping and placement, including stacking, tidying, and compositional tasks that account for object affordances. This develops our earlier dialogue-guided grasping work toward richer scene interaction.</p>
+          <p>The independent 2025 paper <em>Text-guided RGB-P grasp generation</em> discusses Polaris in its review of LLM-based robotic grasping, describing how language interpretation is connected to visual grounding. Polaris provides a concrete example of bringing language reasoning and precise spatial perception together for physical action.</p>
+          <div class="recognition-links"><a href="https://star-uu-wang.github.io/Polaris/">Project &amp; demos ↗</a><a href="https://arxiv.org/abs/2408.07975">Research paper ↗</a><a href="https://peerj.com/articles/cs-3060.pdf">Independent discussion · PeerJ Computer Science ↗</a></div>
+        </div>
+      </li>
+      <li id="wall-e" class="media-item">
+        <div class="media-meta">2023 preprint<time datetime="2023-08-30">First released · August 30, 2023</time></div>
+        <div>
+          <h4><a href="https://star-uu-wang.github.io/WALL-E/">WALL-E: from multi-round dialogue to visually grounded robot grasping</a></h4>
+          <p><strong>WALL-E connects ChatGPT dialogue with visual grounding, object pose and size estimation, and physical robot grasping.</strong> Through successive exchanges, the system turns a user's preferences into a target instruction, locates the corresponding object, and executes the grasp. Publicly released in August 2023, it documents our early exploration of language models as an interface to a real robot.</p>
+          <p><strong>UT Dallas's Fall 2023 robot manipulation and navigation course selected WALL-E as a representative reference for language-guided manipulation</strong>, alongside SayCan and Instruct2Act in its project guide. A 2024 survey by researchers at KAIST also includes the work in its discussion of object grounding for LLM-integrated robots.</p>
+          <div class="recognition-links"><a href="https://star-uu-wang.github.io/WALL-E/">Project &amp; demos ↗</a><a href="https://arxiv.org/abs/2308.15962">2023 preprint ↗</a><a href="https://yuxng.github.io/Courses/CS6301Fall2023/CS_6301_Project_Proposal.pdf#page=3">UT Dallas · Course project references ↗</a><a href="https://link.springer.com/article/10.1007/s11370-024-00550-5">KAIST survey · Intelligent Service Robotics ↗</a></div>
+        </div>
+      </li>
+      <li id="pourit" class="media-item">
+        <div class="media-meta">ICCV 2023<br>Visual closed-loop pouring</div>
+        <div>
+          <h4><a href="https://hetolin.github.io/PourIt/">PourIt!: perceiving liquid for visual closed-loop robotic pouring</a></h4>
+          <p><strong>PourIt! learns to perceive flowing liquid using image-level supervision and uses that perception to guide a real Franka robot.</strong> It combines a single image's liquid mask with the source container's pose to recover a 3D liquid representation, without requiring direct liquid-depth measurements. The resulting liquid-to-container geometry supplies visual feedback for pouring, linking weakly supervised perception with physical control.</p>
+          <p>The project releases code and a dedicated dataset. An independent, ongoing <em>IsaacLabPouringExtension</em> project explicitly uses PourIt for image processing in a transparent-liquid pouring task, providing a concrete example of reuse in a subsequent robotics implementation.</p>
+          <div class="recognition-links"><a href="https://hetolin.github.io/PourIt/">Project, dataset &amp; demos ↗</a><a href="https://arxiv.org/abs/2307.11299">Research paper ↗</a><a href="https://github.com/hetolin/PourIt">Code ↗</a><a href="https://github.com/robegi/IsaacLabPouringExtension">Independent reuse · Ongoing Isaac Lab project ↗</a></div>
+        </div>
+      </li>
+      <li id="geovln" class="media-item">
+        <div class="media-meta">CVPR 2023<br>Vision-and-language navigation</div>
+        <div>
+          <h4><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">GeoVLN: geometry-aware visual representations for language-guided navigation</a></h4>
+          <p><strong>GeoVLN brings explicit geometric cues into vision-and-language navigation.</strong> Depth and surface-normal information complement RGB appearance, while slot attention integrates the representations to help an agent relate language instructions to the surrounding scene. The work extends our embodied-intelligence research from object manipulation to navigation through an environment.</p>
+          <p>GeoVLN continues to appear in subsequent navigation comparisons: the independent 2026 STE-VLN preprint includes it in its R2R benchmark table. This documents its use as a comparison method in later research.</p>
+          <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">CVPR paper ↗</a><a href="https://arxiv.org/abs/2305.17102">Preprint ↗</a><a href="https://arxiv.org/html/2602.23937v1#S5">Subsequent comparison · STE-VLN preprint ↗</a></div>
+        </div>
+      </li>
+      <li id="sar-net" class="media-item">
+        <div class="media-meta">CVPR 2022<br>Category-level 6D perception</div>
+        <div>
+          <h4><a href="https://hetolin.github.io/SAR-Net/">SAR-Net: shape alignment and recovery for grasping unseen object instances</a></h4>
+          <p><strong>SAR-Net estimates category-level 6D object poses and sizes through shape alignment and symmetry-aware recovery.</strong> It aligns a category template to the observed point cloud and reconstructs missing shape information to infer rotation, translation, and size, without requiring real pose-annotated training images. Experiments on a physical Baxter robot demonstrate grasping of previously unseen instances from known categories.</p>
+          <p><strong>The independent PACE benchmark (ECCV 2024) includes SAR-Net among its evaluated category-level pose-estimation methods and publishes its baseline results.</strong> This provides direct evidence of external evaluation and establishes SAR-Net as a reference point for later research on pose estimation in cluttered environments.</p>
+          <div class="recognition-links"><a href="https://hetolin.github.io/SAR-Net/">Project &amp; robot demos ↗</a><a href="https://github.com/hetolin/SAR-Net">Code &amp; models ↗</a><a href="https://github.com/qq456cvb/PACE#category-level-pose-estimation">Independent evaluation · PACE, ECCV 2024 ↗</a></div>
+        </div>
+      </li>
+      <li id="sketch-grasping" class="media-item">
+        <div class="media-meta">ICRA 2022<br>Sketch-guided grasping</div>
+        <div>
+          <h4><a href="https://hetolin.github.io/Skt_grasp/">I Know What You Draw: using a few freehand sketches to specify a grasping target</a></h4>
+          <p><strong>This work explores freehand object sketches as an intuitive way to communicate a grasping target to a robot.</strong> A graph representation preserves sketch structure, allowing the system to learn from around 100 hand-drawn examples, connect drawings with objects in the observed scene, and predict the corresponding grasps. Dataset evaluations and physical robot demonstrations investigate how visual intent can guide manipulation without requiring a detailed verbal description.</p>
+          <p><strong>Toyota Frontier Research Center's subsequent Sketch-MoMa work explicitly discusses this paper as prior research on sketch-based object detection and manipulation.</strong> The connection places our ICRA 2022 study in the continuing development of drawing-based interfaces for robot control.</p>
+          <div class="recognition-links"><a href="https://hetolin.github.io/Skt_grasp/">ICRA project &amp; demos ↗</a><a href="https://arxiv.org/abs/2205.04026">Research paper ↗</a><a href="https://arxiv.org/html/2412.19153v1#S2.SS2">Toyota follow-up · Related-work discussion ↗</a><a href="https://toyotafrc.github.io/SketchMoMa-Proj/">Sketch-MoMa project ↗</a></div>
+        </div>
+      </li>
+      <li id="language-guided-grasping" class="media-item">
+        <div class="media-meta">ICRA 2022 · IROS 2023<br>Language-guided grasping</div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2205.04028">Language-guided grasping: connecting object descriptions, 6D poses, and physical action</a></h4>
+          <p><strong>Our ICRA 2022 work connects free-form language instructions to category-level 6D object localization and real robot grasping.</strong> Descriptions of names, attributes, and spatial relations identify the target; pose estimation supports grasping an unseen instance from a known category. <em>Language Guided Robotic Grasping with Fine-grained Instructions</em> (IROS 2023) further explores detailed language for specifying the intended object.</p>
+          <p>The independent <em>MaskGrasp</em> study (IROS 2024) cites both papers in its discussion of language-driven grasp detection. Together, these studies form a sustained research direction connecting human instructions with robot perception and action.</p>
+          <div class="recognition-links"><a href="https://baboon527.github.io/lang_6d/">ICRA 2022 · Project &amp; demos ↗</a><a href="https://arxiv.org/abs/2205.04028">ICRA 2022 paper ↗</a><a href="https://doi.org/10.1109/IROS55552.2023.10342331">IROS 2023 paper ↗</a><a href="https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2024_IROS_MaskGrasp.pdf">Independent discussion · MaskGrasp ↗</a></div>
+        </div>
+      </li>
       <li id="smart-bartender" class="media-item">
         <div class="media-meta">IEEE Spectrum<br>ICRA 2023 video selection</div>
         <div>

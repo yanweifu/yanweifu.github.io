@@ -504,6 +504,78 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://news.sciencenet.cn/htmlnews/2025/7/548647.shtm">《中国科学报》／科学网 · 专题与采访 ↗</a><a href="https://www.jfdaily.com/wx/detail.do?id=953117">《文汇报》／上观新闻 · 采访 ↗</a><a href="https://ciram.fudan.edu.cn/55/ae/c48841a742830/page.htm">总理参观与现场演示 ↗</a><a href="https://ciram.fudan.edu.cn/56/7c/c48835a743036/page.htm">项目报道 ↗</a><a href="https://www.shedunews.sh.cn/shanghai/con/2025-07/29/content_27197.html">上海教育新闻网 · 采访 ↗</a></div>
         </div>
       </li>
+      <li id="tamma" class="media-item">
+        <div class="media-meta">CoRL 2024<br>PMLR 论文集 · 2025</div>
+        <div>
+          <h4><a href="https://proceedings.mlr.press/v270/hou25a.html">TaMMa：以三维高斯表示连接跨场景导航与精细操作</a></h4>
+          <p><strong>TaMMa 研究移动机械臂如何在多个桌面子场景之间往返，并完成目标驱动的精细操作。</strong>系统先从带语义的稀疏点云建立全局三维高斯表示，粗定位目标并引导底盘靠近；移动过程中结合扩散式深度补全细化局部几何，再通过高斯补全估计操作起点与终点的精确位姿，将场景表示、导航和机械臂操作衔接起来。论文在真实机器人上验证了跨桌面子场景的操作任务。</p>
+          <p>2025 年综述《Towards a Unified Understanding of Robot Manipulation》在<strong>移动操作</strong>章节中专门讨论 TaMMa，将其作为利用三维场景建模辅助操作的工作，介绍稀疏高斯定位与深度补全如何支持准确的目标位姿估计。</p>
+          <div class="recognition-links"><a href="https://jarvishou829.github.io/TaMMa/">项目与机器人演示 ↗</a><a href="https://proceedings.mlr.press/v270/hou25a.html">CoRL 正式论文 · PMLR 论文集 ↗</a><a href="https://arxiv.org/html/2510.10903v1#S4.SS6">机器人操作综述 · 移动操作章节 ↗</a></div>
+        </div>
+      </li>
+      <li id="polaris" class="media-item">
+        <div class="media-meta">IROS 2024<br>开放式交互与虚实迁移</div>
+        <div>
+          <h4><a href="https://star-uu-wang.github.io/Polaris/">Polaris：将开放式对话落实为可执行的三维机器人操作</a></h4>
+          <p><strong>Polaris 将 GPT-4 的持续对话与场景理解，同物体定位、类别级六自由度位姿估计和动作规划相结合。</strong>其 Synthetic-to-Real 位姿估计流程用三维资产自动渲染训练数据，支持将合成数据上训练的位姿模型迁移到真实桌面场景，为语言指令提供机器人执行所需的物体姿态与尺寸信息。</p>
+          <p>真实机器人实验展示了堆叠瓶子、整理工作台，以及场景受到碰撞后继续交互并完成组合任务。后续《Text-guided RGB-P grasp generation》研究在相关工作中讨论 Polaris，介绍其结合大语言模型与合成到真实视觉定位、支持开放式交互操作的思路。</p>
+          <div class="recognition-links"><a href="https://star-uu-wang.github.io/Polaris/">项目与真实机器人演示 ↗</a><a href="https://arxiv.org/abs/2408.07975">研究论文 ↗</a><a href="https://peerj.com/articles/cs-3060.pdf">PeerJ Computer Science · 后续研究讨论 ↗</a></div>
+        </div>
+      </li>
+      <li id="wall-e" class="media-item">
+        <div class="media-meta">LLM 机器人交互<time datetime="2023-08-30">预印本 · 2023 年 8 月 30 日</time></div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2308.15962">WALL-E：从多轮对话理解用户偏好并完成真实抓取</a></h4>
+          <p><strong>WALL-E 是团队在 2023 年开展的大语言模型与真实机器人结合的早期探索。</strong>系统利用 ChatGPT 的多轮对话能力，将用户偏好归纳为目标指令，再通过视觉定位估计物体位姿与尺寸，驱动机器人抓取。在多个真实场景中的实验展示了从自然交流到视觉感知和动作执行的完整流程。</p>
+          <p><strong>入选得克萨斯大学达拉斯分校 CS 6301（2023 年秋季）课程项目指南的代表性参考文献</strong>，与 SayCan、Instruct2Act 一同列于“语言引导操作”主题。KAIST 研究者发表于《Intelligent Service Robotics》的大语言模型与智能机器人综述，也在物体定位部分引用该工作，讨论语言信息与视觉感知的连接。</p>
+          <div class="recognition-links"><a href="https://star-uu-wang.github.io/WALL-E/">项目与机器人演示 ↗</a><a href="https://arxiv.org/abs/2308.15962">预印本与首次公开时间 ↗</a><a href="https://yuxng.github.io/Courses/CS6301Fall2023/CS_6301_Project_Proposal.pdf#page=3">UT Dallas · 课程项目参考文献 ↗</a><a href="https://link.springer.com/article/10.1007/s11370-024-00550-5">KAIST 研究者的机器人综述 ↗</a></div>
+        </div>
+      </li>
+      <li id="pourit" class="media-item">
+        <div class="media-meta">ICCV 2023<br>液体感知与视觉闭环控制</div>
+        <div>
+          <h4><a href="https://hetolin.github.io/PourIt/">PourIt!：从弱监督液体感知到机器人视觉闭环倒水</a></h4>
+          <p><strong>PourIt! 只需图像级的“有／无液流”标签学习液体感知，降低逐像素标注透明液体的成本。</strong>方法通过分类激活图与特征对比定位液流，结合容器位姿从单张图像恢复近似三维液流，再用液流与目标容器的距离提供视觉反馈，控制 Franka 机器人完成倾倒。研究同时开放 PourIt! 数据集、模型和代码。</p>
+          <p>独立开源项目 <strong>IsaacLabPouringExtension</strong> 在项目说明中明确使用 PourIt 进行图像处理，探索结合强化学习的透明液体倾倒。这提供了第三方尝试复用感知方法的具体实例；该项目目前标注为开发中。</p>
+          <div class="recognition-links"><a href="https://hetolin.github.io/PourIt/">项目、数据与机器人演示 ↗</a><a href="https://arxiv.org/abs/2307.11299">研究论文 ↗</a><a href="https://github.com/hetolin/PourIt">开放代码与模型 ↗</a><a href="https://github.com/robegi/IsaacLabPouringExtension">独立 Isaac Lab 项目 · 开发中 ↗</a></div>
+        </div>
+      </li>
+      <li id="geovln" class="media-item">
+        <div class="media-meta">CVPR 2023<br>几何增强的视觉语言导航</div>
+        <div>
+          <h4><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">GeoVLN：用几何与局部视图关联增强语言指令导航</a></h4>
+          <p><strong>GeoVLN 将深度、表面法线和 RGB 视觉信息结合，帮助导航智能体理解周围环境的空间结构。</strong>方法通过局部 slot attention 聚合相邻视图的信息，并用多路注意力对齐指令中的不同短语与相关视觉特征。在 Room-to-Room（R2R）基准上，论文验证了这些几何线索与跨模态关联对未见环境导航的帮助。</p>
+          <p>后续 STE-VLN 研究在其 <strong>2026 年预印本的 R2R 对比表</strong>中列入 GeoVLN，与 HAMT、DUET、GridMM 等方法共同用于比较导航性能，体现了该工作作为几何增强导航方法的后续参考价值。</p>
+          <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">CVPR 正式论文 ↗</a><a href="https://arxiv.org/abs/2305.17102">预印本 ↗</a><a href="https://arxiv.org/html/2602.23937v1#S5">STE-VLN 预印本 · 后续 R2R 对比评测 ↗</a></div>
+        </div>
+      </li>
+      <li id="sar-net" class="media-item">
+        <div class="media-meta">CVPR 2022<br>类别级三维位姿与尺寸估计</div>
+        <div>
+          <h4><a href="https://hetolin.github.io/SAR-Net/">SAR-Net：通过形状对齐与恢复实现未见物体的位姿估计</a></h4>
+          <p><strong>SAR-Net 以深度点云为主要输入，将类别形状先验与物体对称性用于六自由度位姿和尺寸估计。</strong>方法通过类别模板与观测点云的形状对齐推断旋转，再利用对称点云恢复粗略完整形状，估计物体中心与尺寸；无需额外带真实位姿标注的训练数据。在 NOCS 基准之外，真实 Baxter 机器人抓取实验验证了对已知类别中未见物体实例的适应能力。</p>
+          <p><strong>被独立团队纳入 PACE（ECCV 2024）基准的类别级位姿评测。</strong>PACE 在复杂、杂乱的真实场景中比较包括 SAR-Net 在内的方法，并公开其预测结果供下载与复现，使这项研究成为后续检验位姿估计泛化能力的比较对象。</p>
+          <div class="recognition-links"><a href="https://hetolin.github.io/SAR-Net/">项目与机器人抓取演示 ↗</a><a href="https://github.com/hetolin/SAR-Net">开放代码与模型 ↗</a><a href="https://github.com/qq456cvb/PACE#category-level-pose-estimation">PACE · 独立评测与预测结果 ↗</a></div>
+        </div>
+      </li>
+      <li id="sketch-grasping" class="media-item">
+        <div class="media-meta">ICRA 2022<br>少样本草图引导抓取</div>
+        <div>
+          <h4><a href="https://hetolin.github.io/Skt_grasp/">I Know What You Draw：让机器人根据手绘草图抓取目标</a></h4>
+          <p><strong>这项工作探索以草图表达抓取意图，让用户画出目标物体即可引导机器人寻找并抓取。</strong>方法将笔画组织为图结构，保留草图的结构关系，以约 100 幅手绘样本学习草图与场景中抓取区域的关联；在 VMRD、GraspNet 数据集及真实机器人杂乱场景中验证了这一交互方式。</p>
+          <p><strong>丰田 Frontier Research Center 参与的 Sketch-MoMa（ICRA 2025）在相关工作中明确引用并讨论这项研究。</strong>该论文将其作为通过手绘物体草图检测并操作目标的先前工作，进一步探索用草图控制移动机械臂的导航与操作。</p>
+          <div class="recognition-links"><a href="https://hetolin.github.io/Skt_grasp/">项目与机器人演示 ↗</a><a href="https://arxiv.org/abs/2205.04026">研究论文 ↗</a><a href="https://arxiv.org/html/2412.19153v1#S2.SS2">Sketch-MoMa · 对本工作的讨论 ↗</a><a href="https://toyotafrc.github.io/SketchMoMa-Proj/">丰田 Sketch-MoMa 项目 ↗</a></div>
+        </div>
+      </li>
+      <li id="language-guided-grasping" class="media-item">
+        <div class="media-meta">ICRA 2022 · IROS 2023<br>语言引导的类别泛化抓取</div>
+        <div>
+          <h4><a href="https://baboon527.github.io/lang_6d/">语言引导抓取：从类别级六自由度定位到细粒度指令理解</a></h4>
+          <p><strong>ICRA 2022 工作将自由形式的语言描述、类别级物体位姿估计与真实机器人抓取连接起来。</strong>系统根据物体名称、属性与空间关系在图像中定位目标，再从深度信息提取点云并估计六自由度位姿，支持抓取已知类别中训练时未见的实例。IROS 2023 的《Language Guided Robotic Grasping with Fine-Grained Instructions》进一步研究属性更丰富的细粒度语言指令，提升目标物体的视觉定位能力。</p>
+          <p>独立团队的 <strong>MaskGrasp（IROS 2024）</strong>在语言驱动抓取的相关工作中引用这两篇论文。两项研究记录了团队在 2022–2023 年从语言意图理解到三维感知和动作执行的持续探索，并与 WALL-E、Polaris 的交互式机器人研究形成持续的研究脉络。</p>
+          <div class="recognition-links"><a href="https://baboon527.github.io/lang_6d/">ICRA 2022 · 项目与演示 ↗</a><a href="https://arxiv.org/abs/2205.04028">ICRA 2022 · 研究论文 ↗</a><a href="https://doi.org/10.1109/IROS55552.2023.10342331">IROS 2023 · 细粒度指令抓取 ↗</a><a href="https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2024_IROS_MaskGrasp.pdf">MaskGrasp · 后续研究引用 ↗</a></div>
+        </div>
+      </li>
       <li id="smart-bartender" class="media-item">
         <div class="media-meta">IEEE Spectrum<br>ICRA 2023 机器人视频精选</div>
         <div>
