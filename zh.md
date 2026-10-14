@@ -544,6 +544,24 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://zhenyangliu.github.io/ActiveVLA/static/videos/demo.mp4">视频 · 项目演示 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">CVPR 正式论文 ↗</a><a href="https://arxiv.org/abs/2601.08325">预印本 ↗</a><a href="https://zhenyangliu.github.io/ActiveVLA/">项目与演示 ↗</a></div>
         </div>
       </li>
+      <li id="ocra" class="media-item">
+        <div class="media-meta">ICRA 2026<time datetime="2026-06">2026 年 6 月</time></div>
+        <div>
+          <h4><a href="https://sressers.github.io/OCRA/">OCRA：结合三维几何与触觉，将人类示范迁移到机器人</a></h4>
+          <p><strong>OCRA 将以物体为中心的三维理解与触觉先验相结合，从人类视频学习并迁移操作技能。</strong> 方法从多视角 RGB 视频重建任务相关物体并学习其运动，缩小人类示范与机器人动作之间的形态差异；以百万级触觉图像预训练的编码器提供接触信息，支持力度控制与物体属性识别。</p>
+          <p><strong>真实机器人实验覆盖七项任务，每项使用 20–40 段人类示范。</strong> 任务包括堆叠、舀取、倾倒、清扫、易损杯搬运及按重量或纹理分类。这些实验展示了空间表征与触觉如何共同支持动作迁移及依赖接触的决策，将视频示范学习拓展到精细操作与物体属性相关的任务。</p>
+          <div class="recognition-links"><a href="https://sressers.github.io/OCRA/static/videos/ocra.mp4">视频 · 真实机器人演示 ↗</a><a href="https://arxiv.org/abs/2603.14401">研究论文 ↗</a><a href="https://sressers.github.io/OCRA/">项目与演示 ↗</a></div>
+        </div>
+      </li>
+      <li id="scoopd" class="media-item">
+        <div class="media-meta">ICRA 2026<time datetime="2026-06">2026 年 6 月</time></div>
+        <div>
+          <h4><a href="https://scoopdiff.github.io/">SCOOP’D：从仿真学习液固混合环境中的目标舀取</a></h4>
+          <p><strong>SCOOP’D 将学习型机器人操作拓展到工具、液体与物体之间的动态交互。</strong> 方法研究从液固混合物中选择性舀取目标，处理目标移动、遮挡与深度观测不稳定带来的控制难题；自动生成的仿真示范训练扩散模型，分别学习勺具的初始位姿与后续舀取动作，并通过视觉跟踪引导执行。</p>
+          <p><strong>仿真训练的策略无需真实环境微调，已在 465 次真实机器人试验中评估。</strong> 实验覆盖不同物体、容器、液体、遮挡程度与多目标设置，并进一步测试移动目标和视角变化，展示了通过仿真获取工具操作技能的可行路径，对食品处理及液体环境中的物品回收具有研究价值。</p>
+          <div class="recognition-links"><a href="https://scoopdiff.github.io/static/videos/teaser/mushroom2.mp4">视频 · 真实机器人舀取 ↗</a><a href="https://scoopdiff.github.io/static/videos/move/duck_moving1.mp4">视频 · 移动目标 ↗</a><a href="https://arxiv.org/abs/2510.11566">研究论文 ↗</a><a href="https://scoopdiff.github.io/">项目与演示 ↗</a><a href="https://github.com/SresserS/SCOOPD_Codebase">代码仓库 ↗</a></div>
+        </div>
+      </li>
       <li id="tau0-wm" class="media-item">
         <div class="media-meta">上海创智学院 · 智元机器人具身研究中心<time datetime="2026-05-31">2026 年 5 月</time></div>
         <div>
@@ -552,6 +570,16 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <p><strong>中国工程院院士何友在第四届（2026）上海计算机视觉大会《智能无人系统发展前沿》报告中介绍 τ₀-WM</strong>，其报告幻灯片称该工作为“当前全球最大规模的开源预训练具身世界模型”，强调了当时的预训练数据规模。</p>
           <p><strong>研究获得《文汇报》／上观新闻、《新民晚报》及量子位专题报道</strong>，介绍模型在执行前预判行动后果、实现跨任务泛化的能力；模型权重与代码已开源。</p>
           <div class="recognition-links"><a href="https://tau0-wm.github.io/media/tau-0-videos.mp4">视频 · 项目总览 ↗</a><a href="https://tau0-wm.github.io/">项目主页 ↗</a><a href="https://arxiv.org/abs/2606.01027">研究论文 ↗</a><a href="https://github.com/sii-research/tau-0-wm">代码与模型权重 ↗</a><a href="{{ '/assets/media/tau0-wm-he-you-shanghai-computer-vision-conference-2026.jpg' | relative_url }}">何友院士评述 · 报告现场照片 ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">创智学院官方发布 ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">《文汇报》／上观新闻 ↗</a><a href="https://paper.xinmin.cn/html/xmwb/2026-05-31/5/239280.html">《新民晚报》纸刊原版 ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">量子位专题 ↗</a></div>
+        </div>
+      </li>
+      <li id="st4vla-internvla" class="media-item">
+        <div class="media-meta">ICLR 2026 · InternVLA-M1<time datetime="2026-04">2026 年 4 月</time></div>
+        <div>
+          <h4><a href="https://openreview.net/forum?id=eKhOrQWAVJ">ST4VLA／InternVLA-M1：我的学生 Junqiu Yu 的空间引导机器人学习研究</a></h4>
+          <p><strong>这是我的学生 Junqiu Yu（喻俊秋）与合作者共同完成的工作。</strong>Junqiu 是 ST4VLA（ICLR 2026）的共同第一作者，也是相关 InternVLA-M1 开源项目的核心贡献者；我共同署名 ST4VLA，并参与了 InternVLA-M1 研究。</p>
+          <p><strong>空间引导训练将“在哪里行动”与“如何行动”连接起来。</strong>先通过点、框与轨迹等空间定位任务建立可迁移的空间先验，再以空间提示引导动作训练，在学习机器人控制的同时保留空间理解能力，提升对新物体、新指令和长时程操作任务的泛化。</p>
+          <p><strong>相关 InternVLA-M1 模型已被独立团队用于后续机器人学习研究。</strong>南加州大学 Ψ₀ 人形机器人研究微调其预训练权重并开展实机评测，DOMINO／PUMA 工作也将其微调后用于动态操作基准，体现了模型被外部研究复用与评测的具体价值。</p>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=n129VDqJCk4">InternVLA-M1 · YouTube 演示 ↗</a><a href="https://internrobotics.github.io/internvla-m1.github.io/teaser.mp4">InternVLA-M1 · 项目视频 ↗</a><a href="https://openreview.net/forum?id=eKhOrQWAVJ">ST4VLA · ICLR 正式论文 ↗</a><a href="https://arxiv.org/html/2510.13778v1#A1">InternVLA-M1 · 报告与贡献者 ↗</a><a href="https://internrobotics.github.io/internvla-m1.github.io/">项目主页 ↗</a><a href="https://github.com/InternRobotics/InternVLA-M1">代码与模型 ↗</a><a href="https://arxiv.org/html/2603.12263v1#S4.SS2.SSS3">Ψ₀ · 独立人形机器人评测 ↗</a><a href="https://arxiv.org/html/2603.15620v1#S4.SS1">DOMINO · 独立基准采用 ↗</a></div>
         </div>
       </li>
       <li id="schrodinger-navigator" class="media-item">
@@ -580,6 +608,16 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <p><time datetime="2025-10-13">2025 年 10 月 13 日</time>的 v3 更新稿进一步明确情景世界模型的形式化：<strong>首个在统一三系统 VLA 架构中形式化构建情景世界模型的框架</strong>，支撑复杂指令理解和长时程机器人操作。</p>
           <p>研究获得深蓝学院视频解读，以及 Moonlight 和 CSDN 开发者社区的论文评述与技术解析。</p>
           <div class="recognition-links"><a href="https://zhenyangliu.github.io/TriVLA/static/images/demo_video.mp4">视频 · 项目演示 ↗</a><a href="https://zhenyangliu.github.io/TriVLA/">项目主页 ↗</a><a href="https://arxiv.org/abs/2507.01424v1">首发版本 · 2025 年 7 月 2 日 ↗</a><a href="https://arxiv.org/abs/2507.01424v3">情景世界模型 · v3 更新稿 ↗</a><a href="https://www.bilibili.com/video/BV188u2zQEga/">深蓝学院 · 视频解读 ↗</a><a href="https://www.themoonlight.io/zh/review/trivla-a-unified-triple-system-based-unified-vision-language-action-model-for-general-robot-control">Moonlight 论文评述 ↗</a><a href="https://adg.csdn.net/69708e24437a6b40336aaff5.html">CSDN 技术解析 ↗</a></div>
+        </div>
+      </li>
+      <li id="cap-net" class="media-item">
+        <div class="media-meta">CVPR 2025 · Highlight<time datetime="2025-06">2025 年 6 月</time></div>
+        <div>
+          <h4><a href="https://shanehuanghz.github.io/CAPNet/">CAP-Net：从关节部件 RGB-D 感知到真实机器人操作</a></h4>
+          <p><strong>CAP-Net 获选 CVPR 2025 Highlight，将精细部件感知与真实机器人操作相连接。</strong> 据我们所知，这是首个以完整物体 RGB-D 为输入，在端到端单阶段网络中同时预测部件语义、实例中心与规范化部件坐标的方法，保留整体上下文来估计未见可动部件的位姿与尺寸。</p>
+          <p>配套的 <strong>RGBD-Art 数据集</strong> 包含 6.3 万张带部件标注的逼真 RGB-D 图像，并模拟真实传感器噪声。方法与数据共同支持从合成训练迁移到真实机器人操作，以消费级 RGB-D 相机感知关节部件。</p>
+          <p><strong>后续上海交通大学研究沿用了其特征提取设计和数据集，并将 CAP-Net 纳入评估基线。</strong> 2026 年的 <em>Revisiting Articulated Parts Perception in Robot Manipulation</em> 采用 CAP-Net 的 SAM2 与 FeatUp 特征流程，在 RGBD-Art 上评测，并在部件感知及真实机器人操作中与 CAP-Net 进行比较。</p>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=nmqoce9h0iM">视频 · YouTube ↗</a><a href="https://shanehuanghz.github.io/CAPNet/resources/videos/CVPR2025_highlight.mp4">视频 · 机器人演示 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Huang_CAP-Net_A_Unified_Network_for_6D_Pose_and_Size_Estimation_CVPR_2025_paper.html">CVPR 论文 ↗</a><a href="https://media.eventhosts.cc/Conferences/CVPR2025/CVPR_main_conf_2025.pdf#page=34">官方 Highlight 程序 ↗</a><a href="https://shanehuanghz.github.io/CAPNet/">项目与数据集 ↗</a><a href="https://github.com/ShaneHuangHZ/CAPNet">代码与模型 ↗</a><a href="https://arxiv.org/html/2606.08103v1">上海交大 · 后续方法与评估 ↗</a></div>
         </div>
       </li>
       <li id="tamma" class="media-item">
@@ -738,6 +776,16 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://rsipvision.com/CVPR2026-Sunday/">封面与完整刊物 ↗</a><a href="https://rsipvision.com/CVPR2026-Sunday/10/">专题文章 ↗</a><a href="https://www.jiangtongli.me/uploads/papers/2026-CVPR-DynaMind.pdf">DynaMind 数据与评测采用 ↗</a><a href="https://papers.miccai.org/miccai-2026/0711-Paper4295.html">NeuroSonic 语音重建研究 ↗</a><a href="https://www.x-techcon.com/article/161149.html">脑机接口社区专题解读 ↗</a></div>
         </div>
       </li>
+      <li id="eeg-grasping" class="media-item">
+        <div class="media-meta">ICRA 2026<time datetime="2026-06-04">2026 年 6 月 4 日</time></div>
+        <div>
+          <h4><a href="https://yichangliu1224.github.io/EEG-Graspbot/">EEG-Graspbot：从脑电想象意图到机器人抓取与放置</a></h4>
+          <p><strong>双通道脑电意图接口连接“想抓什么”与“想放在哪里”</strong>：视觉想象识别目标物体，运动想象指定放置位置。离线训练的解码器处理实时脑电流，驱动真实 KINOVA GEN2 机械臂执行操作，将高层认知意图转化为物理动作。</p>
+          <p>这项 ICRA 2026 研究完成了<strong>健康受试者中的在线概念验证</strong>：5 名受试者参与离线实验，其中 4 名参与在线测试。论文报告端到端任务成功率为 20.88%，验证了系统可行性，也指出意图解码可靠性仍有提升空间。</p>
+          <p>团队的<strong>基于脑电意图解码的机器人智能抓取系统</strong>于 2025 年 6 月 5 日在复旦大学聚焦机器人技术与产业转化的闭门沙龙上展示，复旦大学技术转移中心于 6 月 6 日报道了这次展示。</p>
+          <div class="recognition-links"><a href="https://yichangliu1224.github.io/EEG-Graspbot/assets/videos/online_full.mp4">完整演示视频 ↗</a><a href="https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#thi1i_195">ICRA 官方会议日程 ↗</a><a href="https://arxiv.org/abs/2603.03181">论文 ↗</a><a href="https://yichangliu1224.github.io/EEG-Graspbot/">项目主页 ↗</a><a href="https://github.com/yichangliu1224/EEG-Graspbot">代码 ↗</a><a href="https://fdzhuanyi.fudan.edu.cn/46/fe/c40933a739070/page.htm">复旦大学技术转移中心活动报道 ↗</a></div>
+        </div>
+      </li>
       <li id="dream-decoding" class="media-item">
         <div class="media-meta">fMRI · 梦境解码<time datetime="2026-05">CACM 专题 · 2026 年 5 月</time></div>
         <div>
@@ -756,22 +804,32 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://arxiv.org/abs/2403.18211">NeuroPictor 论文 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">AAAI 独立评测 ↗</a><a href="https://arxiv.org/html/2507.07993v2#S4">评测结果与 Table 3 ↗</a><a href="https://arxiv.org/html/2510.27128v1">ZEBRA 后续研究 ↗</a></div>
         </div>
       </li>
-      <li id="eeg-grasping" class="media-item">
-        <div class="media-meta">复旦大学技术转移中心<time datetime="2025-06-05">2025 年 6 月 5 日</time></div>
+      <li id="mind3d" class="media-item">
+        <div class="media-meta">ECCV 2024 · TPAMI 2025<time datetime="2025-12">系列成果 · 2025 年 12 月</time></div>
         <div>
-          <h4><a href="https://fdzhuanyi.fudan.edu.cn/46/fe/c40933a739070/page.htm">脑电意图解码：机器人智能抓取系统展示</a></h4>
-          <p>团队的<strong>基于脑电意图解码的机器人智能抓取系统</strong>于 2025 年 6 月 5 日在复旦大学聚焦机器人技术与产业转化的闭门沙龙上展示，复旦大学技术转移中心于 6 月 6 日报道了这次展示。</p>
-          <div class="recognition-links"><a href="https://fdzhuanyi.fudan.edu.cn/46/fe/c40933a739070/page.htm">复旦大学技术转移中心活动报道 ↗</a></div>
+          <h4><a href="https://jianxgao.github.io/MinD-3D/">MinD-3D / MinD-3D++：从首创脑到三维任务到纹理网格重建</a></h4>
+          <p><strong>本团队首次提出并定义 fMRI-to-3D（Recon3DMind）研究任务</strong>，开发 MinD-3D 框架验证从脑信号重建三维物体的可行性，并发布<strong>首个 fMRI–3D 形状配对数据集 fMRI-Shape</strong>，覆盖 14 名受试者。 预印本于 <time datetime="2023-12-12">2023 年 12 月 12 日</time>公开，发表于 ECCV 2024。</p>
+          <p><strong>MinD-3D++（TPAMI 2025）将重建拓展到带纹理的三维网格</strong>，并开放 fMRI-Objaverse：覆盖 117 个类别的 3,142 个物体、5 名受试者，进一步支持三维物体几何结构与外观的解码和评测。</p>
+          <p><strong>fMRI-Shape 的首创性与后续研究价值获得独立团队认可</strong>：Neuro-3D（CVPR 2025）明确将其称为首个 fMRI–3D 形状配对数据集；NeuroSculptor3D（AAAI 2026）与 BrainGS（CVPR 2026）将其用于脑到三维重建研究，其中 BrainGS 沿用 MinD-3D 的跨受试者、跨类别评测设置。BrainGS 还将 MinD-3D++ 作为三维重建比较基线；剑桥大学的 BASIC 研究（AAAI 2026）则独立评测其语义与结构保真度。</p>
+          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">项目主页 ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV 正式论文 ↗</a><a href="https://arxiv.org/abs/2312.07485">预印本与首次公开时间 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape 开放数据集 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Neuro-3D_Towards_3D_Visual_Decoding_from_EEG_Signals_CVPR_2025_paper.pdf">Neuro-3D 首创性评价 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D 数据集采用 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jing_More_Natural_More_Real_Object-aware_Gaussian_Splatting_for_3D_Visual_CVPR_2026_paper.pdf">BrainGS 数据与评测采用 ↗</a><a href="https://doi.org/10.1109/TPAMI.2025.3599860">MinD-3D++ · TPAMI 正式论文 ↗</a><a href="https://arxiv.org/abs/2409.11315">MinD-3D++ 开放论文 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse">fMRI-Objaverse 开放数据集 ↗</a><a href="https://github.com/JianxGao/MinD-3D">系列开放代码 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">剑桥 BASIC 独立模型评测 ↗</a></div>
         </div>
       </li>
-      <li id="mind3d" class="media-item">
-        <div class="media-meta">ECCV 2024<time datetime="2023-12-12">预印本 · 2023 年 12 月 12 日</time></div>
+      <li id="lea" class="media-item">
+        <div class="media-meta">TMLR<time datetime="2024-12">2024 年 12 月</time></div>
         <div>
-          <h4><a href="https://jianxgao.github.io/MinD-3D/">MinD-3D：首次提出并定义 fMRI-to-3D 脑解码任务</a></h4>
-          <p><strong>本团队首次提出并定义 fMRI-to-3D（Recon3DMind）研究任务</strong>，开发 MinD-3D 框架验证从脑信号重建三维物体的可行性，并发布<strong>首个 fMRI–3D 形状配对数据集 fMRI-Shape</strong>，覆盖 14 名受试者。</p>
-          <p>预印本于 <time datetime="2023-12-12">2023 年 12 月 12 日</time>公开，发表于 ECCV 2024。</p>
-          <p><strong>fMRI-Shape 的首创性与后续研究价值获得独立团队认可</strong>：Neuro-3D（CVPR 2025）明确将其称为首个 fMRI–3D 形状配对数据集；NeuroSculptor3D（AAAI 2026）与 BrainGS（CVPR 2026）将其用于脑到三维重建研究，其中 BrainGS 沿用 MinD-3D 的跨受试者、跨类别评测设置。</p>
-          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">项目主页 ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV 正式论文 ↗</a><a href="https://arxiv.org/abs/2312.07485">预印本与首次公开时间 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape 开放数据集 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Neuro-3D_Towards_3D_Visual_Decoding_from_EEG_Signals_CVPR_2025_paper.pdf">Neuro-3D 首创性评价 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D 数据集采用 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jing_More_Natural_More_Real_Object-aware_Gaussian_Splatting_for_3D_Visual_CVPR_2026_paper.pdf">BrainGS 数据与评测采用 ↗</a></div>
+          <h4><a href="https://openreview.net/forum?id=89QT2DsKyj">LEA：通过潜在表征对齐统一 fMRI 解码与编码</a></h4>
+          <p>LEA 将脑信号与视觉刺激的潜在表征对齐，在<strong>统一的双向框架</strong>中，从 fMRI 重建视觉刺激，并从图像预测脑活动。研究于 2023 年 3 月首次公开，发表于 TMLR 2024 年 12 月，代码已开放。</p>
+          <p><strong>加州大学伯克利分校的独立研究以 LEA 的线性对齐思路为基础</strong>，并将其作为统计脑解码实验的比较基线（2026 年预印本）。NeuroSculptor3D（AAAI 2026）也评测了 LEA-3D 适配方法，并明确使用官方代码重新计算基线结果。</p>
+          <div class="recognition-links"><a href="https://openreview.net/forum?id=89QT2DsKyj">TMLR 正式论文 ↗</a><a href="https://arxiv.org/abs/2303.14730">预印本与首次公开时间 ↗</a><a href="https://github.com/naiq/LEA">开放代码 ↗</a><a href="https://arxiv.org/html/2603.21042v1">伯克利独立后续研究预印本 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D · LEA-3D 基线评测 ↗</a></div>
+        </div>
+      </li>
+      <li id="glfa" class="media-item">
+        <div class="media-meta">ECCV 2024<br>跨受试者视频解码</div>
+        <div>
+          <h4><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11062_ECCV_2024_paper.php">GLFA：跨受试者脑到视频解码的代表性框架</a></h4>
+          <p>GLFA 提出<strong>全局—局部功能对齐</strong>，将不同受试者的 fMRI 信号映射到共享脑空间，并结合扩散生成器重建视频。团队同时开放 fMRI-Video 数据集，包含 8 名受试者约 75,000 个 fMRI–视觉刺激配对样本。</p>
+          <p><strong>上海交通大学的独立研究 MindCross（AAAI 2026）将 GLFA 选为视频领域的代表性跨受试者解码框架。</strong>该研究对 GLFA 进行了视频重建与新受试者适应评测，比较解码精度、适应时间及参数量。</p>
+          <div class="recognition-links"><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11062_ECCV_2024_paper.php">ECCV 正式论文 ↗</a><a href="https://github.com/chongjg/GLFA-fmri-video">开放代码与重建结果 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video">fMRI-Video 开放数据集 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38814">MindCross · 代表性基线与独立评测 ↗</a></div>
         </div>
       </li>
       <li id="fmri-pte" class="media-item">

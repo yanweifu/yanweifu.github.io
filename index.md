@@ -541,6 +541,24 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://zhenyangliu.github.io/ActiveVLA/static/videos/demo.mp4">Video · Project demo ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">CVPR paper ↗</a><a href="https://arxiv.org/abs/2601.08325">Preprint ↗</a><a href="https://zhenyangliu.github.io/ActiveVLA/">Project &amp; demos ↗</a></div>
         </div>
       </li>
+      <li id="ocra" class="media-item">
+        <div class="media-meta">ICRA 2026<time datetime="2026-06">June 2026</time></div>
+        <div>
+          <h4><a href="https://sressers.github.io/OCRA/">OCRA: transferring human demonstrations through 3D geometry and touch</a></h4>
+          <p><strong>OCRA combines object-centric 3D understanding with tactile priors to transfer manipulation skills from human videos to robots.</strong> It reconstructs task-relevant objects from multiple RGB views and learns their motion, reducing the embodiment gap between a human demonstration and a robot’s actions. A tactile encoder pretrained on over one million tactile images supplies contact information for force control and object-property recognition.</p>
+          <p><strong>Real-robot experiments span seven tasks, using 20–40 human demonstrations per task.</strong> They include stacking, scooping, pouring, sweeping, fragile-cup handling, and sorting by weight or texture. These experiments show how spatial representations and touch can support both motion transfer and decisions that depend on contact, extending video-based learning to delicate and property-sensitive manipulation.</p>
+          <div class="recognition-links"><a href="https://sressers.github.io/OCRA/static/videos/ocra.mp4">Video · Robot demonstrations ↗</a><a href="https://arxiv.org/abs/2603.14401">Research paper ↗</a><a href="https://sressers.github.io/OCRA/">Project &amp; demos ↗</a></div>
+        </div>
+      </li>
+      <li id="scoopd" class="media-item">
+        <div class="media-meta">ICRA 2026<time datetime="2026-06">June 2026</time></div>
+        <div>
+          <h4><a href="https://scoopdiff.github.io/">SCOOP’D: learning to scoop targets from liquid–solid mixtures</a></h4>
+          <p><strong>SCOOP’D extends learned robot manipulation to tool–fluid–object interactions.</strong> It tackles selective scooping from mixtures of liquids and solids, where moving targets, occlusions, and unreliable depth observations complicate control. Automatically generated simulation demonstrations train diffusion models for the ladle’s initial pose and subsequent scooping motion, while visual tracking guides execution.</p>
+          <p><strong>The simulation-trained policy was deployed without real-world fine-tuning and evaluated in 465 real-robot trials.</strong> Experiments cover varied objects, containers, liquids, occlusion levels, and multiple targets, with additional tests of moving objects and viewpoint changes. This demonstrates a practical route for acquiring tool-based manipulation skills through simulation, with relevance to food handling and retrieval from liquid environments.</p>
+          <div class="recognition-links"><a href="https://scoopdiff.github.io/static/videos/teaser/mushroom2.mp4">Video · Real-robot scooping ↗</a><a href="https://scoopdiff.github.io/static/videos/move/duck_moving1.mp4">Video · Moving target ↗</a><a href="https://arxiv.org/abs/2510.11566">Research paper ↗</a><a href="https://scoopdiff.github.io/">Project &amp; demos ↗</a><a href="https://github.com/SresserS/SCOOPD_Codebase">Code repository ↗</a></div>
+        </div>
+      </li>
       <li id="tau0-wm" class="media-item">
         <div class="media-meta">Shanghai Innovation Institute · AGIBOT Finch<time datetime="2026-05-31">May 2026</time></div>
         <div>
@@ -549,6 +567,16 @@ image: /assets/images/yanwei-fu.png
           <p><strong>He You, a member of the Chinese Academy of Engineering, featured τ₀-WM in his presentation on intelligent unmanned systems at the Fourth Shanghai Computer Vision Conference (2026).</strong> His slide highlighted its training-data scale and described it at the time as the world’s largest-scale open-source pretrained embodied world model.</p>
           <p><strong>Featured in Wenhui Daily / Shangguan News, Xinmin Evening News, and QbitAI.</strong> The coverage explains how the model anticipates action consequences and generalizes across tasks; code and model weights are openly available.</p>
           <div class="recognition-links"><a href="https://tau0-wm.github.io/media/tau-0-videos.mp4">Video · Project overview ↗</a><a href="https://tau0-wm.github.io/">Project ↗</a><a href="https://arxiv.org/abs/2606.01027">Research paper ↗</a><a href="https://github.com/sii-research/tau-0-wm">Code &amp; model weights ↗</a><a href="{{ '/assets/media/tau0-wm-he-you-shanghai-computer-vision-conference-2026.jpg' | relative_url }}">He You’s presentation · Photo ↗</a><a href="https://www.sii.edu.cn/_s3/2026/0602/c27a1080/page.psp">Institute announcement ↗</a><a href="https://m.jfdaily.com/wx/detail.do?id=1119707">Wenhui Daily / Shangguan News ↗</a><a href="https://paper.xinmin.cn/html/xmwb/2026-05-31/5/239280.html">Xinmin Evening News · Print edition ↗</a><a href="https://www.qbitai.com/2026/05/426832.html">QbitAI feature ↗</a></div>
+        </div>
+      </li>
+      <li id="st4vla-internvla" class="media-item">
+        <div class="media-meta">ICLR 2026 · InternVLA-M1<time datetime="2026-04">April 2026</time></div>
+        <div>
+          <h4><a href="https://openreview.net/forum?id=eKhOrQWAVJ">ST4VLA / InternVLA-M1: my student Junqiu Yu’s work on spatially guided robot learning</a></h4>
+          <p><strong>This work was developed by my student Junqiu Yu and collaborators.</strong> Junqiu is a co-first author of ST4VLA (ICLR 2026) and a core contributor to the related InternVLA-M1 release. I coauthored ST4VLA and contributed to InternVLA-M1.</p>
+          <p><strong>Spatially guided training connects where to act with how to act.</strong> Spatial grounding pretraining establishes transferable priors for points, boxes, and trajectories; spatially guided action training preserves these priors during policy learning, improving generalization to new objects, instructions, and long-horizon manipulation tasks.</p>
+          <p><strong>The related InternVLA-M1 model has been reused in independent robot-learning research.</strong> USC’s Ψ₀ humanoid study fine-tunes its pretrained checkpoint and evaluates it on real robots; the DOMINO/PUMA study fine-tunes it for dynamic manipulation benchmarks. These provide concrete examples of external model reuse and evaluation.</p>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=n129VDqJCk4">InternVLA-M1 · YouTube demo ↗</a><a href="https://internrobotics.github.io/internvla-m1.github.io/teaser.mp4">InternVLA-M1 · Project video ↗</a><a href="https://openreview.net/forum?id=eKhOrQWAVJ">ST4VLA · ICLR paper ↗</a><a href="https://arxiv.org/html/2510.13778v1#A1">InternVLA-M1 · Report &amp; contributors ↗</a><a href="https://internrobotics.github.io/internvla-m1.github.io/">Project ↗</a><a href="https://github.com/InternRobotics/InternVLA-M1">Code &amp; models ↗</a><a href="https://arxiv.org/html/2603.12263v1#S4.SS2.SSS3">Ψ₀ · Independent humanoid evaluation ↗</a><a href="https://arxiv.org/html/2603.15620v1#S4.SS1">DOMINO · Independent benchmark reuse ↗</a></div>
         </div>
       </li>
       <li id="schrodinger-navigator" class="media-item">
@@ -577,6 +605,16 @@ image: /assets/images/yanwei-fu.png
           <p>The <time datetime="2025-10-13">October 13, 2025</time> v3 revision explicitly formalizes episodic world modeling, describing TriVLA as <strong>the first framework to do so within a unified triple-system VLA architecture</strong>, supporting complex instructions and long-horizon robotic manipulation.</p>
           <p>Discussed in a Shenlan Academy video and research reviews by Moonlight and the CSDN developer community.</p>
           <div class="recognition-links"><a href="https://zhenyangliu.github.io/TriVLA/static/images/demo_video.mp4">Video · Project demo ↗</a><a href="https://zhenyangliu.github.io/TriVLA/">Project ↗</a><a href="https://arxiv.org/abs/2507.01424v1">First version · July 2, 2025 ↗</a><a href="https://arxiv.org/abs/2507.01424v3">Episodic world modeling · v3 ↗</a><a href="https://www.bilibili.com/video/BV188u2zQEga/">Shenlan Academy · Video review ↗</a><a href="https://www.themoonlight.io/zh/review/trivla-a-unified-triple-system-based-unified-vision-language-action-model-for-general-robot-control">Moonlight review ↗</a><a href="https://adg.csdn.net/69708e24437a6b40336aaff5.html">CSDN analysis ↗</a></div>
+        </div>
+      </li>
+      <li id="cap-net" class="media-item">
+        <div class="media-meta">CVPR 2025 · Highlight<time datetime="2025-06">June 2025</time></div>
+        <div>
+          <h4><a href="https://shanehuanghz.github.io/CAPNet/">CAP-Net: unified RGB-D perception for articulated robot manipulation</a></h4>
+          <p><strong>Selected as a CVPR 2025 Highlight, CAP-Net connects detailed part perception with physical robot manipulation.</strong> To our knowledge, CAP-Net is the first RGB-D method to use whole-object input to jointly predict part semantics, instance centers, and canonical part coordinates in an end-to-end, single-stage network. This preserves the context needed to estimate the poses and sizes of unseen movable components.</p>
+          <p>The accompanying <strong>RGBD-Art dataset</strong> provides 63,000 realistic RGB-D images with part annotations and simulated sensor noise. Together, the method and data support transfer from synthetic training to real-robot manipulation using a consumer-grade RGB-D camera.</p>
+          <p><strong>Subsequent Shanghai Jiao Tong University research adopted the feature-extraction design and dataset, and used CAP-Net as an evaluation baseline.</strong> The 2026 study <em>Revisiting Articulated Parts Perception in Robot Manipulation</em> follows CAP-Net’s SAM2 and FeatUp feature pipeline, evaluates on RGBD-Art, and compares against CAP-Net in both part perception and real-robot manipulation.</p>
+          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=nmqoce9h0iM">Video · YouTube ↗</a><a href="https://shanehuanghz.github.io/CAPNet/resources/videos/CVPR2025_highlight.mp4">Video · Robot demonstration ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Huang_CAP-Net_A_Unified_Network_for_6D_Pose_and_Size_Estimation_CVPR_2025_paper.html">CVPR paper ↗</a><a href="https://media.eventhosts.cc/Conferences/CVPR2025/CVPR_main_conf_2025.pdf#page=34">Official Highlight program ↗</a><a href="https://shanehuanghz.github.io/CAPNet/">Project &amp; dataset ↗</a><a href="https://github.com/ShaneHuangHZ/CAPNet">Code &amp; models ↗</a><a href="https://arxiv.org/html/2606.08103v1">SJTU · Subsequent method &amp; evaluation ↗</a></div>
         </div>
       </li>
       <li id="tamma" class="media-item">
@@ -735,6 +773,16 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://rsipvision.com/CVPR2026-Sunday/">Cover &amp; full issue ↗</a><a href="https://rsipvision.com/CVPR2026-Sunday/10/">Feature article ↗</a><a href="https://www.jiangtongli.me/uploads/papers/2026-CVPR-DynaMind.pdf">DynaMind · Dataset &amp; benchmark adoption ↗</a><a href="https://papers.miccai.org/miccai-2026/0711-Paper4295.html">NeuroSonic · Speech reconstruction ↗</a><a href="https://www.x-techcon.com/article/161149.html">BCI Community · Chinese overview ↗</a></div>
         </div>
       </li>
+      <li id="eeg-grasping" class="media-item">
+        <div class="media-meta">ICRA 2026<time datetime="2026-06-04">June 4, 2026</time></div>
+        <div>
+          <h4><a href="https://yichangliu1224.github.io/EEG-Graspbot/">EEG-Graspbot: imagined intentions for robotic grasping and placement</a></h4>
+          <p><strong>A dual-channel EEG intent interface connects “what to grasp” with “where to place.”</strong> Visual imagery identifies the intended object, while motor imagery specifies its placement position. Offline-trained decoders operate on streaming EEG to guide a real KINOVA GEN2 arm, linking cognitive intent with physical manipulation.</p>
+          <p>The ICRA 2026 study provides an <strong>online proof of concept with healthy volunteers</strong>: five participants completed offline experiments and four took part in online tests. The reported end-to-end task success rate was 20.88%, establishing feasibility while identifying the need for more reliable intention decoding.</p>
+          <p>Our <strong>EEG intention-decoding robotic grasping system</strong> was presented at Fudan’s robotics and technology-transfer salon on June 5, 2025. The university’s Technology Transfer Center documented the presentation in its June 6 report.</p>
+          <div class="recognition-links"><a href="https://yichangliu1224.github.io/EEG-Graspbot/assets/videos/online_full.mp4">Full demonstration video ↗</a><a href="https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#thi1i_195">ICRA official program ↗</a><a href="https://arxiv.org/abs/2603.03181">Paper ↗</a><a href="https://yichangliu1224.github.io/EEG-Graspbot/">Project ↗</a><a href="https://github.com/yichangliu1224/EEG-Graspbot">Code ↗</a><a href="https://fdzhuanyi.fudan.edu.cn/46/fe/c40933a739070/page.htm">Fudan Technology Transfer Center · Event report ↗</a></div>
+        </div>
+      </li>
       <li id="dream-decoding" class="media-item">
         <div class="media-meta">fMRI · Dream decoding<time datetime="2026-05">CACM feature · May 2026</time></div>
         <div>
@@ -753,22 +801,32 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://arxiv.org/abs/2403.18211">NeuroPictor paper ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">AAAI independent evaluation ↗</a><a href="https://arxiv.org/html/2507.07993v2#S4">Results &amp; Table 3 ↗</a><a href="https://arxiv.org/html/2510.27128v1">ZEBRA follow-up research ↗</a></div>
         </div>
       </li>
-      <li id="eeg-grasping" class="media-item">
-        <div class="media-meta">Fudan Technology Transfer Center<time datetime="2025-06-05">June 5, 2025</time></div>
+      <li id="mind3d" class="media-item">
+        <div class="media-meta">ECCV 2024 · TPAMI 2025<time datetime="2025-12">Series · December 2025</time></div>
         <div>
-          <h4><a href="https://fdzhuanyi.fudan.edu.cn/46/fe/c40933a739070/page.htm">EEG intention decoding: presenting a robotic grasping system</a></h4>
-          <p>Our <strong>EEG intention-decoding robotic grasping system</strong> was presented at Fudan’s robotics and technology-transfer salon on June 5, 2025. The university’s Technology Transfer Center documented the presentation in its June 6 report.</p>
-          <div class="recognition-links"><a href="https://fdzhuanyi.fudan.edu.cn/46/fe/c40933a739070/page.htm">Fudan Technology Transfer Center · Event report ↗</a></div>
+          <h4><a href="https://jianxgao.github.io/MinD-3D/">MinD-3D / MinD-3D++: from the fMRI-to-3D task to textured meshes</a></h4>
+          <p><strong>Our group first introduced and defined the fMRI-to-3D reconstruction task, Recon3DMind</strong>, and demonstrated its feasibility with MinD-3D. We released <strong>fMRI-Shape, the first dataset pairing fMRI signals with 3D shapes</strong>, collected from 14 participants. The preprint was released on <time datetime="2023-12-12">December 12, 2023</time>, followed by publication at ECCV 2024.</p>
+          <p><strong>MinD-3D++ (TPAMI 2025) extends reconstruction to textured 3D meshes</strong> and expands the open resource with fMRI-Objaverse: 3,142 objects across 117 categories, with data from five participants. This supports decoding and evaluating both object geometry and appearance.</p>
+          <p><strong>Independent studies recognize fMRI-Shape’s pioneering role and use it for further brain-to-3D research.</strong> Neuro-3D (CVPR 2025) identifies it as the first paired fMRI–3D shape dataset; NeuroSculptor3D (AAAI 2026) and BrainGS (CVPR 2026) use it in their experiments. BrainGS also follows MinD-3D’s cross-subject and cross-category evaluation protocols. BrainGS also compares MinD-3D++ as a reconstruction baseline, while the University of Cambridge’s BASIC study (AAAI 2026) independently evaluates its semantic and structural fidelity.</p>
+          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">Project ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV paper ↗</a><a href="https://arxiv.org/abs/2312.07485">Preprint &amp; release history ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape dataset ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Neuro-3D_Towards_3D_Visual_Decoding_from_EEG_Signals_CVPR_2025_paper.pdf">Neuro-3D · Recognition of first dataset ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D · Dataset adoption ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jing_More_Natural_More_Real_Object-aware_Gaussian_Splatting_for_3D_Visual_CVPR_2026_paper.pdf">BrainGS · Dataset &amp; protocol adoption ↗</a><a href="https://doi.org/10.1109/TPAMI.2025.3599860">MinD-3D++ · TPAMI paper ↗</a><a href="https://arxiv.org/abs/2409.11315">MinD-3D++ · Open manuscript ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse">fMRI-Objaverse dataset ↗</a><a href="https://github.com/JianxGao/MinD-3D">Series code ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">Cambridge BASIC · Independent model evaluation ↗</a></div>
         </div>
       </li>
-      <li id="mind3d" class="media-item">
-        <div class="media-meta">ECCV 2024<time datetime="2023-12-12">Preprint · December 12, 2023</time></div>
+      <li id="lea" class="media-item">
+        <div class="media-meta">TMLR<time datetime="2024-12">December 2024</time></div>
         <div>
-          <h4><a href="https://jianxgao.github.io/MinD-3D/">MinD-3D: establishing the fMRI-to-3D reconstruction task</a></h4>
-          <p><strong>Our group first introduced and defined the fMRI-to-3D reconstruction task, Recon3DMind</strong>, and demonstrated its feasibility with MinD-3D. We released <strong>fMRI-Shape, the first dataset pairing fMRI signals with 3D shapes</strong>, collected from 14 participants.</p>
-          <p>The preprint was released on <time datetime="2023-12-12">December 12, 2023</time>, followed by publication at ECCV 2024.</p>
-          <p><strong>Independent studies recognize fMRI-Shape’s pioneering role and use it for further brain-to-3D research.</strong> Neuro-3D (CVPR 2025) identifies it as the first paired fMRI–3D shape dataset; NeuroSculptor3D (AAAI 2026) and BrainGS (CVPR 2026) use it in their experiments. BrainGS also follows MinD-3D’s cross-subject and cross-category evaluation protocols.</p>
-          <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">Project ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV paper ↗</a><a href="https://arxiv.org/abs/2312.07485">Preprint &amp; release history ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape dataset ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Neuro-3D_Towards_3D_Visual_Decoding_from_EEG_Signals_CVPR_2025_paper.pdf">Neuro-3D · Recognition of first dataset ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D · Dataset adoption ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jing_More_Natural_More_Real_Object-aware_Gaussian_Splatting_for_3D_Visual_CVPR_2026_paper.pdf">BrainGS · Dataset &amp; protocol adoption ↗</a></div>
+          <h4><a href="https://openreview.net/forum?id=89QT2DsKyj">LEA: unifying fMRI decoding and encoding through latent alignment</a></h4>
+          <p>LEA aligns neural and visual latent representations in a <strong>unified, bidirectional framework</strong>: it reconstructs visual stimuli from fMRI and predicts brain activity from images. First released in March 2023 and published in TMLR in December 2024, the work makes its implementation publicly available.</p>
+          <p><strong>An independent UC Berkeley study builds on LEA’s linear alignment formulation</strong> and evaluates it as a baseline for statistical brain decoding (2026 preprint). NeuroSculptor3D (AAAI 2026) also evaluates the LEA-3D adaptation, explicitly recalculating baseline results with official code.</p>
+          <div class="recognition-links"><a href="https://openreview.net/forum?id=89QT2DsKyj">TMLR paper ↗</a><a href="https://arxiv.org/abs/2303.14730">Preprint &amp; release history ↗</a><a href="https://github.com/naiq/LEA">Code ↗</a><a href="https://arxiv.org/html/2603.21042v1">Berkeley · Independent follow-up preprint ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D · LEA-3D baseline evaluation ↗</a></div>
+        </div>
+      </li>
+      <li id="glfa" class="media-item">
+        <div class="media-meta">ECCV 2024<br>Cross-subject video decoding</div>
+        <div>
+          <h4><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11062_ECCV_2024_paper.php">GLFA: a representative framework for cross-subject brain-to-video decoding</a></h4>
+          <p>GLFA introduces <strong>global-local functional alignment</strong> to map different subjects’ fMRI signals into a shared brain space, enabling cross-subject video reconstruction with a diffusion generator. The work also releases fMRI-Video, with approximately 75,000 fMRI–stimulus pairs from eight participants.</p>
+          <p><strong>Shanghai Jiao Tong University’s independent MindCross study (AAAI 2026) selects GLFA as a representative cross-subject video decoding framework.</strong> It evaluates GLFA on video reconstruction and new-subject adaptation, including accuracy, adaptation time, and parameter comparisons.</p>
+          <div class="recognition-links"><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11062_ECCV_2024_paper.php">ECCV paper ↗</a><a href="https://github.com/chongjg/GLFA-fmri-video">Code &amp; reconstruction results ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video">fMRI-Video dataset ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38814">MindCross · Representative baseline &amp; evaluation ↗</a></div>
         </div>
       </li>
       <li id="fmri-pte" class="media-item">

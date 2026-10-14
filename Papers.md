@@ -71,7 +71,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * SCOOP'D: Learning Mixed-Liquid-Solid Scooping via Sim2Real Generative Policy. Kuanning Wang*, Yongchong Gu, Yuqian Fu, Zeyu Shangguan, Sicheng He, Xiangyang Xue, Yanwei Fu, Daniel Seita. ICRA 2026
 
-* Spatially Guided Training for Vision-Language-Action Model. Jinhui Ye, Fangjing Wang, Ning Gao, Junqiu Yu, Zhu Yangkun, Bin Wang, Jinyu Zhang, Weiyang Jin, Yanwei Fu, Feng Zheng, Yilun Chen, Jiangmiao Pang. ICLR 2026.  Comments: This work is internVLA, and my student Junqiu Yu, along with collaborators, developed starVLA, which is also an excellent contribution: https://github.com/starVLA/starVLA
+* ST4VLA: Spatially Guided Training for Vision-Language-Action Model. Jinhui Ye, Fangjing Wang, Ning Gao, Junqiu Yu, Yangkun Zhu, Bin Wang, Jinyu Zhang, Weiyang Jin, Yanwei Fu, Feng Zheng, Yilun Chen, Jiangmiao Pang. ICLR 2026. My student Junqiu Yu is a co-first author and a core contributor to the related InternVLA-M1 release. [Paper](https://openreview.net/forum?id=eKhOrQWAVJ) · [Code & models](https://github.com/InternRobotics/InternVLA-M1). Junqiu and collaborators also contribute to the [starVLA open-source framework](https://github.com/starVLA/starVLA).
 
 * ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation. Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, Yanwei Fu. CVPR 2026
 
@@ -84,7 +84,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * Cross-subject fMRI-to-Image with Visual-cortex 2D Representation and Pre-Training. Xuelin Qian; Yun Wang; Yikai Wang; Shijie Zhao; Jianfeng Feng; Yanwei Fu. IEEE JBHI 2026
 
-* Robotic Grasping and Placement Controlled by EEG-Based Hybrid Visual and Motor Imagery. Yichang Liu, Tianyu Wang, Ziyi Ye, Yawei Li, Yanwei Fu, Yu-Gang Jiang, Shouyan Wang. ICRA 2026
+* Robotic Grasping and Placement Controlled by EEG-Based Hybrid Visual and Motor Imagery. Yichang Liu, Tianyu Wang, Ziyi Ye, Yawei Li, Yu-Gang Jiang, Shouyan Wang, Yanwei Fu. ICRA 2026 [Paper](https://arxiv.org/abs/2603.03181) · [Project & video](https://yichangliu1224.github.io/EEG-Graspbot/)
 
 * Modeling Spatiotemporal Neural Frames for High Resolution Brain Dynamic. Wanying Qu, Jianxiong Gao, Wei Wang, Yanwei Fu. CVPR 2026
 
@@ -171,7 +171,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * VividPose: Advancing Stable Video Diffusion for Realistic Human Image Animation. Qilin Wang, Zhengkai Jiang, Chengming Xu, Jiangning Zhang, Yabiao Wang, Xinyi Zhang, Yun Cao, Weijian Cao, Chengjie Wang, Yanwei Fu. ICME 2025. <a class="presentation-tag" href="https://kelu007.github.io/">Oral</a>
 
-* CAP-Net: A Unified Network for 6D Pose and Size Estimation of Categorical Articulated Parts from a Single RGB-D Image. Jingshun Huang, Haitao Lin, Tianyu Wang, Xiangyang Xue, Yi Zhu, Yanwei Fu. CVPR 2025. <a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2025/CVPR_main_conf_2025.pdf#page=34">Highlight</a>
+* CAP-Net: A Unified Network for 6D Pose and Size Estimation of Categorical Articulated Parts from a Single RGB-D Image. Jingshun Huang, Haitao Lin, Tianyu Wang, Yanwei Fu, Xiangyang Xue, Yi Zhu. CVPR 2025. <a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2025/CVPR_main_conf_2025.pdf#page=34">Highlight</a>
 
 * ReasonGrounder: LVLM-Guided Hierarchical Feature Splatting for Open-Vocabulary 3D Visual Grounding and Reasoning. Zhenyang Liu, Yikai Wang, Sixiao Zheng, Tongying Pan, Longfei Liang, Yanwei Fu, Xiangyang Xue. CVPR 2025
 
@@ -186,8 +186,6 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 * CineBrain: A Large-Scale Multi-Modal Brain Dataset During Naturalistic Audiovisual Narrative Processing.  Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, Yanwei Fu. Arxiv 2025 https://arxiv.org/abs/2503.06940 (It's a nice dataset)
 
 * DecoFuse: Decomposing and Fusing the" What"," Where", and" How" for Brain-Inspired fMRI-to-Video Decoding.  Chong Li, Jingyang Huo, Weikang Gong, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. Arxiv 2025 https://arxiv.org/pdf/2504.00432
-
-* LEA: Learning Latent Embedding Alignment Model for fMRI Decoding and Encoding,  Xuelin Qian, Yikai Wang, Xinwei Sun, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. TMLR 2025, dataset, and models are released. 
 
 ## 2024
 
@@ -206,6 +204,8 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 * TC-GEN: Data-Driven Tropical Cyclone Downscaling Using Machine Learning-Based High-Resolution Weather Model. Renzhi Jing, Jianxiong Gao, Yunuo Cai, Dazhi Xi, Yinda Zhang, Yanwei Fu, Kerry Emanuel, Noah S. Diffenbaugh, Eran Bendavid. Journal of Advances in Modeling Earth Systems (JAMES), 2024. <span class="award-tag">Wiley Top Viewed Article · 2025</span> [Paper](https://doi.org/10.1029/2023MS004203) · [View certificate]({{ '/assets/honors/tc-gen-wiley-top-viewed-article-2025.jpg' | relative_url }}). Recognized among JAMES articles published in 2024, with views counted 12 months after publication. Coauthored with **[Kerry Emanuel](https://eaps.mit.edu/people/faculty/kerry-a-emanuel/) (MIT; Member of the U.S. National Academy of Sciences and the American Academy of Arts and Sciences)**, [Noah S. Diffenbaugh](https://profiles.stanford.edu/noah-diffenbaugh) (Stanford), and [Eran Bendavid](https://med.stanford.edu/profiles/eran-bendavid) (Stanford).
 
 * TaMMa: Target-driven Multi-subscene Mobile Manipulation. Jiawei Hou, Tianyu Wang, Tongying Pan, Shouyan Wang, Xiangyang Xue, Yanwei Fu. CoRL 2024
+
+* LEA: Learning Latent Embedding Alignment Model for fMRI Decoding and Encoding. Xuelin Qian, Yikai Wang, Xinwei Sun, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. TMLR 2024. [Paper](https://openreview.net/forum?id=89QT2DsKyj) · [Code](https://github.com/naiq/LEA)
 
 * MinD-3D: Reconstruct High-quality 3D objects in Human Brain. Jianxiong Gao, Yuqian Fu, Yun Wang, Xuelin Qian, Jianfeng Feng, Yanwei Fu. ECCV 2024
 
