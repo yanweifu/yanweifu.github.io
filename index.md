@@ -138,11 +138,34 @@ image: /assets/images/yanwei-fu.png
       </div>
     </li>
     <li class="publication">
+      <div class="publication-venue">CVPR 2024<span>Optical flow</span></div>
+      <div>
+        <h4><a href="https://arxiv.org/abs/2404.04808">MemFlow: Optical Flow Estimation and Prediction with Memory</a></h4>
+        <p>Qiaole Dong, <strong>Yanwei Fu</strong></p>
+        <p><strong>Online optical flow with motion memory; ranked first on the 1080p Spring benchmark at submission.</strong> MemFlow supports future flow prediction and is integrated into PTLFlow, with downstream reuse in MFTIQ point tracking.</p>
+        <div class="publication-links"><a href="https://arxiv.org/abs/2404.04808">Paper</a><a href="https://dqiaole.github.io/MemFlow/">Project</a><a href="https://github.com/DQiaole/MemFlow">Code</a><a href="#optical-flow">Research impact ↓</a></div>
+      </div>
+    </li>
+    <li class="publication">
       <div class="publication-venue">ICLR 2024<span>3D reconstruction</span></div>
       <div>
         <h4><a href="https://arxiv.org/abs/2401.11673">MVSFormer++: Revealing the Devil in Transformer's Details for Multi-View Stereo</a></h4>
         <p>Chenjie Cao, Xinlin Ren, <strong>Yanwei Fu</strong></p>
         <div class="publication-links"><a href="https://arxiv.org/abs/2401.11673">Paper</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">Code</a></div>
+      </div>
+    </li>
+    <li id="zits-highlight" class="publication">
+      <div class="publication-venue">CVPR 2022<br>TPAMI 2023<span>Image inpainting</span></div>
+      <div>
+        <h4><a href="https://dqiaole.github.io/ZITS_inpainting/">ZITS: Incremental Transformer Structure Enhanced Image Inpainting with Masking Positional Encoding</a></h4>
+        <p>Qiaole Dong, Chenjie Cao, <strong>Yanwei Fu</strong></p>
+        <div class="publication-extension">
+          <p class="publication-version">Journal extension</p>
+          <h4><a href="https://doi.org/10.1109/TPAMI.2023.3280222">ZITS++: Image Inpainting by Improving the Incremental Transformer on Structural Priors</a></h4>
+          <p>Chenjie Cao, Qiaole Dong, <strong>Yanwei Fu</strong></p>
+        </div>
+        <p><strong>Deployed in Huawei Mate 60’s AI object-removal feature.</strong> The ZITS series brings structure-aware image completion into smartphone photo editing; ZITS is also integrated into the open-source IOPaint editor.</p>
+        <div class="publication-links"><a href="https://arxiv.org/abs/2203.00867">CVPR paper</a><a href="https://doi.org/10.1109/TPAMI.2023.3280222">TPAMI paper</a><a href="https://github.com/DQiaole/ZITS_inpainting">ZITS code</a><a href="https://github.com/ewrfcas/ZITS-PlusPlus">ZITS++ code</a><a href="#image-inpainting">Research impact ↓</a></div>
       </div>
     </li>
     <li id="setr" class="publication">
@@ -408,6 +431,61 @@ image: /assets/images/yanwei-fu.png
       </li>
     </ul>
   </div>
+  <div id="image-inpainting" class="media-group" aria-labelledby="image-inpainting-title">
+    <h3 id="image-inpainting-title">Image inpainting &amp; multi-view editing</h3>
+    <ul class="media-list">
+      <li id="mvinpainter" class="media-item">
+        <div class="media-meta">NeurIPS 2024</div>
+        <div>
+          <h4><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/b3bac97f3227c52c0179a6d967480867-Abstract-Conference.html">MVInpainter: connecting 2D inpainting with 3D editing</a></h4>
+          <p>To our knowledge, <strong>MVInpainter first connected 2D and 3D scene editing through a model for multi-view-consistent inpainting.</strong> It propagates reference-guided edits across views using video and appearance priors, supporting object removal, insertion, and replacement without explicit camera-pose conditions.</p>
+          <p><strong>SplatFlow (CVPR 2025) uses the official MVInpainter implementation for qualitative comparisons of 3D editing.</strong> This places the work within subsequent research on consistent multi-view scene editing.</p>
+          <div class="recognition-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/b3bac97f3227c52c0179a6d967480867-Abstract-Conference.html">NeurIPS paper ↗</a><a href="https://ewrfcas.github.io/MVInpainter/">Project &amp; demos ↗</a><a href="https://github.com/ewrfcas/MVInpainter">Code &amp; models ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/supplemental/Go_SplatFlow_Multi-View_Rectified_CVPR_2025_supplemental.pdf">SplatFlow · comparison setup ↗</a></div>
+        </div>
+      </li>
+      <li id="leftrefill" class="media-item">
+        <div class="media-meta">CVPR 2024</div>
+        <div>
+          <h4><a href="https://ewrfcas.github.io/LeftRefill/">LeftRefill: reference-guided completion and view synthesis</a></h4>
+          <p>To our knowledge, <strong>LeftRefill was the first to use text-to-image models for end-to-end inpainting guided by reference images from different viewpoints.</strong> Its shared reference-and-target canvas also supports novel-view synthesis through task and view conditioning.</p>
+          <p><strong>CorrFill (WACV 2025) uses LeftRefill as one of its inpainting backbones, reusing its implementation and learned prompt embeddings.</strong> The follow-up adds correspondence guidance and evaluates its components on top of LeftRefill.</p>
+          <div class="recognition-links"><a href="https://ewrfcas.github.io/LeftRefill/">Project &amp; demos ↗</a><a href="https://arxiv.org/html/2305.11577v3#S2">Paper · novelty statement ↗</a><a href="https://github.com/ewrfcas/LeftRefill">Code &amp; models ↗</a><a href="https://github.com/khliu0000/CorrFill">CorrFill · implementation reuse ↗</a></div>
+        </div>
+      </li>
+      <li id="zits-series" class="media-item">
+        <div class="media-meta">CVPR 2022<br>TPAMI 2023</div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2203.00867">ZITS series: structural priors for image completion</a></h4>
+          <p><strong>Combines global structure restoration with texture synthesis to complete missing image regions coherently.</strong> ZITS++ extends this approach with improved texture restoration and an analysis of structural priors for high-resolution inpainting.</p>
+          <p><strong>The ZITS series has reached smartphone users through <a href="#zits-huawei">Huawei Mate 60’s AI object-removal feature</a>; ZITS is also integrated into IOPaint.</strong> SmartEraser (CVPR 2025) evaluates ZITS++ on three object-removal benchmarks: RORD-Val, DEFACTO-Val, and Syn4Removal-Val.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2203.00867">ZITS · CVPR paper ↗</a><a href="https://doi.org/10.1109/TPAMI.2023.3280222">ZITS++ · TPAMI paper ↗</a><a href="https://www.iopaint.com/models">IOPaint · supported models ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Jiang_SmartEraser_Remove_Anything_from_Images_using_Masked-Region_Guidance_CVPR_2025_paper.pdf">SmartEraser · benchmark comparisons ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="optical-flow" class="media-group" aria-labelledby="optical-flow-title">
+    <h3 id="optical-flow-title">Optical flow &amp; motion understanding</h3>
+    <ul class="media-list">
+      <li id="memflow" class="media-item">
+        <div class="media-meta">CVPR 2024</div>
+        <div>
+          <h4><a href="https://dqiaole.github.io/MemFlow/">MemFlow: motion estimation and prediction with memory</a></h4>
+          <p><strong>Introduced online optical-flow estimation and prediction with persistent motion memory.</strong> Current estimation uses the available frame pair and past motion, without requiring additional unseen future frames. At submission, MemFlow ranked first on the 1080p Spring benchmark, as recorded in the paper.</p>
+          <p><strong>Integrated into PTLFlow and used as an alternative flow component in MFTIQ (WACV 2025).</strong> MFTIQ evaluates this configuration for point tracking on TAP-Vid DAVIS and includes the adapted MemFlow implementation in its public code.</p>
+          <div class="recognition-links"><a href="https://dqiaole.github.io/MemFlow/">Project &amp; demos ↗</a><a href="https://arxiv.org/abs/2404.04808">CVPR paper ↗</a><a href="https://github.com/DQiaole/MemFlow">Code &amp; models ↗</a><a href="https://ptlflow.readthedocs.io/en/latest/models/models_list.html#memflow">PTLFlow integration ↗</a><a href="https://github.com/serycjon/MFTIQ">MFTIQ · downstream reuse ↗</a></div>
+        </div>
+      </li>
+      <li id="matchflow" class="media-item">
+        <div class="media-meta">CVPR 2023</div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2303.08384">MatchFlow: geometric matching as pretraining for optical flow</a></h4>
+          <p><strong>Established geometric image matching as a pretraining task for optical flow.</strong> The CVPR 2023 paper reports 11.5% lower Sintel-clean test error and 10.1% lower KITTI test error than GMA, demonstrating the value of real-image correspondence pretraining.</p>
+          <p><strong>PTLFlow includes both MatchFlow and its RAFT-based variant</strong>, making their pretrained models available through a shared inference and evaluation interface alongside other optical-flow methods.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2303.08384">CVPR paper ↗</a><a href="https://github.com/DQiaole/MatchFlow">Code &amp; models ↗</a><a href="https://ptlflow.readthedocs.io/en/latest/models/models_list.html#matchflow">PTLFlow integration ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
   <div id="video-generation" class="media-group">
     <h3>Controllable video generation &amp; adoption</h3>
     <ul class="media-list">
@@ -544,15 +622,6 @@ image: /assets/images/yanwei-fu.png
           <p><strong>WALL-E contributed to the first wave of ChatGPT-based robotics research in 2023 by connecting multi-round dialogue, visual grounding, and real robot grasping.</strong> First publicly released on August 30, 2023, it combines ChatGPT’s multi-round preference understanding with 9D visual grounding—6D object pose and 3D size—to convert conversational intent into executable grasps. User feedback after execution lets the dialogue continue with information about the latest action, connecting interaction, spatial perception, and real robot control.</p>
           <p><strong>UT Dallas's Fall 2023 robot manipulation and navigation course selected WALL-E as a representative reference for language-guided manipulation</strong>, alongside SayCan and Instruct2Act in its project guide. A 2024 survey by researchers at KAIST also includes the work in its discussion of object grounding for LLM-integrated robots.</p>
           <div class="recognition-links"><a href="https://www.youtube.com/watch?v=0P6bNYcVNKA">YouTube · Demo ↗</a><a href="https://star-uu-wang.github.io/WALL-E/">Project &amp; demos ↗</a><a href="https://arxiv.org/abs/2308.15962">2023 preprint ↗</a><a href="https://yuxng.github.io/Courses/CS6301Fall2023/CS_6301_Project_Proposal.pdf#page=3">UT Dallas · Course project references ↗</a><a href="https://link.springer.com/article/10.1007/s11370-024-00550-5">KAIST survey · Intelligent Service Robotics ↗</a></div>
-        </div>
-      </li>
-      <li id="geovln" class="media-item">
-        <div class="media-meta">CVPR 2023<br>Vision-and-language navigation</div>
-        <div>
-          <h4><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">GeoVLN: making spatial geometry part of language-guided navigation</a></h4>
-          <p><strong>GeoVLN makes spatial geometry and neighboring-view context part of the visual representation used for language-guided navigation.</strong> Predicted depth and surface normals complement RGB appearance, while local slot attention aggregates neighboring views and multiway attention connects instruction phrases with relevant visual features. This strengthens spatial understanding for navigation in unseen environments, extending our embodied research from manipulating objects to moving through scenes.</p>
-          <p>GeoVLN continues to appear in subsequent navigation comparisons: the independent 2026 STE-VLN preprint includes it in its R2R benchmark table. This documents its use as a comparison method in later research.</p>
-          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=i-WjmcNMnQI">YouTube · CVPR paper video ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">CVPR paper ↗</a><a href="https://arxiv.org/abs/2305.17102">Preprint ↗</a><a href="https://arxiv.org/html/2602.23937v1#S5">Subsequent comparison · STE-VLN preprint ↗</a></div>
         </div>
       </li>
       <li id="smart-bartender" class="media-item">
@@ -808,12 +877,38 @@ image: /assets/images/yanwei-fu.png
       </div>
     </li>
     <li id="transductive-zsl" class="publication">
-      <div class="publication-venue">TPAMI 2015<span>Zero-shot learning</span></div>
+      <div class="publication-venue">2012–2020<span>Zero-shot learning</span></div>
       <div>
-        <h3><a href="https://arxiv.org/abs/1501.04560">Transductive Multi-view Zero-Shot Learning</a></h3>
-        <p><strong>Yanwei Fu</strong>, Timothy M. Hospedales, Tao Xiang, Shaogang Gong</p>
-        <p>Identifies projection domain shift in zero-shot learning and addresses it through transductive multi-view embedding.</p>
-        <div class="publication-links"><a href="https://arxiv.org/abs/1501.04560">Paper</a><a href="https://github.com/yanweifu/embedding_zero-shot-learning">Code (ECCV version)</a></div>
+        <h3>Zero-shot learning: from multimodal attributes to open-set recognition</h3>
+        <p>To our knowledge, our ECCV 2014 / TPAMI 2015 work <strong>first identified the projection domain shift problem in zero-shot learning</strong> and introduced transductive multi-view embedding to address it. <a href="https://www.ijcai.org/proceedings/2022/0217.pdf#page=2">Independent research</a> credits this work with identifying the problem.</p>
+        <p>This series spans early attribute-based video recognition and the USAA dataset, multi-label zero-shot learning, and vocabulary-informed recognition that connects supervised, zero-shot, and open-set learning.</p>
+        <div class="publication-extension">
+          <p class="publication-version">Attribute learning for unseen categories · ECCV 2012 / TPAMI 2014</p>
+          <h4><a href="https://doi.org/10.1007/978-3-642-33765-9_38">Attribute Learning for Understanding Unstructured Social Activity</a></h4>
+          <p><strong>Yanwei Fu</strong>, Timothy M. Hospedales, Tao Xiang, Shaogang Gong</p>
+          <h4><a href="https://doi.org/10.1109/TPAMI.2013.128">Learning Multimodal Latent Attributes</a></h4>
+          <p><strong>Yanwei Fu</strong>, Timothy M. Hospedales, Tao Xiang, Shaogang Gong</p>
+        </div>
+        <div class="publication-extension">
+          <p class="publication-version">Transductive multi-view learning · ECCV 2014 / TPAMI 2015</p>
+          <h4><a href="https://doi.org/10.1007/978-3-319-10605-2_38">Transductive Multi-view Embedding for Zero-Shot Recognition and Annotation</a></h4>
+          <p><strong>Yanwei Fu</strong>, Timothy M. Hospedales, Tao Xiang, Zhenyong Fu, Shaogang Gong</p>
+          <h4><a href="https://arxiv.org/abs/1501.04560">Transductive Multi-view Zero-Shot Learning</a></h4>
+          <p><strong>Yanwei Fu</strong>, Timothy M. Hospedales, Tao Xiang, Shaogang Gong</p>
+        </div>
+        <div class="publication-extension">
+          <p class="publication-version">Multi-label zero-shot recognition · BMVC 2014</p>
+          <h4><a href="https://bmva-archive.org.uk/bmvc/2014/papers/paper083/index.html">Transductive Multi-label Zero-shot Learning</a></h4>
+          <p><strong>Yanwei Fu</strong>, Yongxin Yang, Timothy M. Hospedales, Tao Xiang, Shaogang Gong</p>
+        </div>
+        <div class="publication-extension">
+          <p class="publication-version">Vocabulary-informed learning · CVPR 2016 / TPAMI 2020</p>
+          <h4><a href="https://arxiv.org/abs/1604.07093">Semi-supervised Vocabulary-informed Learning</a></h4>
+          <p><strong>Yanwei Fu</strong>, Leonid Sigal</p>
+          <h4><a href="https://doi.org/10.1109/TPAMI.2019.2922175">Vocabulary-informed Zero-shot and Open-set Learning</a></h4>
+          <p><strong>Yanwei Fu</strong>, Xiaomei Wang, Hanze Dong, Yu-Gang Jiang, Meng Wang, Xiangyang Xue, Leonid Sigal</p>
+        </div>
+        <div class="publication-links"><a href="{{ '/USAA/download/' | relative_url }}">USAA dataset</a><a href="https://github.com/yanweifu/embedding_zero-shot-learning">Code (ECCV 2014)</a><a href="https://github.com/xiaomeiyy/WMM-Voc">Vocabulary-informed code</a><a href="https://phys.org/news/2016-06-vision-word.html">CVPR 2016 coverage · Phys.org / Disney Research</a></div>
       </div>
     </li>
   </ol>

@@ -197,7 +197,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * Towards Global Optimal Visual In-Context Learning Prompt Selection, Chengming Xu, Chen Liu, Yikai Wang, Yanwei Fu. NeurIPS 2024
 
-* MVInpainter: Learning Multi-View Consistent Inpainting to Bridge 2D and 3D Editing. Chenjie Cao, Chaohui Yu, Yanwei Fu, Fan Wang, Xiangyang Xue. NeurIPS 2024.
+* MVInpainter: Learning Multi-View Consistent Inpainting to Bridge 2D and 3D Editing. Chenjie Cao, Chaohui Yu, Fan Wang, Xiangyang Xue, Yanwei Fu. NeurIPS 2024.
 
 * Unified Lexical Representation for Interpretable Visual-Language Alignment. Yifan Li, Tong He, Yikai Wang, Dongyu Ru, Yanwei Fu, Zheng Zhang. NeurIPS 2024.
 
@@ -273,7 +273,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * Language Guided Robotic Grasping with Fine-grained Instructions, Qiang Sun, Haitao Lin, Ying Fu, Yanwei Fu, Xiangyang Xue. IROS 2023
 
-* ZITS++: Image Inpainting by Improving the Incremental Transformer on Structural Priors. Chenjie Cao, Qiaole Dong, Yanwei Fu. IEEE TPAMI, accepted
+* ZITS++: Image Inpainting by Improving the Incremental Transformer on Structural Priors. Chenjie Cao, Qiaole Dong, Yanwei Fu. IEEE TPAMI, 45(10):12667–12684, 2023.
 
 * Grad-PU: Arbitrary-Scale Point Cloud Upsampling via Gradient Descent with Learned Distance Functions. Yun He, Danhang Tang, Yinda Zhang, Xiangyang Xue, Yanwei Fu. CVPR 2023
 

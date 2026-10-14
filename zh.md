@@ -141,11 +141,34 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       </div>
     </li>
     <li class="publication">
+      <div class="publication-venue">CVPR 2024<span>光流估计</span></div>
+      <div>
+        <h4><a href="https://arxiv.org/abs/2404.04808">MemFlow: Optical Flow Estimation and Prediction with Memory</a></h4>
+        <p>Qiaole Dong, <strong>Yanwei Fu</strong></p>
+        <p><strong>以运动记忆实现在线光流估计，投稿时在 1080p Spring 基准排名第一。</strong>MemFlow 支持未来光流预测，已被 PTLFlow 集成，并在 MFTIQ 点跟踪研究中得到下游复用。</p>
+        <div class="publication-links"><a href="https://arxiv.org/abs/2404.04808">论文</a><a href="https://dqiaole.github.io/MemFlow/">项目主页</a><a href="https://github.com/DQiaole/MemFlow">代码</a><a href="#optical-flow">研究影响 ↓</a></div>
+      </div>
+    </li>
+    <li class="publication">
       <div class="publication-venue">ICLR 2024<span>三维重建</span></div>
       <div>
         <h4><a href="https://arxiv.org/abs/2401.11673">MVSFormer++: Revealing the Devil in Transformer's Details for Multi-View Stereo</a></h4>
         <p>Chenjie Cao, Xinlin Ren, <strong>Yanwei Fu</strong></p>
         <div class="publication-links"><a href="https://arxiv.org/abs/2401.11673">论文</a><a href="https://github.com/maybeLx/MVSFormerPlusPlus">代码</a></div>
+      </div>
+    </li>
+    <li id="zits-highlight" class="publication">
+      <div class="publication-venue">CVPR 2022<br>TPAMI 2023<span>图像修复</span></div>
+      <div>
+        <h4><a href="https://dqiaole.github.io/ZITS_inpainting/">ZITS: Incremental Transformer Structure Enhanced Image Inpainting with Masking Positional Encoding</a></h4>
+        <p>Qiaole Dong, Chenjie Cao, <strong>Yanwei Fu</strong></p>
+        <div class="publication-extension">
+          <p class="publication-version">期刊扩展版</p>
+          <h4><a href="https://doi.org/10.1109/TPAMI.2023.3280222">ZITS++: Image Inpainting by Improving the Incremental Transformer on Structural Priors</a></h4>
+          <p>Chenjie Cao, Qiaole Dong, <strong>Yanwei Fu</strong></p>
+        </div>
+        <p><strong>已应用于华为 Mate 60 的 AI 消除功能。</strong>ZITS 系列将结构感知图像补全带入手机照片编辑；ZITS 同时被开源图像编辑工具 IOPaint 集成。</p>
+        <div class="publication-links"><a href="https://arxiv.org/abs/2203.00867">CVPR 论文</a><a href="https://doi.org/10.1109/TPAMI.2023.3280222">TPAMI 论文</a><a href="https://github.com/DQiaole/ZITS_inpainting">ZITS 代码</a><a href="https://github.com/ewrfcas/ZITS-PlusPlus">ZITS++ 代码</a><a href="#image-inpainting">研究影响 ↓</a></div>
       </div>
     </li>
     <li id="setr" class="publication">
@@ -411,6 +434,61 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       </li>
     </ul>
   </div>
+  <div id="image-inpainting" class="media-group" aria-labelledby="image-inpainting-title">
+    <h3 id="image-inpainting-title">图像修复与多视图编辑</h3>
+    <ul class="media-list">
+      <li id="mvinpainter" class="media-item">
+        <div class="media-meta">NeurIPS 2024</div>
+        <div>
+          <h4><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/b3bac97f3227c52c0179a6d967480867-Abstract-Conference.html">MVInpainter：连接二维图像修复与三维编辑</a></h4>
+          <p>据我们所知，<strong>MVInpainter 首次通过多视图一致修复模型连接二维与三维场景编辑。</strong>它结合视频先验与外观引导，将参考图像中的编辑一致传播到多个视角，在无需显式相机位姿条件的情况下支持物体移除、插入与替换。</p>
+          <p><strong>SplatFlow（CVPR 2025）使用 MVInpainter 官方实现进行三维编辑的定性比较。</strong>这体现了该工作在后续多视图一致场景编辑研究中的参考与复用价值。</p>
+          <div class="recognition-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/b3bac97f3227c52c0179a6d967480867-Abstract-Conference.html">NeurIPS 正式论文 ↗</a><a href="https://ewrfcas.github.io/MVInpainter/">项目与演示 ↗</a><a href="https://github.com/ewrfcas/MVInpainter">代码与模型 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/supplemental/Go_SplatFlow_Multi-View_Rectified_CVPR_2025_supplemental.pdf">SplatFlow · 比较设置 ↗</a></div>
+        </div>
+      </li>
+      <li id="leftrefill" class="media-item">
+        <div class="media-meta">CVPR 2024</div>
+        <div>
+          <h4><a href="https://ewrfcas.github.io/LeftRefill/">LeftRefill：参考图引导的图像补全与新视角合成</a></h4>
+          <p>据我们所知，<strong>LeftRefill 首次将文生图模型用于由不同视角参考图引导的端到端图像修复。</strong>通过“左侧参考、右侧生成”的统一画布及任务与视角条件，该框架同时支持新视角合成。</p>
+          <p><strong>CorrFill（WACV 2025）将 LeftRefill 用作其中一个修复基座，复用了其公开实现和已学习的提示嵌入。</strong>后续研究在其基础上加入对应关系引导，并进行组件消融与评估。</p>
+          <div class="recognition-links"><a href="https://ewrfcas.github.io/LeftRefill/">项目与演示 ↗</a><a href="https://arxiv.org/html/2305.11577v3#S2">原论文 · 首创范围 ↗</a><a href="https://github.com/ewrfcas/LeftRefill">代码与模型 ↗</a><a href="https://github.com/khliu0000/CorrFill">CorrFill · 实现复用 ↗</a></div>
+        </div>
+      </li>
+      <li id="zits-series" class="media-item">
+        <div class="media-meta">CVPR 2022<br>TPAMI 2023</div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2203.00867">ZITS 系列：以结构先验引导图像补全</a></h4>
+          <p><strong>结合全局结构恢复与纹理生成，连贯地补全图像缺失区域。</strong>ZITS++ 进一步增强纹理恢复，并系统分析不同结构先验在高分辨率图像修复中的作用。</p>
+          <p><strong>ZITS 系列已通过<a href="#zits-huawei">华为 Mate 60 的 AI 消除功能</a>进入实际手机应用；ZITS 也被 IOPaint 集成。</strong>SmartEraser（CVPR 2025）在 RORD-Val、DEFACTO-Val 和 Syn4Removal-Val 三套物体移除基准上评测 ZITS++。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2203.00867">ZITS · CVPR 论文 ↗</a><a href="https://doi.org/10.1109/TPAMI.2023.3280222">ZITS++ · TPAMI 论文 ↗</a><a href="https://www.iopaint.com/models">IOPaint · 支持模型 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Jiang_SmartEraser_Remove_Anything_from_Images_using_Masked-Region_Guidance_CVPR_2025_paper.pdf">SmartEraser · 基准比较 ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="optical-flow" class="media-group" aria-labelledby="optical-flow-title">
+    <h3 id="optical-flow-title">光流与运动理解</h3>
+    <ul class="media-list">
+      <li id="memflow" class="media-item">
+        <div class="media-meta">CVPR 2024</div>
+        <div>
+          <h4><a href="https://dqiaole.github.io/MemFlow/">MemFlow：基于历史运动记忆的光流估计与预测</a></h4>
+          <p><strong>提出基于持续运动记忆的在线光流估计与预测方法。</strong>当前估计使用可用的图像对和历史运动信息，无需额外的未观测未来帧。论文记录 MemFlow 投稿时在 1080p Spring 基准排名第一。</p>
+          <p><strong>已被 PTLFlow 集成，并被 MFTIQ（WACV 2025）接入为可替换的光流模块。</strong>MFTIQ 在 TAP-Vid DAVIS 上评估这一配置的点跟踪效果，并在公开代码中包含适配后的 MemFlow 实现。</p>
+          <div class="recognition-links"><a href="https://dqiaole.github.io/MemFlow/">项目与演示 ↗</a><a href="https://arxiv.org/abs/2404.04808">CVPR 论文 ↗</a><a href="https://github.com/DQiaole/MemFlow">代码与模型 ↗</a><a href="https://ptlflow.readthedocs.io/en/latest/models/models_list.html#memflow">PTLFlow 集成 ↗</a><a href="https://github.com/serycjon/MFTIQ">MFTIQ · 下游复用 ↗</a></div>
+        </div>
+      </li>
+      <li id="matchflow" class="media-item">
+        <div class="media-meta">CVPR 2023</div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2303.08384">MatchFlow：以几何匹配预训练增强光流学习</a></h4>
+          <p><strong>将几何图像匹配建立为光流预训练任务。</strong>CVPR 2023 论文报告，相比 GMA，Sintel clean 测试误差降低 11.5%，KITTI 测试误差降低 10.1%，体现真实图像对应关系预训练的价值。</p>
+          <p><strong>PTLFlow 已纳入 MatchFlow 及其基于 RAFT 的变体</strong>，通过统一推理和评测接口提供预训练模型，便于与其他光流方法比较和复用。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2303.08384">CVPR 论文 ↗</a><a href="https://github.com/DQiaole/MatchFlow">代码与模型 ↗</a><a href="https://ptlflow.readthedocs.io/en/latest/models/models_list.html#matchflow">PTLFlow 集成 ↗</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
   <div id="video-generation" class="media-group">
     <h3>可控视频生成与开源生态</h3>
     <ul class="media-list">
@@ -547,15 +625,6 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <p><strong>WALL-E 是 2023 年首批将 ChatGPT 多轮对话与视觉定位结合、用于真实机器人抓取的研究之一。</strong>首篇公开预印本于 2023 年 8 月 30 日发布。工作将 ChatGPT 的多轮偏好理解与 9D 视觉定位——6D 物体位姿和三维尺寸——结合，把对话中的用户意图转化为可执行抓取，并引入执行后的用户反馈，让后续交流能够结合最近一次动作的结果，将语言交互、空间感知与真实机器人控制连接起来。</p>
           <p><strong>入选得克萨斯大学达拉斯分校 CS 6301（2023 年秋季）课程项目指南的代表性参考文献</strong>，与 SayCan、Instruct2Act 一同列于“语言引导操作”主题。KAIST 研究者发表于《Intelligent Service Robotics》的大语言模型与智能机器人综述，也在物体定位部分引用该工作，讨论语言信息与视觉感知的连接。</p>
           <div class="recognition-links"><a href="https://www.youtube.com/watch?v=0P6bNYcVNKA">YouTube · 演示 ↗</a><a href="https://star-uu-wang.github.io/WALL-E/">项目与机器人演示 ↗</a><a href="https://arxiv.org/abs/2308.15962">预印本与首次公开时间 ↗</a><a href="https://yuxng.github.io/Courses/CS6301Fall2023/CS_6301_Project_Proposal.pdf#page=3">UT Dallas · 课程项目参考文献 ↗</a><a href="https://link.springer.com/article/10.1007/s11370-024-00550-5">KAIST 研究者的机器人综述 ↗</a></div>
-        </div>
-      </li>
-      <li id="geovln" class="media-item">
-        <div class="media-meta">CVPR 2023<br>几何增强的视觉语言导航</div>
-        <div>
-          <h4><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">GeoVLN：让语言导航具备空间几何与邻域视图理解</a></h4>
-          <p><strong>GeoVLN 将空间几何和邻域视图关联纳入语言导航的视觉表示，增强智能体对未见环境的空间理解。</strong>方法用预测深度与表面法线补充 RGB 外观信息，通过局部 slot attention 聚合相邻视图，并以多路注意力对齐指令短语与相关视觉特征。在 R2R 基准上验证了几何线索对导航的帮助，将团队的具身研究从物体操作拓展到环境中的移动决策。</p>
-          <p>后续 STE-VLN 研究在其 <strong>2026 年预印本的 R2R 对比表</strong>中列入 GeoVLN，与 HAMT、DUET、GridMM 等方法共同用于比较导航性能，体现了该工作作为几何增强导航方法的后续参考价值。</p>
-          <div class="recognition-links"><a href="https://www.youtube.com/watch?v=i-WjmcNMnQI">YouTube · CVPR 论文报告 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Huo_GeoVLN_Learning_Geometry-Enhanced_Visual_Representation_With_Slot_Attention_for_Vision-and-Language_CVPR_2023_paper.html">CVPR 正式论文 ↗</a><a href="https://arxiv.org/abs/2305.17102">预印本 ↗</a><a href="https://arxiv.org/html/2602.23937v1#S5">STE-VLN 预印本 · 后续 R2R 对比评测 ↗</a></div>
         </div>
       </li>
       <li id="smart-bartender" class="media-item">
@@ -811,12 +880,38 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       </div>
     </li>
     <li id="transductive-zsl" class="publication">
-      <div class="publication-venue">TPAMI 2015<span>零样本学习</span></div>
+      <div class="publication-venue">2012–2020<span>零样本学习</span></div>
       <div>
-        <h3><a href="https://arxiv.org/abs/1501.04560">Transductive Multi-view Zero-Shot Learning</a></h3>
-        <p><strong>Yanwei Fu</strong>, Timothy M. Hospedales, Tao Xiang, Shaogang Gong</p>
-        <p>揭示零样本学习中的投影域偏移问题，并通过传导式多视图嵌入加以解决。</p>
-        <div class="publication-links"><a href="https://arxiv.org/abs/1501.04560">论文</a><a href="https://github.com/yanweifu/embedding_zero-shot-learning">代码（ECCV 版本）</a></div>
+        <h3>零样本学习：从多模态属性到开放集识别</h3>
+        <p>据我们所知，ECCV 2014 / TPAMI 2015 工作<strong>首次明确提出零样本学习中的投影域偏移（projection domain shift）问题</strong>，并通过传导式多视图嵌入加以缓解。<a href="https://www.ijcai.org/proceedings/2022/0217.pdf#page=2">后续独立研究</a>明确将这一问题的提出归于该工作。</p>
+        <p>这一系列涵盖早期属性驱动的视频识别与 USAA 数据集、多标签零样本学习，以及利用语义词汇连接有监督、零样本与开放集识别的词汇驱动学习。</p>
+        <div class="publication-extension">
+          <p class="publication-version">面向未见类别的属性学习 · ECCV 2012 / TPAMI 2014</p>
+          <h4><a href="https://doi.org/10.1007/978-3-642-33765-9_38">Attribute Learning for Understanding Unstructured Social Activity</a></h4>
+          <p><strong>Yanwei Fu</strong>, Timothy M. Hospedales, Tao Xiang, Shaogang Gong</p>
+          <h4><a href="https://doi.org/10.1109/TPAMI.2013.128">Learning Multimodal Latent Attributes</a></h4>
+          <p><strong>Yanwei Fu</strong>, Timothy M. Hospedales, Tao Xiang, Shaogang Gong</p>
+        </div>
+        <div class="publication-extension">
+          <p class="publication-version">传导式多视图学习 · ECCV 2014 / TPAMI 2015</p>
+          <h4><a href="https://doi.org/10.1007/978-3-319-10605-2_38">Transductive Multi-view Embedding for Zero-Shot Recognition and Annotation</a></h4>
+          <p><strong>Yanwei Fu</strong>, Timothy M. Hospedales, Tao Xiang, Zhenyong Fu, Shaogang Gong</p>
+          <h4><a href="https://arxiv.org/abs/1501.04560">Transductive Multi-view Zero-Shot Learning</a></h4>
+          <p><strong>Yanwei Fu</strong>, Timothy M. Hospedales, Tao Xiang, Shaogang Gong</p>
+        </div>
+        <div class="publication-extension">
+          <p class="publication-version">多标签零样本识别 · BMVC 2014</p>
+          <h4><a href="https://bmva-archive.org.uk/bmvc/2014/papers/paper083/index.html">Transductive Multi-label Zero-shot Learning</a></h4>
+          <p><strong>Yanwei Fu</strong>, Yongxin Yang, Timothy M. Hospedales, Tao Xiang, Shaogang Gong</p>
+        </div>
+        <div class="publication-extension">
+          <p class="publication-version">词汇驱动学习 · CVPR 2016 / TPAMI 2020</p>
+          <h4><a href="https://arxiv.org/abs/1604.07093">Semi-supervised Vocabulary-informed Learning</a></h4>
+          <p><strong>Yanwei Fu</strong>, Leonid Sigal</p>
+          <h4><a href="https://doi.org/10.1109/TPAMI.2019.2922175">Vocabulary-informed Zero-shot and Open-set Learning</a></h4>
+          <p><strong>Yanwei Fu</strong>, Xiaomei Wang, Hanze Dong, Yu-Gang Jiang, Meng Wang, Xiangyang Xue, Leonid Sigal</p>
+        </div>
+        <div class="publication-links"><a href="{{ '/USAA/download/' | relative_url }}">USAA 数据集</a><a href="https://github.com/yanweifu/embedding_zero-shot-learning">代码（ECCV 2014）</a><a href="https://github.com/xiaomeiyy/WMM-Voc">词汇驱动学习代码</a><a href="https://phys.org/news/2016-06-vision-word.html">CVPR 2016 报道 · Phys.org / Disney Research</a></div>
       </div>
     </li>
   </ol>
