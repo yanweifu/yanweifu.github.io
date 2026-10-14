@@ -784,20 +784,30 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <div class="publication-venue">2023–2025<span>因果学习</span></div>
       <div>
         <h3>因果学习：未观测混杂与可靠泛化</h3>
-        <p>发展连续干预的双重稳健估计与基于代理变量的非参数因果发现方法，处理未观测混杂问题；分析单一代理变量检验何时会漏掉真实因果关系，并通过额外的代理变量约束，在相应假设下恢复识别。</p>
+        <p><strong>在重要混杂因素未被观测时，学习因果效应与因果关系。</strong>这一研究主线连接连续干预估计、基于代理变量的因果发现与因果特征学习，既研究“干预会使结果改变多少”，也研究“何时能从观测证据识别因果关系”，贯通识别理论、可实施的估计方法，以及视觉识别和医学预测应用。</p>
         <div class="publication-extension">
           <p class="publication-version">连续干预的因果估计 · ICLR 2024</p>
           <h4><a href="https://arxiv.org/abs/2309.12819">Doubly Robust Proximal Causal Learning for Continuous Treatments</a></h4>
           <p>Yong Wu, <strong>Yanwei Fu</strong>, Shouyan Wang, Xinwei Sun</p>
+          <p>将双重稳健近端因果估计从二元决策推进到连续干预，例如不同治疗剂量。通过核平滑构造可计算的估计器，给出桥函数估计方法与误差分析；在框架假设成立时，双重稳健性质允许其中一类桥函数发生模型误设。</p>
         </div>
         <div class="publication-extension">
           <p class="publication-version">基于代理变量的因果发现 · ICML 2025</p>
           <h4><a href="https://proceedings.mlr.press/v267/wu25h.html">Bivariate Causal Discovery with Proxy Variables: Integral Solving and Beyond</a></h4>
           <p>Yong Wu, <strong>Yanwei Fu</strong>, Shouyan Wang, Xinwei Sun</p>
+          <p>提出保留连续变量信息、利用超出一阶矩的分布关系进行检验的非参数方法；揭示单一代理变量积分检验何时会漏掉真实因果关系，并引入第二类代理变量构造额外约束，在相应条件下恢复识别。</p>
         </div>
         <p>相关应用包括以 <a href="https://arxiv.org/abs/2211.16019">PatchMix（TPAMI 2023）</a> 将因果特征学习用于小样本识别，以及以 <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Li_Causally-Aware_Intraoperative_Imputation_for_Overall_Survival_Time_Prediction_CVPR_2023_paper.html">Causally-Aware Intraoperative Imputation（CVPR 2023）</a> 将术中信息融入术前生存结局预测。</p>
-        <p><strong>独立研究采用。</strong>连续干预估计方法被纳入 Arthur Gretton 的 CLeaR 2026 大会主旨报告材料，并被独立团队的 NeurIPS 2025 研究用作实验基线、沿用实验设置。2026 年的后续预印本进一步发展了近端因果剂量响应曲线的统计推断。</p>
-        <div class="publication-links"><a href="https://github.com/yezichu/PCL_Continuous_Treatment">ICLR 代码</a><a href="https://www.gatsby.ucl.ac.uk/~gretton/coursefiles/CLeaR26.pdf#page=49">CLeaR 2026 主旨报告 · Arthur Gretton</a><a href="https://papers.nips.cc/paper_files/paper/2025/file/55f6ba76cc449c993d357e7ec2b58dca-Paper-Conference.pdf">独立后续研究 · NeurIPS 2025</a><a href="https://arxiv.org/abs/2608.00404">后续统计理论 · 2026 预印本</a></div>
+        <div class="publication-extension">
+          <h4>第三方评价与独立研究采用</h4>
+          <p><strong>Arthur Gretton · CLeaR 2026 大会主旨报告。</strong>其<a href="https://www.gatsby.ucl.ac.uk/~gretton/coursefiles/CLeaR26.pdf#page=49">关于未观测混杂调整的主旨报告材料</a>将本团队 ICLR 2024 方法列为双重稳健代理因果学习方法之一，与 Cui 等人的二元干预框架并列介绍，并概括其基于密度比与核平滑的连续干预形式（幻灯片 19/32）。</p>
+          <p><strong>Bozkurt、Zenati、Meunier、Xu 与 Gretton · NeurIPS 2025。</strong><a href="https://papers.nips.cc/paper_files/paper/2025/file/55f6ba76cc449c993d357e7ec2b58dca-Paper-Conference.pdf#page=8">Density Ratio-Free Doubly Robust Proxy Causal Learning</a>将本团队 PKDR 纳入 <q lang="en">recent state-of-the-art PCL algorithms</q>，即近期先进的近端因果学习算法。正文明确介绍其将双重稳健估计拓展到连续干预的贡献，使用原实现作对照，并沿用本团队的合成数据生成过程开展实验（第 1、5 节）。</p>
+          <p><strong>Meng、Brahma、Henao 与 Carin · 杜克大学，AISTATS 2026。</strong><a href="https://proceedings.mlr.press/v300/meng26b.html">Neural Doubly Robust Proximal Causal Estimation</a>将本团队工作与其他相关研究共同列为提升近端因果方法稳健性、灵活性与现实问题适用范围的进展，在引言中讨论了其在未观测混杂下可实施因果估计方法发展中的位置。</p>
+          <p><strong>Ham、Wu 与 Cui · 2026 年统计推断预印本。</strong><a href="https://arxiv.org/abs/2608.00404">Debiased inference for proximal dose-response function</a>以 <q lang="en">Closest to our setting</q>（与其研究设置最接近的工作）引出本团队 ICLR 2024 论文，具体讨论核估计器及偏差—方差分析，并将其作为直接理论比较对象，进一步发展标准误、置信区间与同时置信带（引言）。</p>
+          <p><strong>Chen、Pan 与 Shen · 明尼苏达大学，2026 年预印本。</strong><a href="https://arxiv.org/html/2609.23897v1#S1">Proxy-Adjusted Causal Discovery from Targeted Interventions</a>在非参数代理变量因果检验的前序研究中讨论本团队 ICML 2025 论文，并将这一研究方向与其他代理方法共同视为：在适当识别条件下，利用代理信息开展灵活统计推断的可行路径。</p>
+          <p><strong>Zuo 等人 · PatchMix 独立采用，CMC 2025。</strong><a href="https://www.techscience.com/cmc/v82n3/59897/html">Federated Learning and Optimization for Few-Shot Image Classification</a>将 PatchMix 用于联邦小样本学习，认为它通过增加数据多样性帮助模型学习更稳健的特征。其消融实验显示，加入 PatchMix 后，MiniImageNet 的单样本分类准确率由 <strong>56.62% 提升至 58.14%</strong>，TieredImageNet 由 <strong>58.48% 提升至 60.67%</strong>（第 5.4.2 节、表 2）。</p>
+        </div>
+        <div class="publication-links"><a href="https://github.com/yezichu/PCL_Continuous_Treatment">连续干预估计器 · 代码</a><a href="https://proceedings.mlr.press/v267/wu25h.html">代理变量因果发现 · 论文</a></div>
       </div>
     </li>
     <li id="transductive-zsl" class="publication">
