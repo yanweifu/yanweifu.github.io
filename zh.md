@@ -128,7 +128,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <div>
         <h4><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation</a></h4>
         <p>Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, <strong>Yanwei Fu</strong></p>
-        <p><strong>将主动感知融入三维机器人操作</strong>，通过虚拟视角选择与主动三维放大，突破固定视觉输入的限制。</p>
+        <p><strong>据我们所知，首次将任务驱动的虚拟视角选择与主动三维放大共同融入粗到细的 VLA 操作框架。</strong></p>
         <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">论文</a><a href="https://zhenyangliu.github.io/ActiveVLA/">项目与演示</a></div>
       </div>
     </li>
@@ -145,7 +145,7 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <div>
         <h4><a href="https://arxiv.org/abs/2404.04808">MemFlow: Optical Flow Estimation and Prediction with Memory</a></h4>
         <p>Qiaole Dong, <strong>Yanwei Fu</strong></p>
-        <p><strong>以运动记忆实现在线光流估计，投稿时在 1080p Spring 基准排名第一。</strong>MemFlow 支持未来光流预测，已被 PTLFlow 集成，并在 MFTIQ 点跟踪研究中得到下游复用。</p>
+        <p><strong>据我们所知，首次统一可读写运动记忆、分辨率自适应注意力与未来光流预测；投稿时在 1080p Spring 基准排名第一。</strong>已被 PTLFlow 集成，并在 MFTIQ 点跟踪研究中得到下游复用。</p>
         <div class="publication-links"><a href="https://arxiv.org/abs/2404.04808">论文</a><a href="https://dqiaole.github.io/MemFlow/">项目主页</a><a href="https://github.com/DQiaole/MemFlow">代码</a><a href="#optical-flow">研究影响 ↓</a></div>
       </div>
     </li>
@@ -392,10 +392,10 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     <h3>三维重建与 3D 生成大模型</h3>
     <ul class="media-list">
       <li id="deepsfm-series" class="media-item">
-        <div class="media-meta">ECCV 2020<br>IEEE TPAMI 2024</div>
+        <div class="media-meta">ECCV 2020 · Oral<br>IEEE TPAMI 2024</div>
         <div>
-          <h4><a href="https://weixk2015.github.io/DeepSFM/">DeepSFM 系列：深度光束法平差及其学术影响</a></h4>
-          <p><a href="https://arxiv.org/abs/1912.09697">ECCV 论文</a>及其 <a href="https://doi.org/10.1109/TPAMI.2023.3307567">TPAMI 扩展工作</a>结合几何约束与可学习代价体，迭代优化深度和相机位姿。</p>
+          <h4><a href="https://weixk2015.github.io/DeepSFM/">DeepSFM 系列：首创双代价体深度光束法平差</a></h4>
+          <p><strong>据我们所知，DeepSFM 首次以相互耦合的深度代价体（D-CV）和位姿代价体（P-CV）构建深度光束法平差框架，在同一网络中显式融合光度一致性与几何一致性，交替迭代细化场景结构和相机运动。</strong>工作获 <a href="https://arxiv.org/abs/1912.09697">ECCV 2020 Oral</a>，并进一步扩展发表于 <a href="https://doi.org/10.1109/TPAMI.2023.3307567">IEEE TPAMI</a>。</p>
           <p><strong>MaFreeI2P（2024）明确将 DeepSFM 作为图像—点云配准方法的启发来源之一。</strong>该论文在引言中引用 DeepSFM 的 TPAMI 版本，以其代价体方法的成功应用为依据，引出基于位姿的代价体设计。</p>
           <p><strong>第三方技术解读重点肯定了少视图、初始化噪声及图像质量变化条件下的鲁棒性。</strong>TSUKAMOTO Kenji 在 <time datetime="2020-12-12">2020 年 12 月</time>的日本计算机视觉读书会专题报告中讨论了这些优势，同时分析了位姿假设生成所引入的任务相关参数。</p>
           <p><strong>被纳入 Gerard Pons-Moll 在图宾根大学开设的 2025 年三维视觉课程。</strong>第九讲将 DeepSFM 与 VGGSfM 并列，作为“端到端可学习 SfM 流程”介绍。此外，3D视觉工坊将其收录于 ECCV 2020 优秀论文汇总，电子工程专辑平台转载的自动驾驶行业综述也引用了该工作。</p>
@@ -449,10 +449,11 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="leftrefill" class="media-item">
         <div class="media-meta">CVPR 2024</div>
         <div>
-          <h4><a href="https://ewrfcas.github.io/LeftRefill/">LeftRefill：参考图引导的图像补全与新视角合成</a></h4>
-          <p>据我们所知，<strong>LeftRefill 首次将文生图模型用于由不同视角参考图引导的端到端图像修复。</strong>通过“左侧参考、右侧生成”的统一画布及任务与视角条件，该框架同时支持新视角合成。</p>
-          <p><strong>CorrFill（WACV 2025）将 LeftRefill 用作其中一个修复基座，复用了其公开实现和已学习的提示嵌入。</strong>后续研究在其基础上加入对应关系引导，并进行组件消融与评估。</p>
-          <div class="recognition-links"><a href="https://ewrfcas.github.io/LeftRefill/">项目与演示 ↗</a><a href="https://arxiv.org/html/2305.11577v3#S2">原论文 · 首创范围 ↗</a><a href="https://github.com/ewrfcas/LeftRefill">代码与模型 ↗</a><a href="https://github.com/khliu0000/CorrFill">CorrFill · 实现复用 ↗</a></div>
+          <h4><a href="https://ewrfcas.github.io/LeftRefill/">LeftRefill：首创“左侧参考、右侧生成”的跨视角修复范式</a></h4>
+          <p><strong>据我们所知，LeftRefill 首次将文生图扩散模型用于跨视角参考图引导的端到端图像修复，提出“左侧参考、右侧生成”的统一画布范式。</strong>在参考引导修复任务中，无需额外图像编码器或复杂的显式三维配准流程，仅学习约 5 万至 6.5 万个提示参数，即可激活大模型的跨图结构与纹理关联能力；同一框架还支持新视角合成与多视角一致生成。</p>
+          <p><strong>CorrFill（WACV 2025）明确将 LeftRefill 评价为当时的先进方法（SOTA），并沿用其左右拼接输入及跨图注意力设计。</strong>在该论文对四个未经 CorrFill 增强的原始基线进行的比较中，LeftRefill 在 RealEstate10K、MegaDepth 两个数据集上的 PSNR、SSIM、LPIPS 三项指标均为最佳；其公开实现也复用了 LeftRefill 的代码和已学习提示嵌入。</p>
+          <p><strong>清华大学 AIR、香港科技大学（广州）等团队的 Structured-NeRF（ECCV 2024）直接将 LeftRefill 用于三维场景重建。</strong>该研究结合预训练的 LeftRefill 与 LaMa 预测遮挡区域外观，作为背景神经辐射场的颜色监督，将其能力用于可交互的三维场景编辑。</p>
+          <div class="recognition-links"><a href="https://ewrfcas.github.io/LeftRefill/">项目与演示 ↗</a><a href="https://arxiv.org/html/2305.11577v3#S2">原论文 · 首创范围 ↗</a><a href="https://github.com/ewrfcas/LeftRefill">代码与模型 ↗</a><a href="https://github.com/khliu0000/CorrFill">CorrFill · 实现复用 ↗</a><a href="https://corrfill.github.io/static/paper/corrfill_paper.pdf#page=7">CorrFill · SOTA 评价与独立比较 ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05154.pdf#page=6">Structured-NeRF · 三维重建采用 ↗</a></div>
         </div>
       </li>
       <li id="zits-series" class="media-item">
@@ -472,8 +473,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="memflow" class="media-item">
         <div class="media-meta">CVPR 2024</div>
         <div>
-          <h4><a href="https://dqiaole.github.io/MemFlow/">MemFlow：基于历史运动记忆的光流估计与预测</a></h4>
-          <p><strong>提出基于持续运动记忆的在线光流估计与预测方法。</strong>当前估计使用可用的图像对和历史运动信息，无需额外的未观测未来帧。论文记录 MemFlow 投稿时在 1080p Spring 基准排名第一。</p>
+          <h4><a href="https://dqiaole.github.io/MemFlow/">MemFlow：首次统一可读写运动记忆、自适应注意力与未来光流预测</a></h4>
+          <p><strong>据我们所知，MemFlow 首次将可读写的历史运动记忆、分辨率自适应注意力与未来光流预测纳入同一在线光流框架。</strong>它既能利用已观测帧估计当前运动，也能在下一帧到来前预测未来光流，将光流从逐对匹配推进到持续记忆驱动的运动理解。论文记录 MemFlow 投稿时在 1080p Spring 基准排名第一。</p>
           <p><strong>已被 PTLFlow 集成，并被 MFTIQ（WACV 2025）接入为可替换的光流模块。</strong>MFTIQ 在 TAP-Vid DAVIS 上评估这一配置的点跟踪效果，并在公开代码中包含适配后的 MemFlow 实现。</p>
           <div class="recognition-links"><a href="https://dqiaole.github.io/MemFlow/">项目与演示 ↗</a><a href="https://arxiv.org/abs/2404.04808">CVPR 论文 ↗</a><a href="https://github.com/DQiaole/MemFlow">代码与模型 ↗</a><a href="https://ptlflow.readthedocs.io/en/latest/models/models_list.html#memflow">PTLFlow 集成 ↗</a><a href="https://github.com/serycjon/MFTIQ">MFTIQ · 下游复用 ↗</a></div>
         </div>
@@ -481,8 +482,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="matchflow" class="media-item">
         <div class="media-meta">CVPR 2023</div>
         <div>
-          <h4><a href="https://arxiv.org/abs/2303.08384">MatchFlow：以几何匹配预训练增强光流学习</a></h4>
-          <p><strong>将几何图像匹配建立为光流预训练任务。</strong>CVPR 2023 论文报告，相比 GMA，Sintel clean 测试误差降低 11.5%，KITTI 测试误差降低 10.1%，体现真实图像对应关系预训练的价值。</p>
+          <h4><a href="https://arxiv.org/abs/2303.08384">MatchFlow：首次以前置几何匹配预训练增强光流泛化</a></h4>
+          <p><strong>据我们所知，MatchFlow 首次将真实静态场景的几何图像匹配作为光流特征学习的前置预训练任务，扩展了传统光流课程学习流程。</strong>通过先学会跨视角几何对应，再学习复杂物体运动，开辟了利用大规模真实匹配数据提升光流泛化的训练路径。CVPR 2023 论文报告，相比 GMA，Sintel clean 测试误差降低 11.5%，KITTI 测试误差降低 10.1%。</p>
           <p><strong>PTLFlow 已纳入 MatchFlow 及其基于 RAFT 的变体</strong>，通过统一推理和评测接口提供预训练模型，便于与其他光流方法比较和复用。</p>
           <div class="recognition-links"><a href="https://arxiv.org/abs/2303.08384">CVPR 论文 ↗</a><a href="https://github.com/DQiaole/MatchFlow">代码与模型 ↗</a><a href="https://ptlflow.readthedocs.io/en/latest/models/models_list.html#matchflow">PTLFlow 集成 ↗</a></div>
         </div>
@@ -493,12 +494,13 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     <h3>可控视频生成与开源生态</h3>
     <ul class="media-list">
       <li id="uni3c" class="media-item">
-        <div class="media-meta">SIGGRAPH Asia 2025<time datetime="2026-07-29">ComfyUI · 2026 年 7 月</time></div>
+        <div class="media-meta">SIGGRAPH Asia 2025<br><a class="presentation-tag" href="https://sa2025.conference-schedule.org/presentation/?id=papers_1200&amp;sess=sess109">Oral／口头报告</a><time datetime="2026-07-29">ComfyUI · 2026 年 7 月</time></div>
         <div>
-          <h4><a href="https://alibaba-damo-academy.github.io/Uni3C/">Uni3C：三维可控视频生成，相机控制原生集成 ComfyUI</a></h4>
-          <p>团队提出的 Uni3C 统一三维增强的相机与人体运动控制，将场景几何、相机轨迹和人物动作结合起来，实现可控视频生成。</p>
+          <h4><a href="https://alibaba-damo-academy.github.io/Uni3C/">Uni3C：无需联合训练的三维相机与人体协同控制 · SIGGRAPH Asia Oral</a></h4>
+          <p><strong>据我们所知，Uni3C 首次通过统一三维世界坐标中的场景点云与人体表示，在无需相机与人体控制联合训练的条件下，实现可独立指定、又几何协调的相机轨迹与人体动作控制。</strong>它将即插即用的点云相机控制器与人体动画模型组合，使镜头运动与人物动作在同一三维世界中准确协同。</p>
+          <p><strong>SIGGRAPH Asia 2025 Oral／口头报告。</strong>论文于 <time datetime="2025-12-15">2025 年 12 月 15 日</time>在香港的 Technical Papers 专题作现场报告；下方相册收录五张报告与会场照片。</p>
           <p><strong>Uni3C 的相机控制模块已纳入 ComfyUI 原生支持</strong>，随官方 v0.29.0 版本发布，为 Wan 视频模型提供相机控制。ComfyLab 通过实际环绕运镜工作流介绍了这一集成。</p>
-          <div class="recognition-links"><a href="https://alibaba-damo-academy.github.io/Uni3C/">项目主页 ↗</a><a href="https://arxiv.org/abs/2504.14899">研究论文 ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.29.0">ComfyUI 官方版本 ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/pull/14946">原生集成记录 ↗</a><a href="https://comfylab.dev/blog/workflows/uni3c-controlnet-camera-control-wan-comfyui/">ComfyLab 社区实测 ↗</a></div>
+          <div class="recognition-links"><a href="{{ '/uni3c-siggraph-asia-2025/' | relative_url }}">SIGGRAPH Asia Oral · 现场相册（5 张） ↗</a><a href="https://sa2025.conference-schedule.org/presentation/?id=papers_1200&amp;sess=sess109">SIGGRAPH Asia 官方报告日程 ↗</a><a href="https://alibaba-damo-academy.github.io/Uni3C/">项目主页 ↗</a><a href="https://arxiv.org/abs/2504.14899">研究论文 ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.29.0">ComfyUI 官方版本 ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/pull/14946">原生集成记录 ↗</a><a href="https://comfylab.dev/blog/workflows/uni3c-controlnet-camera-control-wan-comfyui/">ComfyLab 社区实测 ↗</a></div>
         </div>
       </li>
       <li id="vidcraft3" class="media-item">
@@ -527,8 +529,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="pose-vla" class="media-item">
         <div class="media-meta">RSS 2026<time datetime="2026-07">2026 年 7 月</time></div>
         <div>
-          <h4><a href="https://hetolin.github.io/PoseVLA/">Pose-VLA：围绕 3D 位姿重塑 VLA 架构</a></h4>
-          <p><strong>Pose-VLA 的核心技术突破，是以通用三维位姿重构 VLA 的表征与预训练范式。</strong>通过离散位姿 token 统一利用多种三维数据集和机器人轨迹，先建立可迁移的三维几何先验，再对齐具体机器人的动作空间，弥合语义识别与精细操作所需的三维状态理解之间的鸿沟。</p>
+          <h4><a href="https://hetolin.github.io/PoseVLA/">Pose-VLA：首次以统一位姿 token 连接三维定位与动作预训练</a></h4>
+          <p><strong>据我们所知，Pose-VLA 首次以统一相机坐标系中的位姿 token 为共同接口，将非机器人三维定位数据与机器人运动轨迹纳入同一套 VLA 预训练框架，再通过面向具体机器人的动作对齐迁移空间先验。</strong>它将物体位姿与末端执行器运动统一为离散表征，先学习通用三维定位、再学习机器人轨迹，最后对齐具体动作空间，弥合语义识别与精细控制所需三维状态理解之间的鸿沟。</p>
           <p><strong>我们向具身智能社区传递的核心判断是：3D 空间理解对具身智能大模型至关重要。</strong>该工作发表于 Robotics: Science and Systems（RSS）2026，在真实机器人实验中，<strong>每项任务仅用 100 条示教即可验证对多种物体的泛化能力</strong>。</p>
           <p>在我看来，近期 GPT-6 Astra 的机器人演示也从另一条技术路径呼应了这一判断：<a href="https://wentao.live/blog/astra-and-beyond/zh/">Wentao Zhu 的技术观察</a>记录了模型通过底层机器人 SDK 规划双臂协调、主动视觉与错误恢复的演示，进一步凸显空间理解与行动相结合的价值。</p>
           <div class="recognition-links"><a href="https://hetolin.github.io/PoseVLA/resources/videos/posevla.mp4">视频 · 机器人演示 ↗</a><a href="https://roboticsproceedings.org/rss22/p145.html">RSS 正式论文 ↗</a><a href="https://hetolin.github.io/PoseVLA/">项目与演示 ↗</a><a href="https://github.com/hetolin/PoseVLA">代码与模型 ↗</a></div>
@@ -537,8 +539,8 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="active-vla" class="media-item">
         <div class="media-meta">CVPR 2026<time datetime="2026-06">2026 年 6 月</time></div>
         <div>
-          <h4><a href="https://zhenyangliu.github.io/ActiveVLA/">ActiveVLA：将主动感知融入三维机器人操作</a></h4>
-          <p><strong>ActiveVLA 的核心突破在于将“主动感知”融入精细三维操作，让 VLA 主动决定“从哪里看、看得多细”。</strong>针对传统固定视角 VLA 对摄像头原始观测的依赖，该方法解决关键几何信息因遮挡或分辨率不足而难以辨认的问题。</p>
+          <h4><a href="https://zhenyangliu.github.io/ActiveVLA/">ActiveVLA：首次融合虚拟视角选择与主动三维放大的 VLA</a></h4>
+          <p><strong>据我们所知，ActiveVLA 首次在粗到细的 VLA 感知—动作框架中，同时融入任务驱动的虚拟视角选择与主动三维放大，让模型主动决定“从哪里看、看得多细”，再执行精细操作。</strong>针对固定视角输入中关键几何信息被遮挡或过于细小的问题，它使视觉感知过程本身成为可随任务调整的一环。</p>
           <p>我们提出原创的粗到细感知框架，将<strong>任务驱动的虚拟视角选择与主动三维放大</strong>相结合：先定位关键三维区域，再合成信息更充分的视图、放大局部几何细节，最后预测动作，突破固定视觉输入在视角与分辨率上的限制。</p>
           <p>我是这篇 CVPR 2026 论文的共同通讯作者。RLBench、COLOSSEUM、GemBench 基准评测与真实机器人演示表明，该方法提升了复杂、遮挡场景下操作的精度与鲁棒性。</p>
           <div class="recognition-links"><a href="https://zhenyangliu.github.io/ActiveVLA/static/videos/demo.mp4">视频 · 项目演示 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">CVPR 正式论文 ↗</a><a href="https://arxiv.org/abs/2601.08325">预印本 ↗</a><a href="https://zhenyangliu.github.io/ActiveVLA/">项目与演示 ↗</a></div>

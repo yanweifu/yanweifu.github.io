@@ -113,7 +113,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * Image-Text-Image Knowledge Transferring for Lifelong Person Re-Identification with Hybrid Clothing States. Qizao Wang, Xuelin Qian, Bin Li, Yanwei Fu, Xiangyang Xue. IEEE TIP 2025
 
-* Uni3C: Unifying Precisely 3D-Enhanced Camera and Human Motion Controls for Video Generation. Chenjie Cao, Jingkai Zhou, Shikai Li, Jingyun Liang, Chaohui Yu, Fan Wang, Xiangyang Xue, Yanwei Fu, ACM Siggraph Asia 2025
+* Uni3C: Unifying Precisely 3D-Enhanced Camera and Human Motion Controls for Video Generation. Chenjie Cao, Jingkai Zhou, Shikai Li, Jingyun Liang, Chaohui Yu, Fan Wang, Xiangyang Xue, Yanwei Fu, ACM Siggraph Asia 2025. <a class="presentation-tag" href="https://sa2025.conference-schedule.org/presentation/?id=papers_1200&amp;sess=sess109">Oral</a> [Presentation photos](/uni3c-siggraph-asia-2025/)
 
 * StrandDesigner: Towards Practical Strand Generation with Sketch Guidance. Na Zhang, Moran Li, Chengming Xu, Han Feng, Xiaobin Hu, Jiangning Zhang, Weijian Cao, Chengjie Wang, Yanwei Fu. ACM MM 2025
 

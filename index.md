@@ -125,7 +125,7 @@ image: /assets/images/yanwei-fu.png
       <div>
         <h4><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation</a></h4>
         <p>Zhenyang Liu, Yongchong Gu, Yikai Wang, Xiangyang Xue, <strong>Yanwei Fu</strong></p>
-        <p><strong>Bringing active perception into 3D robotic manipulation:</strong> virtual viewpoint selection and active 3D zoom-in overcome the constraints of fixed visual inputs.</p>
+        <p><strong>To our knowledge, the first coarse-to-fine VLA manipulation framework jointly integrating task-driven virtual viewpoint selection and active 3D zoom-in.</strong></p>
         <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">Paper</a><a href="https://zhenyangliu.github.io/ActiveVLA/">Project &amp; demos</a></div>
       </div>
     </li>
@@ -142,7 +142,7 @@ image: /assets/images/yanwei-fu.png
       <div>
         <h4><a href="https://arxiv.org/abs/2404.04808">MemFlow: Optical Flow Estimation and Prediction with Memory</a></h4>
         <p>Qiaole Dong, <strong>Yanwei Fu</strong></p>
-        <p><strong>Online optical flow with motion memory; ranked first on the 1080p Spring benchmark at submission.</strong> MemFlow supports future flow prediction and is integrated into PTLFlow, with downstream reuse in MFTIQ point tracking.</p>
+        <p><strong>To our knowledge, the first to unify readable and writable motion memory, resolution-adaptive attention, and future-flow prediction; ranked first on the 1080p Spring benchmark at submission.</strong> Integrated into PTLFlow and reused in MFTIQ point tracking.</p>
         <div class="publication-links"><a href="https://arxiv.org/abs/2404.04808">Paper</a><a href="https://dqiaole.github.io/MemFlow/">Project</a><a href="https://github.com/DQiaole/MemFlow">Code</a><a href="#optical-flow">Research impact ↓</a></div>
       </div>
     </li>
@@ -389,10 +389,10 @@ image: /assets/images/yanwei-fu.png
     <h3>3D reconstruction &amp; generative foundation models</h3>
     <ul class="media-list">
       <li id="deepsfm-series" class="media-item">
-        <div class="media-meta">ECCV 2020<br>IEEE TPAMI 2024</div>
+        <div class="media-meta">ECCV 2020 · Oral<br>IEEE TPAMI 2024</div>
         <div>
-          <h4><a href="https://weixk2015.github.io/DeepSFM/">DeepSFM series: deep bundle adjustment and its research impact</a></h4>
-          <p>The <a href="https://arxiv.org/abs/1912.09697">ECCV paper</a> and <a href="https://doi.org/10.1109/TPAMI.2023.3307567">TPAMI extension</a> combine geometric constraints with learned cost volumes to iteratively refine depth and camera pose.</p>
+          <h4><a href="https://weixk2015.github.io/DeepSFM/">DeepSFM series: pioneering deep bundle adjustment with coupled depth and pose cost volumes</a></h4>
+          <p><strong>To our knowledge, DeepSFM was the first to build deep bundle adjustment around coupled depth-based and pose-based cost volumes, explicitly incorporating photometric and geometric consistency to iteratively refine scene structure and camera motion.</strong> Presented as an <a href="https://arxiv.org/abs/1912.09697">ECCV 2020 Oral</a>, the framework was subsequently extended in <a href="https://doi.org/10.1109/TPAMI.2023.3307567">IEEE TPAMI</a>.</p>
           <p><strong>MaFreeI2P (2024) explicitly cites DeepSFM as a source of inspiration for its image-to-point-cloud registration method.</strong> Its introduction credits the TPAMI work when motivating a pose-based cost volume.</p>
           <p><strong>Independent technical commentary highlights robustness to few input views, initialization noise, and changes in image quality.</strong> In a <time datetime="2020-12-12">December 2020</time> Japanese computer-vision reading-group report, TSUKAMOTO Kenji discusses these strengths alongside the task-dependent parameters introduced by pose-hypothesis generation.</p>
           <p><strong>Included in Gerard Pons-Moll's 2025 University of Tübingen 3D vision course.</strong> Lecture 09 introduces DeepSFM alongside VGGSfM under “End-to-End Learnable SfM Pipelines.” The work also appears in 3D视觉工坊's ECCV 2020 paper roundup and an autonomous-driving overview hosted on EE Times China.</p>
@@ -446,10 +446,11 @@ image: /assets/images/yanwei-fu.png
       <li id="leftrefill" class="media-item">
         <div class="media-meta">CVPR 2024</div>
         <div>
-          <h4><a href="https://ewrfcas.github.io/LeftRefill/">LeftRefill: reference-guided completion and view synthesis</a></h4>
-          <p>To our knowledge, <strong>LeftRefill was the first to use text-to-image models for end-to-end inpainting guided by reference images from different viewpoints.</strong> Its shared reference-and-target canvas also supports novel-view synthesis through task and view conditioning.</p>
-          <p><strong>CorrFill (WACV 2025) uses LeftRefill as one of its inpainting backbones, reusing its implementation and learned prompt embeddings.</strong> The follow-up adds correspondence guidance and evaluates its components on top of LeftRefill.</p>
-          <div class="recognition-links"><a href="https://ewrfcas.github.io/LeftRefill/">Project &amp; demos ↗</a><a href="https://arxiv.org/html/2305.11577v3#S2">Paper · novelty statement ↗</a><a href="https://github.com/ewrfcas/LeftRefill">Code &amp; models ↗</a><a href="https://github.com/khliu0000/CorrFill">CorrFill · implementation reuse ↗</a></div>
+          <h4><a href="https://ewrfcas.github.io/LeftRefill/">LeftRefill: pioneering cross-view inpainting with a left-reference, right-canvas formulation</a></h4>
+          <p><strong>To our knowledge, LeftRefill was the first to tackle cross-view reference-guided inpainting end-to-end with text-to-image diffusion models, introducing a unified “left reference, right canvas” formulation.</strong> For reference-guided inpainting, approximately 50,000–65,000 learned prompt parameters unlock cross-image structural and textural correspondence without additional image encoders or a complex explicit 3D registration pipeline. The framework also supports novel-view synthesis and consistent multi-view generation.</p>
+          <p><strong>CorrFill (WACV 2025) explicitly identifies LeftRefill as a state-of-the-art approach at the time and follows its stitched-input and cross-image attention formulation.</strong> Among the four unmodified baselines, LeftRefill achieved the best PSNR, SSIM, and LPIPS on both RealEstate10K and MegaDepth. Its released implementation also reuses LeftRefill’s code and learned prompt embeddings.</p>
+          <p><strong>Structured-NeRF (ECCV 2024), from Tsinghua AIR, HKUST (Guangzhou), and collaborators, directly adopts pretrained LeftRefill for 3D scene reconstruction.</strong> Together with LaMa, it predicts occluded appearance to supervise the background radiance field for interactive 3D scene editing.</p>
+          <div class="recognition-links"><a href="https://ewrfcas.github.io/LeftRefill/">Project &amp; demos ↗</a><a href="https://arxiv.org/html/2305.11577v3#S2">Paper · novelty statement ↗</a><a href="https://github.com/ewrfcas/LeftRefill">Code &amp; models ↗</a><a href="https://github.com/khliu0000/CorrFill">CorrFill · implementation reuse ↗</a><a href="https://corrfill.github.io/static/paper/corrfill_paper.pdf#page=7">CorrFill · SOTA assessment &amp; independent comparison ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05154.pdf#page=6">Structured-NeRF · 3D reconstruction adoption ↗</a></div>
         </div>
       </li>
       <li id="zits-series" class="media-item">
@@ -469,8 +470,8 @@ image: /assets/images/yanwei-fu.png
       <li id="memflow" class="media-item">
         <div class="media-meta">CVPR 2024</div>
         <div>
-          <h4><a href="https://dqiaole.github.io/MemFlow/">MemFlow: motion estimation and prediction with memory</a></h4>
-          <p><strong>Introduced online optical-flow estimation and prediction with persistent motion memory.</strong> Current estimation uses the available frame pair and past motion, without requiring additional unseen future frames. At submission, MemFlow ranked first on the 1080p Spring benchmark, as recorded in the paper.</p>
+          <h4><a href="https://dqiaole.github.io/MemFlow/">MemFlow: unifying writable motion memory, adaptive attention, and future-flow prediction</a></h4>
+          <p><strong>To our knowledge, MemFlow is the first online optical-flow framework to combine readable and writable motion memory, resolution-adaptive attention, and future-flow prediction.</strong> It uses observed frames for current estimation and can anticipate flow before the next frame arrives, extending pairwise matching to persistent, memory-driven motion understanding. At submission, MemFlow ranked first on the 1080p Spring benchmark, as recorded in the paper.</p>
           <p><strong>Integrated into PTLFlow and used as an alternative flow component in MFTIQ (WACV 2025).</strong> MFTIQ evaluates this configuration for point tracking on TAP-Vid DAVIS and includes the adapted MemFlow implementation in its public code.</p>
           <div class="recognition-links"><a href="https://dqiaole.github.io/MemFlow/">Project &amp; demos ↗</a><a href="https://arxiv.org/abs/2404.04808">CVPR paper ↗</a><a href="https://github.com/DQiaole/MemFlow">Code &amp; models ↗</a><a href="https://ptlflow.readthedocs.io/en/latest/models/models_list.html#memflow">PTLFlow integration ↗</a><a href="https://github.com/serycjon/MFTIQ">MFTIQ · downstream reuse ↗</a></div>
         </div>
@@ -478,8 +479,8 @@ image: /assets/images/yanwei-fu.png
       <li id="matchflow" class="media-item">
         <div class="media-meta">CVPR 2023</div>
         <div>
-          <h4><a href="https://arxiv.org/abs/2303.08384">MatchFlow: geometric matching as pretraining for optical flow</a></h4>
-          <p><strong>Established geometric image matching as a pretraining task for optical flow.</strong> The CVPR 2023 paper reports 11.5% lower Sintel-clean test error and 10.1% lower KITTI test error than GMA, demonstrating the value of real-image correspondence pretraining.</p>
+          <h4><a href="https://arxiv.org/abs/2303.08384">MatchFlow: pioneering real-scene geometric-matching pretraining for optical flow</a></h4>
+          <p><strong>To our knowledge, MatchFlow first introduced real-scene geometric image matching as a dedicated pretraining task for optical-flow feature learning.</strong> It extends the conventional training curriculum from static-scene correspondence to complex object motion, enabling large real-image matching datasets to improve flow generalization. The CVPR 2023 paper reports 11.5% lower Sintel-clean test error and 10.1% lower KITTI test error than GMA.</p>
           <p><strong>PTLFlow includes both MatchFlow and its RAFT-based variant</strong>, making their pretrained models available through a shared inference and evaluation interface alongside other optical-flow methods.</p>
           <div class="recognition-links"><a href="https://arxiv.org/abs/2303.08384">CVPR paper ↗</a><a href="https://github.com/DQiaole/MatchFlow">Code &amp; models ↗</a><a href="https://ptlflow.readthedocs.io/en/latest/models/models_list.html#matchflow">PTLFlow integration ↗</a></div>
         </div>
@@ -490,12 +491,13 @@ image: /assets/images/yanwei-fu.png
     <h3>Controllable video generation &amp; adoption</h3>
     <ul class="media-list">
       <li id="uni3c" class="media-item">
-        <div class="media-meta">SIGGRAPH Asia 2025<time datetime="2026-07-29">ComfyUI · July 2026</time></div>
+        <div class="media-meta">SIGGRAPH Asia 2025<br><a class="presentation-tag" href="https://sa2025.conference-schedule.org/presentation/?id=papers_1200&amp;sess=sess109">Oral presentation</a><time datetime="2026-07-29">ComfyUI · July 2026</time></div>
         <div>
-          <h4><a href="https://alibaba-damo-academy.github.io/Uni3C/">Uni3C: 3D video control with native ComfyUI camera support</a></h4>
-          <p>Our Uni3C unifies 3D-enhanced camera and human-motion control for video generation, combining scene geometry with controllable viewpoints and character motion.</p>
+          <h4><a href="https://alibaba-damo-academy.github.io/Uni3C/">Uni3C: coordinated 3D camera and human-motion control · SIGGRAPH Asia Oral</a></h4>
+          <p><strong>To our knowledge, Uni3C first enabled independently specified, geometrically coordinated camera and human-motion control by aligning scene point clouds and human representations in a shared 3D world, without joint training of the two controls.</strong> It composes a plug-and-play point-cloud camera controller with a human-animation model, coordinating camera trajectories and character motion in the same 3D scene.</p>
+          <p><strong>Presented as a SIGGRAPH Asia 2025 Oral.</strong> The Technical Papers talk took place in Hong Kong on <time datetime="2025-12-15">December 15, 2025</time>; the linked gallery contains five photos of the presentation and audience.</p>
           <p><strong>Its camera-control module is natively supported in ComfyUI for Wan models</strong>, included in the official v0.29.0 release. ComfyLab documents a hands-on camera-orbit workflow using this integration.</p>
-          <div class="recognition-links"><a href="https://alibaba-damo-academy.github.io/Uni3C/">Project ↗</a><a href="https://arxiv.org/abs/2504.14899">Research paper ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.29.0">Official ComfyUI release ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/pull/14946">Native integration ↗</a><a href="https://comfylab.dev/blog/workflows/uni3c-controlnet-camera-control-wan-comfyui/">ComfyLab · Hands-on review ↗</a></div>
+          <div class="recognition-links"><a href="{{ '/uni3c-siggraph-asia-2025/' | relative_url }}">SIGGRAPH Asia Oral · Photo gallery (5 photos) ↗</a><a href="https://sa2025.conference-schedule.org/presentation/?id=papers_1200&amp;sess=sess109">SIGGRAPH Asia · Official talk schedule ↗</a><a href="https://alibaba-damo-academy.github.io/Uni3C/">Project ↗</a><a href="https://arxiv.org/abs/2504.14899">Research paper ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.29.0">Official ComfyUI release ↗</a><a href="https://github.com/Comfy-Org/ComfyUI/pull/14946">Native integration ↗</a><a href="https://comfylab.dev/blog/workflows/uni3c-controlnet-camera-control-wan-comfyui/">ComfyLab · Hands-on review ↗</a></div>
         </div>
       </li>
       <li id="vidcraft3" class="media-item">
@@ -524,8 +526,8 @@ image: /assets/images/yanwei-fu.png
       <li id="pose-vla" class="media-item">
         <div class="media-meta">RSS 2026<time datetime="2026-07">July 2026</time></div>
         <div>
-          <h4><a href="https://hetolin.github.io/PoseVLA/">Pose-VLA: reshaping VLA around 3D poses</a></h4>
-          <p><strong>Pose-VLA puts universal 3D poses at the core of VLA representation and pretraining.</strong> Discrete pose tokens unify spatial learning from diverse 3D datasets and robot trajectories; pretraining builds transferable geometric priors before these are aligned to a specific robot’s action space. This addresses the gap between semantic recognition and the fine 3D state distinctions that precise actions require.</p>
+          <h4><a href="https://hetolin.github.io/PoseVLA/">Pose-VLA: pioneering unified pose tokens for 3D grounding and action pretraining</a></h4>
+          <p><strong>To our knowledge, Pose-VLA is the first VLA pretraining framework to use unified camera-centric pose tokens as a common interface for both non-robotic 3D grounding data and robotic motion trajectories, then transfer these spatial priors through robot-specific action alignment.</strong> It discretizes object poses and end-effector motion in a shared representation, learning general 3D grounding before robot trajectories and final action alignment to connect semantic understanding with precise spatial control.</p>
           <p><strong>Our central message to the embodied AI community: 3D spatial understanding is crucial for embodied foundation models.</strong> Published at Robotics: Science and Systems (RSS) 2026, Pose-VLA demonstrates real-world generalization across diverse objects with <strong>only 100 demonstrations per task</strong>.</p>
           <p>I see a parallel in the recent GPT-6 Astra robot demonstrations documented in <a href="https://wentao.live/blog/astra-and-beyond/">Wentao Zhu’s technical perspective</a>: using a low-level robot SDK, the model plans bimanual coordination, active vision, and error recovery. These developments underscore, through a different approach, the importance of connecting spatial understanding with action.</p>
           <div class="recognition-links"><a href="https://hetolin.github.io/PoseVLA/resources/videos/posevla.mp4">Video · Robot demo ↗</a><a href="https://roboticsproceedings.org/rss22/p145.html">RSS paper ↗</a><a href="https://hetolin.github.io/PoseVLA/">Project &amp; demos ↗</a><a href="https://github.com/hetolin/PoseVLA">Code &amp; models ↗</a></div>
@@ -534,8 +536,8 @@ image: /assets/images/yanwei-fu.png
       <li id="active-vla" class="media-item">
         <div class="media-meta">CVPR 2026<time datetime="2026-06">June 2026</time></div>
         <div>
-          <h4><a href="https://zhenyangliu.github.io/ActiveVLA/">ActiveVLA: bringing active perception into 3D robotic manipulation</a></h4>
-          <p><strong>ActiveVLA’s core advance is to integrate active perception into precise 3D manipulation, enabling a VLA to decide where to look and how closely to inspect.</strong> It tackles a central limitation of fixed-view VLA approaches: task-critical geometry can be obscured or too small to resolve in the original camera inputs.</p>
+          <h4><a href="https://zhenyangliu.github.io/ActiveVLA/">ActiveVLA: pioneering joint virtual-view selection and active 3D zoom for VLA</a></h4>
+          <p><strong>To our knowledge, ActiveVLA is the first VLA framework to jointly integrate task-driven virtual viewpoint selection and active 3D zoom-in within a coarse-to-fine perception–action pipeline for precise manipulation.</strong> It makes perception itself task-adaptive, addressing critical geometry that is occluded or too small to resolve in fixed camera inputs.</p>
           <p>Our novel coarse-to-fine framework combines <strong>task-driven virtual viewpoint selection with active 3D zoom-in</strong>. It first locates the relevant 3D region, then synthesizes informative views and magnifies local geometry before predicting an action, overcoming the viewpoint and resolution constraints of fixed visual inputs.</p>
           <p>I am a co-corresponding author of this CVPR 2026 paper. Evaluations on RLBench, COLOSSEUM, and GemBench, together with real-robot demonstrations, show improved precision and robustness for manipulation in cluttered and occluded scenes.</p>
           <div class="recognition-links"><a href="https://zhenyangliu.github.io/ActiveVLA/static/videos/demo.mp4">Video · Project demo ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ActiveVLA_Injecting_Active_Perception_into_Vision-Language-Action_Models_for_Precise_3D_CVPR_2026_paper.html">CVPR paper ↗</a><a href="https://arxiv.org/abs/2601.08325">Preprint ↗</a><a href="https://zhenyangliu.github.io/ActiveVLA/">Project &amp; demos ↗</a></div>
