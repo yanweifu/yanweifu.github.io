@@ -771,6 +771,24 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://huggingface.co/Fudan-fMRI">全部开放数据与模型 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse">fMRI-Objaverse ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video">fMRI-Video ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/CineBrain">CineBrain ↗</a></div>
         </div>
       </li>
+      <li id="bsr-eeg" class="media-item">
+        <div class="media-meta">ICML 2026<time datetime="2026-07">2026 年 7 月</time></div>
+        <div>
+          <h4><a href="https://proceedings.mlr.press/v306/wang26bt.html">BSR-VideoMAE：首创新受试者少样本适配与未知电极布局的 EEG 泛化评测</a></h4>
+          <p>BSR-VideoMAE 将脑电频谱按电极位置渲染为保留神经拓扑的“谱视频”，引入 VideoMAE 的时空先验。<strong>据我们所知，该工作首次将“每名新受试者作为独立任务”的少样本适配用于检验 EEG 基础模型泛化，并首次提出显式区分预训练已见与全新电极的跨蒙太奇微调协议。</strong></p>
+          <p>在 SHU-MI 运动想象的被试级少样本适配中，达到 <strong>59.59% 平衡准确率，比所比较的最强基线提高 5.03 个百分点</strong>。公开的渲染、预训练与少样本实验代码，支持面向新用户校准和跨电极配置迁移的可复现研究。</p>
+          <div class="recognition-links"><a href="https://proceedings.mlr.press/v306/wang26bt.html">ICML 正式论文 ↗</a><a href="https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26bt/wang26bt.pdf">论文全文 · 协议与实验 ↗</a><a href="https://github.com/yanweifu-sii/BSR-VideoMAE">开放代码 ↗</a></div>
+        </div>
+      </li>
+      <li id="neural-frames" class="media-item">
+        <div class="media-meta">CVPR 2026<time datetime="2026-06">2026 年 6 月</time></div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2603.24176">Spatiotemporal Neural Frames：EEG 引导的动态 fMRI 重建与中间帧补全</a></h4>
+          <p><strong>据我们所知，该工作首次将 EEG 引导的高空间分辨率 fMRI 序列建模，与无需再训练、保持已观测锚帧一致的中间帧重建（InterRecon），统一到扩散 Transformer 框架中。</strong>零空间约束支持补全任意中间位置的缺失帧，将 EEG 的时间信息与 fMRI 的空间细节相连接。</p>
+          <p>在 CineBrain 六名受试者的同步 EEG-fMRI 数据上，模型重建覆盖全脑 <strong>91,282 个灰质坐标</strong>的动态序列。重建结果还可输入 fMRI-to-video 解码器，恢复粗粒度场景语义与时间连续性，展示脑动态补全及下游视觉解码的研究价值。</p>
+          <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Qu_Modeling_Spatiotemporal_Neural_Frames_for_High_Resolution_Brain_Dynamic_CVPR_2026_paper.pdf">CVPR 正式论文 ↗</a><a href="https://arxiv.org/abs/2603.24176">开放论文 ↗</a><a href="https://arxiv.org/html/2603.24176v2#S3.SS1">InterRecon · 方法与实验 ↗</a></div>
+        </div>
+      </li>
       <li id="cinebrain-impact" class="media-item">
         <div class="media-meta">CVPR Daily · RSIP Vision<time datetime="2026-06-07">2026 年 6 月</time></div>
         <div>
@@ -819,22 +837,24 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">项目主页 ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV 正式论文 ↗</a><a href="https://arxiv.org/abs/2312.07485">预印本与首次公开时间 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape 开放数据集 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Neuro-3D_Towards_3D_Visual_Decoding_from_EEG_Signals_CVPR_2025_paper.pdf">Neuro-3D 首创性评价 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D 数据集采用 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jing_More_Natural_More_Real_Object-aware_Gaussian_Splatting_for_3D_Visual_CVPR_2026_paper.pdf">BrainGS 数据与评测采用 ↗</a><a href="https://doi.org/10.1109/TPAMI.2025.3599860">MinD-3D++ · TPAMI 正式论文 ↗</a><a href="https://arxiv.org/abs/2409.11315">MinD-3D++ 开放论文 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse">fMRI-Objaverse 开放数据集 ↗</a><a href="https://github.com/JianxGao/MinD-3D">系列开放代码 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">剑桥 BASIC 独立模型评测 ↗</a></div>
         </div>
       </li>
+      <li id="glfa" class="media-item">
+        <div class="media-meta">ECCV 2024 · DecoFuse 2025<time datetime="2025-04-01">系列成果 · 2025 年 4 月</time></div>
+        <div>
+          <h4><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11062_ECCV_2024_paper.php">GLFA → DecoFuse：从跨受试者视频脑解码到“什么、哪里、如何运动”的分解重建</a></h4>
+          <p>GLFA 提出<strong>全局—局部功能对齐</strong>，将不同受试者的 fMRI 信号映射到共享脑空间，并结合扩散生成器重建视频。团队同时开放 fMRI-Video 数据集，包含 8 名受试者约 75,000 个 fMRI–视觉刺激配对样本。</p>
+          <p><strong>作为 GLFA 研究路线的后续工作，DecoFuse（2025）进一步将视频脑解码分解为“什么”（语义）、“哪里”（空间）和“如何运动”（运动），分别恢复后再融合生成视频。</strong>这种设计使各组成部分能够单独检验；差异神经编码分析还考察了其表征与大脑腹侧、背侧视觉通路的对应关系。</p>
+          <p><strong>系列工作已进入独立研究的比较与评测体系。</strong>上海交通大学 MindCross（AAAI 2026）将 GLFA 选为代表性跨受试者视频解码框架，评测视频重建与新受试者适应；剑桥大学 BASIC（AAAI 2026）则将 DecoFuse 纳入 CC2017 视频脑解码评测，与 MinD-Video、NeuroClips 比较。</p>
+          <div class="recognition-links"><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11062_ECCV_2024_paper.php">GLFA · ECCV 正式论文 ↗</a><a href="https://github.com/chongjg/GLFA-fmri-video">GLFA · 开放代码与重建结果 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video">GLFA · fMRI-Video 开放数据集 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38814">MindCross · 代表性基线与独立评测 ↗</a><a href="https://arxiv.org/abs/2504.00432">DecoFuse · 2025 预印本 ↗</a><a href="https://chongjg.github.io/DecoFuse/">DecoFuse · 项目与重建动画 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">剑桥 BASIC · 独立评测 ↗</a></div>
+        </div>
+      </li>
       <li id="lea" class="media-item">
         <div class="media-meta">TMLR<time datetime="2024-12">2024 年 12 月</time></div>
         <div>
           <h4><a href="https://openreview.net/forum?id=89QT2DsKyj">LEA：通过潜在表征对齐统一 fMRI 解码与编码</a></h4>
           <p>LEA 将脑信号与视觉刺激的潜在表征对齐，在<strong>统一的双向框架</strong>中，从 fMRI 重建视觉刺激，并从图像预测脑活动。研究于 2023 年 3 月首次公开，发表于 TMLR 2024 年 12 月，代码已开放。</p>
-          <p><strong>加州大学伯克利分校的独立研究以 LEA 的线性对齐思路为基础</strong>，并将其作为统计脑解码实验的比较基线（2026 年预印本）。NeuroSculptor3D（AAAI 2026）也评测了 LEA-3D 适配方法，并明确使用官方代码重新计算基线结果。</p>
-          <div class="recognition-links"><a href="https://openreview.net/forum?id=89QT2DsKyj">TMLR 正式论文 ↗</a><a href="https://arxiv.org/abs/2303.14730">预印本与首次公开时间 ↗</a><a href="https://github.com/naiq/LEA">开放代码 ↗</a><a href="https://arxiv.org/html/2603.21042v1">伯克利独立后续研究预印本 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D · LEA-3D 基线评测 ↗</a></div>
-        </div>
-      </li>
-      <li id="glfa" class="media-item">
-        <div class="media-meta">ECCV 2024<br>跨受试者视频解码</div>
-        <div>
-          <h4><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11062_ECCV_2024_paper.php">GLFA：跨受试者脑到视频解码的代表性框架</a></h4>
-          <p>GLFA 提出<strong>全局—局部功能对齐</strong>，将不同受试者的 fMRI 信号映射到共享脑空间，并结合扩散生成器重建视频。团队同时开放 fMRI-Video 数据集，包含 8 名受试者约 75,000 个 fMRI–视觉刺激配对样本。</p>
-          <p><strong>上海交通大学的独立研究 MindCross（AAAI 2026）将 GLFA 选为视频领域的代表性跨受试者解码框架。</strong>该研究对 GLFA 进行了视频重建与新受试者适应评测，比较解码精度、适应时间及参数量。</p>
-          <div class="recognition-links"><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11062_ECCV_2024_paper.php">ECCV 正式论文 ↗</a><a href="https://github.com/chongjg/GLFA-fmri-video">开放代码与重建结果 ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video">fMRI-Video 开放数据集 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38814">MindCross · 代表性基线与独立评测 ↗</a></div>
+          <p><strong>加州大学伯克利分校 Lexin Li 教授团队的独立后续研究，以 LEA 的线性对齐思路为基础，推进统计脑编码与解码，并将 LEA 纳入实验比较（2026 年预印本）。</strong>Lexin Li 是伯克利生物统计学部主任、AAAS／IMS／ASA Fellow，并担任 <em>Annals of Applied Statistics</em> 主编（2025–2027）。</p>
+          <p>NeuroSculptor3D（AAAI 2026）也评测了 LEA-3D 适配方法，并明确使用官方代码重新计算基线结果。</p>
+          <div class="recognition-links"><a href="https://openreview.net/forum?id=89QT2DsKyj">TMLR 正式论文 ↗</a><a href="https://arxiv.org/abs/2303.14730">预印本与首次公开时间 ↗</a><a href="https://github.com/naiq/LEA">开放代码 ↗</a><a href="https://arxiv.org/html/2603.21042v1">Lexin Li 教授团队 · 独立后续研究 ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D · LEA-3D 基线评测 ↗</a><a href="https://publichealth.berkeley.edu/people/lexin-li">Lexin Li · 伯克利官方简介 ↗</a></div>
         </div>
       </li>
       <li id="fmri-pte" class="media-item">

@@ -86,11 +86,11 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * Robotic Grasping and Placement Controlled by EEG-Based Hybrid Visual and Motor Imagery. Yichang Liu, Tianyu Wang, Ziyi Ye, Yawei Li, Yu-Gang Jiang, Shouyan Wang, Yanwei Fu. ICRA 2026 [Paper](https://arxiv.org/abs/2603.03181) · [Project & video](https://yichangliu1224.github.io/EEG-Graspbot/)
 
-* Modeling Spatiotemporal Neural Frames for High Resolution Brain Dynamic. Wanying Qu, Jianxiong Gao, Wei Wang, Yanwei Fu. CVPR 2026
+* Modeling Spatiotemporal Neural Frames for High Resolution Brain Dynamic. Wanying Qu, Jianxiong Gao, Wei Wang, Yanwei Fu. CVPR 2026. [Paper](https://arxiv.org/abs/2603.24176) · [CVPR proceedings](https://openaccess.thecvf.com/content/CVPR2026/papers/Qu_Modeling_Spatiotemporal_Neural_Frames_for_High_Resolution_Brain_Dynamic_CVPR_2026_paper.pdf)
 
 * CineBrain: A Large-Scale Multi-Modal Audiovisual Brain Dataset for Brain-Conditioned Video Generation. Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, Yanwei Fu. CVPR 2026. <a class="presentation-tag" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Oral</a> <span class="award-tag">Best Paper Award Candidate</span> [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Gao_CineBrain_A_Large-Scale_Multi-Modal_Audiovisual_Brain_Dataset_for_Brain-Conditioned_Video_CVPR_2026_paper.html) · [Project](https://jianxgao.github.io/CineBrain/)
 
-* Harnessing Spectrum Video for Subject-Level Few-Shot and Cross-Montage EEG Generalization. Wei Wang, Fang He, Yifan Li, Wanying Qu, Yawei Li, Quanying Liu, Yanwei Fu. ICML 2026
+* Harnessing Spectrum Video for Subject-Level Few-Shot and Cross-Montage EEG Generalization. Wei Wang, Fang He, Yifan Li, Wanying Qu, Yawei Li, Quanying Liu, Yanwei Fu. ICML 2026. [Paper](https://proceedings.mlr.press/v306/wang26bt.html) · [Code](https://github.com/yanweifu-sii/BSR-VideoMAE)
 
 * MindShape: Superquadric-Constrained High-Fidelity 3D Reconstruction from fMRI. Xiaoquan Shen, Ming Li, Jianxiong Gao, Jiaxuan Chen, Xiangru Huang, Yanwei Fu, Gang Pan. NIPS 2026
 
@@ -185,7 +185,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * CineBrain: A Large-Scale Multi-Modal Brain Dataset During Naturalistic Audiovisual Narrative Processing.  Jianxiong Gao, Yichang Liu, Baofeng Yang, Jianfeng Feng, Yanwei Fu. Arxiv 2025 https://arxiv.org/abs/2503.06940 (It's a nice dataset)
 
-* DecoFuse: Decomposing and Fusing the" What"," Where", and" How" for Brain-Inspired fMRI-to-Video Decoding.  Chong Li, Jingyang Huo, Weikang Gong, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. Arxiv 2025 https://arxiv.org/pdf/2504.00432
+* DecoFuse: Decomposing and Fusing the "What", "Where", and "How" for Brain-Inspired fMRI-to-Video Decoding. Chong Li, Jingyang Huo, Weikang Gong, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. arXiv 2025. [Paper](https://arxiv.org/abs/2504.00432) · [Project & reconstructions](https://chongjg.github.io/DecoFuse/)
 
 ## 2024
 

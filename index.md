@@ -768,6 +768,24 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://huggingface.co/Fudan-fMRI">All datasets &amp; models ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse">fMRI-Objaverse ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video">fMRI-Video ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/CineBrain">CineBrain ↗</a></div>
         </div>
       </li>
+      <li id="bsr-eeg" class="media-item">
+        <div class="media-meta">ICML 2026<time datetime="2026-07">July 2026</time></div>
+        <div>
+          <h4><a href="https://proceedings.mlr.press/v306/wang26bt.html">BSR-VideoMAE: pioneering few-shot subject adaptation and unseen-electrode EEG benchmarks</a></h4>
+          <p>BSR-VideoMAE renders EEG spectra by electrode location as topology-preserving “Spectrum Videos” for VideoMAE. <strong>To our knowledge, it first establishes a subject-as-task few-shot benchmark for EEG foundation-model generalization, alongside the first cross-montage fine-tuning protocol explicitly separating seen and entirely unseen electrodes.</strong></p>
+          <p>On SHU-MI motor imagery, subject-level few-shot adaptation achieves <strong>59.59% balanced accuracy, 5.03 percentage points above the strongest compared baseline</strong>. Public rendering, pretraining, and few-shot code supports reproducible research on new-user calibration and transfer across electrode configurations.</p>
+          <div class="recognition-links"><a href="https://proceedings.mlr.press/v306/wang26bt.html">ICML paper ↗</a><a href="https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26bt/wang26bt.pdf">Full paper · Protocols &amp; experiments ↗</a><a href="https://github.com/yanweifu-sii/BSR-VideoMAE">Code ↗</a></div>
+        </div>
+      </li>
+      <li id="neural-frames" class="media-item">
+        <div class="media-meta">CVPR 2026<time datetime="2026-06">June 2026</time></div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2603.24176">Spatiotemporal Neural Frames: EEG-guided dynamic fMRI and intermediate-frame reconstruction</a></h4>
+          <p><strong>To our knowledge, this work first unifies EEG-conditioned, spatially detailed fMRI sequence modeling with training-free, anchor-consistent intermediate-frame reconstruction (InterRecon) in a diffusion Transformer.</strong> Null-space constraints fill missing intermediate positions while retaining observed frames.</p>
+          <p>Evaluated on synchronized recordings from six CineBrain participants, it reconstructs dynamic sequences spanning <strong>91,282 whole-brain grayordinates</strong>. Reconstructed fMRI supports downstream video decoding, retaining coarse scene semantics and temporal continuity, with value for missing-frame completion and functional neural decoding.</p>
+          <div class="recognition-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Qu_Modeling_Spatiotemporal_Neural_Frames_for_High_Resolution_Brain_Dynamic_CVPR_2026_paper.pdf">CVPR paper ↗</a><a href="https://arxiv.org/abs/2603.24176">Open manuscript ↗</a><a href="https://arxiv.org/html/2603.24176v2#S3.SS1">InterRecon · Method &amp; experiments ↗</a></div>
+        </div>
+      </li>
       <li id="cinebrain-impact" class="media-item">
         <div class="media-meta">CVPR Daily · RSIP Vision<time datetime="2026-06-07">June 2026</time></div>
         <div>
@@ -816,22 +834,24 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://jianxgao.github.io/MinD-3D/">Project ↗</a><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6365_ECCV_2024_paper.php">ECCV paper ↗</a><a href="https://arxiv.org/abs/2312.07485">Preprint &amp; release history ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Shape">fMRI-Shape dataset ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Neuro-3D_Towards_3D_Visual_Decoding_from_EEG_Signals_CVPR_2025_paper.pdf">Neuro-3D · Recognition of first dataset ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D · Dataset adoption ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jing_More_Natural_More_Real_Object-aware_Gaussian_Splatting_for_3D_Visual_CVPR_2026_paper.pdf">BrainGS · Dataset &amp; protocol adoption ↗</a><a href="https://doi.org/10.1109/TPAMI.2025.3599860">MinD-3D++ · TPAMI paper ↗</a><a href="https://arxiv.org/abs/2409.11315">MinD-3D++ · Open manuscript ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Objaverse">fMRI-Objaverse dataset ↗</a><a href="https://github.com/JianxGao/MinD-3D">Series code ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">Cambridge BASIC · Independent model evaluation ↗</a></div>
         </div>
       </li>
+      <li id="glfa" class="media-item">
+        <div class="media-meta">ECCV 2024 · DecoFuse 2025<time datetime="2025-04-01">Series · April 2025</time></div>
+        <div>
+          <h4><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11062_ECCV_2024_paper.php">GLFA → DecoFuse: from cross-subject video decoding to decomposing what, where, and how</a></h4>
+          <p>GLFA introduces <strong>global-local functional alignment</strong> to map different subjects’ fMRI signals into a shared brain space, enabling cross-subject video reconstruction with a diffusion generator. The work also releases fMRI-Video, with approximately 75,000 fMRI–stimulus pairs from eight participants.</p>
+          <p><strong>Following our GLFA research line, DecoFuse (2025) separately decodes what is seen (semantics), where it is (space), and how it moves (motion), then fuses these components into video.</strong> Each component can be tested individually; differential neural encoding also examines correspondence with ventral and dorsal visual pathways.</p>
+          <p><strong>Both works have entered independent evaluation frameworks.</strong> Shanghai Jiao Tong University’s MindCross (AAAI 2026) evaluates GLFA as a representative cross-subject video decoder, including new-subject adaptation; Cambridge’s BASIC (AAAI 2026) benchmarks DecoFuse on CC2017 alongside MinD-Video and NeuroClips.</p>
+          <div class="recognition-links"><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11062_ECCV_2024_paper.php">GLFA · ECCV paper ↗</a><a href="https://github.com/chongjg/GLFA-fmri-video">GLFA · Code &amp; reconstruction results ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video">GLFA · fMRI-Video dataset ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38814">MindCross · Representative baseline &amp; evaluation ↗</a><a href="https://arxiv.org/abs/2504.00432">DecoFuse · 2025 preprint ↗</a><a href="https://chongjg.github.io/DecoFuse/">DecoFuse · Project &amp; reconstructions ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38845">Cambridge BASIC · Independent evaluation ↗</a></div>
+        </div>
+      </li>
       <li id="lea" class="media-item">
         <div class="media-meta">TMLR<time datetime="2024-12">December 2024</time></div>
         <div>
           <h4><a href="https://openreview.net/forum?id=89QT2DsKyj">LEA: unifying fMRI decoding and encoding through latent alignment</a></h4>
           <p>LEA aligns neural and visual latent representations in a <strong>unified, bidirectional framework</strong>: it reconstructs visual stimuli from fMRI and predicts brain activity from images. First released in March 2023 and published in TMLR in December 2024, the work makes its implementation publicly available.</p>
-          <p><strong>An independent UC Berkeley study builds on LEA’s linear alignment formulation</strong> and evaluates it as a baseline for statistical brain decoding (2026 preprint). NeuroSculptor3D (AAAI 2026) also evaluates the LEA-3D adaptation, explicitly recalculating baseline results with official code.</p>
-          <div class="recognition-links"><a href="https://openreview.net/forum?id=89QT2DsKyj">TMLR paper ↗</a><a href="https://arxiv.org/abs/2303.14730">Preprint &amp; release history ↗</a><a href="https://github.com/naiq/LEA">Code ↗</a><a href="https://arxiv.org/html/2603.21042v1">Berkeley · Independent follow-up preprint ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D · LEA-3D baseline evaluation ↗</a></div>
-        </div>
-      </li>
-      <li id="glfa" class="media-item">
-        <div class="media-meta">ECCV 2024<br>Cross-subject video decoding</div>
-        <div>
-          <h4><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11062_ECCV_2024_paper.php">GLFA: a representative framework for cross-subject brain-to-video decoding</a></h4>
-          <p>GLFA introduces <strong>global-local functional alignment</strong> to map different subjects’ fMRI signals into a shared brain space, enabling cross-subject video reconstruction with a diffusion generator. The work also releases fMRI-Video, with approximately 75,000 fMRI–stimulus pairs from eight participants.</p>
-          <p><strong>Shanghai Jiao Tong University’s independent MindCross study (AAAI 2026) selects GLFA as a representative cross-subject video decoding framework.</strong> It evaluates GLFA on video reconstruction and new-subject adaptation, including accuracy, adaptation time, and parameter comparisons.</p>
-          <div class="recognition-links"><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/11062_ECCV_2024_paper.php">ECCV paper ↗</a><a href="https://github.com/chongjg/GLFA-fmri-video">Code &amp; reconstruction results ↗</a><a href="https://huggingface.co/datasets/Fudan-fMRI/fMRI-Video">fMRI-Video dataset ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38814">MindCross · Representative baseline &amp; evaluation ↗</a></div>
+          <p><strong>An independent follow-up by Professor Lexin Li’s group at UC Berkeley builds on LEA’s linear alignment formulation for statistical brain encoding and decoding, and evaluates LEA experimentally (2026 preprint).</strong> Li chairs Berkeley’s Biostatistics Division, is a Fellow of AAAS, IMS, and ASA, and serves as Editor-in-Chief of the <em>Annals of Applied Statistics</em> (2025–2027).</p>
+          <p>NeuroSculptor3D (AAAI 2026) also evaluates the LEA-3D adaptation, explicitly recalculating baseline results with official code.</p>
+          <div class="recognition-links"><a href="https://openreview.net/forum?id=89QT2DsKyj">TMLR paper ↗</a><a href="https://arxiv.org/abs/2303.14730">Preprint &amp; release history ↗</a><a href="https://github.com/naiq/LEA">Code ↗</a><a href="https://arxiv.org/html/2603.21042v1">Lexin Li’s Berkeley group · Independent follow-up ↗</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38864">NeuroSculptor3D · LEA-3D baseline evaluation ↗</a><a href="https://publichealth.berkeley.edu/people/lexin-li">Lexin Li · Official Berkeley profile ↗</a></div>
         </div>
       </li>
       <li id="fmri-pte" class="media-item">
