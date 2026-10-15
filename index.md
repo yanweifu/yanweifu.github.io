@@ -388,6 +388,15 @@ image: /assets/images/yanwei-fu.png
   <div id="3d-reconstruction" class="media-group">
     <h3>3D reconstruction &amp; generative foundation models</h3>
     <ul class="media-list">
+      <li id="streetunveiler" class="media-item">
+        <div class="media-meta">ICLR 2025<br>SIGGRAPH Asia · Invited Poster<time datetime="2025-12-15">Invited poster · December 2025</time></div>
+        <div>
+          <h4><a href="https://streetunveiler.github.io/">StreetUnveiler: reconstructing editable, empty 3D streets from crowded driving observations</a></h4>
+          <p><strong>StreetUnveiler combines semantic-aware 2D Gaussian Splatting with time-reversal inpainting to remove parked vehicles and other temporary occluders, producing an editable 3D representation of an empty street.</strong> It identifies missing regions and uses later, closer views to guide completion of earlier frames, improving temporal consistency while supporting mesh extraction for scene editing and simulation research.</p>
+          <p><strong>Published at ICLR 2025 and invited for poster presentation at SIGGRAPH Asia 2025.</strong> The official SIGGRAPH Asia program lists the work in the Invited: Posters session on <time datetime="2025-12-15">December 15, 2025</time>.</p>
+          <div class="recognition-links"><a href="https://sa2025.conference-schedule.org/presentation/?id=ipos_121&amp;sess=sess317">SIGGRAPH Asia · Invited Poster record ↗</a><a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/1fc6c343d8dbb4c369ab6e04225f5a65-Abstract-Conference.html">ICLR paper ↗</a><a href="https://streetunveiler.github.io/">Project &amp; demos ↗</a><a href="https://github.com/DavidXu-JJ/StreetUnveiler">Code ↗</a></div>
+        </div>
+      </li>
       <li id="deepsfm-series" class="media-item">
         <div class="media-meta">ECCV 2020 · Oral<br>IEEE TPAMI 2024</div>
         <div>
@@ -465,8 +474,17 @@ image: /assets/images/yanwei-fu.png
     </ul>
   </div>
   <div id="optical-flow" class="media-group" aria-labelledby="optical-flow-title">
-    <h3 id="optical-flow-title">Optical flow &amp; motion understanding</h3>
+    <h3 id="optical-flow-title">Optical flow, stereo &amp; motion understanding</h3>
     <ul class="media-list">
+      <li id="ppmstereo" class="media-item">
+        <div class="media-meta">NeurIPS 2025<br>Dynamic stereo matching</div>
+        <div>
+          <h4><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/8b2fc235787852ead92da2268cd9e90c-Abstract-Conference.html">PPMStereo: adaptive memory for temporally consistent stereo depth</a></h4>
+          <p><strong>To our knowledge, PPMStereo is the first framework to leverage high-quality memory for dynamic stereo matching.</strong> Its Pick-and-Play Memory selects informative reference frames and adaptively weights them for aggregation, maintaining a compact memory to model long-range spatio-temporal relationships and reduce flicker in video depth estimates.</p>
+          <p><strong>With the same Dynamic Replica + SceneFlow training setup, Sintel clean/final temporal endpoint error (TEPE) is 17.3%/9.0% lower than BiDAStereo.</strong> The base model reduces TEPE from 0.75 to 0.62 and from 1.22 to 1.11, respectively, improving the balance between temporal consistency and computational cost.</p>
+          <div class="recognition-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/8b2fc235787852ead92da2268cd9e90c-Abstract-Conference.html">NeurIPS paper ↗</a><a href="https://arxiv.org/html/2510.20178v1#S4.T1">Benchmark results ↗</a><a href="https://github.com/cocowy1/PPMStereo">Code ↗</a></div>
+        </div>
+      </li>
       <li id="memflow" class="media-item">
         <div class="media-meta">CVPR 2024</div>
         <div>

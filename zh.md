@@ -391,6 +391,15 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
   <div id="3d-reconstruction" class="media-group">
     <h3>三维重建与 3D 生成大模型</h3>
     <ul class="media-list">
+      <li id="streetunveiler" class="media-item">
+        <div class="media-meta">ICLR 2025<br>SIGGRAPH Asia · Invited Poster<time datetime="2025-12-15">邀请海报 · 2025 年 12 月</time></div>
+        <div>
+          <h4><a href="https://streetunveiler.github.io/">StreetUnveiler：将拥挤行车观测转化为可编辑的空街景三维表示</a></h4>
+          <p><strong>StreetUnveiler 通过语义感知 2D Gaussian Splatting 与逆时序补全，移除停靠车辆等临时遮挡物，重建可编辑的空街景三维表示。</strong>方法定位真正缺失的区域，利用后续更近、更清晰的视图指导早期画面补全，提升时序一致性，并支持网格提取，为街景编辑与仿真研究提供基础。</p>
+          <p><strong>发表于 ICLR 2025，并获邀在 SIGGRAPH Asia 2025 展示。</strong>官方日程将该工作列入 <time datetime="2025-12-15">2025 年 12 月 15 日</time>的 Invited: Posters／邀请海报环节。</p>
+          <div class="recognition-links"><a href="https://sa2025.conference-schedule.org/presentation/?id=ipos_121&amp;sess=sess317">SIGGRAPH Asia · 邀请海报官方记录 ↗</a><a href="https://proceedings.iclr.cc/paper_files/paper/2025/hash/1fc6c343d8dbb4c369ab6e04225f5a65-Abstract-Conference.html">ICLR 正式论文 ↗</a><a href="https://streetunveiler.github.io/">项目与演示 ↗</a><a href="https://github.com/DavidXu-JJ/StreetUnveiler">开放代码 ↗</a></div>
+        </div>
+      </li>
       <li id="deepsfm-series" class="media-item">
         <div class="media-meta">ECCV 2020 · Oral<br>IEEE TPAMI 2024</div>
         <div>
@@ -468,8 +477,17 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
     </ul>
   </div>
   <div id="optical-flow" class="media-group" aria-labelledby="optical-flow-title">
-    <h3 id="optical-flow-title">光流与运动理解</h3>
+    <h3 id="optical-flow-title">光流、立体匹配与运动理解</h3>
     <ul class="media-list">
+      <li id="ppmstereo" class="media-item">
+        <div class="media-meta">NeurIPS 2025<br>动态立体匹配</div>
+        <div>
+          <h4><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/8b2fc235787852ead92da2268cd9e90c-Abstract-Conference.html">PPMStereo：以自适应记忆提升视频立体深度的时序一致性</a></h4>
+          <p><strong>据我们所知，PPMStereo 首次将高质量记忆机制引入动态立体匹配。</strong>其 Pick-and-Play Memory 先选择信息充分的参考帧，再自适应加权聚合，以紧凑记忆建模长程时空关系，减少视频深度估计的闪烁。</p>
+          <p><strong>在相同 Dynamic Replica＋SceneFlow 训练设置下，相比 BiDAStereo，Sintel clean／final 的时序端点误差（TEPE）分别降低 17.3%／9.0%。</strong>基础模型将对应误差从 0.75 降至 0.62、从 1.22 降至 1.11，改善时序一致性与计算开销之间的折中。</p>
+          <div class="recognition-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/8b2fc235787852ead92da2268cd9e90c-Abstract-Conference.html">NeurIPS 正式论文 ↗</a><a href="https://arxiv.org/html/2510.20178v1#S4.T1">基准实验结果 ↗</a><a href="https://github.com/cocowy1/PPMStereo">开放代码 ↗</a></div>
+        </div>
+      </li>
       <li id="memflow" class="media-item">
         <div class="media-meta">CVPR 2024</div>
         <div>
