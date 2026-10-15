@@ -549,19 +549,21 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="ocra" class="media-item">
         <div class="media-meta">ICRA 2026<time datetime="2026-06">2026 年 6 月</time></div>
         <div>
-          <h4><a href="https://sressers.github.io/OCRA/">OCRA：结合三维几何与触觉，将人类示范迁移到机器人</a></h4>
-          <p><strong>OCRA 将以物体为中心的三维理解与触觉先验相结合，从人类视频学习并迁移操作技能。</strong> 方法从多视角 RGB 视频重建任务相关物体并学习其运动，缩小人类示范与机器人动作之间的形态差异；以百万级触觉图像预训练的编码器提供接触信息，支持力度控制与物体属性识别。</p>
-          <p><strong>真实机器人实验覆盖七项任务，每项使用 20–40 段人类示范。</strong> 任务包括堆叠、舀取、倾倒、清扫、易损杯搬运及按重量或纹理分类。这些实验展示了空间表征与触觉如何共同支持动作迁移及依赖接触的决策，将视频示范学习拓展到精细操作与物体属性相关的任务。</p>
-          <div class="recognition-links"><a href="https://sressers.github.io/OCRA/static/videos/ocra.mp4">视频 · 真实机器人演示 ↗</a><a href="https://arxiv.org/abs/2603.14401">研究论文 ↗</a><a href="https://sressers.github.io/OCRA/">项目与演示 ↗</a></div>
+          <h4><a href="https://sressers.github.io/OCRA/">OCRA：三维与触觉共同驱动的人机技能迁移</a></h4>
+          <p><strong>OCRA 将以物体为中心的三维几何与触觉先验统一用于人到机器人的技能迁移，让机器人同时学习物体怎样移动、接触时怎样用力。</strong>方法从多视角 RGB 视频重建物体运动，以百万级触觉图像预训练的编码器提供接触信息，将人类示范学习拓展到易碎物体操作、重量与纹理分类。</p>
+          <p><strong>每项任务仅需 20–40 段人类示范；在三项视触觉任务中，加入触觉将平均成功率从 40% 提升至 90%。</strong>这一对比覆盖易碎杯搬运、重量分类和纹理分类，每项进行 10 次真实机器人测试；完整评估共覆盖七项操作任务。</p>
+          <p><strong>获南加州大学 USC Viterbi 工程学院 ICRA 2026 官方研究专题介绍。</strong>该校会议报道在 Research Spotlights 中介绍了 OCRA 的触觉学习与人到机器人动作迁移。</p>
+          <div class="recognition-links"><a href="https://sressers.github.io/OCRA/static/videos/ocra.mp4">视频 · 真实机器人演示 ↗</a><a href="https://arxiv.org/abs/2603.14401">研究论文 ↗</a><a href="https://sressers.github.io/OCRA/">项目与演示 ↗</a><a href="https://viterbischool.usc.edu/news/2026/06/usc-icra-2026/">USC Viterbi · 官方研究专题 ↗</a></div>
         </div>
       </li>
       <li id="scoopd" class="media-item">
         <div class="media-meta">ICRA 2026<time datetime="2026-06">2026 年 6 月</time></div>
         <div>
-          <h4><a href="https://scoopdiff.github.io/">SCOOP’D：从仿真学习液固混合环境中的目标舀取</a></h4>
-          <p><strong>SCOOP’D 将学习型机器人操作拓展到工具、液体与物体之间的动态交互。</strong> 方法研究从液固混合物中选择性舀取目标，处理目标移动、遮挡与深度观测不稳定带来的控制难题；自动生成的仿真示范训练扩散模型，分别学习勺具的初始位姿与后续舀取动作，并通过视觉跟踪引导执行。</p>
-          <p><strong>仿真训练的策略无需真实环境微调，已在 465 次真实机器人试验中评估。</strong> 实验覆盖不同物体、容器、液体、遮挡程度与多目标设置，并进一步测试移动目标和视角变化，展示了通过仿真获取工具操作技能的可行路径，对食品处理及液体环境中的物品回收具有研究价值。</p>
-          <div class="recognition-links"><a href="https://scoopdiff.github.io/static/videos/teaser/mushroom2.mp4">视频 · 真实机器人舀取 ↗</a><a href="https://scoopdiff.github.io/static/videos/move/duck_moving1.mp4">视频 · 移动目标 ↗</a><a href="https://arxiv.org/abs/2510.11566">研究论文 ↗</a><a href="https://scoopdiff.github.io/">项目与演示 ↗</a><a href="https://github.com/SresserS/SCOOPD_Codebase">代码仓库 ↗</a></div>
+          <h4><a href="https://scoopdiff.github.io/">SCOOP’D：零真实示教的液固混合选择性舀取</a></h4>
+          <p><strong>SCOOP’D 无需真实机器人示教或额外策略微调，仅凭仿真生成的示范，就能让真实机器人从液固混合物中选择性舀取指定目标。</strong>两阶段扩散策略分别生成勺具的初始位姿与舀取动作，并通过视觉跟踪引导执行，应对目标移动与遮挡。</p>
+          <p><strong>共开展 465 次真实机器人测试；其中，240 次 Level 1 测试按“只舀出目标、不夹带干扰物”的严格标准，成功率达到 82.5%。</strong>实验验证了对不同物体、容器与勺具的泛化，并进一步测试不同液体、多目标、移动物体及视角变化。</p>
+          <p><strong>获南加州大学 USC Viterbi 工程学院 ICRA 2026 官方研究专题介绍。</strong>该校报道介绍了液固混合物操作，以及将仿真中学到的技能迁移到真实环境的研究。</p>
+          <div class="recognition-links"><a href="https://scoopdiff.github.io/static/videos/teaser/mushroom2.mp4">视频 · 真实机器人舀取 ↗</a><a href="https://scoopdiff.github.io/static/videos/move/duck_moving1.mp4">视频 · 移动目标 ↗</a><a href="https://arxiv.org/abs/2510.11566">研究论文 ↗</a><a href="https://scoopdiff.github.io/">项目与演示 ↗</a><a href="https://github.com/SresserS/SCOOPD_Codebase">代码仓库 ↗</a><a href="https://viterbischool.usc.edu/news/2026/06/usc-icra-2026/">USC Viterbi · 官方研究专题 ↗</a></div>
         </div>
       </li>
       <li id="tau0-wm" class="media-item">
