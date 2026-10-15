@@ -774,10 +774,10 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
       <li id="bsr-eeg" class="media-item">
         <div class="media-meta">ICML 2026<time datetime="2026-07">2026 年 7 月</time></div>
         <div>
-          <h4><a href="https://proceedings.mlr.press/v306/wang26bt.html">BSR-VideoMAE：首创新受试者少样本适配与未知电极布局的 EEG 泛化评测</a></h4>
-          <p>BSR-VideoMAE 将脑电频谱按电极位置渲染为保留神经拓扑的“谱视频”，引入 VideoMAE 的时空先验。<strong>据我们所知，该工作首次将“每名新受试者作为独立任务”的少样本适配用于检验 EEG 基础模型泛化，并首次提出显式区分预训练已见与全新电极的跨蒙太奇微调协议。</strong></p>
-          <p>在 SHU-MI 运动想象的被试级少样本适配中，达到 <strong>59.59% 平衡准确率，比所比较的最强基线提高 5.03 个百分点</strong>。公开的渲染、预训练与少样本实验代码，支持面向新用户校准和跨电极配置迁移的可复现研究。</p>
-          <div class="recognition-links"><a href="https://proceedings.mlr.press/v306/wang26bt.html">ICML 正式论文 ↗</a><a href="https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26bt/wang26bt.pdf">论文全文 · 协议与实验 ↗</a><a href="https://github.com/yanweifu-sii/BSR-VideoMAE">开放代码 ↗</a></div>
+          <h4><a href="https://proceedings.mlr.press/v306/wang26bt.html">BSR-VideoMAE：开源 EEG 大模型，投稿时取得最优表现</a></h4>
+          <p>BSR-VideoMAE 是我们提出的<strong>开源 EEG 大模型</strong>，已公开脑信号渲染、模型预训练与少样本适配代码。它将脑电频谱按电极位置渲染为保留神经拓扑的“谱视频”，引入 VideoMAE 的时空先验。<strong>据我们所知，该工作首次将“每名新受试者作为独立任务”的少样本适配用于检验 EEG 基础模型泛化，并首次提出显式区分预训练已见与全新电极的跨蒙太奇微调协议。</strong></p>
+          <p><strong>在论文投稿时的基准比较中，BSR-VideoMAE 在四个被试级少样本适配数据集、两个全数据微调数据集上，均取得所比较方法中的最佳表现（SOTA）。</strong>其中，SHU-MI 运动想象少样本适配达到 <strong>59.59% 平衡准确率，比所比较的最强基线提高 5.03 个百分点</strong>，体现了其对新用户校准与跨电极配置迁移的价值。</p>
+          <div class="recognition-links"><a href="https://proceedings.mlr.press/v306/wang26bt.html">ICML 正式论文 ↗</a><a href="https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26bt/wang26bt.pdf">论文全文 · 协议与实验 ↗</a><a href="https://github.com/yanweifu-sii/BSR-VideoMAE">开源代码 · 预训练与适配 ↗</a></div>
         </div>
       </li>
       <li id="neural-frames" class="media-item">
