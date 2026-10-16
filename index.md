@@ -264,6 +264,41 @@ image: /assets/images/yanwei-fu.png
         <a class="honor-source" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">Official conference program ↗</a>
       </div>
     </li>
+    <li id="paperdigest-setr" class="honor-item">
+      <span class="honor-year">2026</span>
+      <div>
+        <p class="honor-label">Most Influential CVPR 2021 Paper <span>Paper Digest · No. 4</span></p>
+        <p class="honor-title"><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Rethinking_Semantic_Segmentation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_CVPR_2021_paper.html">SETR: Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers</a></p>
+        <p class="honor-credit">2026-03 edition · Ranked No. 4 among CVPR 2021 papers; No. 2 in the 2022-02 edition.</p>
+        <div class="publication-links">
+          <a class="honor-source" href="{{ '/assets/honors/paperdigest-setr-cvpr-2021-most-influential-2026-03.pdf' | relative_url }}" download>Download official certificate (PDF)</a>
+          <a class="honor-source" href="https://www.paperdigest.org/certificate/597c761edc7da2d4">Verify certificate ↗</a>
+          <a class="honor-source" href="https://resources.paperdigest.org/2022/02/most-influential-cvpr-papers-2022-02/">Historical ranking · 2022-02 ↗</a>
+        </div>
+      </div>
+    </li>
+    <li id="paperdigest-setr-arxiv" class="honor-item">
+      <span class="honor-year">2026</span>
+      <div>
+        <p class="honor-label">Most Influential arXiv Computer Vision Papers <span>Paper Digest · No. 11</span></p>
+        <p class="honor-title"><a href="https://arxiv.org/abs/2012.15840">SETR: Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers</a></p>
+        <p class="honor-credit">2026-04 edition · Ranked No. 11 among 2020 arXiv cs.CV papers. The same work was published at CVPR 2021.</p>
+        <a class="honor-source" href="https://resources.paperdigest.org/2026/04/most-influential-arxiv-computer-vision-and-pattern-recognition-papers-2026-04-version/">Official arXiv computer vision ranking ↗</a>
+      </div>
+    </li>
+    <li id="paperdigest-soft-filter-pruning" class="honor-item">
+      <span class="honor-year">2026</span>
+      <div>
+        <p class="honor-label">Most Influential IJCAI 2018 Paper <span>Paper Digest · No. 4</span></p>
+        <p class="honor-title"><a href="https://www.ijcai.org/proceedings/2018/0309.pdf">Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks</a></p>
+        <p class="honor-credit">2026-03 edition · Ranked No. 4 among IJCAI 2018 papers; No. 1 in the 2021-02 edition.</p>
+        <div class="publication-links">
+          <a class="honor-source" href="{{ '/assets/honors/paperdigest-soft-filter-pruning-ijcai-2018-most-influential-2026-03.pdf' | relative_url }}" download>Download official certificate (PDF)</a>
+          <a class="honor-source" href="https://www.paperdigest.org/certificate/4f3a15f4548892c1">Verify certificate ↗</a>
+          <a class="honor-source" href="https://resources.paperdigest.org/2021/02/most-influential-ijcai-papers/">Historical ranking · 2021-02 ↗</a>
+        </div>
+      </div>
+    </li>
     <li class="honor-item">
       <span class="honor-year">2025</span>
       <div>

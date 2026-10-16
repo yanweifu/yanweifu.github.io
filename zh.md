@@ -267,6 +267,41 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
         <a class="honor-source" href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf#page=111">会议官方日程 ↗</a>
       </div>
     </li>
+    <li id="paperdigest-setr" class="honor-item">
+      <span class="honor-year">2026</span>
+      <div>
+        <p class="honor-label">Most Influential CVPR 2021 Paper · 最具影响力论文 <span>Paper Digest · 第 4 名</span></p>
+        <p class="honor-title"><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Rethinking_Semantic_Segmentation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_CVPR_2021_paper.html">SETR: Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers</a></p>
+        <p class="honor-credit">2026-03 版 · 在 CVPR 2021 年论文中排名第 4；在 2022-02 版中排名第 2。</p>
+        <div class="publication-links">
+          <a class="honor-source" href="{{ '/assets/honors/paperdigest-setr-cvpr-2021-most-influential-2026-03.pdf' | relative_url }}" download>下载官方证书（PDF）</a>
+          <a class="honor-source" href="https://www.paperdigest.org/certificate/597c761edc7da2d4">官方证书验证 ↗</a>
+          <a class="honor-source" href="https://resources.paperdigest.org/2022/02/most-influential-cvpr-papers-2022-02/">历史榜单 · 2022-02 版 ↗</a>
+        </div>
+      </div>
+    </li>
+    <li id="paperdigest-setr-arxiv" class="honor-item">
+      <span class="honor-year">2026</span>
+      <div>
+        <p class="honor-label">arXiv 计算机视觉最具影响力论文 <span>Paper Digest · 第 11 名</span></p>
+        <p class="honor-title"><a href="https://arxiv.org/abs/2012.15840">SETR: Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers</a></p>
+        <p class="honor-credit">2026-04 版 · 在 2020 年 arXiv cs.CV 论文中排名第 11。该论文于 2020 年首发预印本，后发表于 CVPR 2021，为同一项工作。</p>
+        <a class="honor-source" href="https://resources.paperdigest.org/2026/04/most-influential-arxiv-computer-vision-and-pattern-recognition-papers-2026-04-version/">arXiv 计算机视觉官方榜单 ↗</a>
+      </div>
+    </li>
+    <li id="paperdigest-soft-filter-pruning" class="honor-item">
+      <span class="honor-year">2026</span>
+      <div>
+        <p class="honor-label">Most Influential IJCAI 2018 Paper · 最具影响力论文 <span>Paper Digest · 第 4 名</span></p>
+        <p class="honor-title"><a href="https://www.ijcai.org/proceedings/2018/0309.pdf">Soft Filter Pruning for Accelerating Deep Convolutional Neural Networks</a></p>
+        <p class="honor-credit">2026-03 版 · 在 IJCAI 2018 年论文中排名第 4；在 2021-02 版中排名第 1。</p>
+        <div class="publication-links">
+          <a class="honor-source" href="{{ '/assets/honors/paperdigest-soft-filter-pruning-ijcai-2018-most-influential-2026-03.pdf' | relative_url }}" download>下载官方证书（PDF）</a>
+          <a class="honor-source" href="https://www.paperdigest.org/certificate/4f3a15f4548892c1">官方证书验证 ↗</a>
+          <a class="honor-source" href="https://resources.paperdigest.org/2021/02/most-influential-ijcai-papers/">历史榜单 · 2021-02 版 ↗</a>
+        </div>
+      </div>
+    </li>
     <li class="honor-item">
       <span class="honor-year">2025</span>
       <div>
