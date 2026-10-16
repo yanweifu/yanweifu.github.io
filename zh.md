@@ -966,11 +966,14 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="publication-links"><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">CVPR 论文</a><a href="https://doi.org/10.1109/TPAMI.2021.3086140">TPAMI 论文</a><a href="https://github.com/Yikai-Wang/ICI-FSL">代码</a></div>
         </div>
         <div id="knockoffs-spr" class="publication-extension">
-          <p class="publication-version">噪声标签学习 · TPAMI 2024</p>
+          <p class="publication-version">噪声标签学习 · CVPR 2022</p>
+          <h4><a href="https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Scalable_Penalized_Regression_for_Noise_Detection_in_Learning_With_Noisy_CVPR_2022_paper.html">Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels</a></h4>
+          <p>Yikai Wang, Xinwei Sun, <strong>Yanwei Fu</strong></p>
+          <p class="publication-version">期刊扩展版 · TPAMI 2024</p>
           <h4><a href="https://doi.org/10.1109/TPAMI.2023.3338268">Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels</a></h4>
           <p>Yikai Wang, <strong>Yanwei Fu</strong>, Xinwei Sun</p>
           <p>利用 Knockoff 滤波器筛选干净训练样本，并在理论假设下控制误选率。</p>
-          <div class="publication-links"><a href="https://doi.org/10.1109/TPAMI.2023.3338268">论文</a><a href="https://github.com/Yikai-Wang/Knockoffs-SPR">代码</a></div>
+          <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Scalable_Penalized_Regression_for_Noise_Detection_in_Learning_With_Noisy_CVPR_2022_paper.html">CVPR 论文</a><a href="https://doi.org/10.1109/TPAMI.2023.3338268">TPAMI 论文</a><a href="https://github.com/Yikai-Wang/SPR-LNL">SPR 代码</a><a href="https://github.com/Yikai-Wang/Knockoffs-SPR">Knockoffs-SPR 代码</a></div>
         </div>
         <div id="dessilbi" class="publication-extension">
           <p class="publication-version">统计学习基础 · ICML 2020</p>

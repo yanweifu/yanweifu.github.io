@@ -963,11 +963,14 @@ image: /assets/images/yanwei-fu.png
           <div class="publication-links"><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">CVPR paper</a><a href="https://doi.org/10.1109/TPAMI.2021.3086140">TPAMI paper</a><a href="https://github.com/Yikai-Wang/ICI-FSL">Code</a></div>
         </div>
         <div id="knockoffs-spr" class="publication-extension">
-          <p class="publication-version">Learning with noisy labels · TPAMI 2024</p>
+          <p class="publication-version">Learning with noisy labels · CVPR 2022</p>
+          <h4><a href="https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Scalable_Penalized_Regression_for_Noise_Detection_in_Learning_With_Noisy_CVPR_2022_paper.html">Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels</a></h4>
+          <p>Yikai Wang, Xinwei Sun, <strong>Yanwei Fu</strong></p>
+          <p class="publication-version">Journal extension · TPAMI 2024</p>
           <h4><a href="https://doi.org/10.1109/TPAMI.2023.3338268">Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels</a></h4>
           <p>Yikai Wang, <strong>Yanwei Fu</strong>, Xinwei Sun</p>
           <p>Selects clean training samples with knockoff filters, controlling the false-selection rate under the method’s theoretical assumptions.</p>
-          <div class="publication-links"><a href="https://doi.org/10.1109/TPAMI.2023.3338268">Paper</a><a href="https://github.com/Yikai-Wang/Knockoffs-SPR">Code</a></div>
+          <div class="publication-links"><a href="https://openaccess.thecvf.com/content/CVPR2022/html/Wang_Scalable_Penalized_Regression_for_Noise_Detection_in_Learning_With_Noisy_CVPR_2022_paper.html">CVPR paper</a><a href="https://doi.org/10.1109/TPAMI.2023.3338268">TPAMI paper</a><a href="https://github.com/Yikai-Wang/SPR-LNL">SPR code</a><a href="https://github.com/Yikai-Wang/Knockoffs-SPR">Knockoffs-SPR code</a></div>
         </div>
         <div id="dessilbi" class="publication-extension">
           <p class="publication-version">Statistical foundations · ICML 2020</p>
