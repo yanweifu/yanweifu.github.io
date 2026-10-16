@@ -950,41 +950,38 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
 <section id="foundational-publications" class="home-section" aria-labelledby="foundational-publications-title">
   <h2 id="foundational-publications-title">奠基性工作</h2>
   <ol class="publication-list">
-    <li id="ici" class="publication">
-      <div class="publication-venue">CVPR 2020<br>TPAMI 2022<span>小样本学习</span></div>
+    <li id="one-shot-learning-statistical-sparsity" class="publication">
+      <div class="publication-venue">2020–2024<span>统计稀疏性与学习</span></div>
       <div>
-        <h3><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">Instance Credibility Inference for Few-Shot Learning</a></h3>
-        <p>Yikai Wang, Chengming Xu, Chen Liu, Li Zhang, <strong>Yanwei Fu</strong></p>
-        <div class="publication-extension">
-          <p class="publication-version">期刊扩展版</p>
+        <h3>one-shot learning and statistical sparsity</h3>
+        <p>以统计稀疏性为共同线索，连接小样本学习中的可信伪标签推断、噪声标签下的干净样本选择与深度网络稀疏结构学习。</p>
+        <div id="ici" class="publication-extension">
+          <p class="publication-version">小样本学习 · CVPR 2020</p>
+          <h4><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">Instance Credibility Inference for Few-Shot Learning</a></h4>
+          <p>Yikai Wang, Chengming Xu, Chen Liu, Li Zhang, <strong>Yanwei Fu</strong></p>
+          <p class="publication-version">期刊扩展版 · TPAMI 2022</p>
           <h4><a href="https://doi.org/10.1109/TPAMI.2021.3086140">How to Trust Unlabeled Data? Instance Credibility Inference for Few-Shot Learning</a></h4>
           <p>Yikai Wang, Li Zhang, Yuan Yao, <strong>Yanwei Fu</strong></p>
+          <p>通过稀疏统计建模识别可信伪标签，利用未标注数据提升小样本学习；期刊扩展版进一步引入广义线性模型与理论分析。</p>
+          <div class="publication-links"><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">CVPR 论文</a><a href="https://doi.org/10.1109/TPAMI.2021.3086140">TPAMI 论文</a><a href="https://github.com/Yikai-Wang/ICI-FSL">代码</a></div>
         </div>
-        <p>通过稀疏统计建模识别可信伪标签，利用未标注数据提升小样本学习；期刊扩展版进一步引入广义线性模型与理论分析。</p>
-        <div class="publication-links"><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">CVPR 论文</a><a href="https://doi.org/10.1109/TPAMI.2021.3086140">TPAMI 论文</a><a href="https://github.com/Yikai-Wang/ICI-FSL">代码</a></div>
-      </div>
-    </li>
-    <li id="knockoffs-spr" class="publication">
-      <div class="publication-venue">TPAMI 2024<span>噪声标签学习</span></div>
-      <div>
-        <h3><a href="https://doi.org/10.1109/TPAMI.2023.3338268">Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels</a></h3>
-        <p>Yikai Wang, <strong>Yanwei Fu</strong>, Xinwei Sun</p>
-        <p>利用 Knockoff 滤波器筛选干净训练样本，并在理论假设下控制误选率。</p>
-        <div class="publication-links"><a href="https://doi.org/10.1109/TPAMI.2023.3338268">论文</a><a href="https://github.com/Yikai-Wang/Knockoffs-SPR">代码</a></div>
-      </div>
-    </li>
-    <li id="dessilbi" class="publication">
-      <div class="publication-venue">ICML 2020<br>TPAMI 2023<span>统计学习基础</span></div>
-      <div>
-        <h3><a href="https://proceedings.mlr.press/v119/fu20d.html">DessiLBI: Exploring Structural Sparsity of Deep Networks via Differential Inclusion Paths</a></h3>
-        <p><strong>Yanwei Fu</strong>, Chen Liu, Donghao Li, Xinwei Sun, Jinshan Zeng, Yuan Yao</p>
-        <div class="publication-extension">
-          <p class="publication-version">期刊扩展版</p>
+        <div id="knockoffs-spr" class="publication-extension">
+          <p class="publication-version">噪声标签学习 · TPAMI 2024</p>
+          <h4><a href="https://doi.org/10.1109/TPAMI.2023.3338268">Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels</a></h4>
+          <p>Yikai Wang, <strong>Yanwei Fu</strong>, Xinwei Sun</p>
+          <p>利用 Knockoff 滤波器筛选干净训练样本，并在理论假设下控制误选率。</p>
+          <div class="publication-links"><a href="https://doi.org/10.1109/TPAMI.2023.3338268">论文</a><a href="https://github.com/Yikai-Wang/Knockoffs-SPR">代码</a></div>
+        </div>
+        <div id="dessilbi" class="publication-extension">
+          <p class="publication-version">统计学习基础 · ICML 2020</p>
+          <h4><a href="https://proceedings.mlr.press/v119/fu20d.html">DessiLBI: Exploring Structural Sparsity of Deep Networks via Differential Inclusion Paths</a></h4>
+          <p><strong>Yanwei Fu</strong>, Chen Liu, Donghao Li, Xinwei Sun, Jinshan Zeng, Yuan Yao</p>
+          <p class="publication-version">期刊扩展版 · TPAMI 2023</p>
           <h4><a href="https://doi.org/10.1109/TPAMI.2022.3168881">Exploring Structural Sparsity of Deep Networks Via Inverse Scale Spaces</a></h4>
           <p><strong>Yanwei Fu</strong>, Chen Liu, Donghao Li, Zuyuan Zhong, Xinwei Sun, Jinshan Zeng, Yuan Yao</p>
+          <p>通过逆尺度空间动力学学习神经网络的稀疏结构；期刊扩展版进一步研究自适应网络生长与稀疏子网络迁移。</p>
+          <div class="publication-links"><a href="https://proceedings.mlr.press/v119/fu20d.html">ICML 论文</a><a href="https://doi.org/10.1109/TPAMI.2022.3168881">TPAMI 论文</a><a href="https://github.com/DessiLBI2020/DessiLBI">代码</a></div>
         </div>
-        <p>通过逆尺度空间动力学学习神经网络的稀疏结构；期刊扩展版进一步研究自适应网络生长与稀疏子网络迁移。</p>
-        <div class="publication-links"><a href="https://proceedings.mlr.press/v119/fu20d.html">ICML 论文</a><a href="https://doi.org/10.1109/TPAMI.2022.3168881">TPAMI 论文</a><a href="https://github.com/DessiLBI2020/DessiLBI">代码</a></div>
       </div>
     </li>
     <li id="causal-learning" class="publication">

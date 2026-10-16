@@ -947,41 +947,38 @@ image: /assets/images/yanwei-fu.png
 <section id="foundational-publications" class="home-section" aria-labelledby="foundational-publications-title">
   <h2 id="foundational-publications-title">Foundational contributions</h2>
   <ol class="publication-list">
-    <li id="ici" class="publication">
-      <div class="publication-venue">CVPR 2020<br>TPAMI 2022<span>Few-shot learning</span></div>
+    <li id="one-shot-learning-statistical-sparsity" class="publication">
+      <div class="publication-venue">2020–2024<span>Learning with statistical sparsity</span></div>
       <div>
-        <h3><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">Instance Credibility Inference for Few-Shot Learning</a></h3>
-        <p>Yikai Wang, Chengming Xu, Chen Liu, Li Zhang, <strong>Yanwei Fu</strong></p>
-        <div class="publication-extension">
-          <p class="publication-version">Journal extension</p>
+        <h3>one-shot learning and statistical sparsity</h3>
+        <p>Statistical sparsity connects this line of work on trustworthy pseudo-labels for few-shot learning, clean sample selection under noisy labels, and sparse neural structures.</p>
+        <div id="ici" class="publication-extension">
+          <p class="publication-version">Few-shot learning · CVPR 2020</p>
+          <h4><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">Instance Credibility Inference for Few-Shot Learning</a></h4>
+          <p>Yikai Wang, Chengming Xu, Chen Liu, Li Zhang, <strong>Yanwei Fu</strong></p>
+          <p class="publication-version">Journal extension · TPAMI 2022</p>
           <h4><a href="https://doi.org/10.1109/TPAMI.2021.3086140">How to Trust Unlabeled Data? Instance Credibility Inference for Few-Shot Learning</a></h4>
           <p>Yikai Wang, Li Zhang, Yuan Yao, <strong>Yanwei Fu</strong></p>
+          <p>Uses sparse statistical modeling to identify trustworthy pseudo-labels for few-shot learning; the journal extension develops generalized linear models and theoretical analysis.</p>
+          <div class="publication-links"><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">CVPR paper</a><a href="https://doi.org/10.1109/TPAMI.2021.3086140">TPAMI paper</a><a href="https://github.com/Yikai-Wang/ICI-FSL">Code</a></div>
         </div>
-        <p>Uses sparse statistical modeling to identify trustworthy pseudo-labels for few-shot learning; the journal extension develops generalized linear models and theoretical analysis.</p>
-        <div class="publication-links"><a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Instance_Credibility_Inference_for_Few-Shot_Learning_CVPR_2020_paper.html">CVPR paper</a><a href="https://doi.org/10.1109/TPAMI.2021.3086140">TPAMI paper</a><a href="https://github.com/Yikai-Wang/ICI-FSL">Code</a></div>
-      </div>
-    </li>
-    <li id="knockoffs-spr" class="publication">
-      <div class="publication-venue">TPAMI 2024<span>Learning with noisy labels</span></div>
-      <div>
-        <h3><a href="https://doi.org/10.1109/TPAMI.2023.3338268">Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels</a></h3>
-        <p>Yikai Wang, <strong>Yanwei Fu</strong>, Xinwei Sun</p>
-        <p>Selects clean training samples with knockoff filters, controlling the false-selection rate under the method’s theoretical assumptions.</p>
-        <div class="publication-links"><a href="https://doi.org/10.1109/TPAMI.2023.3338268">Paper</a><a href="https://github.com/Yikai-Wang/Knockoffs-SPR">Code</a></div>
-      </div>
-    </li>
-    <li id="dessilbi" class="publication">
-      <div class="publication-venue">ICML 2020<br>TPAMI 2023<span>Statistical foundations</span></div>
-      <div>
-        <h3><a href="https://proceedings.mlr.press/v119/fu20d.html">DessiLBI: Exploring Structural Sparsity of Deep Networks via Differential Inclusion Paths</a></h3>
-        <p><strong>Yanwei Fu</strong>, Chen Liu, Donghao Li, Xinwei Sun, Jinshan Zeng, Yuan Yao</p>
-        <div class="publication-extension">
-          <p class="publication-version">Journal extension</p>
+        <div id="knockoffs-spr" class="publication-extension">
+          <p class="publication-version">Learning with noisy labels · TPAMI 2024</p>
+          <h4><a href="https://doi.org/10.1109/TPAMI.2023.3338268">Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels</a></h4>
+          <p>Yikai Wang, <strong>Yanwei Fu</strong>, Xinwei Sun</p>
+          <p>Selects clean training samples with knockoff filters, controlling the false-selection rate under the method’s theoretical assumptions.</p>
+          <div class="publication-links"><a href="https://doi.org/10.1109/TPAMI.2023.3338268">Paper</a><a href="https://github.com/Yikai-Wang/Knockoffs-SPR">Code</a></div>
+        </div>
+        <div id="dessilbi" class="publication-extension">
+          <p class="publication-version">Statistical foundations · ICML 2020</p>
+          <h4><a href="https://proceedings.mlr.press/v119/fu20d.html">DessiLBI: Exploring Structural Sparsity of Deep Networks via Differential Inclusion Paths</a></h4>
+          <p><strong>Yanwei Fu</strong>, Chen Liu, Donghao Li, Xinwei Sun, Jinshan Zeng, Yuan Yao</p>
+          <p class="publication-version">Journal extension · TPAMI 2023</p>
           <h4><a href="https://doi.org/10.1109/TPAMI.2022.3168881">Exploring Structural Sparsity of Deep Networks Via Inverse Scale Spaces</a></h4>
           <p><strong>Yanwei Fu</strong>, Chen Liu, Donghao Li, Zuyuan Zhong, Xinwei Sun, Jinshan Zeng, Yuan Yao</p>
+          <p>Learns sparse neural structures through inverse-scale-space dynamics; the journal extension also studies adaptive network growth and transfer of sparse subnetworks.</p>
+          <div class="publication-links"><a href="https://proceedings.mlr.press/v119/fu20d.html">ICML paper</a><a href="https://doi.org/10.1109/TPAMI.2022.3168881">TPAMI paper</a><a href="https://github.com/DessiLBI2020/DessiLBI">Code</a></div>
         </div>
-        <p>Learns sparse neural structures through inverse-scale-space dynamics; the journal extension also studies adaptive network growth and transfer of sparse subnetworks.</p>
-        <div class="publication-links"><a href="https://proceedings.mlr.press/v119/fu20d.html">ICML paper</a><a href="https://doi.org/10.1109/TPAMI.2022.3168881">TPAMI paper</a><a href="https://github.com/DessiLBI2020/DessiLBI">Code</a></div>
       </div>
     </li>
     <li id="causal-learning" class="publication">
