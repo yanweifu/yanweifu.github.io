@@ -645,6 +645,15 @@ image: /assets/images/yanwei-fu.png
           <div class="recognition-links"><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/static/videos/supp-optimized.mp4">Video · Robot &amp; simulation demos ↗</a><a href="https://www.mittrchina.com/news/detail/16139">MIT Technology Review China / DeepTech · Interview ↗</a><a href="https://arxiv.org/abs/2512.21201">Research paper ↗</a><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/">Project ↗</a></div>
         </div>
       </li>
+      <li id="transsoft" class="media-item">
+        <div class="media-meta">IROS 2025<time datetime="2025-10">October 2025</time></div>
+        <div>
+          <h4><a href="https://tastooger.github.io/TransSoft/">TransSoft: The Low-Cost, Adaptable, and Radial Reconfigurable Soft Hand for Diverse Object Grasping</a></h4>
+          <p><strong>TransSoft combines soft-hand grasping with radial reconfiguration to handle objects of different sizes, shapes, and materials.</strong> Adjustable finger length and gripper width support six modes: centripetal, claw, centrifugal, reverse claw, narrow hook, and wide hook. Real-world demonstrations show how these configurations enable varied grasping and hooking tasks.</p>
+          <p><strong>Its practical strength is mechanical adaptability with accessible construction.</strong> Reconfiguration gives one hand several ways to establish contact with an object. The authors report a <strong>$200 hand prototype assembled in three hours from off-the-shelf components</strong>, offering a practical hardware direction for affordable embodied manipulation research.</p>
+          <div class="recognition-links"><a href="https://tastooger.github.io/TransSoft/static/videos/IROS25_4459_VI_i.mp4">Video · Grasping demonstrations ↗</a><a href="https://doi.org/10.1109/IROS60139.2025.11247145">IROS paper ↗</a><a href="https://tastooger.github.io/TransSoft/">Project &amp; hand configurations ↗</a></div>
+        </div>
+      </li>
       <li id="visuo-tactile" class="media-item">
         <div class="media-meta">WAIC 2025 · Fudan University<time datetime="2025-07-26">July 2025</time></div>
         <div>
@@ -672,6 +681,16 @@ image: /assets/images/yanwei-fu.png
           <p>The accompanying <strong>RGBD-Art dataset</strong> provides 63,000 realistic RGB-D images with part annotations and simulated sensor noise. Together, the method and data support transfer from synthetic training to real-robot manipulation using a consumer-grade RGB-D camera.</p>
           <p><strong>Subsequent Shanghai Jiao Tong University research adopted the feature-extraction design and dataset, and used CAP-Net as an evaluation baseline.</strong> The 2026 study <em>Revisiting Articulated Parts Perception in Robot Manipulation</em> follows CAP-Net’s SAM2 and FeatUp feature pipeline, evaluates on RGBD-Art, and compares against CAP-Net in both part perception and real-robot manipulation.</p>
           <div class="recognition-links"><a href="https://www.youtube.com/watch?v=nmqoce9h0iM">Video · YouTube ↗</a><a href="https://shanehuanghz.github.io/CAPNet/resources/videos/CVPR2025_highlight.mp4">Video · Robot demonstration ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Huang_CAP-Net_A_Unified_Network_for_6D_Pose_and_Size_Estimation_CVPR_2025_paper.html">CVPR paper ↗</a><a href="https://media.eventhosts.cc/Conferences/CVPR2025/CVPR_main_conf_2025.pdf#page=34">Official Highlight program ↗</a><a href="https://shanehuanghz.github.io/CAPNet/">Project &amp; dataset ↗</a><a href="https://github.com/ShaneHuangHZ/CAPNet">Code &amp; models ↗</a><a href="https://arxiv.org/html/2606.08103v1">SJTU · Subsequent method &amp; evaluation ↗</a></div>
+        </div>
+      </li>
+      <li id="sparsegrasp" class="media-item">
+        <div class="media-meta">2024 preprint<time datetime="2024-12-03">December 3, 2024</time></div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2412.02140">SparseGrasp: Robotic Grasping via 3D Semantic Gaussian Splatting from Sparse Multi-View RGB Images</a></h4>
+          <p><strong>SparseGrasp connects open-vocabulary language grounding to robotic grasping from sparse RGB observations.</strong> DUSt3R initializes a semantic 3D Gaussian scene representation, PCA compresses visual-language features, and a Gaussian-aware grasp model connects the localized target to physical manipulation.</p>
+          <p><strong>Its practical strengths are fewer camera views and efficient reuse of scene geometry.</strong> The paper’s static-scene evaluation reports <strong>55/70 successful grasps from three RGB views</strong>, compared with 38/70 for F3RM and 33/70 for LERF-TOGO from seventeen views. Initial reconstruction takes about four minutes; the render-and-compare pose update for existing objects that move is reported at about <strong>200 ms</strong>. Adding or removing objects requires reinitialization.</p>
+          <p>A 2026 <em>Journal of Image and Graphics</em> survey discusses SparseGrasp’s open-vocabulary querying for long-tail object recognition, placing it among applications that connect semantic 3D perception with robot interaction.</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2412.02140">Research paper ↗</a><a href="https://arxiv.org/pdf/2412.02140">Paper PDF · Method &amp; experiments ↗</a><a href="https://www.cjig.cn/zh/article/doi/10.11834/jig.250582/">Independent survey · Semantic 3D Gaussian splatting ↗</a></div>
         </div>
       </li>
       <li id="tamma" class="media-item">

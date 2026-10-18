@@ -648,6 +648,15 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <div class="recognition-links"><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/static/videos/supp-optimized.mp4">视频 · 实机与仿真演示 ↗</a><a href="https://www.mittrchina.com/news/detail/16139">麻省理工科技评论中文版／DeepTech · 专访 ↗</a><a href="https://arxiv.org/abs/2512.21201">研究论文 ↗</a><a href="https://heyu322.github.io/Schrodinger-Navigator.github.io/">项目主页 ↗</a></div>
         </div>
       </li>
+      <li id="transsoft" class="media-item">
+        <div class="media-meta">IROS 2025<time datetime="2025-10">2025 年 10 月</time></div>
+        <div>
+          <h4><a href="https://tastooger.github.io/TransSoft/">TransSoft：低成本、径向可重构的多模式软体抓取手</a></h4>
+          <p><strong>TransSoft 将软体抓取与径向构型重构结合，适应不同尺寸、形状和材质的物体。</strong>通过调整手指长度与夹爪宽度，同一只手可采用向心、爪式、离心、反爪式、窄钩和宽钩六种模式；真实物体演示展示了多样的抓取与钩取任务。</p>
+          <p><strong>这项工作的实用优势在于将机械结构的适应性与便捷的构建方式结合。</strong>构型调整让同一只手以多种方式与物体建立接触。作者报告，采用现成组件的<strong>机械手原型成本约 200 美元、组装约需三小时</strong>，为低成本具身操作研究提供了实用的硬件思路。</p>
+          <div class="recognition-links"><a href="https://tastooger.github.io/TransSoft/static/videos/IROS25_4459_VI_i.mp4">视频 · 实物抓取演示 ↗</a><a href="https://doi.org/10.1109/IROS60139.2025.11247145">IROS 论文 ↗</a><a href="https://tastooger.github.io/TransSoft/">项目与机械手构型 ↗</a></div>
+        </div>
+      </li>
       <li id="visuo-tactile" class="media-item">
         <div class="media-meta">WAIC 2025 · 复旦大学<time datetime="2025-07-26">2025 年 7 月</time></div>
         <div>
@@ -675,6 +684,16 @@ description: 付彦伟，复旦大学大数据学院教授。研究聚焦有限�
           <p>配套的 <strong>RGBD-Art 数据集</strong> 包含 6.3 万张带部件标注的逼真 RGB-D 图像，并模拟真实传感器噪声。方法与数据共同支持从合成训练迁移到真实机器人操作，以消费级 RGB-D 相机感知关节部件。</p>
           <p><strong>后续上海交通大学研究沿用了其特征提取设计和数据集，并将 CAP-Net 纳入评估基线。</strong> 2026 年的 <em>Revisiting Articulated Parts Perception in Robot Manipulation</em> 采用 CAP-Net 的 SAM2 与 FeatUp 特征流程，在 RGBD-Art 上评测，并在部件感知及真实机器人操作中与 CAP-Net 进行比较。</p>
           <div class="recognition-links"><a href="https://www.youtube.com/watch?v=nmqoce9h0iM">视频 · YouTube ↗</a><a href="https://shanehuanghz.github.io/CAPNet/resources/videos/CVPR2025_highlight.mp4">视频 · 机器人演示 ↗</a><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Huang_CAP-Net_A_Unified_Network_for_6D_Pose_and_Size_Estimation_CVPR_2025_paper.html">CVPR 论文 ↗</a><a href="https://media.eventhosts.cc/Conferences/CVPR2025/CVPR_main_conf_2025.pdf#page=34">官方 Highlight 程序 ↗</a><a href="https://shanehuanghz.github.io/CAPNet/">项目与数据集 ↗</a><a href="https://github.com/ShaneHuangHZ/CAPNet">代码与模型 ↗</a><a href="https://arxiv.org/html/2606.08103v1">上海交大 · 后续方法与评估 ↗</a></div>
+        </div>
+      </li>
+      <li id="sparsegrasp" class="media-item">
+        <div class="media-meta">2024 年预印本<time datetime="2024-12-03">2024 年 12 月 3 日</time></div>
+        <div>
+          <h4><a href="https://arxiv.org/abs/2412.02140">SparseGrasp：稀疏 RGB 视角下的三维语义高斯抓取</a></h4>
+          <p><strong>SparseGrasp 使用稀疏 RGB 观测，将开放词汇语言定位连接到机器人抓取。</strong>方法以 DUSt3R 初始化三维语义高斯场景表示，通过 PCA 压缩视觉语言特征，再由结合高斯特征的抓取模型将目标定位衔接到真实操作。</p>
+          <p><strong>其优点是减少相机视角数量，并高效复用场景几何。</strong>论文的静态场景实验中，<strong>仅用三个 RGB 视角，70 次抓取成功 55 次</strong>；使用十七个视角的 F3RM 和 LERF-TOGO 分别成功 38 次和 33 次。初始重建约需四分钟，已有物体移动后的渲染比较位姿更新约需 <strong>200 毫秒</strong>；新增或移除物体时需要重新初始化。</p>
+          <p>《中国图象图形学报》2026 年综述讨论了 SparseGrasp 通过开放词汇查询识别长尾物体的特点，将其纳入语义三维感知与机器人交互相连接的应用。</p>
+          <div class="recognition-links"><a href="https://arxiv.org/abs/2412.02140">研究论文 ↗</a><a href="https://arxiv.org/pdf/2412.02140">论文 PDF · 方法与实验 ↗</a><a href="https://www.cjig.cn/zh/article/doi/10.11834/jig.250582/">独立综述 · 三维高斯语义扩展 ↗</a></div>
         </div>
       </li>
       <li id="tamma" class="media-item">

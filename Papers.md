@@ -161,7 +161,7 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 
 * Disentangle Identity, Cooperate Emotion: Correlation-Aware Emotional Talking Portrait Generation. Weipeng Tan, Chuming Lin, Chengming Xu, FeiFan Xu, Xiaobin Hu, Xiaozhong Ji, Junwei Zhu, Chengjie Wang, Yanwei Fu. ACM MM 2025
 
-* TransSoft: The Low-Cost, Adaptable, and Radial Reconfigurable Soft Hand for Diverse Object Grasping. Yongchong Gu*, Haitao Lin, Yanwei Fu. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). 2025.
+* TransSoft: The Low-Cost, Adaptable, and Radial Reconfigurable Soft Hand for Diverse Object Grasping. Yongchong Gu*, Haitao Lin, Yanwei Fu. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). 2025. [Paper](https://doi.org/10.1109/IROS60139.2025.11247145) · [Project & demonstrations](https://tastooger.github.io/TransSoft/)
 
 * Sequential Multi-Object Grasping with One Dexterous Hand. Sicheng He, Zeyu Shangguan, Kuanning Wang, Yongchong Gu, Yuqian Fu, Yanwei Fu, Daniel Seita.  IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2025
 
@@ -188,6 +188,8 @@ Presentation types are marked as **Oral**, **Spotlight**, or **Highlight**. Link
 * DecoFuse: Decomposing and Fusing the "What", "Where", and "How" for Brain-Inspired fMRI-to-Video Decoding. Chong Li, Jingyang Huo, Weikang Gong, Yanwei Fu, Xiangyang Xue, Jianfeng Feng. arXiv 2025. [Paper](https://arxiv.org/abs/2504.00432) · [Project & reconstructions](https://chongjg.github.io/DecoFuse/)
 
 ## 2024
+
+* SparseGrasp: Robotic Grasping via 3D Semantic Gaussian Splatting from Sparse Multi-View RGB Images. Junqiu Yu, Xinlin Ren, Yongchong Gu, Haitao Lin, Tianyu Wang, Yi Zhu, Hang Xu, Yu-Gang Jiang, Xiangyang Xue, Yanwei Fu. arXiv preprint, December 2024. [Paper](https://arxiv.org/abs/2412.02140)
 
 * Repositioning the Subject within Image. Yikai Wang, Chenjie Cao, Ke Fan, Qiaole Dong, Yifan Li, Xiangyang Xue, Yanwei Fu. TMLR, November 2024. <span class="award-tag">Journal-to-Conference (J2C) Certification · October 2025</span> <a class="presentation-tag" href="https://icml.cc/virtual/2026/poster/68784">ICML 2026 Poster · Journal-to-Conference Track</a> [Paper](https://openreview.net/forum?id=orHH4fCtR8) · [Official TMLR certification record](https://jmlr.org/tmlr/papers/) · [Project, data & code](https://yikai-wang.github.io/seele/)
 
