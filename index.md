@@ -36,7 +36,7 @@ image: /assets/images/yanwei-fu.png
     <li class="honor-item">
       <span class="honor-year">2023</span>
       <div>
-        <p class="honor-label">State Natural Science Award, Second Class <span>China</span></p>
+        <p class="honor-label">National Natural Science Award, Second Class <span>China</span></p>
         <p class="honor-title" lang="zh-CN">多元协同的视觉计算理论与方法</p>
         <p class="honor-credit">Team award · Fourth contributor · 2023 award year, announced in 2024</p>
         <a class="honor-source" href="https://news.fudan.edu.cn/2024/0624/c4a141416/page.htm">Fudan University announcement ↗</a>
